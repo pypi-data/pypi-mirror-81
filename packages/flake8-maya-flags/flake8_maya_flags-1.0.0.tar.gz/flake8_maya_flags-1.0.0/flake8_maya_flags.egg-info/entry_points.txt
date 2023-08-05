@@ -1,0 +1,3 @@
+[flake8.extension]
+MAF = flake8_maya_flags:Plugin
+

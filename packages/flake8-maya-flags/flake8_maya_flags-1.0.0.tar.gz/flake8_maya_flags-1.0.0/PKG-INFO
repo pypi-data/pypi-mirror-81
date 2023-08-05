@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: flake8_maya_flags
+Version: 1.0.0
+Summary: Flake8 plugin to warn when using short names flags with Maya commands
+Home-page: https://gitlab.com/BenoitGielly/flake8-maya
+Author: Benoit GIELLY
+Author-email: benoit.gielly@gmail.com
+License: MIT
+Download-URL: https://gitlab.com/BenoitGielly/flake8-maya/-/archive/1.0.0/flake8-maya-1.0.0.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Framework :: Flake8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Quality Assurance

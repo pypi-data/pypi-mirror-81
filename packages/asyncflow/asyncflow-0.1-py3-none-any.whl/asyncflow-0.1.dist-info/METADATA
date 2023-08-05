@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: asyncflow
+Version: 0.1
+Summary: Concurrency made easy
+Home-page: https://github.com/jacobunna/asyncflow
+Author: Jacob Unna
+Author-email: jacob.unna@gmail.com
+License: MIT
+Keywords: concurrency thread async asyncio curio trio parallelism
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Natural Language :: English 
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: sphinx (<4,>=3) ; extra == 'dev'
+Requires-Dist: curio ; extra == 'dev'
+Requires-Dist: trio ; extra == 'dev'
+
+AsyncFlow
+=========
+
+Concurrency made easy.
+
+.. image:: https://readthedocs.org/projects/asyncflow/badge/?version=latest
+    :target: https://asyncflow.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
+
+Installation
+------------
+
+Install with pip:
+
+.. code-block:: text
+
+    pip install asyncflow
+
+Links
+-----
+
+* Documentation: https://asyncflow.readthedocs.io/
+* Releases: https://pypi.org/project/asyncflow
+* Code: https://github.com/jacobunna/asyncflow
+* Issue tracker: https://github.com/jacobunna/asyncflow/issues
+
+

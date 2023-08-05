@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: csvtype
+Version: 0.0.2
+Summary: A C++ library with py bindings for regex based detection of csv col types.
+Home-page: https://github.com/riccardo92/csvtype
+Author: R. Tiebax
+Author-email: riccardo.t@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+
+UNKNOWN
+
+

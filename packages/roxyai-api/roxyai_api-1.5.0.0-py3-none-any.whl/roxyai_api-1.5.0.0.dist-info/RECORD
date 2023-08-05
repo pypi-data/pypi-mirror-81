@@ -1,0 +1,15 @@
+roxyai_api/__init__.py,sha256=6cxqBcCebQGuGVSfvaBg1IVq0AdmE04-jZr94wmbyXk,1009
+roxyai_api/com_base.py,sha256=FiOQgx7qLlD6DcHMQ-0nwRiGY2HNRClztuXayF53gCo,9251
+roxyai_api/com_definition.py,sha256=sZw9MWw3MiEiiKvREmC77Px7RQvCqabOgfsV69Kuq-Q,5883
+roxyai_api/com_echo.py,sha256=IEW4Jm6AUxYzyK2IVt8En5NYRQL0CI9Ml2RpdqW6keY,1123
+roxyai_api/com_get_image.py,sha256=bj_S6bGcID4ZjaN_i2_DVTAtSB_BWmKflKYboObN0aA,1779
+roxyai_api/com_get_probabilities.py,sha256=5_oNwV7PMYO_xiRMFLYwW_YluqmQpJ97Zf5Mc0S4D4k,2138
+roxyai_api/com_initialize.py,sha256=rsrXB9NaTLOa_sc7gj-iAH-WmvcZqc6j23_iP2-5Qjs,2716
+roxyai_api/com_inspect.py,sha256=R5zWjH2pOdT6_-lWVA7bLDPjrndYEV23zvQa_IKRlpA,7038
+roxyai_api/com_terminate.py,sha256=RcFV1pmY-ze0N_AldsccX6oiHNvO0iiGNuHA_9A1Gl4,494
+roxyai_api/connection.py,sha256=JUPbXP3vSwMysPzMwXyl-32Iqz9Cr-QwnoZy6_RX-ZU,5611
+roxyai_api/inspect_image.py,sha256=1JZ_lFDguMGdjkLDh0YheoVdFWNUpOUNBsQawKAMt3k,8799
+roxyai_api-1.5.0.0.dist-info/METADATA,sha256=tM38ZSSW6kfk-j1-C1sU5YhZFk_4uiZnIYOUCJTh1Pc,676
+roxyai_api-1.5.0.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+roxyai_api-1.5.0.0.dist-info/top_level.txt,sha256=SkbaQ41V62glxQleV_RKVGur0l4OtKDYIJiFxcy5oCQ,11
+roxyai_api-1.5.0.0.dist-info/RECORD,,

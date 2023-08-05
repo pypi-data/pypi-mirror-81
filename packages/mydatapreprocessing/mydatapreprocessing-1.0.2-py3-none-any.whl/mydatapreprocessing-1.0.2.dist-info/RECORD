@@ -1,0 +1,12 @@
+mydatapreprocessing/__init__.py,sha256=k148YLHY2f5dzk2xGI3l6KCWBvcesipcdPLex3e1sy4,290
+mydatapreprocessing/generatedata.py,sha256=BTNtBbYa0DXGlSO9lyMTLJQCFWxCf80UomySVpqkOds,1130
+mydatapreprocessing/inputs.py,sha256=4dvWDnVEWorSLlIQ5l19lZZnxPjE8qfI0L6jBdRftYY,6318
+mydatapreprocessing/preprocessing.py,sha256=I97VnoWbm9N7FhRGDveejoObwbs2fr-vnGM9rRHZ4p4,33869
+tests/__init__.py,sha256=SbDO9NM4Kjz0HSSckUq5BJBjJfU9u8viV8lIBHzeIXo,45
+tests/test_it.py,sha256=A6R3DxnRpAHdGv8pCq_uN99-c-1BrbklUgRcmgQ_aa4,4132
+tests/visual.py,sha256=rML706d6eqMVS2DjZsnlxCdgKmK0UeMlqOQlYNqHmHo,5002
+mydatapreprocessing-1.0.2.dist-info/LICENSE,sha256=gMYGTpkzlrX26XQPSteB6XGEdWvkpS3ShTesrJlQfaQ,1072
+mydatapreprocessing-1.0.2.dist-info/METADATA,sha256=RwbBsytK8aeciVnDaPWqHa_pEmwkvf5j1Z53BhRD9KU,4733
+mydatapreprocessing-1.0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+mydatapreprocessing-1.0.2.dist-info/top_level.txt,sha256=zSvVgE1nG340vUzUBC6K3VBZz1mqWtqU2O3tcA8_eL8,26
+mydatapreprocessing-1.0.2.dist-info/RECORD,,

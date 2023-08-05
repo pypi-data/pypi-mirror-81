@@ -1,0 +1,6 @@
+delimited2fixedwidth==1.0.7
+et-xmlfile==1.0.1
+jdcal==1.4.1
+
+[:python_version >= "3.6"]
+openpyxl==3.0.5

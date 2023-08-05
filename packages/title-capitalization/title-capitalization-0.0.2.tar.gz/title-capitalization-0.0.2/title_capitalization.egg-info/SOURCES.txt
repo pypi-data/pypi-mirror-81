@@ -1,0 +1,8 @@
+README.md
+setup.py
+title_capitalization.egg-info/PKG-INFO
+title_capitalization.egg-info/SOURCES.txt
+title_capitalization.egg-info/dependency_links.txt
+title_capitalization.egg-info/top_level.txt
+titlecap/__init__.py
+titlecap/main.py

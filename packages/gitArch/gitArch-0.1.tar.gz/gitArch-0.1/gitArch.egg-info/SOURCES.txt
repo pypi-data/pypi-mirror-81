@@ -1,0 +1,11 @@
+README.md
+setup.py
+gitArch/__init__.py
+gitArch/arch.py
+gitArch/defaults.py
+gitArch/git.py
+gitArch/tools.py
+gitArch.egg-info/PKG-INFO
+gitArch.egg-info/SOURCES.txt
+gitArch.egg-info/dependency_links.txt
+gitArch.egg-info/top_level.txt

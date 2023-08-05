@@ -1,0 +1,16 @@
+README.md
+setup.py
+src/genius4/__init__.py
+src/genius4/contrib/__init__.py
+src/genius4/contrib/ibm_object_storage_persistor.py
+src/genius4/magic/__init__.py
+src/genius4/magic/analytic_engine_client.py
+src/genius4/magic/functions.py
+src/genius4/sdk/__init__.py
+src/genius4/sdk/ae_client.py
+src/ibmaemagic.egg-info/PKG-INFO
+src/ibmaemagic.egg-info/SOURCES.txt
+src/ibmaemagic.egg-info/dependency_links.txt
+src/ibmaemagic.egg-info/requires.txt
+src/ibmaemagic.egg-info/top_level.txt
+src/ibmaemagic.egg-info/zip-safe

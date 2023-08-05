@@ -1,0 +1,7 @@
+recursive-include emc2 *.dat
+recursive-include doc *
+recursive-include emc2 *.nc
+include LICENSE
+include README.rst
+include requirements.txt
+

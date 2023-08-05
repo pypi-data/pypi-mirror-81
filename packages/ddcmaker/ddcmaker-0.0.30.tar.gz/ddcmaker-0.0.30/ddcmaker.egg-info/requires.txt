@@ -1,0 +1,7 @@
+bottle
+marshmallow
+pyserial
+numpy
+requests
+tornado
+pigpio

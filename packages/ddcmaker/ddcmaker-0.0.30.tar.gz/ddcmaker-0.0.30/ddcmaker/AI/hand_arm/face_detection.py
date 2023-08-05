@@ -1,0 +1,224 @@
+import re
+import sys
+import threading
+import time
+
+import cv2
+import dlib
+
+from . import LeArm
+
+Deviation = (1500, 1500, 1500, 1400, 1500, 1460)
+get_face = False
+reset = False
+debug = True
+stream = "http://127.0.0.1:8080/?action=stream?dummy=param.mjpg"
+orgFrame = None
+orgframe = None
+stop = False
+get_image_ok = False
+rz = 60
+ori_width = int(rz * 4)  # 原始图像640x480
+ori_height = int(rz * 3)
+count_down_time = 30
+count_down_time_flag = count_down_time
+cap = cv2.VideoCapture(stream)
+
+
+def get_image():
+    global get_image_ok, orgframe, cap, orgFrame
+    global ori_width, ori_height, stream
+    while True:
+        try:
+            if cap.isOpened():
+                ret, orgFrame = cap.read()
+                if ret:
+                    org = cv2.resize(orgFrame, (ori_width, ori_height), interpolation=cv2.INTER_CUBIC)
+                    orgframe = cv2.flip(org, 0)
+                    if rpi == 3:
+                        FaceDetection(orgframe, 80, 60)
+                    elif rpi == 4:
+                        Face_Detection(orgframe)
+                else:
+                    time.sleep(0.01)
+            else:
+                time.sleep(0.01)
+        except:
+            cap = cv2.VideoCapture(stream)
+            print('Restart Camera Successful!')
+
+
+th1 = threading.Thread(target=get_image)
+th1.setDaemon(True)
+th1.start()
+
+# 偏差
+if not len(Deviation) == 6:
+    print("偏差数量错误")
+    sys.exit()
+else:
+    d = []
+    for i in range(0, len(Deviation), 1):
+        if Deviation[i] > 1800 or Deviation[i] < 1200:
+            print("偏差值超出范围1200-1800")
+            sys.exit()
+        else:
+            d.append(Deviation[i] - 1500)
+
+LeArm.initLeArm(tuple(d))
+
+
+# 映射函数
+def leMap(x, in_min, in_max, out_min, out_max):
+    return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min
+
+
+def picture_box(x, y, w, h, resize_w, resize_h):
+    global ori_width
+    global ori_height
+
+    x = int(leMap(x, 0, resize_w, 0, ori_width))
+    y = int(leMap(y, 0, resize_h, 0, ori_height))
+    w = int(leMap(w, 0, resize_w, 0, ori_width))
+    h = int(leMap(h, 0, resize_h, 0, ori_height))
+    return x, y, w, h
+
+
+def get_cpu_mode():
+    f_cpu_info = open("/proc/cpuinfo")
+    for i in f_cpu_info:
+        if re.search('Model', i):
+            mode = re.findall('\d+', i)[0]
+            break
+    return mode
+
+
+rpi = int(get_cpu_mode())
+count2 = 0
+detector = dlib.get_frontal_face_detector()  # 获取人脸分类器
+
+
+def Face_Detection(frame):
+    global get_face, count2
+
+    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    dets = detector(gray)  # 使用detector进行人脸检测 dets为返回的结果
+
+    if len(dets) > 0:
+        count2 += 1
+        for face in dets:
+            cv2.rectangle(orgframe, (face.left(), face.top()), (face.right(), face.bottom()), (0, 255, 0), 2)
+
+    if count2 >= 5:
+        count2 = 0
+        get_face = True
+
+
+face_cascade = cv2.CascadeClassifier('/home/pi/Hand_Arm_Pi/opencv/haarcascades/haarcascade_frontalface_default.xml')
+# 这个只有右侧脸数据，通过图片翻转获得左侧脸
+side_face_cascade = cv2.CascadeClassifier('/home/pi/Hand_Arm_Pi/opencv/haarcascades/haarcascade_profileface.xml')  # 侧脸
+
+
+def FaceDetection(frame, rw=120, rh=90):
+    global get_face, count2, orgframe
+    global face_cascade, side_face_cascade
+    global rpi
+
+    frame = cv2.flip(frame, 0)
+    frame = cv2.resize(frame, (rw, rh), interpolation=cv2.INTER_CUBIC)
+    left_frame = cv2.flip(frame, 1)
+    img_h, img_w = frame.shape[:2]
+    # 获取图像中心点坐标x, y
+    img_center_x = img_w / 2
+    img_center_y = img_h / 2
+
+    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    left_gray = cv2.cvtColor(left_frame, cv2.COLOR_BGR2GRAY)  # 左侧脸
+
+    faces = face_cascade.detectMultiScale(gray, 1.5, 5)  # 正脸
+    r_side_face = side_face_cascade.detectMultiScale(gray, 1.5, 5)  # 右脸
+    l_side_face = side_face_cascade.detectMultiScale(left_gray, 1.5, 5)  # 左脸
+    if len(faces):
+        for x, y, h, w in faces:
+            x, y, h, w = picture_box(x, y, h, w, rw, rh)
+            cv2.rectangle(orgframe, (x, y), (x + w, y + h), (200, 255, 0), 2)
+    elif len(r_side_face):
+        for x, y, h, w in r_side_face:
+            x, y, h, w = picture_box(x, y, h, w, rw, rh)
+            cv2.rectangle(orgframe, (x, y), (x + w, y + h), (0, 255, 0), 2)
+    elif len(l_side_face):
+        for x, y, h, w in l_side_face:
+            x, y, h, w = picture_box(x, y, h, w, rw, rh)
+            cv2.rectangle(orgframe, (img_w - x - w, y), (img_w - x, y + h), (200, 0, 0), 2)
+    if len(faces) >= 1 or len(l_side_face) >= 1 or len(r_side_face) >= 1:
+        count2 += 1
+    else:
+        count2 = 0
+
+    if count2 >= 5:
+        count2 = 0
+        get_face = True
+
+
+def run_action():
+    global get_face
+    global reset
+
+    while True:
+        if reset:
+            reset = False
+            LeArm.runActionGroup('0_0', 1)
+        if get_face:
+            get_face = False
+            print("检测到人脸")
+            LeArm.runActionGroup('hello', 1)
+        else:
+            time.sleep(0.01)
+
+
+th2 = threading.Thread(target=run_action)
+th2.setDaemon(True)
+th2.start()
+
+
+def count_down():
+    global count_down_time
+    """倒计时"""
+    while True:
+        time.sleep(1)
+        count_down_time -= 1
+        if count_down_time == 0:
+            break
+
+
+th3 = threading.Thread(target=count_down)
+th3.setDaemon(True)
+th3.start()
+
+
+def get_face_detection():
+    global orgframe, count_down_time, count_down_time_flag
+    while True:
+        if count_down_time == 0:
+            print(f"程序终止，系统默认时间为{count_down_time_flag}s")
+            return
+        try:
+            t1 = cv2.getTickCount()
+            cv2.putText(orgframe, "Mode: FaceDetection",
+                        (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 0, 255), 2)  # (0, 0, 255)BGR
+            t2 = cv2.getTickCount()
+            time_r = (t2 - t1) / cv2.getTickFrequency()
+            fps = 1.0 / time_r
+            if debug:
+                # 参数：图片, 起点, 终点, 颜色, 粗细
+                # 画屏幕中心十字
+                cv2.line(orgframe, (int(ori_width / 2) - 20, int(ori_height / 2)),
+                         (int(ori_width / 2) + 20, int(ori_height / 2)), (255, 255, 0), 1)
+                cv2.line(orgframe, (int(ori_width / 2), int(ori_height / 2) - 20),
+                         (int(ori_width / 2), int(ori_height / 2) + 20), (255, 255, 0), 1)
+                cv2.putText(orgframe, "fps:" + str(int(fps)),
+                            (10, orgframe.shape[0] - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 0, 255),
+                            2)  # (0, 0, 255)BGR
+                cv2.waitKey(1)
+        except:
+            pass

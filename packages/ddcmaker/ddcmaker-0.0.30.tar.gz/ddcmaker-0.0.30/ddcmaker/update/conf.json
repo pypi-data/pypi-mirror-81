@@ -1,0 +1,36 @@
+{
+  "origins": [
+    {
+      "name": "pypi",
+      "url": "https://pypi.org/simple"
+    },
+    {
+      "name": "tsinghua",
+      "url": "https://pypi.tuna.tsinghua.edu.cn/simple"
+    },
+    {
+      "name": "aliyun",
+      "url": "https://mirrors.aliyun.com/pypi/simple/"
+    },
+    {
+      "name": "ustc",
+      "url": "https://pypi.mirrors.ustc.edu.cn/simple/"
+    },
+    {
+      "name": "douban",
+      "url": "https://pypi.douban.com/simple/"
+    },
+    {
+      "name": "sdutlinux",
+      "url": "https://pypi.sdutlinux.org/"
+    }
+  ],
+  "features": [
+    {
+      "name": "ActionGroups",
+      "url": "https://python-1255999742.file.myqcloud.com/ActionGroups/2020/ActionGroups_20200116095442.zip",
+      "save_dir": "/home/pi/human_code/",
+      "temp_dir": "/home/pi/feature_temp/"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+include LICENSE.txt
+include describe.md
+include config_file/start_file/*
+recursive-include ddcmaker *.so
+prune ddcmaker/linux/ignore *.py
+recursive-include ddcmaker *.json

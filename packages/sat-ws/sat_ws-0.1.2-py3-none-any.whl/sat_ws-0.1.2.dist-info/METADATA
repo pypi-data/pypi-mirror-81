@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sat-ws
+Version: 0.1.2
+Summary: API to connect with SAT ws
+Home-page: https://gitlab.com/HomebrewSoft/sat_ws_api
+Author: Moisés Navarro
+Author-email: moisalejandro@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# SAT WS API
+
+

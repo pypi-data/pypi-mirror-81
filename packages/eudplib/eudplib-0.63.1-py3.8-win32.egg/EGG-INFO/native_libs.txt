@@ -1,0 +1,9 @@
+eudplib/core/allocator/constexpr.cp38-win32.pyd
+eudplib/core/allocator/pbuffer.cp38-win32.pyd
+eudplib/core/allocator/rlocint.cp38-win32.pyd
+eudplib/core/mapdata/StormLib32.dll
+eudplib/core/mapdata/StormLib64.dll
+eudplib/core/variable/vbuf.cp38-win32.pyd
+eudplib/epscript/libepScriptLib.dll
+eudplib/epscript/libepScriptLib.dylib
+eudplib/utils/stackobjs.cp38-win32.pyd

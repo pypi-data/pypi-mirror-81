@@ -1,0 +1,3 @@
+[console_scripts]
+streamchecker = streamchecker.cli:main
+

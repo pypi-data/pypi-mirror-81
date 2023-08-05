@@ -1,0 +1,13 @@
+README.md
+setup.py
+streamchecker/__init__.py
+streamchecker/cli.py
+streamchecker/constants.py
+streamchecker/fileoperator.py
+streamchecker/streamchecker.py
+streamchecker/twitch.py
+streamchecker.egg-info/PKG-INFO
+streamchecker.egg-info/SOURCES.txt
+streamchecker.egg-info/dependency_links.txt
+streamchecker.egg-info/entry_points.txt
+streamchecker.egg-info/top_level.txt

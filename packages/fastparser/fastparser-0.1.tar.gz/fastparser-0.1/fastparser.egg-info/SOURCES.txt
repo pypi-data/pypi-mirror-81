@@ -1,0 +1,11 @@
+README.md
+setup.py
+fastparse/__init__.py
+fastparse/base_parser.py
+fastparse/utilities.py
+fastparser.egg-info/PKG-INFO
+fastparser.egg-info/SOURCES.txt
+fastparser.egg-info/dependency_links.txt
+fastparser.egg-info/top_level.txt
+tests/__init__.py
+tests/test_baseparser.py

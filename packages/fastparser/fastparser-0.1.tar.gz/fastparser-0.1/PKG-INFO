@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: fastparser
+Version: 0.1
+Summary: A HTML Parser with some handy Utilities
+Home-page: https://github.com/Thewildweb/fastparser
+Author: Erik Meijer
+Author-email: erik@thewildweb.nl
+License: UNKNOWN
+Description: todo: create readme ;)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6

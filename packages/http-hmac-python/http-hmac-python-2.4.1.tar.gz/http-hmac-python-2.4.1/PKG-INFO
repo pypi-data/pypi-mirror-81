@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: http-hmac-python
+Version: 2.4.1
+Summary: An implementation of the Acquia HTTP HMAC Spec (https://github.com/acquia/http-hmac-spec) in Python.
+Home-page: https://github.com/baliame/http-hmac-python
+Author: Baliame
+Author-email: akos.toth@cheppers.com
+License: MIT
+Description: An implementation of the Acquia HTTP HMAC Spec (https://github.com/acquia/http-hmac-spec) in Python.
+Keywords: hmac development library
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Provides-Extra: test

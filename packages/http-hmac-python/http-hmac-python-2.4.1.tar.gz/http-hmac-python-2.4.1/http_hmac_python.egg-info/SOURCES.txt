@@ -1,0 +1,16 @@
+DESCRIPTION.rst
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+http_hmac_python.egg-info/PKG-INFO
+http_hmac_python.egg-info/SOURCES.txt
+http_hmac_python.egg-info/dependency_links.txt
+http_hmac_python.egg-info/requires.txt
+http_hmac_python.egg-info/top_level.txt
+httphmac/__init__.py
+httphmac/base_signer.py
+httphmac/compat.py
+httphmac/request.py
+httphmac/v1.py
+httphmac/v2.py

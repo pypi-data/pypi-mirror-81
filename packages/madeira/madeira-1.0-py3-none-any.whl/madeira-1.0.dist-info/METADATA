@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: madeira
+Version: 1.0
+Summary: Common AWS operation wrappers
+Home-page: https://github.com/mxmader/madeira
+Author: Joe Mader
+Author-email: jmader@jmader.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: boto3
+Requires-Dist: psycopg2-binary
+
+# Madeira
+
+This is a python package which provides wrapper classes for 
+Amazon Web Servces (AWS) python deployment SDK (boto3).
+

@@ -1,0 +1,10 @@
+snakeshell/Code.py,sha256=u7nEG27sv4pSAT_jGjr7pU9t-C05FCcWn1UCelJbNwo,1441
+snakeshell/Command.py,sha256=cJYgTCMFC18gMjFIJr1or0XIpvhQhG0PgjPbLW_aybo,55
+snakeshell/FunCommands.py,sha256=PqCCiQe0Yc8wZK24pDCT02r6beZMl_Fo0ef6YXV9-NI,1236
+snakeshell/Package.py,sha256=dbghgyEUc1XEzP0AVjB-ExhfnkyISplatf4n4qfWHSE,12904
+snakeshell/__init__.py,sha256=HLKqft8y4fbE7AciE1U7sK-YEGL883ciWdA2vty6eVk,112
+snakeshell/test_Package.py,sha256=qXmBUGbv_5nVGwQGLjEnpAP6wmaXZ0mHpq-GlHgMDaQ,47
+SnakeShell-0.0.0.4b0.dist-info/METADATA,sha256=FJgipW6HsX1xuv09iO6IYTlqQ2poS-FmYW1VfqgnPo8,433
+SnakeShell-0.0.0.4b0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+SnakeShell-0.0.0.4b0.dist-info/top_level.txt,sha256=MhtVDnVBWS9hN2vQdkDYY6z4bVPdkrSr_WIL_kGG1B8,11
+SnakeShell-0.0.0.4b0.dist-info/RECORD,,

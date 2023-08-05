@@ -1,0 +1,12 @@
+openhsi/__init__.py,sha256=QiiYsv0kcJaB8wCWyT-FnI2b6be87HA-CrrIUn8LQhg,22
+openhsi/_nbdev.py,sha256=HooCLyvGNMxiDmabAqU9Bi8nkrdyVzK8Uv06Roy4npY,543
+openhsi/calibrate.py,sha256=3W_N8Z4736n6fqHjgAIakUxa_-J6WndAOQWlg9XhTwI,4725
+openhsi/capture.py,sha256=Rracw2xG_cd-Sb46YC57XpQKeN4Q2I2qy9_pfq6gjxc,3550
+openhsi/convert.py,sha256=PeaU2PyK123OZ2zkhTtPbwHXZrG9pLxBVpKcpDcAOu8,377
+openhsi/core.py,sha256=PeaU2PyK123OZ2zkhTtPbwHXZrG9pLxBVpKcpDcAOu8,377
+openhsi-0.0.6.dist-info/LICENSE,sha256=Yd8P2LM-VpxcQw7GvfeMCGeyplAxNH8_-ryIEEoaCG8,13137
+openhsi-0.0.6.dist-info/METADATA,sha256=Ky1mF4wu1DZxFy39kDJV9gO6IdVbDFUKF-eAdX9JZ_k,3268
+openhsi-0.0.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+openhsi-0.0.6.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+openhsi-0.0.6.dist-info/top_level.txt,sha256=bxTmti2M2fWbJXbEnzikbyNJl42I1OKuEiNQPshzl7g,8
+openhsi-0.0.6.dist-info/RECORD,,

@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+urigui/__init__.py
+urigui/__main__.py
+urigui/lib.py
+urigui/live.py
+urigui/uricli.py
+urigui.egg-info/PKG-INFO
+urigui.egg-info/SOURCES.txt
+urigui.egg-info/dependency_links.txt
+urigui.egg-info/entry_points.txt
+urigui.egg-info/requires.txt
+urigui.egg-info/top_level.txt

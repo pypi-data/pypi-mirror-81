@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: treeprinter-le99
+Version: 0.0.2
+Summary: Printing a binary tree, based inspired by a solution by michal.kreuzman's solution: https://stackoverflow.com/questions/4965335/how-to-print-binary-tree-diagram
+Home-page: https://github.com/le99/treeprinter
+Author: le99
+Author-email: le.florez602@uniandes.edu.co
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# treeprinter
+
+A binary tree printer, inspired by michal.kreuzman's solution in java:
+https://stackoverflow.com/questions/4965335/how-to-print-binary-tree-diagram
+

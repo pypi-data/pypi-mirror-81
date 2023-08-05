@@ -1,0 +1,1 @@
+pygatt[gatttool]==4.0.5

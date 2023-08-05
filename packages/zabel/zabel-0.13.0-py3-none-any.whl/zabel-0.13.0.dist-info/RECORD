@@ -1,0 +1,13 @@
+zabel/core/__init__.py,sha256=hwqBXYPjDnVHvEGWloo0flE4ce_nviH4Gn7yMx_2Ke0,4307
+zabel/core/storage.py,sha256=JXehz5BN3M56fyFeXofxeG_RCjrkjrNrkRJzXWIHnKU,10696
+zabel/core/accounts/__init__.py,sha256=DXSGMdvOmh67mSr4N9eX4OHMVzrqt0c3Qq7GEP-tbtw,1985
+zabel/core/manifests/bootstrap.yaml,sha256=Du9NcPIn0yspSf7eJTvW11UxVYMwm_RpEi56ye8KjO8,2514
+zabel/core/projects/__init__.py,sha256=Z7SmISvNnFS-O8oJ3quqLaDsHhg29VB8mYSbZxFFuvY,799
+zabel/core/projects/domainprovidermpd.py,sha256=UDVPo7czBQUsbwt570SSfkDMcVC4Q0RYUD8I2Rsk7jg,24313
+zabel/core/projects/mpdmanager.py,sha256=fRamCXZWKuRuPAr0tAleXmVHqhTFcWUJtIZQ7gpHQUk,5787
+zabel/core/services/__init__.py,sha256=GMUM7Qx668B2AmgbIKTt9WKCgseLMl2QHWLMd5sXOBM,19859
+zabel-0.13.0.dist-info/LICENSE.txt,sha256=bDkGfTup1HnHpyVtgn2N5sZUHHhux3olwawM3_ijDiM,14474
+zabel-0.13.0.dist-info/METADATA,sha256=UXtF8g7t3RD_An2ymorojs0agaV-HNTrcGZvVCYQYe4,4385
+zabel-0.13.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+zabel-0.13.0.dist-info/top_level.txt,sha256=oVMEeX4nyZlbHDW9DbWu8tqH1vmQZO2Yw8C29D3tToo,6
+zabel-0.13.0.dist-info/RECORD,,

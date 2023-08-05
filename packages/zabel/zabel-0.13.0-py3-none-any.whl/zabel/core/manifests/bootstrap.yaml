@@ -1,0 +1,131 @@
+---
+kind: Role
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: zabel-operation-management
+rules:
+- apiGroups: ["stable.zabel"]
+  resources: ["managedprojects"]
+  verbs: ["create","get","list","patch","update","watch"]
+
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: tpm
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: zabel-operation-management
+subjects:
+- kind: ServiceAccount
+  name: zabel-operator
+  namespace: engie
+
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: zabel-operator
+
+---
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  name: realms.stable.zabel
+spec:
+  group: stable.zabel
+  versions:
+    - name: v1
+      served: true
+      storage: true
+  scope: Namespaced
+  names:
+    plural: realms
+    singular: realm
+    kind: Realm
+
+---
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  name: domains.stable.zabel
+spec:
+  group: stable.zabel
+  versions:
+    - name: v1
+      served: true
+      storage: true
+  scope: Namespaced
+  names:
+    plural: domains
+    singular: domain
+    kind: Domain
+
+---
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  name: platforms.stable.zabel
+spec:
+  group: stable.zabel
+  versions:
+    - name: v1
+      served: true
+      storage: true
+  scope: Namespaced
+  names:
+    plural: platforms
+    singular: platform
+    kind: Platform
+
+---
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  name: managedservice.stable.zabel
+spec:
+  group: stable.zabel
+  versions:
+    - name: v1
+      served: true
+      storage: true
+  scope: Namespaced
+  names:
+    plural: managedservices
+    singular: managedservice
+    kind: ManagedService
+
+---
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  name: utilities.stable.zabel
+spec:
+  group: stable.zabel
+  versions:
+    - name: v1
+      served: true
+      storage: true
+  scope: Namespaced
+  names:
+    plural: utilities
+    singular: utility
+    kind: Utility
+
+---
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  name: managedproject.stable.zabel
+spec:
+  group: stable.zabel
+  versions:
+    - name: v1
+      served: true
+      storage: true
+  scope: Namespaced
+  names:
+    plural: managedprojects
+    singular: managedproject
+    kind: ManagedProject

@@ -1,0 +1,146 @@
+Metadata-Version: 2.1
+Name: zabel
+Version: 0.13.0
+Summary: Zabel
+Home-page: https://github.com/engie-group/zabel
+Author: Martin Lafaix
+Author-email: martin.lafaix@external.engie.com
+License: Eclipse Public License 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Eclipse Public License 2.0 (EPL-2.0)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >= 3.6.5
+Description-Content-Type: text/markdown
+Requires-Dist: requests (>=2.23)
+Requires-Dist: zabel-commons (>=1.4.0)
+Requires-Dist: zabel-fabric (>=0.16.1)
+
+# Zabel
+
+## Overview
+
+_Projects_, in the sense of a group of people working together over a period of
+time and intending to achieve a particular purpose, are started every day, exist
+everywhere.
+
+Initiating those projects, if they rely on some sort of software infrastructure,
+can be a tedious job.  Configuring the necessary tools, creating the necessary
+resources, links, permissions, accesses and so on is time consuming and error prone.
+
+Projects evolve over time, too.  New needs may arise, new tools may be added, old
+tools may be removed or replaced.  The group of people may shrink or grow.  And
+maybe we pay per seat for some of those tools.
+
+So, how do we manage those things?
+
+Zabel introduces the notion of _managed project definitions_, which are
+text files (YAML or JSON documents) that describe projects scaffoldings.
+They can be kept in a version control system.
+
+### Managed Project Definitions
+
+There is one managed project definition per project, and it can evolve over time.
+
+A managed project definition has at least a name:
+
+```yaml
+apiVersion: zabel/v1
+kind: ManagedProject
+metadata:
+  name: Project42
+```
+
+This can be enough if all your projects have the same layout, with, say, a source
+code repository, a set of pipelines on your CI/CD toolchain, and some
+documentation space.
+
+Zabel will use this managed project definition to create the necessary resources and
+configure them.
+
+In most contexts, though, not all projects have the same layout, and you may have
+to manage user accesses and license seats.
+
+So, a more common managed project definition may look like the following:
+
+```yaml
+apiVersion: zabel/v1
+kind: ManagedProject
+metadata:
+  name: MyLittlePony
+  labels:
+    Entity: ACME
+    Department:
+spec:
+  globals:
+    admins: [robert]
+    users: [alice, bob]
+    readers: [eve]
+  sources:
+  - name: Stable
+    users: [carol, david]
+  - name: Corral
+    users: [carol]
+  teams:
+  - name: Grooming
+    admins: [alice]
+    users: [david]
+    options:
+    - sonarqube:qualityprofile=css
+    repositories:
+    - technology: docker
+      options: []
+      remotes: []
+    - technology: pypi
+      options: []
+      remotes: []
+  spaces:
+  - name: ABC
+    options:
+    - tracker=PONY
+  testbooks: []
+  trackers:
+  - name: PONY
+    admins: [bob]
+    readers: [carol]
+```
+
+In the above example, we have three levels of access (`admins`, `users`, and `readers`),
+and the project will have associated resources in a set of _domains_ (`sources`, `teams`,
+`spaces`, `testbooks`, and `trackers`).
+
+Access rights can be specified at project level and refined on domains.
+
+Domains are representing tool(s).  For example, `sources` may be a GitHub or GitLab
+instance, `teams` may be an Artifactory+Jenkins+SonarQube toolchain, and
+`spaces` could be a Confluence server.
+
+This is just an example, though.  You may need finer or coarser access levels, and what
+domains you need and what tools they rely on are of course specific to your context.
+
+### In a Nutshell
+
+Zabel provides the necessary infrastructure to manage an evolving collection of managed
+project definitions.
+
+One deployment of Zabel can manage multiple contexts, each context having its own domains,
+access level definitions, conventions, ...
+
+For each context (_Realm_ in Zabel parlance), you define the expected strategy,
+conventions, domains, constraints, and Zabel will manage the rest for you.
+
+## License
+
+```text
+Copyright (c) 2019-2020 Martin Lafaix (martin.lafaix@external.engie.com) and others
+
+This program and the accompanying materials are made
+available under the terms of the Eclipse Public License 2.0
+which is available at https://www.eclipse.org/legal/epl-2.0/
+
+SPDX-License-Identifier: EPL-2.0
+```
+
+

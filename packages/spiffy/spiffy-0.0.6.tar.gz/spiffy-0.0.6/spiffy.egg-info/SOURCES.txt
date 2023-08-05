@@ -1,0 +1,12 @@
+README.md
+setup.py
+spiffy.egg-info/PKG-INFO
+spiffy.egg-info/SOURCES.txt
+spiffy.egg-info/dependency_links.txt
+spiffy.egg-info/requires.txt
+spiffy.egg-info/top_level.txt
+src/__init__.py
+src/main.py
+src/orbit.py
+src/plotter.py
+src/satellite.py

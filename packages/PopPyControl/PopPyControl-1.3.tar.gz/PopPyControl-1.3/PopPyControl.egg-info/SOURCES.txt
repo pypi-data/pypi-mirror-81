@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+PopPyControl/__init__.py
+PopPyControl/motor.py
+PopPyControl/packet.py
+PopPyControl/poppy.py
+PopPyControl/protocol.py
+PopPyControl.egg-info/PKG-INFO
+PopPyControl.egg-info/SOURCES.txt
+PopPyControl.egg-info/dependency_links.txt
+PopPyControl.egg-info/top_level.txt

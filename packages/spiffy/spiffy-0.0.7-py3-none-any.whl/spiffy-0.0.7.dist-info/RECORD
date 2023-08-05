@@ -1,0 +1,15 @@
+spiffy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spiffy/main.py,sha256=ymcxgzb35ajN7P0GwhiqfzLj5Mg3YJZ5j_FY0GKz3QY,157
+spiffy/orbit.py,sha256=-WrqiAQQYyD92bKqbouVbnm_xSfWsrwWnzeBijUZKFc,7208
+spiffy/plotter.py,sha256=BFEfQglCwMm0DAN22XAtuYzUYGWGhFX-2i5e9wKcuQk,1851
+spiffy/satellite.py,sha256=xadIK1KVL5XE_HlvOPoSIjeDR6bSy52CGwi3LpsWPyM,202
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/main.py,sha256=ymcxgzb35ajN7P0GwhiqfzLj5Mg3YJZ5j_FY0GKz3QY,157
+src/orbit.py,sha256=KNOMP9672yyW5c78nRjZYCADVa8jgCDPTNpyj-JNgtU,8149
+src/plotter.py,sha256=BFEfQglCwMm0DAN22XAtuYzUYGWGhFX-2i5e9wKcuQk,1851
+src/satellite.py,sha256=xadIK1KVL5XE_HlvOPoSIjeDR6bSy52CGwi3LpsWPyM,202
+spiffy-0.0.7.dist-info/LICENSE,sha256=8VbZ5-m4vy8IIDGygMwhONzX1gBl-_RAMPEMN1WIbkI,1089
+spiffy-0.0.7.dist-info/METADATA,sha256=CRuJ2zf60wusdPjKOs9ZC_JFYlhv4fp8voYhL7h_P7o,1659
+spiffy-0.0.7.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+spiffy-0.0.7.dist-info/top_level.txt,sha256=sCY_BtDy1FeUli67CzvOuCOTfisbrA43an6EYNo4zE8,7
+spiffy-0.0.7.dist-info/RECORD,,

@@ -1,0 +1,10 @@
+airflow_db_logger/__init__.py,sha256=FGw0OxsY9lEDS8XcSJDKU2izevv6OpuTV4USiCDVr1g,1122
+airflow_db_logger/config.py,sha256=Vm-O7P_d94vIwzfNUoz_-HW5_GawALJQzsV95hrt3FQ,5212
+airflow_db_logger/data.py,sha256=aeJZQoeTxoWYogtcrUMahJwFLlWTq_Ns7rIsNA8-kvI,2710
+airflow_db_logger/handlers.py,sha256=Sg-APqKOxZR-U67NNOkMHTnSe44NfFXvlIHoCK8Y478,8898
+airflow_db_logger/shell_logging_config.py,sha256=oXuaeuyFGr_nqXY-pYlQvXmPjRiThcvdf2us1XJ0LU8,1389
+airflow_db_logger/utils.py,sha256=AXwbxKOLSPa3LSuxUE8__IsTo1cE1d-BDVS_JlfkL3I,1176
+airflow_db_logger-0.0.0.dist-info/METADATA,sha256=iPHqf0z2j2ZoOIgsnzuc7TKHhaniST_TUMgucvagXlo,448
+airflow_db_logger-0.0.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+airflow_db_logger-0.0.0.dist-info/top_level.txt,sha256=VcK1mF-IPRLrpHK9qcD4SJPjfcU05-WoGinP4RNSnL0,18
+airflow_db_logger-0.0.0.dist-info/RECORD,,

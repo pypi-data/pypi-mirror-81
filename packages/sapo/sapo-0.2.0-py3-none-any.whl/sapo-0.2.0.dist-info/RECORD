@@ -1,0 +1,9 @@
+sapo/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+sapo/parquet_validator.py,sha256=Exz2kqYkjtNYHCQwjpih6RvrCV4zNbpVRhUa-Z8YQu4,779
+sapo/schema_fetcher.py,sha256=rK380cIJyg-56Nw6_O2G-XelBQRuNrGDnHYTDH-eXQU,569
+sapo/sqlite_helpers.py,sha256=_ZVHuicXYHSykocxKAaqgUUCuf6GPjma-R3aqdmJfQY,880
+sapo/sqlite_schema_to_yaml.py,sha256=s4hb09BoFUY_DlVZfYho2AsqO8tyX5XcHYwhtYfVdQg,258
+sapo/sqlite_validator.py,sha256=RIWw9sgAahnKVy6vARaPpBbH26tGHxFItOmgfaZBuTs,916
+sapo-0.2.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+sapo-0.2.0.dist-info/METADATA,sha256=ICT6NxrvdTWcvuCxZby7DvrHBDVaxCdD_aSpZR2pp24,373
+sapo-0.2.0.dist-info/RECORD,,

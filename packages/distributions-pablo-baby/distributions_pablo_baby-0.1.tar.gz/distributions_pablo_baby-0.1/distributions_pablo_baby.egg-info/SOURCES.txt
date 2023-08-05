@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+distributions_pablo_baby/Binomialdistribution.py
+distributions_pablo_baby/Gaussiandistribution.py
+distributions_pablo_baby/Generaldistribution.py
+distributions_pablo_baby/__init__.py
+distributions_pablo_baby.egg-info/PKG-INFO
+distributions_pablo_baby.egg-info/SOURCES.txt
+distributions_pablo_baby.egg-info/dependency_links.txt
+distributions_pablo_baby.egg-info/not-zip-safe
+distributions_pablo_baby.egg-info/top_level.txt

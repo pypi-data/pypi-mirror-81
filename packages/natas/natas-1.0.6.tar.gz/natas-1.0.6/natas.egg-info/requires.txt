@@ -1,0 +1,6 @@
+configargparse
+distance
+spacy>=2.1.4
+mikatools>=0.0.6
+OpenNMT-py==1.0.0
+torch==1.2

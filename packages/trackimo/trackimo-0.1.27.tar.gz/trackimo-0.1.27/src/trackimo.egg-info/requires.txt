@@ -1,0 +1,8 @@
+requests
+geocoder
+backoff
+shapely
+
+[testing]
+pytest
+pytest-cov

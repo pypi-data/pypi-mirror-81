@@ -1,0 +1,3 @@
+[console_scripts]
+cocorahs=cocorahs:main
+

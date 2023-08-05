@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: interactive-brokers-cli
+Version: 0.1.0
+Summary: CLI for fetching and parsing IB Flex Queries
+Home-page: https://gitlab.com/alensiljak/interactive-brokers-cli
+Author: Alen Šiljak
+Author-email: ibcli@alensiljak.eu.org
+License: GPL3
+Project-URL: Source Code, https://gitlab.com/alensiljak/interactive-brokers-cli.git
+Description: UNKNOWN
+Keywords: interactive brokers cli flex queries
+Platform: UNKNOWN

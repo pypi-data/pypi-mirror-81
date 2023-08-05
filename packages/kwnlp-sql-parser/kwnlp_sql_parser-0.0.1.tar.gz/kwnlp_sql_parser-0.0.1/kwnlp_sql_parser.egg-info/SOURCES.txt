@@ -1,0 +1,10 @@
+README.md
+setup.py
+kwnlp_sql_parser/__init__.py
+kwnlp_sql_parser/wp_sql_dump.py
+kwnlp_sql_parser/wp_sql_patterns.py
+kwnlp_sql_parser.egg-info/PKG-INFO
+kwnlp_sql_parser.egg-info/SOURCES.txt
+kwnlp_sql_parser.egg-info/dependency_links.txt
+kwnlp_sql_parser.egg-info/requires.txt
+kwnlp_sql_parser.egg-info/top_level.txt

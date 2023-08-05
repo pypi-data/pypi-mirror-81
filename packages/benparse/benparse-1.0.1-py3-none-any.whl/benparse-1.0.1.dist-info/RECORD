@@ -1,0 +1,11 @@
+benparse/__init__.py,sha256=s0JN-qOntaQfeuskKDBzXt0VsyWdV8uFEuL4T9hO33g,348
+benparse/dump.py,sha256=f5KPkdX3b2Kycnh4zsPoUgfULBkwGpaFoB_cfFyHosc,8778
+benparse/load.py,sha256=wbySlObl-T1B7mYPE2dSaBZ7n9F3ea7DLGCEa3gkMqA,14846
+benparse/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+benparse/typing.py,sha256=ZTl2chl23MxS5PxRsBYqE1gJwPt_S02tnuEIGaUk2rg,4671
+benparse-1.0.1.dist-info/COPYING,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+benparse-1.0.1.dist-info/COPYING.LESSER,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+benparse-1.0.1.dist-info/METADATA,sha256=30ES_9IpczEuI4xnKJg0SlP3yBhGrzDufla9jt7-gbc,2837
+benparse-1.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+benparse-1.0.1.dist-info/top_level.txt,sha256=MHlZUMbeRqqMbzdF3b_3DVmk2oeFcywofxUKXlCOfdE,9
+benparse-1.0.1.dist-info/RECORD,,

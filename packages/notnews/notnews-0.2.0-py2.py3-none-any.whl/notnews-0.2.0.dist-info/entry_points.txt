@@ -1,0 +1,7 @@
+[console_scripts]
+pred_soft_news_uk = notnews.pred_soft_news_uk:main
+pred_soft_news_us = notnews.pred_soft_news_us:main
+pred_what_news_us = notnews.pred_what_news_us:main
+soft_news_url_cat_uk = notnews.soft_news_url_cat_uk:main
+soft_news_url_cat_us = notnews.soft_news_url_cat_us:main
+

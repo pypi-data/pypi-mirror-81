@@ -1,0 +1,3 @@
+[certbot.plugins]
+dns-vultr = certbot_dns_vultr:Authenticator
+

@@ -1,0 +1,3 @@
+[console_scripts]
+ttblackjack=ttblackjack.cli:main
+

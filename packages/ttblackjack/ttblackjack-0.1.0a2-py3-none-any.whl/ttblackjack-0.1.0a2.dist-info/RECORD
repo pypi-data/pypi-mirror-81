@@ -1,0 +1,15 @@
+ttblackjack/__init__.py,sha256=m8fd9i890qzbXWbyr1AJldUZz7VqpFx_obh54w71V-8,2440
+ttblackjack/__main__.py,sha256=1I3FpW8UD-TvvY_bTqQX-TGppxEBznVdhfhV9mIf114,46
+ttblackjack/algorithm.py,sha256=GOK4SkL9M4aoocfJV9SpHpVfJ8dRF2qf4tdyV6MeBoU,1536
+ttblackjack/card.py,sha256=fVtesEXLrJ2LdfBlqbUZ1D7nZgmf2eNzvtMFuCbU_gA,1425
+ttblackjack/cli.py,sha256=gr44C_JN988YlWEvZmloVQmMXRtlUuvfgRYj4UKIXC4,1347
+ttblackjack/config.toml,sha256=J3O9v0DqNNtct-jmkm_0Kif2cIvOQL519VATCUvSnZs,676
+ttblackjack/game.py,sha256=CQ_j5UeGNSlSqsn5FBE-AnXogW39dvQUzxdz1BoXGPY,9452
+ttblackjack/hand.py,sha256=CykXMh9uXxThWwq6KVY1qOhV5f6ySDV71a_k88tQwyY,2345
+ttblackjack/player.py,sha256=FTzx_iL3scZHSuvf5rcqsi3o4Kzza5hfF6I-0S-pGK8,1081
+ttblackjack/suit.py,sha256=PXXO8EmmDJFWmU8ObtG-ig67EegejP3Q9Qsiv4ZOAMs,170
+ttblackjack-0.1.0a2.dist-info/entry_points.txt,sha256=8_bGZnJTe5tXiTk_pwMpH9gz8kANsijl_PU5HoLXyJM,52
+ttblackjack-0.1.0a2.dist-info/LICENSE,sha256=6wGLO7wHDzI8EnOaE4W0l_8sHT6B4mKs9cYlm2HjVk8,1076
+ttblackjack-0.1.0a2.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+ttblackjack-0.1.0a2.dist-info/METADATA,sha256=T8Q6FYYlWTDEVcmoixkiaZ5B02Nq0FxQ_8NvDVJZGJg,830
+ttblackjack-0.1.0a2.dist-info/RECORD,,

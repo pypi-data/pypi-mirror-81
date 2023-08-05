@@ -1,0 +1,16 @@
+README.md
+README.txt
+setup.cfg
+setup.py
+augmixations/__init__.py
+augmixations/configs.py
+augmixations/cutmix.py
+augmixations.egg-info/PKG-INFO
+augmixations.egg-info/SOURCES.txt
+augmixations.egg-info/dependency_links.txt
+augmixations.egg-info/requires.txt
+augmixations.egg-info/top_level.txt
+settings/__init__.py
+tests/__init__.py
+tests/conftest.py
+tests/test_cutmix.py

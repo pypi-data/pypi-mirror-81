@@ -1,0 +1,15 @@
+gamedatacrunch/__init__.py,sha256=o-FLjOOXYO8FEqt9rXdAvwn-ZWGxm1PMLVJNINUum9k,316
+gamedatacrunch/compatibility.py,sha256=_tNWvohWdS9-8mXjRofyfgfRcy0bKEGKpN-0taki99c,1298
+gamedatacrunch/download.py,sha256=CbXk8zwMPT-G-FQCZTvdEeBvadd-jh9w-EYMRextiZ0,478
+gamedatacrunch/load.py,sha256=PtuBhL7OBCdZLaSAZ33XKX21W4HAr2GfR0LR6iNvzlA,958
+gamedatacrunch/utils.py,sha256=ehlr_hMMmG8Nz694RfdMiOcSDV9zormwt1zRnttZzQI,699
+gamedatacrunch/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gamedatacrunch/tests/test_compatibility.py,sha256=m-7gNarQ1b4SgWtPLqclG1QjFR7Lt0i5hCCSkH0xhkg,2374
+gamedatacrunch/tests/test_download.py,sha256=YrjL8VkATyw_6Kd-DxMdaZElH9vK0sDV7NrEem55wWg,551
+gamedatacrunch/tests/test_load.py,sha256=eSg8Ob4UQC8HVz0Z93OjOAzT5sKbutyr_ZJliNSJz88,361
+gamedatacrunch/tests/test_utils.py,sha256=9jDaOJfvdicNSwkTdRTSNd1KyV1edUuUGkbr9v1yWEQ,835
+gamedatacrunch-0.0.3.dist-info/LICENSE,sha256=AhMYOsrgzSQ9mvoEL8VptshpI98mjLXdttBMOdu_svM,1060
+gamedatacrunch-0.0.3.dist-info/METADATA,sha256=pl7fgljn7k4Qkf1jjiH0ysCPXHmbqiteeOeh28in828,3132
+gamedatacrunch-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+gamedatacrunch-0.0.3.dist-info/top_level.txt,sha256=bKM0Jc5nQoTedTpRGyN6Z0xVSQnCgVHQmoKbmIhDKyI,15
+gamedatacrunch-0.0.3.dist-info/RECORD,,

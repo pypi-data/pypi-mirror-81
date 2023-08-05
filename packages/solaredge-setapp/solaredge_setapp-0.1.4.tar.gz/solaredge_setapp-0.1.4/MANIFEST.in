@@ -1,0 +1,7 @@
+include compile_proto.sh
+include dump_all.py
+include example.py
+include LICENSE
+include requirements.txt
+
+recursive-include messages *

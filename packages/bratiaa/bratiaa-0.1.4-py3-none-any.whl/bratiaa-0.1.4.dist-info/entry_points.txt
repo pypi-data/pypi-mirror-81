@@ -1,0 +1,3 @@
+[console_scripts]
+brat-iaa = bratiaa.agree_cli:main
+

@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: madeira
+Version: 1.0.1
+Summary: Common AWS operation wrappers
+Home-page: https://github.com/mxmader/madeira
+Author: Joe Mader
+Author-email: jmader@jmader.com
+License: MIT
+Description: # Madeira
+        
+        This is a python package which provides wrapper classes for 
+        Amazon Web Servces (AWS) python deployment SDK (boto3).
+        
+        ## Package name origins
+        
+        Since the AWS python SDK is called "boto", which refers to Amazon River dolphins,
+        I figured I'd attempt to follow the pattern and name this after a tributary of the Amazon River,
+        given that the point of these wrappers is to "deploy into the stream of AWS"... water analogy... get it?
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown

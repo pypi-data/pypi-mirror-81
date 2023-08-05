@@ -1,0 +1,10 @@
+gitArch/__init__.py,sha256=Q8b-DPCG2vZdPLAe9CmVWiKh_phDmFHgwOgnDwPFg0U,477
+gitArch/arch.py,sha256=nR0TPFngJStB8fdVWBNYUEde76yVswCccS_3ka0-qb4,3459
+gitArch/defaults.py,sha256=iqRtZ7ZJoh9KXDgcvnKIJkPRRqhrckCvr1SNSL1Bh6s,150
+gitArch/git.py,sha256=IFSteJ2r0oXrhiW8lxOQK6ja2zjp9VsJk9rMHSxQSQc,4750
+gitArch/tools.py,sha256=Bbjr0P8-VcJZiL3XFaLiPXvkNwakoDQ4b7wQ3kkrWhE,333
+gitArch-0.1.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+gitArch-0.1.dist-info/METADATA,sha256=IJUD_xB74412NbcNBaQCiZqRs2EUqsJPMqojpdCNODw,442
+gitArch-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+gitArch-0.1.dist-info/top_level.txt,sha256=OYgm1DUPZIGVN-jF1QB2ryg4fKDO26LYvBRBFdwSIIE,8
+gitArch-0.1.dist-info/RECORD,,

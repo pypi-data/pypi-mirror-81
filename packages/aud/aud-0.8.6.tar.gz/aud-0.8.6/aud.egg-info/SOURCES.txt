@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+aud/__init__.py
+aud/aud.py
+aud/exceptions.py
+aud/test_aud.py
+aud.egg-info/PKG-INFO
+aud.egg-info/SOURCES.txt
+aud.egg-info/dependency_links.txt
+aud.egg-info/requires.txt
+aud.egg-info/top_level.txt

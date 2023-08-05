@@ -1,0 +1,92 @@
+Metadata-Version: 1.2
+Name: aud
+Version: 0.8.6
+Summary: aud is a python package that aims to make bulk file edits easy enough for anyone with minimal scripting or python knowledge
+Home-page: https://github.com/zdhoward/aud
+Author: Zach Howard
+Author-email: zach.d.howard@gmail.com
+License: MIT
+Description: 
+        aud
+        ===
+        
+        v0.8.6
+        ^^^^^^
+        
+        
+        .. image:: https://circleci.com/gh/zdhoward/aud.svg?style=svg
+           :target: https://circleci.com/gh/zdhoward/aud
+           :alt: CircleCI
+        
+        
+        
+        * Support for Python 3.8, 3.7, & 3.6
+        * Support for Windows & Ubuntu
+        * Requires ffmpeg is already installed and updated
+        
+        Installing FFMPEG:
+        """"""""""""""""""
+        
+        .. code-block::
+        
+           >> On Linux:
+           apt-get install ffmpeg libavcodec-extra
+        
+           >> On Mac:
+           brew install ffmpeg --with-libvorbis --with-sdl2 --with-theora
+        
+           >> On Windows:
+           >> visit https://www.ffmpeg.org/download.html
+           >> download and install the appropriate package
+           >> ensure it is added to your PATH and you can call it from cmd
+        
+        To start contributing:
+        """"""""""""""""""""""
+        
+        .. code-block::
+        
+           >> git clone https://github.com/zdhoward/aud.git
+           >> cd aud
+           >> virtualenv venv
+           >> source venv/bin/activate
+           >> python3 -m pip install -r requirements.txt
+        
+        Quickstart:
+        """""""""""
+        
+        .. code-block::
+        
+           a = aud.Dir("folder", ['wav', 'mp3'], logfile="main.log")
+        
+           a.log("Backing up")
+           a.backup("backups/todays_date/")
+        
+           a.log("Changing filenames to all uppercase")
+           a.name_upper()
+        
+           a.log("Creating exports for Amuse")
+           a.export_for("amuse", "exports/amuse")
+        
+           a.log("add initials to all files")
+           a.name_append("_ZH")
+        
+           a.log("Zip files up")
+           a.zip("my_files.zip")
+        
+Keywords: audio,tool,studio,batch,easy,sound,high-level
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Topic :: Multimedia :: Sound/Audio :: Analysis
+Classifier: Topic :: Multimedia :: Sound/Audio :: Conversion
+Classifier: Topic :: Multimedia :: Sound/Audio :: Editors
+Classifier: Topic :: Multimedia :: Sound/Audio :: Mixers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6.0

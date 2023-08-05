@@ -1,0 +1,12 @@
+README.md
+setup.py
+pyvww/__init__.py
+pyvww.egg-info/PKG-INFO
+pyvww.egg-info/SOURCES.txt
+pyvww.egg-info/dependency_links.txt
+pyvww.egg-info/requires.txt
+pyvww.egg-info/top_level.txt
+pyvww/pytorch/__init__.py
+pyvww/pytorch/datasets.py
+pyvww/utils/__init__.py
+pyvww/utils/visualwakewords.py

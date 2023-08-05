@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+bazze_json_logger/__init__.py
+bazze_json_logger.egg-info/PKG-INFO
+bazze_json_logger.egg-info/SOURCES.txt
+bazze_json_logger.egg-info/dependency_links.txt
+bazze_json_logger.egg-info/requires.txt
+bazze_json_logger.egg-info/top_level.txt

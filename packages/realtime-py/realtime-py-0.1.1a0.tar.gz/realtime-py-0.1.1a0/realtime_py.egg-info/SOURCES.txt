@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+realtime_py.egg-info/PKG-INFO
+realtime_py.egg-info/SOURCES.txt
+realtime_py.egg-info/dependency_links.txt
+realtime_py.egg-info/not-zip-safe
+realtime_py.egg-info/requires.txt
+realtime_py.egg-info/top_level.txt

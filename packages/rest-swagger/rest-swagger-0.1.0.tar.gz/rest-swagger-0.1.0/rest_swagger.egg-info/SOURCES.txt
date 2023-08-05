@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+rest_swagger/__init__.py
+rest_swagger/renderers.py
+rest_swagger/settings.py
+rest_swagger/views.py
+rest_swagger.egg-info/PKG-INFO
+rest_swagger.egg-info/SOURCES.txt
+rest_swagger.egg-info/dependency_links.txt
+rest_swagger.egg-info/not-zip-safe
+rest_swagger.egg-info/requires.txt
+rest_swagger.egg-info/top_level.txt

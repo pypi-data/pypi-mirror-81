@@ -1,0 +1,16 @@
+packaway/__init__.py,sha256=NrMZ4s6WLWgop_Z2018n7PfkodH6lhvDZtGWGg1uByo,168
+packaway/import_analyzer.py,sha256=9XY8nBkv7jlEdE2FZ7wAAlABY3SoNmQKQ5TtSeFVaww,3505
+packaway/version.py,sha256=xMbOeGazJAuD9XHrRk3oHJFejH2TFmn77GI3J_7t-64,409
+packaway/plugins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+packaway/plugins/flake8/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+packaway/plugins/flake8/import_checker.py,sha256=offPnqcuw9fkMaMIreIkjjPturK10rXkRg2fjXfAzb0,1672
+packaway/plugins/flake8/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+packaway/plugins/flake8/tests/test_import_checker.py,sha256=DM4K5CRLewFjQCBmLyzb5NHHiaLKJnIpsmFbdHfQkd4,2635
+packaway/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+packaway/tests/test_import_analyzer.py,sha256=ZL1bL2Lk7V-LkBN7rZnHH0TFyK48aTJSgApXUv8XLW8,5587
+packaway-0.1.1.dist-info/LICENSE,sha256=6FDB3NWH7vWhqmMljMoZaXtB43bJ8wvRt6zKayLEks0,1069
+packaway-0.1.1.dist-info/METADATA,sha256=ERfQATQTNk5XZKyNhrKkdrjZMNVmUraIWYTol_3WFCA,3885
+packaway-0.1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+packaway-0.1.1.dist-info/entry_points.txt,sha256=50jDw7RM04GQu-TVe4FXyyzViclMtuq9gUDX_eMPKrQ,79
+packaway-0.1.1.dist-info/top_level.txt,sha256=3_AO7BBmzxcPiBIfaoU0Bc_oJA7F0RJ5bu7VvX1y0xA,9
+packaway-0.1.1.dist-info/RECORD,,

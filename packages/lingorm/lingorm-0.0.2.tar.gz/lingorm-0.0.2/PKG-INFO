@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: lingorm
+Version: 0.0.2
+Summary: orm framework for python
+Home-page: https://lingorm.com
+Author: xiaolingzi
+Author-email: xlne@foxmail.com
+Maintainer: xiaolingzi
+Maintainer-email: xlne@foxmail.com
+License: MIT
+Project-URL: Documentation, https://lingorm.com
+Project-URL: Code, https://github.com/xiaolingzi/lingorm-python
+Project-URL: Issue tracker, https://github.com/xiaolingzi/lingorm-python/issues
+Description: lingorm - orm for python
+        ========================
+        
+        For more infomation, please refer to https://www.lingorm.com
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst

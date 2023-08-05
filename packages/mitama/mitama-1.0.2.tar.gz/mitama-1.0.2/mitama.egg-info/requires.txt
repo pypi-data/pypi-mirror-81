@@ -1,0 +1,7 @@
+sqlalchemy
+aiohttp
+bcrypt
+pyjwt
+jinja2
+cryptography
+python-magic

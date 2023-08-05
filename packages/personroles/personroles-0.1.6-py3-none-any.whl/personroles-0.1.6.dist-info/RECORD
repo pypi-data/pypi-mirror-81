@@ -1,0 +1,12 @@
+personroles/__init__.py,sha256=nU_qGXqfzCwokjxEBTjWgE2W9b5XWaixywnijM-cAXs,102
+personroles/mop_role.py,sha256=5LZszyUceI1-YmRcAwUGteVGlv4qbbPhKPPy8wfnSPs,2788
+personroles/person.py,sha256=OwlQG6MxxrvGXSLnm5vJICsbaAmuCrDYIBvZu0DJIgI,7318
+personroles/politician_role.py,sha256=VslL5lHISYWXZPKqpzycbsiLQU6n-0sPq0kqM5hk8XY,6021
+personroles/resources/__init__.py,sha256=Dfa4lHUkunVgUCzwQrKsNHkxr08USUCxYWHzEY7EwoM,721
+personroles/resources/constants.py,sha256=upUxMZMBGXTdRz5aFP1ZrKidDDhPyClDKTaMzg5oaRs,1266
+personroles/resources/helpers.py,sha256=xeewWbmeNzF4tgPPLVnwwYhSzEq87Ji0w0qXtWtdj_o,2477
+personroles-0.1.6.dist-info/LICENSE,sha256=1zZGPJ7Lj4uUZhfQglfO4S--sD5olZlWqDT701fnJh4,1071
+personroles-0.1.6.dist-info/METADATA,sha256=3dybcUYHr1G9bQxgAcrSeeQSt76Piv7k-vp5RdQ_qhg,6744
+personroles-0.1.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+personroles-0.1.6.dist-info/top_level.txt,sha256=ObAi2B6NfM3cGM6oIv5C4ABhGsht8kWPUrAJqtL4A1M,12
+personroles-0.1.6.dist-info/RECORD,,

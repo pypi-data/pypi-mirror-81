@@ -1,0 +1,10 @@
+julia/ThreadSafeDicts.jl,sha256=hJNVfMwFTQv3wDSoq6tvTDjsdjQBUC3W1XUuYIxKMHY,2152
+julia/operators.jl,sha256=3dCcwpxsrf_1VdEu7TclnRzG4RW95Gd7jJBdjqQv-1o,1107
+julia/sr.jl,sha256=LVX8CTdkRNyft3ZjY20BoF3VlmbW2OSVathCKa_ET0U,28670
+pysr/__init__.py,sha256=JRGfEPP1GV6BiWTgW7qxLT-fcSAgRcn1dEVtIxe3Q8g,21
+pysr/sr.py,sha256=PIF0eQUDnCsDpbftyLuMMTDW5_7k012wHvq6lXl1pWQ,12159
+pysr-0.3.16.dist-info/LICENSE,sha256=VkI5c6YZGF9Jj4u8ItxwJubUCtICpJu4ch7AnDVfJ6A,11343
+pysr-0.3.16.dist-info/METADATA,sha256=6wc66rjL2bikWMurw6D5tV5VjKXjErGR1ZZdRKi3UYg,15524
+pysr-0.3.16.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pysr-0.3.16.dist-info/top_level.txt,sha256=CPwbZpeiyqySY1MooFO7qo98l-ABLkA-TrXued1z8Ew,5
+pysr-0.3.16.dist-info/RECORD,,

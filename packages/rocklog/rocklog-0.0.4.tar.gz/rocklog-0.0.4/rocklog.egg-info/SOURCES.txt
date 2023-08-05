@@ -1,0 +1,8 @@
+README.md
+setup.py
+rocklog.egg-info/PKG-INFO
+rocklog.egg-info/SOURCES.txt
+rocklog.egg-info/dependency_links.txt
+rocklog.egg-info/entry_points.txt
+rocklog.egg-info/requires.txt
+rocklog.egg-info/top_level.txt

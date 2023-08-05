@@ -1,0 +1,5 @@
+numpy
+pandas
+pyodbc
+datetime
+zla_material_class

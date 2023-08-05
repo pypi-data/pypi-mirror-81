@@ -1,0 +1,276 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Installation &mdash; PyVISA-Py 0.4.1.dev40+gde06c76.d20200710 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="FAQ" href="faq.html" />
+    <link rel="prev" title="PyVISA-py: Pure Python backend for PyVISA" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> PyVISA-Py
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.4.1.dev40+gde06c76.d20200710
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#ethernet-resources-tcpip-instr-socket">Ethernet resources: TCPIP INSTR/SOCKET</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#serial-resources-asrl-instr">Serial resources: ASRL INSTR</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#gpib-resources-gpib-instr">GPIB resources: GPIB INSTR</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#usb-resources-usb-instr-raw">USB resources: USB INSTR/RAW</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-do-i-know-if-pyvisa-py-is-properly-installed">How do I know if PyVISA-py is properly installed?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#using-the-development-version">Using the development version</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="faq.html">FAQ</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">PyVISA-Py</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Installation</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/installation.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="installation">
+<span id="id1"></span><h1>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h1>
+<p>Pyvisa-py is available on <a class="reference external" href="https://pypi.python.org/pypi/PyVISA-py">PyPI</a> and can be easily installed using pip:</p>
+<blockquote>
+<div><p>pip install pyvisa-py</p>
+</div></blockquote>
+<p>Pyvisa-py runs on Python 3.6+.</p>
+<p>If you do not install any extra library pyvisa-py will only be able to access
+tcpip resources. The following sections will describe what extra libraries you
+need to install and how to configure them to use other resources.</p>
+<div class="section" id="ethernet-resources-tcpip-instr-socket">
+<h2>Ethernet resources: TCPIP INSTR/SOCKET<a class="headerlink" href="#ethernet-resources-tcpip-instr-socket" title="Permalink to this headline">¶</a></h2>
+<p>Pyvisa-py relies on <a class="reference external" href="https://docs.python.org/3/library/socket.html#module-socket" title="(in Python v3.8)"><code class="xref py py-mod docutils literal notranslate"><span class="pre">socket</span></code></a> module in the Python Standard Library to
+interact with the instrument which you do not need to install any extra library
+to access those resources.</p>
+</div>
+<div class="section" id="serial-resources-asrl-instr">
+<h2>Serial resources: ASRL INSTR<a class="headerlink" href="#serial-resources-asrl-instr" title="Permalink to this headline">¶</a></h2>
+<p>To access serial resources, you should install <a class="reference external" href="https://pythonhosted.org/pyserial/">PySerial</a>. Version 3.0 or newer
+is required. No special configuration is required.</p>
+</div>
+<div class="section" id="gpib-resources-gpib-instr">
+<h2>GPIB resources: GPIB INSTR<a class="headerlink" href="#gpib-resources-gpib-instr" title="Permalink to this headline">¶</a></h2>
+<p>On all platforms, using <strong>GPIB</strong> resources requires to install a gpib driver.
+On Windows, it is install as part of NI-VISA or Keysight VISA for example. On
+MacOSX, you should install the NI-488 library from National instrument. On
+Linux, you can use a commercial driver (NI) or the <a class="reference external" href="http://linux-gpib.sourceforge.net/">linux-gpib</a> project.</p>
+<p>On Linux, <a class="reference external" href="http://linux-gpib.sourceforge.net/">linux-gpib</a> comes with Python bindings so you do not have to
+install any extra library.
+On all systems with GPIB device drivers, GPIB support is available through
+<a class="reference external" href="https://pypi.org/project/gpib-ctypes/">gpib-ctypes</a>.</p>
+<p>You should not have to perform any special configuration after the install.</p>
+</div>
+<div class="section" id="usb-resources-usb-instr-raw">
+<h2>USB resources: USB INSTR/RAW<a class="headerlink" href="#usb-resources-usb-instr-raw" title="Permalink to this headline">¶</a></h2>
+<p>For <strong>USB</strong> resources, you need to install <a class="reference external" href="https://github.com/pyusb/pyusb">PyUSB</a>. <a class="reference external" href="https://github.com/pyusb/pyusb">PyUSB</a> relies on USB driver
+library such as libusb 0.1, libusb 1.0, libusbx, libusb-win32 and OpenUSB
+that you should also install. Please refer to <a class="reference external" href="https://github.com/pyusb/pyusb">PyUSB</a> documentation for more
+details.</p>
+<p>On Unix system, one may have to modify udev rules to allow non-root access to
+the device you are trying to connect to. The following tutorial describes how
+to do it <a class="reference external" href="http://ask.xmodulo.com/change-usb-device-permission-linux.html">http://ask.xmodulo.com/change-usb-device-permission-linux.html</a>.</p>
+<p>On Windows, you may have to uninstall the USBTMC specific driver installed by
+Windows and re-install a generic driver.</p>
+<p>Another useful reference for how to configure your system is h
+ttps://github.com/python-ivi/python-usbtmc.</p>
+</div>
+<div class="section" id="how-do-i-know-if-pyvisa-py-is-properly-installed">
+<h2>How do I know if PyVISA-py is properly installed?<a class="headerlink" href="#how-do-i-know-if-pyvisa-py-is-properly-installed" title="Permalink to this headline">¶</a></h2>
+<p>Using the pyvisa information tool. Run in your console:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">python</span> <span class="o">-</span><span class="n">m</span> <span class="n">visa</span> <span class="n">info</span>
+</pre></div>
+</div>
+<p>You will get info about PyVISA, the installed backends and their options.</p>
+</div>
+<div class="section" id="using-the-development-version">
+<h2>Using the development version<a class="headerlink" href="#using-the-development-version" title="Permalink to this headline">¶</a></h2>
+<p>You can install the latest development version (at your own risk) directly
+form <a class="reference external" href="https://github.com/pyvisa/pyvisa-py">GitHub</a>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ pip install -U git+https://github.com/pyvisa/pyvisa-py.git
+</pre></div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="faq.html" class="btn btn-neutral float-right" title="FAQ" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="PyVISA-py: Pure Python backend for PyVISA" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, PyVISA Authors
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

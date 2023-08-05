@@ -1,0 +1,10 @@
+pyvisa\-py.testsuite package
+============================
+
+Module contents
+---------------
+
+.. automodule:: pyvisa-py.testsuite
+    :members:
+    :undoc-members:
+    :show-inheritance:

@@ -1,0 +1,7 @@
+pyvisa-py
+=========
+
+.. toctree::
+   :maxdepth: 4
+
+   pyvisa-py

@@ -1,0 +1,78 @@
+pyvisa\-py package
+==================
+
+Subpackages
+-----------
+
+.. toctree::
+
+    pyvisa-py.protocols
+    pyvisa-py.testsuite
+
+Submodules
+----------
+
+pyvisa\-py.common module
+------------------------
+
+.. automodule:: pyvisa-py.common
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+pyvisa\-py.gpib module
+----------------------
+
+.. automodule:: pyvisa-py.gpib
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+pyvisa\-py.highlevel module
+---------------------------
+
+.. automodule:: pyvisa-py.highlevel
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+pyvisa\-py.serial module
+------------------------
+
+.. automodule:: pyvisa-py.serial
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+pyvisa\-py.sessions module
+--------------------------
+
+.. automodule:: pyvisa-py.sessions
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+pyvisa\-py.tcpip module
+-----------------------
+
+.. automodule:: pyvisa-py.tcpip
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+pyvisa\-py.usb module
+---------------------
+
+.. automodule:: pyvisa-py.usb
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: pyvisa-py
+    :members:
+    :undoc-members:
+    :show-inheritance:

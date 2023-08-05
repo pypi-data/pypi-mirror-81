@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: SegmentationEvaluationTools
+Version: 0.0.4
+Summary: Tools for evaluating predictions on Simple-ITK Images
+Home-page: https://github.com/brianmanderson/Segmentation_Evaluation_Tools
+Author: Brian Mark Anderson
+Author-email: bmanderson@mdanderson.org
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: SimpleITK
+Requires-Dist: check-manifest
+
+"# Segmentation_Evaluation_Tools" 
+
+

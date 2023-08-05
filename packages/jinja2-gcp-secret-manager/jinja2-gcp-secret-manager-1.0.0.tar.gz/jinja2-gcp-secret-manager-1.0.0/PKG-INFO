@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: jinja2-gcp-secret-manager
+Version: 1.0.0
+Summary: Jinja2 extension for fetching secrets GCP Secret Manager
+Home-page: https://github.com/yashmehrotra/jinja2-gcp-secret-manager
+Author: Yash Mehrotra
+Author-email: yashmehrotra95@gmail.com
+License: Apache 2.0
+Description: # jinja2-gcp-secret-manager
+        Jinja2 extension for fetching secrets GCP Secret Manager
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: tools_jsyoo61
+Version: 2020.10
+Summary: personal syntax tool
+Home-page: https://github.com/jsyoo61/tools
+Author: JaeSung Yoo
+Author-email: jsyoo61@korea.ac.kr
+License: UNKNOWN
+Description: # Mycode
+        
+        My personal tools for programming.
+        JaeSung Yoo.
+        jsyoo61@naver.com
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

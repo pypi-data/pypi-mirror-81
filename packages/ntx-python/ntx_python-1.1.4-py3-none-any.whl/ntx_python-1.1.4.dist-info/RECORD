@@ -1,0 +1,13 @@
+ntx_python/__config__.py,sha256=i5S5IAPsvNBdWlfPf94UnoVFaS6YIdvNuqvNlcdeGv0,1246
+ntx_python/__init__.py,sha256=NSoiPSIIxfFnTaesRt-MuUvk1j8DG8OAD5WL9I1-ZLg,177
+ntx_python/__main__.py,sha256=NEJJjB27WNJZqwwLYt1FVz9QBQP3p7RVvH5i3m1am-4,1233
+ntx_python/__main_token__.py,sha256=UPoIgZk24_oQvM-iIK8hOfvHYU6veEJ3C4vvpvwo2I4,1123
+ntx_python/ntx_auth_metadata_plugin.py,sha256=Y02mRfYTF4G_96DwO-dpHq9-4WA1G4asQFyjLJVMulo,8067
+ntx_python/ntx_stt.py,sha256=usi83d8UPuvlHqLlUEBBvfYDb_5sBrLISD-Dq_vt90M,7354
+ntx_python/ntx_protobuf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ntx_python/ntx_protobuf/engine_pb2.py,sha256=BYlSKZZOsrXaVorVkW4oWisAyTQygfI81niefw7983w,64158
+ntx_python/ntx_protobuf/engine_pb2_grpc.py,sha256=AGKALeX3hGeN2W8tYLZmLixyfw1wXyWDRonjxAbd5uA,2411
+ntx_python-1.1.4.dist-info/METADATA,sha256=Xdc52YZvnsWXKKj6kTY1sT6ByUf4RV6KgN4YPdSfbuE,1065
+ntx_python-1.1.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ntx_python-1.1.4.dist-info/top_level.txt,sha256=JDbnJS4W3WjTELui18oEs03F4KeGxjZwT2WJo0VN41I,11
+ntx_python-1.1.4.dist-info/RECORD,,

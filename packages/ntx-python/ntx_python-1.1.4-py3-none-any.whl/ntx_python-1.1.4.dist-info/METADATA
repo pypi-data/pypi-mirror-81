@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: ntx-python
+Version: 1.1.4
+Summary: Python library for speech to text using NanoTrix cloud
+Home-page: https://gitlab.com/nanogrid-libs/ntx-python
+Author: Goheeca
+Author-email: goheeca@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: grpcio (~=1.30.0)
+Requires-Dist: aiohttp (~=3.6.2)
+
+# Configuration for examples
+
+Create `ntx_python/__config__.py` in the root directory and fill it like this:
+
+```
+AUDIENCE='https://example.com' # Without the root slash in the path part
+USERNAME='your-username'
+PASSWORD='your-password'
+
+ID='id-of-service'
+LABEL='label-for-service'
+DOMAIN='example.com'
+
+TOKEN='static-token-here' # The trascription example is setup to use the static token
+```
+
+# Running the examples
+
+## Transcription
+
+`python -m ntx_python speech-8000-mono.wav`
+
+## Token
+
+`python -m ntx_python.__main_token__`
+
+

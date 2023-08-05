@@ -1,0 +1,7 @@
+requests
+geocoder
+backoff
+
+[testing]
+pytest
+pytest-cov

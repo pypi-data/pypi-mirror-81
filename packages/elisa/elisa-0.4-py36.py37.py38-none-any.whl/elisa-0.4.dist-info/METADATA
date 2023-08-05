@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: elisa
+Version: 0.4
+Summary: Eclipsing Binary Modeling Software
+Home-page: https://github.com/mikecokina/elisa
+Author: Michal Cokina, Miroslav Fedurco
+Author-email: mikecokina@gmail.com, mirofedurco@gmail.com
+License: GPLv2
+Keywords: eclipsing binaries astronomy analysis analytics physic
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: astropy (>>=4.0.1.post1)
+Requires-Dist: corner (<=2.1.0,>=2.0.1)
+Requires-Dist: emcee (==3.0.1)
+Requires-Dist: jsonschema (>=3.2.0)
+Requires-Dist: matplotlib (==3.3.2)
+Requires-Dist: numpy (<=1.19.2,>=1.16.2)
+Requires-Dist: pandas (<=1.1.2,>=0.24.0)
+Requires-Dist: pypex (==0.1.0)
+Requires-Dist: python-dateutil (<=2.8.1,>=2.6.1)
+Requires-Dist: scipy (<=1.5.2,>=1.0.0)
+Requires-Dist: tqdm (>=4.43.0)
+Provides-Extra: dev
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+Requires-Dist: parameterized (>=0.7.4) ; extra == 'test'
+Requires-Dist: pytest (==3.2.3) ; extra == 'test'
+
+For more information visit https://github.com/mikecokina/elisa/blob/master/README.rst
+
+

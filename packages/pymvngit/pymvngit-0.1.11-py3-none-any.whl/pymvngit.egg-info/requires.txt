@@ -1,0 +1,4 @@
+tinydb
+Pygments
+clipboard
+gitpython

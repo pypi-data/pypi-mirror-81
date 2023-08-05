@@ -1,0 +1,7 @@
+python-dateutil
+stripe
+urllib3
+phonenumbers
+email_validator
+Flask-Caching
+Flask-Script

@@ -1,0 +1,15 @@
+#!/bin/bash
+
+if [ ! -f "${HOME}/.config/jsd_job_bot.ini" ]; then
+    # disabling shellcheck complaint about expansion, since this is an error message
+    #shellcheck disable=SC2016
+    echo 'You need to have config file at $HOME/.config/jsd_job_bot.ini with JSD_HOSTNAME specified... quitting.'
+    exit 
+else
+    # disabling shellcheck because it complains about referrals, meh
+    # shellcheck disable=SC1090
+    eval "$(grep -v -E '\[' "${HOME}/.config/jsd_job_bot.ini" )"
+fi
+
+
+open "https://${JSD_HOSTNAME}/browse/$1"

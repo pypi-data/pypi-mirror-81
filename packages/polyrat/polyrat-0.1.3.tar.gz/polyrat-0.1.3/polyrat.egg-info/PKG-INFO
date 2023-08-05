@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: polyrat
+Version: 0.1.3
+Summary: Polynomial and rational function library
+Home-page: https://github.com/jeffrey-hokanson/PolyRat
+Author: Jeffrey M. Hokanson
+Author-email: jeffrey@hokanson.us
+License: UNKNOWN
+Description: # PolyRat: Polynomial and Rational Function Library
+        
+        [![PyPI version](https://badge.fury.io/py/polyrat.svg)](https://badge.fury.io/py/polyrat)
+        [![Build Status](https://travis-ci.org/jeffrey-hokanson/polyrat.svg?branch=master)](https://travis-ci.org/jeffrey-hokanson/polyrat)
+        [![Coverage Status](https://coveralls.io/repos/github/jeffrey-hokanson/polyrat/badge.svg?branch=master)](https://coveralls.io/github/jeffrey-hokanson/polyrat?branch=master)
+        
+        
+        
+        ## Installation
+        
+            > pip install --upgrade polyrat
+        
+        
+        ## Reproducibility
+        
+        This repository contains the code to reproduce the figures in the associated papers
+        
+        * [Multivariate Rational Approximation Using a Stabilized Sanathanan-Koerner Iteration](https://arxiv.org/abs/2009.10803)
+          in [Reproducibility/Stabilized_SK](Reproducibility/Stabilized_SK)
+        
+        
+        ## Related Projects
+        
+        * [baryrat](https://github.com/c-f-h/baryrat): Pure python implementation of the AAA algorithm
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

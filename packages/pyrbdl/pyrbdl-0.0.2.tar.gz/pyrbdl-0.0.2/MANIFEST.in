@@ -1,0 +1,8 @@
+include MANIFEST.in *.txt
+recursive-include third_party *.*
+recursive-include addons/urdfreader *.*
+recursive-include third_party *
+recursive-include src *.*
+recursive-include include *.*
+recursive-include python *.*
+include .

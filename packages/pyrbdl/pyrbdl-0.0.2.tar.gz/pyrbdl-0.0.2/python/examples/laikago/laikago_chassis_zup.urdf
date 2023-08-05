@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<robot name="plane">
+  <link name="chassis">
+  <contact>
+      <lateral_friction value="1"/>
+  </contact>
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+       <mass value="13.715"/>
+       <inertia ixx="0.22" ixy="0" ixz="0" iyy="0.431" iyz="0" izz="0.565"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz=" 0  0 0"/>
+      <geometry>
+        <mesh filename="chassis_zup.obj" scale="1 1 1"/>
+      </geometry>
+       <material name="white">
+        <color rgba="1 1 1 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="chassis_vhacd_mod_zup.obj" scale="1 1 1"/>
+      </geometry>
+    </collision>
+  </link>
+</robot>
+

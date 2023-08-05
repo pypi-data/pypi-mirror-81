@@ -1,0 +1,10 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/main.py,sha256=ymcxgzb35ajN7P0GwhiqfzLj5Mg3YJZ5j_FY0GKz3QY,157
+src/orbit.py,sha256=KNOMP9672yyW5c78nRjZYCADVa8jgCDPTNpyj-JNgtU,8149
+src/plotter.py,sha256=BFEfQglCwMm0DAN22XAtuYzUYGWGhFX-2i5e9wKcuQk,1851
+src/satellite.py,sha256=xadIK1KVL5XE_HlvOPoSIjeDR6bSy52CGwi3LpsWPyM,202
+spiffy-0.0.6.dist-info/LICENSE,sha256=8VbZ5-m4vy8IIDGygMwhONzX1gBl-_RAMPEMN1WIbkI,1089
+spiffy-0.0.6.dist-info/METADATA,sha256=oyB-aqlU8rtOvEn5pl-vsxLUE9lW5-WiG51kTTIneu0,1678
+spiffy-0.0.6.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+spiffy-0.0.6.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+spiffy-0.0.6.dist-info/RECORD,,

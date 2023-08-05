@@ -1,0 +1,15 @@
+compound_split/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+compound_split/char_split.py,sha256=w1Te6bObdCC7eaV4SviPdq9-Ku3TBE9W7_rfzBgyC9Y,3535
+compound_split/char_split_train.py,sha256=0pToFz_bgHsjuurVNGkCMjl30hWC6zo3CqbnA9rT24E,2440
+compound_split/de_ngram_probs.py,sha256=PYb-eyIi26aQ8uEaKA-FHDQnFsQXo_2sPpxphIJJsm8,39351191
+compound_split/doc_client.py,sha256=zyBVCBw9ewI_t9fuCOTdgVa3HnZiM9HLe_684Yb6RiQ,1302
+compound_split/doc_config.py,sha256=QqLZlcI2bqQqedfI9zcHsTMc_MoYMqEkjNN9pHiBwqE,304
+compound_split/doc_server.py,sha256=-OHk4lZmNsN4dvF0H9na74gfncSc0zlTKkrOLn6Umoo,2931
+compound_split/doc_split.py,sha256=tcMnWFhgzWsJAiwjd3tm3oiroCMqhZogw_1Viy01oFM,5425
+compound_split/doc_test.py,sha256=V1aaYdi69OKy7E9cVHMMoimUKtgvnROdZCwfl0627_I,4346
+compound_split/nl_ngram_probs.py,sha256=leh1rjhXpUGFto_06y-Ptff8pLRcxUguz-BJXj0yRQg,14784786
+compound_split-0.1.0.dev4.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+compound_split-0.1.0.dev4.dist-info/METADATA,sha256=I-4CuF_A-vNWKaBYQrfGZ8O5OSTQa7UHLZD8vz5MHx0,6558
+compound_split-0.1.0.dev4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+compound_split-0.1.0.dev4.dist-info/top_level.txt,sha256=NfpsNRZtQjOSQ-8w7l5CEktUh4Q9U0CwiAjT5uMGq4o,15
+compound_split-0.1.0.dev4.dist-info/RECORD,,

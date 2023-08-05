@@ -1,0 +1,11 @@
+jobtimize/__init__.py,sha256=LRA9zD87YEcnu4j-OWtAcpVp7OZ8LxdiTmeRtdw5fOQ,58
+jobtimize/scrapers/__init__.py,sha256=l7fMqtrUt5NnLqVYZGKpvpk3hTYXxB-h8lOEYf1Ta3s,157
+jobtimize/scrapers/main.py,sha256=qnmp2obg8NpeJLRxEzD6HFbQsqk1mD7ZRx-JBVLfjQ0,1930
+jobtimize/scrapers/rotateproxies.py,sha256=yoy8VZaQG0gYyoM5Zwd3Mcsvw06ER7xXrwgM0Wtp9xk,1639
+jobtimize/scrapers/scrapindeed.py,sha256=YxV2-jj2mtxEtV2kmTJ-Ujf8Hk7y4w7ElR-PQbfe598,6853
+jobtimize/scrapers/scrapmonster.py,sha256=e7GHgHACgNQYaNrWYmTmbggHMjEoG1im1Qf0udzoZ0U,6407
+Jobtimize-0.0.5a2.dist-info/LICENSE,sha256=oc7XLkAHlruVXK-R0VrrGegQPEc-QqEVGsP74C3KCDw,1093
+Jobtimize-0.0.5a2.dist-info/METADATA,sha256=LNyahkKrtHsfmmiz4or22nN_O90Ymqm2NbEQbotxhTs,4373
+Jobtimize-0.0.5a2.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+Jobtimize-0.0.5a2.dist-info/top_level.txt,sha256=7QqypgFLxMnS3J5Csk7uHaKh-oGMkEuvkxSDomXOg0w,29
+Jobtimize-0.0.5a2.dist-info/RECORD,,

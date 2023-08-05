@@ -1,0 +1,10 @@
+easywsl/__init__.py,sha256=PpoLykZ_Onxb42m_qRcjfsrv16XJjkxONPKO6KOARDk,70
+easywsl/__main__.py,sha256=7QZKDSOVI9xydS5mMx4zV-bORDR6LUz5XHbW9bGzPSo,22341
+easywsl/forward.py,sha256=2o-sCfZ-jhml3vZlCdr6jBdqPzdsK6jZes5CqhWrV2A,1388
+easywsl/utils.py,sha256=Ctq1ScTPqoabyv0QvAP1guaJ3BRckJpG5CbdHO7NIas,8827
+easywsl/wsl.py,sha256=VsooxDwz5b9f8nXcK1BaK9CyErkK4j-fh0c0RYImcuM,3852
+easywsl-0.1.0.dist-info/METADATA,sha256=e_o-JvpijVkItqChfhAqL_UsH6rZSvO1AUHS0__uge0,3746
+easywsl-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+easywsl-0.1.0.dist-info/entry_points.txt,sha256=640OVJoaJD6RTbd4PBF-5DylRhdIEAX2t2cHScOR620,49
+easywsl-0.1.0.dist-info/top_level.txt,sha256=aL1CHlHs4L8EQDLcEUbPTjq5XM8F5OdwdOOeL8Yy408,8
+easywsl-0.1.0.dist-info/RECORD,,

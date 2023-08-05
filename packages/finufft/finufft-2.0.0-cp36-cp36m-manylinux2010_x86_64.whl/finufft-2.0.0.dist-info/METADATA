@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: finufft
+Version: 2.0.0
+Summary: python interface to FINUFFT
+Home-page: http://github.com/ahbarnett/finufft
+Author: python interfaces by: Jeremy Magland, Daniel Foreman-Mackey, Alex Barnett
+Author-email: abarnett@flatironinstitute.org
+License: Apache 2
+Platform: UNKNOWN
+
+python interface to FINUFFT (Flatiron Institute Nonuniform Fast Fourier Transform) library.
+
+

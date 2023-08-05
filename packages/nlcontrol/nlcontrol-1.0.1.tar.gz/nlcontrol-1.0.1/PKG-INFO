@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: nlcontrol
+Version: 1.0.1
+Summary: A toolbox to simulate and analyse nonlinear systems in a control context.
+Home-page: https://github.ugent.be/jjuchem/nlcontrol
+Author: Jasper Juchem
+Author-email: Jasper.Juchem@UGent.be
+License: UNKNOWN
+Description: A Python module providing a framework for Nonlinear control simulations. Base structures for dynamical systems and controllers allow an easy and flexible environment to simulate nonlinear control loops. Base classes are developed for easy integration in a closed-loop configuration. The goal is to obtain a wide library of systems and controllers, which allows users around the world to simulate their control loops.
+Keywords: control systems nonlinear simulation
+Platform: UNKNOWN
+Classifier: Development States :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience ::  Education
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

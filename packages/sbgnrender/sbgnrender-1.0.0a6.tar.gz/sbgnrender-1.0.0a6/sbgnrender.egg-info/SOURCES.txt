@@ -1,0 +1,9 @@
+README.md
+setup.py
+sbgnrender/RendererClient.py
+sbgnrender/__init__.py
+sbgnrender.egg-info/PKG-INFO
+sbgnrender.egg-info/SOURCES.txt
+sbgnrender.egg-info/dependency_links.txt
+sbgnrender.egg-info/requires.txt
+sbgnrender.egg-info/top_level.txt

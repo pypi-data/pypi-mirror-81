@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: tinder
+Version: 0.1.9
+Summary: Pytorch helpers and utils
+Home-page: http://github.com/elbaro/tinder
+Author: elbaro
+Author-email: elbaro@users.noreply.github.com
+License: MIT
+Keywords: tinder,pytorch,torch
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: colorama
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pillow-simd
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: tqdm
+
+
+**tinder** provides extra layers and helpers for Pytorch.
+
+

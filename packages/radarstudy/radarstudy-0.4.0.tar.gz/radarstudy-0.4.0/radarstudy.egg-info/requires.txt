@@ -1,0 +1,7 @@
+numpy
+pandas
+dask[complete]
+requests
+matplotlib
+pyyaml>=5.1
+pyarrow

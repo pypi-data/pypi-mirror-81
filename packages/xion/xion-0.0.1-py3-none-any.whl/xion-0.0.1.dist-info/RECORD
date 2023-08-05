@@ -1,0 +1,10 @@
+xion/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xion/__main__.py,sha256=PqddaHsMnGTTLtrgjmTvsrtBBepm09uwQKghC08Ulf4,1762
+xion/xfconf.py,sha256=OC6LgmEsQEKWrPFMhUBWTsGRAxWqvIlhGmrtqkc3t-4,6086
+xion/xion.py,sha256=5ZkrxZGVbZJpiz2g8flioMSqryiqJAyZkjo4XkDCsPA,3437
+xion-0.0.1.dist-info/LICENSE.txt,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+xion-0.0.1.dist-info/METADATA,sha256=0ndHeolagZka4iXBCjvqUYON9YbxnBYXcIIQg14UTGo,3155
+xion-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+xion-0.0.1.dist-info/entry_points.txt,sha256=hoCe-ZVdOuPGkXz2ROjnBIaRb9xJped3aGLdQo4deZ0,45
+xion-0.0.1.dist-info/top_level.txt,sha256=KKVGydgYsKOjEB5q74nE5wXrbp7dqjogTfkIdnQJO1E,5
+xion-0.0.1.dist-info/RECORD,,

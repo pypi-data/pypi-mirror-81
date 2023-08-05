@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: sphinx-multitoc-numbering
+Version: 0.1.0
+Summary: Supporting continuous HTML section numbering
+Home-page: UNKNOWN
+License: MIT
+Description: # sphinx-parttoc-numbering
+        A Sphinx extension to support continuous numbering of sections across multiple tocs in HTML output.
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Provides-Extra: code_style
+Provides-Extra: testing

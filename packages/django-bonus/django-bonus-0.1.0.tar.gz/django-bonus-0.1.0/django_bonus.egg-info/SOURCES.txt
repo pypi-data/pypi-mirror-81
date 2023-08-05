@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+django_bonus/__init__.py
+django_bonus.egg-info/PKG-INFO
+django_bonus.egg-info/SOURCES.txt
+django_bonus.egg-info/dependency_links.txt
+django_bonus.egg-info/requires.txt
+django_bonus.egg-info/top_level.txt
+django_bonus/templatetags/__init__.py
+django_bonus/templatetags/django_bonus.py

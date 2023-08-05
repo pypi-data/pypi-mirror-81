@@ -1,0 +1,5 @@
+
+    [console_scripts]
+    pom=pyomodoro.cli:start
+    pyomodoro=pyomodoro.cli:start
+    

@@ -1,0 +1,16 @@
+README.md
+setup.py
+compound_split/__init__.py
+compound_split/char_split.py
+compound_split/char_split_train.py
+compound_split/de_ngram_probs.py
+compound_split/doc_client.py
+compound_split/doc_config.py
+compound_split/doc_server.py
+compound_split/doc_split.py
+compound_split/doc_test.py
+compound_split/nl_ngram_probs.py
+compound_split.egg-info/PKG-INFO
+compound_split.egg-info/SOURCES.txt
+compound_split.egg-info/dependency_links.txt
+compound_split.egg-info/top_level.txt

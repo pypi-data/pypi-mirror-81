@@ -1,0 +1,12 @@
+README.md
+setup.py
+datasette_edit_tables/__init__.py
+datasette_edit_tables.egg-info/PKG-INFO
+datasette_edit_tables.egg-info/SOURCES.txt
+datasette_edit_tables.egg-info/dependency_links.txt
+datasette_edit_tables.egg-info/entry_points.txt
+datasette_edit_tables.egg-info/requires.txt
+datasette_edit_tables.egg-info/top_level.txt
+datasette_edit_tables/templates/edit_tables_database.html
+datasette_edit_tables/templates/edit_tables_index.html
+datasette_edit_tables/templates/edit_tables_table.html

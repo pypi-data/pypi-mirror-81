@@ -1,0 +1,11 @@
+README.md
+setup.py
+pyubx2/__init__.py
+pyubx2/_version.py
+pyubx2/exceptions.py
+pyubx2/ubxmessage.py
+pyubx2/ubxtypes.py
+pyubx2.egg-info/PKG-INFO
+pyubx2.egg-info/SOURCES.txt
+pyubx2.egg-info/dependency_links.txt
+pyubx2.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+asyncpgx/__init__.py,sha256=RF3xyQKFCSQ2GaLWD4JXoWLo_ce_PeQuBYp1xfBAAAY,90
+asyncpgx/connection.py,sha256=mOxobolINmIjo6N4xMNCcKBJXhzAN1_MrgNOeUcSG1M,3214
+asyncpgx/query.py,sha256=BsqiRQwgmaz2SMpr8JJWCeP-74A0lvXr2lLesp8tnVQ,2117
+asyncpgx/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asyncpgx/tests/conftest.py,sha256=oeOv2dmTyZ7endt_KWIwVwKucOwRqx8bAFshg_4qTgo,698
+asyncpgx/tests/test_connection.py,sha256=Z4_jj-Sm4juZNoqqTM9CMtt7hC5U84_J-BczuNIfa_o,3129
+asyncpgx/tests/test_query.py,sha256=Vj_R1AtMg6oBu5b8gz2LEfjGUzMsUoGeDA9VfttCQ-s,1701
+asyncpgx-1.0.2.dist-info/LICENSE.md,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+asyncpgx-1.0.2.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+asyncpgx-1.0.2.dist-info/METADATA,sha256=MNIQsXfEy837Jda1Kdmv8tbuL4BgG9cjtfYokLPs-5w,290
+asyncpgx-1.0.2.dist-info/RECORD,,

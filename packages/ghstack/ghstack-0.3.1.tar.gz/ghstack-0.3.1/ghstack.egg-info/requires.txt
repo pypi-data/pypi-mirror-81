@@ -1,0 +1,5 @@
+requests
+aiohttp
+
+[:python_version < "3.8"]
+dataclasses

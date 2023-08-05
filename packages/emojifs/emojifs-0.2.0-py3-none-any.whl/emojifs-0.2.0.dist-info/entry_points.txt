@@ -1,0 +1,3 @@
+[console_scripts]
+emojifs=emojifs.__main__:main
+

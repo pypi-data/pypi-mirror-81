@@ -1,0 +1,13 @@
+LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+emojifs/__init__.py,sha256=zRUQRKBZzMISGvgCGLRtUTFJylxMC2U1bRC8ccdrAQM,823
+emojifs/__main__.py,sha256=wc3pZZvFlEqOz6XtL5OTIm4AnMWL7XWq2rAgSzRxti4,7035
+emojifs/constants.py,sha256=tf-MLGz0bR2w0m5fG5Ks2WblHN1i5b4PNvBqc-_TzdQ,818
+emojifs/discord.py,sha256=z4Armhf1H2OGK9VSUyLivGhFuTzUkYUJmgKQnxIMu24,13059
+emojifs/muxer.py,sha256=08vRHF1zWuXpnrsLos1FoVb3UBuCGD3HtqvvfK9N9ug,6645
+emojifs/slack.py,sha256=e3h5GaGHVPaRDybVpLBl8ET7W3iuIFwDrcepMnxZ_lQ,16853
+emojifs/utils.py,sha256=9bHOT7EkXT2JXUulH8Fujvs9DuxLXIBJQfw5475irXU,1799
+emojifs-0.2.0.dist-info/entry_points.txt,sha256=EmHoIcvhjEtbDv4mCqK2KARI_vbk7S0T9FgSc53g2xM,49
+emojifs-0.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+emojifs-0.2.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+emojifs-0.2.0.dist-info/METADATA,sha256=zz_aRGnmGr2tqdtOR_NKXLbtp2cRUYT5Umv3huYWtsc,8440
+emojifs-0.2.0.dist-info/RECORD,,

@@ -1,0 +1,11 @@
+README.rst
+setup.cfg
+setup.py
+yandex_cloud/__init__.py
+yandex_cloud/object_storage.py
+yandex_cloud_tools.egg-info/PKG-INFO
+yandex_cloud_tools.egg-info/SOURCES.txt
+yandex_cloud_tools.egg-info/dependency_links.txt
+yandex_cloud_tools.egg-info/not-zip-safe
+yandex_cloud_tools.egg-info/requires.txt
+yandex_cloud_tools.egg-info/top_level.txt

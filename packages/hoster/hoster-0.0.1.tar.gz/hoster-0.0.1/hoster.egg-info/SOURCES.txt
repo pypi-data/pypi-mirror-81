@@ -1,0 +1,7 @@
+README.rst
+setup.py
+hoster/__init__.py
+hoster.egg-info/PKG-INFO
+hoster.egg-info/SOURCES.txt
+hoster.egg-info/dependency_links.txt
+hoster.egg-info/top_level.txt

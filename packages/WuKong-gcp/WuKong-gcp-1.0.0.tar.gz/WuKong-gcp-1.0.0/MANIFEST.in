@@ -1,0 +1,2 @@
+include  *.py
+recursive-include WuKong *.tf *.jinja2 *.json *.sh *.md *.txt *.config *.tpl *.conf

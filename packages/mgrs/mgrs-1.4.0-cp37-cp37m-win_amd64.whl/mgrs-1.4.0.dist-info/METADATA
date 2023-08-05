@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mgrs
+Version: 1.4.0
+Summary: MGRS coordinate conversion for Python
+Home-page: https://github.com/hobu/mgrs
+Author: Howard Butler
+Author-email: howard@hobu.co
+Maintainer: Howard Butler
+Maintainer-email: howard@hobu.co
+License: MIT
+Requires-Dist: setuptools
+Requires-Dist: wheel
+Requires-Dist: packaging
+
+.. _home:
+
+

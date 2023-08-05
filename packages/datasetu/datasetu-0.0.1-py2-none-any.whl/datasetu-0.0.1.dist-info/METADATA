@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: datasetu
+Version: 0.0.1
+Summary: Python SDK for DataSetu.
+Home-page: https://github.com/datasetu/datasetu-python
+Author: Datasetu Team
+Author-email: contact@artpark.in
+License: ISC
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: urllib3
+
+UNKNOWN
+
+

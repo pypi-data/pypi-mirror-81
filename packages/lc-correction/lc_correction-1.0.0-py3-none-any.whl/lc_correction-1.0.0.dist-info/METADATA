@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: lc-correction
+Version: 1.0.0
+Summary: Scripts for ALeRCE light curve correction
+Home-page: UNKNOWN
+Author: ALeRCE Team
+Author-email: contact@alerce.online
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: astropy (>=4.0)
+Requires-Dist: fastavro (>=0.22.7)
+Requires-Dist: joblib (>=0.13.2)
+Requires-Dist: numpy (>=1.18.1)
+Requires-Dist: pandas (>=0.25.3)
+Requires-Dist: pyarrow
+Requires-Dist: fastparquet
+
+UNKNOWN
+
+

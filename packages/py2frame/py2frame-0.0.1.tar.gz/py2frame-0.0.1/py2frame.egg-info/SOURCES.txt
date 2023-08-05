@@ -1,0 +1,6 @@
+README.md
+setup.py
+py2frame.egg-info/PKG-INFO
+py2frame.egg-info/SOURCES.txt
+py2frame.egg-info/dependency_links.txt
+py2frame.egg-info/top_level.txt

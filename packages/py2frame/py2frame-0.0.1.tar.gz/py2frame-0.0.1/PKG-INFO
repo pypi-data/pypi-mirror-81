@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: py2frame
+Version: 0.0.1
+Summary: Extracts key frames
+Home-page: https://github.com/kuldeep7895
+Author: Kuldeep Meena
+Author-email: kuldeepsan09@gmail.com
+License: UNKNOWN
+Description: # This is my first program
+        # This extracts key frame from a video
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

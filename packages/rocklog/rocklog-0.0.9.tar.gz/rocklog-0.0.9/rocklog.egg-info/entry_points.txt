@@ -1,0 +1,3 @@
+[console_scripts]
+rocklog = rocklog.app:main
+

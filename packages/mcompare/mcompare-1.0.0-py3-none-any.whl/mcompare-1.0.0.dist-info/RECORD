@@ -1,0 +1,9 @@
+mcompare/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mcompare/classifiers_wrapper.py,sha256=8eHVdbM63kfaLDvUo4KnGrW9MutRauo72aNX4Yo1tv0,8788
+mcompare/model_wrapper.py,sha256=1HJyQi1zw7amoQvEHhhGX6QAknDfKlkR_EgR2dmDh8g,4540
+mcompare/regressors_wrapper.py,sha256=HXYhXX9iBCKLHWc1JdoEXG-m-GXLis6WOFfv0GAGcMA,7009
+mcompare-1.0.0.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+mcompare-1.0.0.dist-info/METADATA,sha256=6oewENx2TVQty_5wojVFVARJqxjCIdbIGeN4DAbexjs,1505
+mcompare-1.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+mcompare-1.0.0.dist-info/top_level.txt,sha256=W8iaStQf9vuEryRQ1z0O2W1ViySNdR-b5hTn89Y4-sM,9
+mcompare-1.0.0.dist-info/RECORD,,

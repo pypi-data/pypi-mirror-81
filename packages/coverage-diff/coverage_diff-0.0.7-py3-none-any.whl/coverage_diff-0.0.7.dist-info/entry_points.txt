@@ -1,0 +1,3 @@
+[console_scripts]
+coverage-diff = coverage_diff.main:main
+

@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: simple-playgrounds
+Version: 0.9.20
+Summary: Simulator for Embedded Learning
+Home-page: UNKNOWN
+Author: Michael Garcia Ortiz
+Author-email: michael.garcia-ortiz@city.ac.uk
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pyyaml
+Requires-Dist: markdown
+Requires-Dist: pygame
+Requires-Dist: pymunk
+Requires-Dist: numpy
+Requires-Dist: opencv-contrib-python
+
+UNKNOWN
+
+

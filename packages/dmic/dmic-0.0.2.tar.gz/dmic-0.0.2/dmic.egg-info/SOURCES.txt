@@ -1,0 +1,8 @@
+README.md
+setup.py
+dmic/__init__.py
+dmic.egg-info/PKG-INFO
+dmic.egg-info/SOURCES.txt
+dmic.egg-info/dependency_links.txt
+dmic.egg-info/entry_points.txt
+dmic.egg-info/top_level.txt

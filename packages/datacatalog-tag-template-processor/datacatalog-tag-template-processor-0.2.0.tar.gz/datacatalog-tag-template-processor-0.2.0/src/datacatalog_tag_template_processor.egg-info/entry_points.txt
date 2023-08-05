@@ -1,0 +1,3 @@
+[console_scripts]
+datacatalog-tag-template-processor = datacatalog_tag_template_processor:main
+

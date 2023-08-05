@@ -1,0 +1,11 @@
+polyboost/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+polyboost/polyboost.py,sha256=NPr7PLlBKlErkBcqpXNF8Y2vNduvYCevx2BgxbE69vk,5599
+polyboost/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+polyboost/models/humdiv-final.model,sha256=TTlmP7Hvc-vDRVU3EVBR0Bi4lAl5MM-sNs5OkawQETQ,682645
+polyboost/models/humvar-final.model,sha256=XcHw266s8jVUnI_o42o4-vLOn212JBWYvI5SrwHjwqc,5386765
+polyboost/models/polyboost.hv.new.model,sha256=XcHw266s8jVUnI_o42o4-vLOn212JBWYvI5SrwHjwqc,5386765
+polyboost-1.1.0.dist-info/LICENSE.md,sha256=ggNIX1cXUQS37qT5vcpyjU-azV5liRyI-HbnIPYZJz4,1525
+polyboost-1.1.0.dist-info/METADATA,sha256=XU-5dwxQUpf2UeY_yUufcvCB-LiF0GQ1VdqO_R997eg,5735
+polyboost-1.1.0.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+polyboost-1.1.0.dist-info/top_level.txt,sha256=RVkbia5K3F8XQbj3NGuEMG1YaFR3B3DhwWDbzenaIsM,10
+polyboost-1.1.0.dist-info/RECORD,,

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: datasette-edit-tables
+Version: 0.3a2
+Summary: datasette-edit-tables is now datasette-edit-schema
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: # datasette-edit-tables is now datasette-edit-schema
+        
+        This package has been renamed. Use `pip install datasette-edit-schema` instead.
+        
+        New package: https://pypi.org/project/datasette-edit-schema/
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown

@@ -1,0 +1,45 @@
+.function-documentation {
+    /* We hide the scroll bar as it blocks the close! */
+    overflow: hidden;
+    margin-left: 2.5px;
+}
+
+.function-documentation-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    margin-bottom: 4px;
+}
+
+.function-documentation-header-text {
+    opacity: 75%;
+}
+
+.function-documentation-header-back {
+    margin-left: 5px
+}
+
+.function-documentation-header-close {
+    margin-right: 5px;
+}
+
+.function-documentation-function-name {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.function-documentation-example-list {
+    margin-top: 0;
+    list-style: none;
+    padding-left: 0;
+}
+
+.function-documentation-example {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+
+.blue-text {
+    color: #0081DE;
+}

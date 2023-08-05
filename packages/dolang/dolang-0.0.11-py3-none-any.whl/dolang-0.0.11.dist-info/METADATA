@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: dolang
+Version: 0.0.11
+Summary: Dolo Modeling Language
+License: BSD-2-Clause
+Author: Winant Pablo
+Author-email: pablo.winant@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: lark-parser (>=0.9.0,<0.10.0)
+Requires-Dist: numba (>=0.50)
+Requires-Dist: numpy (>=1.18.3,<2.0.0)
+Requires-Dist: sympy (>=1.5.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+# dolang.py
+
+Very empty README file.
+

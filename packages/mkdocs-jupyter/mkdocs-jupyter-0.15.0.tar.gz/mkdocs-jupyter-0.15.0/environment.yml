@@ -1,0 +1,36 @@
+name: mkdocs-jupyter
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - pip
+
+  # Base conda deps
+  - setuptools
+  - setuptools_scm
+  - pylint
+  - flake8
+  - black
+  - isort
+  - twine
+  - wheel
+  - pytest
+  - pytest-cov
+
+  # This project conda deps
+  - nbconvert>=6.0.0,<7
+
+  # Devevelopment deps
+  - jupyterlab
+  - pandas
+  - matplotlib
+  - plotly
+  - bokeh
+
+  - pip:
+    # This project pip deps
+    - mkdocs>=1.1.0
+    - mkdocs-material
+    - mkdocs-minify-plugin
+    - pygments
+    - pymdown-extensions

@@ -1,0 +1,5 @@
+enum34
+numpy
+pvporcupine==1.8.6
+pyaudio
+soundfile

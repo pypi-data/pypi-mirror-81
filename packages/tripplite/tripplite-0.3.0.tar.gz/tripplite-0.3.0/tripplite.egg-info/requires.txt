@@ -1,0 +1,4 @@
+hidapi
+
+[exporter]
+prometheus_client

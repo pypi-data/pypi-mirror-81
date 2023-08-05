@@ -1,0 +1,10 @@
+coverage_diff/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coverage_diff/__main__.py,sha256=HcHdsdstVWk8j4ChMPyACtWKU4hfeWtfYL6an_MgFUM,48
+coverage_diff/main.py,sha256=U8mMoYN74Q4NfTF5U5EqeLO5l4COva_ZqWCKgdPO7So,3975
+coverage_diff-0.0.8.data/data/LICENSE,sha256=FbHmX3siwWUU_1S_A6Ev8njDVWpqAnxfQcoSlqgtwBA,1064
+coverage_diff-0.0.8.dist-info/LICENSE,sha256=FbHmX3siwWUU_1S_A6Ev8njDVWpqAnxfQcoSlqgtwBA,1064
+coverage_diff-0.0.8.dist-info/METADATA,sha256=cOYn8qlUNx87V1AZLkRKwRCxGvoIJ__-Wj5nlI8hj8Q,2418
+coverage_diff-0.0.8.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+coverage_diff-0.0.8.dist-info/entry_points.txt,sha256=8s3eniSwaH-6i1uLoBoHPrFYEd218Hawe-Ys33clY9U,59
+coverage_diff-0.0.8.dist-info/top_level.txt,sha256=AJzc9mz6cpRUAUDa3h8DMM_ev00sf3ghrc6t93q-YtQ,14
+coverage_diff-0.0.8.dist-info/RECORD,,

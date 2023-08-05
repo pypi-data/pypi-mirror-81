@@ -1,0 +1,11 @@
+README.md
+setup.py
+bin/minke_wm
+minke/__init__.py
+minke/windowmanager.py
+minke_wm.egg-info/PKG-INFO
+minke_wm.egg-info/SOURCES.txt
+minke_wm.egg-info/dependency_links.txt
+minke_wm.egg-info/not-zip-safe
+minke_wm.egg-info/requires.txt
+minke_wm.egg-info/top_level.txt

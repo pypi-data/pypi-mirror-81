@@ -1,0 +1,12 @@
+README.md
+setup.py
+g3po/__init__.py
+g3po/main.py
+g3po.egg-info/PKG-INFO
+g3po.egg-info/SOURCES.txt
+g3po.egg-info/dependency_links.txt
+g3po.egg-info/entry_points.txt
+g3po.egg-info/requires.txt
+g3po.egg-info/top_level.txt
+tests/__init__.py
+tests/test_main.py

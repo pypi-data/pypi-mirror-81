@@ -1,0 +1,9 @@
+jupyterlab
+matplotlib
+notebook
+numpy
+PyQt5
+sympy
+vtk
+mayavi
+spiffy

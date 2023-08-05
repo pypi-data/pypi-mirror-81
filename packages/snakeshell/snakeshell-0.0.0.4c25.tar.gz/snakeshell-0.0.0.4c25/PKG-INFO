@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: snakeshell
+Version: 0.0.0.4c25
+Summary: A Python library for all kinds of Shell Commands
+Home-page: https://github.com/ofsho/Snakeshell
+Author: ofsho
+Author-email: ofekbendavid9@gmail.com
+License: MIT
+Download-URL: https://github.com/ofsho/Snakeshell/archive/0.0.4c22.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8

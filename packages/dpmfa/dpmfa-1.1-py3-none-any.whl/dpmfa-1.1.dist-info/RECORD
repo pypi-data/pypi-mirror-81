@@ -1,0 +1,12 @@
+dpmfa/__init__.py,sha256=CBkJ4eTOV_cxi6hV8G76v0bDQ7yZO4-XtwFESCLofqU,26
+dpmfa/components.py,sha256=mz4vcHG0a6IUcr7XPD1aW9g5VTippCFcRothvuuIzKk,36989
+dpmfa/model.py,sha256=TwDgSNHsOgaRleXqI5-UQuAFdI6bfxionEN8ZwiE0ds,12185
+dpmfa/simulator.py,sha256=_U4ETt5cSfwpskRHynHgjt5JWFjyRcEY5oydy_d6VMM,16110
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_consttransfers.py,sha256=j6TGMOZp8hd_Zz4uhEXv08TpMteERbioscgm1M6I7XA,543
+tests/test_randomchoicetransfer.py,sha256=nqa49CcXQL0FSf3ChCFTMNNJtivwwnmY5LBYTaxHFAQ,763
+dpmfa-1.1.dist-info/LICENCE.md,sha256=r2YhV6Ty5Htf795QAUGFPh99Fgug3alVRiKbXmCpP20,19089
+dpmfa-1.1.dist-info/METADATA,sha256=0YYH7MFlaGgffVD_XHAjOv2Opt_knzA4LU-i-xMi2HI,1466
+dpmfa-1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+dpmfa-1.1.dist-info/top_level.txt,sha256=awuik5_OM6NnDxLRBUNK34erurG-FLhGR19bJgKZOK4,12
+dpmfa-1.1.dist-info/RECORD,,

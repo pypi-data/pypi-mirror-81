@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: ngsl
+Version: 1.21
+Summary: You can check if the word is in New General Service List
+Home-page: https://github.com/koboriakira/ngsl
+Author: Kobori Akira
+Author-email: private.beats@gmail.com
+License: UNKNOWN
+Description: # How to use
+        
+        ```bash
+        pip install ngsl
+        ```
+        
+        ```python
+        from ngsl import ngsl
+        
+        # return True
+        ngsl.include('smile')
+        
+        # return True
+        ngsl.include('smiles')
+        
+        # return "smile"
+        ngsl.get_infinitiv('smiles')
+        ```
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

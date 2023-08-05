@@ -1,0 +1,9 @@
+tfs/__init__.py,sha256=KZs-cIVz8yViKYIm59a5lax82hhAsC7QEcviYsQlHqI,473
+tfs/collection.py,sha256=F-cBzn-igXE9nWS0fML5NLG96OKPJ8TPpMft1CYqe2U,10295
+tfs/handler.py,sha256=-q7ip4vmCPnNcnZOgCBQigKYCAGvnhrQgMjh1pE0zcQ,18071
+tfs/tools.py,sha256=IRtNchXttU1VkGfvMDGX4_xnzdbbtcMcaBWXnzW9E0o,3528
+tfs_pandas-2.0.1.dist-info/LICENSE.md,sha256=ibpy8kN5cX7WSTbfTwj52qauXljGnJ3mfifDE4B9nVk,1043
+tfs_pandas-2.0.1.dist-info/METADATA,sha256=qJhvRS0yNuDZ1VwBz-NMC5ZGedERaIKFBYDgjunGimQ,3808
+tfs_pandas-2.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+tfs_pandas-2.0.1.dist-info/top_level.txt,sha256=GA7L4S1_r2iaiiuM-mQmE1Gov3fq8e3DaEw8r2PfHqM,4
+tfs_pandas-2.0.1.dist-info/RECORD,,

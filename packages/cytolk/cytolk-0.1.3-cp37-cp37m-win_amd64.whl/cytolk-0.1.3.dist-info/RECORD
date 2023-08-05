@@ -1,0 +1,10 @@
+cytolk/__init__.py,sha256=etrq_U3tUjEqU7J_qX84Dv-XyOjeN5drQ3aHVWUgJwk,18
+cytolk/__main__.py,sha256=RPV9BJFNpzogIz5-eE4HTOTMf8LrIwgHr8uXp5frsY0,669
+cytolk/nvdaControllerClient64.dll,sha256=QcH131mX55j8-_fI8lid6BHnaLBppgcQYAz1fLI6Cwk,153600
+cytolk/tolk.cp37-win_amd64.pyd,sha256=qVYvdXtPxZHYmuUaN876R_1NHcRmnkuUGmmAj5m7R1g,52736
+cytolk-0.1.3.dist-info/LICENSE,sha256=9vJ5-vhKSuyPW6AuocM00JD0skxNaQL-ldd7Mv7S0Eg,1082
+cytolk-0.1.3.dist-info/METADATA,sha256=Ftaw9qj1M9KALyHatvl5bV40GDH8uyvhfdivICLrgb4,4984
+cytolk-0.1.3.dist-info/WHEEL,sha256=zdzelNAN7OMlbGAPizxWEjDYw36I1XfOus-OTyLWlAw,106
+cytolk-0.1.3.dist-info/entry_points.txt,sha256=oz4C8up1mtRBwesHHZBQtUXsET3wpp8Vz6C_B-I07GA,44
+cytolk-0.1.3.dist-info/top_level.txt,sha256=TIfkihfEPKmp73nv882BzvTl7PUH0pq3Mt1nORteJ3I,7
+cytolk-0.1.3.dist-info/RECORD,,

@@ -1,0 +1,9 @@
+jupyterlab
+matplotlib
+mayavi
+notebook
+numpy
+PyQt5
+sympy
+terminado
+vtk

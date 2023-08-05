@@ -1,0 +1,11 @@
+click>=7.1
+gen3>=2.6
+indexclient>=2.1
+
+[dev]
+twine
+setuptools
+wheel
+
+[test]
+pytest

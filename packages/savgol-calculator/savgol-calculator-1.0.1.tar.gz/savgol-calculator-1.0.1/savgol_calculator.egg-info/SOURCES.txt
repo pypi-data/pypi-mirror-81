@@ -1,0 +1,8 @@
+README.md
+setup.py
+SGCC/__init__.py
+SGCC/savgol_poly.py
+savgol_calculator.egg-info/PKG-INFO
+savgol_calculator.egg-info/SOURCES.txt
+savgol_calculator.egg-info/dependency_links.txt
+savgol_calculator.egg-info/top_level.txt

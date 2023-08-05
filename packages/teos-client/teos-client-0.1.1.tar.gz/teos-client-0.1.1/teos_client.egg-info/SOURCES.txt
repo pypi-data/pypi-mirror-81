@@ -1,0 +1,8 @@
+README.md
+setup.py
+teos_client.egg-info/PKG-INFO
+teos_client.egg-info/SOURCES.txt
+teos_client.egg-info/dependency_links.txt
+teos_client.egg-info/entry_points.txt
+teos_client.egg-info/requires.txt
+teos_client.egg-info/top_level.txt

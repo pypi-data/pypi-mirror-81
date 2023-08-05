@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: ttblackjack
+Version: 0.1.0a1
+Summary: A simple blackjack poker game.
+License: MIT
+Author: JackLPK
+Author-email: puikit.li.jack@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: toml (>=0.10.1,<0.11.0)
+Description-Content-Type: text/markdown
+
+# ttblackjack
+
+A simple blackjack poker game.
+
+## Install
+Install from `wheel` or PyPI
+```
+pip3 install --user ttblackjack
+# or
+pipx install ttblackjack
+```
+
+## Help
+```
+ttblackjack --help
+```

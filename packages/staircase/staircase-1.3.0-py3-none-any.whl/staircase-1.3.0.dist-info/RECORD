@@ -1,0 +1,13 @@
+staircase/__init__.py,sha256=U0jwHlJIbEa0zxgcc6PJV1h1Li8KM9PegR62QinnsK4,412
+staircase/_version.py,sha256=iQPd8UEd_ZbTs9iy-9YKpcMxGF-3pzgydMhkpwH9C1s,519
+staircase/stairs.py,sha256=-MoOaERJJW8tLJMAYcrHeyr74yC4IM6QsPktUAV9PIA,62961
+staircase/test_data.py,sha256=2kLQWYWrNj7dWI8vKIbuuB6GapwIGWvPphxBBDIxDoQ,57691
+staircase/docstrings/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+staircase/docstrings/decorator.py,sha256=O4KN_rW00FdQoTQ1TeSJ4aB9-xU3r38L7KCZhCid3UY,276
+staircase/docstrings/stairs_class.py,sha256=M7MWvm-fWka9-szXHwPcbHDstKM5CR_f6WDjKa8GM84,20198
+staircase/docstrings/stairs_module.py,sha256=pxuhOBbN2b3Y3_EvOjzGhHbJZTlTucA4_iSrBHQnyBA,5747
+staircase-1.3.0.dist-info/LICENSE,sha256=Bht4aYYwKCmUTrkiyaEdgPGUVy93k_6C5rVWH4xDuww,1089
+staircase-1.3.0.dist-info/METADATA,sha256=Umot9DozbKMi5beDquNNpJ8fGSoJIwEPoIHVgNOps3E,6400
+staircase-1.3.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+staircase-1.3.0.dist-info/top_level.txt,sha256=466MAhxN_Toid0ii1f11aNacTug8-0Hk8VeQ6WBmiME,10
+staircase-1.3.0.dist-info/RECORD,,

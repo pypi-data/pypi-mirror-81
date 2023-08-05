@@ -1,0 +1,9 @@
+#!python
+
+from minke import WindowManager
+
+wm = WindowManager()
+try:
+    wm.main_loop()
+except KeyboardInterrupt:
+    pass

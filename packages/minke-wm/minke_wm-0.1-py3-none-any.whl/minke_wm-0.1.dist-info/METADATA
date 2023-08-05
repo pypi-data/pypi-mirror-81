@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: minke-wm
+Version: 0.1
+Summary: A minimal, keyboard-centric window manager
+Home-page: http://gitlab.com/OldIronHorse/minkie
+Author: Simon Redding
+Author-email: s1m0n.r3dd1ng@gmail.com
+License: GPL3
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: xlib
+
+# minke
+
+A minimal, keyboard-centric window manager for Xwindows.
+Inspired by Xmonad, implemented in Python.
+

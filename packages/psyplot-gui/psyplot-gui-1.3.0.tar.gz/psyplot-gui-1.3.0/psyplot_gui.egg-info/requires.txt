@@ -1,0 +1,5 @@
+psyplot>=1.3.0
+qtconsole
+fasteners
+sphinx>=2.4.0
+sphinx_rtd_theme

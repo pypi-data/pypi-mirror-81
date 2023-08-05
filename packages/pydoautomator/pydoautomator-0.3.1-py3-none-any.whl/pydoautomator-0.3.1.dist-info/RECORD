@@ -1,0 +1,10 @@
+pydoautomator/__init__.py,sha256=El5m79lapB585BIzQysJ_35lLPazVbTwVunlzO_ueCE,62
+pydoautomator/adapters.py,sha256=fwHBY4KFIK7Fci3HqoM3LH6do8DLq-CUSCe-fI58vkM,581
+pydoautomator/automator.py,sha256=1DrV-G-LgVxbv2pCzgthIHfmlmoR35wvP8Hl71snnQ0,3236
+pydoautomator/droplet.py,sha256=tyh3BC4xW5A5zU7g5DRAYJfUyk-jvNlqOTbXQoAJGic,318
+pydoautomator/errors.py,sha256=zeQxlOxnpXJwpxfH-B-BoY17nRE81h_7creMhPEfw_w,292
+pydoautomator-0.3.1.dist-info/LICENSE,sha256=8KpOvB5jJL_Kv2IYaHp3cvjaAmC08JcbmydofR_iMbU,11349
+pydoautomator-0.3.1.dist-info/METADATA,sha256=4cuJ01GBJqqj8i3IjfcPwLj9sLjqJvxQ-BvIkMLMboE,1330
+pydoautomator-0.3.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pydoautomator-0.3.1.dist-info/top_level.txt,sha256=gDNxAdqTpqWp3iiTXbPjtSL0_Vhw7CFe3lplYagQY7g,14
+pydoautomator-0.3.1.dist-info/RECORD,,

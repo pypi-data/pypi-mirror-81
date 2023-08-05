@@ -1,0 +1,126 @@
+Metadata-Version: 2.1
+Name: mllb
+Version: 0.0.1
+Summary: Machine Learning package
+Home-page: https://github.com/theiyobosa/mllb
+Author: Iyobosa Evbayowieru
+Author-email: theiyobosa@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# ml
+Machine Learning algorithms.
+
+'''
+pip install mllb
+'''
+
+<h1>Overview</h1>
+
+This repository contains Machine Learning algorithms for Linear Regression, Logistic Regression, and Convolutional Neural Networks.
+It also helps to easily and efficiently port, edit and select rows in csv files directly for training.
+
+This project was inpired by the author's quest to understand the basic concepts and mathematics of Machine Learning.
+
+It uses NumPy **heavily** for its computations.
+
+<h1>Basics</h1>
+
+Here, the basic a few basic things that can be done with the package are discussed. A more detailed documentation can be found in the **docs** directory.
+
+<h2>Linear Regression</h2>
+
+To train a simple Linear Regression algorithm from x, and y.
+
+'''
+
+import mllb as ml
+
+x = [1, 2, 3, 4, 5, 6]
+y = [3, 5, 7, 9, 11, 13]
+
+# Create a linear regression model
+model = ml.linear_regression(x, y)
+
+# Choose a learning rate
+model.learning_rate.initial(0.1)
+
+# Choose the number of epochs and train, the default optimizer is Stochastic Gradient Descent
+model.train(10)
+
+# Test the model by predicting a value
+pr = model.predict([10])
+
+# Print the prediction
+print(pr)
+
+'''
+
+<h2>Convolutional Neural Network</h2>
+
+To train a simple Convolutional Neural Neural network, four simple 'pictures' whose resolutions are 4 x 4 pixel pictures will be used as an example here.
+
+image 1 = [white, white]
+          [black, black]
+
+image 2 = [black, white]
+          [white, black]
+
+image 3 = [black, black]
+          [white, white]
+
+image 4 = [white, black]
+          [black, white]
+
+'''
+
+import mllb as ml
+
+# Using white = 1 and black = 0, the four images can be represented as x
+x = [[1, 1, 0, 0], [0, 1, 1, 0], [0, 0, 1, 1], [1, 0, 0, 1]]
+
+# Choose a corresponding value y that represents the classifier. Here, we choose:
+# image 1 as [0, 0]; image 2 as [0, 1]; image 3 as [1, 0] and image 4 as [1, 1]
+y = [[0, 0], [0, 1], [1, 0], [1, 1]]
+
+# Create a cnn (Convolutional Neural Network model)
+model = ml.cnn(x, y)
+
+# Create the layers for the network using the activation function names
+# Here two layers will be created; a ReLU layer with 5 nodes, and a sigmoid layer with 2 nodes
+model.layers.create(ml.relu(5), ml.sigmoid(2))
+
+# Intialize the layer weights with xavier method for faster convergence
+model.layers.xavier_initialization()
+
+# Set an intial learning rate
+model.learning_rate.initial(0.01)
+
+# If you wish, the learning rate can be multiplied by a value after every epoch for faster convergence.
+# This part optional. Here we use 1.01 (increase learning rate by 1% after every epoch)
+model.learning_rate.multiply_after_epoch(1.01)
+
+# Train the model and choose the number of epochs, an epoch of 800 is chosen here. It defaults to Stochastic Gradient Descent.
+model.train(800)
+
+# Test your model by predicting an image
+img1 = model.predict([1, 1, 0, 0])
+img2 = model.predict([0, 1, 1, 0])
+img3 = model.predict([0, 0, 1, 1])
+img4 = model.predict([1, 0, 0, 1])
+
+# Print the predictions
+print(img1)
+print(img2)
+print(img3)
+print(img4)
+
+'''
+
+
+

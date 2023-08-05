@@ -1,0 +1,14 @@
+mllb/__init__.py,sha256=iDbco5SJ5hr-8I-kcka0cH0t0RXw4Lksr-2Xme2wsVc,415
+mllb/activation_functions.py,sha256=Eaw0BNAzfpHLJVBGzn4_nc2pI50GJGSp_3aIieMnSy0,2182
+mllb/convolutional_neural_network.py,sha256=lPzCWisPq6Re_VGxi11dGq0aeZdABsv6-IQGzVqv69w,11846
+mllb/dataset.py,sha256=3usDgJICiR7wATA08hVLGvW_-V7WkMov9-rkBhYHSxk,23382
+mllb/layer_creation.py,sha256=MPG7UeFwW3He2sILnCRqTibo96E3ulgJNAoamkyM0rA,2065
+mllb/learning_rate.py,sha256=DRzFx1mAIuzNLlXQ8eJbqQ3WnHO968bGiRB183IF3GM,1420
+mllb/linear_regression.py,sha256=-Kp54a1kZx3V86qzIMDF_00EzAzc3vKFAe_IAa49caw,9167
+mllb/logistic_regression.py,sha256=SgRVxvdykLn8lh35h4zwGnxUYIx7aPCA7DsfN-EiaA4,5171
+mllb/neural_network_layers.py,sha256=zLOZNK3NHiNhS9ZdzDjk1-aYXNdwvGmwT0mI8nl18As,3322
+mllb-0.0.1.dist-info/LICENSE,sha256=DU7i00JMMKi3k1RygFHW4-ZT_1UyuzY0ffPU4K_r_q0,1095
+mllb-0.0.1.dist-info/METADATA,sha256=_kFGQN3VMiW67u_bbCYR6dmSChHbufyM-ndVVUC7N5g,3469
+mllb-0.0.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+mllb-0.0.1.dist-info/top_level.txt,sha256=VP43bE6tJmEKPL4q64WRBLgYYxbV5FKzk-FKyyHKumg,5
+mllb-0.0.1.dist-info/RECORD,,

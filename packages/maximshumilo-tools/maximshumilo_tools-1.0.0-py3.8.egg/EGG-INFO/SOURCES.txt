@@ -1,0 +1,11 @@
+README.rst
+setup.cfg
+setup.py
+maximshumilo_tools.egg-info/PKG-INFO
+maximshumilo_tools.egg-info/SOURCES.txt
+maximshumilo_tools.egg-info/dependency_links.txt
+maximshumilo_tools.egg-info/not-zip-safe
+maximshumilo_tools.egg-info/requires.txt
+maximshumilo_tools.egg-info/top_level.txt
+yandex_cloud/__init__.py
+yandex_cloud/object_storage.py

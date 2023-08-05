@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+similar/__init__.py
+similar.py.egg-info/PKG-INFO
+similar.py.egg-info/SOURCES.txt
+similar.py.egg-info/dependency_links.txt
+similar.py.egg-info/top_level.txt

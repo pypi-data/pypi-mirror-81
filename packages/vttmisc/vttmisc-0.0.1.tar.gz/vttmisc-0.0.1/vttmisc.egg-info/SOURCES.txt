@@ -1,0 +1,7 @@
+README.md
+setup.py
+vttmisc.egg-info/PKG-INFO
+vttmisc.egg-info/SOURCES.txt
+vttmisc.egg-info/dependency_links.txt
+vttmisc.egg-info/requires.txt
+vttmisc.egg-info/top_level.txt

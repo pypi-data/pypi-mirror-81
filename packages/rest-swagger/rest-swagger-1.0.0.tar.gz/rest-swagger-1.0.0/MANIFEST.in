@@ -1,0 +1,9 @@
+include README.md
+include LICENSE
+
+global-exclude __pycache__
+global-exclude *.pyc
+global-exclude *.pyo
+
+include rest_swagger/templates/rest_swagger/*.html
+include rest_swagger/static/rest_swagger/*

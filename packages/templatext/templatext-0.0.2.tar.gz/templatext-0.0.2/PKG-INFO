@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: templatext
+Version: 0.0.2
+Summary: Text preprocessing template for NLP.
+Home-page: https://github.com/jaimeteb/templatext
+Author: Jaime Tenorio
+Author-email: jaimeteb@gmail.com
+License: MIT
+Download-URL: https://github.com/jaimeteb/templatext/archive/v0.0.2.tar.gz
+Description: UNKNOWN
+Keywords: nlp,preprocessing,text
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8

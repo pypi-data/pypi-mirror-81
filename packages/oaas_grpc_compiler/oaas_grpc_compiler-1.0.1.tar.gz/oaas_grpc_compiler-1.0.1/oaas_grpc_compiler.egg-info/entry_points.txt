@@ -1,0 +1,3 @@
+[console_scripts]
+oaas-grpc-compiler = oaas_grpc_compiler.mainapp:main
+

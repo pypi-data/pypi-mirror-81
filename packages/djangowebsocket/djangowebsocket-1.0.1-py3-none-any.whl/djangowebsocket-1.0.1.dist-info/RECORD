@@ -1,0 +1,13 @@
+djangowebsocket/__init__.py,sha256=15qZthCfywPwzkCUIPO7fDOm0yL1G_7uoamGUBxMtwk,391
+djangowebsocket/asgi.py,sha256=NqbAL22942k6sIu1tXxIzi2_N5TbisYcQHGF5CO4U68,618
+djangowebsocket/client.py,sha256=VtSGiXO2m4qseUmcLNRE6vobak9X979lIdzjJSzikeY,257
+djangowebsocket/middleware.py,sha256=JpAR-wGpW724Tct_pybhaTvkU0lwRZOacIBd6-9Sgo0,615
+djangowebsocket/request.py,sha256=biEnVck5-d41qcGZiHe22VvA2KCbEibvyXxCiaZpOsk,1167
+djangowebsocket/response.py,sha256=1FgBjG_N19_MPpbvrTHYLp_WrzwZubzlnnI39J7CaPo,1577
+djangowebsocket/urls.py,sha256=jH_jMGNRJBqinUiSoq6RZPAoLmHQ-aHRYmNCCuH5B_c,403
+djangowebsocket/websocket.py,sha256=wS9URD1YBpGsXTWrm3HAsrxpFXTmSJwW_9UgIFLbZpM,1634
+djangowebsocket-1.0.1.dist-info/LICENSE,sha256=jyUBhInW_g3sNKNSMUw43BRiR7feZXNXkPQ5ipKvqEs,1108
+djangowebsocket-1.0.1.dist-info/METADATA,sha256=aOqy69uwfV09gOLIqMTf_KVofpF0vCqkVGkMyhtJHQU,3259
+djangowebsocket-1.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+djangowebsocket-1.0.1.dist-info/top_level.txt,sha256=yYmtdkLsOx3GnORVkJBPLO4q2xOD7R7KXRapLaUut_E,16
+djangowebsocket-1.0.1.dist-info/RECORD,,

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: nlcontrol
+Version: 1.0.0
+Summary: A toolbox to simulate and analyse nonlinear systems in a control context.
+Home-page: https://github.ugent.be/jjuchem/nlcontrol
+Author: Jasper Juchem
+Author-email: Jasper.Juchem@UGent.be
+License: UNKNOWN
+Requires-Dist: numpy (>=1.17.0)
+Requires-Dist: scipy (>=1.3.0)
+Requires-Dist: sympy (>=1.4.0)
+Requires-Dist: control (>=0.8.1)
+Requires-Dist: simupy (>=1.0.0)
+Requires-Dist: matplotlib (>=3.1.1)
+
+# NLCONTROL - Nonlinear Control toolbox
+
+

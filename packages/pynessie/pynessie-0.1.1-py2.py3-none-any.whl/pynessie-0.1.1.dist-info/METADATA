@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: pynessie
+Version: 0.1.1
+Summary: Project Nessie: A Git-like Experience for your Data Lake
+Home-page: https://github.com/projectnessie/nessie
+Author: Ryan Murray
+Author-email: rymurr@dremio.com
+License: Apache Software License 2.0
+Keywords: pynessie
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+Requires-Dist: Click (>=7.0)
+Requires-Dist: requests
+Requires-Dist: simplejson
+Requires-Dist: confuse
+Requires-Dist: desert
+Requires-Dist: marshmallow
+Requires-Dist: marshmallow-oneofschema
+Requires-Dist: attrs
+
+=============================
+Python API and CLI for Nessie
+=============================
+
+Nessie is a system to provide Git like capability for Iceberg Tables, Delta Lake Tables, Hive Tables and Sql Views.
+
+More information can be found at [projectnessie.org](https://projectnessie.org).
+
+=======
+History
+=======
+
+0.1.1 (2020-10-01)
+------------------
+
+* First release on PyPI.
+
+

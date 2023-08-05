@@ -1,0 +1,8 @@
+primality/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+primality/miller.py,sha256=-Czh2hNdIVVxKxvLISNP5HisokvTQwgy-tchx4qOTuA,687
+primality/primality.py,sha256=FWKD2lWzoKdmVyBmMYeBzPIjVHUpJP2jKw437k_rN7g,2464
+primality-0.0.4.dist-info/LICENSE,sha256=SPLZC12k6sJQZRZ7IEGlM9230LbV31uXPCZBI2qfi4E,1080
+primality-0.0.4.dist-info/METADATA,sha256=e2Vwis0LiVvxZjElOQlwCJKXlN3XykxJ4Zc-QZB-4gs,1299
+primality-0.0.4.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+primality-0.0.4.dist-info/top_level.txt,sha256=fjb7HO8EQ8V5j-SXDBuw1WhO9Yza9ndfsCkvl5nE7HA,10
+primality-0.0.4.dist-info/RECORD,,

@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: jojo-hsg
+Version: 0.1
+Summary: Welcome Stand Users
+Home-page: https://github.com/harisriguhan-facetagr/jojo
+Author: Harisriguhan Sivakumar
+Author-email: harisriguhan.s@facetagr.com
+License: LICENSE.txt
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+Requires-Dist: setuptools (>=45.2.0)
+Provides-Extra: dev
+Requires-Dist: pytest (>=3.7) ; extra == 'dev'
+
+# Jojo
+
+package that shows the popular dialogue of dio,jotaro and joseph
+
+## Installation
+
+run the following line in your terminal
+
+````
+pip3 install jojo
+
+````
+if you want to do some development with this package execute the command below
+
+```
+pip install -e .[dev]
+
+```
+## Usage 
+
+
+```
+import dio
+
+import jotaro
+
+import joseph
+```
+

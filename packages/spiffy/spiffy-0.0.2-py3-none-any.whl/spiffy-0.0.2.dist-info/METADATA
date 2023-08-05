@@ -1,0 +1,126 @@
+Metadata-Version: 2.1
+Name: spiffy
+Version: 0.0.2
+Summary: Space Interferometer Python Framework
+Home-page: https://github.com/arthurpreis/spiffy
+Author: Arthur Reis
+Author-email: arpereis@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: adodbapi
+Requires-Dist: apptools
+Requires-Dist: argon2
+Requires-Dist: async-generator
+Requires-Dist: attr
+Requires-Dist: backcall
+Requires-Dist: bleach
+Requires-Dist: certifi
+Requires-Dist: cffi
+Requires-Dist: chardet
+Requires-Dist: colorama
+Requires-Dist: dateutil
+Requires-Dist: defusedxml
+Requires-Dist: docutils
+Requires-Dist: envisage
+Requires-Dist: idna
+Requires-Dist: ipykernel
+Requires-Dist: IPython
+Requires-Dist: ipython-genutils
+Requires-Dist: isapi
+Requires-Dist: jedi
+Requires-Dist: jinja2
+Requires-Dist: json5
+Requires-Dist: jsonschema
+Requires-Dist: jupyterlab
+Requires-Dist: jupyterlab-pygments
+Requires-Dist: jupyterlab-server
+Requires-Dist: jupyter-client
+Requires-Dist: jupyter-core
+Requires-Dist: keyring
+Requires-Dist: markupsafe
+Requires-Dist: matplotlib
+Requires-Dist: mayavi
+Requires-Dist: mpmath
+Requires-Dist: nbclient
+Requires-Dist: nbconvert
+Requires-Dist: nbformat
+Requires-Dist: nose
+Requires-Dist: notebook
+Requires-Dist: numpy
+Requires-Dist: packaging
+Requires-Dist: parso
+Requires-Dist: PIL
+Requires-Dist: pip
+Requires-Dist: pkginfo
+Requires-Dist: pkg-resources
+Requires-Dist: prometheus-client
+Requires-Dist: prompt-toolkit
+Requires-Dist: pycparser
+Requires-Dist: pyface
+Requires-Dist: pygments
+Requires-Dist: PyQt5
+Requires-Dist: pyrsistent
+Requires-Dist: readme-renderer
+Requires-Dist: requests
+Requires-Dist: requests-toolbelt
+Requires-Dist: rfc3986
+Requires-Dist: send2trash
+Requires-Dist: setuptools
+Requires-Dist: sympy
+Requires-Dist: terminado
+Requires-Dist: testpath
+Requires-Dist: tornado
+Requires-Dist: tqdm
+Requires-Dist: traitlets
+Requires-Dist: traits
+Requires-Dist: traitsui
+Requires-Dist: tvtk
+Requires-Dist: twine
+Requires-Dist: urllib3
+Requires-Dist: vtkmodules
+Requires-Dist: wcwidth
+Requires-Dist: webencodings
+Requires-Dist: wheel
+Requires-Dist: win32com
+Requires-Dist: win32ctypes
+Requires-Dist: winpty
+Requires-Dist: zmq
+
+# SPIFFY
+Space Interferometer Python Framework
+A collection of tools to visualize, calculate and simulate GW spatial interferometers.
+
+## How does it work
+
+This library integrates the following Python libraries:
+- Sympy: uses the Vector and ReferenceFrame utilities. In the future may use CAS.
+- Numpy: number crunching and used by mayavi.
+- Mayavi: 3d visualization of orbits.
+- Matplotlib: other useful visualizations.
+
+Plus the theoretical framework of:
+- Orbital mechanics;
+- Gravitational wave signals;
+- Time-Delay Interferometry.
+
+
+
+## Installation
+
+See `requirements.txt` for a list of requirements. Some are not straightfoward to install and may required additional tools (such as VS toolkit).
+
+## Using:
+
+At the time, only circular orbits are defined.
+
+

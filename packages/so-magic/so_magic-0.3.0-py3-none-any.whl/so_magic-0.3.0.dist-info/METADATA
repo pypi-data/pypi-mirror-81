@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: so-magic
+Version: 0.3.0
+Summary: library
+Home-page: UNKNOWN
+License: GNU GPLv3
+Keywords: unsupervised learning,self-organizing map
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
+Requires-Dist: attrs
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: somoclu
+
+TODO long description
+
+

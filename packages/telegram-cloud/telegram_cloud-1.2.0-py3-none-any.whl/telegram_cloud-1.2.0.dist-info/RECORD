@@ -1,0 +1,12 @@
+telegramcloud/__main__.py,sha256=2vjpy3QkmyrJCaE7qTzkCE5yHTzGzSCxclhAZZ8Kj3U,1655
+telegramcloud/add_session.py,sha256=sM7cld1594OVWv3GRJ1lrSLvcrHaSP_kfx3kPhrdpx0,678
+telegramcloud/telegram_config.py,sha256=0DHGnrrTC6qykHJzTOY6AJDde59zJK5T648sPDS1OTA,1589
+telegramcloud/scripts/tginfo.py,sha256=k08E11Ign3NZKFYdu_03nPCBsEV7idA3KwL1eRtTZQk,2525
+telegramcloud/utils/args.py,sha256=5jSW4VhwinhdHW04Sc7QyZ7YFS_d0_zgZ70FS4Ji1NU,1189
+telegramcloud/utils/utils.py,sha256=y9ldhOt1fnIDCS6GgK-aGQ7WyhCqCUAoSORZyuW4u8c,778
+telegram_cloud-1.2.0.dist-info/LICENSE,sha256=DNRc2pWyLaSxHxhsWK0CGO7fpTiD3PDNmNpQYs7DpYY,1070
+telegram_cloud-1.2.0.dist-info/METADATA,sha256=5iD7wl2pF_Apg4m6qqquVu8IWd-HKDQAfRUYdcDlYJk,7637
+telegram_cloud-1.2.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+telegram_cloud-1.2.0.dist-info/entry_points.txt,sha256=aNIZM9OoRffRQg1HxMJZIcqUUEFMHj21hvi4QXguTQY,138
+telegram_cloud-1.2.0.dist-info/top_level.txt,sha256=eB063ALnxuvpPHOJb-wJdmlnnUq7gCNeoSl5EfEd9Fs,14
+telegram_cloud-1.2.0.dist-info/RECORD,,

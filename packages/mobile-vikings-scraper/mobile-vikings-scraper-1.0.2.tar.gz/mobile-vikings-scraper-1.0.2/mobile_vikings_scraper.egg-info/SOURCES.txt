@@ -1,0 +1,8 @@
+README.md
+setup.py
+mobile_vikings_scraper.egg-info/PKG-INFO
+mobile_vikings_scraper.egg-info/SOURCES.txt
+mobile_vikings_scraper.egg-info/dependency_links.txt
+mobile_vikings_scraper.egg-info/requires.txt
+mobile_vikings_scraper.egg-info/top_level.txt
+mobilevikings_scraper/__init__.py

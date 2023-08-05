@@ -1,0 +1,109 @@
+Metadata-Version: 2.1
+Name: zeitsprung
+Version: 0.1.0
+Summary: Scraper for www.zeitsprung.fm, a great history podcast.
+Home-page: https://github.com/munterfinger/zeitsprung
+Author: Merlin Unterfinger
+Author-email: info@munterfinger.ch
+License: MIT license
+Keywords: zeitsprung
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+Requires-Dist: beautifulsoup4
+Requires-Dist: pandas
+Requires-Dist: pydub
+Requires-Dist: requests
+
+.. image:: https://raw.githubusercontent.com/munterfinger/zeitsprung/master/docs/_static/logo.svg
+   :width: 120 px
+   :alt: zeitsprung.fm
+   :align: right
+
+==========
+zeitsprung
+==========
+
+.. image:: https://img.shields.io/pypi/v/zeitsprung.svg
+        :target: https://pypi.python.org/pypi/zeitsprung
+
+.. image:: https://github.com/munterfinger/zeitsprung/workflows/build/badge.svg
+        :target: https://github.com/munterfinger/zeitsprung/actions?query=workflow%3Abuild
+
+.. image:: https://readthedocs.org/projects/zeitsprung/badge/?version=latest
+        :target: https://zeitsprung.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
+
+.. image:: https://pyup.io/repos/github/munterfinger/zeitsprung/shield.svg
+        :target: https://pyup.io/repos/github/munterfinger/zeitsprung/
+        :alt: Updates
+
+.. image:: https://codecov.io/gh/munterfinger/zeitsprung/branch/master/graph/badge.svg
+        :target: https://codecov.io/gh/munterfinger/zeitsprung
+
+This package provides a scraper for www.zeitsprung.fm, a great history podcast.
+To get the metadata of all episodes from the website, simply start the scraper::
+
+    from zeitsprung.scraping import Scraper
+    s = Scraper('path/to/folder/for/database')
+    s.run()
+
+The scraper then downloads the all episode metadata and audio files. The metadata is written to the 'meta' table in the
+database. The audio files are converted to '.wav' files and saved separately to a folder, while a link to the file is
+stored in the 'audio' table in the database.
+
+To access the data, create a SQLiteEngine::
+
+    from zeitsprung.database import SQLiteEngine
+    db = SQLiteEngine('path/to/folder/for/database/zeitsprung.db')
+
+Query the meta data from the database::
+
+    db.query_all_meta()
+
+And the audio file paths and meta data::
+
+    db.query_all_audio()
+
+Now have fun with analysing the episodes of zeitsprung!
+
+Features
+--------
+
+* Scraper class to download the meta data and audio files of all episodes.
+* Database class to setup and access the SQLite database containing the meta data of the episodes.
+
+To Do
+-----
+
+* Processing class to conduct speech recognition on the audio files and build an index for clustering the topics.
+* Visualize up to date statistics.
+
+References
+----------
+
+* https://www.zeitsprung.fm, check it out!
+* This package is licensed under MIT, see the LICENSE file for details.
+
+
+=======
+History
+=======
+
+0.1.0 (2020-09-22)
+------------------
+
+* First release on PyPI.
+* Scraper class to download the meta data and audio files of all episodes.
+* Database class to setup and access the SQLite database containing the meta data of the episodes.
+* Documentation using readthedocs: https://zeitsprung.readthedocs.io/en/latest/
+* Github action for building and testing the package.
+* Coverage tests using codecov.io.
+
+

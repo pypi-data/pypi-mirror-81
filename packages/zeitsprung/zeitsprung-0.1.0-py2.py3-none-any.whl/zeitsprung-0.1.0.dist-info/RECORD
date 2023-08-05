@@ -1,0 +1,10 @@
+zeitsprung/__init__.py,sha256=KzuDqTnJpV_m-2VvnK3JZ-BIVuQd-TjsdqNU2NvV21A,136
+zeitsprung/base.py,sha256=A2js_NjX8j-kbWyuEQyWqsqL2sZPHbMnVxiwBqeQdf0,636
+zeitsprung/database.py,sha256=m0w6NU41TnNye_lTlv14YyVCc8Mq49MmwWBu0ev4dQM,6078
+zeitsprung/scraping.py,sha256=K_Kq-v04ZgUHs3QgASLGkUjTvQd3bHDYRLKfOMNMc-k,6805
+zeitsprung-0.1.0.dist-info/AUTHORS.rst,sha256=To6jsG0US0gYQVjJupNdCtEH1S4eF7kb51XAkEW0oiE,451
+zeitsprung-0.1.0.dist-info/LICENSE,sha256=rDTbLxBGOklt-seIObl9jUMErQ_oOY-sRL2oRGEeYjU,1076
+zeitsprung-0.1.0.dist-info/METADATA,sha256=zvZGBJiNK0mJS2k4M3zoRB2ceOYt_P6t_2VOPS84MVw,3566
+zeitsprung-0.1.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+zeitsprung-0.1.0.dist-info/top_level.txt,sha256=WBz-acpA28gDBjARcYrqWThizPOqQ9N5hWBDdvPGxts,11
+zeitsprung-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,14 @@
+pymsis/__init__.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+pymsis/msis.py,sha256=kEKdF0TUxduu9JHlY5cWY4GKLMQLqDHIFn6SHcKffJI,7802
+pymsis/msis00f.cpython-37m-darwin.so,sha256=p25Byy8bRDVdlFK32z2yiT_lkxECDBde7l58Tj29qI0,185824
+pymsis/msis2.0.parm,sha256=z2Enlq8E9HP8mxRFRgwwqkl83JyZHTUHGQiTV3wSRgI,536576
+pymsis/msis2f.cpython-37m-darwin.so,sha256=lxJWJNDBZySyBbTdamAPzgd5rkPekg0tAMkkGNBvRDo,128048
+pymsis/msis00f.cpython-37m-darwin.so.dSYM/Contents/Info.plist,sha256=ELfi_WbCNA-47RElz5Ao0czTBxIGpdICvQjNVcW6dnQ,658
+pymsis/msis00f.cpython-37m-darwin.so.dSYM/Contents/Resources/DWARF/msis00f.cpython-37m-darwin.so,sha256=pPHHYqp-h9ByAndY9h7d2Tt7dwJ3S_Pod8lHAd_PueQ,249001
+pymsis/msis2f.cpython-37m-darwin.so.dSYM/Contents/Info.plist,sha256=xvfp8g32x4_IR0ylUCXPuJBXrXnYWxiDN86zirX9jXU,657
+pymsis/msis2f.cpython-37m-darwin.so.dSYM/Contents/Resources/DWARF/msis2f.cpython-37m-darwin.so,sha256=mhlH6tc4-6qeqvU2qww2GiBFy-xM1kKRRFIPVCDmdws,157091
+pymsis-0.1.1.dist-info/LICENSE,sha256=_3eysSRx2Avy9qabEr7DlkxzKEXptSXe2pT_Q9AyYgM,1095
+pymsis-0.1.1.dist-info/METADATA,sha256=AdUIhnhwrx6OFExENcdBnKoZeSjIsqYfhTMkYcKSy5o,3200
+pymsis-0.1.1.dist-info/WHEEL,sha256=YiopvuMYSKV6Y-7cdLZE7bZlnCzK-2hOQbHfu5FfM0c,110
+pymsis-0.1.1.dist-info/top_level.txt,sha256=TiYeKYHnA9nfW3aAzoqJpgM341ljEG0AymtrZvFSGeQ,7
+pymsis-0.1.1.dist-info/RECORD,,

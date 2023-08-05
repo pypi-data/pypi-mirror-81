@@ -1,0 +1,13 @@
+gcvspline/__init__.py,sha256=Fns2AxH-heqgOH-AC9nWRH5vLIFqO-JrdWExqVFpaUc,74
+gcvspline/_gcvspl.cp35-win_amd64.pyd,sha256=phN2qlsWRdH4A3TLODD3AuXvhVV3QPaAmtRGtRMVGS4,62464
+gcvspline/gcvspline.py,sha256=DZKwBbQ4CCZJNye3p3Zw0J3WMUPqEdIRphlSpNB8Gms,5798
+gcvspline/gcvspline2.py,sha256=nj96c7ggaDU5MOjTC7fjkxzyvPtVPzblnI0k2M-pxAs,8991
+gcvspline/.libs/libgcvspl.GKTUFZIUDJUQ2AS53XYD4OCXJOCXGCFL.gfortran-win_amd64.dll,sha256=MZOgcdM4i-0nIEMqR9HRaLPouX_wLrA2_VEle4SEmhE,145753
+gcvspline/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gcvspline/tests/test_gcvspline.py,sha256=h0exbHD6bSsgu0_aD6aUdBXnfBSjApSI9Zpx5eCSmrM,1469
+gcvspline/tests/test_gcvspline2.py,sha256=VUxWJSV-OfLc0rqbVyziyHikMdwyT0MPnu3lgtfUhfY,2303
+gcvspline-0.4.dist-info/LICENSE,sha256=YU7RZEL53Vr9Em04p1hI0ly1gQZ0BKEPCEC0qHvrMH8,35872
+gcvspline-0.4.dist-info/METADATA,sha256=9J0Z5Hg9YzJ2LhUHYp5_ohyBnxyJ2QrkfmfdhvYEcU8,385
+gcvspline-0.4.dist-info/WHEEL,sha256=Hl_p6YFYnRki0GSs5gWrqgmE6XiYIYzVoIjhiamNsAA,106
+gcvspline-0.4.dist-info/top_level.txt,sha256=n-tFZPyf4ZeBlIt-0R4nix1IZW5lIBT5OBtr387t5e0,10
+gcvspline-0.4.dist-info/RECORD,,

@@ -1,0 +1,10 @@
+rapidfuzz-0.12.1.dist-info/WHEEL,sha256=UMI7_DT7ycz2RKvaWnk9vUv5UVJ642ARgUR5s8MX0BI,106
+rapidfuzz-0.12.1.dist-info/LICENSE,sha256=B7k0BI6XLQ4j3OOdUbQD3nu6KmYOCcOP9WXyWTM60kY,1082
+rapidfuzz-0.12.1.dist-info/top_level.txt,sha256=Oxm3Kk-v28hdkOkW3AVE1EMl8Ml5FPFl32w6V65shvg,10
+rapidfuzz-0.12.1.dist-info/RECORD,,
+rapidfuzz-0.12.1.dist-info/METADATA,sha256=7eywb0xkf4XKehrciXnovnfE_cLPzNpHsMrXZYpKM8U,5999
+rapidfuzz/process.py,sha256=ZCixPHH6Bh2AEOKNC9lCeaCV-2Ks5X_3b8DrN-XJQAk,7535
+rapidfuzz/levenshtein.cpython-39-i386-linux-gnu.so,sha256=qaSZDVgVuDy4Y6FR7xBOJ4DJdTiHVEcvT8OSw4Fhg6c,1151704
+rapidfuzz/utils.cpython-39-i386-linux-gnu.so,sha256=zxsncKuAbLY_f0Z74DLeGcI1gBld5ixWTT2aeMHLyvs,502088
+rapidfuzz/fuzz.cpython-39-i386-linux-gnu.so,sha256=tQi43_0EnzNgPi6mJD9OrCqLK6crp_VXpNanmuZLpC4,8392488
+rapidfuzz/__init__.py,sha256=Qbb8sAlfeIuBkGFpADUHfOn8kTlyIqofCtgO-bvIID4,166

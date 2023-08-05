@@ -1,0 +1,3 @@
+[console_scripts]
+sharpei = sharpei.cli:main
+

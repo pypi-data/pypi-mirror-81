@@ -1,0 +1,11 @@
+README.md
+setup.py
+sharpei/__init__.py
+sharpei/cli.py
+sharpei/handler.py
+sharpei.egg-info/PKG-INFO
+sharpei.egg-info/SOURCES.txt
+sharpei.egg-info/dependency_links.txt
+sharpei.egg-info/entry_points.txt
+sharpei.egg-info/requires.txt
+sharpei.egg-info/top_level.txt

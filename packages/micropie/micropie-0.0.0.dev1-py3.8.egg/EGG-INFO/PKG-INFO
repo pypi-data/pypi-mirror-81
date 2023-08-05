@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: micropie
+Version: 0.0.0.dev1
+Summary: Async micro-framework to build microservices
+Home-page: https://github.com/gurcuff91/micropie
+Author: Gustavo F. Meneses Pérez
+Author-email: gf.meneses91@gmail.com
+License: GPL-3.0 License
+Description: # Micropie
+        
+        Micropie is a asynchronous micro framework to build microservices inspired by
+        [nameko](https://www.nameko.io/) focused on simplicity configurability and scalability.
+        
+        
+        ### Installing
+        To install *micropie* just run
+        ``` text
+        pip install micropie
+        ```
+        
+        ### Quick start
+        Define your service class
+        ```python
+        class Person:
+            
+            def get_full_name(self):
+                # your function body here ...
+                pass
+        ```
+        
+        Assuming that your class is in file called *person.py* run your service as follow
+        ```text
+        micropie person:Person
+        ```
+        Or from `python` code as
+        ```text
+        micropie.run(Person)
+        ```
+        
+        An output like this is showed if all was okay
+        ```text
+        =======================
+             MICROPIE v0.0.0
+        =======================
+         * pid: 147563
+         * standalone: True
+         * service: person
+         * description: 
+         * instance: 8dea5f67bc2849ff9ec5e7934f5b1ad5
+         * transport: tcp
+         * loop: auto
+         * logs: INFO
+        2020-09-23 18:07:09,063 (micropie.service) [INFO]: STARTED listen on: tcp://0.0.0.0:39523 (Press CTRL+C to quit)
+        ```
+        
+        To read full documentation visit [micropie docs](https://micropie.io/docs)
+        
+Keywords: micropie microservices micro-framework
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Development Status :: 1 - Planning
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Classifier: Framework :: AsyncIO
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

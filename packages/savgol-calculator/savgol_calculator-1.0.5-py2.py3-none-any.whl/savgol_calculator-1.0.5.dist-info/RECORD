@@ -1,0 +1,8 @@
+SGCC/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SGCC/__main__.py,sha256=WQ2wREaADSmBXGczG1MnSRcIs529xoBW2_PadKnkpx8,1788
+SGCC/savgol.py,sha256=4wtkbSZCUgXlMrgofBc6B1EDftR486fAZj-_nsi-6YU,1753
+SGCC/savgol_poly.py,sha256=99pM5dKf0ivul3UGLz_qmWdG27DRUowTEKLgg4socNM,3126
+savgol_calculator-1.0.5.dist-info/METADATA,sha256=lYco8HFPjdazuvAUzsMem6ZOC9zOmqrUL5dzdyFHsPI,4312
+savgol_calculator-1.0.5.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+savgol_calculator-1.0.5.dist-info/top_level.txt,sha256=FXovPPobIA1bLjttioaqNi01BoimzGh_oB_YiUe1KaE,5
+savgol_calculator-1.0.5.dist-info/RECORD,,

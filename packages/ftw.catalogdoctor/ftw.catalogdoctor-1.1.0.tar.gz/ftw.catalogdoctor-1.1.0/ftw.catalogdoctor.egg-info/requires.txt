@@ -1,0 +1,14 @@
+ftw.upgrade
+Plone
+plone.api
+setuptools
+
+[tests]
+ftw.builder
+ftw.testbrowser
+ftw.testing
+plone.app.contenttypes
+plone.app.testing
+plone.testing
+pytz
+zope.configuration

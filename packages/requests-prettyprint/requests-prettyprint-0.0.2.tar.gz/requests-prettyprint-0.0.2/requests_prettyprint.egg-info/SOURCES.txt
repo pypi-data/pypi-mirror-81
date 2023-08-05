@@ -1,0 +1,8 @@
+README.md
+setup.py
+requests-prettyprint/__init__.py
+requests-prettyprint/requests-prettyprint.py
+requests_prettyprint.egg-info/PKG-INFO
+requests_prettyprint.egg-info/SOURCES.txt
+requests_prettyprint.egg-info/dependency_links.txt
+requests_prettyprint.egg-info/top_level.txt

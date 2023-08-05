@@ -1,0 +1,3 @@
+[datasette]
+edit_tables = datasette_edit_tables
+

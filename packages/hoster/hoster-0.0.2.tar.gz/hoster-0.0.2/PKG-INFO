@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: hoster
+Version: 0.0.2
+Summary: hoster is a python module that hosts code
+Home-page: https://github.com/henos1029/hoster
+Author: henos
+Author-email: henos1029@gmail.com
+License: MIT
+Description: # hoster
+        
+        hoster is a python module that hosts code  
+        Usage:  
+        Add this to the end of your code:
+        
+        ```Python
+        import hoster
+        hoster.start(ip=<your ip>, port=<4 digits>)
+        ```
+Keywords: alive,keep alive,henos,host,hoster
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

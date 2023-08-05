@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: recoloradv
+Version: 0.0.1
+Summary: ReColorAdv and other attacks from the NeurIPS 2019 paper "Functional Adversarial Attacks"
+Home-page: https://github.com/cassidylaidlaw/ReColorAdv
+Author: Cassidy Laidlaw
+Author-email: claidlaw@umd.edu
+License: MIT
+Download-URL: https://github.com/cassidylaidlaw/ReColorAdv/archive/0.0.1.tar.gz
+Description: UNKNOWN
+Keywords: adversarial examples,machine learning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9

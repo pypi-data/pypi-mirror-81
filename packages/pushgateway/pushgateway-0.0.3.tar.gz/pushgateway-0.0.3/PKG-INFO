@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pushgateway
+Version: 0.0.3
+Summary: A push gateway sending webthing properties updates to a openhab server
+Home-page: https://github.com/grro/OpenhabWebThingPushGateway
+Author: Gregor Roth
+Author-email: gregor.roth@web.de
+License: MIT
+Description: # OpenhabWebThingPushGateway
+        A push gateway sending webthing properties updates to a openhab server
+        
+        
+Keywords: webthings,home automation,openhab,push,gateway,web socket
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown

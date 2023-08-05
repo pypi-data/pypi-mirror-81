@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: lks
+Version: 0.0.74
+Summary: A Django app with implementation lks project.
+Home-page: https://github.com/63phc/lks
+Author: Pavel Burns
+Author-email: pavel.burns@gmail.com
+License: BSD License
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+
+UNKNOWN
+
+

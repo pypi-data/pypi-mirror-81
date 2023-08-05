@@ -1,0 +1,9 @@
+napari-plugin-engine>=0.1.4
+napari-sentinel-zip
+numpy
+toolz>=0.10
+scikit-image
+numcodecs
+zarr
+tqdm
+dask

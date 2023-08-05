@@ -1,0 +1,7 @@
+
+[:python_version < "3.8"]
+tox>=3.13
+importlib_metadata
+
+[:python_version >= "3.8"]
+tox>=3.15

@@ -1,0 +1,15 @@
+tagit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tagit/configs.py,sha256=Njnq06WUXOgVSAq3Dhjz8AJ_smDc87Bs815msPg-mwU,439
+tagit/dtaglist.py,sha256=LudmJsbdRZ9C0EMt_ZJLV56KHqj30d73HPfGoL_ubns,307
+tagit/exp.py,sha256=57y1zPdc5vAon6iXCSyIjFyaOIV2gG6UHwtBocXFHIA,455
+tagit/main.py,sha256=j9JovZC9ubMARTsNebgPEG-h4zq_8cVYcqjn6oRnRPQ,33498
+tagit/parser.py,sha256=j8TtCHZwdGm1vcsLmVB5nN1uQLiWMP1PF0tFsI5KH4c,301
+tagit/query.py,sha256=Hq3DXGJq3UxN4AplPjtKI1292-6CVeUg0tZrEK7DrLw,9353
+tagit/taglist.py,sha256=2UWpCz5JtXrwhKhUnbcsYtaS9a1Ujv7KE4lzbToL1Es,2561
+tagit/utils.py,sha256=SONet8IK0auwRdM27vcxrBRy7Np-LN7VSiANbJn5iZc,3591
+etagit-0.0.8.dist-info/LICENSE,sha256=cFP2ygiCfjcaBcT6oDt4cFtNKD4wj7McNIZJE3hb58A,1067
+etagit-0.0.8.dist-info/METADATA,sha256=UbprhVXVRT-TOSBjDqCdLHvEvtGiwfaaBJ_ZcRZYBP8,11166
+etagit-0.0.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+etagit-0.0.8.dist-info/entry_points.txt,sha256=g2kgmbTI8A2dHAe61rnckQQ29WLP16Z_ck6k8Px1esI,43
+etagit-0.0.8.dist-info/top_level.txt,sha256=yBTjNjMg3gn5grsIgfbGVMXnHakiwys4_lrB1vWFbLs,6
+etagit-0.0.8.dist-info/RECORD,,

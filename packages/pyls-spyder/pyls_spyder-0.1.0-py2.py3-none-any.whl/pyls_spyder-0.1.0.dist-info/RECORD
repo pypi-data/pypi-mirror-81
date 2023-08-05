@@ -1,0 +1,10 @@
+pyls_spyder/__init__.py,sha256=yrI65eVyB9lxf6P0MyXH-NKJgilGM9i8DyhNzEM2YeQ,436
+pyls_spyder/plugin.py,sha256=L32xT5RRBURFzpt14lH5OIpm2f-D0oPVSZ6ZpgNk4hA,3460
+pyls_spyder/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyls_spyder/tests/test_plugin.py,sha256=2FTg3oEDmjNrxSrm4tJT-w9Pns2a0xmAulVL6KXtR38,1851
+pyls_spyder-0.1.0.dist-info/LICENSE,sha256=wgdBShI0JZmj1LYDy7Fb5pi16Veyiy6mDZHcDloKfgE,1067
+pyls_spyder-0.1.0.dist-info/METADATA,sha256=KXh5WPHT_a-AHUk_hjrQiRY42eqk5H99Ic2QuKUIo2E,969
+pyls_spyder-0.1.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+pyls_spyder-0.1.0.dist-info/entry_points.txt,sha256=tYobQ6la0by_5UPTAJqnIIuKiW_DgkZDtSMvZcMDXpE,41
+pyls_spyder-0.1.0.dist-info/top_level.txt,sha256=mJMViMzXwf-QyXbBRLEtxCsBN-1cjrqWgcqRGM-5OSQ,12
+pyls_spyder-0.1.0.dist-info/RECORD,,

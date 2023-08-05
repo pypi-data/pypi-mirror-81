@@ -1,0 +1,16 @@
+django_tus/__init__.py,sha256=KOKO_rcV_VRBCkcCqiSTe-Br8rJeBotdonzm35tfBTk,215
+django_tus/apps.py,sha256=ugvMH6beiKDU1KJ3NfmYG0ddV-yKw168MLbmWfySkjA,1118
+django_tus/conf.py,sha256=eSx4XiU100Cm0-yzyVCTx4UukjN1-ym29gGoGWWcfqE,1324
+django_tus/errors.py,sha256=5vXvqERJRU8yiz5jDMa9XE0332cgRfkEERwuZZCTaJg,519
+django_tus/response.py,sha256=_Z2pr0Y2QwJt0APaLtiTVWVD7oDZ-nNcsV01PWQD8Xo,1222
+django_tus/signals.py,sha256=cj_ieVURbJU9AJaC_gWJXyFFkELzRV0KLYNIM6fXwPk,247
+django_tus/tus_server.py,sha256=UJ-CS90itAdBSEBFjJEnQ89NzqNZnsLCeNiCNsovZPM,487
+django_tus/tusfile.py,sha256=v43uFMBeoREvDKXlH4ceU_YiUwclmIDmruGkJHE7Ruw,5922
+django_tus/urls.py,sha256=TvHYPsiwOdFDUhSFr7ojksRN5QN4qWIZxULQf40TLzU,65
+django_tus/views.py,sha256=HKIxCgzf5qUNzTo3Hj8Zgck2WnuSnUr7c5ksjJyUJuc,4613
+django_tus-0.5.0.dist-info/AUTHORS.rst,sha256=15cMEaakILs_Zec4Pg61NNbEnBaUKbcFh-7Kx9-O9c4,157
+django_tus-0.5.0.dist-info/LICENSE,sha256=lPO7R3ipgBjKpjx6wuk3Sj9pY7QTgu4HFp2feEGeluM,1076
+django_tus-0.5.0.dist-info/METADATA,sha256=s1mWe8cfEZZXvEQ7ieX3xdW1djoBbwugpqAuPrJHv4M,4440
+django_tus-0.5.0.dist-info/WHEEL,sha256=gxPaqcqKPLUXaSAKwmfHO7_iAOlVvmp33DewnUluBB8,116
+django_tus-0.5.0.dist-info/top_level.txt,sha256=3Va-_or9bbIGsAapb-GlacY-bdyo1Y8cxqaWgHjA5oI,11
+django_tus-0.5.0.dist-info/RECORD,,

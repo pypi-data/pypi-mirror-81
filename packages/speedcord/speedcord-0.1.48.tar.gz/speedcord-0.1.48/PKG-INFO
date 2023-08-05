@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: speedcord
+Version: 0.1.48
+Summary: A simple lightweight discord library
+Home-page: https://github.com/tag-epic/speedcord
+Author: Epic
+License: MIT
+Description: # Speedcord
+        A simple discord API wrapper - without all the bullshit
+        
+        We have a discord! Join us at https://discord.gg/yxrprWz  
+        If you liked the library, feel free to leave a star!  
+        
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

@@ -1,0 +1,9 @@
+cliparse/__init__.py,sha256=hlEcUVd4HgezZIaF4eGJSupnLWRxfWQRc1-I7bhdUfg,4911
+cliparse/__main__.py,sha256=8NmMJoXQul4ysl45qZwgqnfHSUvFqHHAFd6_W8HEkAM,1031
+cliparse/viewer/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cliparse/viewer/simple_table.py,sha256=U4yN9ETPrTfH4YgWAnbZrFiAQkj7Y6pT8Isx0LpcWQA,1359
+cliparse-1.0.0b2.dist-info/LICENSE,sha256=hp8hE-07hXzksyuGl3co0YXwWmtjQf9jl_vs9F8T1mY,1068
+cliparse-1.0.0b2.dist-info/METADATA,sha256=2r5vviiCJcykbNR6zT7qwXQClDHBXJBw7HaKIA1bB-U,6622
+cliparse-1.0.0b2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+cliparse-1.0.0b2.dist-info/top_level.txt,sha256=s8vDNoR3s2tlXodcMLf3CebTnbO1TZ0o-OM38QBRF5Q,9
+cliparse-1.0.0b2.dist-info/RECORD,,

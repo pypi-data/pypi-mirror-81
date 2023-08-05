@@ -1,0 +1,10 @@
+factiva/news/__init__.py,sha256=vHkHY7l3fZQjireOyUmBZ0kyOxx280kIUqIZ2mLVKyY,3872
+factiva/news/bulknews.py,sha256=nhdSw4tyyPSfWYW9nWyjWryVU4TYOx2g3UCrr7BCxew,4621
+factiva/news/snapshot/__init__.py,sha256=Odt_Ggwvb7vwibiR1x4yekJ3iEVD4LY-BoDtkEKMwx0,18029
+factiva/news/snapshot/query.py,sha256=aQg1_rxdwC1Mm6feA7Kce5Mdx18ng1i8n-d-sNpRQRI,3736
+factiva/news/stream/__init__.py,sha256=0GCl5G_9Lmbt5fTFDkPYukPpgNFt-Oh37N0LdzUmCwE,77
+factiva_news-0.1.3.dist-info/LICENSE,sha256=KiFcnQk2kLe_0Hhqt7m82HNkeGG19GHtH53jJ8rd3rQ,1066
+factiva_news-0.1.3.dist-info/METADATA,sha256=rKO0JTE5rdD7hlHGTRXaHMJQ-fUYssXqwpFqWEZ832Y,3172
+factiva_news-0.1.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+factiva_news-0.1.3.dist-info/top_level.txt,sha256=rRttFS9jPX7zYJN5mbjRcd2EUR3rWZ1Uuzu4UQe3YAI,8
+factiva_news-0.1.3.dist-info/RECORD,,

@@ -1,0 +1,14 @@
+genius4/__init__.py,sha256=9zZdvZaKVtrLF69CmapGHx-EAEFHkEBixkby-SUTFbw,25
+genius4/contrib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genius4/contrib/ibm_object_storage_persistor.py,sha256=nUzkvHwoIYLr7w0zcdH6EPxfZr-zx0tLAvyA1FyzAe4,3708
+genius4/magic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genius4/magic/analytic_engine_client.py,sha256=oULMZQBD7W5ZPH6BaDu8yfYBFud5obGC5jdbYhE7MZE,17933
+genius4/magic/functions.py,sha256=nd8SslSAXSQJclZuHIS1RvfscaF9TyCCTOZcatAG3pI,5965
+genius4/sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genius4/sdk/ae_client.py,sha256=zKfOjrsfRyXL55C50czspsgMfT7c48v5m-yzs9_z-EU,36456
+ibmaemagic-0.0.1.dist-info/LICENSE,sha256=jn3VE_Af4il7Q1rrLlghYFKFHSdH6CM_jZ5Ll5ZShU4,1076
+ibmaemagic-0.0.1.dist-info/METADATA,sha256=aA3TuphlSZ_LeazPh9EEHOJgoeRvMSGWQ2BQjBoe6jE,1138
+ibmaemagic-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+ibmaemagic-0.0.1.dist-info/top_level.txt,sha256=EQNuqrFrGKHhm6z8G8v6bSXtjzsNTMnccrKxKHlz2rk,8
+ibmaemagic-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+ibmaemagic-0.0.1.dist-info/RECORD,,

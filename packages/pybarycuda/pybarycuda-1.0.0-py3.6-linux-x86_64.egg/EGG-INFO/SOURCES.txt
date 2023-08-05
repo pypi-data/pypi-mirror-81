@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+include/bary.cuh
+include/barylib.h
+include/geometry.cuh
+pybarycuda/README.md
+pybarycuda/__init__.py
+pybarycuda/api.py
+pybarycuda/core.cpp
+pybarycuda.egg-info/PKG-INFO
+pybarycuda.egg-info/SOURCES.txt
+pybarycuda.egg-info/dependency_links.txt
+pybarycuda.egg-info/top_level.txt
+pybarycuda/lib/libbarycuda.so

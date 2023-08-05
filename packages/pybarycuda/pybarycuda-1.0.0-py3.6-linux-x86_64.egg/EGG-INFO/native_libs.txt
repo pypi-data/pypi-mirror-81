@@ -1,0 +1,2 @@
+pybarycuda/core.cpython-36m-x86_64-linux-gnu.so
+pybarycuda/lib/libbarycuda.so

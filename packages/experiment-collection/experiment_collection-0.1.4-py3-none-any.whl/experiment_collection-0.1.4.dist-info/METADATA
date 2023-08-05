@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: experiment-collection
+Version: 0.1.4
+Summary: Experiment collection
+Home-page: https://github.com/AsciiShell/experiment_collection
+Author: AsciiShell (Aleksey Podchezertsev)
+Author-email: dev@asciishell.ru
+License: MIT
+Keywords: python3
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: Flask (~=1.1.2)
+Requires-Dist: numpy (>=1.16.0)
+Requires-Dist: pandas (~=1.1.2)
+Requires-Dist: requests (~=2.24.0)
+
+# Experiment collection
+
+A set of utilities for storing and organizing experiments
+
+# License
+
+MIT License
+
+Copyright (c) 2020 AsciiShell (Aleksey Podchezertsev)
+

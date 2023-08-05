@@ -1,0 +1,4 @@
+mishmash-rpc-python>=0.0.1
+
+[dev]
+pytest

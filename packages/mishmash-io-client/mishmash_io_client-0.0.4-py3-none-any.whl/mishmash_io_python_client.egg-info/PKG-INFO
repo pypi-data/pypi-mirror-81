@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: mishmash-io-python-client
+Version: 0.0.1
+Summary: mishmash-common  gRPC client service
+Home-page: https://mishmash.io
+Author: mishmash.io
+Author-email: info@mishmash.io
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Provides-Extra: dev

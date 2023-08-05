@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: sharpei
+Version: 0.2.0
+Summary: Watchdog to sync file changes to AWS S3
+Home-page: https://github.com/polymathian/sharpei
+Author: Polymathian
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: System :: Archiving
+Classifier: Typing :: Typed
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: boto3 (==1.13.16)
+Requires-Dist: click (==7.1.2)
+Requires-Dist: watchdog (==0.10.2)
+
+# Sharpei
+
+Python watchdog to sync file changes to AWS S3
+
+Requires Python 3.6+
+
+## Usage
+
+Install from [PyPI](https://pypi.org/project/sharpei/)
+
+```bash
+pip install sharpei
+```
+
+#### CLI
+```bash
+# Monitor the current directory and send all files
+> sharpei . s3://bucket/key-prefix/
+```
+
+Use `sharpei --help` to discover additional options
+
+

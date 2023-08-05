@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: bazze-json-logger
+Version: 0.0.1
+Summary: Simple tool for standardizing logging to JSON.
+Home-page: UNKNOWN
+Author: Jason Haas
+Author-email: jason@bazze.io
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Requires-Dist: python-json-logger
+
+UNKNOWN
+
+

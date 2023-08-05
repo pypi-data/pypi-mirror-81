@@ -1,0 +1,14 @@
+spm12/__init__.py,sha256=ZyHsyccxVDG5zv_vQVjkFPJxC6DBxwsTwo4lS07Twgw,59
+spm12/coreg_spm_m.m,sha256=haENAkpU_ln-xH6hYF9JVwWxwA_dOhah4AkyNgSM6C0,775
+spm12/regseg.py,sha256=9SO8YixVaFePzlV7UPUAw0-xx66XI4UVgksel6T8k8w,15589
+spm12/resample_spm_m.m,sha256=A3F45nsRGR8RjXnJYGpQj44xwNI9Sfe7kXlH0QMgyGI,640
+spm12/utils.py,sha256=HI2EXJk8GWODov6-q_l27MuXhdsOIasStWthZ0ROUQ4,2109
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__main__.py,sha256=DovyIW7ZARyhKP0kY5ZM0AA5PGP42dom2kEQUGN7tAk,364
+tests/test_regseg.py,sha256=jS_ssX5lVasPa4Gjh2TLvKMUObfRRr7iCNAy51LuoeA,2119
+tests/test_utils.py,sha256=3b9n-VR-xqOcSe3DaFEu_14jtyyTBM9L5xuPdY925mw,341
+spm12-0.0.2.dist-info/LICENCE.md,sha256=gxq_ZuT-4b6-cjp--rSrTZl-0isuumL14nvwPzY3_Gk,547
+spm12-0.0.2.dist-info/METADATA,sha256=IoCGOP9iBe7JL7AOv91KHxhZNK14ZaNkCY4jT5o2SdY,1550
+spm12-0.0.2.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+spm12-0.0.2.dist-info/top_level.txt,sha256=apJVqGnEEoN0FbtgJ2h6sDAR8_zV-bOnT5VfKqksh-o,12
+spm12-0.0.2.dist-info/RECORD,,

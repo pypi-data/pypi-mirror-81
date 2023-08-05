@@ -1,0 +1,16 @@
+pytest_postgresql/__init__.py,sha256=Kqam5gboniBIwqCnv_JsE-hmvK9N2CHvl9T1Ug5v-f8,1024
+pytest_postgresql/compat.py,sha256=diT5a-2uk5PgfWGgDYkzNOfp0PbGMD83G-cbhYrb8yM,644
+pytest_postgresql/executor.py,sha256=4M4QgN0Jx3VSXcU6yowgyPiDHDjRWW2fDClJQD-N22Q,8791
+pytest_postgresql/executor_noop.py,sha256=hETXAq8s2JOIaYpyKFFEFTIQNdUg9EhUfZEFVNrm6GI,2586
+pytest_postgresql/factories.py,sha256=DBmRTTn_fkJfzKlQGp1b0urPYGkUOb9fMlNipm4dcKo,9855
+pytest_postgresql/janitor.py,sha256=tQh80lljBkK7Lue9-WkWDeY5vQfessLw47pcGQ1Fpnc,3159
+pytest_postgresql/plugin.py,sha256=CeXUdiMb9pJaxpfjKoo3Uz3If3HgjRZ4Z7vKOU-CsBk,4690
+pytest_postgresql/port.py,sha256=uKmAxBz89_Yzys4HFCYlAicnb_eIEKGUkLdSmuzI6X4,3072
+pytest_postgresql-2.5.1.dist-info/AUTHORS.rst,sha256=77pe0FlHsdTiRJTZa2L7ML4W5rO7st5ps-aKk7_Dm5U,385
+pytest_postgresql-2.5.1.dist-info/COPYING,sha256=xTplwv1WHIfqq_EHLvXcq4ZTBCvBUwhGX1JBNYXrYnE,35146
+pytest_postgresql-2.5.1.dist-info/COPYING.lesser,sha256=6or154nLLU6bELzjh0mCreFjt0m2v72zLi3yHE0QbeE,7650
+pytest_postgresql-2.5.1.dist-info/METADATA,sha256=NzrT0cf6uV2dJ6c-V8WMMaDDMQDCSXl8apkjRK1t4Uw,14419
+pytest_postgresql-2.5.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pytest_postgresql-2.5.1.dist-info/entry_points.txt,sha256=2m7n0VHq8oEx030qe3QL31_pw6gAZ700gm95_tYc2J0,57
+pytest_postgresql-2.5.1.dist-info/top_level.txt,sha256=MXBNkn-7_RV-QE-fwIUFEOmKkDwOI_kEi9Ed8gTqDoo,18
+pytest_postgresql-2.5.1.dist-info/RECORD,,

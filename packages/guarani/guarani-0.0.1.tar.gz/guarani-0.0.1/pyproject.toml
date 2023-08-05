@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "guarani"
+version = "0.0.1"
+description = "Modern web protocols for authentication, authorization and identity in Python."
+authors = ["Eduardo Ribeiro Rezende <eduardorbr7@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/revensky/guarani"
+repository = "https://github.com/revensky/guarani.git"
+keywords = ["JOSE", "JWS", "JWE", "JWK", "JWT"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+packages = [{ include = "guarani", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+cryptography = "^3.1.1"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.6.0"
+black = "^20.8b1"
+rstcheck = "^3.3.1"
+sphinx = "^3.2.1"
+sphinx_rtd_theme = "^0.5.0"
+
+[build-system]
+requires = ["poetry>=1.0.10"]
+build-backend = "poetry.masonry.api"

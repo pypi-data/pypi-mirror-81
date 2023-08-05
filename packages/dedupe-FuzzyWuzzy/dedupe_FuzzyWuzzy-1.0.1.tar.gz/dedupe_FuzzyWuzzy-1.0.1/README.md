@@ -1,0 +1,27 @@
+# dedupe-FuzzyWuzzy
+Deduplication of a data set using rapidfuzz library which is just the same as FuzzyWuzzy but is a lot faster.
+
+# Installation
+pip install dedupe-FuzzyWuzzy
+
+# Basic Usage
+It is very simple to use, you just have to import the library and pass the dataframe in dedupeFuzzy along with a list of columns which will be used for deduplication and thershold for how strict you want the criteria to be .
+A higher threshold will be strict in matching and will give you less matches whereas a lower threshold will give you more matches .
+I would suggest you have a look at fuzzywuzzy's doc to understand this better
+
+### Deduplication
+
+    import pandas as pd
+    import dedupe_FuzzyWuzzy
+
+    #load dataframe
+    df = pd.read_csv('messy.csv')
+
+    #initiate deduplication
+    df_1 = dedupe_FuzzyWuzzy.deduplication(df,['Site name','Address'],threshold=90,scorer=fuzz.token_set_ratio)
+
+    #send output to csv
+    df_1.to_csv('dedupeOutput.csv')
+
+# Credits
+ This would have not been possible without the rapidfuzz package whose author is @maxbachmann, so kudos to you !

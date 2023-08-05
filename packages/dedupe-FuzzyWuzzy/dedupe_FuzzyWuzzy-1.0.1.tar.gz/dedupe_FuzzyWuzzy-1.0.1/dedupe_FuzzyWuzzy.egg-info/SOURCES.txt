@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+dedupe_FuzzyWuzzy/deduplication.py
+dedupe_FuzzyWuzzy.egg-info/PKG-INFO
+dedupe_FuzzyWuzzy.egg-info/SOURCES.txt
+dedupe_FuzzyWuzzy.egg-info/dependency_links.txt
+dedupe_FuzzyWuzzy.egg-info/not-zip-safe
+dedupe_FuzzyWuzzy.egg-info/requires.txt
+dedupe_FuzzyWuzzy.egg-info/top_level.txt

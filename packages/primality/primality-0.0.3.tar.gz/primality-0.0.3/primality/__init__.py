@@ -1,0 +1,1 @@
+from primality import isprime, nthprime, prange

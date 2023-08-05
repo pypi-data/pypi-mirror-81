@@ -1,0 +1,7 @@
+aws_session_management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_session_management/aws_session_management.py,sha256=N7a6TY4QdC8mxKKLo2RBfjWw_Zx5TvcCTNZ618kVg60,4521
+aws_session_management-0.0.1.dist-info/LICENSE,sha256=YHmiArpSIWOxRTLY1YzU9PnoFudNy3JZasmcjlaFv78,1054
+aws_session_management-0.0.1.dist-info/METADATA,sha256=aAx6ivjyubbFgPVenLgLcLWYLKNObg_OwyDfPdwFa_w,2508
+aws_session_management-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+aws_session_management-0.0.1.dist-info/top_level.txt,sha256=-uoAJ2193irlwEvAdZeJBkreY0ewFOBePEljRnkSZdY,23
+aws_session_management-0.0.1.dist-info/RECORD,,

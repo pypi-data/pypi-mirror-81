@@ -1,0 +1,12 @@
+README.md
+setup.py
+SoundsLike/DictionaryTools.py
+SoundsLike/Example.py
+SoundsLike/FuzzyTerm.py
+SoundsLike/SoundsLike.py
+SoundsLike/__init__.py
+SoundsLike.egg-info/PKG-INFO
+SoundsLike.egg-info/SOURCES.txt
+SoundsLike.egg-info/dependency_links.txt
+SoundsLike.egg-info/requires.txt
+SoundsLike.egg-info/top_level.txt

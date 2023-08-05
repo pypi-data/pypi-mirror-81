@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: brworkittools
+Version: 0.0.6
+Summary: A python package for avoid repetitions
+Home-page: https://github.com/brworkit/brworkit-tools.git
+Author: brworkit
+Author-email: brworkit@gmail.com
+License: UNKNOWN
+Description: # brworkit-tools
+        
+        ## Description
+        A python package for avoid repetition of code.
+        
+        # Install
+            pip install brworkittools
+        
+        # Usage example
+        
+        ## PyPi
+        
+        [brworkit](https://pypi.org/project/brworkit)
+        
+        ## Author
+        
+        [**2020 brworkit**](https://github.com/mtools).
+        
+        ## License
+        [MIT License.](https://opensource.org/licenses/MIT)
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

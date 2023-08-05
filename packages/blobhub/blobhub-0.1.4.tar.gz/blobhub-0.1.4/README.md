@@ -1,0 +1,106 @@
+# BlobHub Python SDK 
+
+## Overview 
+
+BlobHub is a service offering versioned storage of structured data.     
+
+**BlobHub SDK** provides developers with convenient access to the functionality of **BlobHub** platform.
+
+## BlobHub Portal 
+
+### Registration 
+
+Free [BlobHub](https://blobhub.io/) account needs to be created in order to make use of the SDK.
+
+Follow these steps to get started with **BlobHub**:
+ 
+  1. Create free BlobHub account at:  
+     [https://blobhub.io/](https://blobhub.io/)
+  2. Create new organization to store your blobs:   
+     [https://blobhub.io/p/me/org/create](https://blobhub.io/p/me/org/create)
+  3. Create blob of desired type (see the section on **Presets** library below for examples).      
+  4. Under blob's Settings create API key with **write** access to the blob. 
+  
+### Access Control   
+
+Some of the principles in the foundation of **BlobHub** access model: 
+
+  - Blob (and organization holding it) can remain **private** until it is ready to be exposed for public consumption. 
+  - Private Blobs can be shared with **BlobHub** members directly.   
+  - API keys provide ability to enable mutable access to blob data (via API and SDK).   
+
+### Blob Types
+
+Blob type defines the structure of the data stored within the blob.
+It also determines the set of available operations.  
+
+The following blob types are supported at the moment:
+
+  - **ONNX Model**   
+    Provides storage of deep neural network computational graphs in [ONNX](https://onnx.ai/) format. 
+
+## Installation 
+
+To install, use:
+
+```bash
+pip install blobhub
+``` 
+
+## Usage
+
+### Authentication
+
+Use the following snippet to get access to the blob:
+
+```python
+from blobhub.blob import Blob, Revision
+
+blob = Blob(
+    org_id="<< organization alias or id >>", 
+    blob_id="<< blob alias or id >>", 
+    api_key="<< API key from blob settings >>")
+revision = blob.revisions.latest()
+assert blob[Blob.FIELD_STATUS] == Blob.STATUS_READY
+assert revision[Revision.FIELD_STATUS] == Revision.STATUS_READY
+assert revision[Revision.FIELD_PHASE] == Revision.PHASE_DRAFT
+```
+
+## Presets Library 
+
+Presets library is created to simplify operating with blobs of various types (ONNX, OrientDB Graph, etc.). 
+
+### ONNX Module 
+
+**ONNX Model** blobs are designed to store deep neural network models exported in [ONNX](https://onnx.ai/) format. 
+
+Follow these steps to make use of the module: 
+
+  - Initialize preset:
+
+```python
+from blobhub.presets.onnx import Onnx, Model
+
+onnx = Onnx(revision=revision)
+``` 
+
+  - Upload local model:  
+
+```python
+local_model = Model.from_local_file(onnx=onnx, path="/path/to/local/model.onnx")
+success = onnx.upload(model=local_model)
+assert True == success
+```
+
+  - Download model:  
+
+```python
+downloaded_model = onnx.download()
+assert None != downloaded_model
+```
+
+  - (Optional) Confirm that downloaded model is identical to the original one: 
+
+```python
+assert downloaded_model.is_identical(model=local_model)
+```

@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: geocurrency
+Version: 0.3.0
+Summary: Services for conversions
+Home-page: https://www.geocurrency.me
+Author: Frédéric MEUROU
+Author-email: fm@peabytes.me
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Requires-Python: >3.8.0

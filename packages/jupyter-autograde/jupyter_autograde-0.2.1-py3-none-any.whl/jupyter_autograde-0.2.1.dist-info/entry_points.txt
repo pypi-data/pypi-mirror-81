@@ -1,0 +1,3 @@
+[console_scripts]
+autograde = autograde.__main__:cli
+

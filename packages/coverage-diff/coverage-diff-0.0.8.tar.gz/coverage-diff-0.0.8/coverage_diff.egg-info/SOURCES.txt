@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+coverage_diff/__init__.py
+coverage_diff/__main__.py
+coverage_diff/main.py
+coverage_diff.egg-info/PKG-INFO
+coverage_diff.egg-info/SOURCES.txt
+coverage_diff.egg-info/dependency_links.txt
+coverage_diff.egg-info/entry_points.txt
+coverage_diff.egg-info/requires.txt
+coverage_diff.egg-info/top_level.txt

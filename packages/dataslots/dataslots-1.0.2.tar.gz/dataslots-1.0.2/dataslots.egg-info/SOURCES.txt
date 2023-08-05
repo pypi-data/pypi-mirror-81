@@ -1,0 +1,16 @@
+.gitignore
+.travis.yml
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+tox.ini
+dataslots/__init__.py
+dataslots.egg-info/PKG-INFO
+dataslots.egg-info/SOURCES.txt
+dataslots.egg-info/dependency_links.txt
+dataslots.egg-info/requires.txt
+dataslots.egg-info/top_level.txt
+tests/__init__.py
+tests/conftest.py
+tests/test_dataslots.py

@@ -1,0 +1,4 @@
+setuptools>=45.2.0
+
+[dev]
+pytest>=3.7

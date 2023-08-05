@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+test_jojo.py
+src/dio.py
+src/hello.py
+src/joseph.py
+src/jotaro.py
+src/jojo_hsg.egg-info/PKG-INFO
+src/jojo_hsg.egg-info/SOURCES.txt
+src/jojo_hsg.egg-info/dependency_links.txt
+src/jojo_hsg.egg-info/requires.txt
+src/jojo_hsg.egg-info/top_level.txt

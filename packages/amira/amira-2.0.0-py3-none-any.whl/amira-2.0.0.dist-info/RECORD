@@ -1,0 +1,11 @@
+amira/__init__.py,sha256=Mw8VEKTgleC7v42ycBpjogR06reAm9iWCPrskZUSKaQ,126
+amira/amira.py,sha256=6O_-L_aEi3OI6vvHicosG1t2xi4m-aFYLZEsNCRHP5s,4686
+amira/data_processor.py,sha256=9DqgrTtTnPM5JsqdsPNSgiwk4O3YsXO6KagRNYMHxBA,5083
+amira/results_uploader.py,sha256=d21B8aSFGqbzHwUG_SlHFt6Y9lGHYYedM5aoMIl8Bok,911
+amira/s3.py,sha256=hccfPjjm2YHKxRaJJj4eqVFnb7MLpQhcuobYACbUBy0,2327
+amira/sqs.py,sha256=KKkOrIrVX9XigB-tHQqlOg7DsMb09MZgKt_5p0AAGAY,3364
+amira-2.0.0.dist-info/LICENSE.md,sha256=BxXNYPUsubOjq56-UaI63goANAkm_hXadlmmpZ--cEc,1075
+amira-2.0.0.dist-info/METADATA,sha256=1lPHpyA5o4spnQ0wPQGEzJPv8q8EOlx6kQQAwFhGIdk,5155
+amira-2.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+amira-2.0.0.dist-info/top_level.txt,sha256=ZKYsKKG38f3GXyLV77ESo0Fef01uUYQG8Hys7orAytY,6
+amira-2.0.0.dist-info/RECORD,,

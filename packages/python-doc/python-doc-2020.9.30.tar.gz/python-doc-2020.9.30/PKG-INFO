@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: python-doc
+Version: 2020.9.30
+Summary: Open Python docs in the browser.
+Home-page: https://github.com/vinayak-mehta/python-doc
+Author: Vinayak Mehta
+Author-email: vmehta94@gmail.com
+License: Apache 2.0
+Description: # python-doc
+        
+        Open Python docs in the browser.
+        
+        ## Why?
+        
+        - Google still shows Python 2.7 doc links in search results.
+        - Inspiration from `rustup doc` which opens docs associated with the installed Rust toolchain.
+        - You don't need an internet connection to view docs as `python-doc` installs them on your machine.
+        
+        ## Installation
+        
+        You can simply use `pip` to install `python-doc`:
+        
+        ```
+        $ pip install python-doc
+        ```
+        
+        ## Usage
+        
+        You can open the main page associated with _your_ Python version using:
+        
+        ```
+        $ python-doc
+        ```
+        
+        You can also go to a specific module's page using the `-m` option:
+        
+        ```
+        $ python-doc -m os
+        ```
+        
+        If you want to see the docs for a different Python version than your own, you can use the `-py` option:
+        
+        ```
+        $ python-doc -m os -py 3.6
+        ```
+        
+        To open docs on the [docs.python.org](https://docs.python.org/) website, you can use the `-w` option:
+        
+        ```
+        $ python-doc -m os -py 3.6 -w
+        ```
+        
+        To look at all the available options, you can check out the help using:
+        
+        ```
+        $ python-doc --help
+        ```
+        
+        ## Versioning
+        
+        `python-doc` uses [Calendar Versioning](https://calver.org/). For the available versions, see the tags on the GitHub repository.
+        
+        ## License
+        
+        This project is licensed under the Apache License, see the [LICENSE](https://github.com/vinayak-mehta/python-doc/blob/master/LICENSE) file for details.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev

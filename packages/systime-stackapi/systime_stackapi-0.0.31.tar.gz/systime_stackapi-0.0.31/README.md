@@ -1,0 +1,90 @@
+# systime_stackapi
+
+An API for accessing systimes infrastructure services.
+
+# python environment
+
+    pyenv install 3.7.1
+    pyenv virtualenv 3.7.1 stack-api
+    echo "stack-api" > .python-version
+    pip install --upgrade pip
+    pyenv activate stack-api
+    pip install -r requirements.txt
+
+# package
+
+    pip install wheel
+    sudo rm dist
+    sudo python setup.py sdist bdist_wheel
+    pip install --upgrade twine
+    twine upload --repository pypi dist/*    
+
+## upload to pypi
+
+~/.pypirc
+
+    [distutils]
+      index-servers =
+        pypi
+        sysime-stackapi
+    
+    [pypi]
+      username = __token__
+      password = # either a user-scoped token or a project-scoped token you want to set as the default
+    
+    [systime-stackapi]
+      repository = https://upload.pypi.org/legacy/
+      username = __token__
+      password = # a project token 
+      
+`twine --repository systime_stackapi` to switch to the right project before uploading
+
+
+# local test
+
+    python test.py
+
+# usage
+
+    pyenv activate baseline; awsume -a systime; pyenv activate stack-api
+    
+    export SYSTIME_STACK_CLI_KEY_NAME="python-opsserver"
+    export SYSTIME_STACK_CLI_KEY="r8iM#o)moM.RE89;qkKPi2dR;*}ratP&@WZkc7Rn9tX2g6emLV8VNxzwPdN@bwK4"
+    
+    python condemn_to_studybox.py development-stack-2020.eu-west-1.systime.dk tobedeletedklang.systime.dk tobedeletedklang.edupub.dk
+
+    python condemn_to_studybox.py development-stack-2020.eu-west-1.systime.dk tobedeletedklang.systime.dk extratobedeletedklang.edupub.dk
+
+    python salvation_for_the_studybox_sinner.py development-stack-2020.eu-west-1.systime.dk tobedeletedklang.systime.dk 
+    python salvation_for_the_studybox_sinner.py production-stack-2020.eu-west-1.systime.dk alsotobedeletedklang.systime.dk 
+
+    DNS Records will not be removed!
+
+    (stack-api) ➜  scripts git:(master) ✗ python condemn_to_studybox.py development-stack-2020.eu-west-1.systime.dk tobedeletedklang.systime.dk tobedeletedklang.edupub.dk
+    Added "SOLR_MULTI_SITE_INSTALLATION" to FEATURE_FLAGS for installation tobedeletedklang.systime.dk
+    Studybox enabled for tobedeletedklang.systime.dk.
+    Creating DNS record tobedeletedklang.edupub.dk.
+    DNS Record tobedeletedklang.edupub.dk created.
+    Reloading webservers for stack: development-stack-2020
+    Webservers reloaded
+
+# usage via docker
+
+Bare bones Dockerfile supplied here, but is actually used via `git@bitbucket.org:systime/stackapi-local-environment.git`.
+In the context of `stack-api-local-development`, execute the following to get started
+
+    docker-compose build python-api
+
+When the image has been build, add an environment
+    
+    pyenv virtualenv 3.6.8 baseline
+    pyenv activate baseline
+    pyenv global 3.6.8 baseline
+    pip install --upgrade pip
+    pip install awscli awsume
+    awsume iam
+    awsume systime
+    . ./mk-env.sh > .env
+    docker-compose run python-api bash
+    
+    bash-5.0# python scripts/backup_konto.py

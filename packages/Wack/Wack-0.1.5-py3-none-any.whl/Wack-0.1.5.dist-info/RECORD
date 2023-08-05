@@ -1,0 +1,15 @@
+wack/__init__.py,sha256=fqLd43UFirpdQlnwGPRprvngs2umHbmM0C354c7umBg,202
+wack/builders.py,sha256=cjIbvvXuFZjecD2UZZKivGw5w0F0i7fCZPNsaoOjFEc,3548
+wack/cli.py,sha256=bv1Jv6v80Ac1cqaavBTaKnDDciJgny8b_4EEC8Q7Cj8,2999
+wack/core.py,sha256=oQHKsvDiHzIP48JBR5E4wOT8AGieOXVmRhmZrUYJfwE,935
+wack/importing.py,sha256=1o6AqarpLNVoCWs_IPlbTLYm5ge40hkyoZAaX3zMr6o,1265
+wack/templates/pre-commit-config.yaml.jinja2,sha256=KXj1NRp2n7mdlE0Is9cO4pXh6mnMS368Ra2ZdiO__0Q,900
+wack/templates/setup.py.jinja2,sha256=dHKaqWOtpGEnr8LUbjEh5Hx1OKuPh0fq9ZmI9fWxWIY,521
+wack/templates/travis.yml.jinja2,sha256=TydbTWGvcHjQm8owFFlaRx8skQSVTLvUWQHCjsjfyXM,223
+wack/templates/wack.py.jinja2,sha256=6jhZ1v4HV7bvcYTJcXMSA65p62f_V-Iu4Dy2dk0fwds,103
+Wack-0.1.5.dist-info/LICENSE.md,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+Wack-0.1.5.dist-info/METADATA,sha256=_R6yIjN42geAgEbB6AQHp6hFi2g0EHHx4m0-OJIauSw,2163
+Wack-0.1.5.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+Wack-0.1.5.dist-info/entry_points.txt,sha256=FawnERThhWcuQJEAFfUab2LzIxhHQ06wUctlWH2aVY0,57
+Wack-0.1.5.dist-info/top_level.txt,sha256=E16Iw7ewny3llLeMrzecZ4rn-redHs37AqI6DUMPTuw,5
+Wack-0.1.5.dist-info/RECORD,,

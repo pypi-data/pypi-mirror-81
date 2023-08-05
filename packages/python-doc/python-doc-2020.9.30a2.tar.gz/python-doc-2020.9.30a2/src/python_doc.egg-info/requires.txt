@@ -1,0 +1,11 @@
+Click>=7.0
+blurb
+python-docs-theme
+sphinx==2.4.4
+
+[dev]
+Click>=7.0
+Sphinx>=2.2.1
+blurb
+python-docs-theme
+sphinx==2.4.4

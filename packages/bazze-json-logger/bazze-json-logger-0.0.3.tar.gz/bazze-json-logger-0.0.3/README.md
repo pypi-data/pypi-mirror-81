@@ -1,0 +1,83 @@
+# json-logger
+
+Import into your Python project to standardize logs to JSON format.  Works well with AWS CloudWatch and AWS Lambda Functions.
+
+## Installation
+
+```bash
+pip install -U bazze-json-logger
+```
+
+## Usage
+
+This package sets up a JSON formatter for the Python root logger.  In order for this to work properly, be sure to run this package before setting up any new loggers.
+
+```python
+import logging
+
+import bazze_json_logger
+
+logging.basicConfig(level=logging.INFO)
+
+bazze_json_logger.setup()
+
+logger = logging.getLogger()
+logger.info('Hello World!')
+```
+
+Output
+
+```bash
+>>> {"timestamp": "2020-09-30T00:15:39.667110Z", "level": "INFO", "name": "root", "message": "Hello World!", "schema_version": "0.0.2"}
+```
+
+## AWS Lambda Integration
+
+When using AWS Lambda it is nice to have the `aws_request_id` as part of the JSON object for tracing purposes.  To do this we need to pass it into the `setup()` method.
+
+```python
+import logging
+
+import bazze_json_logger
+
+logging.basicConfig(level=logging.INFO)
+
+
+def lambda_handler(event, context):
+    bazze_json_logger.setup(aws_request_id=context.aws_request_id)
+    logger = logging.getLogger()
+    logger.info('Hello World!')
+```
+
+
+## Viewing the logs on AWS
+
+Logs can be viewed locally in your terminal when testings.  When the application is deployed, they will show up in the CloudWatch group in JSON format.
+
+To view the CloudWatch logs in your console:
+
+Install awslogs
+
+```bash
+pip install -U awslogs
+```
+
+Export AWS_PROFILE
+
+```bash
+export AWS_PROFILE=bazze
+```
+
+To view all log groups:
+
+```bash
+awslogs groups
+```
+
+To tail your log group:
+
+```bash
+awslogs get /aws/lambda/your-function --since 5m --watch
+```
+
+To query and aggregate the logs, I recommend using CloudWatch Insights.

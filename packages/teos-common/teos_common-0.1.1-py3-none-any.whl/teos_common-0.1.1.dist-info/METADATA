@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: teos-common
+Version: 0.1.1
+Summary: Common library for The Eye of Satoshi
+Home-page: https://github.com/talaia-labs/python-teos
+Author: Talaia Labs
+Author-email: contact@talaia.watch
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet
+Classifier: Topic :: Utilities
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: cryptography (>=2.8)
+Requires-Dist: coincurve
+Requires-Dist: pyzbase32
+Requires-Dist: plyvel
+
+# teos-common
+
+This is a common library for The Eye of Satoshi. It contains classes and methods that are shared by both the tower and
+the clients.
+

@@ -1,0 +1,53 @@
+.modal-container {
+    /* Render above other divs */
+    z-index: 2;
+    position: absolute;
+
+    width: 100%;
+    align-items: center;
+    text-align: center;
+
+    margin-top: 30px;
+}
+
+.modal {
+    background-color: white;
+
+    /* Place the modal*/
+    width: 60%;
+    margin: auto; /* Center it */
+
+    /* Place the text in the error */
+    display: flex;
+    flex-direction: column;
+    
+    /* Give ot a border */
+    border: 1.5px solid black; 
+    border-radius: 3px;
+}
+
+.modal-header {
+    margin-top: 2px;
+
+    /* We display the header using a flex box*/
+    display: flex;
+    justify-content: flex-end;
+
+    border-bottom: 1.5px solid black;
+}
+
+.modal-header-text {
+    width: 50%;
+
+    /* Set the font size and opacity to be low-key */
+    font-size: 15px;
+    opacity: 0.75;
+}
+
+.modal-header-close {
+    float: right;
+
+    /* This pushes the close off the edge of the box, and centers the modal-header-text*/
+    margin-left: 21%;
+    margin-right: 1%;
+}

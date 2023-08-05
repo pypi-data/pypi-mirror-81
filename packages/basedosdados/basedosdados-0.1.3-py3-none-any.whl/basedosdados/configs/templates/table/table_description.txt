@@ -1,0 +1,51 @@
+{{ description }}
+
+Tratamento
+----------
+{{ treatment_description }}
+
+Frequencia de Atualização
+-------------------------
+{{ data_update_frequency }}.
+
+{% if ((partitions is not none) and
+       ("<" not in partitions[0])) -%}
+Partições
+---------
+Use essas partições para economizar tempo e dinheiro
+{% for partition in partitions -%}
+- {{ partition }}
+{% endfor -%}
+{% endif %}
+Tratado por
+-----------
+Nome: {{ treated_by.name }}
+{% if "<" not in treated_by.code_url -%}
+Código: {{ treated_by.code_url }}
+{% endif -%}
+{% if "<" not in treated_by.website -%}
+Website: {{ treated_by.website }}
+{% endif -%}
+{% if "<" not in treated_by.email -%}
+Email: {{ treated_by.email }}
+{%- endif %}
+
+Publicado por
+-------------
+Nome: {{ published_by.name }}
+{% if "<" not in published_by.code_url -%}
+Código: {{ published_by.code_url }}
+{% endif -%}
+{% if "<" not in published_by.website -%}
+Website: {{ published_by.website }}
+{% endif -%}
+{% if "<" not in published_by.email -%}
+Email: {{ published_by.email }}
+{%- endif %}
+
+Licença
+-------
+Nome: {{ license.name }}
+{% if "<" not in license.url -%}
+Url: {{ license.url }}
+{%- endif %}

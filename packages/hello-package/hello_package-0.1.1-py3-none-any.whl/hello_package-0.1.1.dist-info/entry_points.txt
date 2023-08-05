@@ -1,0 +1,4 @@
+[console_scripts]
+duc_parser = hello_package:parser
+duc_script = hello_package:hello
+

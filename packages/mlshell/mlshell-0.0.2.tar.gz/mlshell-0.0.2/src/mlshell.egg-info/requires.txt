@@ -1,0 +1,17 @@
+pycnfg==0.0.2
+jsbeautifier
+scikit-learn==0.23.2
+pandas
+tabulate
+matplotlib
+
+[dev]
+pytest
+sphinx
+sphinxcontrib-napoleon
+sphinx-autodoc-typehints
+sphinx_rtd_theme
+numpydoc
+line-profiler
+memory-profiler
+lightgbm

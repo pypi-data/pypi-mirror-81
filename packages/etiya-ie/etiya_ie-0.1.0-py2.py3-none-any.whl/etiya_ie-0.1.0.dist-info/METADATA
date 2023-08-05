@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: etiya-ie
+Version: 0.1.0
+Summary: Etiya Bilgi Teknolojisi ve Hizmetleri için Intern sürecinde yazılan fonksiyonları içerir.
+Home-page: https://github.com/iremekser/etiya-calisma
+Author: İrem Ekser
+Author-email: iremekser@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pyspark
+Requires-Dist: findspark
+Requires-Dist: psycopg2
+Requires-Dist: pandas
+Requires-Dist: pandasql
+
+# etiya-calisma
+
+

@@ -1,0 +1,10 @@
+pyubx2/__init__.py,sha256=Llgxq3eKiVWkYBbhrHNzUnOYQljpWy46smUAwP0NEDo,277
+pyubx2/_version.py,sha256=ryAfvAaW7VM8g1gnCrFCPrXmcbbm99Xw44aLkwGZzaI,23
+pyubx2/exceptions.py,sha256=cmQmH4UDXfYU9m65jdMtom0guSDXPCjjxUr1HmqTc_0,481
+pyubx2/ubxmessage.py,sha256=T11czBVDsVNqINSnKeNPDCF9d3d1nYaAQmw8fSoRi2M,11437
+pyubx2/ubxtypes.py,sha256=OdDd7rRGvC4giNUtgRM4_QfE4SfEtAXCgD6zE5_Sje0,9103
+pyubx2-0.1.0.dist-info/LICENSE,sha256=n1hTlV40HgOFdHADhn3biUs5ognQzRE-BufF7GOuuuI,1613
+pyubx2-0.1.0.dist-info/METADATA,sha256=_Wk67eBFgNztpGMZsLWtRNeN1IDMpC2HGKxq7QppGP4,4522
+pyubx2-0.1.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+pyubx2-0.1.0.dist-info/top_level.txt,sha256=Xrlr7zrBMWK7s0OcjirKi4scjnHHIcDl3WyrZlaxZfs,7
+pyubx2-0.1.0.dist-info/RECORD,,

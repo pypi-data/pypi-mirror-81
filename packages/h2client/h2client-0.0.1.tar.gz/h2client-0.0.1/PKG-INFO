@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: h2client
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Timothy Moore
+Author-email: mtimothy984@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

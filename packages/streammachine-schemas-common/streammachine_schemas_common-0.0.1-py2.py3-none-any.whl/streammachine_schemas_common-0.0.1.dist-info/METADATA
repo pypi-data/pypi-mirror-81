@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: streammachine-schemas-common
+Version: 0.0.1
+Summary: Common Schema components for Stream Machine driver
+Home-page: UNKNOWN
+Author: Stream Machine B.V.
+Author-email: apis@streammachine.io
+License: UNKNOWN
+Keywords: streammachine schema-common client driver
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Python: >=3.6
+
+# Common schema components for Python Stream Machine driver
+
+
+
+

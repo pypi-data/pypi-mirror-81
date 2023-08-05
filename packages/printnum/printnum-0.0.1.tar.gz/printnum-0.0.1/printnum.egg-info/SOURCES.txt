@@ -1,0 +1,8 @@
+README.md
+setup.py
+printnum/PrintNumAtoms.py
+printnum/__init__.py
+printnum.egg-info/PKG-INFO
+printnum.egg-info/SOURCES.txt
+printnum.egg-info/dependency_links.txt
+printnum.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+[console_scripts]
+modernize=modernize.main:main
+python-modernize=modernize.main:main
+

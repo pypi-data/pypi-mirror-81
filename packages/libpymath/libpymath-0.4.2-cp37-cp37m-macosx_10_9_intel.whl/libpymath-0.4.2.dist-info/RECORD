@@ -1,0 +1,17 @@
+libpymath/__init__.py,sha256=kaItTsa8yepo7eH4RGPHzlj-JEXuY6eiTOnVna0kiXk,1126
+libpymath/error.cpython-37m-darwin.so,sha256=aiqyOm3WhXjRab40tsEqXr7zg5ORN4bNtmFNVW1nj8o,67596
+libpymath/LibPyMathModules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libpymath/LibPyMathModules/error/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libpymath/LibPyMathModules/matrix/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libpymath/core/matrix.cpython-37m-darwin.so,sha256=QifW9qkP1ZELAZEAmxbhQQrRxZvZ_D_tM9yiAcN3qzM,127584
+libpymath/matrix/__init__.py,sha256=jMzvbMFfwSyjJpgbM5c5B23gekHC6EIYSDNXK_Rafvw,1081
+libpymath/matrix/_threadInfo.py,sha256=1R7Y_GDIIzVuny_cSb78YRiJ8w_IAbfYLyvqSTQ1Q5U,13
+libpymath/matrix/_threadSetup.py,sha256=Xuz7O3JpnPYjmMT6lGHxckjM9em_UkR-KpDIfjuVCRA,2148
+libpymath/matrix/matrix.py,sha256=HIBBcdnlY6GE51tOnylx1Ol8X9hUXLMjvdFV3FjDu94,14221
+libpymath/progress/__init__.py,sha256=5WNVp9jK3ljvXYCVOVobDR5dpx5uVF6mipO8c9KDwM8,24
+libpymath/progress/progress.py,sha256=VvETnFKsql2ZqrGdAFNw3vGqsa-GhftkAzYN1pb3SUI,6613
+libpymath-0.4.2.dist-info/LICENSE.txt,sha256=tLbspKnFoIzA2So-nxfZga_0_25_D87fMxaE94svl8I,1049
+libpymath-0.4.2.dist-info/METADATA,sha256=SzJ5CKFF8bf-Aj0dLwQsTuG4oFwAtZsERQesRnpMyIY,4801
+libpymath-0.4.2.dist-info/WHEEL,sha256=bbbC3oSLqs0R90xoFLekOOG24Yy8s1ykk41UDHuzaH0,109
+libpymath-0.4.2.dist-info/top_level.txt,sha256=-dPTYieHX8ZBGru2vFIFjMuhcNCQDWN84DbrDW7CHFw,10
+libpymath-0.4.2.dist-info/RECORD,,

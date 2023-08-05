@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: servefile
+Version: 0.5.0
+Summary: Serve files from shell via a small HTTP server
+Home-page: https://seba-geek.de/stuff/servefile/
+Author: Sebastian Lohff
+Author-email: seba@someserver.de
+License: GPLv3 or later
+Platform: posix
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Communications
+Classifier: Topic :: Communications :: File Sharing
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+Requires-Dist: pyopenssl
+
+Servefile
+=========
+
+Serve files from shell via a small HTTP server. The server redirects all HTTP
+requests to the file, so only IP and port must be given to another user to
+access the file. Its main purpose is to quickly send a file to users in your
+local network, independent of their current setup (OS/software). Besides that
+it also supports uploads, SSL, HTTP basic auth and directory listings.
+
+Features:
+ * serve single file
+ * serve a direcotry with directory index
+ * file upload via webinterface
+ * https with on the fly generated self singed SSL certificates
+ * http basic authentication
+ * serving files/directories as on request generated tar files
+
+Install
+-------
+
+Via pip
+```shell
+pip install servefile
+```
+After installation either execute `servefile --help` or `pip -m servefile --help`
+
+Standalone:
+If you don't have pip available just copy `servefile/servefile.py` onto the target machine, make it executable and you are ready to go.
+```shell
+$ wget https://raw.githubusercontent.com/sebageek/servefile/master/servefile/servefile.py -O servefile
+$ chmod +x servefile
+$ ./servefile --help
+```
+
+

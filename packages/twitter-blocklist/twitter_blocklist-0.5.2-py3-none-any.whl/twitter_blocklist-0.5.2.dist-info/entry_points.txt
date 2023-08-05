@@ -1,0 +1,3 @@
+[console_scripts]
+twitter_blocklist=twitter_blocklist.console:main
+

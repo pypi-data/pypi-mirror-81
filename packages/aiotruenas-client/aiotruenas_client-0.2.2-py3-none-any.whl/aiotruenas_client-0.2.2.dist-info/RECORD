@@ -1,0 +1,16 @@
+aiotruenas_client/__init__.py,sha256=Fo1Fbedf5JNyDo7e7XIIDxwZwz2kT5S-yzkGBgA7OZk,47
+aiotruenas_client/disk.py,sha256=oNW4AtoiyjLdGRwTKrfmmDMY3BE-8gK6ASDmYc5L2AI,1519
+aiotruenas_client/machine.py,sha256=2xtQPG7VV_zeuty03QJyjRHGa3FEAjW0zpzGc2LGQic,887
+aiotruenas_client/pool.py,sha256=QI_sDH2-U5jYOPc0oSw49uWMZ2D0bFTWfJLRp6xTnNg,2121
+aiotruenas_client/virtualmachine.py,sha256=uv3xnbRqsCXoRDcr7tiq6B1dNlDM9mwWn_M1uEdS__s,1791
+aiotruenas_client/websockets/__init__.py,sha256=R2YFAvUIJusf3OdjSYcaBMHqESEXjt3BEljfjmNzero,36
+aiotruenas_client/websockets/disk.py,sha256=N4MIa1ax3MVqFiglA2TdCsSTxUe1bUaDDI2p2D7wT9E,4817
+aiotruenas_client/websockets/machine.py,sha256=5NxnWBhBLIPyedsbeYvt7DJOi9NUvv_2XmjvrDuMKgY,3437
+aiotruenas_client/websockets/pool.py,sha256=g-Gx_AMf5rePhVQ-Z_3G2jFgceXs1yFfvn4hPxeyxoI,4196
+aiotruenas_client/websockets/protocol.py,sha256=fd4Lhh8wMjBMvHfMVF8dxpIku59kY7Dxdsg1-jyQc-o,1930
+aiotruenas_client/websockets/virtualmachine.py,sha256=8KD_bPZ9nDs0IPhzjsk-49Bd_zCBFWf51VcYQV2q3ko,4147
+aiotruenas_client-0.2.2.dist-info/LICENSE,sha256=iFKHeyFo35yJ3htBQwjQLnbgLWyzjvgU9EjnZLJU5nw,1070
+aiotruenas_client-0.2.2.dist-info/METADATA,sha256=3Zzm0bLxDcxtnSIa-OtjYiEHhmB2dUktJxdOEaPr8Bs,2784
+aiotruenas_client-0.2.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+aiotruenas_client-0.2.2.dist-info/top_level.txt,sha256=n2K9qIXJFcxxZRv7vQ30IeVhlnyVrp6QJFmD6OCbu3c,18
+aiotruenas_client-0.2.2.dist-info/RECORD,,

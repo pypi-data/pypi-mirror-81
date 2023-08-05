@@ -1,0 +1,9 @@
+python_doc/__init__.py,sha256=904RRKd7gwYjHgIRFIDN0RLPRR3q_JCNqO8dy_zZYZg,62
+python_doc/__version__.py,sha256=XM_hIErScft1CyJi3A21FdVOXxeqZxQB_uUm-4xnT-E,719
+python_doc/cli.py,sha256=1UsR4soROP0XmJGfWMO7pjHqRNNqN7k6eu_lnZh_e98,1830
+python_doc-2020.9.30a1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+python_doc-2020.9.30a1.dist-info/METADATA,sha256=G0FrKlNnicsOlE2cA9NTpJyvXQ6EiQhghlo1cTNiqfM,2184
+python_doc-2020.9.30a1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+python_doc-2020.9.30a1.dist-info/entry_points.txt,sha256=hWkatZdpxCltpzW7sv8NZDzrSkyl2fdwnvfT4pJB_ZA,51
+python_doc-2020.9.30a1.dist-info/top_level.txt,sha256=r4nOPO0-I6aW5G4JwvCZxGS_CuZ8xk4Ds7ek1fCUCEE,11
+python_doc-2020.9.30a1.dist-info/RECORD,,

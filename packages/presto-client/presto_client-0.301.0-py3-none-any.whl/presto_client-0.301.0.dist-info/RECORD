@@ -1,0 +1,14 @@
+presto/__init__.py,sha256=Zdc3HSKXPG1TAxZ3Qq3k1hOtvNVSocLQAPmz3QBVhpk,810
+presto/auth.py,sha256=E717nOgydaEkTfslJ7vI4kTop43reYjH4VbL4_dSLL0,4305
+presto/client.py,sha256=_Yjk-LQC_FJ67HEHnYBoSRZQzmPsbzRqCTW0kW0ZZN4,19881
+presto/constants.py,sha256=jk2tQkneegyIQtu-uErZKlHgw50RG5boVbarRR9p0Hk,1637
+presto/dbapi.py,sha256=iKXgdI8QNkUBH7xF_Xqeanbd40ITs1CJ4C9Utv7y8ts,14982
+presto/exceptions.py,sha256=aTBfhZfsTWitpx2phRqVSO2W2aKKF-WBkBlE5yOaxrA,5281
+presto/logging.py,sha256=ub6tcydz9KcP1-6c3QiA7SslB95Qewtn-GhgVpgg4dM,874
+presto/redirect.py,sha256=8wbktHkZ7ftYjFg13QvXQSf_LpwpsoxMNn3KhPrM3lk,1623
+presto/transaction.py,sha256=ZJksMm986MHD3eZNxz0gheihTpluNNpxkBBuBDuV8Ok,3422
+presto_client-0.301.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+presto_client-0.301.0.dist-info/METADATA,sha256=GSYshkYbXQdj_vws3Like98RKaDwRo6wkQ0dCLv-uvM,1722
+presto_client-0.301.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+presto_client-0.301.0.dist-info/top_level.txt,sha256=ekyGFvZcH93oj5IEq7FnTSY-WDGI_ssKQ1fdOBBa-l4,7
+presto_client-0.301.0.dist-info/RECORD,,

@@ -1,0 +1,3 @@
+[console_scripts]
+gh-pr-update-description = gh_pr_update_description:main
+

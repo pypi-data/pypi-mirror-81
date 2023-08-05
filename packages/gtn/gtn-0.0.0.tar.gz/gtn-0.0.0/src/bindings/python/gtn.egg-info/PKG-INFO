@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: gtn
+Version: 0.0.0
+Summary: Automatic differentiation with WFSTs
+Home-page: https://github.com/facebookresearch/gtn
+Author: GTN Contributors
+License: MIT licensed, as found in the LICENSE file
+Description: ## GTN Python Bindings
+        
+        Install the Python bindings with
+        
+        ```
+        pip install gtn
+        ```
+        
+        Follow these [instructions](../../README.md#python-bindings-from-source) to
+        install the bindings from source.
+        
+        
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown

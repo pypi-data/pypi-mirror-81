@@ -1,0 +1,10 @@
+g3po/__init__.py,sha256=XDmaUuefirc9IIO9yyDmsbjV5IRHBgjdNcwOO1y5vxQ,124
+g3po/main.py,sha256=ZUIOJTKQLQRVNnv6I9L5ssfh_Q6LWOs6djG4zOUyB54,5652
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_main.py,sha256=DkeLUlrb7rGx3nZ04aADU9HXXu5mZTf_DBwT0xhzIv4,7
+g3po-0.1.0.dist-info/LICENSE,sha256=eRMp5Hvbb3es-sS6GNFfTas7eadBfjbpdwQ8jV7smww,1078
+g3po-0.1.0.dist-info/METADATA,sha256=W2FfHvEmeokOyBEFNU-kz5kUcW1v-ENAf2LCROX29Gw,7705
+g3po-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+g3po-0.1.0.dist-info/entry_points.txt,sha256=MgGi2K3_ydKnynGEBQTFoTYVNmuWQYfQFLJ3cKEa_Ss,40
+g3po-0.1.0.dist-info/top_level.txt,sha256=rVZwDC15S6uf6BxVLwnilr4U7iPuW4duRQKUg22-h4s,11
+g3po-0.1.0.dist-info/RECORD,,

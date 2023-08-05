@@ -1,0 +1,3 @@
+[console_scripts]
+g3po = g3po.main:cli
+

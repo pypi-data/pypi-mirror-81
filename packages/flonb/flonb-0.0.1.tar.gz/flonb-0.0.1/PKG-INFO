@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: flonb
+Version: 0.0.1
+Summary: Data pipelines with automagic caching + parameter passing.
+Home-page: https://github.com/hazbottles/flonb
+Author: hazbottles
+License: UNKNOWN
+Description: # flonb
+        
+        # Acknowledgements
+        
+        A big thanks to Solcast (https://solcast.com), where the first working prototype of flonb was developed.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

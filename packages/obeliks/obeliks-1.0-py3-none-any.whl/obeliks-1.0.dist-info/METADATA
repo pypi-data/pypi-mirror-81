@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: obeliks
+Version: 1.0
+Summary: Sentence splitting & tokenization
+Home-page: https://www.github.com/clarinsi/obeliks
+Author: CLARIN.SI
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: lxml
+Requires-Dist: regex
+
+UNKNOWN
+
+

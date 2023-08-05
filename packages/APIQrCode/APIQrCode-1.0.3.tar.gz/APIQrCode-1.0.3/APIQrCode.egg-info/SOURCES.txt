@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+APIQrCode/__init__.py
+APIQrCode/constants.py
+APIQrCode/environment.py
+APIQrCode/qrcode_cielo.py
+APIQrCode.egg-info/PKG-INFO
+APIQrCode.egg-info/SOURCES.txt
+APIQrCode.egg-info/dependency_links.txt
+APIQrCode.egg-info/requires.txt
+APIQrCode.egg-info/top_level.txt

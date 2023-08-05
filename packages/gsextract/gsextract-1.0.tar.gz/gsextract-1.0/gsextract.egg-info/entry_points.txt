@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        gsextract=gsextract.gsextract:cli_runner
+    

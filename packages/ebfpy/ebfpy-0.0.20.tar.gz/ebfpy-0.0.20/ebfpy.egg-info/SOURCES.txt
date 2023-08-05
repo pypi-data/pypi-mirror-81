@@ -1,0 +1,15 @@
+COPYING.txt
+COPYRIGHT.txt
+MANIFEST.in
+README.rst
+ebf.py
+setup.py
+data/header256.ebf
+data/master_test1.ebf
+data/master_test1_swap.ebf
+data/scalar.ebf
+ebfpy.egg-info/PKG-INFO
+ebfpy.egg-info/SOURCES.txt
+ebfpy.egg-info/dependency_links.txt
+ebfpy.egg-info/top_level.txt
+scripts/ebftk

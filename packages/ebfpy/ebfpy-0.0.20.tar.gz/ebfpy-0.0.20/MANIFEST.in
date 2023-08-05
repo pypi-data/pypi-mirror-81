@@ -1,0 +1,4 @@
+include data/*.ebf
+include COPYING.txt
+include COPYRIGHT.txt
+

@@ -1,0 +1,12 @@
+flake8_function_order/__init__.py,sha256=QvlVh4JTl3JL7jQAja76yKtT-IvF4631ASjWY1wS6AQ,22
+flake8_function_order/checker.py,sha256=wb5HiXFVx0_CkPW-nlhukUXq1q1lBCMHuqv362Vlzhk,1586
+flake8_function_order/model_parts_info.py,sha256=3zKxQ8yFs9ypId6ivcGbjzQgqz3A0ciuv8ZeoGZ2DOQ,3286
+flake8_function_order/ordering_errors.py,sha256=mGk1pXCEdH_L1W9Lre9bXbTOq8IC_TrgnnxIBexF3do,2859
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_class_attributes_order.py,sha256=Z0gwsRF4fpQOJyhn5tBtES7Sd0CTdcUy5lfibrnW6zU,415
+flake8_function_order-0.0.2.dist-info/LICENSE,sha256=KxaKHTkFqFE2NRCtEg8ERCZBjpzpmQIeGQXke7mkXt4,1065
+flake8_function_order-0.0.2.dist-info/METADATA,sha256=rGVF9BY3hlSNz1BgsxCULreiWEVr0zL8D-7k5uympd0,919
+flake8_function_order-0.0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+flake8_function_order-0.0.2.dist-info/entry_points.txt,sha256=Y_PufV7Ar7AM9aNIw8iQ2eQ_-nkmDoquyM59S8QdlpM,82
+flake8_function_order-0.0.2.dist-info/top_level.txt,sha256=JM338H_-lf_mkmtk1ALrzmlMX08EPlrHypp8WPgFhDY,28
+flake8_function_order-0.0.2.dist-info/RECORD,,

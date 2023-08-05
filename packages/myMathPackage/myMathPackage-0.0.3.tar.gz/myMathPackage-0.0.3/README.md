@@ -1,0 +1,42 @@
+# myMathPackage
+This is a simple package with the following calculation options:
+
+calculateSquares(endValue):
+
+    - takes an endValue
+    
+    - calculates all square numbers from 1 to endValue
+    
+    - prints all values onto the console
+
+calculateSquareRoots(endValue):
+
+    - takes an endValue
+    
+    - calculates all square roots from 1 to endValue
+    
+    - prints all values onto the console
+    
+calculateFibo(border):
+
+    - takes an endValue
+    
+    - calculates all fibonacci numbers between 0 and border 
+    
+    - prints all values onto the console
+    
+calculatePows(exp, endValue):
+
+    - takes an exponent and an endValue
+    
+    - calculates all numbers in range between 1 and endValue powered by exp
+    
+    - prints all values onto the console
+
+Notice: 
+
+    - Make sure you enter valid numbers
+
+You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.

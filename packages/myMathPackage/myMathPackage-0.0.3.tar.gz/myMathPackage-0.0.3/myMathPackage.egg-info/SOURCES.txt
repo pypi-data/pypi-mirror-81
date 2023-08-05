@@ -1,0 +1,8 @@
+README.md
+setup.py
+myMathPackage/__init__.py
+myMathPackage/chooseYourOption.py
+myMathPackage.egg-info/PKG-INFO
+myMathPackage.egg-info/SOURCES.txt
+myMathPackage.egg-info/dependency_links.txt
+myMathPackage.egg-info/top_level.txt

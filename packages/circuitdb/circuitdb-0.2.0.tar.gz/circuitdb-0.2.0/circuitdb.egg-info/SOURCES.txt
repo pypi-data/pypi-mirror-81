@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+circuitdb/__init__.py
+circuitdb/circuitdb.py
+circuitdb.egg-info/PKG-INFO
+circuitdb.egg-info/SOURCES.txt
+circuitdb.egg-info/dependency_links.txt
+circuitdb.egg-info/requires.txt
+circuitdb.egg-info/top_level.txt

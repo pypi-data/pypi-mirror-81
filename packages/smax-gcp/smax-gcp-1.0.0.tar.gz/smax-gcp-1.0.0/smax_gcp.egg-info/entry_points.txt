@@ -1,0 +1,4 @@
+
+           [console_scripts]
+           smax-gcp = smax.gcp.main:main
+        

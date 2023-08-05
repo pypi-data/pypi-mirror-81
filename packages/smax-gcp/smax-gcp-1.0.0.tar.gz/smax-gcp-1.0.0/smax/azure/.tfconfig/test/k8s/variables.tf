@@ -1,0 +1,11 @@
+variable resource_group_name {}
+variable location {}
+variable admin_user {}
+variable ssh_pub_key {}
+variable k8s_version {}
+variable k8s_nodes {}
+variable network_plugin {}
+variable client_id {}
+variable client_secret {}
+variable vnet_name {}
+variable subnet_cidr {}

@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"azfile","Source":"./azfile","Dir":"azfile"},{"Key":"bastion","Source":"./bastion","Dir":"bastion"},{"Key":"db","Source":"./database","Dir":"database"},{"Key":"k8s","Source":"./k8s","Dir":"k8s"},{"Key":"network","Source":"./network","Dir":"network"}]}

@@ -1,0 +1,5 @@
+oauthlib>=3.0.0
+aiohttp
+
+[rsa]
+oauthlib[signedtoken]>=3.0.0

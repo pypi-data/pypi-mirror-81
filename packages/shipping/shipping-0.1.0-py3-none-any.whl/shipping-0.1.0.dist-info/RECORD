@@ -1,0 +1,14 @@
+shipping/LICENSE,sha256=F1j00HF_j8TpUp7w5gnUezGtwdGgOf20HBFEjKJys1k,1122
+shipping/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+shipping/__main__.py,sha256=ccZkmazYZg2Xy6A48hfprC8DZtEWiFO4lD3eNFKb7u4,280
+shipping/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shipping/cli/base.py,sha256=kHKhUdStWJU7_P0mTvveckGAGbY3bQiG-gwbEmns1B8,1501
+shipping/commands.py,sha256=RyKpMcjrKYFX3UYhHRo2oHsA_u_Oa6VF0l94mTAkWsU,3283
+shipping/configs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shipping/configs/base_config.py,sha256=yMqSBnCc5Ujt7Y5Rpm5EFShmUnYjTJp57e5O1zCH7SQ,991
+shipping/environment.py,sha256=CYaf_3dMdeLWSQA3Rk5_EdEwyzj4VCvUANB_FjtVEKI,2622
+shipping/package.py,sha256=hKPJ3DSIUxaTkdRw3zXTOQ5JpeTHJ95n2ioO-pBLtNE,672
+shipping-0.1.0.dist-info/entry_points.txt,sha256=L_7baVnUWqU3ilel_8f42585XiyoqRER5Iugvuu3pZQ,51
+shipping-0.1.0.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+shipping-0.1.0.dist-info/METADATA,sha256=jW717Gg-hZlMj8sJGewOFnpx85lCbvnqFlfx9RhYfyg,1997
+shipping-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,10 @@
+README.md
+setup.py
+tensorfit/__init__.py
+tensorfit/tensorfit.py
+tensorfit/utils.py
+tensorfit.egg-info/PKG-INFO
+tensorfit.egg-info/SOURCES.txt
+tensorfit.egg-info/dependency_links.txt
+tensorfit.egg-info/requires.txt
+tensorfit.egg-info/top_level.txt

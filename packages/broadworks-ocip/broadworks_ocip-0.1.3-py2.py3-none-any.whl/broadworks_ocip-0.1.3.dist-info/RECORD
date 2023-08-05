@@ -1,0 +1,13 @@
+broadworks_ocip/__init__.py,sha256=eeLudSVJe6WX982dhEpPnbUq_WAVv_xNKBpjA3XNtIo,301
+broadworks_ocip/api.py,sha256=eOuEUMiLA2hj7u6Pn1zZh0Hua1Ut6rqoqCtShkILtz0,10366
+broadworks_ocip/base.py,sha256=E8TCwN_cH3aKqeZGJBAxShxPS4j4nwu7S3XUotzcLQg,8645
+broadworks_ocip/exceptions.py,sha256=Opoy9iIDB7WAxeMHjBLIExUlbG1NJ6-H2gnrd4iHzrg,573
+broadworks_ocip/requests.py,sha256=3axmGsZQENfoR0tt9Tdi11JA91UGdF7t_2RWDasvm6M,5014431
+broadworks_ocip/responses.py,sha256=JDPnO2TwsEMe7Zgl2S-91ki4BypDUQ6Q9IxpYOqIuNE,3936012
+broadworks_ocip/types.py,sha256=oCUAZeYYVz_SX7eYKQmzjisFe0sWbUbeWtFO_59IBtQ,853493
+broadworks_ocip-0.1.3.dist-info/AUTHORS.rst,sha256=aqcU2AeAgr5q2j6Zk92Rc_xJ3fs9Is29SOfSQC-CNxQ,159
+broadworks_ocip-0.1.3.dist-info/LICENSE,sha256=vViCaSMXmQoEwvC-WGChIRdgnTG-sLX954_qx9veKuo,1511
+broadworks_ocip-0.1.3.dist-info/METADATA,sha256=Sc4k7BKwoGxxrMIHRkumwT7pKgAB3ZN8_L0hVXCI_as,2234
+broadworks_ocip-0.1.3.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+broadworks_ocip-0.1.3.dist-info/top_level.txt,sha256=0IpAu4Sbwgd-4TIyRKxZvW7UyPJaKErgHd_B0mKzbvQ,16
+broadworks_ocip-0.1.3.dist-info/RECORD,,

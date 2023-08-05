@@ -1,0 +1,17 @@
+wheel
+zmq
+flask
+grpcio
+protobuf
+cryptography>=2.8
+coincurve
+pyzbase32
+requests
+plyvel
+readerwriterlock
+structlog
+python-daemon
+waitress
+
+[:platform_system != "Windows"]
+gunicorn

@@ -1,0 +1,17 @@
+klaviyo/__init__.py,sha256=xDmym-2wf3S2qyUFSmtmLH4ukcOWwB8B4CztC0C-ZNA,47
+klaviyo/api.py,sha256=6ppitLC7kNHpRyoF_ULAcUsDgG8Nk4zHdACWIlrx4sk,1411
+klaviyo/api_helper.py,sha256=0VpgnzsczIELAtM4oKpj3Tk9PRTTcFIpJjlkhJruBJw,8424
+klaviyo/exceptions.py,sha256=CAn40l3D2vKlMfdDdjFEk61n3oGH1a8HFxRcU30hhv0,1220
+klaviyo/lists.py,sha256=nV3xMi2cftKMDgjMi6uBTBGTA7vSnH00VDfI23Hjq6c,7092
+klaviyo/metrics.py,sha256=BtBJ9TqlvMYJLb1W6VwRBkVQ7IXwby0I1rXt9neu2Kg,4043
+klaviyo/middleware.py,sha256=-PuIz6g2fWs5bxF-7cM2Q6x6MfzzKJtSnJBjfnG17QY,1020
+klaviyo/profiles.py,sha256=GjAjnjNtoTN8UdiApRxFQsoQr3qpxYTAl_dgwNtZZAA,3099
+klaviyo/public.py,sha256=WJKm5ifHvyBxG6__iS5B2aea6opuvgLYZfWXydrZwLk,4681
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_api_helper.py,sha256=076orjiaZKEEGMMxypiUJ0Dk6LsteZHkKEHy1gABsfY,2356
+tests/fixtures/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/fixtures/api_helper.py,sha256=Ehm1UMp9oG5h3Y2J0q3YHyp13-_I2_SwQ8jbrbC-lnk,3095
+klaviyo-3.0.2.dist-info/METADATA,sha256=duDqPsHMYeYKdfLmQRWGWeZrkelnF6QvKF2LbqSABkA,535
+klaviyo-3.0.2.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+klaviyo-3.0.2.dist-info/top_level.txt,sha256=OjNE8cZK-YZWLw71ijVLIGSdJSMY1sQUvMYA6pMQrog,14
+klaviyo-3.0.2.dist-info/RECORD,,

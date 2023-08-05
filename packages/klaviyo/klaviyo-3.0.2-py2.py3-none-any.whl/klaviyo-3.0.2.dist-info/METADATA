@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: klaviyo
+Version: 3.0.2
+Summary: Python API for Klaviyo
+Home-page: http://github.com/klaviyo/python-klaviyo
+Author: Klaviyo
+Author-email: successengineers@klaviyo.com
+License: MIT License
+Keywords: klaviyo
+Platform: UNKNOWN
+Requires-Dist: requests (>=2.2.1)
+Requires-Dist: simplejson (>=3.17.0)
+
+Klaviyo is a real-time service for understanding your customers by aggregating
+all your customer data, identifying important groups of customers
+and then taking action.
+
+Find out more at http://www.klaviyo.com
+
+

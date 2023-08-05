@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: geocurrency
+Version: 0.3.0
+Summary: Services for conversions
+Home-page: https://www.geocurrency.me
+Author: Frédéric MEUROU
+Author-email: fm@peabytes.me
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Requires-Python: >3.8.0
+Requires-Dist: Django (~=3.1.0)
+Requires-Dist: django-cors-headers (~=3.2.0)
+Requires-Dist: django-cors-middleware (~=1.5.0)
+Requires-Dist: django-createsuperuser
+Requires-Dist: django-extensions (~=3.0.0)
+Requires-Dist: django-filter (~=2.3.0)
+Requires-Dist: django-redis (~=4.12.0)
+Requires-Dist: django-sendfile (~=0.3.0)
+Requires-Dist: djangorestframework (~=3.11.0)
+Requires-Dist: drf-yasg (~=1.17.0)
+Requires-Dist: markdown (~=3.0)
+Requires-Dist: lxml (~=4.0)
+Requires-Dist: django-redis (~=4.0)
+Requires-Dist: pysendfile (~=2.0)
+Requires-Dist: gunicorn
+Requires-Dist: pytz
+Requires-Dist: pycountry
+Requires-Dist: countryinfo (~=0.1.0)
+Requires-Dist: timezonefinder (~=4.4.0)
+Requires-Dist: iso4217
+Requires-Dist: forex-python (~=1.0)
+Requires-Dist: Babel (~=2.8)
+Requires-Dist: Pint (~=0.15)
+
+UNKNOWN
+
+

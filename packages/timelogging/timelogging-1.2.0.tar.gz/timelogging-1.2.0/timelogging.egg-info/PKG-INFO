@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: timelogging
+Version: 1.2.0
+Summary: Small Logging Library
+Home-page: https://github.com/tbrodbeck/timelogging
+Author: Tillmann Brodbeck
+Author-email: t.b@riseup.net
+License: UNKNOWN
+Description: # Installation
+        
+        ```sh
+        pip3 install timelogging
+        ```
+        
+        # Use it
+        
+        The `log` function is designed to be a drop-in replacement for `print`:
+        
+        ```python3
+        from timelogging import log
+        
+        log('This', 'is', 'a', 'test.')
+        ```
+        
+        And this outputs the current time before the printout:
+        
+        ```
+        16:20:00 INFO     This is a test.
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

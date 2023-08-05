@@ -1,0 +1,12 @@
+multivar_horner/__init__.py,sha256=I0t_fmhP0nz36b3wh54lHWbIj6jzNUSoRd7yGQXju_c,294
+multivar_horner/factorisation_classes.py,sha256=L1cHi7CLy_FQsI_v-zCLAev3C4r_RyW6FtY1RpSrL1g,26806
+multivar_horner/global_settings.py,sha256=vzp2ETqvq_Cec7idln2qk2jC4YsKtdjX6FaSkFicZZk,596
+multivar_horner/helper_classes.py,sha256=ow2Zlmtk4V_d54ADJsSTIGc4TIUjFsJGFgigqjKMYFM,10449
+multivar_horner/helper_fcts.py,sha256=bsxgy3Oz5cSZrDSgu9zxBsznhHZOJz6T5dGEj655FLw,3457
+multivar_horner/helpers_fcts_numba.py,sha256=YlnZOvyY8RkFEPGZ_je3HEaHx1mgVaHZMMxAoPp4KbI,9146
+multivar_horner/multivar_horner.py,sha256=elzl0odfEYvz6SAyXqc5CESOS-C0A9PcrC5TKekFsSM,27476
+multivar_horner-2.1.1.dist-info/LICENSE,sha256=g-TdIUKakft86mekdgMqlkFCXlNV3y4PWJpzi27J_Sw,1057
+multivar_horner-2.1.1.dist-info/METADATA,sha256=RG0Iw-rIoRyw_OUDazk2HmYOsswcdlTYdCWu96juaAw,1855
+multivar_horner-2.1.1.dist-info/WHEEL,sha256=1OVb-U68iZfUXQEBeQfhICl29eJQsCTMs4lLqyUpnjY,131
+multivar_horner-2.1.1.dist-info/top_level.txt,sha256=IFv9YNRAdRcn1Jx3Wy9qpFRxqsTLg9mEFLzIPBuavLA,16
+multivar_horner-2.1.1.dist-info/RECORD,,

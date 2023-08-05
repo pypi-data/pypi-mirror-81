@@ -1,0 +1,3 @@
+[console_scripts]
+micropie = micropie.main:main
+

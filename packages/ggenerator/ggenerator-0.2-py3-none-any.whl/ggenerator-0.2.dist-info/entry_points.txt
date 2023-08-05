@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        ggenerator=main:run
+    

@@ -1,0 +1,6 @@
+README.md
+setup.py
+bdsg.egg-info/PKG-INFO
+bdsg.egg-info/SOURCES.txt
+bdsg.egg-info/dependency_links.txt
+bdsg.egg-info/top_level.txt

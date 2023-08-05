@@ -1,0 +1,17 @@
+yarl<1.6.0
+pyyaml
+requests
+requests-toolbelt
+pyliftover
+websockets
+markdown
+aiohttp
+chardet>=3.0.4
+aiosqlite
+oyaml
+intervaltree
+xlsxwriter
+twobitreader
+nest-asyncio
+psutil
+mpmath

@@ -1,0 +1,10 @@
+README.md
+setup.py
+The_Arbiter.egg-info/PKG-INFO
+The_Arbiter.egg-info/SOURCES.txt
+The_Arbiter.egg-info/dependency_links.txt
+The_Arbiter.egg-info/top_level.txt
+tests/__init__.py
+tests/validator_test.py
+thearbiter/__init__.py
+thearbiter/validator.py

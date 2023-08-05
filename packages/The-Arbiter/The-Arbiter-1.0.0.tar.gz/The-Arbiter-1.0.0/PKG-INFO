@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: The-Arbiter
+Version: 1.0.0
+Summary: An argument validation library.
+Home-page: https://gitlab.com/codejuicer/the-arbiter
+Author: Cole Kelley
+Author-email: ck@codejuicer.com
+License: MIT
+Description: # The Arbiter
+        The arbiter is a library for writing validations using a simple syntax. What kind of validations? Originally it was intended to validate named arguments. But use your imagination. It is really, really flexible.
+        
+        The syntax has simple rules:  
+        - Validators must be a list, or a dictionary.
+        - Lists are treated as "AND" conditions.
+        - Dictionaries are used for "OR" and "XOR" conditions. Requirements:
+            - Keys _must_ be strings and start with "OR" or "XOR" (case insensitive). Beyond that, you can use any suffix you like for clarity.
+            - Values _must_ be a list. 
+        - Values must be strings
+        
+        You can nest things all you want. For example:
+        ```python
+        contact_validator = Arbiter([
+            'name', 'address',                                   # must have name and address
+            {'or_contact': ['phone', 'email']},                  # also need phone or email, or both
+            {'xor_location': ['street_address', 'coordinates']}  # and, street_address or coordinates, but not both
+        ])
+        ```
+        
+        Using dictionaries and lists you can create simple or complex validation rules. 
+        
+        Why "The Arbiter?" Because an arbiter is considered the ultimate authority when it comes to settling a dispute. I thought it was more fun than "argument validator."  
+        
+        # Current Limitations
+        This does not do any type validation on arguments. It only verifies whether or not it exists.
+        
+        # Code Examples
+        ### Verifying a simple named argument.
+        ```python
+        from thearbiter.validator import Arbiter
+        
+        required_favorites = Arbiter(['animal'])
+        
+        def hi_there(name, **favorites):
+            # this will raise an AttributeException if the "animal" keyword is not found. 
+            required_favorites.validate_args(**favorites)
+        ```
+        
+        More examples to come.
+        
+Keywords: validation,arguments
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown

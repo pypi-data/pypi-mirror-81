@@ -1,0 +1,10 @@
+qprof
+qprof_interfaces
+myqlm
+
+[dev]
+black
+pygments
+setuptools
+wheel
+twine

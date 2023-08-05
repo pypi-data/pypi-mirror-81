@@ -1,0 +1,28 @@
+[build]
+    nodes:
+      coverage:
+        tests:
+          override:
+            - command: './run-rests.sh'
+              coverage:
+                file: '.coverage'
+                config_file: '.coveragerc'
+                format: 'py-cc'
+[run]
+source=personroles
+omit = tests/*
+
+[report]
+omit =
+    *site-packages*
+    *tests*
+    *.tox*
+exclude_lines =
+    pragma: no cover
+    if __name__ == .__main__.:
+show_missing = True
+
+[tool:pytest]
+addopts = --cov --cov-append --cov-report=term-missing
+
+; addopts = --cov --cov-append --cov-config=tox.ini --cov-report=term-missing

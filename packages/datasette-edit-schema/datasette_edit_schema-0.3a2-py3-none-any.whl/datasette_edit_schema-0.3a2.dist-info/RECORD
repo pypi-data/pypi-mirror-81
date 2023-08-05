@@ -1,0 +1,12 @@
+datasette_edit_schema/__init__.py,sha256=lt84vFAS46NdlTgNkofTX_Dnu7XrTGXjlm_vZOk6zvQ,7034
+datasette_edit_schema/static/draggable.1.0.0-beta.11.bundle.js,sha256=rpTEfd8N7sSY5n_mi6mwGz2f-dRXOgknFBuUXmwFnpY,202242
+datasette_edit_schema/static/draggable.1.0.0-beta.11.bundle.min.js,sha256=JlHRb54CUGfor6ENxVjMq9rd_QRrRLoVJf-j3V_c52U,119723
+datasette_edit_schema/templates/edit_schema_database.html,sha256=MHppnQdWcwLOom933DB8mnnasYjWDJCEo952gyhfxCQ,598
+datasette_edit_schema/templates/edit_schema_index.html,sha256=wkGJdVL7AE1yINjMc-cBQFV-qLFf1IDCuPjr581GNlE,595
+datasette_edit_schema/templates/edit_schema_table.html,sha256=B2fnbFQxllXC4dFbCig3NSiBbA-ULiuIyipIbviQNzE,4384
+datasette_edit_schema-0.3a2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+datasette_edit_schema-0.3a2.dist-info/METADATA,sha256=4aFkJ3wyV9TuE6o_ZC7wATEr_4Hl9v4OOPoKnwlsFlg,2151
+datasette_edit_schema-0.3a2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+datasette_edit_schema-0.3a2.dist-info/entry_points.txt,sha256=Psff5wPxT40a7rMSj2ws74MNBl-yqjqS5amQJxwSZM0,49
+datasette_edit_schema-0.3a2.dist-info/top_level.txt,sha256=Cbx3sgneHtcDDxV5SVL8IyU8JvsSdXgpmZqw4oDuOzM,22
+datasette_edit_schema-0.3a2.dist-info/RECORD,,

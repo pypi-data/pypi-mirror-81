@@ -1,0 +1,10 @@
+packaging
+
+[dev]
+black
+pytest-cov
+pytest
+coverage
+bump2version
+pre-commit
+flake8

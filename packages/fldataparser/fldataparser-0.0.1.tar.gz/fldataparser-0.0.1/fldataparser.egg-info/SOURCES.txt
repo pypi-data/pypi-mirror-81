@@ -1,0 +1,8 @@
+setup.py
+fldataparser/__init__.py
+fldataparser/schemas.py
+fldataparser/utils.py
+fldataparser.egg-info/PKG-INFO
+fldataparser.egg-info/SOURCES.txt
+fldataparser.egg-info/dependency_links.txt
+fldataparser.egg-info/top_level.txt

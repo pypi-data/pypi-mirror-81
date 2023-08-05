@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: modelica-builder
+Version: 0.1.0
+Summary: Modelica parser and modifier
+Home-page: https://github.com/urbanopt/modelica-builder
+Author: Nicholas Long
+Author-email: nicholas.long@nrel.gov
+License: BSD-3 Clause
+Description: UNKNOWN
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Provides-Extra: testing

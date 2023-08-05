@@ -1,0 +1,4 @@
+mkdocs
+nbconvert==5.*
+nbformat
+bs4

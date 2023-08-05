@@ -1,0 +1,9 @@
+README.md
+setup.py
+xcli/__init__.py
+xcli/_parser.py
+xcli/colors.py
+xcli.egg-info/PKG-INFO
+xcli.egg-info/SOURCES.txt
+xcli.egg-info/dependency_links.txt
+xcli.egg-info/top_level.txt

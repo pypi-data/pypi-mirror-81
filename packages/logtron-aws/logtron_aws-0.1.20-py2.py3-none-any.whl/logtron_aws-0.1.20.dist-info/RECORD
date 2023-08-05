@@ -1,0 +1,10 @@
+logtron_aws/__init__.py,sha256=PBN6kO6QI2l5ZmSTbQTl1ZTkNhaB0NOUEJSNotFQi9o,303
+logtron_aws/autodiscover.py,sha256=k6xmkzTJRxdvHZ2AjJOYVEug2vws4xDJ1UNVguZBe48,1953
+logtron_aws/cloudwatch.py,sha256=xIfZsnVUZKtMeJdUK61xI4Nspjnog1hH5Ju99jKYvQM,6114
+logtron_aws/context.py,sha256=sz60xXaAJusAR6em567uU2LlqCxid9ZzHZabCXeVhS8,784
+logtron_aws/util/__init__.py,sha256=fGqNiAZuMFf0tIY7zXJncWppaKi9Bw9XeVrxzHT1EgE,43
+logtron_aws/util/path.py,sha256=te_vXMBP-HIABlqx_xzHQI30GuEfQDu2Peig2WXD57s,378
+logtron_aws-0.1.20.dist-info/LICENSE,sha256=fIeHMpHyiXE6xd9IsfIBDraWN1K71rUwQWq5n8N5FKg,10765
+logtron_aws-0.1.20.dist-info/WHEEL,sha256=OL-EN-39HbzBiGlqqMt_l4r9-zX-74hoU51DNxxDqP4,88
+logtron_aws-0.1.20.dist-info/METADATA,sha256=b4BIk4RVv_xYRWQWzW9bH8sSeGseVNm33W41bNbem0k,3654
+logtron_aws-0.1.20.dist-info/RECORD,,

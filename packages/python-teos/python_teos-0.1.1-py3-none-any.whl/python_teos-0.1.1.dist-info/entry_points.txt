@@ -1,0 +1,4 @@
+[console_scripts]
+teos-cli = teos.cli.teos_cli:run
+teosd = teos.teosd:run
+

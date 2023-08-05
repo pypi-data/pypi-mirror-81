@@ -1,0 +1,6 @@
+trimesh==3.6.38
+urdfpy
+numba
+opencv-python-inference-engine
+rospkg
+scipy

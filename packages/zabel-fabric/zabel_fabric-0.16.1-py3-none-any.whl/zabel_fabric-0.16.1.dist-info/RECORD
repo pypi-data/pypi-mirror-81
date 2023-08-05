@@ -1,0 +1,12 @@
+zabel/fabric/__init__.py,sha256=RlNtZvaRPQpDL9LRgpl6LjU4xMqFaJyKjK_ylEsJNDc,352
+zabel/fabric/standalone/__init__.py,sha256=AvG7gm3IzxwOzbJzhAvr_hpdhLZdYjIW26zpXOQGbQU,42162
+zabel/fabric/standalone/coreapis.yaml,sha256=hRtzRC9HMrOO3mw3nB26p8FgPTPW8ok9Qo-BO412TVE,6935
+zabel/fabric/standalone/environ.py,sha256=Btiwvfw2-7AYdSQeZXBK5CBWCNgoP-Jl5W5W46Xq71M,1308
+zabel/fabric/standalone/etcd3.py,sha256=_kFLvpQVQUX4r-JltVdZmZ-1Q6JELKCdT_mL5ntDErU,14456
+zabel/fabric/standalone/openapi.py,sha256=7w8NjUf-1GgE8SNRO4Dr3Xm0dGXlG9mSzO9YfRc6hP8,12432
+zabel/fabric/standalone/resolver.py,sha256=-8rQ-FV_CdZOXD6B--rPhhg1lWhl8bXimHD8O6UShdY,2426
+zabel_fabric-0.16.1.dist-info/LICENSE.txt,sha256=DISzueTCmv-X5iVsWZvGFEcHg0cqwe6Yupy086FNhpY,14473
+zabel_fabric-0.16.1.dist-info/METADATA,sha256=3hGtVFIAzKWdlK2T_X6-grJobMPMZTZ6yG-rvJRsInQ,4016
+zabel_fabric-0.16.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+zabel_fabric-0.16.1.dist-info/top_level.txt,sha256=oVMEeX4nyZlbHDW9DbWu8tqH1vmQZO2Yw8C29D3tToo,6
+zabel_fabric-0.16.1.dist-info/RECORD,,

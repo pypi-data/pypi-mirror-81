@@ -1,0 +1,13 @@
+csvtype_ext.cpython-36m-i386-linux-gnu.so,sha256=SGvwRScVJqwoiBP-TiF6gAjfxbwP0YNGnZ9DY56rt5Y,3397068
+csvtype.libs/libicuuc-fc83b187.so.36.0,sha256=RNX_NewlzTluwe2cYGmncnn56Dof2rNmhr5s1stYOpc,1376816
+csvtype.libs/libboost_regex-870d5aa6.so.5,sha256=vUvKUGILxsrsfOKmpdpxn8r8c0OI29J4xIfO72Msbos,1474340
+csvtype.libs/libicudata-c6f0d539.so.36.0,sha256=mQI0Ng8ccxHJyZVpLH0j1pgiyUIpUhVRl1ft2WxIqD8,10158308
+csvtype.libs/libicui18n-4e1c6b40.so.36.0,sha256=aGgtySlWbpjPR5N8CK4dm8oSfdKIZTTO5YW44dyGXrA,1857680
+csvtype/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+csvtype/patterns.py,sha256=ypnSAM96bWU2Jv4PtxYnihFQvFPTGFydtenTHnnbCmU,1467
+csvtype/inferencer.py,sha256=-z2NCf8Xqd2yWAe-z6kHF6xg4IBEKGW_Syljv2TVGXA,10100
+csvtype-0.0.2.dist-info/WHEEL,sha256=Tv48kbvyPegipDGk5WJm1WINeoJFRjpuJJHMXQHP-3Y,107
+csvtype-0.0.2.dist-info/RECORD,,
+csvtype-0.0.2.dist-info/LICENSE,sha256=PpCidktXOh9ZE2NBFjfVSaF_Fc1At1z3_ytf1ACiIhM,1048
+csvtype-0.0.2.dist-info/top_level.txt,sha256=Kgh6d2R-_CyM9vr4VpGTv9ZqkMMJDKkrgarlhzf-ORE,20
+csvtype-0.0.2.dist-info/METADATA,sha256=UpXIlU57BdLA3yMV58bFwb_gbg3dVt--G7V3QW6u1bc,283

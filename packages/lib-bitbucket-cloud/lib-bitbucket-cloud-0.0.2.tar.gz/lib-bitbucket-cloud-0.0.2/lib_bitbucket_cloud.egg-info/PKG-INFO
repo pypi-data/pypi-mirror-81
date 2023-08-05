@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: lib-bitbucket-cloud
+Version: 0.0.2
+Summary: Library to utilize the Bitbucket Cloud api endpoints.
+Home-page: https://bitbucket.com/pjicode/BitbucketCloud
+Author: Zach Sanders
+Author-email: zachary_sanders@papajohns.com
+License: UNKNOWN
+Description: # Bitbucket Cloud Package
+        
+        This is a simple package that wraps the bitbucket api in pythoic outputs.
+        
+        [Papajohns organization](https://bitbucket.org/pjicode/)
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

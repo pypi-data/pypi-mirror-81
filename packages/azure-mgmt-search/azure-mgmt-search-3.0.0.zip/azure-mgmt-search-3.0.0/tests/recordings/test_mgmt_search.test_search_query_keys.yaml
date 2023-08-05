@@ -1,0 +1,207 @@
+interactions:
+- request:
+    body: '{"location": "westus", "properties": {"replicaCount": 1, "partitionCount":
+      1, "hostingMode": "default"}, "sku": {"name": "basic"}}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '130'
+      Content-Type:
+      - application/json; charset=utf-8
+      User-Agent:
+      - python/3.6.9 (Linux-4.19.76-linuxkit-x86_64-with-Ubuntu-18.04-bionic) msrest/0.6.10
+        msrest_azure/0.6.2 azure-mgmt-search/3.0.0 Azure-SDK-For-Python
+      accept-language:
+      - en-US
+    method: PUT
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/test_mgmt_search_test_search_query_keys40e9101d/providers/Microsoft.Search/searchServices/ptvstestquerykeyss?api-version=2020-08-01
+  response:
+    body:
+      string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/test_mgmt_search_test_search_query_keys40e9101d/providers/Microsoft.Search/searchServices/ptvstestquerykeyss","name":"ptvstestquerykeyss","type":"Microsoft.Search/searchServices","location":"West
+        US","properties":{"replicaCount":1,"partitionCount":1,"status":"running","statusDetails":"","provisioningState":"succeeded","hostingMode":"default","publicNetworkAccess":"Enabled","networkRuleSet":{"ipRules":[],"bypass":"None"},"privateEndpointConnections":[],"sharedPrivateLinkResources":[]},"sku":{"name":"basic"}}'
+    headers:
+      cache-control:
+      - no-cache
+      content-length:
+      - '586'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Mon, 28 Sep 2020 03:14:34 GMT
+      elapsed-time:
+      - '2235'
+      etag:
+      - W/"datetime'2020-09-28T03%3A14%3A33.5665122Z'"
+      expires:
+      - '-1'
+      pragma:
+      - no-cache
+      request-id:
+      - b631d33c-0138-11eb-af89-0242ac110006
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-ms-ratelimit-remaining-subscription-writes:
+      - '1198'
+    status:
+      code: 201
+      message: Created
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '0'
+      User-Agent:
+      - python/3.6.9 (Linux-4.19.76-linuxkit-x86_64-with-Ubuntu-18.04-bionic) msrest/0.6.10
+        msrest_azure/0.6.2 azure-mgmt-search/3.0.0 Azure-SDK-For-Python
+      accept-language:
+      - en-US
+    method: POST
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/test_mgmt_search_test_search_query_keys40e9101d/providers/Microsoft.Search/searchServices/ptvstestquerykeyss/createQueryKey/testkey?api-version=2020-08-01
+  response:
+    body:
+      string: '{"name":"testkey","key":"55CCE3A3AF0D5766D208E78E4B24F240"}'
+    headers:
+      cache-control:
+      - no-cache
+      content-length:
+      - '59'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Mon, 28 Sep 2020 03:14:34 GMT
+      elapsed-time:
+      - '215'
+      expires:
+      - '-1'
+      pragma:
+      - no-cache
+      request-id:
+      - bbf72bfa-0138-11eb-af89-0242ac110006
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding,Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-ms-ratelimit-remaining-subscription-writes:
+      - '1199'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '0'
+      User-Agent:
+      - python/3.6.9 (Linux-4.19.76-linuxkit-x86_64-with-Ubuntu-18.04-bionic) msrest/0.6.10
+        msrest_azure/0.6.2 azure-mgmt-search/3.0.0 Azure-SDK-For-Python
+      accept-language:
+      - en-US
+    method: POST
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/test_mgmt_search_test_search_query_keys40e9101d/providers/Microsoft.Search/searchServices/ptvstestquerykeyss/listQueryKeys?api-version=2020-08-01
+  response:
+    body:
+      string: '{"value":[{"name":null,"key":"DAEF832B54D3954FF5E2B0298DDB38D2"},{"name":"testkey","key":"55CCE3A3AF0D5766D208E78E4B24F240"}],"nextLink":null}'
+    headers:
+      cache-control:
+      - no-cache
+      content-length:
+      - '142'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Mon, 28 Sep 2020 03:14:35 GMT
+      elapsed-time:
+      - '179'
+      expires:
+      - '-1'
+      pragma:
+      - no-cache
+      request-id:
+      - bc45dcbe-0138-11eb-af89-0242ac110006
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding,Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-ms-ratelimit-remaining-subscription-writes:
+      - '1198'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '0'
+      User-Agent:
+      - python/3.6.9 (Linux-4.19.76-linuxkit-x86_64-with-Ubuntu-18.04-bionic) msrest/0.6.10
+        msrest_azure/0.6.2 azure-mgmt-search/3.0.0 Azure-SDK-For-Python
+      accept-language:
+      - en-US
+    method: DELETE
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/test_mgmt_search_test_search_query_keys40e9101d/providers/Microsoft.Search/searchServices/ptvstestquerykeyss/deleteQueryKey/testkey?api-version=2020-08-01
+  response:
+    body:
+      string: '{"error":{"code":"Unknown","message":"This API key does not exist for
+        service ''ptvstestquerykeyss''. RequestId: bc8e7dd4-0138-11eb-af89-0242ac110006","target":null,"details":null}}'
+    headers:
+      cache-control:
+      - no-cache
+      content-language:
+      - en
+      content-length:
+      - '179'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Mon, 28 Sep 2020 03:14:36 GMT
+      elapsed-time:
+      - '317'
+      expires:
+      - '-1'
+      pragma:
+      - no-cache
+      request-id:
+      - bc8e7dd4-0138-11eb-af89-0242ac110006
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-ms-ratelimit-remaining-subscription-deletes:
+      - '14998'
+    status:
+      code: 404
+      message: Not Found
+version: 1

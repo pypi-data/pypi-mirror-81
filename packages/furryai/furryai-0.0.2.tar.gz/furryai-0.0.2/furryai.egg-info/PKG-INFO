@@ -1,0 +1,18 @@
+Metadata-Version: 1.0
+Name: furryai
+Version: 0.0.2
+Summary: Tries to *replicate* a furry (note: not actually an AI)
+Home-page: UNKNOWN
+Author: BotNC
+Author-email: botnc1234567890@gmail.com
+License: MIT
+Description: furryai
+        --------
+        
+        To use this, simply do:
+        	
+        	>>> from furryai import FurryAI
+        	>>> ai = FurryAI()
+        	>>> print(ai.respond("hello"))
+        
+Platform: UNKNOWN

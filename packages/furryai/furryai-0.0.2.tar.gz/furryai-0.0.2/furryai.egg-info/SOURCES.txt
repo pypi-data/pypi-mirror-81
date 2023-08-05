@@ -1,0 +1,9 @@
+MANIFEST.in
+README.rst
+setup.py
+furryai/__init__.py
+furryai.egg-info/PKG-INFO
+furryai.egg-info/SOURCES.txt
+furryai.egg-info/dependency_links.txt
+furryai.egg-info/not-zip-safe
+furryai.egg-info/top_level.txt

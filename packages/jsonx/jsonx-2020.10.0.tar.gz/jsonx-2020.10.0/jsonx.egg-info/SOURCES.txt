@@ -1,0 +1,7 @@
+README.rst
+jsonx.py
+setup.py
+jsonx.egg-info/PKG-INFO
+jsonx.egg-info/SOURCES.txt
+jsonx.egg-info/dependency_links.txt
+jsonx.egg-info/top_level.txt

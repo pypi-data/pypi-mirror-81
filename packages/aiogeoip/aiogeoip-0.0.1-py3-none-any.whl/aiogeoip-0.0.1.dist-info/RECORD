@@ -1,0 +1,14 @@
+aiogeoip/__init__.py,sha256=5VY2-ujHEbUhv3aszUGmhbDBpiMM1ZkvsVlZ5SchVL4,627
+aiogeoip/aio.py,sha256=IIuTVyV6esbXCfbAcmj3xgyTloLJCji1H2R92qI8gig,929
+aiogeoip/cache.py,sha256=DEeU6koPyphp8vhTVOnsg2JT5xVrrR1Rewo_ogrDwqQ,859
+aiogeoip/geoip.py,sha256=iNomaAwQ5d5S8s0pwX9CWyRVySPXPtADDpuopCTGs5Y,1319
+aiogeoip/model.py,sha256=-JreLbmRdS5vvG5UClyldhYq8CuwMc9DHKvokOZZeOs,1889
+aiogeoip/requests_geoip.py,sha256=8Q2cCLuVQ1bHuxhZ60zD_S9mPQ6Xc0H2zTg4NkquqPM,716
+aiogeoip/urllib_geoip.py,sha256=BOvRd-AQ05EUNtZlD91UoR8HrYNN1FNktzkwog_jZC8,900
+aiogeoip/utils.py,sha256=i-jVYN8i4quECeUU-TT9er52UIc2vkOrBSpzt_Z0GWc,579
+aiogeoip/version.py,sha256=rEd_dMdT2KdAKoCJ-R4aVzTujOeV9OoPD4M_rwP1I3s,439
+aiogeoip-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+aiogeoip-0.0.1.dist-info/METADATA,sha256=iqD6id7jrSkWWFWhqHyNxai13iFn6e1qiIIBGx61HBo,2689
+aiogeoip-0.0.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+aiogeoip-0.0.1.dist-info/top_level.txt,sha256=8AzVDem7RkspySsBrRpNSpSS1lMmunjePrSy74B8vA8,9
+aiogeoip-0.0.1.dist-info/RECORD,,

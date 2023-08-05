@@ -1,0 +1,15 @@
+lyncs-mpi
+lyncs-cppyy
+lyncs-utils
+lyncs-clime
+lyncs-setuptools
+
+[all]
+pytest-benchmark
+pytest-cov
+pytest
+
+[test]
+pytest
+pytest-cov
+pytest-benchmark

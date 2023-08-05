@@ -1,0 +1,5 @@
+numpy>=1.18.0
+pandas>=0.25.0
+
+[testing]
+pytest

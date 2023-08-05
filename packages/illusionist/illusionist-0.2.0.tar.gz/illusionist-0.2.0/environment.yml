@@ -1,0 +1,38 @@
+name: illusionist
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - pip
+
+  - pip:
+      # Base
+      - setuptools
+      - setuptools_scm
+      - pylint
+      - flake8
+      - black
+      - isort
+      - twine
+      - wheel
+      - pytest
+      - pytest-cov
+
+      # Docs
+      - mkdocs
+      - mkdocs-material
+      - mkdocs-minify-plugin
+      - pygments
+      - pymdown-extensions
+
+      # Package
+      - nbconvert>=6.0.6,<7
+      - nbclient>=0.5.0
+      - nbformat>=5.0.7
+
+      # Examples
+      - notebook
+      - jupyterlab
+      - ipywidgets
+      - numpy
+      - matplotlib

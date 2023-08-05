@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: eks-token
+Version: 0.0.1a0
+Summary: EKS Token package, an alternate to "aws eks get-token ..." CLI
+Home-page: https://github.com/peak-ai/eks-token
+Author: Peak AI
+Author-email: support@peak.ai
+License: UNKNOWN
+Keywords: eks k8s boto3 awscli python aws
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: awscli (==1.18.150)
+
+# eks-token
+EKS Token package, an alternate to "aws eks get-token ..." CLI 
+## TODO: Documentation
+
+

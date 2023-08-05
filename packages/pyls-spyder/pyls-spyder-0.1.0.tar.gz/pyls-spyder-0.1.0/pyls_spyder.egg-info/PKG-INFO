@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pyls-spyder
+Version: 0.1.0
+Summary: Spyder extensions for the python-language-server
+Home-page: https://github.com/spyder-ide/pyls-spyder
+Author: Spyder Project Contributors
+Author-email: spyder.python@gmail.com
+License: MIT
+Description: # pyls-spyder
+        Spyder extensions to the python language server (pyls)
+        
+Keywords: PyLS,Plugin
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown

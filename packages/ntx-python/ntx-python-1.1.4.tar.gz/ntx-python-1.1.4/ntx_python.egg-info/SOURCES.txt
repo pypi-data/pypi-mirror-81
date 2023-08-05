@@ -1,0 +1,16 @@
+README.md
+setup.py
+ntx_python/__config__.py
+ntx_python/__init__.py
+ntx_python/__main__.py
+ntx_python/__main_token__.py
+ntx_python/ntx_auth_metadata_plugin.py
+ntx_python/ntx_stt.py
+ntx_python.egg-info/PKG-INFO
+ntx_python.egg-info/SOURCES.txt
+ntx_python.egg-info/dependency_links.txt
+ntx_python.egg-info/requires.txt
+ntx_python.egg-info/top_level.txt
+ntx_python/ntx_protobuf/__init__.py
+ntx_python/ntx_protobuf/engine_pb2.py
+ntx_python/ntx_protobuf/engine_pb2_grpc.py

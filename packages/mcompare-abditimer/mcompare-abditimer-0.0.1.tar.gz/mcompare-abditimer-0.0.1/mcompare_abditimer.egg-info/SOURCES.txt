@@ -1,0 +1,10 @@
+README.md
+setup.py
+mcompare/__init__.py
+mcompare/classifiers_wrapper.py
+mcompare/model_wrapper.py
+mcompare/regressors_wrapper.py
+mcompare_abditimer.egg-info/PKG-INFO
+mcompare_abditimer.egg-info/SOURCES.txt
+mcompare_abditimer.egg-info/dependency_links.txt
+mcompare_abditimer.egg-info/top_level.txt

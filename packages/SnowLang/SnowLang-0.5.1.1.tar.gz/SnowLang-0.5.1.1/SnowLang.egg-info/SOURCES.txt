@@ -1,0 +1,7 @@
+setup.py
+SnowLang/__init__.py
+SnowLang.egg-info/PKG-INFO
+SnowLang.egg-info/SOURCES.txt
+SnowLang.egg-info/dependency_links.txt
+SnowLang.egg-info/top_level.txt
+test/test.py

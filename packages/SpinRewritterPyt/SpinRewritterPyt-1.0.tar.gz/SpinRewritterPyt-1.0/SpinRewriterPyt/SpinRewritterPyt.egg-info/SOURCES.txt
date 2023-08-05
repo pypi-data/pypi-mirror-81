@@ -1,0 +1,8 @@
+README.md
+setup.py
+SpinRewriterPyt/SpinRewritterPyt.egg-info/PKG-INFO
+SpinRewriterPyt/SpinRewritterPyt.egg-info/SOURCES.txt
+SpinRewriterPyt/SpinRewritterPyt.egg-info/dependency_links.txt
+SpinRewriterPyt/SpinRewritterPyt.egg-info/not-zip-safe
+SpinRewriterPyt/SpinRewritterPyt.egg-info/requires.txt
+SpinRewriterPyt/SpinRewritterPyt.egg-info/top_level.txt

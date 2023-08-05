@@ -1,0 +1,15 @@
+boto3
+azure-common
+# msrestazure required by azure-common, remove when fixed upstream
+msrestazure
+azure-mgmt-compute
+azure-mgmt-network
+azure-mgmt-resource
+Click
+paramiko
+pytest
+PyYAML
+testinfra
+oci
+google-auth
+google-api-python-client

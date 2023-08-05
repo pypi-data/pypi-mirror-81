@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: xcli
+Version: 0.1.1
+Summary: Utilities for building command-line applications
+Home-page: UNKNOWN
+Author: Ian Fisher
+Author-email: iafisher@fastmail.com
+License: MIT
+Project-URL: Source, https://github.com/iafisher/xcli
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown
+
+# xcli
+Utilities for writing command-line applications in Python.
+
+
+## Why?
+Because I write a lot of command-line scripts in Python and I'm opinionated about things.
+
+

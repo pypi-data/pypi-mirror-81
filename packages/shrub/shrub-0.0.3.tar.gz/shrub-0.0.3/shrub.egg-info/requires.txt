@@ -1,0 +1,6 @@
+numpy
+onnx
+onnxruntime
+pillow
+tensorflow>=2.0.0
+tflite

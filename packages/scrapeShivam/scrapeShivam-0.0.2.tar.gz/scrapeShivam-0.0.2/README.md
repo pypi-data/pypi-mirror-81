@@ -1,0 +1,66 @@
+# Scrapping
+
+1 Altnews.com scrapping
+2 Google Image Scrapping 
+3 Instagram user profile scrapping based on username
+4 Instagram single post scrapping based on link
+5 Facebook post scrapping based on postlink
+6 Twitter post scrapping based on link
+7 Tradingview chart image scrapping
+8 Whatsapp messaging using whatsappweb 
+
+***************************************************************
+ 1 ALTNEWS
+
+ This is a Indian fact news checking site. this package is helpful to scrape all data and create a dataframe 
+ of every article which is available on site .
+  data includes:
+	Text
+	Author name
+	Date
+	Title
+	Link
+***************************************************************
+2 Google Image Downloader
+
+ In this module you can scrape all images based on given image name . Basically it takes a few minutes to scrape all imaes . it iterates 
+  over all image sub categories and scrape them . This is very useful for making dataset of difficult images dataset .
+	Required only name of image 
+
+***************************************************************
+3 Instagram user profile scrapping
+
+  Scrape a whole user profile images based on instagram userid just need userid .
+
+***************************************************************
+4 Scrapping instagram posts
+
+This is helpful to scrape data related to a instagram post . shared link of post.
+
+***************************************************************
+5 Scrapping Facebook post
+
+This is related to scrape post of the faceebook based on shared link of facebook post .
+
+***************************************************************
+6 Scrapping Twitter post
+
+ Just get the shareable link of twitter post . Use that as a url to the function and it will return data related to posts .
+
+***************************************************************
+7 Scrapping trading view image chart
+
+  This is to save image of the tradingview chart based on symbol,timeinterval . THis is helpful to make dataset for trading projects .
+
+***************************************************************
+8 Whatsapp messaging
+
+  Here we can send messages to existing friends in the user accout . This is based on whatsapp web . Just need to scan whatsapp QR code and start to message to the friends . You can send a messages n no. of times .
+ Ex:
+     target='varsha'
+     message='Hi'
+     n=10
+ Then it will send message Hi 10 times to varsha .
+
+ 
+	 

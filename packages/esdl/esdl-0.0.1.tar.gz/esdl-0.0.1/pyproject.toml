@@ -1,0 +1,13 @@
+[build-system]
+requires = [
+    "setuptools>=50.3",
+    "wheel>=0.35",
+    "cffi>=1.14.2",
+    "pycparser>=2.14",
+    "pcpp>=1.21",
+]
+
+[tool.black]
+line-length = 79
+py36 = false
+target-version = ["py35"]

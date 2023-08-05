@@ -1,0 +1,17 @@
+CHANGELOG.md
+LICENSE.txt
+MANIFEST.in
+README.md
+build_sdl2.py
+pyproject.toml
+requirements.txt
+setup.py
+esdl/__init__.py
+esdl/py.typed
+esdl/sdl2.py
+esdl/version.py
+esdl.egg-info/PKG-INFO
+esdl.egg-info/SOURCES.txt
+esdl.egg-info/dependency_links.txt
+esdl.egg-info/requires.txt
+esdl.egg-info/top_level.txt

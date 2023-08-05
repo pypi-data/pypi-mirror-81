@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: esdl
+Version: 0.0.1
+Summary: An extendable SDL2 wrapper.
+Home-page: https://github.com/libtcod/python-esdl
+Author: Kyle Benesch
+Author-email: 4b796c65+esdl@gmail.com
+License: zlib/libpng License
+Description: # python-esdl
+        
+        A Python port of SDL2 split off from
+        [python-tcod](https://github.com/libtcod/python-tcod).
+        
+        Basic features are still being implemented at the moment.
+        
+        ## Changelog
+        All notable changes to this project will be documented in this file.
+        
+        The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
+        
+        This project attempts to adhere to [Semantic Versioning](http://semver.org/).
+        
+        
+        ## [0.0.1] - 2020-10-01
+        ### Added
+        - Ported SDL2 via python-cffi.  Access this API with `esdl.lib` and `esdl.ffi`.
+        - Linked to SDL 2.0.5 and bundled with SDL 2.0.12 when installed on
+          Windows/MacOS.  Linked with libsdl-dev on Linux.
+        
+Keywords: SDL SDL2 cffi ffi
+Platform: Windows
+Platform: MacOS
+Platform: Linux
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Environment :: MacOS X
+Classifier: Environment :: X11 Applications
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: zlib/libpng License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown

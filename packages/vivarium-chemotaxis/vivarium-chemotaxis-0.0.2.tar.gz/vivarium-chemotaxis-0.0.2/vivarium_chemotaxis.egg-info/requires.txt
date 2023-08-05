@@ -1,0 +1,2 @@
+vivarium-core==0.0.29
+vivarium-cell==0.0.23

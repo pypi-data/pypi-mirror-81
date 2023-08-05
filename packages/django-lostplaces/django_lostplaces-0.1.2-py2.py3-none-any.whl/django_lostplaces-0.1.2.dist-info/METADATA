@@ -1,0 +1,170 @@
+Metadata-Version: 2.1
+Name: django-lostplaces
+Version: 0.1.2
+Summary: A django app to manage lost places
+Home-page: https://git.mowoe.com/reverend/lostplaces-backend
+Author: Reverend
+Author-email: reverend@reverend2048.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Framework :: Django
+Description-Content-Type: text/markdown
+Requires-Dist: django
+Requires-Dist: easy-thumbnails
+Requires-Dist: image
+Requires-Dist: django-widget-tweaks
+Requires-Dist: django-taggit
+
+# lostplaces-backend
+
+lostplaces-backend is a django (3.x) based webproject. It once wants to become a software which allows a group of urban explorers to manage, document and share the locations of lost places while not exposing too much / any information to the public.
+
+The software is currently in early development status, neither scope, datamodel(s) nor features are finalized yet. Therefore we would not recommend to download or install this piece of software anywhere - except your local django dev server.
+
+We value privacy as a whole, all resources the frontend requires will be shipped with lostplace's distribution. We also try to minimize the use of JavaScript as far as we can and try to offer JS-less alternatives where we can.
+
+## Features
+- Manage lost places with lots of useful information.
+- OSM-Maps
+- Sensitive information is not accessible for anonymous (not logged in) users.
+- User self registration using a voucher system, only people you invite can join your instance.
+- Collaboration, every user can add informations like tags, photos and external links to your place.
+
+## Dependencies
+Right now it depends on the following non-core Python 3 libraries. These can be installed using the package manager of your distribution or into the venv locally.
+
+  * [django](https://www.djangoproject.com/) is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.
+  * [easy-thumbnails](https://github.com/SmileyChris/easy-thumbnails) A powerful, yet easy to implement thumbnailing application for Django 1.11+.
+  * [image](https://github.com/francescortiz/image) Image cropping for django.
+  * [django-widget-tweaks](https://github.com/jazzband/django-widget-tweaks) Tweak the form field rendering in templates, not in python-level form definitions.
+  * [django-taggit](https://github.com/jazzband/django-taggit) A simpler approach to tagging with Django.
+
+  ### Bundled Dependencies
+  We also leverage some other great OpenSource projects' code. We bundle those in the distribution to obsolete the need to pull those files from monitored CDNs.
+
+  * [OpenLayers](https://openlayers.org/) [6.4.3] OpenLayers makes it easy to put a dynamic map in any web page. It can display map tiles, vector data and markers loaded from any source.
+  * [Crimson Pro font](https://github.com/Fonthausen/CrimsonPro) [1.002] Crimson Pro is a serif typeface family: Contemporary, clear, classic and rounded/open.
+  * [Montserrat](https://github.com/JulietaUla/Montserrat) [7.210] A beautiful sans serif typeface.
+
+
+# Installing a development instance
+## Clone the repository
+`git clone https://git.mowoe.com/reverend/lostplaces-backend.git`
+## Setting up a (pipenv) virtual environment for development
+
+After having obtained the repository contents (either via .zip download or git clone), you can easily setup a [pipenv](https://docs.pipenv.org/) virtual environment. The repo provides a Pipfile for easy dependency management that does not mess with your system.
+
+```shell
+$ cd lostplaces-backend
+$ pipenv install 
+$ pipenv shell
+(lostplaces-backend) $ django_lostplaces/manage.py makemigrations
+(lostplaces-backend) $ django_lostplaces/manage.py migrate
+(lostplaces-backend) $ django_lostplaces/manage.py createsuperuser
+(lostplaces-backend) $ django_lostplaces/manage.py runserver --ipv6
+```
+
+## Returning to the venv
+```shell
+$ cd lostplaces-backend
+$ pipenv shell
+(lostplaces-backend) $ pipenv update # If dependencies changed, or updates available
+(lostplaces-backend) $ django_lostplaces/manage.py makemigrations # If datamodels changed
+(lostplaces-backend) $ django_lostplaces/manage.py migrate # If datamodels changed
+(lostplaces-backend) $ django_lostplaces/manage.py runserver --ipv6
+```
+
+Visit: [admin](http://localhost:8000/admin) for administrative backend or
+[frontend](http://localhost:8000/).
+
+Happy developing ;-)
+
+# Installing a productive instance
+
+Currently there are two ways to deploy the lostplaces project:
+1. Cloning this repository, including the configured django instance.
+2. Install the package and setup the django instance yourself.
+
+## Cloning the repository
+
+Essentially, this is the same as installing a development instance, but without the development server (manage.py runserver) and something powerful (Apache, NGINX) instead. You have to configure the webserver to work with the *SGI Api respectively, reference [django's guide for deployment](https://docs.djangoproject.com/en/3.1/howto/deployment/) for further information.
+
+You also should setup a dedicated database server, the built-in SQLite file is not recommended for production use. Reference [django's guide for databases](https://docs.djangoproject.com/en/3.1/ref/databases/) for further information.
+
+Before making the django instance public, you should tweak the config `settings.py`:
+1. Change the secret key, the one found in the config is already public. Choose something secure (i.e. [this](https://duckduckgo.com/?q=password+generator+64)).
+2. Turn off debug mode by setting `DEBUG = False`.
+3. Tune the localization settings, see [django's documentation](https://docs.djangoproject.com/en/3.1/topics/i18n/).
+
+Run `django_lostplaces/managy.py collectstatic` and you should be ready to go.
+
+
+## Installing lostplaces to an existing django instance
+
+### Installing django and the django_lostplaces app
+
+If you haven't already setup a django instance, see [django's documentation](https://docs.djangoproject.com/en/3.1/topics/install/).
+
+After that, download the desired release (probably the latest one) [from the releases page](https://git.mowoe.com/reverend/lostplaces-backend/releases) and install it using  `pip install --user name-of-the-file.tar.gz`
+
+*Note: You can run pip install without the --user flag, which will require root privileges and introduces potential security issues.*
+
+### Configuring the django instance
+
+Now configure your `settings.py` as follows:
+1. Add the following apps to the django project.
+
+```python
+INSTALLED_APPS = [
+	...
+	'django_lostplaces',
+	'easy_thumbnails',
+	'widget_tweaks',
+	'django_taggit'
+]
+```
+
+2. Set the URL's and Root-directories for file handling, for example:
+
+```python
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static_files')
+
+MEDIA_URL = '/uploads/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'uploads')
+```
+
+3. Set the URL's for login, for example:
+
+```python
+LOGIN_URL = reverse_lazy('login')
+LOGIN_REDIRECT_URL = reverse_lazy('django_lostplaces_home')
+LOGOUT_REDIRECT_URL = reverse_lazy('django_lostplaces_home')
+```
+
+### Configuring the URL's
+In the `urls.py` configure the `urlpatterns` like this:
+```python
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('signup/', SignUpView.as_view(), name='signup'), # If you want to use lostplaces' sign up view.
+    path('explorers/', include('django.contrib.auth.urls')), # You can change the 'explorers/' to whatever you desire.
+    path('', include('django_lostplaces.urls')), # In this configuration django_lostplaces will be at the top level of you website, change '' to 'django_lostplaces/', if you don't want this.
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) # So django can deliver user uploaded files.
+```
+
+Before making the django instance public, you should tweak the config `settings.py`:
+1. Change the secret key, the one found in the config is already public. Choose something secure (i.e. [this](https://duckduckgo.com/?q=password+generator+64)).
+2. Turn off debug mode by setting `DEBUG = False`.
+3. Tune the localization settings, see [django's documentation](https://docs.djangoproject.com/en/3.1/topics/i18n/).
+4. Set a new (random) SECRET_KEY in settings.py, e. g.: `base64 /dev/urandom | head -c50`
+
+
+Run `django_lostplaces/manage.py collectstatic` you should be ready to go.
+
+

@@ -1,0 +1,5 @@
+[console_scripts]
+DragonPy=dragonpy.core.cli:main
+publish=dragonpy.publish:publish
+update_rst_readme=dragonpy.publish:update_readme
+

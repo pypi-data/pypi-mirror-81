@@ -1,0 +1,16 @@
+itng/__init__.py,sha256=n0Zb8AbnUL4kszSS-Zifiw0B0MK8ABg9oGah1xzVQaU,312
+itng/drawing.py,sha256=6I3Kzri3vtJCr81yzCkiuNsr_HRB7b5vByfJTEmVRAU,5930
+itng/graphUtility.py,sha256=JyZL-xVRmsmTQpXoGKND0BQ_66PvaUQhlAtvzEGjltc,12859
+itng/modules.py,sha256=4a-mhUCLScSxJu7J0tTHGr652zDH0ZpT3vwxUSHzD6Q,3890
+itng/networks.py,sha256=ZWvVWjl6VjrUWaLvcToh8lB5mZdZFIeJ2hr5_TZChIs,13326
+itng/randomGenerators.py,sha256=9XQa-8Q_-hCXbrdlu3aqO3598u_8OO_Zh4-74MfSNzo,1242
+itng/randomSequence.py,sha256=9XQa-8Q_-hCXbrdlu3aqO3598u_8OO_Zh4-74MfSNzo,1242
+itng/signal_processing.py,sha256=e6IhqEeBMjdCqrp3yUaBHzKIycbGL0RPk8_qPwFI5uU,5459
+itng/statistics.py,sha256=idUbVuzGul95os99wYcZEOHHCQL7qZY0wwk4plzeLks,5721
+itng/synchrony.py,sha256=p9YnL90dpZb319YmLWJ8iMMQoPuaj_dMpq38rbE5zfc,1388
+itng-0.1.5.dist-info/DESCRIPTION.rst,sha256=jAElf2atQYMzUI_5EQsFg5U4SrhlGAcUKymwuIYNN5M,1063
+itng-0.1.5.dist-info/METADATA,sha256=EKQN6Gl-kZIns-BGnY0_b1_h-Rzsl53cnY7Wf-kcNmk,1578
+itng-0.1.5.dist-info/RECORD,,
+itng-0.1.5.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+itng-0.1.5.dist-info/metadata.json,sha256=OZzWVDksK53np0YExEJKT_Bjuiu9WFX9MQQWpy9zbsc,679
+itng-0.1.5.dist-info/top_level.txt,sha256=Q4mAmgBAecjKqQQCpBi468l-3VVhg4y5JVtlAgbXiho,5

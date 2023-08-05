@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: f3dasm
+Version: 0.0.1
+Summary: Framework for Data-Driven Design and Analysis of Structures.
+Home-page: UNKNOWN
+Author: L. F. Pereira
+Author-email: lfpereira@fe.up.pt
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: salib
+
+UNKNOWN
+
+

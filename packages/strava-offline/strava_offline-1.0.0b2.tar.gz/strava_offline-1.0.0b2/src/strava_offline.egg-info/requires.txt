@@ -1,0 +1,14 @@
+appdirs
+bottle
+pytz
+requests
+requests_oauthlib
+
+[dev]
+flake8
+mypy
+pep517
+python-language-server
+twine
+
+[test]

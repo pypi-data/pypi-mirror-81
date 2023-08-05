@@ -1,0 +1,15 @@
+README.md
+setup.py
+autofig/__init__.py
+autofig/axes.py
+autofig/call.py
+autofig/callbacks.py
+autofig/common.py
+autofig/cyclers.py
+autofig/figure.py
+autofig/mpl_animate.py
+autofig.egg-info/PKG-INFO
+autofig.egg-info/SOURCES.txt
+autofig.egg-info/dependency_links.txt
+autofig.egg-info/top_level.txt
+launcher/autofig

@@ -1,0 +1,12 @@
+paga_business_client/__init__.py,sha256=y-IgurAQdlka6ojoHrNDw-0D5yj3f7OuQoLdaJRwNSQ,53
+paga_business_client/_version.py,sha256=i1yX3GxdXutI1YYCvUV8O7msNGXkA6ETlvkNrLCI_XM,116
+paga_business_client/apibase.py,sha256=XgVetOYeTGepQjn8wK_GZRcWPbYZOr5XKR4Zf1E-ido,2079
+paga_business_client/business_client_core.py,sha256=mKg2kGSH7nHIVZJZCxqCYTSLdn-AnnUz4eOicF3yAoU,19198
+paga_business_client/onboard_merchant.py,sha256=WRW8r6tJ941CdrCfDKw7ypTLjpIcGyHgM4DcYB3LM_E,3076
+paga_business_client/version.py,sha256=fdo_SZhYCf_7oDYvgbzprTBylg9l3jB_pU89Clo8bz8,166
+paga_business_client-0.0.2.dist-info/AUTHORS.rst,sha256=c3LfGDp4BohxhqVoIJydID16O5acuhm4QKb60786sFo,75
+paga_business_client-0.0.2.dist-info/LICENSE,sha256=SHORznz_tve_e9Sk0M1C4Bsk8KnTZoPBRWp0Z9fReBg,1112
+paga_business_client-0.0.2.dist-info/METADATA,sha256=rdGht7uKRfqjaqOnjR0Fd0_Exk46Ncx8oGAh1GicBMk,2227
+paga_business_client-0.0.2.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+paga_business_client-0.0.2.dist-info/top_level.txt,sha256=IzNszfgTm1nsoSgbCOf8iYvn_8ADbMJoo_HA6egZwEU,21
+paga_business_client-0.0.2.dist-info/RECORD,,

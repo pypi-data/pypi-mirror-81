@@ -1,0 +1,40 @@
+# This is the config file, save and exit to confirm configuration.
+
+# decks: 2 - 6
+decks = 2
+
+# sleep: 0.0 - 5.0
+sleep = 3.0
+
+# does not support infinite loop, round >= 1
+rounds = 2
+
+# no prompt for next round
+yes = false
+
+# show e-max
+assist = true
+
+# basically x-ray
+debug = false
+
+# just don't touch this
+viewer = "cli"
+
+# Set players here
+# Algorithms: 'user', 'basic 1', 'basic 2', 'x-ray', and 'dealer', only 1 dealer should exist
+[[players]]
+name = "player-1"
+algorithm = "basic 1"
+
+[[players]]
+name = "player-2"
+algorithm = "x-ray"
+
+[[players]]
+name = "USER"
+algorithm = "user"
+
+[[players]]
+name = "dealer"
+algorithm = "dealer"

@@ -1,0 +1,12 @@
+msiem/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+msiem/__main__.py,sha256=KQbgRp1pBIwNBZm2XYa2Lb2oyhPAcspVPqM9zUH0GjU,66
+msiem/__pathutils__.py,sha256=HLqLW7kz6UfSdn7Qf8j3EHT4jSyxNkHbXG9R0XC4CI0,7091
+msiem/__version__.py,sha256=3kg2dNxa2xr-vfiLg4o-zniTHgnfL52u5DeeOASHBW0,46
+msiem/cli.py,sha256=5lVlkdOt15Ld1MmN9onmOiefBZYymxI7VGFBUf6e9NQ,22176
+msiem/dstools.py,sha256=NnpPI0Y2xrUUui3UKCa30qMWi9lUSvBtFFORgvrlPPQ,8776
+msiem-0.3.3.dist-info/LICENSE,sha256=bUqsASb-HjvI-v63idD-AFZvVRYTkdhqrFUsB7GRcio,1079
+msiem-0.3.3.dist-info/METADATA,sha256=jQsJiyi2shzXM8mketv6502I24s94LNIuhe-e1bxyXE,1558
+msiem-0.3.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+msiem-0.3.3.dist-info/entry_points.txt,sha256=NwF7zp4_rPwpPV84gEQ7OczAQc7USwtrMWuhr-wLXnI,42
+msiem-0.3.3.dist-info/top_level.txt,sha256=Ex3pg0zwchpKH9b90wUbPTuODW3vQ5SADtfrY9166RI,6
+msiem-0.3.3.dist-info/RECORD,,

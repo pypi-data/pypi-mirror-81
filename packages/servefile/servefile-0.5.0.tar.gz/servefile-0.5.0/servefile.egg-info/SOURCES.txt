@@ -1,0 +1,15 @@
+ChangeLog
+MANIFEST.in
+README.md
+servefile
+servefile.1
+setup.py
+servefile/__init__.py
+servefile/__main__.py
+servefile/servefile.py
+servefile.egg-info/PKG-INFO
+servefile.egg-info/SOURCES.txt
+servefile.egg-info/dependency_links.txt
+servefile.egg-info/entry_points.txt
+servefile.egg-info/requires.txt
+servefile.egg-info/top_level.txt

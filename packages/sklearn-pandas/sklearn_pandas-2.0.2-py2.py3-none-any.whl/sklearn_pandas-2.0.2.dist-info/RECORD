@@ -1,0 +1,11 @@
+sklearn_pandas/__init__.py,sha256=xczvU0EbVVZfsnM1GUjjfTV3SOOdougDpJAFN5nlBh0,184
+sklearn_pandas/cross_validation.py,sha256=e76i6NDSujfrtpGsQxxJ1TD_9W1wRJehZ2mEKih8bNY,195
+sklearn_pandas/dataframe_mapper.py,sha256=GsxU3t3W9syEIGn18vGUyKDJBKQE5rjHUtGZBhr7w9k,14821
+sklearn_pandas/features_generator.py,sha256=d730XcYF-x_LUz7eGmJa6C2cL-TKrnikY9CVuYdYfWU,2183
+sklearn_pandas/pipeline.py,sha256=xi8CAdQn5afFHSh0LIEW7C2kgnWeLeFNZnr-Qk9G2wQ,3570
+sklearn_pandas/transformers.py,sha256=aFvpMN4Su7vV1qhxNvfbHdSYkQHe307Ra15wa2ifKCw,1350
+sklearn_pandas-2.0.2.dist-info/LICENSE,sha256=IxRj_5S3Wlc4HaY7F7KM2SCXUxEP4VEALMmNdY2LCW0,2406
+sklearn_pandas-2.0.2.dist-info/METADATA,sha256=t1bVVqcVHrBvv9qOqBt8DGplpJZI3oTTh7MkJC8wF-k,441
+sklearn_pandas-2.0.2.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+sklearn_pandas-2.0.2.dist-info/top_level.txt,sha256=qwEWyA_CKkNRd16IWPhIuKZbfaHg0bcCRp2urjCBbZ0,15
+sklearn_pandas-2.0.2.dist-info/RECORD,,

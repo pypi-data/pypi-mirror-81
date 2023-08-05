@@ -1,0 +1,8 @@
+README.md
+setup.py
+powerups/__init__.py
+powerups/dummy.py
+powerups.egg-info/PKG-INFO
+powerups.egg-info/SOURCES.txt
+powerups.egg-info/dependency_links.txt
+powerups.egg-info/top_level.txt

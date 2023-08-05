@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: django-bonus
+Version: 0.0.0
+Summary: Bonus Features for Django: More Template Filters like Replace
+Home-page: https://github.com/DanielJDufour/django-bonus
+Author: Daniel J. Dufour
+Author-email: daniel.j.dufour@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/DanielJDufour/django-bonus/tarball/download
+Description: :warning: Work in Progress
+        
+        # django-bonus
+        Bonus Features for Django: More Template Filters like Replace
+        
+Keywords: django,filter,liquid,template
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

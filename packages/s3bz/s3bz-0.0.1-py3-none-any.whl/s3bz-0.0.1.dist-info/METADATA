@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: s3bz
+Version: 0.0.1
+Summary: for saving dictionaries using s3 with bz2 compression
+Home-page: https://github.com/fastai/s3bz/tree/master/
+Author: nic wanavit
+Author-email: nwanavit@hatari.cc
+License: Apache Software License 2.0
+Keywords: s3 bz2
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# nbdev template
+
+Use this template to more easily create your nbdev project.
+
+
+

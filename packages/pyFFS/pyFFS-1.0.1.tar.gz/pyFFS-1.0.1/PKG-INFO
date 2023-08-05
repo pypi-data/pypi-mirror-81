@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: pyFFS
+Version: 1.0.1
+Summary: Fast Fourier Series library
+Home-page: https://github.com/imagingofthings/pyFFS
+Author: Sepand KASHANI, Matthieu SIMEONI, Paul HURLEY
+Author-email: kashani.sepand@gmail.com
+License: BSD
+Download-URL: https://github.com/imagingofthings/pyFFS
+Description: .. #############################################################################
+        .. README.rst
+        .. ==========
+        .. Author : Sepand KASHANI [kashani.sepand@gmail.com]
+        .. #############################################################################
+        
+        #####
+        pyFFS
+        #####
+        *pyFFS* is a library to compute Fourier Series.
+        
+        
+        Installation
+        ------------
+        See ``doc/general/install.rst``
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst; charset=UTF-8

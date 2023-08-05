@@ -1,0 +1,16 @@
+CHANGES
+=======
+
+v1.0.1
+------
+
+* [Dist] Make pip-installable (/w --editable flag)
+* [Doc] Add Matthieu SIMEONI and Paul HURLEY as authors
+
+v1.0
+----
+
+* [Doc] Provide conda installation instructions
+* [License] Standardize license with other ImoT projects
+* Add documentation, code files, configuration files
+* Initial commit

@@ -1,0 +1,16 @@
+azure_databricks_sdk_python/__init__.py,sha256=I8igGXxLz66SXb517z0hs4AF4Y2ufqDjFj9QP_-1O90,125
+azure_databricks_sdk_python/api.py,sha256=9_6JZ232BtEBWBRERWuvKHdE9GWGiPL-6U3ALXYnPjc,8065
+azure_databricks_sdk_python/client.py,sha256=ry8JQHYveT0zwMXdfbNTzbYQnO_JGIaEO7ufLao_-Es,9033
+azure_databricks_sdk_python/clusters.py,sha256=d9rtS-qJl639mbYSnK5XK_JZxKZwldGhr29e4iJcITA,8392
+azure_databricks_sdk_python/tokens.py,sha256=HwC6_VV-xWBjbT0EnFlryyJMdlduVKLNLyvCheGiOXc,1983
+azure_databricks_sdk_python/types/__init__.py,sha256=6cJqpLF0y6BGkVglKKcnt_KQ1EQNXcz3yhlvCwGrkcU,71
+azure_databricks_sdk_python/types/auth_methods.py,sha256=PlU8CtN5jIKab1bhWZEB2LMRgketVomHbiGOmE5f3gg,837
+azure_databricks_sdk_python/types/clusters.py,sha256=I5xGeCkI9rZQKu1A5ebZdUmDs94DC45RktA4W5rgLGM,15514
+azure_databricks_sdk_python/types/tokens.py,sha256=MtMKf8KYdFTLEFCeXHyU3rRU6DJwoM3c_p1fcynHJmM,767
+azure_databricks_sdk_python-0.0.1.dist-info/AUTHORS,sha256=7Vf8se163xMCLZhyZ8f3gTHAhoSVoctakuh6c0vn2kc,47
+azure_databricks_sdk_python-0.0.1.dist-info/LICENSE,sha256=8viwKkfY3TWhlnfCJHJz_9RtrXjBoJOGAdgjs019Vr4,1072
+azure_databricks_sdk_python-0.0.1.dist-info/METADATA,sha256=wIlaZ08G8Cc9aXnnpJiYAs-2ZBzrz3nQvV-WRZCY41s,3437
+azure_databricks_sdk_python-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+azure_databricks_sdk_python-0.0.1.dist-info/pbr.json,sha256=LSzvGYGIDHNszkEQloiFofvUVhIkASq6egFfisNkxoI,47
+azure_databricks_sdk_python-0.0.1.dist-info/top_level.txt,sha256=vvtRxDgs90c0gptjKjdQWupMF1IyPmGWYousRbRw11A,28
+azure_databricks_sdk_python-0.0.1.dist-info/RECORD,,

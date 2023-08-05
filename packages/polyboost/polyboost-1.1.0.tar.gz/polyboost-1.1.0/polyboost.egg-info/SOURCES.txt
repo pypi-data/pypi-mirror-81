@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+polyboost/__init__.py
+polyboost/polyboost.py
+polyboost.egg-info/PKG-INFO
+polyboost.egg-info/SOURCES.txt
+polyboost.egg-info/dependency_links.txt
+polyboost.egg-info/requires.txt
+polyboost.egg-info/top_level.txt
+polyboost/models/__init__.py
+polyboost/models/polyboost.hv.new.model

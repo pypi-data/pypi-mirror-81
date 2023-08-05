@@ -1,0 +1,17 @@
+numpy>=1.19
+
+[docs]
+guzzle_sphinx_theme
+
+[pre-commit]
+pre-commit
+black
+prospector
+pylint
+versioneer
+isort
+gitchangelog
+
+[testing]
+pytest
+pytest-cov<2.11

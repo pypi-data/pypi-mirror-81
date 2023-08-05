@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+h2client/__init__.py
+h2client/connection.py
+h2client/diskcached_connection.py
+h2client/http2_connection.py
+h2client/request_connection.py
+h2client/session.py
+h2client/simple_connection.py
+h2client/stream_connection.py
+h2client.egg-info/PKG-INFO
+h2client.egg-info/SOURCES.txt
+h2client.egg-info/dependency_links.txt
+h2client.egg-info/requires.txt
+h2client.egg-info/top_level.txt

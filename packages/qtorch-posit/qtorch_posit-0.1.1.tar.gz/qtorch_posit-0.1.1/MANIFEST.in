@@ -1,0 +1,2 @@
+recursive-include qtorch_posit/quant/quant_cpu *
+recursive-include qtorch_posit/quant/quant_cuda *

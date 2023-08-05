@@ -1,0 +1,13 @@
+mlcommons_box_ssh/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mlcommons_box_ssh/__main__.py,sha256=iv-nqS0t7Z_SkTS2NZTXcfbZvuYSvHujBKj_RD037tQ,1891
+mlcommons_box_ssh/platform.yaml.template,sha256=wqLKc67p8bwcMBf1_b3T1TlZK-jTUJWBlBMwZ9avs6g,1215
+mlcommons_box_ssh/ssh_metadata.py,sha256=iCbeBtCWII_-vWziLTiznxwv3plSyw9gT33dbeM-13U,6498
+mlcommons_box_ssh/ssh_run.py,sha256=x43LVJKwfqsGnMkxReFuko2wbWHLdQ4kqRvHHG95Zeg,6090
+mlcommons_box_ssh/utils.py,sha256=hAfeEXoETYstKIaUyLsrqb6Zo_dKDEj6Jvu24sMIgCE,6047
+mlcommons_box_ssh/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mlcommons_box_ssh/tests/test_mlcommons_box_singularity_cli.py,sha256=ERt0-DSq3WXJiI8fyRaHVwCrs2VagpAbfpjzMnys4yM,495
+mlcommons_box_ssh-0.2.1.dist-info/METADATA,sha256=RYDJ2tGXxugfbQj0C0b6wir6betUYUVbYjeju_1a4wM,272
+mlcommons_box_ssh-0.2.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+mlcommons_box_ssh-0.2.1.dist-info/entry_points.txt,sha256=hFgpW285dxN87HO3nlcvM2TMx4B00PeozdhEsLlTljg,88
+mlcommons_box_ssh-0.2.1.dist-info/top_level.txt,sha256=cIIDbJMR3DGhAoDK7_sNCuh_KrsSAg5ungrXyQCEnTc,18
+mlcommons_box_ssh-0.2.1.dist-info/RECORD,,

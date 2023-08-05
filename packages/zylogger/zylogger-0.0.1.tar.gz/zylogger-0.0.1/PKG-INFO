@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: zylogger
+Version: 0.0.1
+Summary: A logger can be used directly
+Home-page: https://github.com/nicolerobin/zylogger
+Author: robin zhang
+Author-email: lit050528@gmail.com
+License: UNKNOWN
+Description: # zylogger
+        
+        A logger that can be used directly without any config.
+        
+        ## build
+        ```
+        python setup.py sdist bdist_wheel
+        ```
+        
+        ## upload to test_pypi
+        ```
+        python -m twine upload --verbose --repository testpypi dist/*
+        ```
+        
+        ## upload to pypi
+        ```
+        python -m twine upload
+        ```
+        
+        ## usage
+        ### install
+        ```
+        pip install zylogger
+        ```
+        
+        ### usage
+        ```
+        import logging
+        
+        import zylogger
+        
+        zylogger.init()
+        
+        logging.info('hello zylogger')
+        ```
+        
+Platform: UNKNOWN
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown

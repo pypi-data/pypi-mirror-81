@@ -1,0 +1,7 @@
+README.md
+setup.py
+zylogger/__init__.py
+zylogger.egg-info/PKG-INFO
+zylogger.egg-info/SOURCES.txt
+zylogger.egg-info/dependency_links.txt
+zylogger.egg-info/top_level.txt

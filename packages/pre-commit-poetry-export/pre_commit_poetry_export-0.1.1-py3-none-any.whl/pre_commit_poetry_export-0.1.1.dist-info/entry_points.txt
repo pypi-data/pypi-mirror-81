@@ -1,0 +1,3 @@
+[console_scripts]
+poetry-export=pre_commit_poetry_export.poetry_export:main
+

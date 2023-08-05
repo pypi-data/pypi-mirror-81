@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pre-commit-poetry-export
+Version: 0.1.1
+Summary: pre-commit hook to keep requirements.txt updated
+Home-page: https://github.com/avlm/pre-commit-poetry-export
+License: MIT
+Keywords: pre-commit,hook,poetry,export,pip,requirements,requirements.txt
+Author: Antonio Luckwu
+Author-email: victor.luckwu@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Project-URL: Repository, https://github.com/avlm/pre-commit-poetry-export
+Description-Content-Type: text/markdown
+
+# pre-commit-poetry-export
+Pre-commit hook to keep requirements.txt updated
+

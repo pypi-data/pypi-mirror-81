@@ -1,0 +1,14 @@
+usort/__init__.py,sha256=UN_tsAyziiDt-tDg9nEeLlerF_r0txmUo_st1JJQZzU,289
+usort/__main__.py,sha256=B0-9Z_m9NaAt2p1m6rhsAWZjxjB3I5_VxVOV0jODFkE,225
+usort/cli.py,sha256=-oIhJZAipxuUVohrVN1bjIXqORXoCBs4dBLQcIWaHWM,4991
+usort/config.py,sha256=GrgbUPUIhUeUaPrBSpJ0UlGshcjPzmbDb_SDkIi-BB8,5623
+usort/sorting.py,sha256=DwlTlCcUbimRzfHjNG9PJupqRqOZm_wMa9QazZJpEnY,12774
+usort/stdlibs.py,sha256=yj5nLplbugPWszk3ZSXwpR_0TltjmCvcqUvkerOG2Rk,423
+usort/util.py,sha256=5sCNBvcDVyR4Dkg7Zmx165kuUA7p3i_9-EsDeI8DzJw,2245
+usort/version.py,sha256=AE2Dh6-iux_70eS298G36yhXXCsqMt-kH3JrDb8zN10,118
+usort-0.5.0a3.dist-info/LICENSE,sha256=_py7x5TunVFSY2aUkw5B9oD_kTOmZrfXdGDxa3zvTsk,1070
+usort-0.5.0a3.dist-info/METADATA,sha256=B-P4FqCRZ0kkrGBWCLRxjfjiKl1tl7DADnTwQCHBJHo,3143
+usort-0.5.0a3.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+usort-0.5.0a3.dist-info/entry_points.txt,sha256=lilUBsU47JbbxMfSIoJ2EHDfKENuc33H2K4CKyaeHx4,47
+usort-0.5.0a3.dist-info/top_level.txt,sha256=SnP39IjwhXccIWzTqxBhL7Ko0fSSDJh8CfKjDwKM9e0,6
+usort-0.5.0a3.dist-info/RECORD,,

@@ -1,0 +1,10 @@
+README.md
+setup.py
+pysastra/Tokenizer.py
+pysastra/__init__.py
+pysastra/utils.py
+pysastra.egg-info/PKG-INFO
+pysastra.egg-info/SOURCES.txt
+pysastra.egg-info/dependency_links.txt
+pysastra.egg-info/requires.txt
+pysastra.egg-info/top_level.txt

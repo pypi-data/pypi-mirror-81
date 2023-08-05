@@ -1,0 +1,1 @@
+streammachine-schemas-common==0.0.1

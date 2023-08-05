@@ -1,0 +1,3 @@
+[console_scripts]
+servefile = servefile.servefile:main
+

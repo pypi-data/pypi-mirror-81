@@ -1,0 +1,10 @@
+tensorflow>=2.3.0
+segmentation_models
+pillow
+matplotlib
+numpy
+dataclasses-jsonschema
+
+[tests]
+pytest
+scikit-image

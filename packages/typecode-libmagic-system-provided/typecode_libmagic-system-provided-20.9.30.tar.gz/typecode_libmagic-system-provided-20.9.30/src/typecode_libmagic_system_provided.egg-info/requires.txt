@@ -1,0 +1,5 @@
+plugincode
+
+[testing]
+pytest>=6
+pytest-xdist>=2

@@ -1,0 +1,7 @@
+numpy
+scipy
+scikit-learn
+DendroPy
+pandas
+matplotlib
+hdbscan

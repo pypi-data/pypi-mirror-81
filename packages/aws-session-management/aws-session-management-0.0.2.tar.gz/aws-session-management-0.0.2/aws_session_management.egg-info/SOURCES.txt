@@ -1,0 +1,8 @@
+README.md
+setup.py
+aws_session_management/__init__.py
+aws_session_management/aws_session_management.py
+aws_session_management.egg-info/PKG-INFO
+aws_session_management.egg-info/SOURCES.txt
+aws_session_management.egg-info/dependency_links.txt
+aws_session_management.egg-info/top_level.txt

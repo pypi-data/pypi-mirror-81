@@ -1,0 +1,146 @@
+Metadata-Version: 2.1
+Name: Sphinx-Substitution-Extensions
+Version: 2020.9.30.0
+Summary: Extensions for Sphinx which allow for substitutions.
+Home-page: https://github.com/adamtheturtle/sphinx-substitution-extensions
+Author: Adam Dangoor
+Author-email: adamdangoor@gmail.com
+License: Apache License, Version 2.0
+Keywords: sphinx,rst,documentation
+Platform: UNKNOWN
+Classifier: Operating System :: POSIX
+Classifier: Environment :: Web Environment
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Development Status :: 5 - Production/Stable
+Description-Content-Type: text/x-rst
+Requires-Dist: docutils (>=0.15)
+Requires-Dist: sphinx-prompt (>=0.1)
+Requires-Dist: sphinx (>=2.0.0)
+Provides-Extra: dev
+Requires-Dist: autoflake (==1.4) ; extra == 'dev'
+Requires-Dist: black (==20.8b1) ; extra == 'dev'
+Requires-Dist: check-manifest (==0.43) ; extra == 'dev'
+Requires-Dist: doc8 (==0.8.1) ; extra == 'dev'
+Requires-Dist: flake8-commas (==2.0.0) ; extra == 'dev'
+Requires-Dist: flake8-quotes (==3.2.0) ; extra == 'dev'
+Requires-Dist: flake8 (==3.8.3) ; extra == 'dev'
+Requires-Dist: isort (==5.5.4) ; extra == 'dev'
+Requires-Dist: mypy (==0.782) ; extra == 'dev'
+Requires-Dist: pip-check-reqs (==2.1.1) ; extra == 'dev'
+Requires-Dist: pydocstyle (==5.1.1) ; extra == 'dev'
+Requires-Dist: pyenchant (==3.1.1) ; extra == 'dev'
+Requires-Dist: pygithub (==1.53) ; extra == 'dev'
+Requires-Dist: pylint (==2.6.0) ; extra == 'dev'
+Requires-Dist: pyroma (==2.6) ; extra == 'dev'
+Requires-Dist: pytest-cov (==2.10.1) ; extra == 'dev'
+Requires-Dist: pytest (==6.1.0) ; extra == 'dev'
+Requires-Dist: twine (==3.2.0) ; extra == 'dev'
+Requires-Dist: vulture (==2.1) ; extra == 'dev'
+
+|Build Status| |codecov| |PyPI|
+
+Sphinx Substitution Extensions
+==============================
+
+Extensions for Sphinx which allow substitutions.
+
+.. contents::
+
+Installation
+------------
+
+.. code:: console
+
+   $ pip install Sphinx-Substitution-Extensions
+
+This supports Python 3.8+.
+
+Setup
+~~~~~
+
+* Add the following to ``conf.py``:
+
+.. code:: python
+
+   # sphinx-prompt must be the first of these two.
+   extensions += ['sphinx-prompt', 'sphinx_substitution_extensions']
+
+* Set the following variable in ``conf.py``:
+
+.. code:: python
+
+   rst_prolog = """
+   .. |release| replace:: 0.1
+   .. |author| replace:: Eleanor
+   """
+
+This will replace ``|release|`` in the new directives with ``0.1``, and ``|author|`` with ``Eleanor``.
+
+Directives
+----------
+
+``code-block``
+~~~~~~~~~~~~~~
+
+This adds a ``:substitutions:`` option to Sphinx's built-in `code-block`_ directive.
+
+.. code:: rst
+
+   .. code-block:: bash
+      :substitutions:
+
+      echo "|author| released version |release|"
+
+
+``prompt``
+~~~~~~~~~~
+
+This adds a ``:substitutions:`` option to `sphinx-prompt`_.
+
+.. code:: rst
+
+   .. prompt:: bash
+      :substitutions:
+
+      echo "|author| released version |release|"
+
+
+Inline ``:substitution-code:``
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: rst
+
+   :substitution-code:`echo "|author| released version |release|"`
+
+Credits
+-------
+
+``sphinx-prompt`` authors
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Thanks to `@sbrunner`_ and other contributors for `sphinx-prompt`_.
+``substitution-prompt`` is based on `sphinx-prompt`_.
+
+ClusterHQ Developers
+~~~~~~~~~~~~~~~~~~~~
+
+This package is largely inspired by code written for Flocker by ClusterHQ.
+Developers of the relevant code include, at least, Jon Giddy and Tom Prince.
+
+Contributing
+------------
+
+See `CONTRIBUTING.rst <./CONTRIBUTING.rst>`_.
+
+.. |Build Status| image:: https://github.com/adamtheturtle/sphinx-substitution-extensions/workflows/CI/badge.svg
+   :target: https://github.com/adamtheturtle/sphinx-substitution-extensions/actions
+.. _sphinx-prompt: https://github.com/sbrunner/sphinx-prompt
+.. _code-block: http://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#directive-code-block
+.. _@sbrunner: https://github.com/sbrunner
+.. |codecov| image:: https://codecov.io/gh/adamtheturtle/sphinx-substitution-extensions/branch/master/graph/badge.svg
+   :target: https://codecov.io/gh/adamtheturtle/sphinx-substitution-extensions
+.. |PyPI| image:: https://badge.fury.io/py/Sphinx-Substitution-Extensions.svg
+   :target: https://badge.fury.io/py/Sphinx-Substitution-Extensions
+
+

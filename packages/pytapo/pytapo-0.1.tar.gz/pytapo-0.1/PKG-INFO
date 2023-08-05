@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pytapo
+Version: 0.1
+Summary: Python library for communication with Tapo Cameras
+Home-page: https://github.com/JurajNyiri/pytapo
+Author: Juraj Nyíri
+Author-email: juraj.nyiri@gmail.com
+License: UNKNOWN
+Description: # PyTapo
+        Python library for communication with Tapo Cameras
+        
+        ## Install:
+        
+        ```
+        python3 -m pip install pytapo
+        ```
+        
+        ## Usage examples:
+        
+        ### Initiate library:
+        ```
+        from pytapo import Tapo
+        
+        user = "" # user you set in Advanced Settings -> Camera Account
+        password = "" # password you set in Advanced Settings -> Camera Account
+        host = "" # ip of the camera, example: 192.168.1.52
+        
+        tapo = Tapo(host, user, password)
+        
+        print(tapo.getBasicInfo())
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

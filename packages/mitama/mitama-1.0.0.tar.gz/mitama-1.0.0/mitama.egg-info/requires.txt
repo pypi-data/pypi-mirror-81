@@ -1,0 +1,8 @@
+sqlalchemy
+aiohttp
+bcrypt
+aiohttp_session
+pyjwt
+jinja2
+cryptography
+python-magic

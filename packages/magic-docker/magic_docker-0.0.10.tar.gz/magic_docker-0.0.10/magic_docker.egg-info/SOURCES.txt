@@ -1,0 +1,9 @@
+README.md
+magic_docker.py
+setup.py
+magic_docker.egg-info/PKG-INFO
+magic_docker.egg-info/SOURCES.txt
+magic_docker.egg-info/dependency_links.txt
+magic_docker.egg-info/not-zip-safe
+magic_docker.egg-info/requires.txt
+magic_docker.egg-info/top_level.txt

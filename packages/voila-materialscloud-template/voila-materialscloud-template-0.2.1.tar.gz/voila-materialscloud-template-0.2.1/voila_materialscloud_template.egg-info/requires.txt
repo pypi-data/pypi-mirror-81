@@ -1,0 +1,7 @@
+voila~=0.2.3
+
+[dev]
+ipywidgets==7.5.1
+voila==0.2.3
+widget-periodictable==2.1.5
+pylint

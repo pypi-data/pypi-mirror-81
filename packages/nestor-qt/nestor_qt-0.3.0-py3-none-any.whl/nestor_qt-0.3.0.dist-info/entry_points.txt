@@ -1,0 +1,3 @@
+[console_scripts]
+nestor-qt=nestor_qt.app:main
+

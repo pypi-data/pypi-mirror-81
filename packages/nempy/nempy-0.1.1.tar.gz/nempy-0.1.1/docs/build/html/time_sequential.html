@@ -1,0 +1,462 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>time_sequential modules &mdash; nempy 0.0.1 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="historical_inputs modules" href="historical.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> nempy
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="markets.html">markets module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="historical.html">historical_inputs modules</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">time_sequential modules</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">nempy</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>time_sequential modules</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/time_sequential.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="time-sequential-modules">
+<span id="time-sequential"></span><h1>time_sequential modules<a class="headerlink" href="#time-sequential-modules" title="Permalink to this headline">¶</a></h1>
+<p>The module provides tools constructing time sequential models using nempy.</p>
+<span class="target" id="module-nempy.time_sequential"></span><p><strong>Functions:</strong></p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#nempy.time_sequential.construct_ramp_rate_parameters" title="nempy.time_sequential.construct_ramp_rate_parameters"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_ramp_rate_parameters</span></code></a>(…)</p></td>
+<td><p>Combine dispatch and ramp rates into the ramp rate inputs compatible with the SpotMarket class.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#nempy.time_sequential.create_seed_ramp_rate_parameters" title="nempy.time_sequential.create_seed_ramp_rate_parameters"><code class="xref py py-obj docutils literal notranslate"><span class="pre">create_seed_ramp_rate_parameters</span></code></a>(…)</p></td>
+<td><p>Combine historical dispatch and as bid ramp rates to get seed ramp rate parameters for a time sequential model.</p></td>
+</tr>
+</tbody>
+</table>
+<dl class="py function">
+<dt id="nempy.time_sequential.construct_ramp_rate_parameters">
+<code class="sig-prename descclassname">nempy.time_sequential.</code><code class="sig-name descname">construct_ramp_rate_parameters</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">last_interval_dispatch</span></em>, <em class="sig-param"><span class="n">ramp_rates</span></em><span class="sig-paren">)</span><a class="headerlink" href="#nempy.time_sequential.construct_ramp_rate_parameters" title="Permalink to this definition">¶</a></dt>
+<dd><p>Combine dispatch and ramp rates into the ramp rate inputs compatible with the SpotMarket class.</p>
+<p class="rubric">Examples</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">last_interval_dispatch</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+<span class="gp">... </span><span class="s1">&#39;unit&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;B&#39;</span><span class="p">],</span>
+<span class="gp">... </span><span class="s1">&#39;service&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;energy&#39;</span><span class="p">,</span> <span class="s1">&#39;raise_reg&#39;</span><span class="p">,</span> <span class="s1">&#39;energy&#39;</span><span class="p">],</span>
+<span class="gp">... </span><span class="s1">&#39;dispatch&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">45.0</span><span class="p">,</span> <span class="mf">50.0</span><span class="p">,</span> <span class="mf">88.0</span><span class="p">]})</span>
+</pre></div>
+</div>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">ramp_rates</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+<span class="gp">... </span><span class="s1">&#39;unit&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;B&#39;</span><span class="p">,</span> <span class="s1">&#39;C&#39;</span><span class="p">],</span>
+<span class="gp">... </span><span class="s1">&#39;ramp_up_rate&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">600.0</span><span class="p">,</span> <span class="mf">1200.0</span><span class="p">,</span> <span class="mf">700.0</span><span class="p">],</span>
+<span class="gp">... </span><span class="s1">&#39;ramp_down_rate&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">600.0</span><span class="p">,</span> <span class="mf">1200.0</span><span class="p">,</span> <span class="mf">700.0</span><span class="p">]})</span>
+</pre></div>
+</div>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">construct_ramp_rate_parameters</span><span class="p">(</span><span class="n">last_interval_dispatch</span><span class="p">,</span>
+<span class="gp">... </span>                               <span class="n">ramp_rates</span><span class="p">)</span>
+<span class="go">  unit  initial_output  ramp_up_rate  ramp_down_rate</span>
+<span class="go">0    A            45.0         600.0           600.0</span>
+<span class="go">1    B            88.0        1200.0          1200.0</span>
+<span class="go">2    C             0.0         700.0           700.0</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>last_interval_dispatch</strong> (<em>pd.DataFrame</em>) – <table class="docutils align-default">
+<colgroup>
+<col style="width: 14%" />
+<col style="width: 86%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>Columns:</p></td>
+<td><p>Description:</p></td>
+</tr>
+<tr class="row-even"><td><p>unit</p></td>
+<td><p>unique identifier of a dispatch unit (as <cite>str</cite>)</p></td>
+</tr>
+<tr class="row-odd"><td><p>service</p></td>
+<td><p>the service being provided, optional,</p>
+<p>default ‘energy’, (as <cite>str</cite>)</p>
+</td>
+</tr>
+<tr class="row-even"><td><p>dispatch</p></td>
+<td><p>the dispatch target from the previous dispatch</p>
+<p>interval, in MW, (as <cite>np.float64</cite>)</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p></li>
+<li><p><strong>ramp_rates</strong> (<em>pd.DataFrame</em>) – <table class="docutils align-default">
+<colgroup>
+<col style="width: 29%" />
+<col style="width: 71%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>Columns:</p></td>
+<td><p>Description:</p></td>
+</tr>
+<tr class="row-even"><td><p>unit</p></td>
+<td><p>unique identifier for units, (as <cite>str</cite>)</p></td>
+</tr>
+<tr class="row-odd"><td><p>ramp_up_rate</p></td>
+<td><p>the ramp up rate, in MW/h,</p>
+<p>(as <cite>np.float64</cite>)</p>
+</td>
+</tr>
+<tr class="row-even"><td><p>ramp_down_rate</p></td>
+<td><p>the ramp down rate, in MW/h,</p>
+<p>(as <cite>np.float64</cite>)</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><table class="docutils align-default">
+<colgroup>
+<col style="width: 29%" />
+<col style="width: 71%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>Columns:</p></td>
+<td><p>Description:</p></td>
+</tr>
+<tr class="row-even"><td><p>unit</p></td>
+<td><p>unique identifier for units, (as <cite>str</cite>)</p></td>
+</tr>
+<tr class="row-odd"><td><p>initial_output</p></td>
+<td><p>the output/consumption of the unit at</p>
+<p>the start of the dispatch interval,</p>
+<p>in MW, (as <cite>np.float64</cite>)</p>
+</td>
+</tr>
+<tr class="row-even"><td><p>ramp_up_rate</p></td>
+<td><p>the ramp up rate, in MW/h,</p>
+<p>(as <cite>np.float64</cite>)</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p>ramp_down_rate</p></td>
+<td><p>the ramp down rate, in MW/h,</p>
+<p>(as <cite>np.float64</cite>)</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>pd.DataFrame</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="nempy.time_sequential.create_seed_ramp_rate_parameters">
+<code class="sig-prename descclassname">nempy.time_sequential.</code><code class="sig-name descname">create_seed_ramp_rate_parameters</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">historical_dispatch</span></em>, <em class="sig-param"><span class="n">as_bid_ramp_rates</span></em><span class="sig-paren">)</span><a class="headerlink" href="#nempy.time_sequential.create_seed_ramp_rate_parameters" title="Permalink to this definition">¶</a></dt>
+<dd><p>Combine historical dispatch and as bid ramp rates to get seed ramp rate parameters for a time sequential model.</p>
+<p class="rubric">Examples</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">historical_dispatch</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+<span class="gp">... </span><span class="s1">&#39;unit&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;B&#39;</span><span class="p">],</span>
+<span class="gp">... </span><span class="s1">&#39;initial_output&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">80.0</span><span class="p">,</span> <span class="mf">100.0</span><span class="p">]})</span>
+</pre></div>
+</div>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">as_bid_ramp_rates</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+<span class="gp">... </span><span class="s1">&#39;unit&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;B&#39;</span><span class="p">],</span>
+<span class="gp">... </span><span class="s1">&#39;ramp_down_rate&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">600.0</span><span class="p">,</span> <span class="mf">1200.0</span><span class="p">],</span>
+<span class="gp">... </span><span class="s1">&#39;ramp_up_rate&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">600.0</span><span class="p">,</span> <span class="mf">1200.0</span><span class="p">]})</span>
+</pre></div>
+</div>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">create_seed_ramp_rate_parameters</span><span class="p">(</span><span class="n">historical_dispatch</span><span class="p">,</span>
+<span class="gp">... </span>                                 <span class="n">as_bid_ramp_rates</span><span class="p">)</span>
+<span class="go">  unit  initial_output  ramp_down_rate  ramp_up_rate</span>
+<span class="go">0    A            80.0           600.0         600.0</span>
+<span class="go">1    B           100.0          1200.0        1200.0</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>historical_dispatch</strong> (<em>pd.DataFrame</em>) – <table class="docutils align-default">
+<colgroup>
+<col style="width: 29%" />
+<col style="width: 71%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>Columns:</p></td>
+<td><p>Description:</p></td>
+</tr>
+<tr class="row-even"><td><p>unit</p></td>
+<td><p>unique identifier for units, (as <cite>str</cite>)</p></td>
+</tr>
+<tr class="row-odd"><td><p>initial_output</p></td>
+<td><p>the output/consumption of the unit at</p>
+<p>the start of the dispatch interval,</p>
+<p>in MW, (as <cite>np.float64</cite>)</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p></li>
+<li><p><strong>as_bid_ramp_rates</strong> – <table class="docutils align-default">
+<colgroup>
+<col style="width: 29%" />
+<col style="width: 71%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>Columns:</p></td>
+<td><p>Description:</p></td>
+</tr>
+<tr class="row-even"><td><p>unit</p></td>
+<td><p>unique identifier for units, (as <cite>str</cite>)</p></td>
+</tr>
+<tr class="row-odd"><td><p>ramp_up_rate</p></td>
+<td><p>the ramp up rate, in MW/h,</p>
+<p>(as <cite>np.float64</cite>)</p>
+</td>
+</tr>
+<tr class="row-even"><td><p>ramp_down_rate</p></td>
+<td><p>the ramp down rate, in MW/h,</p>
+<p>(as <cite>np.float64</cite>)</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><table class="docutils align-default">
+<colgroup>
+<col style="width: 29%" />
+<col style="width: 71%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>Columns:</p></td>
+<td><p>Description:</p></td>
+</tr>
+<tr class="row-even"><td><p>unit</p></td>
+<td><p>unique identifier for units, (as <cite>str</cite>)</p></td>
+</tr>
+<tr class="row-odd"><td><p>initial_output</p></td>
+<td><p>the output/consumption of the unit at</p>
+<p>the start of the dispatch interval,</p>
+<p>in MW, (as <cite>np.float64</cite>)</p>
+</td>
+</tr>
+<tr class="row-even"><td><p>ramp_up_rate</p></td>
+<td><p>the ramp up rate, in MW/h,</p>
+<p>(as <cite>np.float64</cite>)</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p>ramp_down_rate</p></td>
+<td><p>the ramp down rate, in MW/h,</p>
+<p>(as <cite>np.float64</cite>)</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>pd.DataFrame</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="historical.html" class="btn btn-neutral float-left" title="historical_inputs modules" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, Nick Gorman
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

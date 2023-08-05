@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ds-py-version-demo
+Version: 0.0.10
+Summary: Example of getting versions from PyPI and git
+Home-page: https://github.com/danshort12/ds-py-version-demo/
+Author: Dan Short
+Author-email: dan.short@ukaea.uk
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# ds-py-version-demo
+
+An example repo to demonstrate how version numbers can be incremented using PyPI and git, with a view to enforcing release tags via git while avoiding clashes in PyPI and TestPyPI.
+
+

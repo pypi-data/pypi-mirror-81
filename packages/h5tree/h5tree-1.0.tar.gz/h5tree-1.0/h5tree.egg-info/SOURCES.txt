@@ -1,0 +1,8 @@
+README.md
+setup.py
+bin/h5tree
+h5tree.egg-info/PKG-INFO
+h5tree.egg-info/SOURCES.txt
+h5tree.egg-info/dependency_links.txt
+h5tree.egg-info/requires.txt
+h5tree.egg-info/top_level.txt

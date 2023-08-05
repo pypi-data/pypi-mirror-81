@@ -1,0 +1,9 @@
+fastparse/__init__.py,sha256=HlHV3Xhp5CDrx9uqZ7Ca3v79SfbL4j82IEX4mfjsge4,37
+fastparse/base_parser.py,sha256=nxpV21JRlPsqYDszQpJU5m6T-62virFWM0E93FBmqCU,8297
+fastparse/utilities.py,sha256=fueoO0eA8WFr_MSjswKee1V2QHzm6RmAxxSAaScd9pY,2159
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_baseparser.py,sha256=q9nCo1ZA1ZvQf4J7Sk6XPCxtObtjaA3rK7ajn5rcssM,11046
+fastparser-0.1.dist-info/METADATA,sha256=JLXSNuxtSYfeM960GuGQjSYGMafXgetSND6FKG9-afI,431
+fastparser-0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+fastparser-0.1.dist-info/top_level.txt,sha256=st7O0-VC-FLvYaXMfmdPQ7HQlglp4U_WKhJFT1AuXqE,16
+fastparser-0.1.dist-info/RECORD,,

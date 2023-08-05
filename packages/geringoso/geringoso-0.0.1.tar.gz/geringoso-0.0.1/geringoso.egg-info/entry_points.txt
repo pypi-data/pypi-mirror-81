@@ -1,0 +1,3 @@
+[console_scripts]
+geringoso = geringoso.__main__:main
+

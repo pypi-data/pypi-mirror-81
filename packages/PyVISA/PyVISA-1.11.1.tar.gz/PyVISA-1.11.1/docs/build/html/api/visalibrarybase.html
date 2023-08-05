@@ -1,0 +1,2250 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Visa Library &mdash; PyVISA 1.10.2.dev153+g04842c3.d20200729 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Resource Manager" href="resourcemanager.html" />
+    <link rel="prev" title="API" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> PyVISA
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.10.2.dev153+g04842c3.d20200729
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction/index.html">User guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../advanced/index.html">Advanced topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq/index.html">FAQ</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">API Documentation</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Visa Library</a></li>
+<li class="toctree-l2"><a class="reference internal" href="resourcemanager.html">Resource Manager</a></li>
+<li class="toctree-l2"><a class="reference internal" href="resources.html">Resource classes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="constants.html">Constants module</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">PyVISA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">API</a> &raquo;</li>
+        
+      <li>Visa Library</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/api/visalibrarybase.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="visa-library">
+<span id="api-visalibrarybase"></span><h1>Visa Library<a class="headerlink" href="#visa-library" title="Permalink to this headline">¶</a></h1>
+<dl class="py class">
+<dt id="pyvisa.highlevel.VisaLibraryBase">
+<em class="property">class </em><code class="sig-prename descclassname">pyvisa.highlevel.</code><code class="sig-name descname">VisaLibraryBase</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">library_path</span><span class="p">:</span> <span class="n">Union<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a><span class="p">, </span>pyvisa.util.LibraryPath<span class="p">]</span></span> <span class="o">=</span> <span class="default_value">''</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase" title="Permalink to this definition">¶</a></dt>
+<dd><p>Base for VISA library classes.</p>
+<p>A class derived from <cite>VisaLibraryBase</cite> library provides the low-level communication
+to the underlying devices providing Pythonic wrappers to VISA functions. But not all
+derived class must/will implement all methods. Even if methods are expected to return
+the status code they are expected to raise the appropriate exception when an error
+ocurred since this is more Pythonic.</p>
+<p>The default VisaLibrary class is <code class="xref py py-class docutils literal notranslate"><span class="pre">pyvisa.ctwrapper.highlevel.IVIVisaLibrary</span></code>,
+which implements a ctypes wrapper around the IVI-VISA library.
+Certainly, IVI-VISA can be NI-VISA, Keysight VISA, R&amp;S VISA, tekVISA etc.</p>
+<p>In general, you should not instantiate it directly. The object exposed to the user
+is the <a class="reference internal" href="resourcemanager.html#pyvisa.highlevel.ResourceManager" title="pyvisa.highlevel.ResourceManager"><code class="xref py py-class docutils literal notranslate"><span class="pre">pyvisa.highlevel.ResourceManager</span></code></a>. If needed, you can access the
+VISA library from it:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">pyvisa</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">rm</span> <span class="o">=</span> <span class="n">pyvisa</span><span class="o">.</span><span class="n">ResourceManager</span><span class="p">(</span><span class="s2">&quot;/path/to/my/libvisa.so.7&quot;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">lib</span> <span class="o">=</span> <span class="n">rm</span><span class="o">.</span><span class="n">visalib</span>
+</pre></div>
+</div>
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.assert_interrupt_signal">
+<code class="sig-name descname">assert_interrupt_signal</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">mode: pyvisa.constants.AssertSignalInterrupt</em>, <em class="sig-param">status_id: int</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.assert_interrupt_signal"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.assert_interrupt_signal" title="Permalink to this definition">¶</a></dt>
+<dd><p>Asserts the specified interrupt or signal.</p>
+<p>Corresponds to viAssertIntrSignal function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>mode</strong> (<em>constants.AssertSignalInterrupt</em>) – How to assert the interrupt.</p></li>
+<li><p><strong>status_id</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Status value to be presented during an interrupt acknowledge cycle.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.assert_trigger">
+<code class="sig-name descname">assert_trigger</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">protocol: pyvisa.constants.TriggerProtocol</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.assert_trigger"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.assert_trigger" title="Permalink to this definition">¶</a></dt>
+<dd><p>Assert software or hardware trigger.</p>
+<p>Corresponds to viAssertTrigger function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>protocol</strong> (<em>constants.TriggerProtocol</em>) – Trigger protocol to use during assertion.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.assert_utility_signal">
+<code class="sig-name descname">assert_utility_signal</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">line: pyvisa.constants.UtilityBusSignal</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.assert_utility_signal"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.assert_utility_signal" title="Permalink to this definition">¶</a></dt>
+<dd><p>Assert or deassert the specified utility bus signal.</p>
+<p>Corresponds to viAssertUtilSignal function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>line</strong> (<em>constants.UtilityBusSignal</em>) – Specifies the utility bus signal to assert.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.buffer_read">
+<code class="sig-name descname">buffer_read</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">count: int</em><span class="sig-paren">)</span> &#x2192; Tuple<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#bytes" title="(in Python v3.8)">bytes</a><span class="p">, </span><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><span class="p">]</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.buffer_read"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.buffer_read" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reads data through the use of a formatted I/O read buffer.</p>
+<p>The data can be read from a device or an interface.</p>
+<p>Corresponds to viBufRead function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession            Unique logical identifier to a session.</em>) – </p></li>
+<li><p><strong>count</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Number of bytes to be read.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><em>dbytes</em> – Data read</p></li>
+<li><p><em>StatusCode</em> – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.buffer_write">
+<code class="sig-name descname">buffer_write</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">data: bytes</em><span class="sig-paren">)</span> &#x2192; Tuple<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)">int</a><span class="p">, </span><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><span class="p">]</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.buffer_write"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.buffer_write" title="Permalink to this definition">¶</a></dt>
+<dd><p>Writes data to a formatted I/O write buffer synchronously.</p>
+<p>Corresponds to viBufWrite function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>data</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#bytes" title="(in Python v3.8)"><em>bytes</em></a>) – Data to be written.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><em>int</em> – number of written bytes</p></li>
+<li><p><em>StatusCode</em> – return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.clear">
+<code class="sig-name descname">clear</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.clear"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.clear" title="Permalink to this definition">¶</a></dt>
+<dd><p>Clears a device.</p>
+<p>Corresponds to viClear function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.close">
+<code class="sig-name descname">close</code><span class="sig-paren">(</span><em class="sig-param">session: Union[NewType.&lt;locals&gt;.new_type, NewType.&lt;locals&gt;.new_type, NewType.&lt;locals&gt;.new_type]</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.close"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.close" title="Permalink to this definition">¶</a></dt>
+<dd><p>Closes the specified session, event, or find list.</p>
+<p>Corresponds to viClose function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>session</strong> (<em>Union</em><em>[</em><em>VISASession</em><em>, </em><em>VISAEventContext</em><em>, </em><em>VISARMSession</em><em>]</em>) – Unique logical identifier to a session, event, resource manager.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.disable_event">
+<code class="sig-name descname">disable_event</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">event_type: pyvisa.constants.EventType</em>, <em class="sig-param">mechanism: pyvisa.constants.EventMechanism</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.disable_event"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.disable_event" title="Permalink to this definition">¶</a></dt>
+<dd><p>Disable notification for an event type(s) via the specified mechanism(s).</p>
+<p>Corresponds to viDisableEvent function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>event_type</strong> (<em>constants.EventType</em>) – Event type.</p></li>
+<li><p><strong>mechanism</strong> (<em>constants.EventMechanism</em>) – Event handling mechanisms to be disabled.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.discard_events">
+<code class="sig-name descname">discard_events</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">event_type: pyvisa.constants.EventType</em>, <em class="sig-param">mechanism: pyvisa.constants.EventMechanism</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.discard_events"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.discard_events" title="Permalink to this definition">¶</a></dt>
+<dd><p>Discard event occurrences for a given type and mechanisms in a session.</p>
+<p>Corresponds to viDiscardEvents function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>event_type</strong> (<em>constans.EventType</em>) – Logical event identifier.</p></li>
+<li><p><strong>mechanism</strong> (<em>constants.EventMechanism</em>) – Specifies event handling mechanisms to be discarded.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.enable_event">
+<code class="sig-name descname">enable_event</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">event_type: pyvisa.constants.EventType</em>, <em class="sig-param">mechanism: pyvisa.constants.EventMechanism</em>, <em class="sig-param">context: None = None</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.enable_event"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.enable_event" title="Permalink to this definition">¶</a></dt>
+<dd><p>Enable event occurrences for specified event types and mechanisms in a session.</p>
+<p>Corresponds to viEnableEvent function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>event_type</strong> (<em>constants.EventType</em>) – Logical event identifier.</p></li>
+<li><p><strong>mechanism</strong> (<em>constants.EventMechanism</em>) – Specifies event handling mechanisms to be enabled.</p></li>
+<li><p><strong>context</strong> (<a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.8)"><em>None</em></a><em>, </em><em>optional</em>) – Unused parameter…</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.flush">
+<code class="sig-name descname">flush</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">mask: pyvisa.constants.BufferOperation</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.flush"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.flush" title="Permalink to this definition">¶</a></dt>
+<dd><p>Flush the specified buffers.</p>
+<p>The buffers can be associated with formatted I/O operations and/or
+serial communication.</p>
+<p>Corresponds to viFlush function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>mask</strong> (<em>constants.BufferOperation</em>) – Specifies the action to be taken with flushing the buffer.
+The values can be combined using the | operator. However multiple
+operations on a single buffer cannot be combined.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.get_attribute">
+<code class="sig-name descname">get_attribute</code><span class="sig-paren">(</span><em class="sig-param">session: Union[NewType.&lt;locals&gt;.new_type, NewType.&lt;locals&gt;.new_type, NewType.&lt;locals&gt;.new_type], attribute: Union[pyvisa.constants.ResourceAttribute, pyvisa.constants.EventAttribute]</em><span class="sig-paren">)</span> &#x2192; Tuple<span class="p">[</span>Any<span class="p">, </span><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><span class="p">]</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.get_attribute"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.get_attribute" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieves the state of an attribute.</p>
+<p>Corresponds to viGetAttribute function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>Union</em><em>[</em><em>VISASession</em><em>, </em><em>VISAEventContext</em><em>]</em>) – Unique logical identifier to a session, event, or find list.</p></li>
+<li><p><strong>attribute</strong> (<em>Union</em><em>[</em><em>constants.ResourceAttribute</em><em>, </em><em>constants.EventAttribute</em><em>]</em>) – Resource or event attribute for which the state query is made.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><em>Any</em> – State of the queried attribute for a specified resource</p></li>
+<li><p><em>StatusCode</em> – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.get_buffer_from_id">
+<code class="sig-name descname">get_buffer_from_id</code><span class="sig-paren">(</span><em class="sig-param">job_id: NewType.&lt;locals&gt;.new_type</em><span class="sig-paren">)</span> &#x2192; Optional<span class="p">[</span>SupportsBytes<span class="p">]</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.get_buffer_from_id"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.get_buffer_from_id" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieve the buffer associated with a job id created in read_asynchronously</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>job_id</strong> (<em>VISAJobID</em>) – Id of the job for which to retrieve the buffer.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Buffer in which the data are stored or None if the job id is not
+associated with any job.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>Optional[SupportsBytes]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.get_debug_info">
+<em class="property">static </em><code class="sig-name descname">get_debug_info</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; Union<span class="p">[</span>Iterable<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a><span class="p">]</span><span class="p">, </span>Dict<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a><span class="p">, </span>Union<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a><span class="p">, </span>Dict<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a><span class="p">, </span>Any<span class="p">]</span><span class="p">]</span><span class="p">]</span><span class="p">]</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.get_debug_info"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.get_debug_info" title="Permalink to this definition">¶</a></dt>
+<dd><p>Override to return an iterable of lines with the backend debug details.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.get_last_status_in_session">
+<code class="sig-name descname">get_last_status_in_session</code><span class="sig-paren">(</span><em class="sig-param">session: Union[NewType.&lt;locals&gt;.new_type, NewType.&lt;locals&gt;.new_type]</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.get_last_status_in_session"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.get_last_status_in_session" title="Permalink to this definition">¶</a></dt>
+<dd><p>Last status in session.</p>
+<p>Helper function to be called by resources properties.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.get_library_paths">
+<em class="property">static </em><code class="sig-name descname">get_library_paths</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; Iterable<span class="p">[</span>pyvisa.util.LibraryPath<span class="p">]</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.get_library_paths"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.get_library_paths" title="Permalink to this definition">¶</a></dt>
+<dd><p>Override to list the possible library_paths if no path is specified.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.gpib_command">
+<code class="sig-name descname">gpib_command</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">data: bytes</em><span class="sig-paren">)</span> &#x2192; Tuple<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)">int</a><span class="p">, </span><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><span class="p">]</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.gpib_command"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.gpib_command" title="Permalink to this definition">¶</a></dt>
+<dd><p>Write GPIB command bytes on the bus.</p>
+<p>Corresponds to viGpibCommand function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>data</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#bytes" title="(in Python v3.8)"><em>bytes</em></a>) – Data to write.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><em>int</em> – Number of written bytes</p></li>
+<li><p><em>StatusCode</em> – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.gpib_control_atn">
+<code class="sig-name descname">gpib_control_atn</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">mode: pyvisa.constants.ATNLineOperation</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.gpib_control_atn"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.gpib_control_atn" title="Permalink to this definition">¶</a></dt>
+<dd><p>Specifies the state of the ATN line and the local active controller state.</p>
+<p>Corresponds to viGpibControlATN function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>mode</strong> (<em>constants.ATNLineOperation</em>) – State of the ATN line and optionally the local active controller state.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.gpib_control_ren">
+<code class="sig-name descname">gpib_control_ren</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">mode: pyvisa.constants.RENLineOperation</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.gpib_control_ren"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.gpib_control_ren" title="Permalink to this definition">¶</a></dt>
+<dd><p>Controls the state of the GPIB Remote Enable (REN) interface line.</p>
+<p>Optionally the remote/local state of the device can also be set.</p>
+<p>Corresponds to viGpibControlREN function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>mode</strong> (<em>constants.RENLineOperation</em>) – State of the REN line and optionally the device remote/local state.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.gpib_pass_control">
+<code class="sig-name descname">gpib_pass_control</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">primary_address: int</em>, <em class="sig-param">secondary_address: int</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.gpib_pass_control"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.gpib_pass_control" title="Permalink to this definition">¶</a></dt>
+<dd><p>Tell a GPIB device to become controller in charge (CIC).</p>
+<p>Corresponds to viGpibPassControl function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>primary_address</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Primary address of the GPIB device to which you want to pass control.</p></li>
+<li><p><strong>secondary_address</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Secondary address of the targeted GPIB device.
+If the targeted device does not have a secondary address, this parameter
+should contain the value Constants.VI_NO_SEC_ADDR.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.gpib_send_ifc">
+<code class="sig-name descname">gpib_send_ifc</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.gpib_send_ifc"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.gpib_send_ifc" title="Permalink to this definition">¶</a></dt>
+<dd><p>Pulse the interface clear line (IFC) for at least 100 microseconds.</p>
+<p>Corresponds to viGpibSendIFC function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.handle_return_value">
+<code class="sig-name descname">handle_return_value</code><span class="sig-paren">(</span><em class="sig-param">session: Optional[Union[NewType.&lt;locals&gt;.new_type, NewType.&lt;locals&gt;.new_type, NewType.&lt;locals&gt;.new_type]], status_code: int</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.handle_return_value"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.handle_return_value" title="Permalink to this definition">¶</a></dt>
+<dd><p>Helper function handling the return code of a low-level operation.</p>
+<p>Used when implementing concrete subclasses of VISALibraryBase.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="pyvisa.highlevel.VisaLibraryBase.handlers">
+<code class="sig-name descname">handlers</code><em class="property">: DefaultDict[NewType.&lt;locals&gt;.new_type, List[Tuple[Callable[[NewType.&lt;locals&gt;.new_type, pyvisa.constants.EventType, NewType.&lt;locals&gt;.new_type, Any], None], Any, Any, Any]]]</em><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.handlers" title="Permalink to this definition">¶</a></dt>
+<dd><p>Contains all installed event handlers.
+Its elements are tuples with four elements: The handler itself (a Python
+callable), the user handle (in any format making sense to the lower level
+implementation, ie as a ctypes object for the ctypes backend) and the
+handler again, this time in a format meaningful to the backend (ie as a
+ctypes object created with CFUNCTYPE for the ctypes backend) and
+the event type.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.ignore_warning">
+<code class="sig-name descname">ignore_warning</code><span class="sig-paren">(</span><em class="sig-param">session: Union[NewType.&lt;locals&gt;.new_type, NewType.&lt;locals&gt;.new_type], *warnings_constants: pyvisa.constants.StatusCode</em><span class="sig-paren">)</span> &#x2192; Iterator<a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.ignore_warning"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.ignore_warning" title="Permalink to this definition">¶</a></dt>
+<dd><p>Ignore warnings for a session for the duration of the context.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>Union</em><em>[</em><em>VISASession</em><em>, </em><em>VISARMSession</em><em>]</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>warnings_constants</strong> (<a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode"><em>StatusCode</em></a>) – Constants identifying the warnings to ignore.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.in_16">
+<code class="sig-name descname">in_16</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">space: pyvisa.constants.AddressSpace</em>, <em class="sig-param">offset: int</em>, <em class="sig-param">extended: bool = False</em><span class="sig-paren">)</span> &#x2192; Tuple<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)">int</a><span class="p">, </span><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><span class="p">]</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.in_16"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.in_16" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reads in an 16-bit value from the specified memory space and offset.</p>
+<p>Corresponds to viIn16* function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>space</strong> (<em>constants.AddressSpace</em>) – Specifies the address space.</p></li>
+<li><p><strong>offset</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Offset (in bytes) of the address or register from which to read.</p></li>
+<li><p><strong>extended</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – Use 64 bits offset independent of the platform, False by default.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><em>int</em> – Data read from memory</p></li>
+<li><p><em>StatusCode</em> – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.in_32">
+<code class="sig-name descname">in_32</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">space: pyvisa.constants.AddressSpace</em>, <em class="sig-param">offset: int</em>, <em class="sig-param">extended: bool = False</em><span class="sig-paren">)</span> &#x2192; Tuple<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)">int</a><span class="p">, </span><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><span class="p">]</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.in_32"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.in_32" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reads in an 32-bit value from the specified memory space and offset.</p>
+<p>Corresponds to viIn32* function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>space</strong> (<em>constants.AddressSpace</em>) – Specifies the address space.</p></li>
+<li><p><strong>offset</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Offset (in bytes) of the address or register from which to read.</p></li>
+<li><p><strong>extended</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – Use 64 bits offset independent of the platform, False by default.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><em>int</em> – Data read from memory</p></li>
+<li><p><em>StatusCode</em> – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.in_64">
+<code class="sig-name descname">in_64</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">space: pyvisa.constants.AddressSpace</em>, <em class="sig-param">offset: int</em>, <em class="sig-param">extended: bool = False</em><span class="sig-paren">)</span> &#x2192; Tuple<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)">int</a><span class="p">, </span><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><span class="p">]</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.in_64"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.in_64" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reads in an 64-bit value from the specified memory space and offset.</p>
+<p>Corresponds to viIn64* function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>space</strong> (<em>constants.AddressSpace</em>) – Specifies the address space.</p></li>
+<li><p><strong>offset</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Offset (in bytes) of the address or register from which to read.</p></li>
+<li><p><strong>extended</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – Use 64 bits offset independent of the platform, False by default.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><em>int</em> – Data read from memory</p></li>
+<li><p><em>StatusCode</em> – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.in_8">
+<code class="sig-name descname">in_8</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">space: pyvisa.constants.AddressSpace</em>, <em class="sig-param">offset: int</em>, <em class="sig-param">extended: bool = False</em><span class="sig-paren">)</span> &#x2192; Tuple<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)">int</a><span class="p">, </span><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><span class="p">]</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.in_8"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.in_8" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reads in an 8-bit value from the specified memory space and offset.</p>
+<p>Corresponds to viIn8* function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>space</strong> (<em>constants.AddressSpace</em>) – Specifies the address space.</p></li>
+<li><p><strong>offset</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Offset (in bytes) of the address or register from which to read.</p></li>
+<li><p><strong>extended</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – Use 64 bits offset independent of the platform, False by default.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><em>int</em> – Data read from memory</p></li>
+<li><p><em>StatusCode</em> – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.install_handler">
+<code class="sig-name descname">install_handler</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type, event_type: pyvisa.constants.EventType, handler: Callable[[NewType.&lt;locals&gt;.new_type, pyvisa.constants.EventType, NewType.&lt;locals&gt;.new_type, Any], None], user_handle: Any</em><span class="sig-paren">)</span> &#x2192; Tuple[Callable[[NewType.&lt;locals&gt;.new_type, pyvisa.constants.EventType, NewType.&lt;locals&gt;.new_type, Any], None], Any, Any, pyvisa.constants.StatusCode]<a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.install_handler"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.install_handler" title="Permalink to this definition">¶</a></dt>
+<dd><p>Install handlers for event callbacks.</p>
+<p>Corresponds to viInstallHandler function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>event_type</strong> (<em>constants.EventType</em>) – Logical event identifier.</p></li>
+<li><p><strong>handler</strong> (<em>VISAHandler</em>) – Reference to a handler to be installed by a client application.</p></li>
+<li><p><strong>user_handle</strong> (<em>Any</em>) – Value specified by an application that can be used for identifying
+handlers uniquely for an event type.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><strong>handler</strong> (<em>VISAHandler</em>) – Handler to be installed by a client application.</p></li>
+<li><p><em>converted_user_handle</em> – Converted user handle to match the underlying library. This version
+of the handle should be used in further call to the library.</p></li>
+<li><p><em>converted_handler</em> – Converted version of the handler satisfying to backend library.</p></li>
+<li><p><strong>status_code</strong> (<em>StatusCode</em>) – Return value of the library call</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.install_visa_handler">
+<code class="sig-name descname">install_visa_handler</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type, event_type: pyvisa.constants.EventType, handler: Callable[[NewType.&lt;locals&gt;.new_type, pyvisa.constants.EventType, NewType.&lt;locals&gt;.new_type, Any], None], user_handle: Any = None</em><span class="sig-paren">)</span> &#x2192; Any<a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.install_visa_handler"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.install_visa_handler" title="Permalink to this definition">¶</a></dt>
+<dd><p>Installs handlers for event callbacks.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>event_type</strong> (<em>constants.EventType</em><em>,</em>) – Logical event identifier.</p></li>
+<li><p><strong>handler</strong> (<em>VISAHandler</em>) – Handler to be installed by a client application.</p></li>
+<li><p><strong>user_handle</strong> – A value specified by an application that can be used for identifying
+handlers uniquely for an event type.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Converted user handle to match the underlying library. This version
+of the handle should be used in further call to the library.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>converted_user_handle</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="pyvisa.highlevel.VisaLibraryBase.issue_warning_on">
+<code class="sig-name descname">issue_warning_on</code><em class="property">: Set<span class="p">[</span><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><span class="p">]</span></em><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.issue_warning_on" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set error codes on which to issue a warning.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.last_status">
+<em class="property">property </em><code class="sig-name descname">last_status</code><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.last_status" title="Permalink to this definition">¶</a></dt>
+<dd><p>Last return value of the library.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="pyvisa.highlevel.VisaLibraryBase.library_path">
+<code class="sig-name descname">library_path</code><em class="property">: pyvisa.util.LibraryPath</em><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.library_path" title="Permalink to this definition">¶</a></dt>
+<dd><p>Path to the VISA library used by this instance</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.list_resources">
+<code class="sig-name descname">list_resources</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">query: str = '?*::INSTR'</em><span class="sig-paren">)</span> &#x2192; Tuple<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a><span class="p">, </span><span class="p">…</span><span class="p">]</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.list_resources"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.list_resources" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a tuple of all connected devices matching query.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISARMSession</em>) – Unique logical identifier to the resource manager session.</p></li>
+<li><p><strong>query</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – Regular expression used to match devices.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Resource names of all the connected devices matching the query.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>Tuple[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a>, ..]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.lock">
+<code class="sig-name descname">lock</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">lock_type: pyvisa.constants.Lock</em>, <em class="sig-param">timeout: int</em>, <em class="sig-param">requested_key: Optional[str] = None</em><span class="sig-paren">)</span> &#x2192; Tuple<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a><span class="p">, </span><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><span class="p">]</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.lock"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.lock" title="Permalink to this definition">¶</a></dt>
+<dd><p>Establishes an access mode to the specified resources.</p>
+<p>Corresponds to viLock function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>lock_type</strong> (<em>constants.Lock</em>) – Specifies the type of lock requested.</p></li>
+<li><p><strong>timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Absolute time period (in milliseconds) that a resource waits to get
+unlocked by the locking session before returning an error.</p></li>
+<li><p><strong>requested_key</strong> (<em>Optional</em><em>[</em><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a><em>]</em><em>, </em><em>optional</em>) – Requested locking key in the case of a shared lock. For an exclusive
+lock it should be None.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><em>Optional[str]</em> – Key that can then be passed to other sessions to share the lock, or
+None for an exclusive lock.</p></li>
+<li><p><em>StatusCode</em> – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.map_address">
+<code class="sig-name descname">map_address</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">map_space: pyvisa.constants.AddressSpace</em>, <em class="sig-param">map_base: int</em>, <em class="sig-param">map_size: int</em>, <em class="sig-param">access: Literal[False] = False</em>, <em class="sig-param">suggested: Optional[int] = None</em><span class="sig-paren">)</span> &#x2192; Tuple<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)">int</a><span class="p">, </span><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><span class="p">]</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.map_address"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.map_address" title="Permalink to this definition">¶</a></dt>
+<dd><p>Maps the specified memory space into the process’s address space.</p>
+<p>Corresponds to viMapAddress function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>map_space</strong> (<em>constants.AddressSpace</em>) – Specifies the address space to map.</p></li>
+<li><p><strong>map_base</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Offset (in bytes) of the memory to be mapped.</p></li>
+<li><p><strong>map_size</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Amount of memory to map (in bytes).</p></li>
+<li><p><strong>access</strong> (<em>False</em>) – Unused parameter.</p></li>
+<li><p><strong>suggested</strong> (<em>Optional</em><em>[</em><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a><em>]</em><em>, </em><em>optional</em>) – If not None, the operating system attempts to map the memory to the
+address specified. There is no guarantee, however, that the memory
+will be mapped to that address. This operation may map the memory
+into an address region different from the suggested one.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><em>int</em> – Address in your process space where the memory was mapped</p></li>
+<li><p><em>StatusCode</em> – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.map_trigger">
+<code class="sig-name descname">map_trigger</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">trigger_source: pyvisa.constants.InputTriggerLine</em>, <em class="sig-param">trigger_destination: pyvisa.constants.OutputTriggerLine</em>, <em class="sig-param">mode: None = None</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.map_trigger"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.map_trigger" title="Permalink to this definition">¶</a></dt>
+<dd><p>Map the specified trigger source line to the specified destination line.</p>
+<p>Corresponds to viMapTrigger function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>trigger_source</strong> (<em>constants.InputTriggerLine</em>) – Source line from which to map.</p></li>
+<li><p><strong>trigger_destination</strong> (<em>constants.OutputTriggerLine</em>) – Destination line to which to map.</p></li>
+<li><p><strong>mode</strong> (<a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.8)"><em>None</em></a><em>, </em><em>optional</em>) – Always None for this version of the VISA specification.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.memory_allocation">
+<code class="sig-name descname">memory_allocation</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">size: int</em>, <em class="sig-param">extended: bool = False</em><span class="sig-paren">)</span> &#x2192; Tuple<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)">int</a><span class="p">, </span><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><span class="p">]</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.memory_allocation"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.memory_allocation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Allocate memory from a resource’s memory region.</p>
+<p>Corresponds to viMemAlloc* functions of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>size</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Specifies the size of the allocation.</p></li>
+<li><p><strong>extended</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – Use 64 bits offset independent of the platform.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><em>int</em> – offset of the allocated memory</p></li>
+<li><p><em>StatusCode</em> – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.memory_free">
+<code class="sig-name descname">memory_free</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">offset: int</em>, <em class="sig-param">extended: bool = False</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.memory_free"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.memory_free" title="Permalink to this definition">¶</a></dt>
+<dd><p>Frees memory previously allocated using the memory_allocation() operation.</p>
+<p>Corresponds to viMemFree* function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>offset</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Offset of the memory to free.</p></li>
+<li><p><strong>extended</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – Use 64 bits offset independent of the platform.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.move">
+<code class="sig-name descname">move</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">source_space: pyvisa.constants.AddressSpace</em>, <em class="sig-param">source_offset: int</em>, <em class="sig-param">source_width: pyvisa.constants.DataWidth</em>, <em class="sig-param">destination_space: pyvisa.constants.AddressSpace</em>, <em class="sig-param">destination_offset: int</em>, <em class="sig-param">destination_width: pyvisa.constants.DataWidth</em>, <em class="sig-param">length: int</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.move"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.move" title="Permalink to this definition">¶</a></dt>
+<dd><p>Moves a block of data.</p>
+<p>Corresponds to viMove function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>source_space</strong> (<em>constants.AddressSpace</em>) – Specifies the address space of the source.</p></li>
+<li><p><strong>source_offset</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Offset of the starting address or register from which to read.</p></li>
+<li><p><strong>source_width</strong> (<em>constants.DataWidth</em>) – Specifies the data width of the source.</p></li>
+<li><p><strong>destination_space</strong> (<em>constants.AddressSpace</em>) – Specifies the address space of the destination.</p></li>
+<li><p><strong>destination_offset</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Offset of the starting address or register to which to write.</p></li>
+<li><p><strong>destination_width</strong> (<em>constants.DataWidth</em>) – Specifies the data width of the destination.</p></li>
+<li><p><strong>length</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Number of elements to transfer, where the data width of the
+elements to transfer is identical to the source data width.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.move_asynchronously">
+<code class="sig-name descname">move_asynchronously</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">source_space: pyvisa.constants.AddressSpace</em>, <em class="sig-param">source_offset: int</em>, <em class="sig-param">source_width: pyvisa.constants.DataWidth</em>, <em class="sig-param">destination_space: pyvisa.constants.AddressSpace</em>, <em class="sig-param">destination_offset: int</em>, <em class="sig-param">destination_width: pyvisa.constants.DataWidth</em>, <em class="sig-param">length: int</em><span class="sig-paren">)</span> &#x2192; Tuple[NewType.&lt;locals&gt;.new_type, pyvisa.constants.StatusCode]<a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.move_asynchronously"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.move_asynchronously" title="Permalink to this definition">¶</a></dt>
+<dd><p>Moves a block of data asynchronously.</p>
+<p>Corresponds to viMoveAsync function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>source_space</strong> (<em>constants.AddressSpace</em>) – Specifies the address space of the source.</p></li>
+<li><p><strong>source_offset</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Offset of the starting address or register from which to read.</p></li>
+<li><p><strong>source_width</strong> (<em>constants.DataWidth</em>) – Specifies the data width of the source.</p></li>
+<li><p><strong>destination_space</strong> (<em>constants.AddressSpace</em>) – Specifies the address space of the destination.</p></li>
+<li><p><strong>destination_offset</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Offset of the starting address or register to which to write.</p></li>
+<li><p><strong>destination_width</strong> (<em>constants.DataWidth</em>) – Specifies the data width of the destination.</p></li>
+<li><p><strong>length</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Number of elements to transfer, where the data width of the
+elements to transfer is identical to the source data width.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><em>VISAJobID</em> – Job identifier of this asynchronous move operation</p></li>
+<li><p><em>StatusCode</em> – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.move_in">
+<code class="sig-name descname">move_in</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type, space: pyvisa.constants.AddressSpace, offset: int, length: int, width: Union[Literal[8, 16, 32, 64], pyvisa.constants.DataWidth], extended: bool = False</em><span class="sig-paren">)</span> &#x2192; Tuple<span class="p">[</span>List<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)">int</a><span class="p">]</span><span class="p">, </span><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><span class="p">]</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.move_in"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.move_in" title="Permalink to this definition">¶</a></dt>
+<dd><p>Move a block of data to local memory from the given address space and offset.</p>
+<p>Corresponds to viMoveIn* functions of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>space</strong> (<em>constants.AddressSpace</em>) – Address space from which to move the data.</p></li>
+<li><p><strong>offset</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Offset (in bytes) of the address or register from which to read.</p></li>
+<li><p><strong>length</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Number of elements to transfer, where the data width of
+the elements to transfer is identical to the source data width.</p></li>
+<li><p><strong>width</strong> (<em>Union</em><em>[</em><em>Literal</em><em>[</em><em>8</em><em>, </em><em>16</em><em>, </em><em>32</em><em>, </em><em>64</em><em>]</em><em>, </em><em>constants.DataWidth</em><em>]</em>) – Number of bits to read per element.</p></li>
+<li><p><strong>extended</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – Use 64 bits offset independent of the platform, by default False.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><strong>data</strong> (<em>List[int]</em>) – Data read from the bus</p></li>
+<li><p><strong>status_code</strong> (<em>StatusCode</em>) – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/exceptions.html#ValueError" title="(in Python v3.8)"><strong>ValueError</strong></a> – Raised if an invalid width is specified.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.move_in_16">
+<code class="sig-name descname">move_in_16</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">space: pyvisa.constants.AddressSpace</em>, <em class="sig-param">offset: int</em>, <em class="sig-param">length: int</em>, <em class="sig-param">extended: bool = False</em><span class="sig-paren">)</span> &#x2192; Tuple<span class="p">[</span>List<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)">int</a><span class="p">]</span><span class="p">, </span><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><span class="p">]</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.move_in_16"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.move_in_16" title="Permalink to this definition">¶</a></dt>
+<dd><p>Moves an 16-bit block of data to local memory.</p>
+<p>Corresponds to viMoveIn816 functions of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>space</strong> (<em>constants.AddressSpace</em>) – Address space from which to move the data.</p></li>
+<li><p><strong>offset</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Offset (in bytes) of the address or register from which to read.</p></li>
+<li><p><strong>length</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Number of elements to transfer, where the data width of
+the elements to transfer is identical to the source data width.</p></li>
+<li><p><strong>extended</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – Use 64 bits offset independent of the platform, by default False.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><strong>data</strong> (<em>List[int]</em>) – Data read from the bus</p></li>
+<li><p><strong>status_code</strong> (<em>StatusCode</em>) – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.move_in_32">
+<code class="sig-name descname">move_in_32</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">space: pyvisa.constants.AddressSpace</em>, <em class="sig-param">offset: int</em>, <em class="sig-param">length: int</em>, <em class="sig-param">extended: bool = False</em><span class="sig-paren">)</span> &#x2192; Tuple<span class="p">[</span>List<span class="p">]</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.move_in_32"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.move_in_32" title="Permalink to this definition">¶</a></dt>
+<dd><p>Moves an 32-bit block of data to local memory.</p>
+<p>Corresponds to viMoveIn32* functions of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>space</strong> (<em>constants.AddressSpace</em>) – Address space from which to move the data.</p></li>
+<li><p><strong>offset</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Offset (in bytes) of the address or register from which to read.</p></li>
+<li><p><strong>length</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Number of elements to transfer, where the data width of
+the elements to transfer is identical to the source data width.</p></li>
+<li><p><strong>extended</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – Use 64 bits offset independent of the platform, by default False.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><strong>data</strong> (<em>List[int]</em>) – Data read from the bus</p></li>
+<li><p><strong>status_code</strong> (<em>StatusCode</em>) – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.move_in_64">
+<code class="sig-name descname">move_in_64</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">space: pyvisa.constants.AddressSpace</em>, <em class="sig-param">offset: int</em>, <em class="sig-param">length: int</em>, <em class="sig-param">extended: bool = False</em><span class="sig-paren">)</span> &#x2192; Tuple<span class="p">[</span>List<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)">int</a><span class="p">]</span><span class="p">, </span><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><span class="p">]</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.move_in_64"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.move_in_64" title="Permalink to this definition">¶</a></dt>
+<dd><p>Moves an 64-bit block of data to local memory.</p>
+<p>Corresponds to viMoveIn8* functions of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>space</strong> (<em>constants.AddressSpace</em>) – Address space from which to move the data.</p></li>
+<li><p><strong>offset</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Offset (in bytes) of the address or register from which to read.</p></li>
+<li><p><strong>length</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Number of elements to transfer, where the data width of
+the elements to transfer is identical to the source data width.</p></li>
+<li><p><strong>extended</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – Use 64 bits offset independent of the platform, by default False.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><strong>data</strong> (<em>List[int]</em>) – Data read from the bus</p></li>
+<li><p><strong>status_code</strong> (<em>StatusCode</em>) – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.move_in_8">
+<code class="sig-name descname">move_in_8</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">space: pyvisa.constants.AddressSpace</em>, <em class="sig-param">offset: int</em>, <em class="sig-param">length: int</em>, <em class="sig-param">extended: bool = False</em><span class="sig-paren">)</span> &#x2192; Tuple<span class="p">[</span>List<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)">int</a><span class="p">]</span><span class="p">, </span><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><span class="p">]</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.move_in_8"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.move_in_8" title="Permalink to this definition">¶</a></dt>
+<dd><p>Moves an 8-bit block of data to local memory.</p>
+<p>Corresponds to viMoveIn8* functions of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>space</strong> (<em>constants.AddressSpace</em>) – Address space from which to move the data.</p></li>
+<li><p><strong>offset</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Offset (in bytes) of the address or register from which to read.</p></li>
+<li><p><strong>length</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Number of elements to transfer, where the data width of
+the elements to transfer is identical to the source data width.</p></li>
+<li><p><strong>extended</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – Use 64 bits offset independent of the platform, by default False.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><strong>data</strong> (<em>List[int]</em>) – Data read from the bus</p></li>
+<li><p><strong>status_code</strong> (<em>StatusCode</em>) – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.move_out">
+<code class="sig-name descname">move_out</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type, space: pyvisa.constants.AddressSpace, offset: int, length: int, data: Iterable[int], width: Union[Literal[8, 16, 32, 64], pyvisa.constants.DataWidth], extended: bool = False</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.move_out"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.move_out" title="Permalink to this definition">¶</a></dt>
+<dd><p>Move a block of data from local memory to the given address space and offset.</p>
+<p>Corresponds to viMoveOut* functions of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>space</strong> (<em>constants.AddressSpace</em>) – Address space into which move the data.</p></li>
+<li><p><strong>offset</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Offset (in bytes) of the address or register from which to read.</p></li>
+<li><p><strong>length</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Number of elements to transfer, where the data width of
+the elements to transfer is identical to the source data width.</p></li>
+<li><p><strong>data</strong> (<em>Iterable</em><em>[</em><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a><em>]</em>) – Data to write to bus.</p></li>
+<li><p><strong>width</strong> (<em>Union</em><em>[</em><em>Literal</em><em>[</em><em>8</em><em>, </em><em>16</em><em>, </em><em>32</em><em>, </em><em>64</em><em>]</em><em>, </em><em>constants.DataWidth</em><em>]</em>) – Number of bits to per element.</p></li>
+<li><p><strong>extended</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – Use 64 bits offset independent of the platform, by default False.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/exceptions.html#ValueError" title="(in Python v3.8)"><strong>ValueError</strong></a> – Raised if an invalid width is specified.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.move_out_16">
+<code class="sig-name descname">move_out_16</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type, space: pyvisa.constants.AddressSpace, offset: int, length: int, data: Iterable[int], extended: bool = False</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.move_out_16"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.move_out_16" title="Permalink to this definition">¶</a></dt>
+<dd><p>Moves an 16-bit block of data from local memory.</p>
+<p>Corresponds to viMoveOut16* functions of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>space</strong> (<em>constants.AddressSpace</em>) – Address space into which move the data.</p></li>
+<li><p><strong>offset</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Offset (in bytes) of the address or register from which to read.</p></li>
+<li><p><strong>length</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Number of elements to transfer, where the data width of
+the elements to transfer is identical to the source data width.</p></li>
+<li><p><strong>data</strong> (<em>Iterable</em><em>[</em><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a><em>]</em>) – Data to write to bus.</p></li>
+<li><p><strong>extended</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – Use 64 bits offset independent of the platform, by default False.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.move_out_32">
+<code class="sig-name descname">move_out_32</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type, space: pyvisa.constants.AddressSpace, offset: int, length: int, data: Iterable[int], extended: bool = False</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.move_out_32"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.move_out_32" title="Permalink to this definition">¶</a></dt>
+<dd><p>Moves an 32-bit block of data from local memory.</p>
+<p>Corresponds to viMoveOut32* functions of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>space</strong> (<em>constants.AddressSpace</em>) – Address space into which move the data.</p></li>
+<li><p><strong>offset</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Offset (in bytes) of the address or register from which to read.</p></li>
+<li><p><strong>length</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Number of elements to transfer, where the data width of
+the elements to transfer is identical to the source data width.</p></li>
+<li><p><strong>data</strong> (<em>Iterable</em><em>[</em><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a><em>]</em>) – Data to write to bus.</p></li>
+<li><p><strong>extended</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – Use 64 bits offset independent of the platform, by default False.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.move_out_64">
+<code class="sig-name descname">move_out_64</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type, space: pyvisa.constants.AddressSpace, offset: int, length: int, data: Iterable[int], extended: bool = False</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.move_out_64"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.move_out_64" title="Permalink to this definition">¶</a></dt>
+<dd><p>Moves an 64-bit block of data from local memory.</p>
+<p>Corresponds to viMoveOut64* functions of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>space</strong> (<em>constants.AddressSpace</em>) – Address space into which move the data.</p></li>
+<li><p><strong>offset</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Offset (in bytes) of the address or register from which to read.</p></li>
+<li><p><strong>length</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Number of elements to transfer, where the data width of
+the elements to transfer is identical to the source data width.</p></li>
+<li><p><strong>data</strong> (<em>Iterable</em><em>[</em><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a><em>]</em>) – Data to write to bus.</p></li>
+<li><p><strong>extended</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – Use 64 bits offset independent of the platform, by default False.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.move_out_8">
+<code class="sig-name descname">move_out_8</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type, space: pyvisa.constants.AddressSpace, offset: int, length: int, data: Iterable[int], extended: bool = False</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.move_out_8"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.move_out_8" title="Permalink to this definition">¶</a></dt>
+<dd><p>Moves an 8-bit block of data from local memory.</p>
+<p>Corresponds to viMoveOut8* functions of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>space</strong> (<em>constants.AddressSpace</em>) – Address space into which move the data.</p></li>
+<li><p><strong>offset</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Offset (in bytes) of the address or register from which to read.</p></li>
+<li><p><strong>length</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Number of elements to transfer, where the data width of
+the elements to transfer is identical to the source data width.</p></li>
+<li><p><strong>data</strong> (<em>Iterable</em><em>[</em><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a><em>]</em>) – Data to write to bus.</p></li>
+<li><p><strong>extended</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – Use 64 bits offset independent of the platform, by default False.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.open">
+<code class="sig-name descname">open</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">resource_name: str</em>, <em class="sig-param">access_mode: pyvisa.constants.AccessModes = &lt;AccessModes.no_lock: 0&gt;</em>, <em class="sig-param">open_timeout: int = 0</em><span class="sig-paren">)</span> &#x2192; Tuple[NewType.&lt;locals&gt;.new_type, pyvisa.constants.StatusCode]<a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.open"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.open" title="Permalink to this definition">¶</a></dt>
+<dd><p>Opens a session to the specified resource.</p>
+<p>Corresponds to viOpen function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISARMSession</em>) – Resource Manager session (should always be a session returned from
+open_default_resource_manager()).</p></li>
+<li><p><strong>resource_name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – Unique symbolic name of a resource.</p></li>
+<li><p><strong>access_mode</strong> (<a class="reference internal" href="constants.html#pyvisa.constants.AccessModes" title="pyvisa.constants.AccessModes"><em>constants.AccessModes</em></a><em>, </em><em>optional</em>) – Specifies the mode by which the resource is to be accessed.</p></li>
+<li><p><strong>open_timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – If the <code class="docutils literal notranslate"><span class="pre">access_mode</span></code> parameter requests a lock, then this
+parameter specifies the absolute time period (in milliseconds) that
+the resource waits to get unlocked before this operation returns an
+error.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><em>VISASession</em> – Unique logical identifier reference to a session</p></li>
+<li><p><em>StatusCode</em> – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.open_default_resource_manager">
+<code class="sig-name descname">open_default_resource_manager</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; Tuple[NewType.&lt;locals&gt;.new_type, pyvisa.constants.StatusCode]<a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.open_default_resource_manager"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.open_default_resource_manager" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function returns a session to the Default Resource Manager resource.</p>
+<p>Corresponds to viOpenDefaultRM function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p><ul class="simple">
+<li><p><em>VISARMSession</em> – Unique logical identifier to a Default Resource Manager session</p></li>
+<li><p><em>StatusCode</em> – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.out_16">
+<code class="sig-name descname">out_16</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">space: pyvisa.constants.AddressSpace</em>, <em class="sig-param">offset: int</em>, <em class="sig-param">data: int</em>, <em class="sig-param">extended: bool = False</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.out_16"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.out_16" title="Permalink to this definition">¶</a></dt>
+<dd><p>Write a 16-bit value to the specified memory space and offset.</p>
+<p>Corresponds to viOut16* functions of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>space</strong> (<em>constants.AddressSpace</em>) – Address space into which to write.</p></li>
+<li><p><strong>offset</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Offset (in bytes) of the address or register from which to read.</p></li>
+<li><p><strong>data</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Data to write to bus.</p></li>
+<li><p><strong>extended</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – Use 64 bits offset independent of the platform.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.out_32">
+<code class="sig-name descname">out_32</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type, space: pyvisa.constants.AddressSpace, offset: int, data: Iterable[int], extended: bool = False</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.out_32"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.out_32" title="Permalink to this definition">¶</a></dt>
+<dd><p>Write a 32-bit value to the specified memory space and offset.</p>
+<p>Corresponds to viOut32* functions of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>space</strong> (<em>constants.AddressSpace</em>) – Address space into which to write.</p></li>
+<li><p><strong>offset</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Offset (in bytes) of the address or register from which to read.</p></li>
+<li><p><strong>data</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Data to write to bus.</p></li>
+<li><p><strong>extended</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – Use 64 bits offset independent of the platform.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.out_64">
+<code class="sig-name descname">out_64</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type, space: pyvisa.constants.AddressSpace, offset: int, data: Iterable[int], extended: bool = False</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.out_64"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.out_64" title="Permalink to this definition">¶</a></dt>
+<dd><p>Write a 64-bit value to the specified memory space and offset.</p>
+<p>Corresponds to viOut64* functions of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>space</strong> (<em>constants.AddressSpace</em>) – Address space into which to write.</p></li>
+<li><p><strong>offset</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Offset (in bytes) of the address or register from which to read.</p></li>
+<li><p><strong>data</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Data to write to bus.</p></li>
+<li><p><strong>extended</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – Use 64 bits offset independent of the platform.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.out_8">
+<code class="sig-name descname">out_8</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">space: pyvisa.constants.AddressSpace</em>, <em class="sig-param">offset: int</em>, <em class="sig-param">data: int</em>, <em class="sig-param">extended: bool = False</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.out_8"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.out_8" title="Permalink to this definition">¶</a></dt>
+<dd><p>Write an 8-bit value to the specified memory space and offset.</p>
+<p>Corresponds to viOut8* functions of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>space</strong> (<em>constants.AddressSpace</em>) – Address space into which to write.</p></li>
+<li><p><strong>offset</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Offset (in bytes) of the address or register from which to read.</p></li>
+<li><p><strong>data</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Data to write to bus.</p></li>
+<li><p><strong>extended</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – Use 64 bits offset independent of the platform.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.parse_resource">
+<code class="sig-name descname">parse_resource</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">resource_name: str</em><span class="sig-paren">)</span> &#x2192; Tuple<span class="p">[</span><a class="reference internal" href="resourcemanager.html#pyvisa.highlevel.ResourceInfo" title="pyvisa.highlevel.ResourceInfo">pyvisa.highlevel.ResourceInfo</a><span class="p">, </span><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><span class="p">]</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.parse_resource"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.parse_resource" title="Permalink to this definition">¶</a></dt>
+<dd><p>Parse a resource string to get the interface information.</p>
+<p>Corresponds to viParseRsrc function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISARMSession</em>) – Resource Manager session (should always be the Default Resource
+Manager for VISA returned from open_default_resource_manager()).</p></li>
+<li><p><strong>resource_name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – Unique symbolic name of a resource.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><em>ResourceInfo</em> – Resource information with interface type and board number</p></li>
+<li><p><em>StatusCode</em> – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.parse_resource_extended">
+<code class="sig-name descname">parse_resource_extended</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">resource_name: str</em><span class="sig-paren">)</span> &#x2192; Tuple<span class="p">[</span><a class="reference internal" href="resourcemanager.html#pyvisa.highlevel.ResourceInfo" title="pyvisa.highlevel.ResourceInfo">pyvisa.highlevel.ResourceInfo</a><span class="p">, </span><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><span class="p">]</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.parse_resource_extended"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.parse_resource_extended" title="Permalink to this definition">¶</a></dt>
+<dd><p>Parse a resource string to get extended interface information.</p>
+<p>Corresponds to viParseRsrcEx function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISARMSession</em>) – Resource Manager session (should always be the Default Resource
+Manager for VISA returned from open_default_resource_manager()).</p></li>
+<li><p><strong>resource_name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – Unique symbolic name of a resource.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><em>ResourceInfo</em> – Resource information with interface type and board number</p></li>
+<li><p><em>StatusCode</em> – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.peek">
+<code class="sig-name descname">peek</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type, address: NewType.&lt;locals&gt;.new_type, width: Union[Literal[8, 16, 32, 64], pyvisa.constants.DataWidth]</em><span class="sig-paren">)</span> &#x2192; Tuple<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)">int</a><span class="p">, </span><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><span class="p">]</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.peek"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.peek" title="Permalink to this definition">¶</a></dt>
+<dd><p>Read an 8, 16, 32, or 64-bit value from the specified address.</p>
+<p>Corresponds to viPeek* functions of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>address</strong> (<em>VISAMemoryAddress</em>) – Source address to read the value.</p></li>
+<li><p><strong>width</strong> (<em>Union</em><em>[</em><em>Literal</em><em>[</em><em>8</em><em>, </em><em>16</em><em>, </em><em>32</em><em>, </em><em>64</em><em>]</em><em>, </em><em>constants.DataWidth</em><em>]</em>) – Number of bits to read.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><strong>data</strong> (<em>int</em>) – Data read from bus</p></li>
+<li><p><strong>status_code</strong> (<em>StatusCode</em>) – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/exceptions.html#ValueError" title="(in Python v3.8)"><strong>ValueError</strong></a> – Raised if an invalid width is specified.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.peek_16">
+<code class="sig-name descname">peek_16</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">address: NewType.&lt;locals&gt;.new_type</em><span class="sig-paren">)</span> &#x2192; Tuple<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)">int</a><span class="p">, </span><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><span class="p">]</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.peek_16"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.peek_16" title="Permalink to this definition">¶</a></dt>
+<dd><p>Read an 16-bit value from the specified address.</p>
+<p>Corresponds to viPeek16 function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>address</strong> (<em>VISAMemoryAddress</em>) – Source address to read the value.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><em>int</em> – Data read from bus</p></li>
+<li><p><em>StatusCode</em> – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.peek_32">
+<code class="sig-name descname">peek_32</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">address: NewType.&lt;locals&gt;.new_type</em><span class="sig-paren">)</span> &#x2192; Tuple<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)">int</a><span class="p">, </span><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><span class="p">]</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.peek_32"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.peek_32" title="Permalink to this definition">¶</a></dt>
+<dd><p>Read an 32-bit value from the specified address.</p>
+<p>Corresponds to viPeek32 function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>address</strong> (<em>VISAMemoryAddress</em>) – Source address to read the value.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><em>int</em> – Data read from bus</p></li>
+<li><p><em>StatusCode</em> – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.peek_64">
+<code class="sig-name descname">peek_64</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">address: NewType.&lt;locals&gt;.new_type</em><span class="sig-paren">)</span> &#x2192; Tuple<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)">int</a><span class="p">, </span><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><span class="p">]</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.peek_64"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.peek_64" title="Permalink to this definition">¶</a></dt>
+<dd><p>Read an 64-bit value from the specified address.</p>
+<p>Corresponds to viPeek64 function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>address</strong> (<em>VISAMemoryAddress</em>) – Source address to read the value.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><em>int</em> – Data read from bus</p></li>
+<li><p><em>StatusCode</em> – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.peek_8">
+<code class="sig-name descname">peek_8</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">address: NewType.&lt;locals&gt;.new_type</em><span class="sig-paren">)</span> &#x2192; Tuple<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)">int</a><span class="p">, </span><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><span class="p">]</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.peek_8"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.peek_8" title="Permalink to this definition">¶</a></dt>
+<dd><p>Read an 8-bit value from the specified address.</p>
+<p>Corresponds to viPeek8 function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>address</strong> (<em>VISAMemoryAddress</em>) – Source address to read the value.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><em>int</em> – Data read from bus</p></li>
+<li><p><em>StatusCode</em> – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.poke">
+<code class="sig-name descname">poke</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type, address: NewType.&lt;locals&gt;.new_type, width: Union[Literal[8, 16, 32, 64], pyvisa.constants.DataWidth], data: int</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.poke"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.poke" title="Permalink to this definition">¶</a></dt>
+<dd><p>Writes an 8, 16, 32, or 64-bit value from the specified address.</p>
+<p>Corresponds to viPoke* functions of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>address</strong> (<em>VISAMemoryAddress</em>) – Source address to read the value.</p></li>
+<li><p><strong>width</strong> (<em>Union</em><em>[</em><em>Literal</em><em>[</em><em>8</em><em>, </em><em>16</em><em>, </em><em>32</em><em>, </em><em>64</em><em>]</em><em>, </em><em>constants.DataWidth</em><em>]</em>) – Number of bits to read.</p></li>
+<li><p><strong>data</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Data to write to the bus</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><strong>status_code</strong> – Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/exceptions.html#ValueError" title="(in Python v3.8)"><strong>ValueError</strong></a> – Raised if an invalid width is specified.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.poke_16">
+<code class="sig-name descname">poke_16</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">address: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">data: int</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.poke_16"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.poke_16" title="Permalink to this definition">¶</a></dt>
+<dd><p>Write an 16-bit value to the specified address.</p>
+<p>Corresponds to viPoke16 function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>address</strong> (<em>VISAMemoryAddress</em>) – Source address to read the value.</p></li>
+<li><p><strong>data</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Data to write.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.poke_32">
+<code class="sig-name descname">poke_32</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">address: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">data: int</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.poke_32"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.poke_32" title="Permalink to this definition">¶</a></dt>
+<dd><p>Write an 32-bit value to the specified address.</p>
+<p>Corresponds to viPoke32 function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>address</strong> (<em>VISAMemoryAddress</em>) – Source address to read the value.</p></li>
+<li><p><strong>data</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Data to write.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.poke_64">
+<code class="sig-name descname">poke_64</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">address: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">data: int</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.poke_64"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.poke_64" title="Permalink to this definition">¶</a></dt>
+<dd><p>Write an 64-bit value to the specified address.</p>
+<p>Corresponds to viPoke64 function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>address</strong> (<em>VISAMemoryAddress</em>) – Source address to read the value.</p></li>
+<li><p><strong>data</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Data to write.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.poke_8">
+<code class="sig-name descname">poke_8</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">address: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">data: int</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.poke_8"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.poke_8" title="Permalink to this definition">¶</a></dt>
+<dd><p>Write an 8-bit value to the specified address.</p>
+<p>Corresponds to viPoke8 function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>address</strong> (<em>VISAMemoryAddress</em>) – Source address to read the value.</p></li>
+<li><p><strong>data</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Data to write.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.read">
+<code class="sig-name descname">read</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">count: int</em><span class="sig-paren">)</span> &#x2192; Tuple<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#bytes" title="(in Python v3.8)">bytes</a><span class="p">, </span><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><span class="p">]</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.read"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.read" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reads data from device or interface synchronously.</p>
+<p>Corresponds to viRead function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>count</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Number of bytes to be read.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><em>bytes</em> – Date read</p></li>
+<li><p><em>StatusCode</em> – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.read_asynchronously">
+<code class="sig-name descname">read_asynchronously</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">count: int</em><span class="sig-paren">)</span> &#x2192; Tuple[SupportsBytes, NewType.&lt;locals&gt;.new_type, pyvisa.constants.StatusCode]<a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.read_asynchronously"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.read_asynchronously" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reads data from device or interface asynchronously.</p>
+<p>Corresponds to viReadAsync function of the VISA library. Since the
+asynchronous operation may complete before the function call return
+implementation should make sure that get_buffer_from_id will be able
+to return the proper buffer before this method returns.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>count</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Number of bytes to be read.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><em>SupportsBytes</em> – Buffer that will be filled during the asynchronous operation.</p></li>
+<li><p><em>VISAJobID</em> – Id of the asynchronous job</p></li>
+<li><p><em>StatusCode</em> – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.read_memory">
+<code class="sig-name descname">read_memory</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type, space: pyvisa.constants.AddressSpace, offset: int, width: Union[Literal[8, 16, 32, 64], pyvisa.constants.DataWidth], extended: bool = False</em><span class="sig-paren">)</span> &#x2192; Tuple<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)">int</a><span class="p">, </span><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><span class="p">]</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.read_memory"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.read_memory" title="Permalink to this definition">¶</a></dt>
+<dd><p>Read a value from the specified memory space and offset.</p>
+<p>Corresponds to viIn* functions of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>space</strong> (<em>constants.AddressSpace</em>) – Specifies the address space from which to read.</p></li>
+<li><p><strong>offset</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Offset (in bytes) of the address or register from which to read.</p></li>
+<li><p><strong>width</strong> (<em>Union</em><em>[</em><em>Literal</em><em>[</em><em>8</em><em>, </em><em>16</em><em>, </em><em>32</em><em>, </em><em>64</em><em>]</em><em>, </em><em>constants.DataWidth</em><em>]</em>) – Number of bits to read (8, 16, 32 or 64).</p></li>
+<li><p><strong>extended</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – Use 64 bits offset independent of the platform.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><strong>data</strong> (<em>int</em>) – Data read from memory</p></li>
+<li><p><strong>status_code</strong> (<em>StatusCode</em>) – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/exceptions.html#ValueError" title="(in Python v3.8)"><strong>ValueError</strong></a> – Raised if an invalid width is specified.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.read_stb">
+<code class="sig-name descname">read_stb</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em><span class="sig-paren">)</span> &#x2192; Tuple<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)">int</a><span class="p">, </span><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><span class="p">]</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.read_stb"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.read_stb" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reads a status byte of the service request.</p>
+<p>Corresponds to viReadSTB function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><em>int</em> – Service request status byte</p></li>
+<li><p><em>StatusCode</em> – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.read_to_file">
+<code class="sig-name descname">read_to_file</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">filename: str</em>, <em class="sig-param">count: int</em><span class="sig-paren">)</span> &#x2192; Tuple<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)">int</a><span class="p">, </span><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><span class="p">]</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.read_to_file"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.read_to_file" title="Permalink to this definition">¶</a></dt>
+<dd><p>Read data synchronously, and store the transferred data in a file.</p>
+<p>Corresponds to viReadToFile function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>filename</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – Name of file to which data will be written.</p></li>
+<li><p><strong>count</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Number of bytes to be read.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><em>int</em> – Number of bytes actually transferred</p></li>
+<li><p><em>StatusCode</em> – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="pyvisa.highlevel.VisaLibraryBase.resource_manager">
+<code class="sig-name descname">resource_manager</code><em class="property">: Optional<span class="p">[</span><a class="reference internal" href="resourcemanager.html#pyvisa.highlevel.ResourceManager" title="pyvisa.highlevel.ResourceManager">pyvisa.highlevel.ResourceManager</a><span class="p">]</span></em><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.resource_manager" title="Permalink to this definition">¶</a></dt>
+<dd><p>Default ResourceManager instance for this library.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.set_attribute">
+<code class="sig-name descname">set_attribute</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">attribute: pyvisa.constants.ResourceAttribute</em>, <em class="sig-param">attribute_state: Any</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.set_attribute"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.set_attribute" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the state of an attribute.</p>
+<p>Corresponds to viSetAttribute function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>attribute</strong> (<em>constants.ResourceAttribute</em>) – Attribute for which the state is to be modified.</p></li>
+<li><p><strong>attribute_state</strong> (<em>Any</em>) – The state of the attribute to be set for the specified object.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.set_buffer">
+<code class="sig-name descname">set_buffer</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">mask: pyvisa.constants.BufferType</em>, <em class="sig-param">size: int</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.set_buffer"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.set_buffer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the size for the formatted I/O and/or low-level I/O communication buffer(s).</p>
+<p>Corresponds to viSetBuf function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>mask</strong> (<em>constants.BufferType</em>) – Specifies the type of buffer.</p></li>
+<li><p><strong>size</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – The size to be set for the specified buffer(s).</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.status_description">
+<code class="sig-name descname">status_description</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">status: pyvisa.constants.StatusCode</em><span class="sig-paren">)</span> &#x2192; Tuple<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a><span class="p">, </span><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><span class="p">]</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.status_description"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.status_description" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a user-readable description of the status code passed to the operation.</p>
+<p>Corresponds to viStatusDesc function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>status</strong> (<a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode"><em>StatusCode</em></a>) – Status code to interpret.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><em>str</em> – User-readable string interpretation of the status code.</p></li>
+<li><p><em>StatusCode</em> – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.terminate">
+<code class="sig-name descname">terminate</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">degree: None</em>, <em class="sig-param">job_id: NewType.&lt;locals&gt;.new_type</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.terminate"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.terminate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Request a VISA session to terminate normal execution of an operation.</p>
+<p>Corresponds to viTerminate function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>degree</strong> (<a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.8)"><em>None</em></a>) – Not used in this version of the VISA specification.</p></li>
+<li><p><strong>job_id</strong> (<em>VISAJobId</em>) – Specifies an operation identifier. If a user passes None as the
+job_id value to viTerminate(), a VISA implementation should abort
+any calls in the current process executing on the specified vi.
+Any call that is terminated this way should return VI_ERROR_ABORT.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.uninstall_all_visa_handlers">
+<code class="sig-name descname">uninstall_all_visa_handlers</code><span class="sig-paren">(</span><em class="sig-param">session: Optional[NewType.&lt;locals&gt;.new_type]</em><span class="sig-paren">)</span> &#x2192; <a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.8)">None</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.uninstall_all_visa_handlers"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.uninstall_all_visa_handlers" title="Permalink to this definition">¶</a></dt>
+<dd><p>Uninstalls all previously installed handlers for a particular session.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>session</strong> (<em>VISASession | None</em>) – Unique logical identifier to a session. If None, operates on all sessions.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.uninstall_handler">
+<code class="sig-name descname">uninstall_handler</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type, event_type: pyvisa.constants.EventType, handler: Callable[[NewType.&lt;locals&gt;.new_type, pyvisa.constants.EventType, NewType.&lt;locals&gt;.new_type, Any], None], user_handle: Any = None</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.uninstall_handler"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.uninstall_handler" title="Permalink to this definition">¶</a></dt>
+<dd><p>Uninstall handlers for events.</p>
+<p>Corresponds to viUninstallHandler function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>event_type</strong> (<em>constants.EventType</em>) – Logical event identifier.</p></li>
+<li><p><strong>handler</strong> (<em>VISAHandler</em>) – Handler to be uninstalled by a client application.</p></li>
+<li><p><strong>user_handle</strong> – A value specified by an application that can be used for
+identifying handlers uniquely in a session for an event.
+The modified value of the user_handle as returned by install_handler
+should be used instead of the original value.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.uninstall_visa_handler">
+<code class="sig-name descname">uninstall_visa_handler</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type, event_type: pyvisa.constants.EventType, handler: Callable[[NewType.&lt;locals&gt;.new_type, pyvisa.constants.EventType, NewType.&lt;locals&gt;.new_type, Any], None], user_handle: Any = None</em><span class="sig-paren">)</span> &#x2192; <a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.8)">None</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.uninstall_visa_handler"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.uninstall_visa_handler" title="Permalink to this definition">¶</a></dt>
+<dd><p>Uninstalls handlers for events.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>event_type</strong> (<em>constants.EventType</em>) – Logical event identifier.</p></li>
+<li><p><strong>handler</strong> (<em>VISAHandler</em>) – Handler to be uninstalled by a client application.</p></li>
+<li><p><strong>user_handle</strong> – The user handle returned by install_visa_handler.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.unlock">
+<code class="sig-name descname">unlock</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.unlock"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.unlock" title="Permalink to this definition">¶</a></dt>
+<dd><p>Relinquish a lock for the specified resource.</p>
+<p>Corresponds to viUnlock function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.unmap_address">
+<code class="sig-name descname">unmap_address</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.unmap_address"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.unmap_address" title="Permalink to this definition">¶</a></dt>
+<dd><p>Unmap memory space previously mapped by map_address().</p>
+<p>Corresponds to viUnmapAddress function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.unmap_trigger">
+<code class="sig-name descname">unmap_trigger</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">trigger_source: pyvisa.constants.InputTriggerLine</em>, <em class="sig-param">trigger_destination: pyvisa.constants.OutputTriggerLine</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.unmap_trigger"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.unmap_trigger" title="Permalink to this definition">¶</a></dt>
+<dd><p>Undo a previous map between a trigger source line and a destination line.</p>
+<p>Corresponds to viUnmapTrigger function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>trigger_source</strong> (<em>constants.InputTriggerLine</em>) – Source line used in previous map.</p></li>
+<li><p><strong>trigger_destination</strong> (<em>constants.OutputTriggerLine</em>) – Destination line used in previous map.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.usb_control_in">
+<code class="sig-name descname">usb_control_in</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">request_type_bitmap_field: int</em>, <em class="sig-param">request_id: int</em>, <em class="sig-param">request_value: int</em>, <em class="sig-param">index: int</em>, <em class="sig-param">length: int = 0</em><span class="sig-paren">)</span> &#x2192; Tuple<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#bytes" title="(in Python v3.8)">bytes</a><span class="p">, </span><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><span class="p">]</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.usb_control_in"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.usb_control_in" title="Permalink to this definition">¶</a></dt>
+<dd><p>Perform a USB control pipe transfer from the device.</p>
+<p>Corresponds to viUsbControlIn function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>request_type_bitmap_field</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – bmRequestType parameter of the setup stage of a USB control transfer.</p></li>
+<li><p><strong>request_id</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – bRequest parameter of the setup stage of a USB control transfer.</p></li>
+<li><p><strong>request_value</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – wValue parameter of the setup stage of a USB control transfer.</p></li>
+<li><p><strong>index</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – wIndex parameter of the setup stage of a USB control transfer.
+This is usually the index of the interface or endpoint.</p></li>
+<li><p><strong>length</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a><em>, </em><em>optional</em>) – wLength parameter of the setup stage of a USB control transfer.
+This value also specifies the size of the data buffer to receive
+the data from the optional data stage of the control transfer.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><em>bytes</em> – The data buffer that receives the data from the optional data stage
+of the control transfer</p></li>
+<li><p><em>StatusCode</em> – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.usb_control_out">
+<code class="sig-name descname">usb_control_out</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">request_type_bitmap_field: int</em>, <em class="sig-param">request_id: int</em>, <em class="sig-param">request_value: int</em>, <em class="sig-param">index: int</em>, <em class="sig-param">data: bytes = b''</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.usb_control_out"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.usb_control_out" title="Permalink to this definition">¶</a></dt>
+<dd><p>Perform a USB control pipe transfer to the device.</p>
+<p>Corresponds to viUsbControlOut function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>request_type_bitmap_field</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – bmRequestType parameter of the setup stage of a USB control transfer.</p></li>
+<li><p><strong>request_id</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – bRequest parameter of the setup stage of a USB control transfer.</p></li>
+<li><p><strong>request_value</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – wValue parameter of the setup stage of a USB control transfer.</p></li>
+<li><p><strong>index</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – wIndex parameter of the setup stage of a USB control transfer.
+This is usually the index of the interface or endpoint.</p></li>
+<li><p><strong>data</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#bytes" title="(in Python v3.8)"><em>bytes</em></a><em>, </em><em>optional</em>) – The data buffer that sends the data in the optional data stage of
+the control transfer.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.vxi_command_query">
+<code class="sig-name descname">vxi_command_query</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">mode: pyvisa.constants.VXICommands</em>, <em class="sig-param">command: int</em><span class="sig-paren">)</span> &#x2192; Tuple<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)">int</a><span class="p">, </span><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><span class="p">]</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.vxi_command_query"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.vxi_command_query" title="Permalink to this definition">¶</a></dt>
+<dd><p>Send the device a miscellaneous command or query and/or retrieves the response to a previous query.</p>
+<p>Corresponds to viVxiCommandQuery function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>mode</strong> (<em>constants.VXICommands</em>) – Specifies whether to issue a command and/or retrieve a response.</p></li>
+<li><p><strong>command</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – The miscellaneous command to send.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><em>int</em> – The response retrieved from the device</p></li>
+<li><p><em>StatusCode</em> – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.wait_on_event">
+<code class="sig-name descname">wait_on_event</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">in_event_type: pyvisa.constants.EventType</em>, <em class="sig-param">timeout: int</em><span class="sig-paren">)</span> &#x2192; Tuple[pyvisa.constants.EventType, NewType.&lt;locals&gt;.new_type, pyvisa.constants.StatusCode]<a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.wait_on_event"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.wait_on_event" title="Permalink to this definition">¶</a></dt>
+<dd><p>Wait for an occurrence of the specified event for a given session.</p>
+<p>Corresponds to viWaitOnEvent function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>in_event_type</strong> (<em>constants.EventType</em>) – Logical identifier of the event(s) to wait for.</p></li>
+<li><p><strong>timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Absolute time period in time units that the resource shall wait for
+a specified event to occur before returning the time elapsed error.
+The time unit is in milliseconds.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><em>constants.EventType</em> – Logical identifier of the event actually received</p></li>
+<li><p><em>VISAEventContext</em> – A handle specifying the unique occurrence of an event</p></li>
+<li><p><em>StatusCode</em> – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.write">
+<code class="sig-name descname">write</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">data: bytes</em><span class="sig-paren">)</span> &#x2192; Tuple<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)">int</a><span class="p">, </span><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><span class="p">]</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.write"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.write" title="Permalink to this definition">¶</a></dt>
+<dd><p>Write data to device or interface synchronously.</p>
+<p>Corresponds to viWrite function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>data</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#bytes" title="(in Python v3.8)"><em>bytes</em></a>) – Data to be written.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><em>int</em> – Number of bytes actually transferred</p></li>
+<li><p><em>StatusCode</em> – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.write_asynchronously">
+<code class="sig-name descname">write_asynchronously</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">data: bytes</em><span class="sig-paren">)</span> &#x2192; Tuple[NewType.&lt;locals&gt;.new_type, pyvisa.constants.StatusCode]<a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.write_asynchronously"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.write_asynchronously" title="Permalink to this definition">¶</a></dt>
+<dd><p>Write data to device or interface asynchronously.</p>
+<p>Corresponds to viWriteAsync function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>data</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#bytes" title="(in Python v3.8)"><em>bytes</em></a>) – Data to be written.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><em>VISAJobID</em> – Job ID of this asynchronous write operation</p></li>
+<li><p><em>StatusCode</em> – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.write_from_file">
+<code class="sig-name descname">write_from_file</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type</em>, <em class="sig-param">filename: str</em>, <em class="sig-param">count: int</em><span class="sig-paren">)</span> &#x2192; Tuple<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)">int</a><span class="p">, </span><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><span class="p">]</span><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.write_from_file"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.write_from_file" title="Permalink to this definition">¶</a></dt>
+<dd><p>Take data from a file and write it out synchronously.</p>
+<p>Corresponds to viWriteFromFile function of the VISA library.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>filename</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – Name of file from which data will be read.</p></li>
+<li><p><strong>count</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Number of bytes to be written.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><em>int</em> – Number of bytes actually transferred</p></li>
+<li><p><em>StatusCode</em> – Return value of the library call.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyvisa.highlevel.VisaLibraryBase.write_memory">
+<code class="sig-name descname">write_memory</code><span class="sig-paren">(</span><em class="sig-param">session: NewType.&lt;locals&gt;.new_type, space: pyvisa.constants.AddressSpace, offset: int, data: int, width: Union[Literal[8, 16, 32, 64], pyvisa.constants.DataWidth], extended: bool = False</em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">pyvisa.constants.StatusCode</a><a class="reference internal" href="../_modules/pyvisa/highlevel.html#VisaLibraryBase.write_memory"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyvisa.highlevel.VisaLibraryBase.write_memory" title="Permalink to this definition">¶</a></dt>
+<dd><p>Write a value to the specified memory space and offset.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<em>VISASession</em>) – Unique logical identifier to a session.</p></li>
+<li><p><strong>space</strong> (<em>constants.AddressSpace</em>) – Specifies the address space.</p></li>
+<li><p><strong>offset</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Offset (in bytes) of the address or register from which to read.</p></li>
+<li><p><strong>data</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Data to write to bus.</p></li>
+<li><p><strong>width</strong> (<em>Union</em><em>[</em><em>Literal</em><em>[</em><em>8</em><em>, </em><em>16</em><em>, </em><em>32</em><em>, </em><em>64</em><em>]</em><em>, </em><em>constants.DataWidth</em><em>]</em>) – Number of bits to read.</p></li>
+<li><p><strong>extended</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – Use 64 bits offset independent of the platform, by default False.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Return value of the library call.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="constants.html#pyvisa.constants.StatusCode" title="pyvisa.constants.StatusCode">StatusCode</a></p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/exceptions.html#ValueError" title="(in Python v3.8)"><strong>ValueError</strong></a> – Raised if an invalid width is specified.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="resourcemanager.html" class="btn btn-neutral float-right" title="Resource Manager" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="API" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, PyVISA Authors
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

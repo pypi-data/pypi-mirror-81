@@ -1,0 +1,269 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>pyvisa.resources.serial &mdash; PyVISA 1.10.2.dev153+g04842c3.d20200729 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> PyVISA
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.10.2.dev153+g04842c3.d20200729
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../introduction/index.html">User guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../faq/index.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../api/index.html">API Documentation</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">PyVISA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../../index.html">Module code</a> &raquo;</li>
+        
+      <li>pyvisa.resources.serial</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <h1>Source code for pyvisa.resources.serial</h1><div class="highlight"><pre>
+<span></span><span class="c1"># -*- coding: utf-8 -*-</span>
+<span class="sd">&quot;&quot;&quot;High level wrapper for Serial resources.</span>
+
+<span class="sd">This file is part of PyVISA.</span>
+
+<span class="sd">:copyright: 2014-2020 by PyVISA Authors, see AUTHORS for more details.</span>
+<span class="sd">:license: MIT, see LICENSE for more details.</span>
+
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="kn">from</span> <span class="nn">..</span> <span class="kn">import</span> <span class="n">attributes</span><span class="p">,</span> <span class="n">constants</span>
+<span class="kn">from</span> <span class="nn">..attributes</span> <span class="kn">import</span> <span class="n">Attribute</span>
+<span class="kn">from</span> <span class="nn">.messagebased</span> <span class="kn">import</span> <span class="n">MessageBasedResource</span>
+
+
+<div class="viewcode-block" id="SerialInstrument"><a class="viewcode-back" href="../../../api/resources.html#pyvisa.resources.SerialInstrument">[docs]</a><span class="nd">@MessageBasedResource</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="n">constants</span><span class="o">.</span><span class="n">InterfaceType</span><span class="o">.</span><span class="n">asrl</span><span class="p">,</span> <span class="s2">&quot;INSTR&quot;</span><span class="p">)</span>
+<span class="k">class</span> <span class="nc">SerialInstrument</span><span class="p">(</span><span class="n">MessageBasedResource</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Communicates with devices of type ASRL&lt;board&gt;[::INSTR]</span>
+
+<span class="sd">    Do not instantiate directly, use</span>
+<span class="sd">    :meth:`pyvisa.highlevel.ResourceManager.open_resource`.</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="c1">#: Baud rate of the interface.</span>
+    <span class="n">baud_rate</span><span class="p">:</span> <span class="n">Attribute</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="n">attributes</span><span class="o">.</span><span class="n">AttrVI_ATTR_ASRL_BAUD</span><span class="p">()</span>
+
+    <span class="c1">#: Number of data bits contained in each frame (from 5 to 8).</span>
+    <span class="n">data_bits</span><span class="p">:</span> <span class="n">Attribute</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="n">attributes</span><span class="o">.</span><span class="n">AttrVI_ATTR_ASRL_DATA_BITS</span><span class="p">()</span>
+
+    <span class="c1">#: Parity used with every frame transmitted and received.</span>
+    <span class="n">parity</span><span class="p">:</span> <span class="n">Attribute</span><span class="p">[</span><span class="n">constants</span><span class="o">.</span><span class="n">Parity</span><span class="p">]</span> <span class="o">=</span> <span class="n">attributes</span><span class="o">.</span><span class="n">AttrVI_ATTR_ASRL_PARITY</span><span class="p">()</span>
+
+    <span class="c1">#: Number of stop bits used to indicate the end of a frame.</span>
+    <span class="n">stop_bits</span><span class="p">:</span> <span class="n">Attribute</span><span class="p">[</span><span class="n">constants</span><span class="o">.</span><span class="n">StopBits</span><span class="p">]</span> <span class="o">=</span> <span class="n">attributes</span><span class="o">.</span><span class="n">AttrVI_ATTR_ASRL_STOP_BITS</span><span class="p">()</span>
+
+    <span class="c1">#: Indicates the type of flow control used by the transfer mechanism.</span>
+    <span class="n">flow_control</span><span class="p">:</span> <span class="n">Attribute</span><span class="p">[</span>
+        <span class="n">constants</span><span class="o">.</span><span class="n">ControlFlow</span>
+    <span class="p">]</span> <span class="o">=</span> <span class="n">attributes</span><span class="o">.</span><span class="n">AttrVI_ATTR_ASRL_FLOW_CNTRL</span><span class="p">()</span>
+
+    <span class="c1">#: Number of bytes available in the low- level I/O receive buffer.</span>
+    <span class="n">bytes_in_buffer</span><span class="p">:</span> <span class="n">Attribute</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="n">attributes</span><span class="o">.</span><span class="n">AttrVI_ATTR_ASRL_AVAIL_NUM</span><span class="p">()</span>
+
+    <span class="c1">#: If set to True, NUL characters are discarded.</span>
+    <span class="n">discard_null</span><span class="p">:</span> <span class="n">Attribute</span><span class="p">[</span><span class="nb">bool</span><span class="p">]</span> <span class="o">=</span> <span class="n">attributes</span><span class="o">.</span><span class="n">AttrVI_ATTR_ASRL_DISCARD_NULL</span><span class="p">()</span>
+
+    <span class="c1">#: Manually control transmission.</span>
+    <span class="n">allow_transmit</span><span class="p">:</span> <span class="n">Attribute</span><span class="p">[</span><span class="nb">bool</span><span class="p">]</span> <span class="o">=</span> <span class="n">attributes</span><span class="o">.</span><span class="n">AttrVI_ATTR_ASRL_ALLOW_TRANSMIT</span><span class="p">()</span>
+
+    <span class="c1">#: Method used to terminate read operations.</span>
+    <span class="n">end_input</span><span class="p">:</span> <span class="n">Attribute</span><span class="p">[</span>
+        <span class="n">constants</span><span class="o">.</span><span class="n">SerialTermination</span>
+    <span class="p">]</span> <span class="o">=</span> <span class="n">attributes</span><span class="o">.</span><span class="n">AttrVI_ATTR_ASRL_END_IN</span><span class="p">()</span>
+
+    <span class="c1">#: Method used to terminate write operations.</span>
+    <span class="n">end_output</span><span class="p">:</span> <span class="n">Attribute</span><span class="p">[</span>
+        <span class="n">constants</span><span class="o">.</span><span class="n">SerialTermination</span>
+    <span class="p">]</span> <span class="o">=</span> <span class="n">attributes</span><span class="o">.</span><span class="n">AttrVI_ATTR_ASRL_END_OUT</span><span class="p">()</span>
+
+    <span class="c1">#: Duration (in milliseconds) of the break signal.</span>
+    <span class="n">break_length</span><span class="p">:</span> <span class="n">Attribute</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="n">attributes</span><span class="o">.</span><span class="n">AttrVI_ATTR_ASRL_BREAK_LEN</span><span class="p">()</span>
+
+    <span class="c1">#: Manually control the assertion state of the break signal.</span>
+    <span class="n">break_state</span><span class="p">:</span> <span class="n">Attribute</span><span class="p">[</span>
+        <span class="n">constants</span><span class="o">.</span><span class="n">LineState</span>
+    <span class="p">]</span> <span class="o">=</span> <span class="n">attributes</span><span class="o">.</span><span class="n">AttrVI_ATTR_ASRL_BREAK_STATE</span><span class="p">()</span>
+
+    <span class="c1">#: Character to be used to replace incoming characters that arrive with errors.</span>
+    <span class="n">replace_char</span><span class="p">:</span> <span class="n">Attribute</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="n">attributes</span><span class="o">.</span><span class="n">AttrVI_ATTR_ASRL_REPLACE_CHAR</span><span class="p">()</span>
+
+    <span class="c1">#: XOFF character used for XON/XOFF flow control (both directions).</span>
+    <span class="n">xoff_char</span><span class="p">:</span> <span class="n">Attribute</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="n">attributes</span><span class="o">.</span><span class="n">AttrVI_ATTR_ASRL_XOFF_CHAR</span><span class="p">()</span>
+
+    <span class="c1">#: XON character used for XON/XOFF flow control (both directions).</span>
+    <span class="n">xon_char</span><span class="p">:</span> <span class="n">Attribute</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="n">attributes</span><span class="o">.</span><span class="n">AttrVI_ATTR_ASRL_XON_CHAR</span><span class="p">()</span></div>
+</pre></div>
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, PyVISA Authors
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

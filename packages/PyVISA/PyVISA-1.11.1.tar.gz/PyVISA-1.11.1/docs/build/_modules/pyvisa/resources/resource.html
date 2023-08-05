@@ -1,0 +1,852 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>pyvisa.resources.resource &mdash; PyVISA 1.10.2.dev153+g04842c3.d20200729 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> PyVISA
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.10.2.dev153+g04842c3.d20200729
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../introduction/index.html">User guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../faq/index.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../api/index.html">API Documentation</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">PyVISA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../../index.html">Module code</a> &raquo;</li>
+        
+      <li>pyvisa.resources.resource</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <h1>Source code for pyvisa.resources.resource</h1><div class="highlight"><pre>
+<span></span><span class="c1"># -*- coding: utf-8 -*-</span>
+<span class="sd">&quot;&quot;&quot;High level wrapper for a Resource.</span>
+
+<span class="sd">This file is part of PyVISA.</span>
+
+<span class="sd">:copyright: 2014-2020 by PyVISA Authors, see AUTHORS for more details.</span>
+<span class="sd">:license: MIT, see LICENSE for more details.</span>
+
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="kn">import</span> <span class="nn">contextlib</span>
+<span class="kn">import</span> <span class="nn">time</span>
+<span class="kn">import</span> <span class="nn">warnings</span>
+<span class="kn">from</span> <span class="nn">functools</span> <span class="kn">import</span> <span class="n">update_wrapper</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="p">(</span>
+    <span class="n">Any</span><span class="p">,</span>
+    <span class="n">Callable</span><span class="p">,</span>
+    <span class="n">ContextManager</span><span class="p">,</span>
+    <span class="n">Iterator</span><span class="p">,</span>
+    <span class="n">Optional</span><span class="p">,</span>
+    <span class="n">Set</span><span class="p">,</span>
+    <span class="n">Type</span><span class="p">,</span>
+    <span class="n">TypeVar</span><span class="p">,</span>
+    <span class="n">Union</span><span class="p">,</span>
+    <span class="n">cast</span><span class="p">,</span>
+<span class="p">)</span>
+
+<span class="kn">from</span> <span class="nn">typing_extensions</span> <span class="kn">import</span> <span class="n">ClassVar</span><span class="p">,</span> <span class="n">Literal</span>
+
+<span class="kn">from</span> <span class="nn">..</span> <span class="kn">import</span> <span class="n">attributes</span><span class="p">,</span> <span class="n">constants</span><span class="p">,</span> <span class="n">errors</span><span class="p">,</span> <span class="n">highlevel</span><span class="p">,</span> <span class="n">logger</span><span class="p">,</span> <span class="n">rname</span><span class="p">,</span> <span class="n">typing</span><span class="p">,</span> <span class="n">util</span>
+<span class="kn">from</span> <span class="nn">..attributes</span> <span class="kn">import</span> <span class="n">Attribute</span>
+<span class="kn">from</span> <span class="nn">..events</span> <span class="kn">import</span> <span class="n">Event</span>
+<span class="kn">from</span> <span class="nn">..typing</span> <span class="kn">import</span> <span class="n">VISAEventContext</span><span class="p">,</span> <span class="n">VISAHandler</span><span class="p">,</span> <span class="n">VISASession</span>
+
+
+<span class="k">class</span> <span class="nc">WaitResponse</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;Class used in return of wait_on_event.</span>
+
+<span class="sd">    It properly closes the context upon delete.</span>
+
+<span class="sd">    A call with event_type of 0 (normally used when timed_out is True) will store</span>
+<span class="sd">    None as the event and event type, otherwise it records the proper Event.</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="c1">#: Reference to the event object that was waited for.</span>
+    <span class="n">event</span><span class="p">:</span> <span class="n">Event</span>
+
+    <span class="c1">#: Status code returned by the VISA library</span>
+    <span class="n">ret</span><span class="p">:</span> <span class="n">constants</span><span class="o">.</span><span class="n">StatusCode</span>
+
+    <span class="c1">#: Did a timeout occurs</span>
+    <span class="n">timed_out</span><span class="p">:</span> <span class="nb">bool</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="n">event_type</span><span class="p">:</span> <span class="n">constants</span><span class="o">.</span><span class="n">EventType</span><span class="p">,</span>
+        <span class="n">context</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">VISAEventContext</span><span class="p">],</span>
+        <span class="n">ret</span><span class="p">:</span> <span class="n">constants</span><span class="o">.</span><span class="n">StatusCode</span><span class="p">,</span>
+        <span class="n">visalib</span><span class="p">:</span> <span class="n">highlevel</span><span class="o">.</span><span class="n">VisaLibraryBase</span><span class="p">,</span>
+        <span class="n">timed_out</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span>
+    <span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">event</span> <span class="o">=</span> <span class="n">Event</span><span class="p">(</span><span class="n">visalib</span><span class="p">,</span> <span class="n">event_type</span><span class="p">,</span> <span class="n">context</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_event_type</span> <span class="o">=</span> <span class="n">constants</span><span class="o">.</span><span class="n">EventType</span><span class="p">(</span><span class="n">event_type</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_context</span> <span class="o">=</span> <span class="n">context</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">ret</span> <span class="o">=</span> <span class="n">ret</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_visalib</span> <span class="o">=</span> <span class="n">visalib</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">timed_out</span> <span class="o">=</span> <span class="n">timed_out</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">event_type</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Optional</span><span class="p">[</span><span class="n">constants</span><span class="o">.</span><span class="n">EventType</span><span class="p">]:</span>
+        <span class="n">warnings</span><span class="o">.</span><span class="n">warn</span><span class="p">(</span>
+            <span class="s2">&quot;event_type is deprecated and will be removed in 1.12. &quot;</span>
+            <span class="s2">&quot;Use the event object instead.&quot;</span><span class="p">,</span>
+            <span class="ne">FutureWarning</span><span class="p">,</span>
+        <span class="p">)</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_event_type</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">context</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Optional</span><span class="p">[</span><span class="n">VISAEventContext</span><span class="p">]:</span>
+        <span class="n">warnings</span><span class="o">.</span><span class="n">warn</span><span class="p">(</span>
+            <span class="s2">&quot;context is deprecated and will be removed in 1.12. &quot;</span>
+            <span class="s2">&quot;Use the event object instead to access the event attributes.&quot;</span><span class="p">,</span>
+            <span class="ne">FutureWarning</span><span class="p">,</span>
+        <span class="p">)</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_context</span>
+
+    <span class="k">def</span> <span class="fm">__del__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">event</span><span class="o">.</span><span class="n">_context</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_visalib</span><span class="o">.</span><span class="n">close</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">event</span><span class="o">.</span><span class="n">_context</span><span class="p">)</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">event</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+            <span class="k">except</span> <span class="n">errors</span><span class="o">.</span><span class="n">VisaIOError</span><span class="p">:</span>
+                <span class="k">pass</span>
+
+
+<span class="n">T</span> <span class="o">=</span> <span class="n">TypeVar</span><span class="p">(</span><span class="s2">&quot;T&quot;</span><span class="p">,</span> <span class="n">bound</span><span class="o">=</span><span class="s2">&quot;Resource&quot;</span><span class="p">)</span>
+
+
+<div class="viewcode-block" id="Resource"><a class="viewcode-back" href="../../../api/resources.html#pyvisa.resources.Resource">[docs]</a><span class="k">class</span> <span class="nc">Resource</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Base class for resources.</span>
+
+<span class="sd">    Do not instantiate directly, use</span>
+<span class="sd">    :meth:`pyvisa.highlevel.ResourceManager.open_resource`.</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="c1">#: Reference to the resource manager used by this resource</span>
+    <span class="n">resource_manager</span><span class="p">:</span> <span class="n">highlevel</span><span class="o">.</span><span class="n">ResourceManager</span>
+
+    <span class="c1">#: Reference to the VISA library instance used by the resource</span>
+    <span class="n">visalib</span><span class="p">:</span> <span class="n">highlevel</span><span class="o">.</span><span class="n">VisaLibraryBase</span>
+
+    <span class="c1">#: VISA attribute descriptor classes that can be used to introspect the</span>
+    <span class="c1">#: supported attributes and the possible values. The &quot;often used&quot; ones</span>
+    <span class="c1">#: are generally directly available on the resource.</span>
+    <span class="n">visa_attributes_classes</span><span class="p">:</span> <span class="n">ClassVar</span><span class="p">[</span><span class="n">Set</span><span class="p">[</span><span class="n">Type</span><span class="p">[</span><span class="n">attributes</span><span class="o">.</span><span class="n">Attribute</span><span class="p">]]]</span>
+
+<div class="viewcode-block" id="Resource.register"><a class="viewcode-back" href="../../../api/resources.html#pyvisa.resources.Resource.register">[docs]</a>    <span class="nd">@classmethod</span>
+    <span class="k">def</span> <span class="nf">register</span><span class="p">(</span>
+        <span class="bp">cls</span><span class="p">,</span> <span class="n">interface_type</span><span class="p">:</span> <span class="n">constants</span><span class="o">.</span><span class="n">InterfaceType</span><span class="p">,</span> <span class="n">resource_class</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Callable</span><span class="p">[[</span><span class="n">Type</span><span class="p">[</span><span class="n">T</span><span class="p">]],</span> <span class="n">Type</span><span class="p">[</span><span class="n">T</span><span class="p">]]:</span>
+        <span class="sd">&quot;&quot;&quot;Create a decorator to register a class.</span>
+
+<span class="sd">        The class is associated to an interface type, resource class pair.</span>
+
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+<span class="sd">        interface_type : constants.InterfaceType</span>
+<span class="sd">            Interface type for which to register a wrapper class.</span>
+<span class="sd">        resource_class : str</span>
+<span class="sd">            Resource class for which to register a wrapper class.</span>
+
+<span class="sd">        Returns</span>
+<span class="sd">        -------</span>
+<span class="sd">        Callable[[Type[T]], Type[T]]</span>
+<span class="sd">            Decorator registering the class. Raises TypeError if some VISA</span>
+<span class="sd">            attributes are missing on the registered class.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="k">def</span> <span class="nf">_internal</span><span class="p">(</span><span class="n">python_class</span><span class="p">):</span>
+
+            <span class="n">highlevel</span><span class="o">.</span><span class="n">ResourceManager</span><span class="o">.</span><span class="n">register_resource_class</span><span class="p">(</span>
+                <span class="n">interface_type</span><span class="p">,</span> <span class="n">resource_class</span><span class="p">,</span> <span class="n">python_class</span>
+            <span class="p">)</span>
+
+            <span class="k">return</span> <span class="n">python_class</span>
+
+        <span class="k">return</span> <span class="n">_internal</span></div>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span> <span class="n">resource_manager</span><span class="p">:</span> <span class="n">highlevel</span><span class="o">.</span><span class="n">ResourceManager</span><span class="p">,</span> <span class="n">resource_name</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_resource_manager</span> <span class="o">=</span> <span class="n">resource_manager</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">visalib</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_resource_manager</span><span class="o">.</span><span class="n">visalib</span>
+
+        <span class="c1"># We store the resource name and use preferably the private attr over</span>
+        <span class="c1"># the public descriptor internally because the public descriptor</span>
+        <span class="c1"># requires a live instance the VISA library, which means it is much</span>
+        <span class="c1"># slower but also can cause issue in error reporting when accessing the</span>
+        <span class="c1"># repr</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_resource_name</span><span class="p">:</span> <span class="nb">str</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="c1"># Attempt to normalize the resource name. Can fail for aliases</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_resource_name</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">rname</span><span class="o">.</span><span class="n">ResourceName</span><span class="o">.</span><span class="n">from_string</span><span class="p">(</span><span class="n">resource_name</span><span class="p">))</span>
+        <span class="k">except</span> <span class="n">rname</span><span class="o">.</span><span class="n">InvalidResourceName</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_resource_name</span> <span class="o">=</span> <span class="n">resource_name</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">_logging_extra</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s2">&quot;library_path&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">visalib</span><span class="o">.</span><span class="n">library_path</span><span class="p">,</span>
+            <span class="s2">&quot;resource_manager.session&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">_resource_manager</span><span class="o">.</span><span class="n">session</span><span class="p">,</span>
+            <span class="s2">&quot;resource_name&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">_resource_name</span><span class="p">,</span>
+            <span class="s2">&quot;session&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="p">}</span>
+
+        <span class="c1">#: Session handle.</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_session</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">VISASession</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">session</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">VISASession</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Resource session handle.</span>
+
+<span class="sd">        Raises</span>
+<span class="sd">        ------</span>
+<span class="sd">        errors.InvalidSession</span>
+<span class="sd">            Raised if session is closed.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_session</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">errors</span><span class="o">.</span><span class="n">InvalidSession</span><span class="p">()</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_session</span>
+
+    <span class="nd">@session</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">session</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">VISASession</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_session</span> <span class="o">=</span> <span class="n">value</span>
+
+    <span class="k">def</span> <span class="fm">__del__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_session</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+
+    <span class="k">def</span> <span class="fm">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s2">&quot;</span><span class="si">%s</span><span class="s2"> at </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="vm">__name__</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_resource_name</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="fm">__repr__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s2">&quot;&lt;</span><span class="si">%r</span><span class="s2">(</span><span class="si">%r</span><span class="s2">)&gt;&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="vm">__name__</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_resource_name</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="fm">__enter__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s2">&quot;Resource&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span>
+
+    <span class="k">def</span> <span class="fm">__exit__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">last_status</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">constants</span><span class="o">.</span><span class="n">StatusCode</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Last status code for this session.&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">visalib</span><span class="o">.</span><span class="n">get_last_status_in_session</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">session</span><span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">resource_info</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">highlevel</span><span class="o">.</span><span class="n">ResourceInfo</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Get the extended information of this resource.&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">visalib</span><span class="o">.</span><span class="n">parse_resource_extended</span><span class="p">(</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_resource_manager</span><span class="o">.</span><span class="n">session</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_resource_name</span>
+        <span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+
+    <span class="c1"># --- VISA attributes --------------------------------------------------------------</span>
+
+    <span class="c1">#: VISA attributes require the resource to be opened in order to get accessed.</span>
+    <span class="c1">#: Please have a look at the attributes definition for more details</span>
+
+    <span class="c1">#: Interface type of the given session.</span>
+    <span class="n">interface_type</span><span class="p">:</span> <span class="n">Attribute</span><span class="p">[</span>
+        <span class="n">constants</span><span class="o">.</span><span class="n">InterfaceType</span>
+    <span class="p">]</span> <span class="o">=</span> <span class="n">attributes</span><span class="o">.</span><span class="n">AttrVI_ATTR_INTF_TYPE</span><span class="p">()</span>
+
+    <span class="c1">#: Board number for the given interface.</span>
+    <span class="n">interface_number</span><span class="p">:</span> <span class="n">Attribute</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="n">attributes</span><span class="o">.</span><span class="n">AttrVI_ATTR_INTF_NUM</span><span class="p">()</span>
+
+    <span class="c1">#: Resource class (for example, &quot;INSTR&quot;) as defined by the canonical resource name.</span>
+    <span class="n">resource_class</span><span class="p">:</span> <span class="n">Attribute</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="n">attributes</span><span class="o">.</span><span class="n">AttrVI_ATTR_RSRC_CLASS</span><span class="p">()</span>
+
+    <span class="c1">#: Unique identifier for a resource compliant with the address structure.</span>
+    <span class="n">resource_name</span><span class="p">:</span> <span class="n">Attribute</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="n">attributes</span><span class="o">.</span><span class="n">AttrVI_ATTR_RSRC_NAME</span><span class="p">()</span>
+
+    <span class="c1">#: Resource version that identifies the revisions or implementations of a resource.</span>
+    <span class="n">implementation_version</span><span class="p">:</span> <span class="n">Attribute</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="n">attributes</span><span class="o">.</span><span class="n">AttrVI_ATTR_RSRC_IMPL_VERSION</span><span class="p">()</span>
+
+    <span class="c1">#: Current locking state of the resource.</span>
+    <span class="n">lock_state</span><span class="p">:</span> <span class="n">Attribute</span><span class="p">[</span>
+        <span class="n">constants</span><span class="o">.</span><span class="n">AccessModes</span>
+    <span class="p">]</span> <span class="o">=</span> <span class="n">attributes</span><span class="o">.</span><span class="n">AttrVI_ATTR_RSRC_LOCK_STATE</span><span class="p">()</span>
+
+    <span class="c1">#: Version of the VISA specification to which the implementation is compliant.</span>
+    <span class="n">spec_version</span><span class="p">:</span> <span class="n">Attribute</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="n">attributes</span><span class="o">.</span><span class="n">AttrVI_ATTR_RSRC_SPEC_VERSION</span><span class="p">()</span>
+
+    <span class="c1">#: Manufacturer name of the vendor that implemented the VISA library.</span>
+    <span class="n">resource_manufacturer_name</span><span class="p">:</span> <span class="n">Attribute</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="n">attributes</span><span class="o">.</span><span class="n">AttrVI_ATTR_RSRC_MANF_NAME</span><span class="p">()</span>
+
+    <span class="c1">#: Timeout in milliseconds for all resource I/O operations.</span>
+    <span class="n">timeout</span><span class="p">:</span> <span class="n">Attribute</span><span class="p">[</span><span class="nb">float</span><span class="p">]</span> <span class="o">=</span> <span class="n">attributes</span><span class="o">.</span><span class="n">AttrVI_ATTR_TMO_VALUE</span><span class="p">()</span>
+
+<div class="viewcode-block" id="Resource.ignore_warning"><a class="viewcode-back" href="../../../api/resources.html#pyvisa.resources.Resource.ignore_warning">[docs]</a>    <span class="k">def</span> <span class="nf">ignore_warning</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">warnings_constants</span><span class="p">:</span> <span class="n">constants</span><span class="o">.</span><span class="n">StatusCode</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">ContextManager</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Ignoring warnings context manager for the current resource.</span>
+
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+<span class="sd">        warnings_constants : constants.StatusCode</span>
+<span class="sd">            Constants identifying the warnings to ignore.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">visalib</span><span class="o">.</span><span class="n">ignore_warning</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">session</span><span class="p">,</span> <span class="o">*</span><span class="n">warnings_constants</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="Resource.open"><a class="viewcode-back" href="../../../api/resources.html#pyvisa.resources.Resource.open">[docs]</a>    <span class="k">def</span> <span class="nf">open</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="n">access_mode</span><span class="p">:</span> <span class="n">constants</span><span class="o">.</span><span class="n">AccessModes</span> <span class="o">=</span> <span class="n">constants</span><span class="o">.</span><span class="n">AccessModes</span><span class="o">.</span><span class="n">no_lock</span><span class="p">,</span>
+        <span class="n">open_timeout</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">5000</span><span class="p">,</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Opens a session to the specified resource.</span>
+
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+<span class="sd">        access_mode : constants.AccessModes, optional</span>
+<span class="sd">            Specifies the mode by which the resource is to be accessed.</span>
+<span class="sd">            Defaults to constants.AccessModes.no_lock.</span>
+<span class="sd">        open_timeout : int, optional</span>
+<span class="sd">            If the ``access_mode`` parameter requests a lock, then this parameter</span>
+<span class="sd">            specifies the absolute time period (in milliseconds) that the</span>
+<span class="sd">            resource waits to get unlocked before this operation returns an error.</span>
+<span class="sd">            Defaults to 5000.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%s</span><span class="s2"> - opening ...&quot;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_resource_name</span><span class="p">,</span> <span class="n">extra</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_logging_extra</span><span class="p">)</span>
+        <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">_resource_manager</span><span class="o">.</span><span class="n">ignore_warning</span><span class="p">(</span>
+            <span class="n">constants</span><span class="o">.</span><span class="n">StatusCode</span><span class="o">.</span><span class="n">success_device_not_present</span>
+        <span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">session</span><span class="p">,</span> <span class="n">status</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_resource_manager</span><span class="o">.</span><span class="n">open_bare_resource</span><span class="p">(</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_resource_name</span><span class="p">,</span> <span class="n">access_mode</span><span class="p">,</span> <span class="n">open_timeout</span>
+            <span class="p">)</span>
+
+            <span class="k">if</span> <span class="n">status</span> <span class="o">==</span> <span class="n">constants</span><span class="o">.</span><span class="n">StatusCode</span><span class="o">.</span><span class="n">success_device_not_present</span><span class="p">:</span>
+                <span class="c1"># The device was not ready when we opened the session.</span>
+                <span class="c1"># Now it gets five seconds more to become ready.</span>
+                <span class="c1"># Every 0.1 seconds we probe it with viClear.</span>
+                <span class="n">start_time</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span>
+                <span class="n">sleep_time</span> <span class="o">=</span> <span class="mf">0.1</span>
+                <span class="n">try_time</span> <span class="o">=</span> <span class="mi">5</span>
+                <span class="k">while</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span> <span class="o">-</span> <span class="n">start_time</span> <span class="o">&lt;</span> <span class="n">try_time</span><span class="p">:</span>
+                    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="n">sleep_time</span><span class="p">)</span>
+                    <span class="k">try</span><span class="p">:</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span>
+                        <span class="k">break</span>
+                    <span class="k">except</span> <span class="n">errors</span><span class="o">.</span><span class="n">VisaIOError</span> <span class="k">as</span> <span class="n">error</span><span class="p">:</span>
+                        <span class="k">if</span> <span class="n">error</span><span class="o">.</span><span class="n">error_code</span> <span class="o">!=</span> <span class="n">constants</span><span class="o">.</span><span class="n">StatusCode</span><span class="o">.</span><span class="n">error_no_listeners</span><span class="p">:</span>
+                            <span class="k">raise</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">_logging_extra</span><span class="p">[</span><span class="s2">&quot;session&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">session</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span>
+            <span class="s2">&quot;</span><span class="si">%s</span><span class="s2"> - is open with session </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_resource_name</span><span class="p">,</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">session</span><span class="p">,</span>
+            <span class="n">extra</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_logging_extra</span><span class="p">,</span>
+        <span class="p">)</span></div>
+
+<div class="viewcode-block" id="Resource.before_close"><a class="viewcode-back" href="../../../api/resources.html#pyvisa.resources.Resource.before_close">[docs]</a>    <span class="k">def</span> <span class="nf">before_close</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Called just before closing an instrument.&quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__switch_events_off</span><span class="p">()</span></div>
+
+<div class="viewcode-block" id="Resource.close"><a class="viewcode-back" href="../../../api/resources.html#pyvisa.resources.Resource.close">[docs]</a>    <span class="k">def</span> <span class="nf">close</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Closes the VISA session and marks the handle as invalid.&quot;&quot;&quot;</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%s</span><span class="s2"> - closing&quot;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_resource_name</span><span class="p">,</span> <span class="n">extra</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_logging_extra</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">before_close</span><span class="p">()</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">visalib</span><span class="o">.</span><span class="n">close</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">session</span><span class="p">)</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span>
+                <span class="s2">&quot;</span><span class="si">%s</span><span class="s2"> - is closed&quot;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_resource_name</span><span class="p">,</span> <span class="n">extra</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_logging_extra</span>
+            <span class="p">)</span>
+            <span class="c1"># Mypy is confused by the idea that we can set a value we cannot get</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">session</span> <span class="o">=</span> <span class="kc">None</span>  <span class="c1"># type: ignore</span>
+        <span class="k">except</span> <span class="n">errors</span><span class="o">.</span><span class="n">InvalidSession</span><span class="p">:</span>
+            <span class="k">pass</span></div>
+
+    <span class="k">def</span> <span class="nf">__switch_events_off</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Switch off and discrads all events.&quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">disable_event</span><span class="p">(</span>
+            <span class="n">constants</span><span class="o">.</span><span class="n">EventType</span><span class="o">.</span><span class="n">all_enabled</span><span class="p">,</span> <span class="n">constants</span><span class="o">.</span><span class="n">EventMechanism</span><span class="o">.</span><span class="n">all</span>
+        <span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">discard_events</span><span class="p">(</span>
+            <span class="n">constants</span><span class="o">.</span><span class="n">EventType</span><span class="o">.</span><span class="n">all_enabled</span><span class="p">,</span> <span class="n">constants</span><span class="o">.</span><span class="n">EventMechanism</span><span class="o">.</span><span class="n">all</span>
+        <span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">visalib</span><span class="o">.</span><span class="n">uninstall_all_visa_handlers</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">session</span><span class="p">)</span>
+
+<div class="viewcode-block" id="Resource.get_visa_attribute"><a class="viewcode-back" href="../../../api/resources.html#pyvisa.resources.Resource.get_visa_attribute">[docs]</a>    <span class="k">def</span> <span class="nf">get_visa_attribute</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">:</span> <span class="n">constants</span><span class="o">.</span><span class="n">ResourceAttribute</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Any</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Retrieves the state of an attribute in this resource.</span>
+
+<span class="sd">        One should prefer the dedicated descriptor for often used attributes</span>
+<span class="sd">        since those perform checks and automatic conversion on the value.</span>
+
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+<span class="sd">        name : constants.ResourceAttribute</span>
+<span class="sd">            Resource attribute for which the state query is made.</span>
+
+<span class="sd">        Returns</span>
+<span class="sd">        -------</span>
+<span class="sd">        Any</span>
+<span class="sd">            The state of the queried attribute for a specified resource.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">visalib</span><span class="o">.</span><span class="n">get_attribute</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">session</span><span class="p">,</span> <span class="n">name</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span></div>
+
+<div class="viewcode-block" id="Resource.set_visa_attribute"><a class="viewcode-back" href="../../../api/resources.html#pyvisa.resources.Resource.set_visa_attribute">[docs]</a>    <span class="k">def</span> <span class="nf">set_visa_attribute</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">:</span> <span class="n">constants</span><span class="o">.</span><span class="n">ResourceAttribute</span><span class="p">,</span> <span class="n">state</span><span class="p">:</span> <span class="n">Any</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">constants</span><span class="o">.</span><span class="n">StatusCode</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Set the state of an attribute.</span>
+
+<span class="sd">        One should prefer the dedicated descriptor for often used attributes</span>
+<span class="sd">        since those perform checks and automatic conversion on the value.</span>
+
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+<span class="sd">        name : constants.ResourceAttribute</span>
+<span class="sd">            Attribute for which the state is to be modified.</span>
+<span class="sd">        state : Any</span>
+<span class="sd">            The state of the attribute to be set for the specified object.</span>
+
+<span class="sd">        Returns</span>
+<span class="sd">        -------</span>
+<span class="sd">        constants.StatusCode</span>
+<span class="sd">            Return value of the library call.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">visalib</span><span class="o">.</span><span class="n">set_attribute</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">session</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">state</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="Resource.clear"><a class="viewcode-back" href="../../../api/resources.html#pyvisa.resources.Resource.clear">[docs]</a>    <span class="k">def</span> <span class="nf">clear</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Clear this resource.&quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">visalib</span><span class="o">.</span><span class="n">clear</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">session</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="Resource.install_handler"><a class="viewcode-back" href="../../../api/resources.html#pyvisa.resources.Resource.install_handler">[docs]</a>    <span class="k">def</span> <span class="nf">install_handler</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span> <span class="n">event_type</span><span class="p">:</span> <span class="n">constants</span><span class="o">.</span><span class="n">EventType</span><span class="p">,</span> <span class="n">handler</span><span class="p">:</span> <span class="n">VISAHandler</span><span class="p">,</span> <span class="n">user_handle</span><span class="o">=</span><span class="kc">None</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Any</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Install handlers for event callbacks in this resource.</span>
+
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+<span class="sd">        event_type : constants.EventType</span>
+<span class="sd">            Logical event identifier.</span>
+<span class="sd">        handler : VISAHandler</span>
+<span class="sd">            Handler function to be installed by a client application.</span>
+<span class="sd">        user_handle :</span>
+<span class="sd">            A value specified by an application that can be used for identifying</span>
+<span class="sd">            handlers uniquely for an event type. Depending on the backend they</span>
+<span class="sd">            may be restriction on the possible values. Look at the backend</span>
+<span class="sd">            `install_visa_handler` for more details.</span>
+
+<span class="sd">        Returns</span>
+<span class="sd">        -------</span>
+<span class="sd">        Any</span>
+<span class="sd">            User handle in a format amenable to the backend. This is this</span>
+<span class="sd">            representation of the handle that should be used when unistalling</span>
+<span class="sd">            a handler.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">visalib</span><span class="o">.</span><span class="n">install_visa_handler</span><span class="p">(</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">session</span><span class="p">,</span> <span class="n">event_type</span><span class="p">,</span> <span class="n">handler</span><span class="p">,</span> <span class="n">user_handle</span>
+        <span class="p">)</span></div>
+
+<div class="viewcode-block" id="Resource.wrap_handler"><a class="viewcode-back" href="../../../api/resources.html#pyvisa.resources.Resource.wrap_handler">[docs]</a>    <span class="k">def</span> <span class="nf">wrap_handler</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span> <span class="n">callable</span><span class="p">:</span> <span class="n">Callable</span><span class="p">[[</span><span class="s2">&quot;Resource&quot;</span><span class="p">,</span> <span class="n">Event</span><span class="p">,</span> <span class="n">Any</span><span class="p">],</span> <span class="kc">None</span><span class="p">],</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">VISAHandler</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Wrap an event handler to provide the signature expected by VISA.</span>
+
+<span class="sd">        The handler is expected to have the following signature:</span>
+<span class="sd">        handler(resource: Resource, event: Event, user_handle: Any) -&gt; None.</span>
+
+<span class="sd">        The wrapped handler should be used only to handle events on the resource</span>
+<span class="sd">        used to wrap the handler.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="k">def</span> <span class="nf">event_handler</span><span class="p">(</span>
+            <span class="n">session</span><span class="p">:</span> <span class="n">VISASession</span><span class="p">,</span>
+            <span class="n">event_type</span><span class="p">:</span> <span class="n">constants</span><span class="o">.</span><span class="n">EventType</span><span class="p">,</span>
+            <span class="n">event_context</span><span class="p">:</span> <span class="n">typing</span><span class="o">.</span><span class="n">VISAEventContext</span><span class="p">,</span>
+            <span class="n">user_handle</span><span class="p">:</span> <span class="n">Any</span><span class="p">,</span>
+        <span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">session</span> <span class="o">!=</span> <span class="bp">self</span><span class="o">.</span><span class="n">session</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span>
+                    <span class="s2">&quot;When wrapping a handler, the resource used to wrap the handler&quot;</span>
+                    <span class="s2">&quot;must be the same on which the handler will be installed.&quot;</span>
+                    <span class="sa">f</span><span class="s2">&quot;Wrapping session: </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">session</span><span class="si">}</span><span class="s2">, event on session: </span><span class="si">{</span><span class="n">session</span><span class="si">}</span><span class="s2">&quot;</span>
+                <span class="p">)</span>
+            <span class="n">event</span> <span class="o">=</span> <span class="n">Event</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">visalib</span><span class="p">,</span> <span class="n">event_type</span><span class="p">,</span> <span class="n">event_context</span><span class="p">)</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="k">return</span> <span class="n">callable</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">event</span><span class="p">,</span> <span class="n">user_handle</span><span class="p">)</span>
+            <span class="k">finally</span><span class="p">:</span>
+                <span class="n">event</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+
+        <span class="n">update_wrapper</span><span class="p">(</span><span class="n">event_handler</span><span class="p">,</span> <span class="n">callable</span><span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">event_handler</span></div>
+
+<div class="viewcode-block" id="Resource.uninstall_handler"><a class="viewcode-back" href="../../../api/resources.html#pyvisa.resources.Resource.uninstall_handler">[docs]</a>    <span class="k">def</span> <span class="nf">uninstall_handler</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span> <span class="n">event_type</span><span class="p">:</span> <span class="n">constants</span><span class="o">.</span><span class="n">EventType</span><span class="p">,</span> <span class="n">handler</span><span class="p">:</span> <span class="n">VISAHandler</span><span class="p">,</span> <span class="n">user_handle</span><span class="o">=</span><span class="kc">None</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Uninstalls handlers for events in this resource.</span>
+
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+<span class="sd">        event_type : constants.EventType</span>
+<span class="sd">            Logical event identifier.</span>
+<span class="sd">        handler : VISAHandler</span>
+<span class="sd">            Handler function to be uninstalled by a client application.</span>
+<span class="sd">        user_handle : Any</span>
+<span class="sd">            The user handle returned by install_handler.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">visalib</span><span class="o">.</span><span class="n">uninstall_visa_handler</span><span class="p">(</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">session</span><span class="p">,</span> <span class="n">event_type</span><span class="p">,</span> <span class="n">handler</span><span class="p">,</span> <span class="n">user_handle</span>
+        <span class="p">)</span></div>
+
+<div class="viewcode-block" id="Resource.disable_event"><a class="viewcode-back" href="../../../api/resources.html#pyvisa.resources.Resource.disable_event">[docs]</a>    <span class="k">def</span> <span class="nf">disable_event</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span> <span class="n">event_type</span><span class="p">:</span> <span class="n">constants</span><span class="o">.</span><span class="n">EventType</span><span class="p">,</span> <span class="n">mechanism</span><span class="p">:</span> <span class="n">constants</span><span class="o">.</span><span class="n">EventMechanism</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Disable notification for an event type(s) via the specified mechanism(s).</span>
+
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+<span class="sd">        event_type : constants.EventType</span>
+<span class="sd">            Logical event identifier.</span>
+<span class="sd">        mechanism : constants.EventMechanism</span>
+<span class="sd">            Specifies event handling mechanisms to be disabled.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">visalib</span><span class="o">.</span><span class="n">disable_event</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">session</span><span class="p">,</span> <span class="n">event_type</span><span class="p">,</span> <span class="n">mechanism</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="Resource.discard_events"><a class="viewcode-back" href="../../../api/resources.html#pyvisa.resources.Resource.discard_events">[docs]</a>    <span class="k">def</span> <span class="nf">discard_events</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span> <span class="n">event_type</span><span class="p">:</span> <span class="n">constants</span><span class="o">.</span><span class="n">EventType</span><span class="p">,</span> <span class="n">mechanism</span><span class="p">:</span> <span class="n">constants</span><span class="o">.</span><span class="n">EventMechanism</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Discards event occurrences for an event type and mechanism in this resource.</span>
+
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+<span class="sd">        event_type : constants.EventType</span>
+<span class="sd">            Logical event identifier.</span>
+<span class="sd">        mechanism : constants.EventMechanism</span>
+<span class="sd">            Specifies event handling mechanisms to be disabled.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">visalib</span><span class="o">.</span><span class="n">discard_events</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">session</span><span class="p">,</span> <span class="n">event_type</span><span class="p">,</span> <span class="n">mechanism</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="Resource.enable_event"><a class="viewcode-back" href="../../../api/resources.html#pyvisa.resources.Resource.enable_event">[docs]</a>    <span class="k">def</span> <span class="nf">enable_event</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="n">event_type</span><span class="p">:</span> <span class="n">constants</span><span class="o">.</span><span class="n">EventType</span><span class="p">,</span>
+        <span class="n">mechanism</span><span class="p">:</span> <span class="n">constants</span><span class="o">.</span><span class="n">EventMechanism</span><span class="p">,</span>
+        <span class="n">context</span><span class="p">:</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Enable event occurrences for specified event types and mechanisms in this resource.</span>
+
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+<span class="sd">        event_type : constants.EventType</span>
+<span class="sd">            Logical event identifier.</span>
+<span class="sd">        mechanism : constants.EventMechanism</span>
+<span class="sd">            Specifies event handling mechanisms to be enabled</span>
+<span class="sd">        context : None</span>
+<span class="sd">            Not currently used, leave as None.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">visalib</span><span class="o">.</span><span class="n">enable_event</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">session</span><span class="p">,</span> <span class="n">event_type</span><span class="p">,</span> <span class="n">mechanism</span><span class="p">,</span> <span class="n">context</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="Resource.wait_on_event"><a class="viewcode-back" href="../../../api/resources.html#pyvisa.resources.Resource.wait_on_event">[docs]</a>    <span class="k">def</span> <span class="nf">wait_on_event</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="n">in_event_type</span><span class="p">:</span> <span class="n">constants</span><span class="o">.</span><span class="n">EventType</span><span class="p">,</span>
+        <span class="n">timeout</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span>
+        <span class="n">capture_timeout</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">WaitResponse</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Waits for an occurrence of the specified event in this resource.</span>
+
+<span class="sd">        in_event_type : constants.EventType</span>
+<span class="sd">            Logical identifier of the event(s) to wait for.</span>
+<span class="sd">        timeout : int</span>
+<span class="sd">            Absolute time period in time units that the resource shall wait for</span>
+<span class="sd">            a specified event to occur before returning the time elapsed error.</span>
+<span class="sd">            The time unit is in milliseconds. None means waiting forever if</span>
+<span class="sd">            necessary.</span>
+<span class="sd">        capture_timeout : bool, optional</span>
+<span class="sd">            When True will not produce a VisaIOError(VI_ERROR_TMO) but instead</span>
+<span class="sd">            return a WaitResponse with timed_out=True.</span>
+
+<span class="sd">        Returns</span>
+<span class="sd">        -------</span>
+<span class="sd">        WaitResponse</span>
+<span class="sd">            Object that contains event_type, context and ret value.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">event_type</span><span class="p">,</span> <span class="n">context</span><span class="p">,</span> <span class="n">ret</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">visalib</span><span class="o">.</span><span class="n">wait_on_event</span><span class="p">(</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">session</span><span class="p">,</span> <span class="n">in_event_type</span><span class="p">,</span> <span class="n">timeout</span>
+            <span class="p">)</span>
+        <span class="k">except</span> <span class="n">errors</span><span class="o">.</span><span class="n">VisaIOError</span> <span class="k">as</span> <span class="n">exc</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">capture_timeout</span> <span class="ow">and</span> <span class="n">exc</span><span class="o">.</span><span class="n">error_code</span> <span class="o">==</span> <span class="n">constants</span><span class="o">.</span><span class="n">StatusCode</span><span class="o">.</span><span class="n">error_timeout</span><span class="p">:</span>
+                <span class="k">return</span> <span class="n">WaitResponse</span><span class="p">(</span>
+                    <span class="n">in_event_type</span><span class="p">,</span>
+                    <span class="kc">None</span><span class="p">,</span>
+                    <span class="n">constants</span><span class="o">.</span><span class="n">StatusCode</span><span class="o">.</span><span class="n">error_timeout</span><span class="p">,</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">visalib</span><span class="p">,</span>
+                    <span class="n">timed_out</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+                <span class="p">)</span>
+            <span class="k">raise</span>
+        <span class="k">return</span> <span class="n">WaitResponse</span><span class="p">(</span><span class="n">event_type</span><span class="p">,</span> <span class="n">context</span><span class="p">,</span> <span class="n">ret</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">visalib</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="Resource.lock"><a class="viewcode-back" href="../../../api/resources.html#pyvisa.resources.Resource.lock">[docs]</a>    <span class="k">def</span> <span class="nf">lock</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="n">timeout</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="nb">float</span><span class="p">,</span> <span class="n">Literal</span><span class="p">[</span><span class="s2">&quot;default&quot;</span><span class="p">]]</span> <span class="o">=</span> <span class="s2">&quot;default&quot;</span><span class="p">,</span>
+        <span class="n">requested_key</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Establish a shared lock to the resource.</span>
+
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+<span class="sd">        timeout : Union[float, Literal[default]], optional</span>
+<span class="sd">            Absolute time period, in milliseconds, that a resource waits to get</span>
+<span class="sd">            unlocked by the locking session before returning an error.</span>
+<span class="sd">            Defaults to &quot;default&quot; which means use self.timeout.</span>
+<span class="sd">        requested_key : Optional[str], optional</span>
+<span class="sd">            Access key used by another session with which you want your session</span>
+<span class="sd">            to share a lock or None to generate a new shared access key.</span>
+
+<span class="sd">        Returns</span>
+<span class="sd">        -------</span>
+<span class="sd">        str</span>
+<span class="sd">            A new shared access key if requested_key is None, otherwise, same</span>
+<span class="sd">            value as the requested_key</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">tout</span> <span class="o">=</span> <span class="n">cast</span><span class="p">(</span><span class="nb">float</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">timeout</span> <span class="k">if</span> <span class="n">timeout</span> <span class="o">==</span> <span class="s2">&quot;default&quot;</span> <span class="k">else</span> <span class="n">timeout</span><span class="p">)</span>
+        <span class="n">clean_timeout</span> <span class="o">=</span> <span class="n">util</span><span class="o">.</span><span class="n">cleanup_timeout</span><span class="p">(</span><span class="n">tout</span><span class="p">)</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">visalib</span><span class="o">.</span><span class="n">lock</span><span class="p">(</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">session</span><span class="p">,</span> <span class="n">constants</span><span class="o">.</span><span class="n">Lock</span><span class="o">.</span><span class="n">shared</span><span class="p">,</span> <span class="n">clean_timeout</span><span class="p">,</span> <span class="n">requested_key</span>
+        <span class="p">)[</span><span class="mi">0</span><span class="p">]</span></div>
+
+<div class="viewcode-block" id="Resource.lock_excl"><a class="viewcode-back" href="../../../api/resources.html#pyvisa.resources.Resource.lock_excl">[docs]</a>    <span class="k">def</span> <span class="nf">lock_excl</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">timeout</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="nb">float</span><span class="p">,</span> <span class="n">Literal</span><span class="p">[</span><span class="s2">&quot;default&quot;</span><span class="p">]]</span> <span class="o">=</span> <span class="s2">&quot;default&quot;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Establish an exclusive lock to the resource.</span>
+
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+<span class="sd">        timeout : Union[float, Literal[default]], optional</span>
+<span class="sd">            Absolute time period (in milliseconds) that a resource waits to get</span>
+<span class="sd">            unlocked by the locking session before returning an error.</span>
+<span class="sd">            Defaults to &quot;default&quot; which means use self.timeout.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">tout</span> <span class="o">=</span> <span class="n">cast</span><span class="p">(</span><span class="nb">float</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">timeout</span> <span class="k">if</span> <span class="n">timeout</span> <span class="o">==</span> <span class="s2">&quot;default&quot;</span> <span class="k">else</span> <span class="n">timeout</span><span class="p">)</span>
+        <span class="n">clean_timeout</span> <span class="o">=</span> <span class="n">util</span><span class="o">.</span><span class="n">cleanup_timeout</span><span class="p">(</span><span class="n">tout</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">visalib</span><span class="o">.</span><span class="n">lock</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">session</span><span class="p">,</span> <span class="n">constants</span><span class="o">.</span><span class="n">Lock</span><span class="o">.</span><span class="n">exclusive</span><span class="p">,</span> <span class="n">clean_timeout</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="Resource.unlock"><a class="viewcode-back" href="../../../api/resources.html#pyvisa.resources.Resource.unlock">[docs]</a>    <span class="k">def</span> <span class="nf">unlock</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Relinquishes a lock for the specified resource.&quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">visalib</span><span class="o">.</span><span class="n">unlock</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">session</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="Resource.lock_context"><a class="viewcode-back" href="../../../api/resources.html#pyvisa.resources.Resource.lock_context">[docs]</a>    <span class="nd">@contextlib</span><span class="o">.</span><span class="n">contextmanager</span>
+    <span class="k">def</span> <span class="nf">lock_context</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="n">timeout</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="nb">float</span><span class="p">,</span> <span class="n">Literal</span><span class="p">[</span><span class="s2">&quot;default&quot;</span><span class="p">]]</span> <span class="o">=</span> <span class="s2">&quot;default&quot;</span><span class="p">,</span>
+        <span class="n">requested_key</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;exclusive&quot;</span><span class="p">,</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Iterator</span><span class="p">[</span><span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]]:</span>
+        <span class="sd">&quot;&quot;&quot;A context that locks</span>
+
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+<span class="sd">        timeout : Union[float, Literal[default]], optional</span>
+<span class="sd">            Absolute time period (in milliseconds) that a resource waits to get</span>
+<span class="sd">            unlocked by the locking session before returning an error.</span>
+<span class="sd">            Defaults to &quot;default&quot; which means use self.timeout.</span>
+<span class="sd">        requested_key : Optional[str], optional</span>
+<span class="sd">            When using default of &#39;exclusive&#39; the lock is an exclusive lock.</span>
+<span class="sd">            Otherwise it is the access key for the shared lock or None to</span>
+<span class="sd">            generate a new shared access key.</span>
+
+<span class="sd">        Yields</span>
+<span class="sd">        ------</span>
+<span class="sd">        Optional[str]</span>
+<span class="sd">            The access_key if applicable.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">requested_key</span> <span class="o">==</span> <span class="s2">&quot;exclusive&quot;</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">lock_excl</span><span class="p">(</span><span class="n">timeout</span><span class="p">)</span>
+            <span class="n">access_key</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">access_key</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">lock</span><span class="p">(</span><span class="n">timeout</span><span class="p">,</span> <span class="n">requested_key</span><span class="p">)</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="k">yield</span> <span class="n">access_key</span>
+        <span class="k">finally</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">unlock</span><span class="p">()</span></div></div>
+
+
+<span class="n">Resource</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="n">constants</span><span class="o">.</span><span class="n">InterfaceType</span><span class="o">.</span><span class="n">unknown</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)(</span><span class="n">Resource</span><span class="p">)</span>
+</pre></div>
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, PyVISA Authors
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

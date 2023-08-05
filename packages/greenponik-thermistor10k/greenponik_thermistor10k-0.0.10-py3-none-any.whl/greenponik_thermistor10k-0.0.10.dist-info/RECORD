@@ -1,0 +1,8 @@
+GreenPonik_Thermistor10k/Thermistor10k.py,sha256=qfNxFwCx6Fdu6AQOKfePKdw9zr-HjIHxlM0KrmqIB1A,3988
+GreenPonik_Thermistor10k/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_Thermistor10k.py,sha256=86IeJhCFRzxPyBBaUjMrtTqMagUZgCrzqzpZBZ0rdeA,966
+greenponik_thermistor10k-0.0.10.dist-info/METADATA,sha256=4-1Oy7mLva7E_pJl1CFhxW_z3GLfah3MeOq3uPmgjDM,3881
+greenponik_thermistor10k-0.0.10.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+greenponik_thermistor10k-0.0.10.dist-info/top_level.txt,sha256=gRMXddpm5HqwM3lUmW0OMgNCZ_mDFq7IMhir5sBAI4M,31
+greenponik_thermistor10k-0.0.10.dist-info/RECORD,,

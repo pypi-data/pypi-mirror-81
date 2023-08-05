@@ -1,0 +1,10 @@
+README.md
+setup.py
+sarscov2formatter/__init__.py
+sarscov2formatter/cli.py
+sarscov2formatter.egg-info/PKG-INFO
+sarscov2formatter.egg-info/SOURCES.txt
+sarscov2formatter.egg-info/dependency_links.txt
+sarscov2formatter.egg-info/entry_points.txt
+sarscov2formatter.egg-info/requires.txt
+sarscov2formatter.egg-info/top_level.txt

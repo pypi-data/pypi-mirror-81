@@ -1,0 +1,3 @@
+[console_scripts]
+sarscov2formatter = sarscov2formatter.cli:main
+

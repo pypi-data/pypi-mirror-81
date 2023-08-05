@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sarscov2formatter
+Version: 0.5.3
+Summary: Formats metadata and MSA for Galaxy SARS-CoV2 Selection Analysis workflow
+Home-page: https://github.com/nickeener/sarscov2formatter
+Author: Nick Keener
+Author-email: nickeener@gmail.com
+License: UNKNOWN
+Description: # sarscov2formatter
+        
+        Tool for extracting and formating metadata for Galaxy SARS-CoV-2 Selection Analysis workflow.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Academic Free License (AFL)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

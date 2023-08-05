@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+pyunpack/__init__.py
+pyunpack/about.py
+pyunpack/cli.py
+pyunpack.egg-info/PKG-INFO
+pyunpack.egg-info/SOURCES.txt
+pyunpack.egg-info/dependency_links.txt
+pyunpack.egg-info/requires.txt
+pyunpack.egg-info/top_level.txt
+tests/test_all.py
+tests/test_cli.py

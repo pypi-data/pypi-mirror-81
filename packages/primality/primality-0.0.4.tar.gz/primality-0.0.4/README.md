@@ -1,0 +1,63 @@
+# Primality
+
+**Primality** helps you easily find, test and work with prime numbers in Python.
+
+```python
+isprime(516349073509121311)
+>> True
+
+nthprime(9999)
+>> 104729
+
+prange(10)
+>> [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
+```
+
+## Installation
+
+Use the package manager pip to install Primality.
+
+```bash
+pip install primality
+```
+
+## Implementation
+
+Primality officially supports Python 3.8+.
+
+```python
+import primality
+```
+
+## Usage
+
+**isprime(p: int)** True if {p} is prime.
+
+```python
+isprime(13)
+>> True
+isprime(20)
+>> False
+isprime(516349073509121311)
+>> True
+```
+
+**nthprime(nth: int)** Returns the {nth} prime, starting from n = 0, returning 2.
+
+```python
+nthprime(0)
+>> 2
+nthprime(100)
+>> 547
+nthprime(9999)
+>> 104729
+```
+
+**prange(n: int)** Returns a list with the form of [2, 3, ..., {n}th prime].
+
+```python
+prange(3)
+>> [2, 3, 5]
+prange(10)
+>> [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
+```

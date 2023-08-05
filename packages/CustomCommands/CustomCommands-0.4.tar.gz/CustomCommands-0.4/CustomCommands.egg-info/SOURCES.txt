@@ -1,0 +1,8 @@
+README.md
+setup.py
+CustomCommands/Commands.py
+CustomCommands/__init__.py
+CustomCommands.egg-info/PKG-INFO
+CustomCommands.egg-info/SOURCES.txt
+CustomCommands.egg-info/dependency_links.txt
+CustomCommands.egg-info/top_level.txt

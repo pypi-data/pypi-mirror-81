@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: vortex-http
+Version: 0.4.1
+Summary: aiohttp wrapped web framework
+Home-page: UNKNOWN
+Author: Chris Lee
+Author-email: sihrc.c.lee@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: testing
+Provides-Extra: auth
+Provides-Extra: db

@@ -1,0 +1,10 @@
+parse_hh_data/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+parse_hh_data/download.py,sha256=c5BkojUsvrAbsiGKUdvEmhUGS9jxy9GuTiIcSWOSnSo,6300
+parse_hh_data/parse.py,sha256=7XgkXzBFXf03gVlG69Qai_c1pULHNCMfhvJBFYEVRCg,7809
+parse_hh_data-0.1.9.data/scripts/download,sha256=krs2QTbH9J5UOVjUkj6ZD6AN81bQVN6I3tXY--7BcgY,3324
+parse_hh_data-0.1.9.data/scripts/parse,sha256=f8aKkSFT9aD-tphgUC7Lp4jY8mJ5z1AMFnhMFTq-990,1186
+parse_hh_data-0.1.9.dist-info/LICENSE,sha256=dQ-Cc6aOcakLLcrlVQTZS5VfSdEc5gfqs2PtmiXS76U,1069
+parse_hh_data-0.1.9.dist-info/METADATA,sha256=28rkyGoWV_9qJm-lr9cv8DU7LhbSOokFTlctfyxSRd8,3094
+parse_hh_data-0.1.9.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+parse_hh_data-0.1.9.dist-info/top_level.txt,sha256=Y0KZrSwJ6kefYP_liVQhAEdn5n0uuKxgP4C9frcvebU,14
+parse_hh_data-0.1.9.dist-info/RECORD,,

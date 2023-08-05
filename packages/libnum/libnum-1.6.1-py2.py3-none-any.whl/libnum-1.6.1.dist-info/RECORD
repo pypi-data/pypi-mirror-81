@@ -1,0 +1,17 @@
+libnum/__init__.py,sha256=AP8eTgnlv5UarNMQrd2kOkCUzXlMJE6e9dKzXIhkbEE,467
+libnum/chains/__init__.py,sha256=MFefNLPGsF26_yc3RBabu0N4b6jM_GWq2bXzMkhT5Pg,58
+libnum/chains/chain.py,sha256=EK-2KgY60Kd9xSi7vjvyD42tZSidKQdvd2CMyLZ4dlg,1450
+libnum/chains/sqrt.py,sha256=s2nMV8bWTtSq86wa9JWcFJf-bqyxfefc_J8CbmiD_zM,1087
+libnum/common.py,sha256=uG5YZmQZwhhMwKQG8CPXXoJLnwifDKHMaQC2nuZ_s84,2892
+libnum/compat.py,sha256=MeWiWIIxDxZb_EcAF4CIvhWrjREyqQf0hGL9wrz8Sro,111
+libnum/ecc.py,sha256=cY8bi89CifLOKV2z9HQJJScYb6sa4YZgXKqwl5dR5es,4199
+libnum/factorize.py,sha256=DI8DgH8zZS_ccoB-UBsBiyEcey1L4chpKlRTc82z3Jg,2401
+libnum/modular.py,sha256=6EuNvv1Kow9YxGuerpkkBppF92rv-etZsd3Jzy4UyEk,3777
+libnum/primes.py,sha256=vOtGbuwk3yaQr07vi8_zJS1yBWXl808HQbJDRDO6aZE,4462
+libnum/ranges.py,sha256=HOI_RsXXbzz6cO7ZUBPIxhjUi9gDDcEl-U9Hpyjf6Do,3493
+libnum/sqrtmod.py,sha256=VDXWf5dTLY5UrDahovhzt4IhCj8jhQugwA6kFAmKCWQ,6688
+libnum/strings.py,sha256=gIaQD6sWnBXqPUK-52jAzCA3y3NSMPapFmpmgqDDyn0,695
+libnum/stuff.py,sha256=mADAGntGzM_dddszO4_UW5fld2mX8v0p2rWtCdgLGxI,923
+libnum-1.6.1.dist-info/WHEEL,sha256=kb_Tu1FsvvHNsolhCPzuokG6c6JaTwmYDwgqBb9IvUo,90
+libnum-1.6.1.dist-info/METADATA,sha256=aitAaTAUWYaYqfizGkx-L3p3W_EgqIgwVTf3M7YxGS0,4549
+libnum-1.6.1.dist-info/RECORD,,

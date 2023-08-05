@@ -1,0 +1,23 @@
+# Python
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+
+## Python build-related files
+*.egg-info/
+*.dist-info/
+build/
+dist/
+.cache
+pip-wheel-metadata
+
+## Coverage.py files
+.coverage
+htmlcov
+
+## Sphinx build files
+docs/_build
+
+# Generic
+## Vim
+*.sw[opn]

@@ -1,0 +1,62 @@
+stages:
+    - "test"
+    - "docs"
+    - "deploy"
+
+
+.test: &test
+    before_script:
+        - "pip install --upgrade pip"
+        - "pip install -r requirements.txt"
+        - "pip install pytest pytest-cov"
+    script:
+        - >
+            pytest -v --color=yes --cov=objclick --cov-report=term
+            --cov-report=xml --junit-xml=pytest-xunit.xml
+    artifacts:
+        reports:
+            junit: pytest-xunit.xml
+            cobertura: coverage.xml
+
+
+test:python3.7:
+    stage: "test"
+    image: "python:3.7"
+    <<: *test
+
+
+test:python3.8:
+    stage: "test"
+    image: "python:3.8"
+    <<: *test
+
+
+docs:
+    stage: "docs"
+    image: "python:3.7"
+    before_script:
+        - "pip install --upgrade pip"
+        - "pip install -r requirements.txt"
+        - "pip install -r docs/requirements.txt"
+    script:
+        - "cd docs/"
+        - "make html"
+    artifacts:
+        paths:
+            - "docs/_build/html/"
+        expire_in: "30 days"
+
+
+pages:
+    stage: "deploy"
+    dependencies:
+        - "docs"
+    script:
+        - "mkdir -p public/"
+        - "cp -r docs/_build/html/* public/"
+    artifacts:
+        paths:
+            - "public/"
+        expire_in: "30 days"
+    rules:
+        - if: '$CI_COMMIT_BRANCH == "stable"'

@@ -1,0 +1,61 @@
+CHANGES
+=======
+
+
+2.28.12
+-------
+
+* Fix compatibility with MySQL >= 8
+* Add back recommendations and remove debug
+* Revert "Remove wrong response data checks in gabbits"
+* Fix upgrade testing command not found
+* Remove python2 testing
+* Sphinx suppress ref.term warnings
+* Remove seconds keyword from numpy.timedelta64
+* Remove wrong response data checks in gabbits
+* Enhance rest api logging
+* Change URL to gnocchi.osci.io
+* fix travis deploy
+* minor cleanup
+* py3: fix misc encoding issues
+* fix test
+* remove unused statistic code
+* cleanup README.rst to upload to pypi
+* handle infinity like nan
+* Reduce the number of required reviewers
+* fix gendoc
+* Allow rate:XXX aggregations
+* don't fail everything if one group missing metric
+* Update to Mergify v2 engine
+* Support for clip operation
+* Switch from oslo.middleware to internal proxy converter
+* ignore update\_capabilites if unsupported
+* fix doc formatting
+* api: Display voluptuous error details
+* Disable sphinxcontrib-versioning
+* docs: upgrade setuptools on doc build
+* Fixup rendering on Pypi
+* Hide username/password in indexer \_\_str\_\_ representation
+* Fix computation for metrics with multiple granularities
+* Fix splits update statistics dictionary key
+* redis: fix sentinel Lua script registrations
+* docs: use remove sphinx < 1.6 limitation, disable gnocchi.xyz doc job
+* Don't require setuptools as runtime
+* Revert "Disable Web doc build on stable/4.3 branch"
+* Change the way to mimic pbr version
+* Disable calling to get\_measures\_list in the get\_measures rest call
+* This stops using deprecated storage.get\_measures
+* storage: Remove useless fetch() in get\_measures()
+* setuptools: Fix gnocchi-api sheban in wheel
+* Update doc and tests for Gnocchi 4.3.0
+* Disable Web doc build on stable/4.3 branch
+* Don't use xattr 0.9.4
+* Added amqp1.0 collectd daemon
+
+4.3.0
+-----
+
+* storage: move MeasureQuery in REST API
+* storage: remove find\_measures
+* storage: make find\_measures batched
+* Remove unused tox venv

@@ -1,0 +1,31 @@
+--- JUNOS 12.1X44-D35.5 built 2014-05-19 21:36:43 UTC
+pyclass@srx1> show system 
+                          ^
+syntax error, expecting <command>.
+
+pyclass@srx1> show version 
+Hostname: srx1
+Model: srx100h2
+JUNOS Software Release [12.1X44-D35.5]
+
+pyclass@srx1> show system version
+                          ^
+syntax error, expecting <command>.
+
+pyclass@srx1> cat
+              ^
+unknown command.
+
+pyclass@srx1> cat   /etc/issue
+              ^
+unknown command.
+
+pyclass@srx1> display
+              ^
+unknown command.
+
+pyclass@srx1> display   version
+              ^
+unknown command.
+
+pyclass@srx1> 

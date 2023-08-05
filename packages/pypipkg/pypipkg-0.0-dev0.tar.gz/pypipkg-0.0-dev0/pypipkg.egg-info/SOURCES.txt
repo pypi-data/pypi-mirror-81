@@ -1,0 +1,13 @@
+MANIFEST.in
+README.rst
+setup.py
+pypipkg/__init__.py
+pypipkg/dependency.py
+pypipkg/verify.py
+pypipkg.egg-info/PKG-INFO
+pypipkg.egg-info/SOURCES.txt
+pypipkg.egg-info/dependency_links.txt
+pypipkg.egg-info/entry_points.txt
+pypipkg.egg-info/top_level.txt
+pypipkg/scripts/__init__.py
+pypipkg/scripts/command.py

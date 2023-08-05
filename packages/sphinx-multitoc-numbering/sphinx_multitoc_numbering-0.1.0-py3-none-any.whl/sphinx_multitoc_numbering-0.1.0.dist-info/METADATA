@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: sphinx-multitoc-numbering
+Version: 0.1.0
+Summary: Supporting continuous HTML section numbering
+Home-page: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: sphinx (>=3)
+Provides-Extra: code_style
+Requires-Dist: flake8 (<3.8.0,>=3.7.0) ; extra == 'code_style'
+Requires-Dist: black ; extra == 'code_style'
+Requires-Dist: pre-commit (==1.17.0) ; extra == 'code_style'
+Provides-Extra: testing
+Requires-Dist: pytest (~=5.4) ; extra == 'testing'
+Requires-Dist: pytest-cov (~=2.8) ; extra == 'testing'
+Requires-Dist: coverage (<5.0) ; extra == 'testing'
+Requires-Dist: pytest-regressions ; extra == 'testing'
+Requires-Dist: jupyter-book ; extra == 'testing'
+
+# sphinx-parttoc-numbering
+A Sphinx extension to support continuous numbering of sections across multiple tocs in HTML output.
+
+

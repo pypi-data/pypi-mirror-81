@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: nestor-qt
+Version: 0.3.2
+Summary: Legacy (Qt5) GUI for the Nestor annotation tool
+Home-page: https://www.nist.gov/services-resources/software/nestor
+Keywords: nlp,smart,manufacturing,maintenance,tag,app
+Author: tbsexton
+Author-email: thurston.sexton@nist.gov
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Manufacturing
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: Public Domain
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Dist: chardet (>=3.0.4,<4.0.0)
+Requires-Dist: nist-nestor (>=0.4.3,<0.5.0)
+Requires-Dist: pyaml (>=20.4.0,<21.0.0)
+Requires-Dist: pyqt5 (>=5.15.0,<6.0.0)
+Requires-Dist: seaborn (>=0.11.0,<0.12.0)
+Project-URL: Repository, https://github.com/usnistgov/nestor-qt

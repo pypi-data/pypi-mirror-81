@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: PtDa
+Version: 0.1.1
+Summary: PtDa is a python package for data analytics.
+Home-page: https://github.com/luckyp71/ptda
+Author: Lucky Pratama
+Author-email: lucky.pratama71@yahoo.com
+License: BSD 2-clause
+Description: # PtDa
+        
+        # PtDa is a python package for data analytics.
+        
+        ## The package provides:
+        - WOE calculation
+        - IV calculation
+        - Numeric and categorical check
+        - etc
+        
+        ## How to get it?
+        with PyPi
+        pip install ptda
+        
+        ## Dependencies
+        - Pandas
+        - Numpy
+        - Scipy
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Description-Content-Type: text/markdown

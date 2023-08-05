@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: SnowLang
+Version: 0.5.1.8
+Summary: Snow Programming Language for beginners
+Home-page: https://github.com/SnowballSH/Snow-lang
+Author: SnowballSH
+License: UNKNOWN
+Download-URL: https://github.com/SnowballSH/Snow-lang/archive/v0.5.1.8.tar.gz
+Description: ## Snow Programming Language 
+        
+        ***
+        
+        #### Info
+        Snow Language version 0.5 available!
+        
+        See docs/tour.md for language tour!
+        
+        #### Download
+        
+        ```bash
+        python -m pip install git+https://github.com/SnowballSH/Snow-lang.git
+        ```
+        
+        modules in `requirements.txt` must be installed.
+        
+        #### How to run my Snow script?
+        
+        See the file `cli.py`?
+        
+        In cmd or powershell (or any OS system command line), do
+        
+        ```
+        python cli.py <filename>
+        ex. python cli.py test.snow
+        ```
+        
+        **Be sure to be in the same directory has your Snow script**
+        
+        (I am not sure if it works the same way other than windows)
+        
+        After that, you will see `snow.stdout` and `snow.stderr` created.
+        
+        You will also see the output on the command line.
+        
+        #### Issues
+        
+        If you have any, any issues or found any bugs, **PLEASE** create an issue.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Artistic Software
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

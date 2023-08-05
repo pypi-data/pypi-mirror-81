@@ -1,0 +1,9 @@
+README.md
+setup.py
+mcsrvstats/__init__.py
+mcsrvstats/main.py
+mcsrvstats.egg-info/PKG-INFO
+mcsrvstats.egg-info/SOURCES.txt
+mcsrvstats.egg-info/dependency_links.txt
+mcsrvstats.egg-info/requires.txt
+mcsrvstats.egg-info/top_level.txt

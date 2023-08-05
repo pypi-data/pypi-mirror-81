@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: destiny-hazel-trinity
+Version: 0.0.3
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Hazel Trinity
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: aiohttp (>=3.6.2)
+Requires-Dist: aiosqlite (>=0.11.0)
+Requires-Dist: async-timeout (>=3.0.1)
+
+UNKNOWN
+
+

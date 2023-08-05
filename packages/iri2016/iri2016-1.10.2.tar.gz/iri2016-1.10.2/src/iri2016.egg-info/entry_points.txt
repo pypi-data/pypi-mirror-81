@@ -1,0 +1,5 @@
+[console_scripts]
+iri2016_altitude = iri2016.__main__:altitude
+iri2016_latitude = iri2016.__main__:latitude
+iri2016_time = iri2016.__main__:time_profile
+

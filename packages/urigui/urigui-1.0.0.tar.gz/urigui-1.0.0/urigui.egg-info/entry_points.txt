@@ -1,0 +1,3 @@
+[console_scripts]
+uri = urigui.uricli:main
+

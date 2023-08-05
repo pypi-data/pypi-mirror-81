@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: urigui
+Version: 1.0.0
+Summary: Utility CLI for submitting solutions to URI Online Judge.
+Home-page: https://github.com/vininjr/urigui
+Author: Marcus Vinicius
+Author-email: viniips@hotmail.com
+License: Apache 2.0
+Description: # uri-cli
+        Utility CLI for submitting solutions to URI Online Judge
+        
+Platform: UNKNOWN

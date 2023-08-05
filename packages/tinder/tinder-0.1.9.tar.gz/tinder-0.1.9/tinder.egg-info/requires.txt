@@ -1,0 +1,7 @@
+colorama
+matplotlib
+numpy
+pillow-simd
+torch
+torchvision
+tqdm

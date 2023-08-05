@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: modernize
+Version: 0.9rc0
+Summary: A hack on top of fissix (lib2to3 fork) for modernizing code for hybrid codebases.
+Home-page: https://github.com/PyCQA/modernize
+Author: Armin Ronacher
+Author-email: armin.ronacher@active-4.com

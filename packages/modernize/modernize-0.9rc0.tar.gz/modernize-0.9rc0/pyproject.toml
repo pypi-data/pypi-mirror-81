@@ -1,0 +1,120 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "modernize"
+author = "Armin Ronacher"
+author-email = "armin.ronacher@active-4.com"
+maintainer = "PyCQA"
+maintainer-email = "code-quality@python.org"
+home-page = "https://github.com/PyCQA/modernize"
+classifiers = [
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+]
+description-file = "README.rst"
+requires = ["fissix"]
+requires-python = "~=3.6"
+
+[tool.flit.metadata.requires-extra]
+docs = [
+  "alabaster~=0.7.12",
+  "commonmark~=0.9.1",
+  "docutils~=0.16.0",
+  "mock~=4.0",
+  "pillow~=7.2",
+  "readthedocs-sphinx-ext~=2.1",
+  "recommonmark~=0.6.0",
+  "sphinx~=3.2",
+  "sphinx-rtd-theme~=0.5.0",
+]
+test = ["pytest", "pytest-cov", "coverage>=5.3"]
+
+[tool.flit.scripts]
+modernize = "modernize.main:main"
+python-modernize = "modernize.main:main"
+
+[tool.isort]
+profile = "black"
+add_imports=["from __future__ import generator_stop"]
+
+[tool.pytest.ini_options]
+addopts = [
+  "--strict-config",
+  "--strict-markers",
+  "--cov",
+  "--cov-fail-under=92.11",
+  "--cov-report=term-missing:skip-covered",
+]
+xfail_strict = true
+junit_family = "xunit2"
+filterwarnings = ["error"]
+
+[tool.coverage.run]
+branch = true
+source_pkgs = ["modernize"]
+source = ["tests"]
+
+[tool.coverage.paths]
+source = [
+    ".",
+    ".tox/*/lib/*/site-packages/",
+    '.tox\\*\\Lib\\site-packages\\',
+]
+
+
+[tool.tox]
+legacy_tox_ini = """
+; tox configuration file for running tests on local dev env and Travis CI.
+;
+; The local dev environment will be executed against latest released Twisted.
+; The coverage is reported only and local dev and not on Travis-CI as there
+; we have separate reported (ex codecov.io)
+
+[tox]
+envlist =
+    py{36,37,38},lint
+minversion=3.20.0
+requires=
+    virtualenv >= 20.0.31
+    tox-wheel >= 0.5.0
+
+[testenv]
+extras = test
+commands = pytest {posargs}
+wheel = True
+wheel_pep517 = True
+wheel_build_env = build
+
+[testenv:build]
+# empty environment to build universal wheel once per tox invocation
+# https://github.com/ionelmc/tox-wheel#build-configuration
+
+[testenv:coveralls]
+passenv = GITHUB_*
+deps =
+  coveralls
+  coverage>=5.3
+commands = coveralls
+
+[testenv:lint]
+deps = pre-commit
+commands = pre-commit run --all-files --show-diff-on-failure {posargs}
+skip_install = true
+
+
+[testenv:release]
+deps = pep517
+whitelist_externals =
+    cp
+    rm
+commands =
+    rm -rf {toxinidir}/dist
+    cp -r {distdir} {toxinidir}/dist # copy the wheel built by tox-wheel
+    {envpython} -m pep517.build --source --out-dir={toxinidir}/dist {toxinidir}
+"""

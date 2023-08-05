@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+onesocial/__init__.py
+onesocial/api.py
+onesocial/errors.py
+onesocial/oauth.py
+onesocial.egg-info/PKG-INFO
+onesocial.egg-info/SOURCES.txt
+onesocial.egg-info/dependency_links.txt
+onesocial.egg-info/requires.txt
+onesocial.egg-info/top_level.txt

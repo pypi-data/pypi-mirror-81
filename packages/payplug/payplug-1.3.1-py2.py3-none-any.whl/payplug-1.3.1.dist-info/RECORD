@@ -1,0 +1,14 @@
+payplug/__init__.py,sha256=tTc-kTCS1mUFLAO1HsMRBnnJ42g7ehxrFJpQMmcIwXA,13305
+payplug/__version__.py,sha256=vhIaqkMqWA9x0B43c0qWjLl1SoVts9o7XAaTcRuKzRU,46
+payplug/config.py,sha256=7fdi8JvxYNADT7mwAMDiEkn0j_O8NntLEo4AMz7hFNk,508
+payplug/exceptions.py,sha256=LEqx7aaGhn80F_FVJVqUwDqaJskIAmqFz2Ewegvg92I,4695
+payplug/network.py,sha256=7j-LOkMcMKMn3YE8zzYQoyDPBEnqj4ZK6z2XzK7lop4,11294
+payplug/notifications.py,sha256=qXbZsJxCP15ORC25Oz9023fBcVSc1_COzEZTQJ5TVJE,935
+payplug/resources.py,sha256=4h0EpeuuZC5P-2TASyZ1vIfRCpq3-3n9uSnm_0fsXU0,10224
+payplug/routes.py,sha256=RzJRc4yTyiyOgafRw7Su93oWQHjCyouauNgppn4RRfY,1432
+payplug/certs/cacert.pem,sha256=zN6JOIysEsXTyOaLlFit1-IrhJNxgY390kDJlNYZNkE,258424
+payplug-1.3.1.dist-info/LICENCE.md,sha256=P3MIVHQfbPHzkzs9NgPq9dsxgZjwF84JGjQxmBicei4,1073
+payplug-1.3.1.dist-info/METADATA,sha256=Q_ONCDZchtgytB6fQwtQcgZ7VuRt3Li11zlNEkZb_UM,1689
+payplug-1.3.1.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+payplug-1.3.1.dist-info/top_level.txt,sha256=AA-YJNyQXaMPjnqJ11S5jzTPKIlW3ImsIhunj0wPSHM,8
+payplug-1.3.1.dist-info/RECORD,,

@@ -1,0 +1,10 @@
+metapathways
+metapathways/annotate
+metapathways/diagnostics
+metapathways/modules
+metapathways/parsers
+metapathways/pipeline
+metapathways/scripts
+metapathways/taxonomy
+metapathways/test
+metapathways/utils

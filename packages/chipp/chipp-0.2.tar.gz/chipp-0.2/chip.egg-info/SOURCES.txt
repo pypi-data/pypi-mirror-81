@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+chip.egg-info/PKG-INFO
+chip.egg-info/SOURCES.txt
+chip.egg-info/dependency_links.txt
+chip.egg-info/top_level.txt

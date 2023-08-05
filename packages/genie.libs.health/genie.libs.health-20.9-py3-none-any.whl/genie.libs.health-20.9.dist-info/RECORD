@@ -1,0 +1,10 @@
+genie.libs.health-20.9-py3.6-nspkg.pth,sha256=ObYoD8sL3pc4avNcQOL6mdv2IdNlOmFr3c3nD1iDADQ,1676
+genie/libs/health/__init__.py,sha256=8dNFFGBoxRtLLHS9Sq2oPxVnRYv5CjI28PxkbtqMIAo,425
+genie/libs/health/health.py,sha256=Z1xJNk5tsbCWLO8HaecS7AhzeMejJfPoEGiwkKfn27E,21992
+genie/libs/health/plugin.py,sha256=NurCbNZ1upAhqAQt47Wbu0OM69hioIsQLVr5fWEPHjg,6577
+genie.libs.health-20.9.dist-info/METADATA,sha256=B5EXCMNG_RLXxj60tgzff1NJ6C-Es1CvbaAyfEb9GZY,3616
+genie.libs.health-20.9.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+genie.libs.health-20.9.dist-info/entry_points.txt,sha256=RDkhVFkTx40Jc7ZPtu6bG4Y0VRq2pnrQU4g0jjlF5bE,72
+genie.libs.health-20.9.dist-info/namespace_packages.txt,sha256=k0OxVAETbf7Ou2EqqjuxO-JdrIdJtxZsUDHdrIkrOFE,17
+genie.libs.health-20.9.dist-info/top_level.txt,sha256=EW4swMMBmuGW5VFCUGsl828kVUhrmMZJGHXfzmOidSg,6
+genie.libs.health-20.9.dist-info/RECORD,,

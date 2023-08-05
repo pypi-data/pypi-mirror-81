@@ -1,0 +1,6 @@
+README.md
+setup.py
+primality.egg-info/PKG-INFO
+primality.egg-info/SOURCES.txt
+primality.egg-info/dependency_links.txt
+primality.egg-info/top_level.txt

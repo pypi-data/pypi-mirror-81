@@ -1,0 +1,8 @@
+Click>=7.0
+requests
+simplejson
+confuse
+desert
+marshmallow
+marshmallow_oneofschema
+attrs

@@ -1,0 +1,6 @@
+
+[dev]
+pytest
+sphinx<4,>=3
+curio
+trio

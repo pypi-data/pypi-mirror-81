@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: assetic-qgis
+Version: 2.0.0.0
+Summary: Assetic QGis Integration API
+Home-page: http://www.assetic.com
+Author: UNKNOWN
+Author-email: developer@assetic.com
+License: UNKNOWN
+Keywords: Assetic QGis Integration APIs
+Platform: UNKNOWN
+Requires-Dist: assetic (>=2020.6.1.8)
+Requires-Dist: PyQt5
+
+# README #
+
+* Scripts.
+
+### What is this repository for? ###
+
+* QGIS Integration scripts
+* Version 1.0
+
+### How do I get set up? ###
+
+* Download scripts
+
+### Contribution guidelines ###
+
+* Managed by Assetic, contributions accepted
+
+### Who do I talk to? ###
+
+* kwilton@assetic.com
+
+**Changelog**
+
+**Release 1.0.0.0**
+        *	Initial Build
+
+**Release 2.0.0.0**
+        *   Supports create and update by selection in QGIS GUI
+        *   Uses consolidated Assetic SDK functionality, sharing code with other GIS repositories
+
+

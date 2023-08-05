@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: cocorahs
+Version: 0.1.2
+Summary: An API and CLI for reporting CoCoRaHS observations.
+Home-page: https://github.com/dschep/PyCoCoraHS
+Author: Daniel Schep
+Author-email: dschep@gmail.com

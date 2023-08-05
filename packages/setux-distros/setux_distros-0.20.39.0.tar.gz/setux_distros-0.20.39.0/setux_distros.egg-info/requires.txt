@@ -1,0 +1,2 @@
+setux_core>=0.20.39.0
+setux_managers>=0.20.39.0

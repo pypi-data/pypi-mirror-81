@@ -1,0 +1,57 @@
+---
+# List of repositories owned by SIGs
+Ansible:
+  - repo: openstack/ansible-collections-openstack
+  - repo: openstack/ansible-plugin-container-connection
+API:
+  - repo: openstack/api-sig
+Automation:
+  - repo: openstack/auto-scaling-sig
+  - repo: openstack/self-healing-sig
+Hardware Vendor:
+  - repo: openstack/python-dracclient
+i18n:
+  - repo: openstack/i18n
+Meta:
+  - repo: openstack/governance-sigs
+Multi-Arch:
+  - repo: openstack/multi-arch-sig
+Operation Docs and Tooling:
+  - repo: openstack/arch-design
+  - repo: openstack/ha-guide
+  - repo: openstack/operations-guide
+  - repo: openstack/osops
+PowerVMStackers:
+  - repo: openstack/ceilometer-powervm
+  - repo: openstack/networking-powervm
+  - repo: openstack/nova-powervm
+Public Cloud SIG:
+  - repo: openstack/publiccloud-sig
+Security:
+  - repo: openstack/ossa
+  - repo: openstack/security-analysis
+  - repo: openstack/security-doc
+  - repo: openstack/security-specs
+Technical Writing:
+  - repo: openstack/api-site
+  - repo: openstack/constellations
+  - repo: openstack/contributor-guide
+  - repo: openstack/openstack-manuals
+  - repo: openstack/training-labs
+  - repo: openstack/training-guides
+  - repo: openstack/upstream-institute-virtual-environment
+Testing and Collaboration Tools:
+  - repo: openstack/bugdaystats
+  - repo: openstack/devstack-gate
+  - repo: openstack/diskimage-builder
+  - repo: openstack/logstash-filters
+  - repo: openstack/nose-html-output
+  - repo: openstack/openstack-nose
+  - repo: openstack/openstack-planet
+  - repo: openstack/openstack-zuul-jobs
+  - repo: openstack/openstack-zuul-roles
+  - repo: openstack/os-loganalyze
+  - repo: openstack/project-config
+  - repo: openstack/ptgbot
+  - repo: openstack/reviewday
+  - repo: openstack/reviewstats

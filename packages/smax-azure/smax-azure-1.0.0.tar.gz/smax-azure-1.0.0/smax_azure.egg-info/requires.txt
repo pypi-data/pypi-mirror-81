@@ -1,0 +1,9 @@
+pieterraform>=0.0.1a15
+python-hcl2~=0.3.0
+cryptography~=3.1.1
+yaml
+colorlog~=4.2.1
+fabric~=2.5.0
+kubernetes~=11.0.0
+requests~=2.24.0
+tabulate~=0.8.7

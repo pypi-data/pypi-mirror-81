@@ -1,0 +1,261 @@
+{
+    "licenseAgreement": {
+        "eula": true,
+        "callHome": false
+    },
+    "connection": {
+        "externalHostname": "{{external_host_name}}",
+        "port": "443"
+    },
+    "volumes": [
+        {
+            "name": "global-volume"
+        },
+        {
+            "name": "db-volume"
+        },
+        {
+            "name": "db-volume-1"
+        },
+        {
+            "name": "db-volume-2"
+        },
+        {
+            "name": "smartanalytics-volume"
+        },
+        {
+            "name": "itom-vol-claim"
+        },
+        {
+            "name": "db-single-vol"
+        },
+        {
+            "name": "db-backup-vol"
+        },
+        {
+            "name": "rabbitmq-infra-rabbitmq-0"
+        },
+        {
+            "name": "rabbitmq-infra-rabbitmq-1"
+        },
+        {
+            "name": "rabbitmq-infra-rabbitmq-2"
+        },
+        {
+            "name": "itom-logging-vol"
+        },
+        {
+            "name": "itsma-smarta-saw-con-0"
+        },
+        {
+            "name": "itsma-smarta-saw-con-1"
+        },
+        {
+            "name": "itsma-smarta-saw-con-2"
+        },
+        {
+            "name": "itsma-smarta-saw-con-3"
+        },
+        {
+            "name": "itsma-smarta-saw-con-4"
+        },
+        {
+            "name": "itsma-smarta-saw-con-5"
+        },
+        {
+            "name": "itsma-smarta-saw-con-a-0"
+        },
+        {
+            "name": "itsma-smarta-saw-con-a-1"
+        },
+        {
+            "name": "itsma-smarta-saw-con-a-2"
+        },
+        {
+            "name": "itsma-smarta-saw-con-a-3"
+        },
+        {
+            "name": "itsma-smarta-saw-con-a-4"
+        },
+        {
+            "name": "itsma-smarta-saw-con-a-5"
+        },
+        {
+            "name": "itsma-smarta-sawarc-con-0"
+        },
+        {
+            "name": "itsma-smarta-sawarc-con-1"
+        },
+        {
+            "name": "itsma-smarta-sawarc-con-a-0"
+        },
+        {
+            "name": "itsma-smarta-sawarc-con-a-1"
+        },
+        {
+            "name": "itsma-smarta-sawmeta-con-0"
+        },
+        {
+            "name": "itsma-smarta-sawmeta-con-1"
+        },
+        {
+            "name": "itsma-smarta-sawmeta-con-a-0"
+        },
+        {
+            "name": "itsma-smarta-sawmeta-con-a-1"
+        }
+    ],
+    "database": {
+        "type": "extpostgres",
+        "param": {
+            "dbHost": "{{db_host_name}}",
+            "dbPort": "{{db_host_port}}",
+            "dbName": "{{idm_db}}",
+            "dbUser": "{{idm_db_user}}",
+            "dbPassword": "{{idm_db_user_password}}",
+            "dbDriver": ""
+        }
+    },
+    "capabilities": {
+        "version": "{{suite_version}}",
+        "suite": "itsma",
+        "installSize": "SMALL",
+        "edition": "EXPRESS",
+        "capabilitySelection": [
+            {
+                "name": "X"
+            }
+        ],
+        "configuration": [
+            {
+                "itom_suite_size": "{{suite_size}}",
+                "itom_suite_install_type": "new_install",
+                "itom_suite_mode": "X_MODE",
+                "activated_services": [
+                    {
+                        "name": "itom-xruntime"
+                    },
+                    {
+                        "name": "itom-xruntime-infra"
+                    },
+                    {
+                        "name": "itom-smartanalytics"
+                    },
+                    {
+                        "name": "itom-bo"
+                    },
+                    {
+                        "name": "itom-virtual-agent"
+                    }
+                ],
+                "itom_suite_autoscaling": false,
+                "dbowner_password": "{{default_admin_password}}",
+                "integrationadmin_password": "{{default_admin_password}}",
+                "internal_dbaowner_password": "{{default_admin_password}}",
+                "locale": "zh",
+                "database": [
+                    {
+                        "product_name": "xruntime",
+                        "internal": false,
+                        "db_engine": "postgres",
+                        "db_server": "{{db_host_name}}",
+                        "db_port": "{{db_host_port}}",
+                        "db_inst": "",
+                        "db_login": "{{db_login_user}}",
+                        "db_password": "{{db_login_password}}",
+                        "db_ssl": false,
+                        "db_pg_ssl_mode": "verify-full",
+                        "db_postgre_azure_bool": false,
+                        "db_postgre_server_name_azure": ""
+                    },
+                    {
+                        "product_name": "bo",
+                        "internal": false,
+                        "db_engine": "postgres",
+                        "db_server": "{{db_host_name}}",
+                        "db_port": "{{db_host_port}}",
+                        "db_inst": "",
+                        "db_login": "{{db_login_user}}",
+                        "db_password": "{{db_login_password}}",
+                        "db_ssl": false,
+                        "db_pg_ssl_mode": "verify-full",
+                        "db_postgre_azure_bool": false,
+                        "db_postgre_server_name_azure": ""
+                    },
+                    {
+                        "product_name": "smarta",
+                        "internal": false,
+                        "db_engine": "postgres",
+                        "db_server": "{{db_host_name}}",
+                        "db_port": "{{db_host_port}}",
+                        "db_inst": "",
+                        "db_login": "{{db_login_user}}",
+                        "db_password": "{{db_login_password}}",
+                        "db_ssl": false,
+                        "db_pg_ssl_mode": "verify-full",
+                        "db_postgre_azure_bool": false,
+                        "db_postgre_server_name_azure": ""
+                    },
+                    {
+                        "product_name": "idm",
+                        "internal": false,
+                        "db_engine": "postgres",
+                        "db_server": "{{db_host_name}}",
+                        "db_port": "{{db_host_port}}",
+                        "db_inst": "",
+                        "db_login": "{{db_login_user}}",
+                        "db_password": "{{db_login_password}}",
+                        "db_ssl": false,
+                        "db_pg_ssl_mode": "verify-full",
+                        "db_postgre_azure_bool": false,
+                        "db_postgre_server_name_azure": ""
+                    },
+                    {
+                        "product_name": "autopass",
+                        "internal": false,
+                        "db_engine": "postgres",
+                        "db_server": "{{db_host_name}}",
+                        "db_port": "{{db_host_port}}",
+                        "db_inst": "",
+                        "db_login": "{{db_login_user}}",
+                        "db_password": "{{db_login_password}}",
+                        "db_ssl": false,
+                        "db_pg_ssl_mode": "verify-full",
+                        "db_postgre_azure_bool": false,
+                        "db_postgre_server_name_azure": ""
+                    },
+                    {
+                        "product_name": "dnd",
+                        "internal": false,
+                        "db_engine": "postgres",
+                        "db_server": "{{db_host_name}}",
+                        "db_port": "{{db_host_port}}",
+                        "db_inst": "",
+                        "db_login": "{{db_login_user}}",
+                        "db_password": "{{db_login_password}}",
+                        "db_ssl": false,
+                        "db_pg_ssl_mode": "verify-full",
+                        "db_postgre_azure_bool": false,
+                        "db_postgre_server_name_azure": ""
+                    },
+                    {
+                        "product_name": "sam",
+                        "internal": false,
+                        "db_engine": "postgres",
+                        "db_server": "{{db_host_name}}",
+                        "db_port": "{{db_host_port}}",
+                        "db_inst": "",
+                        "db_login": "{{db_login_user}}",
+                        "db_password": "{{db_login_password}}",
+                        "db_ssl": false,
+                        "db_pg_ssl_mode": "verify-full",
+                        "db_postgre_azure_bool": false,
+                        "db_postgre_server_name_azure": ""
+                    }
+                ],
+                "sysadmin_password": "{{default_admin_password}}",
+                "boadmin_password": "{{default_admin_password}}"
+            }
+        ]
+    }
+}

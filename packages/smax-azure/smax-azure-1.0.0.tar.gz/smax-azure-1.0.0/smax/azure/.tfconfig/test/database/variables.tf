@@ -1,0 +1,12 @@
+variable resource_group_name {}
+variable location {}
+variable vm_ssh_username {}
+variable vm_password {}
+variable vm_size {}
+variable database_disk_size_gb {}
+variable database_user_password {}
+variable upload_folder {}
+variable subnet_cidr {}
+variable vnet_name {}
+variable ssh_private_key {}
+variable ssh_pub_key {}

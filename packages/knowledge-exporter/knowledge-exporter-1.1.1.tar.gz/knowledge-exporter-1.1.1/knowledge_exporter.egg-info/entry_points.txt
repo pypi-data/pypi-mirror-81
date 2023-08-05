@@ -1,0 +1,3 @@
+[console_scripts]
+knowledge-exporter = knowledge_exporter:main
+

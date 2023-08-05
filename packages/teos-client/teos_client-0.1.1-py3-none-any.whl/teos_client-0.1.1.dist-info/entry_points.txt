@@ -1,0 +1,3 @@
+[console_scripts]
+teos-client = teos_client:run
+

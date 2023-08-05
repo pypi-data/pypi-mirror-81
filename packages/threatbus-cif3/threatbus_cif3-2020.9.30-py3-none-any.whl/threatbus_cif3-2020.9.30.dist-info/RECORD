@@ -1,0 +1,10 @@
+threatbus_cif3/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+threatbus_cif3/message_mapping.py,sha256=wMnjVLIA3SUkfgVxFEN64tzzkKPHtBYrybM-qW5U5xs,1466
+threatbus_cif3/plugin.py,sha256=fbkWLJykbupbpw_ir8-YH5GkOHk0mwRd1k3im7KJ2uI,2799
+threatbus_cif3/setup.py,sha256=cqiqwUs3FYT76R4Bl07W0GSOCk93JSKDi6xl82bZJEA,1663
+threatbus_cif3-2020.9.30.dist-info/COPYING,sha256=rZc-yv_voLjZZ9TWAbqXzzSOcejPJFuPyKfSPS6m7CI,1528
+threatbus_cif3-2020.9.30.dist-info/METADATA,sha256=YwtbDr3Ua-P2lBIdUX4FhI5HUT-KNgfTe7S-j3mT7YU,3023
+threatbus_cif3-2020.9.30.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+threatbus_cif3-2020.9.30.dist-info/entry_points.txt,sha256=unK1ux-4_XKvJrFWo1Fu3-sdZV_7bXcRptPaa7j8MTg,46
+threatbus_cif3-2020.9.30.dist-info/top_level.txt,sha256=AK7hFpL8pyQM1s-I1WzPH70e94dqXmNSRw_14GmnGWc,15
+threatbus_cif3-2020.9.30.dist-info/RECORD,,

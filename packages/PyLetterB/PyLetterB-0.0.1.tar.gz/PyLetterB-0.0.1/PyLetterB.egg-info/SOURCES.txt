@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+PyLetterB/__init__.py
+PyLetterB/getpage.py
+PyLetterB/users.py
+PyLetterB.egg-info/PKG-INFO
+PyLetterB.egg-info/SOURCES.txt
+PyLetterB.egg-info/dependency_links.txt
+PyLetterB.egg-info/requires.txt
+PyLetterB.egg-info/top_level.txt

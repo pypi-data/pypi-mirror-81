@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: python-thaibulksms
+Version: 0.0.2
+Summary: Python functions to send SMSs via ThaiBulkSMS.com
+Home-page: https://github.com/joncombe/python-thaibulksms
+Author: Jon Combe
+Author-email: jon@salebox.io
+License: BSD licence, see LICENCE file
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python

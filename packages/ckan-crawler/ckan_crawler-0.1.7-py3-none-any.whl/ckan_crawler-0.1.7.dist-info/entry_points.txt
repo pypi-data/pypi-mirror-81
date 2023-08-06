@@ -1,0 +1,3 @@
+[console_scripts]
+ckan_crawler=ckan_crawler.main:main
+

@@ -1,0 +1,3 @@
+[console_scripts]
+gotmgui = gotmgui.gotmgui:main
+

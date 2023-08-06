@@ -1,0 +1,11 @@
+bravado_asyncio/__init__.py,sha256=9WTN9f7poI6WdUNC-lva1UN2Nrdcf80MSCNJL322gjE,42
+bravado_asyncio/definitions.py,sha256=nxr6PEvaZS9RXnWCoJ8gnr70tBykTGTJACGpSUnXD8Q,288
+bravado_asyncio/future_adapter.py,sha256=m5gAv6Hr6zhZfWu6lpWOeYvXh6bUHAJuAViih8ALjRo,2226
+bravado_asyncio/http_client.py,sha256=waLNTzKDPE-4vJiZfdUy-LQKP6xr8vTWl3HxTaDbprI,9135
+bravado_asyncio/response_adapter.py,sha256=s3iJ3vQCGLLhbgwZUGyOjEn5GyWCs3iTih7uK9Xj-_4,2469
+bravado_asyncio/thread_loop.py,sha256=ab0h39mc7lRoXvGQvRFr6w7MI-ZpzA3TPBxU_01VnpI,688
+bravado_asyncio-2.0.0.dist-info/LICENSE.txt,sha256=r42JP4U-yaxMi0t7TIvrS3R4xEy-H4yVoG66PvtrRvI,1590
+bravado_asyncio-2.0.0.dist-info/METADATA,sha256=9GqLjGc1M6pPDVobCoSD8YDkbvj-qFcbI9Uy5v6kn2w,6138
+bravado_asyncio-2.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+bravado_asyncio-2.0.0.dist-info/top_level.txt,sha256=ab3KFJYvf5yW8aT2I2t_2XwSN1z_K-C5yBzMO4X15MM,16
+bravado_asyncio-2.0.0.dist-info/RECORD,,

@@ -1,0 +1,5 @@
+oemof.solph
+matplotlib
+pvlib
+numpy<1.18,>=1.7.0
+pandas<0.26,>=0.18.0

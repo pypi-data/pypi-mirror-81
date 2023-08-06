@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: aiohttp-pydantic
+Version: 0.0.1
+Summary: Aiohttp View using pydantic to validate request body and query sting regarding method annotation
+Home-page: https://github.com/Maillol/aiohttp-pydantic
+Author: Vincent Maillol
+Author-email: vincent.maillol@gmail.com
+License: MIT
+Keywords: aiohttp pydantic annotation unpack inject validate
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Framework :: AsyncIO
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Requires-Dist: aiohttp
+Requires-Dist: pydantic
+
+UNKNOWN
+
+

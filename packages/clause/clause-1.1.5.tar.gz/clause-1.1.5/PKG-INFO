@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: clause
+Version: 1.1.5
+Summary: 中文语义理解服务 Python SDK
+Home-page: https://github.com/chatopera/clause-sdk-python
+Author: Hai Liang Wang
+Author-email: hain@chatopera.com
+License: Apache Software License
+Description: 
+        中文语义理解服务 Python SDK
+        ----------------------------
+        https://github.com/chatopera/clause-sdk-python
+        
+Keywords: chatbot,machine-learning,NLU,NLP
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: Chinese (Traditional)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Text Processing :: Linguistic
+Description-Content-Type: text/markdown

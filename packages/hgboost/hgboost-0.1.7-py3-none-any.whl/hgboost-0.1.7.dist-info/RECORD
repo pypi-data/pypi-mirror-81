@@ -1,0 +1,9 @@
+hgboost/__init__.py,sha256=JJ4A7MBmoBxZeJVyGDlZiamXfp1q1ok0pbR6EfnYbpc,2853
+hgboost/examples.py,sha256=_E_fxPGSmImSCEVWuNflB73R3NYf-rkQG4fSPpIyDJI,5508
+hgboost/hgboost.py,sha256=9wy13ujA_LUSOE4DF6yKZCFYr9nPXzwq1zkA6IehOkU,73062
+hgboost/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hgboost-0.1.7.dist-info/LICENSE,sha256=NMTj5-5xxxhntiVCZnqUGhN8gTcx4LqrzthU-5ivo-s,1120
+hgboost-0.1.7.dist-info/METADATA,sha256=rffnD8sap7TkZe4PIzvTmtpll4FuZEVpg5efdkYXNFM,9984
+hgboost-0.1.7.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+hgboost-0.1.7.dist-info/top_level.txt,sha256=wHKQk7nvxzPjqsuwZjnRizCJnMkMQbdLwDv_RRLbya4,8
+hgboost-0.1.7.dist-info/RECORD,,

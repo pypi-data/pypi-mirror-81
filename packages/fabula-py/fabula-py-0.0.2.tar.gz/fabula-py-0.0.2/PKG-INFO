@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: fabula-py
+Version: 0.0.2
+Summary: Framefork for description infrastructure
+Home-page: https://github.com/djmoto24/fabula.git
+Author: skytrain
+Author-email: no067@mail.ru
+License: MIT
+Description: Framefork for description infrastructure
+Keywords: fabula2
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

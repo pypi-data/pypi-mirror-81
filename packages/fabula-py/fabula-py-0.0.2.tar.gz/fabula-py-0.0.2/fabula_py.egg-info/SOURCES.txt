@@ -1,0 +1,11 @@
+README.md
+setup.py
+fabula/__init__.py
+fabula/objectlib.py
+fabula/skeel.py
+fabula/strategies.py
+fabula_py.egg-info/PKG-INFO
+fabula_py.egg-info/SOURCES.txt
+fabula_py.egg-info/dependency_links.txt
+fabula_py.egg-info/not-zip-safe
+fabula_py.egg-info/top_level.txt

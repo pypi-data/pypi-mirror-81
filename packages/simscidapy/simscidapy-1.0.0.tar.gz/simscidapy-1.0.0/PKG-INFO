@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: simscidapy
+Version: 1.0.0
+Summary: Simple scientific data analysis in python. This package provides a compact and easy to use interface for the treatment and analysis of scientific data. It allows the user to forget about indices and lists and takes care of interpolation when dealing with unequally defined data.
+Home-page: https://github.com/djwander/simscidapy
+Author: David Wander
+Author-email: davidjwander@gmail.com
+License: gpl-3.0
+Download-URL: https://github.com/djwander/simscidapy/archive/v_001.tar.gz
+Description: UNKNOWN
+Keywords: numerics,scientific,data analysis,data treatment
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6

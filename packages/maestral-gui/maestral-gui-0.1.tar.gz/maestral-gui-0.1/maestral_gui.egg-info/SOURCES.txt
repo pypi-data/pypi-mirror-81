@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+maestral_gui/__init__.py
+maestral_gui.egg-info/PKG-INFO
+maestral_gui.egg-info/SOURCES.txt
+maestral_gui.egg-info/dependency_links.txt
+maestral_gui.egg-info/requires.txt
+maestral_gui.egg-info/top_level.txt
+maestral_gui.egg-info/zip-safe

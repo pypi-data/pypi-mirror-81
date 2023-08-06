@@ -1,0 +1,7 @@
+MANIFEST.in
+setup.py
+polzybackend.egg-info/PKG-INFO
+polzybackend.egg-info/SOURCES.txt
+polzybackend.egg-info/dependency_links.txt
+polzybackend.egg-info/requires.txt
+polzybackend.egg-info/top_level.txt

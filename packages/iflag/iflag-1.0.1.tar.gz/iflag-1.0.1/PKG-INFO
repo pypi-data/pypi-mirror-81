@@ -1,0 +1,251 @@
+Metadata-Version: 2.1
+Name: iflag
+Version: 1.0.1
+Summary: A Python library for the Itron / Actaris IFLAG and Corus protocol
+Home-page: https://github.com/pwitab/iflag
+Author: Henrik Palmlund Wahlgren @ Palmlund Wahlgren Innovative Technology AB
+Author-email: henrik@pwit.se
+License: BSD-3
+Description: # iflag
+        
+        A Python library for the Itron / Actaris IFLAG and Corus protocol
+        
+        ## Installing
+        
+        Install via pip, python 3.6+ only
+        
+        ```pip install iflag```
+        
+        ## About
+        
+        iflag is a library focused on reading and writing data to devices using the IFLAG or 
+        Corus protocol. Mainly Itron / Actaris gas volume converters. Communication is done over 
+        TCP/IP
+        
+        ## Features
+        
+        The library is now only focused on using Single Address Mode (SAM) of the Corus protocol
+        to access data. SEVC-D parameters of I-FLAG is not supported.
+        
+        * Read parameters
+        * Write parameters
+        * Read databases (logs), event log not yet implemented
+        
+        ## Usage
+        
+        - Different firmware versions have different ID for each parameter. But the 
+          parameter_id_map is always on id `0x5e`. 
+          So the mapping should be known beforehand or it should be read from the device before 
+          reading more values.
+          
+        - Different firmware versions also have different database record layout. You will need 
+          to supply a mapping of how the databases looks like for the meters you want to read.
+          A default mapping is not supplied since it would infer opinionated interpretation of 
+          some values.
+          
+          You should create a mapping like: `Dict[str, Dict[int, List[DatabaseRecordParameter]]]`
+          `interval` is the database and `52` is the length of the database record. A list of
+           `DatabaseRecordParameter` in the order they are appearing in the data base record 
+           will make it possible to convert the bytes into python values.
+          
+          Ex:
+        ```python
+          {
+            "interval": {
+                52: [
+                    DatabaseRecordParameter(name="record_duration", data_class=data.Byte),
+                    DatabaseRecordParameter(name="status", data_class=data.Byte),
+                    DatabaseRecordParameter(name="end_date", data_class=data.Date),
+                    DatabaseRecordParameter(
+                        name="consumption_interval_unconverted",
+                        data_class=data.Word,
+                        affected_by_pulse_input=True,
+                    ),
+                    DatabaseRecordParameter(
+                        name="consumption_interval_converted",
+                        data_class=data.ULong,
+                        affected_by_pulse_input=True,
+                    ),
+                    DatabaseRecordParameter(
+                        name="counter_interval_unconverted",
+                        data_class=data.Word,
+                        affected_by_pulse_input=True,
+                    ),
+                    DatabaseRecordParameter(
+                        name="counter_interval_converted",
+                        data_class=data.ULong,
+                        affected_by_pulse_input=True,
+                    ),
+                    DatabaseRecordParameter(
+                        name="temperature_interval_minimum", data_class=data.Float1
+                    ),
+                    DatabaseRecordParameter(
+                        name="temperature_interval_maximum", data_class=data.Float1
+                    ),
+                    DatabaseRecordParameter(
+                        name="temperature_interval_average", data_class=data.Float1
+                    ),
+                    DatabaseRecordParameter(
+                        name="pressure_interval_minimum", data_class=data.Float2
+                    ),
+                    DatabaseRecordParameter(
+                        name="pressure_interval_maximum", data_class=data.Float2
+                    ),
+                    DatabaseRecordParameter(
+                        name="pressure_interval_average", data_class=data.Float2
+                    ),
+                    DatabaseRecordParameter(
+                        name="flowrate_unconverted_interval_minimum",
+                        data_class=data.Float3,
+                        affected_by_pulse_input=True,
+                    ),
+                    DatabaseRecordParameter(
+                        name="flowrate_unconverted_interval_maximum",
+                        data_class=data.Float3,
+                        affected_by_pulse_input=True,
+                    ),
+                    DatabaseRecordParameter(
+                        name="flowrate_converted_interval_minimum",
+                        data_class=data.Float3,
+                        affected_by_pulse_input=True,
+                    ),
+                    DatabaseRecordParameter(
+                        name="flowrate_converted_interval_maximum",
+                        data_class=data.Float3,
+                        affected_by_pulse_input=True,
+                    ),
+                    DatabaseRecordParameter(name="none_data_1", data_class=data.Null4),
+                    DatabaseRecordParameter(
+                        name="flowrate_unconverted_interval_average",
+                        data_class=data.Float3,
+                        affected_by_pulse_input=True,
+                    ),
+                    DatabaseRecordParameter(
+                        name="flowrate_converted_interval_average",
+                        data_class=data.Float3,
+                        affected_by_pulse_input=True,
+                    ),
+                    DatabaseRecordParameter(name="start_date", data_class=data.Date),
+                    DatabaseRecordParameter(name="none_data_2", data_class=data.Null2),
+                ]
+            }
+        } 
+        ```
+        
+        - Good to know: There are several different float formats due to memory constraints in
+            the protocol and device. All floats are handled as `decimal.Decimal` in Python to 
+            not have float rounding errors.
+        
+        ### Read parameters:
+        
+        ``python
+        
+        from iflag import CorusClient
+        from iflag.data import CorusString, Index
+        from iflag.parse import IFlagParameter
+        from decimal import Decimal
+        
+        client = CorusClient.with_tcp_transport(address=("localhost", 4000))
+        # Read single value
+        client.read_parameters([IFlagParameter(id=0x5e, data_class=CorusString)])
+        >> {0x5e: "FL_b0040"}
+        # Read multiple values
+        client.read_parameters(
+            [
+                IFlagParameter(id=0x5e, data_class=CorusString), 
+                IFlagParameter(id=48, data_class=Index),
+                IFlagParameter(id=49, data_class=Index)
+            ]
+        )
+        >> {0x5e: "FL_b0040", 48: Decimal("234567.982"), 49: Decimal("222222.982")}
+        
+        ```
+        
+        ### Write parameters
+        
+        ```python
+        from iflag import CorusClient, TcpTransport
+        from iflag.data import Date
+        from iflag.parse import IFlagParameter
+        from datetime import datetime
+        
+        transport = TcpTransport(address=('localhost', 4000))
+        client = CorusClient(transport=transport)
+        client.write_parameters([(IFlagParameter(id=106, data_class=Date), datetime.now())])
+        
+        ```
+        
+        ### Read database
+        
+        ```python
+        from iflag import CorusClient
+        from datetime import datetime, timedelta
+        client = CorusClient.with_tcp_transport(address=('localhost', 4000), database_layout=MY_DATABASE_LAYOUT)
+        client.read_database(database='interval', start=datetime.now(), stop=(datetime.now() - timedelta(hours=4)))
+        ````
+        
+         - When reading databases you will need to know the `input_pulse_weight`. If it is not 
+         set on the client at initiation or on the `read_database` call the client will read it 
+         from the meter automatically.
+        
+        
+        # Changelog
+        All notable changes to this project will be documented in this file.
+        
+        The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+        and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+        
+        ## [Unreleased]
+        ### Added 
+        ### Changed
+        ### Deprecated
+        ### Removed
+        ### Fixed
+        ### Security
+        
+        ## [1.0.1] - 2020-10-07
+        
+        ### Fixed
+        - Index9 was not parsed correctly due to misinterpretation of documentation.
+        
+        ## [1.0.0] - 2020-10-07
+        
+        ### Changed
+         - Since different Corus firmware version have different parameter ids and different 
+           data database layouts the library is rewritten to be less opinionated and work with 
+           all firmwares. This means the user needs to know what ID represents what data and 
+           how it is interpreted and how databases the they will read are structured.
+          
+        ## [0.2.0] - 2020-01-14
+        
+        ### Removed
+        - Removed internal session handling as it was in the way of optimizing running several actions
+        directly after each other. Instead now you need to call `client.startup()` in the
+        beginning and `client.shutdown()` when you are done. 
+        
+        ## [0.1.2] - 2020-01-14
+        
+        ### Changed
+        -  Separated value identification in parsing config for the different databases so that 
+        it is possible to know if for example an average value is the monthly or hourly average.  
+        
+        ## [0.1.1] - 2020-01-08
+        
+        ### Fixed
+        - Fixed error in setup.py that listed the wrong dependency. (attr instead of attrs)
+        
+        ## [0.1.0] - 2020-01-08 [YANKED]
+        
+        ### Added
+        - Initial implementation of reading and writing data to Corus device.
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

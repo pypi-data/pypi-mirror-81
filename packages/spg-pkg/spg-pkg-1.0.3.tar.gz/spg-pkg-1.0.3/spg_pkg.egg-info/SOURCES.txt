@@ -1,0 +1,13 @@
+README.md
+setup.py
+spg_pkg/__init__.py
+spg_pkg/spg.py
+spg_pkg/spg_core.py
+spg_pkg.egg-info/PKG-INFO
+spg_pkg.egg-info/SOURCES.txt
+spg_pkg.egg-info/dependency_links.txt
+spg_pkg.egg-info/requires.txt
+spg_pkg.egg-info/top_level.txt
+spg_pkg/python/__init__.py
+spg_pkg/python/sparkplug_b.py
+spg_pkg/python/sparkplug_b_pb2.py

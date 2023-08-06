@@ -1,0 +1,16 @@
+django_changeset/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+django_changeset/migrations/0001_initial.py,sha256=2NW8AXHzbrLlKA1VgU68zXroa8rVcgOAmALG2WD2Fdw,2873
+django_changeset/migrations/0002_add_index_changesettype.py,sha256=b60omYQl74FCXa3XDuCAHOPEkzGx0vjeXexAyihCMco,793
+django_changeset/migrations/0003_restore_soft_delete.py,sha256=el1minAOcBlFwgPyuZnr5mNUb4tsvMm1KQhWbMneDSk,651
+django_changeset/migrations/0004_object_references.py,sha256=AYYi6OLin88hFDZYWoZIpDrexlnolSzl0-rDh0hK3fQ,740
+django_changeset/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_changeset/models/__init__.py,sha256=W4itcsgmGW2AxYzZiJu42GoiCYYkqchwl_WPHky2qMg,114
+django_changeset/models/fields.py,sha256=xprqZNAfOOewtsXIXP6QipVxT0U1TaI8YURm7WuqjQY,696
+django_changeset/models/mixins.py,sha256=Z1gscxm2msAgo4Abf1sggPjY2OkWgBq7WNYik1_-kT4,32291
+django_changeset/models/models.py,sha256=kvO8qI13Pm3eHvu0NihkVx121Wz4HHm1FtXW7zuWm6M,8518
+django_changeset/models/queryset.py,sha256=7LtZbitkEw4oVoUqyd1gtXUUMq9wanJRt1TSUo6dLNI,2751
+django_changeset-1.0.0.dist-info/LICENSE,sha256=sVu9V0SOzZM42g3NS_jQDCrIR3dbDxf7PzfvYHb6w3k,1528
+django_changeset-1.0.0.dist-info/METADATA,sha256=VXXRnRZPGPwhQ_0tb21q5I1EOdLRjw5VXgkQE3PtKuA,7156
+django_changeset-1.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+django_changeset-1.0.0.dist-info/top_level.txt,sha256=AkTHP5Fk_phYZjuPZ4iGPSvO_YFri0kM4PPGtkMkUrY,17
+django_changeset-1.0.0.dist-info/RECORD,,

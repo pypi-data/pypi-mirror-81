@@ -1,0 +1,15 @@
+augmixations/__init__.py,sha256=aZaePmnAxf-padLVpRm9UIR6GIzluIfgfS_HICz5YFk,96
+augmixations/configs.py,sha256=FQCMNXb4sBX7SzynRB7g5uEDgW_7Fn8hKvABq9s7tZI,572
+augmixations/cutmix.py,sha256=hdGJvmyNBqGEAWHcsoYTmNUG4rG6BDF3i11cY6nE6X4,25596
+settings/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/__init__.py,sha256=Ljksb3kibvb1cPX_DEUJ1G8DrtlXycGfEOe1Xmydxzg,72
+src/configs.py,sha256=qbWhX-KwySw2jPe__oLusPLPcm1PDkFC90RlpRzTpKM,678
+src/cutmix.py,sha256=-20GejDzlzuLhmItk2XKKBYxjySXCDAXN_OhTZYxYFY,25494
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=Z1qDAsYhkHRs2PwinGGG8R-1MUIYsg0bdCkgMBpJW3U,14
+tests/test_cutmix.py,sha256=eAMEi5zztCW3QS3nWh9E3R5MxJn-Av49Mo90OSfbHlw,27729
+augmixations-0.0.3.dist-info/LICENSE,sha256=wZyhXw7XpP1SDYjM44GbjhOfnY7PlDJWv33mdIytypE,1062
+augmixations-0.0.3.dist-info/METADATA,sha256=gZ2XwD8yZ5qxZetDIN1POsAjcDgqm36jyhPUvM6FeUo,1174
+augmixations-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+augmixations-0.0.3.dist-info/top_level.txt,sha256=5Yum-X46Tpyl1Gwgza2jo5jZJwKL5mEZKfT7ROfpDjY,28
+augmixations-0.0.3.dist-info/RECORD,,

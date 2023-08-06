@@ -1,0 +1,11 @@
+smartphone_connector/__init__.py,sha256=L0W-JpRd5ED7LfD7DD3c9Y1VFdbr9NDikBsJghQtpFY,41874
+smartphone_connector/colors.py,sha256=oyJpg6vMv3MhKk2NzfHzanB-9BrSX0Zp1GTf0igCeYM,4610
+smartphone_connector/dictx.py,sha256=J6-nPhimbjgi8dZzIJfQeS3vrpwySzlgf2U-3ChqIJo,1029
+smartphone_connector/helpers.py,sha256=H9txrdpGzPCKyjH3PMzjdgG-It_LtUn8aiHmP3x8wZw,2668
+smartphone_connector/timings.py,sha256=TiZse1WRo3DMC01H7NfFlg4J57Ld_n7GYY5VBP3vuSw,837
+smartphone_connector/types.py,sha256=fYO-PN7C5-pyS50xHjquJAx_NPj0ZU7_x08wJx6PaeE,9656
+smartphone_connector-0.0.58.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+smartphone_connector-0.0.58.dist-info/METADATA,sha256=s40kf5GCyCuhPVXs_KBAYbQbhw2cCLCmoKfQN5uKL0c,11734
+smartphone_connector-0.0.58.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+smartphone_connector-0.0.58.dist-info/top_level.txt,sha256=6acgk2wmEeu80tTZIEPtl_0MO0Hq4svdzTOqTKwpN2Y,21
+smartphone_connector-0.0.58.dist-info/RECORD,,

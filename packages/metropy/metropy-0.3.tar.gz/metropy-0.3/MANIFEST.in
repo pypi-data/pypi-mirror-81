@@ -1,0 +1,4 @@
+include README.MD
+include LICENSE
+include metropy/sounds/bar.wav
+include metropy/sounds/beat.wav

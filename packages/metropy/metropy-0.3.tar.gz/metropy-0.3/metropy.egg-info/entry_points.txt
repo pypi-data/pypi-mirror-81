@@ -1,0 +1,3 @@
+[console_scripts]
+metropy = metropy.__main__:main
+

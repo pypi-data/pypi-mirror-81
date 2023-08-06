@@ -1,0 +1,10 @@
+layab/__init__.py,sha256=MitOwOJ6PaxxmO-NGqn_0o-F03Bt4Iq2ZAUWMT7N8u4,162
+layab/_configuration.py,sha256=QQ7bdY0Ed7uwuo8Sh_vqCE5SIBIoUA6OGvdgKd85Vjc,3336
+layab/flask_restx.py,sha256=0lwv7cxMT5LQF0aroIbvnXskJhu1Lz3Ak26BXG0rB4k,4433
+layab/starlette.py,sha256=6P_4xKa2jVUfgN-S8w4HjGYWp3jioYGCyq2caANX6tc,8044
+layab/version.py,sha256=VhhIl6ym-4e562RhdRkYd0FRK4QDDC4xtyapKRvgV4E,371
+layab-2.2.0.dist-info/LICENSE,sha256=xd320zQeoc-jRB1LnCTKMFT2x0yIIqqX64icuabaQtE,1071
+layab-2.2.0.dist-info/METADATA,sha256=JIuQI0Ay17gL2zmhC6qKGLnDti9ON1wfZsXLLsCpDaE,11979
+layab-2.2.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+layab-2.2.0.dist-info/top_level.txt,sha256=8bRypQg7fPyPY9vkFUwoQmUL12BqJ4F45zOVH1Zbrjg,6
+layab-2.2.0.dist-info/RECORD,,

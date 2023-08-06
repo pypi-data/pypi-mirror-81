@@ -1,0 +1,7 @@
+alpaca_trading_algorithm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alpaca_trading_algorithm/tickerpicker.py,sha256=Uac08SkhpzmyC1T6aRBjPLbh16zdPdNtqzOvOwoAw24,3707
+alpaca_trading_algorithm/trader.py,sha256=hCXwQTi_2I7Bx33EHCf5VdlYtae6E25YbgbyXCOIcY8,8035
+alpaca_trading_algorithm-0.0.3.dist-info/METADATA,sha256=KSJ0Ex5pEYODEHoYplgSsaDH3e4uokmdbT7K3WoCrRc,2526
+alpaca_trading_algorithm-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+alpaca_trading_algorithm-0.0.3.dist-info/top_level.txt,sha256=5zGEhpOP2XZK7X7ah6TR2Q60a2V0vvF2O0OucSQazVM,25
+alpaca_trading_algorithm-0.0.3.dist-info/RECORD,,

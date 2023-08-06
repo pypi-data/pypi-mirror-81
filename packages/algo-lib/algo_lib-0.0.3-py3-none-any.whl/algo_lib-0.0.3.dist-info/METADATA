@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: algo-lib
+Version: 0.0.3
+Summary: A small sample package with two search algorithms
+Home-page: https://github.com/austinserif/algo-lib
+Author: Austin Serif
+Author-email: austin@sans-serif.io
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Algo-lib (the Algorithm Library)
+
+This is a simple example package. It contains two searching algorithms. The purpose of this repo is to practice packaging a library for distribution. 
+

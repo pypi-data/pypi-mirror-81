@@ -1,0 +1,35 @@
+[console_scripts]
+sifter = sifter.cli:main
+
+[sifter_extensions]
+address = sifter.tests.address:TestAddress
+allof = sifter.tests.allof:TestAllOf
+anyof = sifter.tests.anyof:TestAnyOf
+ascii_casemap = sifter.comparators.ascii_casemap:ComparatorASCIICasemap
+ascii_casemap_noi = sifter.comparators.ascii_casemap:ComparatorASCIICasemapnoi
+body = sifter.tests.body:TestBody
+discard = sifter.commands.discard:CommandDiscard
+else = sifter.commands.if_cmd:CommandElse
+elseif = sifter.commands.if_cmd:CommandElsIf
+ereject = sifter.commands.reject:CommandEReject
+exists = sifter.tests.exists:TestExists
+false = sifter.tests.false:TestFalse
+fileinto = sifter.commands.fileinto:CommandFileInto
+header = sifter.tests.header:TestHeader
+if = sifter.commands.if_cmd:CommandIf
+ihave = sifter.tests.ihave:TestIHave
+keep = sifter.commands.keep:CommandKeep
+mailto = sifter.notificationmethods.mailto:MailtoNotificationMethod
+not_test = sifter.tests.not_test:TestNot
+notify = sifter.commands.notify:CommandNotify
+notify_method_capability = sifter.tests.notify:TestValidNotifyMethod
+octed = sifter.comparators.octet:ComparatorOctet
+redirect = sifter.commands.redirect:CommandRedirect
+reject = sifter.commands.reject:CommandReject
+require = sifter.commands.require:CommandRequire
+set = sifter.commands.variables:CommandSet
+size = sifter.tests.size:TestSize
+stop = sifter.commands.stop:CommandStop
+true = sifter.tests.true:TestTrue
+valid_notify_method = sifter.tests.notify:TestValidNotifyMethod
+

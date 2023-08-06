@@ -1,0 +1,6 @@
+restless_dj_utils
+restless_dj_utils/resources
+restless_dj_utils/rest_sessions
+restless_dj_utils/rest_sessions/migrations
+restless_dj_utils/rest_sessions/models
+restless_dj_utils/utils

@@ -1,0 +1,9 @@
+numpy
+scipy
+scikit-image
+opencv-python
+dask[complete]
+dask-jobqueue
+greedypy
+zarr
+numcodecs

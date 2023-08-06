@@ -1,0 +1,3 @@
+[console_scripts]
+statify = statify.statify:main
+

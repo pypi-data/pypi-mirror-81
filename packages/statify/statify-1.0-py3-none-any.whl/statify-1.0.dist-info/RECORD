@@ -1,0 +1,10 @@
+statify/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+statify/config.py,sha256=psNpGoO3mxSe-zq-Lh0p0pccSn9SgifBSfAF4DJDdEY,148
+statify/database_client.py,sha256=vHC1SUu0AO-MopEvD5GXm7an37tG7NKP1WIjCVRfUPA,9621
+statify/spotify_client.py,sha256=3qPEBHo99aoDFhO3IALRmV4Z820Zp8x3wuhos1ETiIQ,4735
+statify/statify.py,sha256=6rBRnmeOqzXb0v3kt76LNRq7mQV028yhTugvHcFG9Ig,12083
+statify-1.0.dist-info/METADATA,sha256=fsCuZsVD94-eRck80HSl9M0B00-vPvKtyt2xMFMULLc,687
+statify-1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+statify-1.0.dist-info/entry_points.txt,sha256=FzjVzlG5pU2tZWGoGhnl6dSRDrFEMndPvGQmdyilyUI,50
+statify-1.0.dist-info/top_level.txt,sha256=7FBj-HSdl6D2M9BJiqwtVgOMBy2byVcnpeeSZZ0YBoQ,8
+statify-1.0.dist-info/RECORD,,

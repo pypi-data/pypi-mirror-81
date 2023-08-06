@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: statify
+Version: 1.0
+Summary: Pull your playlist and listening data from the Spotify API
+Home-page: https://github.com/foobuzz/statify
+Author: @foobuzz
+Author-email: foobuzz@fastmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pypika (==0.35.14)
+Requires-Dist: pyyaml (==5.3.1)
+Requires-Dist: setuptools (==49.1.0)
+Requires-Dist: spotipy (==2.16.0)
+Provides-Extra: tests
+Requires-Dist: flake8 (==3.8.4) ; extra == 'tests'
+Requires-Dist: pyfakefs (==4.0.2) ; extra == 'tests'
+Requires-Dist: pytest-mock (==3.1.1) ; extra == 'tests'
+Requires-Dist: pytest (==5.4.3) ; extra == 'tests'
+Requires-Dist: responses (==0.10.15) ; extra == 'tests'
+
+UNKNOWN
+
+

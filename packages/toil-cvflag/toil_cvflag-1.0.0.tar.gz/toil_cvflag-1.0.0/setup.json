@@ -1,0 +1,44 @@
+{
+    "classifiers": [
+        "Intended Audience :: Developers",
+        "Intended Audience :: Science/Research",
+        "License :: OSI Approved :: MIT License",
+        "Natural Language :: English",
+        "Operating System :: Unix",
+        "Operating System :: POSIX",
+        "Programming Language :: Python :: 2 :: Only",
+        "Topic :: Utilities"
+    ],
+    "entry_points": {
+        "console_scripts": [
+            "toil_cvflag=toil_cvflag.cli:main"
+        ]
+    },
+    "setup_requires": [
+        "pytest-runner==2.11.1"
+    ],
+    "install_requires": [
+        "docker==2.5.1",
+        "toil_container>=1.1.0"
+    ],
+    "extras_require": {
+        "test": [
+            "coverage>=4.4.2",
+            "pydocstyle>=2.1.1",
+            "pytest==3.7.4",
+            "pytest-env==0.6.2",
+            "pytest-sugar>=0.9.1",
+            "pylint>=1.8.1",
+            "requests==2.18.4",
+            "tox==2.9.1"
+        ]
+    },
+    "author": "Juan S. Medina, Juan E. Arango",
+    "keywords": [],
+    "license": "BSD",
+    "name": "toil_cvflag",
+    "test_suite": "tests",
+    "long_description": "📘 learn more on `GitHub <https://github.com/papaemmelab/toil_cvflag>`_!",
+    "description": "A toil implementation of caveman flagging for vcf files.",
+    "url": "https://github.com/papaemmelab/toil_cvflag"
+}

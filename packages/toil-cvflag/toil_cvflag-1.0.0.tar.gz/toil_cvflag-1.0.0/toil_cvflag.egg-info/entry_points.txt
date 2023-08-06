@@ -1,0 +1,3 @@
+[console_scripts]
+toil_cvflag = toil_cvflag.cli:main
+

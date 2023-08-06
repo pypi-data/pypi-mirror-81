@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: vendoring
+Version: 0.3.3
+Summary: A command line tool, to simplify vendoring pure Python dependencies.
+Home-page: https://github.com/pradyunsg/vendoring
+Author: Pradyun Gedam
+Author-email: pradyunsg@gmail.com

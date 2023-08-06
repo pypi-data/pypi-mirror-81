@@ -1,0 +1,9 @@
+pyffmpeg/__init__.py,sha256=mA857_xt3d56v1IPVZNdcWWcz73z7LTOlixh2b9K1Ro,2755
+pyffmpeg/misc.py,sha256=JO3NQBu0fNBAxeJbpvEzpmnPUjCytKao5T-6b910NjA,635
+pyffmpeg/pseudo_ffprobe.py,sha256=WA5aSZj9CWvuX44FStbbX4_t4wYRJgJkUT3d0Va-NBo,1867
+pyffmpeg/static/bin/windows/ffmpeg.exe,sha256=Np0Ceh9oQ8FM_216-FNnw9Q3xVl8YUUWEC3xKQPR0rE,45422592
+pyffmpeg_bin-1.8.0.1.dist-info/LICENSE,sha256=MTYF-6xpRekyTUglRweWtbfbwBL1I_3Bgfbm_SNOuI8,11525
+pyffmpeg_bin-1.8.0.1.dist-info/METADATA,sha256=dbX445ONSckS3S1fh2jcPMIIRDZ53xz1yJBz5qQKtp8,1852
+pyffmpeg_bin-1.8.0.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+pyffmpeg_bin-1.8.0.1.dist-info/top_level.txt,sha256=6ns5nAbeBHOXdzCDWApwoWjeEV2lECG_jVs04ejMG0o,9
+pyffmpeg_bin-1.8.0.1.dist-info/RECORD,,

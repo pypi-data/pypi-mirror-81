@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: buscarcep
+Version: 1.0.0
+Summary: Uma simples biblioteca que permite buscar um endereço pelo cep
+Home-page: https://github.com/ghurone/GhuFrac
+Author: Erick Ghuron
+Author-email: ghuron@usp.br
+License: MIT
+Description: UNKNOWN
+Keywords: cep correios buscar ghuron
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Operating System :: OS Independent

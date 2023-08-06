@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: dbnomics-fetcher-toolbox
+Version: 0.0.9
+Summary: Toolbox of functions and data types helping writing DBnomics fetchers.
+Home-page: https://git.nomics.world/dbnomics/dbnomics-fetcher-toolbox
+Author: DBnomics Team
+Author-email: contact@nomics.world
+License: AGPLv3+
+Project-URL: ChangeLog, https://git.nomics.world/dbnomics/dbnomics-fetcher-toolbox/blob/master/CHANGELOG.md
+Project-URL: Documentation, https://dbnomics-fetcher-toolbox.readthedocs.io/
+Description: # dbnomics-fetcher-toolbox
+        
+        Toolbox of functions and data types helping writing DBnomics fetchers.
+        
+        [![Documentation Status](https://readthedocs.org/projects/dbnomics-fetcher-toolbox/badge/?version=latest)](https://dbnomics-fetcher-toolbox.readthedocs.io/en/latest/?badge=latest)
+        
+        ## Installation
+        
+        If you're using this package, you may be working on a DBnomics fetcher.
+        In that case, just add the `dbnomics-fetcher-toolbox` package to your requirements file.
+        
+        Example using [pip-tools](https://github.com/jazzband/pip-tools) in a Python [virtual environment](https://docs.python.org/3/library/venv.html).
+        
+        ```bash
+        # Create a Python virtual environment
+        python -m venv my-fetcher
+        
+        # Activate the virtual environment
+        source my-fetcher/bin/activate
+        
+        # Install dependencies management tool
+        pip install pip-tools
+        
+        # Declare dependency
+        echo dbnomics-fetcher-toolbox >> requirements.in
+        
+        # Freeze dependencies
+        pip-compile
+        
+        # Synchronize the virtual environment with frozen dependencies
+        pip-sync
+        ```
+        
+        Note: this workflow is quite complex due to the Python ecosystem which does not define a standard way to manage dependencies.
+        You can use another packaging tool like [poetry](https://python-poetry.org/).
+        
+        ## Documentation
+        
+        See https://dbnomics-fetcher-toolbox.readthedocs.io/
+        
+        ## Contributing
+        
+        ### Documentation
+        
+        To contribute to the documentation, install:
+        
+        ```
+        pip install --editable .[doc]
+        pip install sphinx-autobuild
+        ```
+        
+        Then launch:
+        
+        ```
+        sphinx-autobuild --watch dbnomics_fetcher_toolbox doc doc/_build/html
+        ```
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: doc
+Provides-Extra: test

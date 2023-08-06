@@ -1,0 +1,13 @@
+langumo_ko/__init__.py,sha256=m0OtXqDOxm4fxqHFNAc8jKM41YSQUUl8Rl9YLdbc41g,167
+langumo_ko/utils.py,sha256=GJFmdd84me0vfWRDEJG6AckdIyMnrNvz5AEL4xk_7Sk,983
+langumo_ko/moducorpus/__init__.py,sha256=Nde7ZfPqDIqeMLfAHIHUP7c6T23a7NWoLiMGcwbZKOE,179
+langumo_ko/moducorpus/base.py,sha256=BNfgyAVC_6RExXMTWDo-eBMXzRhhVt11cCHQl_2gwLc,1260
+langumo_ko/moducorpus/parsing.py,sha256=Qc1r_nx-mAgw_PLaNcuXbOgUPBJ0pEp917JJ8Tlz0sQ,859
+langumo_ko/namuwiki/__init__.py,sha256=kldu9Z_z147rnM5rEazUcI3olx0Sew3z0fegQ5RZreE,55
+langumo_ko/namuwiki/parsing.py,sha256=fZgL1eCJOtmxGGIkTcvMYmQGZwizlhOa1gZL9BRjVgo,1131
+langumo_ko/namuwiki/rendering.py,sha256=OKIjB4T2a813aPTCPIqpd-TQX0r-A9S-UwN9H64PJ8U,5788
+langumo_ko-0.1.4.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+langumo_ko-0.1.4.dist-info/METADATA,sha256=LU8w-0m10wHEgeWPNPc_vil1rQiZD_orqTJtRu-Lu7E,3272
+langumo_ko-0.1.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+langumo_ko-0.1.4.dist-info/top_level.txt,sha256=pNY7ZYPqI6Mm89bRK-YurWpKBUzJ78ycvLsa7yg_GgY,11
+langumo_ko-0.1.4.dist-info/RECORD,,

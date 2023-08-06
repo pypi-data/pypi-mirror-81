@@ -1,0 +1,33 @@
+{
+    "conan_version": "",
+    "python_pip_args": [],
+    "remotes": {
+        "conan-center": {
+            "url" : "https://conan.bintray.com",
+            "user": "myuser",
+            "pass": "pypassword"
+        }
+    },
+
+    "profiles": {
+        "vc100": {
+            "settings": {
+                "os": "Windows",
+                "os_build": "Windows",
+                "compiler": "Visual Studio",
+                "compiler.version": 10,
+                "compiler.runtime": "MD",
+                "arch": "x86_64",
+                "arch_build": "x86_64",
+                "build_type": "Release"
+            },
+            "options": {
+            },
+            "env": {
+            },
+            "build_requires": [
+            ]
+
+        }
+    }
+}

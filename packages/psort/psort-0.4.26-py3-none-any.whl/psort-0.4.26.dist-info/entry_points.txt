@@ -1,0 +1,3 @@
+[console_scripts]
+psort = psort.main:run_from_cmdline
+

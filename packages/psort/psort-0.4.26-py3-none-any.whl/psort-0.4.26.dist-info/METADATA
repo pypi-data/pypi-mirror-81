@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: psort
+Version: 0.4.26
+Summary: Graphical application for identifying simple and complex purkinje spikes
+Home-page: https://github.com/esedaghatnejad/psort
+Author: Ehsan Sedaghat-Nejad
+Author-email: esedagh1@jhu.edu
+License: GPL
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Requires-Dist: deepdish (>=0.3.5)
+Requires-Dist: neo (>=0.8.0)
+Requires-Dist: pymatreader (>=0.0.23)
+Requires-Dist: umap-learn (>=0.4.6)
+Requires-Dist: pyqt5 (>=5.11.2)
+Requires-Dist: numpy (>=1.19.1)
+Requires-Dist: matplotlib (>=3.3.1)
+Requires-Dist: numba (>=0.50.1)
+Requires-Dist: scipy (>=1.5.2)
+Requires-Dist: h5py (>=2.10.0)
+Requires-Dist: pyqtgraph (>=0.11.0)
+Requires-Dist: scikit-learn (>=0.23.2)
+Requires-Dist: pyyaml
+
+# psort
+purkinjeSort
+
+## Packaging branch
+This branch was created by Kyle Poe to begin the process of turning this project into a Python package.
+
+

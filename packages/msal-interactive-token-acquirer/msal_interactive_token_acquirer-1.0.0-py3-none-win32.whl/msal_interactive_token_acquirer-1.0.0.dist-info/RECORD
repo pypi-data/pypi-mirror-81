@@ -1,0 +1,7 @@
+msal_interactive_token_acquirer/__init__.py,sha256=npWOPhAxqDuCJp7_LShFwge45Ae01l1CQ2pcB7JE0NY,217
+msal_interactive_token_acquirer/msal_interactive_token_acquirer.py,sha256=6MIkQ2kSmv1djdiP2KFluNuZWZ8up_fgZesJ94JvWoQ,3069
+msal_interactive_token_acquirer/requests_auth.py,sha256=zTl_z-Ufd3SVG4b_oJZYivITebI6k9-kzHY9ymCglrg,330
+msal_interactive_token_acquirer-1.0.0.dist-info/METADATA,sha256=HqwhUAXFNKL_BN0dEFAvmq9cgtVsBZvSTkC0ZU_mdjw,3798
+msal_interactive_token_acquirer-1.0.0.dist-info/WHEEL,sha256=O0-cWoYkBKgHUj-TiXHZs-pjY6GykIiSzhJ6dlL3aZM,99
+msal_interactive_token_acquirer-1.0.0.dist-info/top_level.txt,sha256=lMgOcm-PBPGhqtnLIe8Xd0kjYhVel-q2EwC9At2F5qM,32
+msal_interactive_token_acquirer-1.0.0.dist-info/RECORD,,

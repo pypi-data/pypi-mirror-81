@@ -1,0 +1,15 @@
+README.md
+setup.py
+maznet/__init__.py
+maznet/data.py
+maznet/layers.py
+maznet/loss.py
+maznet/nn.py
+maznet/optim.py
+maznet/tensor.py
+maznet/train.py
+maznet.egg-info/PKG-INFO
+maznet.egg-info/SOURCES.txt
+maznet.egg-info/dependency_links.txt
+maznet.egg-info/requires.txt
+maznet.egg-info/top_level.txt

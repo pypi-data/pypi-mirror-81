@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: OpenDiscord
+Version: 0.0.2
+Summary: An API wrapper for common discord bot listing sites.
+Home-page: https://github.com/pjotr07740/OpenDiscord
+Author: Pjotr
+Author-email: pjotrlspdfr@outlook.com
+License: UNKNOWN
+Description: <div class="header">
+          <h1>OpenDiscord</h1>
+          <img src="https://img.shields.io/discord/715558840959238154">
+          <img src="https://img.shields.io/github/repo-size/pjotr07740/OpenDiscord">
+          <img src="https://img.shields.io/pypi/dm/OpenDiscord">
+          <img src="https://img.shields.io/github/issues/pjotr07740/OpenDiscord">
+          <img src="https://img.shields.io/pypi/l/OpenDiscord">
+        </div>
+        <h2>About</h2>
+        <p>OpenDiscord is an API Wrapper for Discord Bot listing sites.</p>
+        <h2>Install</h2>
+        <p>Coming soon</p>
+        <h2>Documentation</h2>
+        <p>Comming soon</p>
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

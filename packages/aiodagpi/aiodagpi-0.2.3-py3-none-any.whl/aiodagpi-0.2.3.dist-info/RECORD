@@ -1,0 +1,9 @@
+aiodagpi/__init__.py,sha256=AymC4PN-mz8UUYNPjGsYpli9q-OmRyIhjH-uF_JjgIE,1334
+aiodagpi/_http.py,sha256=mqvgd74pB8kFKBstP-HqM6qwGKlgoqaouITMxHnf1bI,4151
+aiodagpi/client.py,sha256=vkVtSyik_qa2rJrcMRrbHWyO6_JsBRRSHz_-IKaSk70,4541
+aiodagpi/exceptions.py,sha256=RcUTNuEbPJnQ1BWy_zw1Pr0l0SMB2X33jgoUysd2MAs,5194
+aiodagpi-0.2.3.dist-info/LICENSE,sha256=v5RT_rPH2h0XWjO7-lVJSgQSxokgRbrj4ienbx8_8gE,1076
+aiodagpi-0.2.3.dist-info/METADATA,sha256=ry_jFPciNfN3RtZXKiJyidCT7gw_rO0EAycmmrtEZ5I,3294
+aiodagpi-0.2.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aiodagpi-0.2.3.dist-info/top_level.txt,sha256=dBlXU4AufcLmoadO86cr9anPVxOl7yGVJXuptjhKBe4,9
+aiodagpi-0.2.3.dist-info/RECORD,,

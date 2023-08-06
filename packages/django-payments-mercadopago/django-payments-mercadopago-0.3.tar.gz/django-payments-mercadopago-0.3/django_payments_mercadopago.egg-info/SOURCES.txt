@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+django_payments_mercadopago.egg-info/PKG-INFO
+django_payments_mercadopago.egg-info/SOURCES.txt
+django_payments_mercadopago.egg-info/dependency_links.txt
+django_payments_mercadopago.egg-info/not-zip-safe
+django_payments_mercadopago.egg-info/requires.txt
+django_payments_mercadopago.egg-info/top_level.txt
+payments_mercadopago/__init__.py
+payments_mercadopago/test_mercadopago.py

@@ -1,0 +1,4 @@
+[console_scripts]
+aws-coco=aws_coco.main:run
+coco=aws_coco.main:run
+

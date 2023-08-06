@@ -1,0 +1,9 @@
+makefile_creator/__init__.py,sha256=PwIHFdjVslZPqshaPYl6qS610jsVQZ6I3EKX4ezwucY,509
+makefile_creator/__main__.py,sha256=xLm42i3XIObNL79J9G7kCKLjtBEzeu0PhbvxQMb9VVQ,798
+makefile_creator/config.py,sha256=XSiPJmOQBQYGOqQcGIr7NJ7BGBkaO6B1cCNokGpzXUA,1066
+makefile_creator/utils.py,sha256=FjSPCuhx4Zo_A-fC6V7nP1_P_TPicWz1ciQeW8WyZdE,11593
+makefile_creator-0.0.5b0.dist-info/LICENSE,sha256=7s0ttORF9iSfshiUJpWkNHr0g7XjXYwSOYLKkL-1Lyg,1112
+makefile_creator-0.0.5b0.dist-info/METADATA,sha256=kdI8lj8pqj_ixw01GtMOtma1xReXTDItQLbMH6jVxnw,2617
+makefile_creator-0.0.5b0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+makefile_creator-0.0.5b0.dist-info/top_level.txt,sha256=eUtg6INzNYzxtyCDt0iFUG4Fysbc4IKdw795ywY0eiA,17
+makefile_creator-0.0.5b0.dist-info/RECORD,,

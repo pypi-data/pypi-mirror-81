@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: installneethu
+Version: 1.0.0
+Summary: Read the latest Real Python tutorials
+Home-page: https://github.com/neethu567/neethuinstall.git
+Author: Neethu Antony
+Author-email: neethuantonyv@gmail.com
+License: MIT
+Description: #Random String
+        A python package to get a random string with fixed length
+        
+        ###usage
+        
+        It will provide u a randow string
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown

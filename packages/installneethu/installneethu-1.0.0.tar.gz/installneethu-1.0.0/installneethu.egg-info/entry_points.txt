@@ -1,0 +1,3 @@
+[console_scripts]
+installneethu = neethuantony.view:main
+

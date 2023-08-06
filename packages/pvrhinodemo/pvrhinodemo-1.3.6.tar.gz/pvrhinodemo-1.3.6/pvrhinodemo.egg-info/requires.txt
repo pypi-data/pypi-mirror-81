@@ -1,0 +1,5 @@
+enum34
+numpy
+pvrhino==1.3.5
+pyaudio
+soundfile

@@ -1,0 +1,12 @@
+LDI/DataDirectories.json,sha256=GL4TjH0c85KdeGmX0aH3EPaMIAz9YqXDQwXHTpKqqSs,399
+LDI/DataImportSettings.json,sha256=drxN4xqUB8HmmVShKJsuheoeI8B41rznsFDPOhPnkNo,189
+LDI/LDI.py,sha256=SfcWEJrD5Cib0MfifGZwMT9uDlgkdAHtFxeHAcxSCoI,55714
+LDI/LumericalDataImport.py,sha256=QeOH46YDayYokD9NYfW0LUiLmJevzmCVNglvkmmz2yQ,16428
+LDI/TestSetup.py,sha256=CHWZTb5H_CqFJ5y54y7kQDnnJ13ovM7Or1W3GBJZ4vQ,1804
+LDI/__init__.py,sha256=ewKc3L6909qMfsjmZVQipc_fM0Y-aaIFjfJNDWoocKk,10
+LDI_DeltaMod-0.0.2.data/scripts/LDI.py,sha256=SfcWEJrD5Cib0MfifGZwMT9uDlgkdAHtFxeHAcxSCoI,55714
+LDI_DeltaMod-0.0.2.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+LDI_DeltaMod-0.0.2.dist-info/METADATA,sha256=cE8S704d4gD1tdfYCl89f4zdWA_5GvJdmtqr92_UukU,12656
+LDI_DeltaMod-0.0.2.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+LDI_DeltaMod-0.0.2.dist-info/top_level.txt,sha256=yTVzQGHgHU3cEPtAQHixJ_hhyHPKdM56OQ1tzMMYqWQ,4
+LDI_DeltaMod-0.0.2.dist-info/RECORD,,

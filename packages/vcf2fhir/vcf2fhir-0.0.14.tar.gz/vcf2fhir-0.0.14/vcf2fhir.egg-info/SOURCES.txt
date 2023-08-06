@@ -1,0 +1,16 @@
+README.md
+setup.cfg
+setup.py
+vcf2fhir/__init__.py
+vcf2fhir/common.py
+vcf2fhir/converter.py
+vcf2fhir/fhir_helper.py
+vcf2fhir/gene_ref_seq.py
+vcf2fhir/json_generator.py
+vcf2fhir.egg-info/PKG-INFO
+vcf2fhir.egg-info/SOURCES.txt
+vcf2fhir.egg-info/dependency_links.txt
+vcf2fhir.egg-info/requires.txt
+vcf2fhir.egg-info/top_level.txt
+vcf2fhir/test/__init__.py
+vcf2fhir/test/test_vcf2fhir.py

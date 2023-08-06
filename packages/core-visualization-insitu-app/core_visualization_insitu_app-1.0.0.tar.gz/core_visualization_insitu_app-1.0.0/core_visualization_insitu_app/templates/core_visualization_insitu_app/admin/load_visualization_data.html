@@ -1,0 +1,16 @@
+{% extends 'core_main_app/_render/admin/theme/tools/box.html' %}
+
+{% block box_title %}Visualization Cache Management{% endblock %}
+
+{% block box_body %}
+
+<button type="button" name="" id="build-visualization-data" class="btn btn-default">Load all images</button>
+
+{% include 'core_visualization_insitu_app/admin/data_table.html' %}
+
+{% include 'core_visualization_insitu_app/common/loading_background.html' %}
+
+{% endblock %}
+
+{% block box_footer %}
+{% endblock %}

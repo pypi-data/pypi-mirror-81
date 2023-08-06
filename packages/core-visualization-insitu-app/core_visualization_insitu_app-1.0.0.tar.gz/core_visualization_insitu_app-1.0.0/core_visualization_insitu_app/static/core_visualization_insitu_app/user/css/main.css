@@ -1,0 +1,24 @@
+.button {
+  margin: auto;
+  width: 20%;
+  padding: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.button_container {
+text-align:center;
+}
+
+.button:focus{
+  background: #e5e5e5;
+  -webkit-box-shadow: inset 0px 0px 5px #808080;
+     -moz-box-shadow: inset 0px 0px 5px #808080;
+          box-shadow: inset 0px 0px 5px #808080;
+   outline: none;
+   }
+
+.frame {
+  border: 2px solid;
+  border-radius: 8px;
+}

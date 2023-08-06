@@ -1,0 +1,26 @@
+<div class="tab">
+    <button class="meltPooltablinks" onclick="openMeltPoolTab(event, 'melt-pool-tab1')" id="meltPoolDefaultOpen">
+        Meltpools View
+    </button>
+    <button class="meltPooltablinks" onclick="openMeltPoolTab(event, 'melt-pool-tab2')">Meltpools Area</button>
+</div>
+
+<div id="melt-pool-tab1" class="meltPooltabcontent">
+    {% include 'core_visualization_insitu_app/user/melt_pool/tab1.html' %}
+</div>
+
+<div id="melt-pool-tab2" class="meltPooltabcontent">
+    {% include 'core_visualization_insitu_app/user/melt_pool/tab2.html' %}
+</div>
+
+<div class="input-access-layer">
+
+    <button type="button" id="download-melt-pool" class="btn btn-info btn-download">Download Image</button>
+
+    <input type="text" name="enter" class="input-box" placeholder="Layer Number.." id="access-layer-number-melt-pool"/>
+    <input type="button" value="Go" class="btn btn-info btn-validate" id="access-layer-validate-melt-pool"/>
+
+    <div id="melt-pool-page-number" class="layer-number-info"></div>
+
+</div>
+

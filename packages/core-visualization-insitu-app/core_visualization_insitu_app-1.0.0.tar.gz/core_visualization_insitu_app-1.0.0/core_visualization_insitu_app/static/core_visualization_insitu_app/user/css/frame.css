@@ -1,0 +1,225 @@
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  display: inline-block;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 99%;
+  height: 50px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  align-content: center;
+  display: inline-block;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 13px;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.laywerWiseTabcontent {
+  display: none;
+  padding: 6px 12px;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+}
+
+/* Style the tab content */
+.meltPoolTabcontent {
+  display: none;
+  padding: 6px 12px;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+}
+
+/* Style the tab content */
+.buildCommandTabcontent {
+  display: none;
+  padding: 6px 12px;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+#stl-document {
+        align-content: center;
+        position: relative;
+        display: inline-block;
+        border: 2px solid;
+        float: right;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        width: 400px;
+        height: 300px;
+        outline: none;
+
+}
+
+#stl-inset {
+    position: absolute;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 0px;
+    left: 5px;
+    bottom: 5px;
+    z-index: 100;
+    width: 80px;
+    height: 80px;
+
+}
+
+#data-info {
+        display: inline-block;
+        float: left;
+}
+
+#data-view {
+    display: inline-block;
+    padding: 0px 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    min-width: 600px;
+
+}
+
+h3 {
+    text-align: center;
+}
+
+img {
+  width: 99.7%;
+  height: auto;
+  display: block;
+}
+
+.insitu-frame {
+    text-align: center;
+    vertical-align: top;
+    vertical-align: bottom;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-right: 3px;
+    margin-left: 3px;
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    min-width: 400px;
+}
+
+.insitu-img {
+    width: 99%;
+    height: auto;
+    align-content: center;
+    display: inline-block;
+}
+
+#data-frames {
+    text-align: center;
+    align-content: center;
+    display: inline-block;
+    width: 100%;
+    min-width: 1200px;
+    height: auto;
+    flex-wrap: wrap;
+ }
+
+.visualization-selection {
+    display: inline-block;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.select-forms {
+    display: inline-block;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+input[type=text] {
+    width: 120px;
+    height: 36px;
+    font-size: 13px;
+    text-align: center;
+    border: 2px solid #34B5EC;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+input[type=button] {
+    min-width: 30px;
+    height: 40px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.btn-insitu {
+    min-width: 80px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.btn-download {
+    min-width: 120px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+.layer-number-info {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 30px;
+    display: inline-block;
+}
+
+.layer-change {
+    text-align: center;
+    display: inline-block;
+}
+
+.input-access-layer {
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 10px;
+}

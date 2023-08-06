@@ -1,0 +1,53 @@
+{% load staticfiles %}
+
+{% if data.error %}
+<div class="alert alert-danger">
+    {{data.error}}
+</div>
+{% else %}
+
+<link href="{% static 'core_visualization_insitu_app/user/css/main.css' %}" rel="stylesheet">
+<link href="{% static 'core_visualization_insitu_app/user/css/frame.css' %}" rel="stylesheet">
+
+<div id='insitu' class="visualization-selection">
+
+    <h3>Visualization Selection</h3>
+
+    {% include 'core_visualization_insitu_app/user/select_wrapper_forms.html' %}
+</div>
+
+<div id="data-view">
+
+    <h3>Data information</h3>
+
+    <div id='data-info' class="parts-info">
+        {% include 'core_visualization_insitu_app/user/insitu_data_information.html' %}
+
+    </div>
+
+    <div id='stl-document' class="parts-info">
+        {% include 'core_visualization_insitu_app/user/stl_document.html' %}
+    </div>
+
+</div>
+
+<div id='data-frames'>
+    <div id="build-command" class="insitu-frame">
+        <h3>Build Commands</h3>
+        {% include 'core_visualization_insitu_app/user/build_command_wrapper.html' %}
+    </div>
+
+    <div id="melt-pool" class="insitu-frame">
+        <h3>Melt Pool</h3>
+        {% include 'core_visualization_insitu_app/user/melt_pool_wrapper.html' %}
+    </div>
+
+    <div id="layerwise-image" class="insitu-frame">
+        <h3>Layer Wise</h3>
+        {% include 'core_visualization_insitu_app/user/layer_wise_wrapper.html' %}
+    </div>
+</div>
+
+{% include 'core_visualization_insitu_app/common/loading_background.html' %}
+
+{% endif %}

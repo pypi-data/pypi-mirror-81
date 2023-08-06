@@ -1,0 +1,8 @@
+Django==2.2.10
+django-mongoengine==0.3.3
+django-simple-menu==1.2.1
+mock==2.0.0
+mongoengine==0.18.2
+celery==4.1.1
+pandas==0.24.2
+nodejs==0.1.1

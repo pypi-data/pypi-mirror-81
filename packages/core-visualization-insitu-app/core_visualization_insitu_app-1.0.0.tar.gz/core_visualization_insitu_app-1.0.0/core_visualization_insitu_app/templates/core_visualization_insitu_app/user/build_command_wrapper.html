@@ -1,0 +1,36 @@
+<div class="tab">
+    <button class="buildCommandtablinks" onclick="openBuildCommandTab(event, 'build-command-tab1')"
+            id="buildCommandDefaultOpen">Scan Pattern
+    </button>
+    <button class="buildCommandtablinks" onclick="openBuildCommandTab(event, 'build-command-tab2')">Laser Power (W)
+    </button>
+    <button class="buildCommandtablinks" onclick="openBuildCommandTab(event, 'build-command-tab3')">Energy Density
+        (P/V)
+    </button>
+</div>
+
+<div id="build-command-tab1" class="buildCommandtabcontent">
+    {% include 'core_visualization_insitu_app/user/build_command/tab1.html' %}
+</div>
+
+<div id="build-command-tab2" class="buildCommandtabcontent">
+    {% include 'core_visualization_insitu_app/user/build_command/tab2.html' %}
+</div>
+
+<div id="build-command-tab3" class="buildCommandtabcontent">
+    {% include 'core_visualization_insitu_app/user/build_command/tab3.html' %}
+</div>
+
+<div class="input-access-layer">
+
+    <button type="button" id="download-build-command" class="btn btn-info btn-download">Download Image</button>
+
+    <input type="text" name="enter" class="input-box" placeholder="Layer Number.."
+           id="access-layer-number-build-command"/>
+    <input type="button" value="Go" class="btn btn-info btn-validate" id="access-layer-validate-build-command"/>
+
+    <div id="build-command-page-number" class="layer-number-info">
+
+    </div>
+
+</div>

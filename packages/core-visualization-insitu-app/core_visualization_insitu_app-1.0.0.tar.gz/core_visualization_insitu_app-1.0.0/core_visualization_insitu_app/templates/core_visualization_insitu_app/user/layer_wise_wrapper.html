@@ -1,0 +1,26 @@
+<div class="tab">
+    <button class="layerWisetablinks" onclick="openLayerWiseTab(event, 'layer-wise-tab1')" id="layerWiseDefaultOpen">
+        Before
+    </button>
+    <button class="layerWisetablinks" onclick="openLayerWiseTab(event, 'layer-wise-tab2')">After</button>
+</div>
+
+<div id="layer-wise-tab1" class="layerWisetabcontent">
+    {% include 'core_visualization_insitu_app/user/layer_wise/tab1.html' %}
+</div>
+
+<div id="layer-wise-tab2" class="layerWisetabcontent">
+    {% include 'core_visualization_insitu_app/user/layer_wise/tab2.html' %}
+</div>
+
+<div class="input-access-layer">
+
+    <button type="button" id="download-layer-wise" class="btn btn-info btn-download">Download Image</button>
+
+    <input type="text" name="enter" class="input-box" placeholder="Layer Number.." id="access-layer-number-layer-wise"/>
+    <input type="button" value="Go" class="btn btn-info btn-validate" id="access-layer-validate-layer-wise"/>
+
+    <div id="layer-wise-page-number" class="layer-number-info"></div>
+
+</div>
+

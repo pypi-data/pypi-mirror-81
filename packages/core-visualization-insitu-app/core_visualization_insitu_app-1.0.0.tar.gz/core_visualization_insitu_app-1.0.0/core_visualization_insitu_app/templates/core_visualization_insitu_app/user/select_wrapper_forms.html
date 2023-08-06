@@ -1,0 +1,15 @@
+{% load staticfiles %}
+
+<form id="select-project-dropdown-form" class="select-forms">
+    {% csrf_token %}
+    {{ data.projects }}
+</form>
+
+<div id="select_insitu_forms" class="select-forms">
+
+    {% include 'core_visualization_insitu_app/user/select_insitu_forms.html' %}
+
+</div>
+
+
+

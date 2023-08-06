@@ -1,0 +1,19 @@
+site_name: "GCGC Documentation"
+site_url: http://gcgc.trenthauck.com/
+theme:
+  name: "material"
+  logo:
+    icon: "bug_report"
+  palette:
+    primary: "dark blue"
+    accent: "white"
+  font:
+    code: "PT Mono"
+markdown_extensions:
+  - codehilite
+  - admonition
+plugins:
+  - search
+  - mkdocstrings
+extra_css:
+  - "stylesheets/extra.css"

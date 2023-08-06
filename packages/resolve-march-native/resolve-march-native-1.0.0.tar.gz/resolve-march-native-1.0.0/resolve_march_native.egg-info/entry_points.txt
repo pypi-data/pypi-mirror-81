@@ -1,0 +1,3 @@
+[console_scripts]
+resolve-march-native = resolve_march_native.__main__:main
+

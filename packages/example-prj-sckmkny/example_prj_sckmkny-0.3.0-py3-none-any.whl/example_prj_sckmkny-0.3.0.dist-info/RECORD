@@ -1,0 +1,10 @@
+example_pkg_sckmkny/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+example_pkg_sckmkny/__main__.py,sha256=jZuqt8astSBENXS22yX9r_L57HM6hlL4n1Y_adYIOjg,51
+example_pkg_sckmkny/main.py,sha256=Gz8RAidVQVjjNBE8pB90PQjcaZWK3-hGYWD-cw0aBiM,117
+example_pkg_sckmkny/sub_pkg/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+example_pkg_sckmkny/sub_pkg/main.py,sha256=VmQTUhaR8gsVTK5QOyoE4kIpJVD-64h5er-ZB5KHcBE,39
+example_prj_sckmkny-0.3.0.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+example_prj_sckmkny-0.3.0.dist-info/METADATA,sha256=9xZIEY6VfIr7Ssd3P05KUSeb5nuYHf9Xj5rUI9OeYZI,726
+example_prj_sckmkny-0.3.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+example_prj_sckmkny-0.3.0.dist-info/top_level.txt,sha256=TvvhJTME5PvKQ40EyIjUe-2K7xkli3tpSG09HsXgjCA,20
+example_prj_sckmkny-0.3.0.dist-info/RECORD,,

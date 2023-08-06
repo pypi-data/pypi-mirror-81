@@ -1,0 +1,15 @@
+README.md
+setup.py
+termux/API.py
+termux/Camera.py
+termux/Clipboard.py
+termux/Notification.py
+termux/Sensors.py
+termux/TTS.py
+termux/Wifi.py
+termux/__init__.py
+termux/scrip.py
+termux_api.egg-info/PKG-INFO
+termux_api.egg-info/SOURCES.txt
+termux_api.egg-info/dependency_links.txt
+termux_api.egg-info/top_level.txt

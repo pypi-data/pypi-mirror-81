@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: salmanpdf
+Version: 1.1.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: Mera pdf ka package hai , pip se install karsakte isku.
+        Iske andar sirf ek module hai jiska naam pdf2text hai samjhe.
+        isme bug fix kardiye bhai.
+Platform: UNKNOWN

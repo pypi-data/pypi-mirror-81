@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+passninja/__init__.py
+passninja/passninja.py
+passninja.egg-info/PKG-INFO
+passninja.egg-info/SOURCES.txt
+passninja.egg-info/dependency_links.txt
+passninja.egg-info/requires.txt
+passninja.egg-info/top_level.txt
+passninja.egg-info/zip-safe

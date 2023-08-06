@@ -1,0 +1,3 @@
+[console_scripts]
+gfi = good_first_issues.main:cli
+

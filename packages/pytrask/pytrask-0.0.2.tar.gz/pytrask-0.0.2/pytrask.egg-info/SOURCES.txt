@@ -1,0 +1,11 @@
+README.md
+setup.py
+pytrask/__init__.py
+pytrask/__main__.py
+pytrask/pytraskgui.py
+pytrask/trasker.py
+pytrask.egg-info/PKG-INFO
+pytrask.egg-info/SOURCES.txt
+pytrask.egg-info/dependency_links.txt
+pytrask.egg-info/requires.txt
+pytrask.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+[console_scripts]
+arc=xairos-arc.cli:main
+

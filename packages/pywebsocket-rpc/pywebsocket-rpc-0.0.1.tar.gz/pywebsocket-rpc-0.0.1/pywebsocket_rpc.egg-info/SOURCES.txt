@@ -1,0 +1,5 @@
+README.md
+pywebsocket_rpc.egg-info/PKG-INFO
+pywebsocket_rpc.egg-info/SOURCES.txt
+pywebsocket_rpc.egg-info/dependency_links.txt
+pywebsocket_rpc.egg-info/top_level.txt

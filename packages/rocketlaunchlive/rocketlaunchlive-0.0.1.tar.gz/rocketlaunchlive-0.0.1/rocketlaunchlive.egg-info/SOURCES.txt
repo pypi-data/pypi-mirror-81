@@ -1,0 +1,7 @@
+README.md
+setup.py
+rocketlaunchlive/__init__.py
+rocketlaunchlive.egg-info/PKG-INFO
+rocketlaunchlive.egg-info/SOURCES.txt
+rocketlaunchlive.egg-info/dependency_links.txt
+rocketlaunchlive.egg-info/top_level.txt

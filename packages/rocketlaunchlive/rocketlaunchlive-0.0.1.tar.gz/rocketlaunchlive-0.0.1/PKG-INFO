@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: rocketlaunchlive
+Version: 0.0.1
+Summary: Rocket Launch Live - Next 5 Launches API Wrapper.
+Home-page: https://github.com/djtimca/spacex-api
+Author: Tim Empringham
+Author-email: tim.empringham@live.ca
+License: apache-2.0
+Download-URL: https://github.com/djtimca/rocketlaunchlive-api/archive/v_001.tar.gz
+Description: # RocketLaunchLive-API (rocketlaunchlive)
+        PyPi Integration to the RocketLaunch.live free API access (next 5 launches)
+        
+        ## Available Methods
+        
+        There is one available method which is available using the free access to https://rocketlaunch.live using their endpoint https://fdo.rocketlaunch.live/json/launches/next/5
+        
+        ### get_next_launches()
+        Returns the next 5 rocket launches from the endpoint in JSON format.
+        
+        Note: This library was built specifically for integration to Home Assistant.
+        
+Keywords: Rocket,Launch
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

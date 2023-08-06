@@ -1,0 +1,14 @@
+README.rst
+setup.cfg
+setup.py
+matrix_rotation/__init__.py
+matrix_rotation/image_rotation.py
+matrix_rotation/matrix_rotation.py
+matrix_rotation/matrix_rotation_cli.py
+matrix_rotation.egg-info/PKG-INFO
+matrix_rotation.egg-info/SOURCES.txt
+matrix_rotation.egg-info/dependency_links.txt
+matrix_rotation.egg-info/entry_points.txt
+matrix_rotation.egg-info/not-zip-safe
+matrix_rotation.egg-info/requires.txt
+matrix_rotation.egg-info/top_level.txt

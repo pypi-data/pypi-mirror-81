@@ -1,0 +1,121 @@
+:root {
+    --running-bg: rgba(0, 0, 0, 0);
+    --running-txt: #ffe366;
+    --finished-bg: #9fe279;
+    --finished-txt: black;
+    --errored-bg: #ff4747;
+    --errored-txt: white;
+}
+.juniper-notebook {
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
+    width: 80%;
+    max-width: 1200px;
+}
+.juniper-cell {
+    margin: 50px 0 50px 0;
+    border: var(--main-bg);
+    background: var(--main-bg);
+    color: var(--main-txt);
+}
+.juniper-cell pre {
+    overflow-x: scroll;
+    padding: 0 25px;
+    font-size: 1em;
+    letter-spacing: 0.3px;
+    word-spacing: 1px;
+    color: var(--main-txt);
+}
+.juniper-input {
+    padding: 20px;
+    overflow-x: scroll;
+}
+.juniper-output {
+    border-top: none;
+    height: auto;
+    min-height: 30px;
+    max-height: 500px;
+    overflow: scroll;
+    background: var(--main-txt);
+    color: var(--main-bg);
+    border: 2px solid var(--main-bg);
+}
+.juniper-output pre {
+    color: var(--main-bg);
+}
+.juniper-button {
+    padding: 4px 12px 4px 12px;
+    border: none;
+    position: absolute;
+    top: -38px;
+    right: 0;
+    transition: all 0.15s ease-in-out;
+    background: var(--main-bg);
+    color: var(--main-txt);
+}
+.juniper-button:hover {
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+    background: var(--hl-bg);
+}
+.juniper-button:focus {
+    outline: none;
+}
+.juniper-button.finished {
+    background: var(--finished-bg);
+    color: var(--finished-txt);
+}
+.juniper-button.errored {
+    background: var(--errored-bg);
+    color: var(--errored-txt);
+}
+.CodeMirror {
+    padding: 0 !important;
+}
+.CodeMirror-scroll {
+    height: auto;
+}
+.cursor {
+    border-right: 0.01em solid var(--main-txt);
+}
+.spinner {
+    width: 40px;
+    text-align: center;
+    margin: 4px 0px 5px 0px;
+}
+.spinner > div {
+    width: 10px;
+    height: 10px;
+    margin: 0px 1px;
+    background-color: var(--main-txt);
+  
+    border-radius: 100%;
+    display: inline-block;
+    -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+    animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+.spinner .bounce1 {
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+}
+.spinner .bounce2 {
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+}
+@-webkit-keyframes sk-bouncedelay {
+    0%, 80%, 100% { -webkit-transform: scale(0) }
+    40% { -webkit-transform: scale(1.0) }
+}
+@keyframes sk-bouncedelay {
+    0%, 80%, 100% { 
+      -webkit-transform: scale(0);
+      transform: scale(0);
+    } 40% { 
+      -webkit-transform: scale(1.0);
+      transform: scale(1.0);
+    }
+}
+.jp-OutputArea > :first-child {
+    border-top: none !important;
+}

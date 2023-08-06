@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+logicycl/__init__.py
+logicycl/core.py
+logicycl/entity.py
+logicycl.egg-info/PKG-INFO
+logicycl.egg-info/SOURCES.txt
+logicycl.egg-info/dependency_links.txt
+logicycl.egg-info/top_level.txt
+test/test.py

@@ -1,0 +1,8 @@
+README.md
+setup.py
+tagsimplify/__init__.py
+tagsimplify.egg-info/PKG-INFO
+tagsimplify.egg-info/SOURCES.txt
+tagsimplify.egg-info/dependency_links.txt
+tagsimplify.egg-info/requires.txt
+tagsimplify.egg-info/top_level.txt

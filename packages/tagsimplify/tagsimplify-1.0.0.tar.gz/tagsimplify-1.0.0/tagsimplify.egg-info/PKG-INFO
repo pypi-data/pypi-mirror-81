@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: tagsimplify
+Version: 1.0.0
+Summary: It simplifies the tags
+Home-page: https://github.com/bhuvneshsaini/tagsimplify
+Author: Bhuvnesh Saini
+Author-email: bhuvneshsaini5@gmail.com
+License: MIT
+Description: # TagSimply
+        
+        It takes list as an input and return string of simplified tags.
+        
+        ## Installation
+        
+        ```pip install tagsimply```
+        
+        ## How to use it?
+        
+        from tagsimply import text_postprocessing<br />
+        input_list=['The','<GPE>','India',</GPE>']<br />
+        return_simplified_tag=text_postprocessing(input_list)
+        
+        <b>For further detailed use of it refer GitHub link.</b>
+        
+        ## License
+        
+        Â© 2020 Bhuvnesh Saini
+        
+        This repository is licensed under the MIT license. See LICENSE for details.
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown

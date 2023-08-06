@@ -1,0 +1,107 @@
+{% extends "akeru/base.html" %}
+{% load static %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row mt-4 justify-content-center">
+        <div class="col col-sm-auto">
+            <h1 class="text-center">Welcome to Akeru Cloud Access</h1>
+            <h3 class="text-center"><small class="text-muted">Role deployment and federated access made easy</small></h3>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col col-md-6 col-sm-12">
+            <div class="card">
+                <img class="card-img-top" src="{% static 'img/iam.png' %}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Manage Users Roles</h5>
+                    <p class="card-text">
+                        Akeru can load policies from an S3 bucket and deploy them as an IAM user or role for users to
+                        log in as or as service linked roles.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col col-md-6 col-sm-12">
+            <div class="card">
+                <img class="card-img-top" src="{% static 'img/roles.png' %}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Federated Access</h5>
+                    <p class="card-text">
+                        The roles deployed via Akeru can be granted to users using Django's native group and users.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row mt-5">
+        <div class="col col-12">
+            <h3>What is Akeru CA?</h3>
+            <p>
+                Akeru Cloud Access is a Django app that facilitates setting up and managing access to the AWS cloud.
+                At it's core it provides the following functional features:
+                <ul>
+                    <li>Deploy roles/users based on preexisting policy templates in S3</li>
+                    <li>Link Django users to an AWS IAM role/user object in the Django DB to enable console access</li>
+                    <li>Display users access on the <a href="./access/">/access/</a> page</li>
+                    <li>Allow users to get temporary API credentials for their assigned users/roles</li>
+                </ul>
+            </p>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col col-12">
+            <h3>Configuring Akeru</h3>
+            <table class="table table-stripe">
+                <tr>
+                    <th>SETTING</th>
+                    <th>REQUIREMENT</th>
+                    <th>PURPOSE</th>
+                </tr>
+                <tr>
+                    <td>AWS_ACCOUNT_ID</td>
+                    <td><span class="badge badge-danger">Required</span></td>
+                    <td>The AWS account </td>
+                </tr>
+                <tr>
+                    <td>POLICY_BUCKET</td>
+                    <td><span class="badge badge-danger">Required</span></td>
+                    <td>The S3 bucket that all template policy files are stored in.</td>
+                </tr>
+                <tr>
+                    <td>POLICY_PREFIX</td>
+                    <td><span class="badge badge-danger">Required</span></td>
+                    <td>Prefix to the policies within the S3 bucket</td>
+                </tr>
+                <tr>
+                    <td>DEFAULT_TRUST_POLICY</td>
+                    <td><span class="badge badge-danger">Required</span> <span class="badge badge-primary">X-OR</span></td>
+                    <td>IAM role trust policy that is attached to any role in absence of an explicit trust policy</td>
+                </tr>
+                <tr>
+                    <td>DEFAULT_TRUSTED_USERS</td>
+                    <td><span class="badge badge-danger">Required</span> <span class="badge badge-primary">X-OR</span></td>
+                    <td>IAM roles/users to insert in the default role trust policy in absence of an explicit trust policy</td>
+                </tr>
+                <tr>
+                    <td>ASSUMED_ROLE_TIMEOUT</td>
+                    <td><span class="badge badge-success">Optional</span></td>
+                    <td>How long the assumed role provides access for before expiring (in seconds)</td>
+                </tr>
+                <tr>
+                    <td>FEDERATED_USER_TIMEOUT</td>
+                    <td><span class="badge badge-success">Optional</span></td>
+                    <td>How long the assumed role provides access for before expiring (in seconds)</td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,15 @@
+HISTORY.md
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+mocap2d/__init__.py
+mocap2d/detect.py
+mocap2d/editor.py
+mocap2d/mocap2d.py
+unity_2dmocap.egg-info/PKG-INFO
+unity_2dmocap.egg-info/SOURCES.txt
+unity_2dmocap.egg-info/dependency_links.txt
+unity_2dmocap.egg-info/entry_points.txt
+unity_2dmocap.egg-info/requires.txt
+unity_2dmocap.egg-info/top_level.txt

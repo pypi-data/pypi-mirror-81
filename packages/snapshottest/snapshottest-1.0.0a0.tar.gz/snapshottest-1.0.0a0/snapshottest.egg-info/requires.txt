@@ -1,0 +1,14 @@
+termcolor
+fastdiff<1,>=0.1.4
+
+[nose]
+nose
+
+[pytest]
+pytest
+
+[test]
+pytest>=4.6
+pytest-cov
+nose
+django>=1.10.6

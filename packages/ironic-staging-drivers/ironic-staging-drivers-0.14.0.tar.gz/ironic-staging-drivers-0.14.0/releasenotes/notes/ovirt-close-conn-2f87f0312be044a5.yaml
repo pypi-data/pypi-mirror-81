@@ -1,0 +1,9 @@
+---
+fixes:
+  - |
+    oVirt driver: Close connection after each API call
+    
+    A new connection was being created for every API call which was
+    never closed. This resulted in open connections accumulating over time
+    due to periodic calls like power state polling, which was further
+    compounded by the number of ovirt nodes deployed.

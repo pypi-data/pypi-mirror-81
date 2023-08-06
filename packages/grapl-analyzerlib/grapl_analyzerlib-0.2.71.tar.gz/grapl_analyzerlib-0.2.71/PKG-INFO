@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: grapl_analyzerlib
+Version: 0.2.71
+Summary: Library for Grapl Analyzers
+Home-page: https://github.com/insanitybit/grapl_analyzerlib/
+Author: insanitybit
+Author-email: insanitybit@gmail.com
+License: MIT
+Description: # grapl_analyzerlib
+        A library for working with [Grapl](https://github.com/insanitybit/grapl)
+        
+        [readthedocs](https://grapl.readthedocs.io/en/latest/)
+        
+        # Development Setup
+        ```
+        cd <the same folder as this readme>
+        python3 -m venv .venv
+        source .venv/bin/activate
+        python -m pip install --upgrade pip
+        # reads requirements from setup.py
+        pip install . ".[dev]"
+        # Give it a shot!
+        ./run_tests.sh
+        ```
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Provides-Extra: linters
+Provides-Extra: test
+Provides-Extra: dev

@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: cloudmesh-covid
+Version: 4.4.8
+Summary: A command called covid and foo for the cloudmesh shell
+Home-page: https://github.com/cloudmesh/cloudmesh-covid
+Author: Gregor von Laszewski
+Author-email: laszewski@gmail.com
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: psutil
+Requires-Dist: pygments
+
+This is a start for the covid-19 data
+
+...
+
+

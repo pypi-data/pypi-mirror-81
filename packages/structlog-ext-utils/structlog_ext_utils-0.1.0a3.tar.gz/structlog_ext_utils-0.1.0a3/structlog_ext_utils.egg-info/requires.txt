@@ -1,0 +1,11 @@
+structlog<=20.1.0
+python-json-logger
+pendulum
+
+[all]
+structlog<=20.1.0
+python-json-logger
+portray
+
+[docs]
+portray

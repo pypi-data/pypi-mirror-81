@@ -1,0 +1,11 @@
+flask_minify/__init__.py,sha256=FUMSb4BKhOFke32dWDhC-Z91tkGs_APMlvGN3zUdVb8,159
+flask_minify/about.py,sha256=V2p03gBGIMX1DZ4B83CoVGEKSgpRpkvKCq9Y8CT0HzE,164
+flask_minify/decorators.py,sha256=tn0pBQgzZBfTV_9ReeNponwx1RMfI8l7kfoIGhNFkNs,1670
+flask_minify/main.py,sha256=yTK368Y8ZgoV3EreHBvjHRzwC-EUr9CYHylLx4zpAvM,9710
+flask_minify/utils.py,sha256=mgNMulJOLPmWjx2R8SIvoUbrDukZaLGsGm2lW3x5mx0,3597
+Flask_Minify-0.28.dist-info/LICENSE,sha256=3BkCr06enqlJhYqP6R2CFgUh1GRfxVd46rPWndWm2lE,1071
+Flask_Minify-0.28.dist-info/LICENSE.txt,sha256=3BkCr06enqlJhYqP6R2CFgUh1GRfxVd46rPWndWm2lE,1071
+Flask_Minify-0.28.dist-info/METADATA,sha256=pE4YWvnFORh6GiMKeryQ29f5fLF43LBFkFDn30a5jEE,5073
+Flask_Minify-0.28.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+Flask_Minify-0.28.dist-info/top_level.txt,sha256=8jBWNV8ydvl3xfDRtcCmNGzINedVWwVwXbs4OG3xnIs,13
+Flask_Minify-0.28.dist-info/RECORD,,

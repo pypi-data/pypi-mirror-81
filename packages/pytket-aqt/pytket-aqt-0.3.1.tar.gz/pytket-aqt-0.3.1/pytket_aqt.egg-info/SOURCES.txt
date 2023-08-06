@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+_version.py
+setup.py
+pytket/backends/aqt/__init__.py
+pytket/backends/aqt/aqt.py
+pytket_aqt.egg-info/PKG-INFO
+pytket_aqt.egg-info/SOURCES.txt
+pytket_aqt.egg-info/dependency_links.txt
+pytket_aqt.egg-info/not-zip-safe
+pytket_aqt.egg-info/requires.txt
+pytket_aqt.egg-info/top_level.txt

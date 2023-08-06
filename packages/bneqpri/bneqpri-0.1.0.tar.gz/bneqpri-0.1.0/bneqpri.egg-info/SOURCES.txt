@@ -1,0 +1,15 @@
+README.md
+setup.py
+bin/bneqpri
+bneqpri/__init__.py
+bneqpri/__main__.py
+bneqpri/cli.py
+bneqpri/impl.py
+bneqpri/io.py
+bneqpri/logging.py
+bneqpri/solver.py
+bneqpri.egg-info/PKG-INFO
+bneqpri.egg-info/SOURCES.txt
+bneqpri.egg-info/dependency_links.txt
+bneqpri.egg-info/requires.txt
+bneqpri.egg-info/top_level.txt

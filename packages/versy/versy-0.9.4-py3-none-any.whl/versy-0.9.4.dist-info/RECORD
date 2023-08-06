@@ -1,0 +1,13 @@
+versy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+versy/__main__.py,sha256=HxtcGa6zl2L-aW8ijeDnKCVIZg0fk-wJ3_65kFHF7J4,1553
+versy/changelog.py,sha256=fyMRPEGUFPGV1xfysAXWa8BLRi4jaEXwOcJ1y2UtFjc,3170
+versy/git.py,sha256=jZGfl1oPdw7hGz_wZMoo-2K-HZ_68FLnZXL4VF9tpkA,1619
+versy/semver.py,sha256=G0aRw4gShA2cggs-8mPmdYbv2J9_LYJiyCq4PsU-iTE,619
+versy/version_file.py,sha256=azKP59cuuAeTHzKZz-pAUFth-KYBe_9MpjDQ9eWKHro,1692
+versy/versy.py,sha256=uewH7G05A1XDLB9TtgVTdMjyY56qYCbUJ2_Wr_APAQQ,1970
+versy-0.9.4.data/scripts/versy,sha256=hNxYfSmOM94ByQaYMqAPBZkDBrTgXfgFZQlkPZ2gTQo,79
+versy-0.9.4.dist-info/LICENSE,sha256=YrPqlE_MughiZSHUT2iVoduqlqmStMop9EEwCTdlzBw,1067
+versy-0.9.4.dist-info/METADATA,sha256=K8zqCpk-BUM8HnOoIQp03pUBgF51B-3TvqXUE_kHRkc,1791
+versy-0.9.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+versy-0.9.4.dist-info/top_level.txt,sha256=RjmIOZq1aumt6D0sFzsZLaIMgI6CU1v0xjZJUaRSjc0,6
+versy-0.9.4.dist-info/RECORD,,

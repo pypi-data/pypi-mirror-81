@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+darkroom.egg-info/PKG-INFO
+darkroom.egg-info/SOURCES.txt
+darkroom.egg-info/dependency_links.txt
+darkroom.egg-info/top_level.txt

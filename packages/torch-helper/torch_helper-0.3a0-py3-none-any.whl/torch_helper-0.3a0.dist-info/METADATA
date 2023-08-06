@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: torch-helper
+Version: 0.3a0
+Summary: A pytorch utility to provide customizable quick use functions.
+Home-page: https://github.com/santanu94/torch-helper.git
+Author: Santanu Bhattacharjee
+Author-email: mail.santanu94@gmail.com
+License: UNKNOWN
+Keywords: PyTorch,Deep Learning
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: torch (>=1.0.0)
+Requires-Dist: torchvision (>=0.2.1)
+Requires-Dist: sklearn
+
+# torch-helper
+A pytorch utility library to provide quick use functions while allowing low level customization.
+
+

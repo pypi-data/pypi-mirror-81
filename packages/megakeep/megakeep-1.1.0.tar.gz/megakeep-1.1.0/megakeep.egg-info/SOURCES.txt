@@ -1,0 +1,12 @@
+README.md
+setup.py
+megakeep/__init__.py
+megakeep/megakeep.py
+megakeep/parser.py
+megakeep/user.py
+megakeep.egg-info/PKG-INFO
+megakeep.egg-info/SOURCES.txt
+megakeep.egg-info/dependency_links.txt
+megakeep.egg-info/entry_points.txt
+megakeep.egg-info/requires.txt
+megakeep.egg-info/top_level.txt

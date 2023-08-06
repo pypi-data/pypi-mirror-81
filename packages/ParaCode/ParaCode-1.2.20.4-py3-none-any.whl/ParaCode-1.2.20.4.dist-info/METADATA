@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ParaCode
+Version: 1.2.20.4
+Summary: The ParaCode Programming Language
+Home-page: https://github.com/DaRubyMiner360/ParaCode
+Author: DaRubyMiner360
+Author-email: darubyminer360@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# ParaCode
+
+The ParaCode Programming Language!
+

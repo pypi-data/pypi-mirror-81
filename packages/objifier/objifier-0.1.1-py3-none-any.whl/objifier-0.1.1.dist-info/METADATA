@@ -1,0 +1,141 @@
+Metadata-Version: 2.1
+Name: objifier
+Version: 0.1.1
+Summary: Object Classifier
+Home-page: https://github.com/1chimaruGin/object-classifier
+Author: kyitharhein
+Author-email: kyitharhein18@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/1chimaruGin/object-classifier/archive/v_0.1.1.tar.gz
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: torch (>=1.5.1)
+Requires-Dist: torchvision (>=0.6.1)
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: argparse (==1.4.0)
+Requires-Dist: tqdm
+Requires-Dist: pyyaml
+
+# OBJECT CLASSIFIER 
+
+## Clone this repository
+- for SSH
+```
+git clone git@github.com:1chimaruGin/Object-classifier.git
+```
+
+- for https
+```
+https://github.com/1chimaruGin/Object-classifier.git
+```
+
+## Requirements
+```
+pip install -U requirements.txt
+```
+
+## Dataset
+
+- the dataset directory should be the following format.
+
+```
+
+# for example, dog vs cat classification
+data/
+    -train/
+        dog/
+            -*.jpg or *.png
+        cat/
+            -*.jpg or *.png
+    -val/
+        dog/
+            -*.jpg or *.png
+        cat/
+            -*.jpg or *.png
+```
+
+## Usage with Argparse
+```
+cd Object-classifier/objifier
+```
+- Update number of classes and names in data.yaml
+
+- For training model(ResNet)
+
+```
+$ python main.py -m [mode: train] -opt [optimizer: (default='SGD')]  -epochs [epochs: (default=25)] 
+```
+- For training model(EfficientNet)
+
+```
+$ python main.py -m [mode: train] -opt [optimizer]  -epochs [epochs] -backbone [backbone: efficientNet] -lvl [efficientNet level]
+```
+- For prediction
+```
+$ python main.py -m [mode: predict] -im [input image] - backbone [backbone: ResNet or efficientNe] -lvl [efficientNet level]
+```
+
+## Usage with YAML (via pip)
+
+#### Create a YAML file as sample below:
+
+- For training [train.yaml]
+```
+nc: 10
+# names: ['mantled_howler', 'patas_monkey', 'bald_uakari', 'japanese_macaque', 'pygmy_marmoset', 
+#       'white_headed_capuchin', 'silvery_marmoset', 'common_squirrel_monkey', 'black_headed_night_monkey','nilgiri_langur' ]
+
+names: ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+
+backbone: 'efficientNet'
+
+efftlvl: 0
+
+optimizer: 'Adam'
+
+mode: 'train'
+
+epoch: 2
+
+load: False
+
+output: 'output'
+
+dataset_path: null
+
+```
+- For prediction [predict.yaml]
+
+```
+nc: 10
+# names: ['mantled_howler', 'patas_monkey', 'bald_uakari', 'japanese_macaque', 'pygmy_marmoset', 
+#       'white_headed_capuchin', 'silvery_marmoset', 'common_squirrel_monkey', 'black_headed_night_monkey','nilgiri_langur' ]
+
+names: ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+
+backbone: 'efficientNet'
+
+efftlvl: 0
+
+output: 'output'
+
+image: 'baobao.jpg'
+
+```
+
+
+

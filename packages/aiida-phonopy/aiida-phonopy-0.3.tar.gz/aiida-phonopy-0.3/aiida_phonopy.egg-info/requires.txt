@@ -1,0 +1,5 @@
+phonopy>=2.8.1
+numpy
+seekpath
+aiida-core<2.0.0,>=1.2.1
+aiida-vasp>=1.0.0

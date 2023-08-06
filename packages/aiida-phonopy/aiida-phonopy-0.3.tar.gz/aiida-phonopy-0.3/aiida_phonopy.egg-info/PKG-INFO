@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: aiida-phonopy
+Version: 0.3
+Summary: AiiDA plugin for running phonon calculations using phonopy
+Home-page: https://github.com/aiida-phonopy/aiida-phonopy
+Author: Atsushi Togo
+Author-email: atz.togo@gmail.com
+License: MIT license
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: AiiDA

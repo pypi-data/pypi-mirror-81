@@ -1,0 +1,7 @@
+adafruit-circuitpython-rgb-display
+adafruit-circuitpython-servokit
+gpiozero
+picamera
+sanic
+sounddevice
+wsmprpc

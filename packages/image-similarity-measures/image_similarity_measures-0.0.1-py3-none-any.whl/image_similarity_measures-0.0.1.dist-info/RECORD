@@ -1,0 +1,9 @@
+image_similarity_measures/__init__.py,sha256=LimfIRiXf1rdTf4zkmOvFGsGh4YQr0JR69dQqb36zhI,91
+image_similarity_measures/evaluate.py,sha256=3NqgHrmN0mZOhr0Uz2VZ0670MpigG2K8f_hJY7xIorU,3975
+image_similarity_measures/quality_metrics.py,sha256=i9vzCntiKRP8JesxtQisLFuMj7sCWMK2lwV9IHAvqj0,5590
+image_similarity_measures-0.0.1.dist-info/LICENSE,sha256=yHn6lpYvA2ariHayRRm2T5quCHmFXqIwVV7A4EcG0wU,1061
+image_similarity_measures-0.0.1.dist-info/METADATA,sha256=AyYjU_RjFAlFmk3lNhSHg7yyIiXAoxw0ry7gY5yflss,3374
+image_similarity_measures-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+image_similarity_measures-0.0.1.dist-info/entry_points.txt,sha256=qhJ1bjyXeuJdFNTtv-xmQwJTt57ciTag6tqd4q68xYo,87
+image_similarity_measures-0.0.1.dist-info/top_level.txt,sha256=G11YWz2ZuaYHevSCQsoymg5nsNR-LEE3XxEQCXEgogM,26
+image_similarity_measures-0.0.1.dist-info/RECORD,,

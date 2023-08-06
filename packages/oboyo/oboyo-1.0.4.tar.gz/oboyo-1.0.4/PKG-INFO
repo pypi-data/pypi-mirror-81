@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: oboyo
+Version: 1.0.4
+Summary: A test package
+Home-page: https://github.com/coatk1/playground
+Author: Corey Atkins
+Author-email: coatk1@umbc.edu
+Maintainer: Corey Atkins
+Maintainer-email: coatk1@umbc.edu
+License: UNKNOWN
+Project-URL: Source, https://github.com/coatk1/playground/
+Project-URL: Tracker, https://github.com/coatk1/playground/issues
+Description: ===========
+        oboyo
+        ===========
+        
+        .. image:: https://img.shields.io/github/repo-size/coatk1/oboyo
+         :target: https://github.com/coatk1/oboyo
+        
+        .. image:: https://github.com/coatk1/oboyo/workflows/Check/badge.svg
+         :target: https://github.com/coatk1/oboyo/actions?query=workflow%3ACheck
+        
+        .. image:: https://anaconda.org/coatk1/oboyo/badges/version.svg
+         :target: https://anaconda.org/coatk1/oboyo
+        
+        .. image:: https://anaconda.org/coatk1/oboyo/badges/latest_release_date.svg
+         :target: https://anaconda.org/coatk1/oboyo/files
+        
+        .. image:: https://img.shields.io/conda/v/coatk1/oboyo
+         :target: https://anaconda.org/coatk1/oboyo
+        
+        .. image:: https://img.shields.io/pypi/v/oboyo
+         :target: https://pypi.org/project/oboyo/
+        
+        .. image:: https://img.shields.io/codeclimate/maintainability/coatk1/oboyo 
+          :target: https://codeclimate.com/github/coatk1/oboyo
+        
+        .. image:: https://img.shields.io/codeclimate/coverage/coatk1/oboyo   
+          :target: https://codeclimate.com/github/coatk1/oboyo
+        
+        .. image:: https://img.shields.io/github/license/coatk1/oboyo 
+          :target: https://github.com/coatk1/oboyo/blob/main/LICENSE
+        
+        
+        Python package for testing
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst

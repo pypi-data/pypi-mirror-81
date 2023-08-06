@@ -1,0 +1,8 @@
+setup.py
+tictacJiya/__init__.py
+tictacJiya/tictacJiya.py
+tictacJiya.egg-info/PKG-INFO
+tictacJiya.egg-info/SOURCES.txt
+tictacJiya.egg-info/dependency_links.txt
+tictacJiya.egg-info/not-zip-safe
+tictacJiya.egg-info/top_level.txt

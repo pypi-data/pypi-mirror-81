@@ -1,0 +1,8 @@
+-e .
+
+check-manifest
+flake8
+isort>=5.0.0
+psutil
+tox
+zest.releaser[recommended]

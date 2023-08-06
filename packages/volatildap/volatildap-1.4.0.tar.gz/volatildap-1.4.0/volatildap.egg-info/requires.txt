@@ -1,0 +1,10 @@
+requests
+
+[dev]
+check-manifest
+flake8
+isort>=5.0.0
+tox
+psutil
+wheel
+zest.releaser[recommended]

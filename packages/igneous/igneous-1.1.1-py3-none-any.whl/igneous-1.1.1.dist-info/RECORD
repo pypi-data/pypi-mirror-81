@@ -1,0 +1,11 @@
+igneous/__init__.py,sha256=nfTjzMvRFXqutKUh9wOd2jA6iUeVuszclp4Ww5NtRqo,404
+igneous/client.py,sha256=sYifU9tGA4WSJ1yPDygSjemEGcA814IT2HCjwvDEI8I,6500
+igneous/request.py,sha256=ouphAryI1heKgmZDzroMEQP2j8PYUxS1wyE-pCqy6fc,2026
+igneous/response.py,sha256=9YUqt3v2wloTOAiahJ7n1j3nqtSXbx6tP6lg_oh7_RU,1495
+igneous/test_utils.py,sha256=66-hQTH0ohxAWEBUdGlPsRRkvrZ8wbEbgU0j_dqXLTI,341
+igneous/util.py,sha256=P9WbrxZqJNG30D5sbOCDUHVmfsLAqNfB30RYeYUz2h0,642
+igneous-1.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+igneous-1.1.1.dist-info/METADATA,sha256=2u98zTQ124zRppeSRt593eCksmw0YGtjToURQc9pMrU,1658
+igneous-1.1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+igneous-1.1.1.dist-info/top_level.txt,sha256=DBEz0iI45i2j4DAznraOVwCmn_u9rxO4Bt-qB2U4ggs,8
+igneous-1.1.1.dist-info/RECORD,,

@@ -1,0 +1,3 @@
+[console_scripts]
+jirafrog=jirafrog:main.main
+

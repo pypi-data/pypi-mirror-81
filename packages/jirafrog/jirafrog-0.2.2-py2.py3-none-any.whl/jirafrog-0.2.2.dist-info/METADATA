@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: jirafrog
+Version: 0.2.2
+Summary: Extremely basic curses-based Jira UI
+Home-page: https://github.com/amagee/jirafrog
+License: UNKNOWN
+Author: Andrew Magee
+Author-email: amagee@gmail.com
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: appdirs~=1.4.4
+Requires-Dist: jira~=2.0.0
+Requires-Dist: blessed~=1.17.10
+Requires-Dist: toml~=0.10.0

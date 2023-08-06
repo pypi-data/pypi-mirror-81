@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+taxopedia.egg-info/PKG-INFO
+taxopedia.egg-info/SOURCES.txt
+taxopedia.egg-info/dependency_links.txt
+taxopedia.egg-info/requires.txt
+taxopedia.egg-info/top_level.txt

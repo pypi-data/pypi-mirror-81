@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: dbnomics-solr
+Version: 1.0.4
+Summary: Index DBnomics data into Apache Solr for full-text and faceted search.
+Home-page: https://git.nomics.world/dbnomics/dbnomics-solr
+Author: DBnomics Team
+Author-email: contact@nomics.world
+License: AGPLv3+
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/markdown
+Requires-Dist: daiquiri
+Requires-Dist: dbnomics-data-model
+Requires-Dist: dulwich
+Requires-Dist: environs
+Requires-Dist: pysolr
+Requires-Dist: python-slugify
+Requires-Dist: requests
+Requires-Dist: solrq
+Requires-Dist: toolz
+Requires-Dist: typer
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: dlint ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: flake8-black ; extra == 'dev'
+Requires-Dist: flake8-blind-except ; extra == 'dev'
+Requires-Dist: flake8-breakpoint ; extra == 'dev'
+Requires-Dist: flake8-bugbear ; extra == 'dev'
+Requires-Dist: flake8-builtins ; extra == 'dev'
+Requires-Dist: flake8-comprehensions ; extra == 'dev'
+Requires-Dist: flake8-docstrings ; extra == 'dev'
+Requires-Dist: flake8-eradicate ; extra == 'dev'
+Requires-Dist: flake8-fixme ; extra == 'dev'
+Requires-Dist: flake8-isort ; extra == 'dev'
+Requires-Dist: flake8-logging-format ; extra == 'dev'
+Requires-Dist: flake8-mutable ; extra == 'dev'
+Requires-Dist: flake8-print ; extra == 'dev'
+Requires-Dist: flake8-rst-docstrings ; extra == 'dev'
+Requires-Dist: isort (<5) ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pep8-naming ; extra == 'dev'
+
+# DBnomics Solr
+
+Index DBnomics data into Apache Solr for full-text and faceted search.
+
+Requirements:
+
+- a running instance of [Apache Solr](http://lucene.apache.org/solr/); at the time this documentation is written, we use the version 7.3.
+
+See [dbnomics-docker](https://git.nomics.world/dbnomics/dbnomics-docker) to run a local DBnomics instance with Docker that includes a service for Apache Solr.
+
+## Configuration
+
+Environment variables:
+
+- `DEBUG_PYSOLR`: display pysolr DEBUG logging messages (cf https://github.com/django-haystack/pysolr)
+
+## Index a provider
+
+Replace `wto` by the real provider slug in the following command:
+
+```bash
+dbnomics-solr index-provider /path/to/wto-json-data
+```
+
+### Full mode vs incremental mode
+
+When data is stored in a regular directory, the script always indexes all datasets and series of a provider. This is called _full mode_.
+
+When data is stored in a Git repository, the script runs by default in _incremental mode_: it indexes only the datasets modified since the last indexation.
+
+It is possible to force the _full mode_ with the `--full` option.
+
+### Bare repositories
+
+The script has an option `--bare-repo-fallback` which tries to add `.git` at the end of the storage dir name, if not found.
+
+## Remove all data from a provider
+
+To remove all the documents related to a provider (`type:provider`, `type:dataset` and `type:series`):
+
+```bash
+./delete_provider.sh <provider_code>
+
+Example:
+./delete_provider.sh WTO
+```
+
+

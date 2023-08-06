@@ -1,0 +1,14 @@
+README.md
+setup.py
+edumated/__init__.py
+edumated/__version__.py
+edumated/edumate.py
+edumated/fetch.py
+edumated/googcal.py
+edumated/util.py
+edumated.egg-info/PKG-INFO
+edumated.egg-info/SOURCES.txt
+edumated.egg-info/dependency_links.txt
+edumated.egg-info/entry_points.txt
+edumated.egg-info/requires.txt
+edumated.egg-info/top_level.txt

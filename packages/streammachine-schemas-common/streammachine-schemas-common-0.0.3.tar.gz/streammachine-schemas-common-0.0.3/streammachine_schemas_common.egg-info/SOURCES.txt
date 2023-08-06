@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+streammachine/schemas/common/__init__.py
+streammachine/schemas/common/common.py
+streammachine_schemas_common.egg-info/PKG-INFO
+streammachine_schemas_common.egg-info/SOURCES.txt
+streammachine_schemas_common.egg-info/dependency_links.txt
+streammachine_schemas_common.egg-info/not-zip-safe
+streammachine_schemas_common.egg-info/top_level.txt

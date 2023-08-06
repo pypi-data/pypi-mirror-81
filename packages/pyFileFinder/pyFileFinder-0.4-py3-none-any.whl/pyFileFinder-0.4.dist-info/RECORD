@@ -1,0 +1,10 @@
+pyFileFinder/__init__.py,sha256=F1qtaEQD9rBQOh7X6waFX9Vy8KvX1kicwub_VAf_TL4,38
+pyFileFinder/finder.py,sha256=ak7_oYigWTZb8Rln16SXmr5vKmFokq9Y1QBIQ9m-FYk,10383
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/unit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/unit/test_finder.py,sha256=D3EE1muKfGie7Slj_ljiw2Q4IjAVBclaUaKTAJyRyMY,6467
+pyFileFinder-0.4.dist-info/LICENSE,sha256=KDzeL3-Bw8ppttbdoDIQIwakQYj6V-DoNTwER4iqIQs,1083
+pyFileFinder-0.4.dist-info/METADATA,sha256=w2o_ZscjDy89YBctaqWn99iflCN4ySl5gOoWMjM3ihA,6670
+pyFileFinder-0.4.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+pyFileFinder-0.4.dist-info/top_level.txt,sha256=Gio0gU7GVjkgYd8dkr02JtBsnpkYe6FQaivVcAWLo4s,19
+pyFileFinder-0.4.dist-info/RECORD,,

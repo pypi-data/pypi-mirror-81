@@ -1,0 +1,11 @@
+backtester/__init__.py,sha256=bxvQVb2cQDAhPMDpYpxKcVdEAlAjkHXnMu7J-ENI5W8,116
+backtester/backtest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+backtester/backtest/backtest.py,sha256=QjvyVxgmSQqWFGxg1cAPpugPtXSVVGAhZyrwq_CETfU,9637
+backtester/metrics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+backtester/metrics/func_names.py,sha256=3GdmU-MuCAFcyhZBzzmqpdntcj-yUIho-2jfby85JMQ,218
+backtester/metrics/metrics.py,sha256=YYz4YV4R2M6u7Tufj6GZa5QE95QJ4CAzx0qdTqHGtSc,39803
+backtester-0.7.dist-info/LICENSE,sha256=RRwDjJdcLB4jY7V6z-ewVc5-82sqQlyrPD-ZfpksP-s,1068
+backtester-0.7.dist-info/METADATA,sha256=V4mD-V1EMnZwh4jyltR0AfsieHOaWaYg8Y5avZiFXEQ,1190
+backtester-0.7.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+backtester-0.7.dist-info/top_level.txt,sha256=pHVPM8OTboBiWnkfnGdyoq72BpyuLdOVwAgXvQ0Q9MM,11
+backtester-0.7.dist-info/RECORD,,

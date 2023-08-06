@@ -1,0 +1,110 @@
+QWidget{                            font: 12pt 'Whitney Light'; font-weight: 12; background-color: transparent}
+QMainWindow{                        background-color: $background;}
+QLabel{                             background: transparent; color: $text;}
+QLabel::disabled{                   color: $grey; background-color: transparent;}
+QMenu{                              background-color: $dark; color: $text; border-radius: 0; border-width: 1px; border-color: $text; border-style: solid; padding: 3px}
+QMenu::item::selected{              background-color: $selection; padding: 2px 15px}
+QMenu::item::!selected{             background-color: transparent; padding: 2px 15px}
+
+QGroupBox{                          background-color: $dark; border: 2px #FF0000; border-radius: 0px; font: 12pt 'Withney Medium'; padding: 40 4 4 4}
+QGroupBox::title{                   subcontrol-origin: margin; color: #999999; background: transparent; padding: 4 0 0 6}
+
+QListWidget{                        background-color: $edit; color: $text; border: 0}
+QListWidget::item:!selected{        background: transparent;}
+QListWidget::item:selected{         background-color: $selection; color: $text;}
+
+QListView{                          background-color: $edit; color: $text;}
+QListView::item:!selected{          background: transparent;}
+QListView::item:selected{           background-color: $selection; color: $text;}
+
+QHeaderView::section{               background-color: $dark; color: $text; border: 1px solid $dark}
+
+QPushButton{                        outline: 0; color: $text; border-radius: 0; border-width: 0px; border-color: #3C3F41; border-style: solid; padding: 4px 4px}
+QPushButton::!pressed{              background-color: $dark;}
+QPushButton::hover{                 background-color: $selection;}
+QPushButton::pressed{               background-color: $selection;}
+
+QGraphicsView {                     border: 0px; background-color: $dark}
+
+QComboBox{                          background: $edit; color: $text; border-radius: 0; padding: 2px 18px 2px 8px}
+QComboBox:editable{                 background: #999999; color: #3C3F41; border-radius: 0; border-width: 0;}
+QComboBox:!enabled{                 background: #999999; color: #666666;}
+QComboBox::hover{                   background-color: $selection;}
+QComboBox:selected {                selection-background-color: $selection; }
+QComboBox::down-arrow {             image: url(:/icons/chevron-down.svg); width: 24px; height: 24px; padding: 0 24 0 0;}
+QComboBox::drop-down {              border: 0; }
+QComboBox QAbstractItemView {       background-color: $dark;}
+
+QLineEdit{                          background-color: $edit; color: $text; border: 0px; border-radius: 0; border-width: 0px; border-style: solid; padding: 4px 4px}
+QLineEdit:read-only{                background-color: $grey;}
+QTreeView{                          background-color: $grey;}
+
+QDialog{                            background-color: $background;}
+QTextEdit{              	        background-color: $edit; color: #dbdcdd; border: 0px; border-radius: 0}
+QPlainTextEdit{                     background-color: $edit; color: #dbdcdd; border: 0px; border-radius: 0}
+QCheckBox{                          outline: 0; color: $text; padding: 0px 0px 0px -5px;}
+QCheckBox:hover{                    outline: 0; color: $selectLight; padding: 0px 0px 0px -5px;}
+QCheckBox::indicator {              width: 15px; height: 15px;}
+QCheckBox::indicator:unchecked{     image: url(:/icons/square.svg); width: 30px;}
+QCheckBox::indicator:checked{       image: url(:/icons/check-square.svg); width: 30px;}
+QCheckBox::indicator:unchecked:hover{     image: url(:/icons/square-sel.svg); width: 30px;}
+QCheckBox::indicator:checked:hover{       image: url(:/icons/check-square-sel.svg); width: 30px;}
+
+QMainWindow::separator {            background: #3C3F41; width: 4px }
+QScrollArea{                        border: 1px solid $edit}
+
+QScrollBar {                        border: 1px solid $edit; background: $edit; border-radius: 0px }
+QScrollBar::handle:vertical {       background: $grey; min-height: 100px; border-radius: 0px; margin: 2px;}
+QScrollBar::sub-line {              height: 0px; width: 0px}
+QScrollBar::add-line {              height: 0px; width: 0px}
+QScrollBar::handle:horizontal {     background: $grey; min-width: 100px; border-radius: 0px; margin: 2px;}
+QScrollBar::add-page, QScrollBar::sub-page { background: none;}
+
+QSplitter::handle{                  background-repeat: 0}
+QSplitter::handle:horizontal{       background-position: center left; background-image: url(:/icons/more-vertical.svg); }
+QSplitter::handle:vertical{         margin: 1 0 3 0; background-position: top center; background-image: url(:/icons/more-horizontal.svg); }
+
+QSpinBox{                           background-color: $edit; color: $text; border: 0px; padding: 2px;}
+QSpinBox:up-button, QSpinBox:down-button{    background-color:transparent;}
+QSpinBox:up-arrow{                  background-color:transparent; width: 14px; height: 14px; image: url(:/icons/chevron-up.svg)}
+QSpinBox:down-arrow{                background-color:transparent; width: 14px; height: 14px; image: url(:/icons/chevron-down.svg)}
+QSpinBox:up-arrow::hover{           image: url(:/icons/chevron-up-blue.svg)}
+QSpinBox:down-arrow::hover{         image: url(:/icons/chevron-down-blue.svg)}
+
+QDateTimeEdit{                      background: $edit; color: $text; border: 0px; padding: 2 18 2 8;}
+QDateTimeEdit::down-arrow {         image: url(:/icons/chevron-down.svg); width: 24px; height: 24px; padding: 0 0 0 0;}
+QDateTimeEdit::drop-down {          border: 0; width: 38px}
+
+QTabBar::tab{                       background-color: $dark; color: $grey; border: 0px; min-height: 0px; min-width: 0px; padding: 2px; }
+QTabBar::tab:selected{              background-color: $edit; color: $text;}
+QTabBar::tab:hover{                 background-color: $selection; color: $text;}
+QTabBar::close-button {             image: url(:/icons/x.svg); subcontrol-position: right; }
+QTabBar::close-button:hover {       background-color: $selectLight}
+
+QTabWidget::pane {                  border: 0px}
+
+QMenuBar{                           background-color: $background; color: $text;}
+QMenuBar::item{                     background-color: $background; color: $text;}
+QMenu::item::disabled{              background-color: transparent; color: #757575; font: italic; padding: 2px 12px}
+QMenu::indicator:exclusive:checked {image: url(:/icons/check-circle.svg); background-color: solid $selection; width: 10px}
+QMenu::indicator:exclusive:unchecked{image: url(:/icons/circle.svg);width: 10px}
+
+QMainWindow::separator{             width: 4px; border: none; background: $dark}
+QDockWidget{                        background-color: $dark; color: $dark; padding: 6px 6px;
+                                    titlebar-close-icon: url(:/icons/x.svg); titlebar-normal-icon: url(:/icons/maximize.svg);}
+QDockWidget::title{                 text-align: center }
+QDockWidget::close-button { border: none; border-radius: 6;  icon-size: 18px }
+QDockWidget::float-button { border: none; border-radius: 6;  icon-size: 10px }
+QDockWidget::close-button:hover, QDockWidget::float-button:hover { background-color: $selection; }
+QTableWidget{                       background-color: $background; color: $text;}
+
+
+QRadioButton::checked{              background-color:$background;color:$text;}
+QRadioButton::unchecked{            background-color:$background;color:$text;}
+QRadioButton::indicator:checked {   image: url(:/icons/radio_checked.png); width: 10px;}
+QRadioButton::indicator:unchecked { image: url(:/icons/radio_unchecked.png);width: 10px}
+
+QProgressBar {                      border: 1px; border-radius: 5px; text-align: center; background-color: #555555; color: $text}
+QProgressBar::chunk {               background-color: $selection; width: 4px; margin: 0.5px; border-radius: 2px;}
+
+QFrame#line, QFrame#line_2, QFrame#line_3, QFrame#line_4, QFrame#line_5, QFrame#line_6{ border: 5px solid #4B4B4B;}

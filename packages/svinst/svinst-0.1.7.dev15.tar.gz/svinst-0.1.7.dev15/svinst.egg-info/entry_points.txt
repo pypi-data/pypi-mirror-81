@@ -1,0 +1,4 @@
+[console_scripts]
+slang = svinst.slang:main
+svinst = svinst.svinst:main
+

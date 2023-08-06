@@ -1,0 +1,12 @@
+yaqd_pmc/VERSION,sha256=J43H9Row0ynrutLuGMYjnFQalCvHOe4dhafyMzwggBc,10
+yaqd_pmc/__init__.py,sha256=K4JBJgzXVTp6-KVc-d5FsKtjbD23Jno2fAXpq2I3_3c,88
+yaqd_pmc/__version__.py,sha256=aIq6BYZ2Vu4z6qhpulwJjQVwfXWBRNlRKwBX_hECB00,493
+yaqd_pmc/_pmc.py,sha256=SUauRVev6RRZGL_wFwJrpcJy0jVvl3ssaSxw_tq-NPM,3072
+yaqd_pmc/mcapi.py,sha256=pUXawAR-U_pXhfrz4kge5bz6wmVK_ycUkf-pcCklZac,70232
+yaqd_pmc/pmc.avpr,sha256=i5-KjyoiiqBUclCOHUeH2LZ9e6OUCAwBD6bn3WHdneg,10912
+yaqd_pmc/pmc.toml,sha256=PqAtGGDf95vsEubgim0Sw2lXKdljUoZkVT52BXlZBZg,3240
+yaqd_pmc-2020.10.0.dist-info/entry_points.txt,sha256=1HAajk0shyVCaygxQkGcG2FMbPjmrmDyC6XjiPVIOn4,56
+yaqd_pmc-2020.10.0.dist-info/LICENSE,sha256=gQ0onXQnjXJoTSbNwqxcuw8B8tGCEvORxsRGc5mnrdU,7633
+yaqd_pmc-2020.10.0.dist-info/WHEEL,sha256=CqyTrkghQBNsEzLD3HbCSEIJ_fY58-XpoU29dUzwHSk,81
+yaqd_pmc-2020.10.0.dist-info/METADATA,sha256=3yDNNr0uMya9aHNTRUhgY9el2l1YNO6GYbIIPLSkznU,1665
+yaqd_pmc-2020.10.0.dist-info/RECORD,,

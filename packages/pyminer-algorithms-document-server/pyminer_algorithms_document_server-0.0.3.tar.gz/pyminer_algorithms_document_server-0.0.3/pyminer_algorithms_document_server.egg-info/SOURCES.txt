@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+pyminer_algorithms_document_server/__init__.py
+pyminer_algorithms_document_server/renderer.py
+pyminer_algorithms_document_server/server.py
+pyminer_algorithms_document_server.egg-info/PKG-INFO
+pyminer_algorithms_document_server.egg-info/SOURCES.txt
+pyminer_algorithms_document_server.egg-info/dependency_links.txt
+pyminer_algorithms_document_server.egg-info/requires.txt
+pyminer_algorithms_document_server.egg-info/top_level.txt
+pyminer_algorithms_document_server/static/main.css
+pyminer_algorithms_document_server/static/main.css.map
+pyminer_algorithms_document_server/templates/content.html

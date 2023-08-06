@@ -1,0 +1,15 @@
+README.md
+setup.py
+fullGSapi.egg-info/PKG-INFO
+fullGSapi.egg-info/SOURCES.txt
+fullGSapi.egg-info/dependency_links.txt
+fullGSapi.egg-info/requires.txt
+fullGSapi.egg-info/top_level.txt
+fullGSapi/api/__init__.py
+fullGSapi/api/assignment_grader.py
+fullGSapi/api/assignments.py
+fullGSapi/api/autograder.py
+fullGSapi/api/cdata.py
+fullGSapi/api/client.py
+fullGSapi/api/online_assignment.py
+fullGSapi/api/utils.py

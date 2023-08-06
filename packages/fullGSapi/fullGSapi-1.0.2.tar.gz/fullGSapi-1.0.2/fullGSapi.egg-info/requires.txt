@@ -1,0 +1,4 @@
+cryptography
+beautifulsoup4
+py-mini-racer
+requests

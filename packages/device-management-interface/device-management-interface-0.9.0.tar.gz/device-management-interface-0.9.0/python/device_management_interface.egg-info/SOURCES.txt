@@ -1,0 +1,8 @@
+MANIFEST.in
+VERSION
+setup.py
+python/device_management_interface.egg-info/PKG-INFO
+python/device_management_interface.egg-info/SOURCES.txt
+python/device_management_interface.egg-info/dependency_links.txt
+python/device_management_interface.egg-info/requires.txt
+python/device_management_interface.egg-info/top_level.txt

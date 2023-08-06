@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: icevision
+Version: 0.2.0b2
+Summary: Agnostic Computer Vision Framework
+Home-page: UNKNOWN
+Author: Lucas Goulart Vazquez, Farid Hassainia
+Author-email: lgvaz42@gmail.com, farid@airctic.com
+License: Apache-2.0
+Keywords: object detection,machine learning
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Requires-Python: <4,>=3.6.1
+Requires-Dist: torch (<1.7,>=1.6.0)
+Requires-Dist: torchvision (<0.8,>=0.7.0)
+Requires-Dist: fastcore (<2,>=1.0.14)
+Requires-Dist: tqdm (<5,>=4.49.0)
+Requires-Dist: opencv-python (<5,>=4.4.0)
+Requires-Dist: albumentations (>=0.4.6)
+Requires-Dist: matplotlib (<4,>=3.3.2)
+Requires-Dist: pycocotools (>=2.0.2<3)
+Requires-Dist: requests (>=2.24.0<3)
+Requires-Dist: loguru (>=0.5.3)
+Provides-Extra: all
+Requires-Dist: fastai (<3,>=2.0.13) ; extra == 'all'
+Requires-Dist: ipykernel (<6,>=5.3.4) ; extra == 'all'
+Requires-Dist: pytorch-lightning (<1,>=0.9) ; extra == 'all'
+Requires-Dist: effdet (<0.2,>=0.1.6) ; extra == 'all'
+Requires-Dist: omegaconf (<3,>=2) ; extra == 'all'
+Requires-Dist: dataclasses (==0.6) ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: black (<21,>=20.8b1) ; extra == 'dev'
+Requires-Dist: pytest (<7,>=6) ; extra == 'dev'
+Requires-Dist: keras-autodoc (==0.6.0) ; extra == 'dev'
+Requires-Dist: mkdocs (<2,>=1.1.2) ; extra == 'dev'
+Requires-Dist: mkdocs-material (<6,>=5.5.12) ; extra == 'dev'
+Requires-Dist: jupyter (<2,>=1.0.0) ; extra == 'dev'
+Requires-Dist: pymdown-extensions (<9,>=8.0) ; extra == 'dev'
+Requires-Dist: Sphinx (<4,>=3.1.0) ; extra == 'dev'
+Requires-Dist: pytest-cov (<3,>=2.10.1) ; extra == 'dev'
+Requires-Dist: flake8 (<4,>=3.8.3) ; extra == 'dev'
+
+UNKNOWN
+
+

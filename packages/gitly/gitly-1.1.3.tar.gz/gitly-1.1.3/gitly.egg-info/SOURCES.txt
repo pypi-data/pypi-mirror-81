@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+gitly/__init__.py
+gitly.egg-info/PKG-INFO
+gitly.egg-info/SOURCES.txt
+gitly.egg-info/dependency_links.txt
+gitly.egg-info/requires.txt
+gitly.egg-info/top_level.txt
+gitly/colab/__init__.py
+gitly/colab/plot.py

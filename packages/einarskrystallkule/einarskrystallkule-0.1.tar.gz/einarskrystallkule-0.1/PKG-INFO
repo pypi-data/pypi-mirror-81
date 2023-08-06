@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: einarskrystallkule
+Version: 0.1
+Summary: Magic function that answers the hardest questions
+Home-page: https://github.com/user/reponame
+Author: Einar Arbo
+Author-email: einararbo@gmail.com
+License: MIT
+Download-URL: https://github.com/user/einarwar/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: Magic,Prediction
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pydelatin
+Version: 0.0.1
+Summary: A wrapper for hmm
+Home-page: https://github.com/kylebarron/pydelatin
+Author: Kyle Barron
+Author-email: kylebarron2@gmail.com
+License: UNKNOWN
+Description: # pydelatin
+        
+        A Python port of Delatin for terrain mesh generation
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

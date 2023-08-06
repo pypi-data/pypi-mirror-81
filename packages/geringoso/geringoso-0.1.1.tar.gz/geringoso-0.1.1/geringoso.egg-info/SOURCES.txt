@@ -1,0 +1,9 @@
+README.md
+geringoso.py
+setup.py
+geringoso.egg-info/PKG-INFO
+geringoso.egg-info/SOURCES.txt
+geringoso.egg-info/dependency_links.txt
+geringoso.egg-info/entry_points.txt
+geringoso.egg-info/requires.txt
+geringoso.egg-info/top_level.txt

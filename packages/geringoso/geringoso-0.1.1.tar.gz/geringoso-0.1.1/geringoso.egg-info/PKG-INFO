@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: geringoso
+Version: 0.1.1
+Summary: A Spanish to Geringoso library and filter
+Home-page: https://github.com/chipaca/geringoso
+Author: John Lenton
+Author-email: jlenton@gmail.com
+License: GPLv3
+Description: # geringoso
+        A Spanish to Geringoso library and filter
+        
+        Exampe usage:
+        
+            $ geringoso hola, sol
+            hopolapa, sopol
+            $ head -n 7 hombres_necios.txt | geringoso
+        
+        
+                Hopombrepes nepeciopos quepe apacupusápais
+                apa lapa mupujeper sipin rapazópon
+                sipin veper quepe sopois lapa opocapasiópon
+                depe lopo mipismopo quepe cupulpápais:
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Natural Language :: Spanish
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Text Processing :: Filters
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3
+Description-Content-Type: text/markdown

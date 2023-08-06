@@ -1,0 +1,13 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+sanic_conf.py
+setup.cfg
+setup.py
+sanic_conf.egg-info/PKG-INFO
+sanic_conf.egg-info/SOURCES.txt
+sanic_conf.egg-info/dependency_links.txt
+sanic_conf.egg-info/not-zip-safe
+sanic_conf.egg-info/requires.txt
+sanic_conf.egg-info/top_level.txt

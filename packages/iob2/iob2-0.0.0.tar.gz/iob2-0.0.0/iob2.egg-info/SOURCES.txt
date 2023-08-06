@@ -1,0 +1,9 @@
+README.md
+setup.py
+iob2/__init__.py
+iob2/test.py
+iob2.egg-info/PKG-INFO
+iob2.egg-info/SOURCES.txt
+iob2.egg-info/dependency_links.txt
+iob2.egg-info/requires.txt
+iob2.egg-info/top_level.txt

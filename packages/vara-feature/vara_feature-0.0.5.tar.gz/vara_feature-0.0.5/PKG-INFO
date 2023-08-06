@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: vara_feature
+Version: 0.0.5
+Summary: Python bindings for vara-feature library
+Home-page: UNKNOWN
+Author: Florian Sattler
+Author-email: sattlerf@cs.uni-saarland.de
+License: LICENSE.TXT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6

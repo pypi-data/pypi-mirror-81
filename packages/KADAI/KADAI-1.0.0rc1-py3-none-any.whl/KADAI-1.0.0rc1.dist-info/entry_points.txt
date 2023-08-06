@@ -1,0 +1,3 @@
+[console_scripts]
+kadai = kadai.__main__:main
+

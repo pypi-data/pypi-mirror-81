@@ -1,0 +1,16 @@
+README.md
+setup.py
+snptoolkit
+modules/__init__.py
+modules/annotate_snpToolkit.py
+modules/argsLogger_snpToolkit.py
+modules/calls_snpToolkit.py
+modules/combine_snpToolkit.py
+modules/expand_snpToolkit.py
+modules/explore_snpToolkit.py
+modules/plot_snptoolkit_output.py
+snptoolkit.egg-info/PKG-INFO
+snptoolkit.egg-info/SOURCES.txt
+snptoolkit.egg-info/dependency_links.txt
+snptoolkit.egg-info/requires.txt
+snptoolkit.egg-info/top_level.txt

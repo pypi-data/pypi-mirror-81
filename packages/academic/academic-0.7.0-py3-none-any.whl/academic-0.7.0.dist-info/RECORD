@@ -1,0 +1,14 @@
+academic/__init__.py,sha256=iGvl69ydppq2GPrqJVmXmFqKX1M4OAM_erAPy5H-80w,89
+academic/cli.py,sha256=6aV8TS2hsz1a6OjRtUoFQRE68PtVVpxLs3exnPDUmcs,3339
+academic/editFM.py,sha256=VxudoWhwLCby9Qm9oOXy1JxxTR8-EKcXOzlzNYB6H4Q,1530
+academic/import_assets.py,sha256=9rQeD4NefZJ9zndJpLATGbvTaTwZFpLqaJUmW8fwBlA,3987
+academic/import_bibtex.py,sha256=31HbaG9rkzEvcm29dN0GXuXkfNDF1K70Z4_tX3y8WBg,7947
+academic/publication_type.py,sha256=Dggsiz3cvg-M4bqFdNj0mxmUdLatk07G4ZCQeLk9NYU,1015
+academic/utils.py,sha256=YjtD-Mf30cGoHxvmZP2jU4wJ9_xQ3zZACXDy3GW26-4,337
+academic/version.py,sha256=ESRNAX_R5emrFXQebwJqu1nbnBi3F60hyq0071SQWRM,18
+academic-0.7.0.dist-info/LICENSE.md,sha256=-krOVY7lNVjPpaEm5B3rKg1TjJveai1wyHnisokP4zk,1078
+academic-0.7.0.dist-info/METADATA,sha256=zqesPN7rapYkb44DWwfjX3Yy9U5Gk7KtAFDGBqYyZ7A,5352
+academic-0.7.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+academic-0.7.0.dist-info/entry_points.txt,sha256=l0HVpRBL-Q2sZrS9vthOyI4XED5FjQflY2iGTY3bC08,66
+academic-0.7.0.dist-info/top_level.txt,sha256=qrE-c_vhWoLRtjV0_oOW7p8BqZJBRk3s59JtFKORIp8,9
+academic-0.7.0.dist-info/RECORD,,

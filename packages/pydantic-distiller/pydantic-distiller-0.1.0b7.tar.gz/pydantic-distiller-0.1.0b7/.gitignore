@@ -1,0 +1,9 @@
+dist/
+venv/
+.mypy_cache/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+tests/data/
+*.pyc

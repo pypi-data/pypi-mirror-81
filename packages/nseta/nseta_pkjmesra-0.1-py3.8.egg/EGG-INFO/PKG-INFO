@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: nseta
+Version: 0.1
+Summary: Library to analyse and predict financial data from National Stock Exchange (NSE - India) in pandas dataframe 
+Home-page: https://github.com/pkjmesra/nseta
+Author: Praveen K Jha
+Author-email: pkjmesra@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/pkjmesra/nseta/archive/v0.1.zip
+Description: UNKNOWN
+Keywords: NSE,Technical Indicators,Backtesting,Forecasting
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

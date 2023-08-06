@@ -1,0 +1,55 @@
+[tool.poetry]
+name = "drf-insights-pagination"
+version = "1.0.1"
+authors = ["Cloudigrade Dev Team <doppler-dev@redhat.com>"]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+description="Provides pagination class that adheres to Insights IPP-12."
+keywords=["djangorestframework", "drf", "pagination", "insights", "ipp-12"]
+repository = "https://gitlab.com/cloudigrade/libraries/drf-insights-pagination"
+classifiers=[
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+packages = [
+    { include = "drf_insights_pagination" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+djangorestframework = "*"
+
+[tool.poetry.dev-dependencies]
+black = {version = "*", allow-prereleases = true}
+wheel = "*"
+pytest = "*"
+tox = "*"
+flake8 = "*"
+django = "*"
+flake8-black = "*"
+flake8-import-order = "*"
+flake8-docstrings = "*"
+codecov = "*"
+pytest-cov = "*"
+coverage = "*"
+twine = "*"
+
+[tool.poetry-dynamic-versioning]
+enable = true
+vcs = "git"
+style = "semver"
+latest-tag = true
+pattern = '^(?P<base>\d+\.\d+\.\d+)(-?((?P<stage>[a-zA-Z]+)\.?(?P<revision>\d+)?))?$'
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

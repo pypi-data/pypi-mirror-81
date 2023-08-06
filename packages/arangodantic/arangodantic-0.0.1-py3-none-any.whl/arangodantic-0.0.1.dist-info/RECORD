@@ -1,0 +1,13 @@
+arangodantic/__init__.py,sha256=556feuLosC3k2WVxyoojrIGCB_GF_Cx4UjEwgE8QEEw,166
+arangodantic/arangdb_error_codes.py,sha256=F6jAZDvrG_KX1kFVH_rdAP1_a6Vk7XhThtw3Tv8yGNA,114
+arangodantic/asynccontextmanager.py,sha256=978qCr7hmAg6Q7X3jslNyG6hDe7rgJrUaeuQs6vY57g,8889
+arangodantic/configurations.py,sha256=fznIhYcbdFuAHwkDX-8YrOah3X_ayUSPflgrJlIwmFA,1598
+arangodantic/exceptions.py,sha256=9O2INjObBVkT8RgOLYdClkWIpoDjFQrRA08aQwtwJRs,195
+arangodantic/models.py,sha256=Y-bDOMWmyphVO40B5h8Uztt7052G4CTVsneFdpd4ZoI,8371
+arangodantic/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arangodantic/tests/conftest.py,sha256=lnLhBSGQmnnq5jO7Kyijv11jKktMeqyQTRvU9AgZZOg,2550
+arangodantic/tests/test_model.py,sha256=0FKvrXIPcWqSzmzDTt2aAf0NwRgfyrju-lefyMgSNDs,3316
+arangodantic-0.0.1.dist-info/LICENSE,sha256=qxek6UGgSe4I8yN39U7zZJaywnHAFT9DZKNB4FOKmxE,1540
+arangodantic-0.0.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+arangodantic-0.0.1.dist-info/METADATA,sha256=5IJsiJpeyhI01bGF3FAWIyon6ZTJbOC3lqSgFH-sl7s,4978
+arangodantic-0.0.1.dist-info/RECORD,,

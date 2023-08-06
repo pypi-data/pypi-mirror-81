@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: txt2svg
+Version: 0.1
+Summary: A tool for generating svg images from plain text files.
+Home-page: https://github.com/CD3/txt2svg
+Author: C.D. Clark III
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

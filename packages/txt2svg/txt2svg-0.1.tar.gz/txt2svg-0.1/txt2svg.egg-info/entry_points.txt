@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    txt2svg=txt2svg.scripts.txt2svg:main
+    

@@ -1,0 +1,11 @@
+README.md
+setup.py
+txt2svg/__init__.py
+txt2svg.egg-info/PKG-INFO
+txt2svg.egg-info/SOURCES.txt
+txt2svg.egg-info/dependency_links.txt
+txt2svg.egg-info/entry_points.txt
+txt2svg.egg-info/requires.txt
+txt2svg.egg-info/top_level.txt
+txt2svg/scripts/__init__.py
+txt2svg/scripts/txt2svg.py

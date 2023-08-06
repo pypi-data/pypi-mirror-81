@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: contestfs
+Version: 0.0.7
+Summary: continuously test file system changes, and run a command.
+License: MIT
+Author: Jeong-Min Lee
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: colorama (>=0.4.3,<0.5.0)
+Requires-Dist: watchdog (>=0.10.2,<0.11.0)
+Description-Content-Type: text/markdown
+
+# Usage
+
+```
+contestfs <extensions-to-watch> <command-on-change>
+```
+
+exmaple:
+
+```
+contestfs py python -m unittest
+```
+
+```
+contestfs py,pyi mypy --ignore-missing-import .
+```
+

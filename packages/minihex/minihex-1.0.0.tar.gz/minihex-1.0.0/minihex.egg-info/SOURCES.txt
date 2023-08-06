@@ -1,0 +1,9 @@
+README.md
+setup.py
+minihex/HexGame.py
+minihex/__init__.py
+minihex.egg-info/PKG-INFO
+minihex.egg-info/SOURCES.txt
+minihex.egg-info/dependency_links.txt
+minihex.egg-info/requires.txt
+minihex.egg-info/top_level.txt

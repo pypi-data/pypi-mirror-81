@@ -1,0 +1,16 @@
+BRImage/__init__.py,sha256=gtn3QMTPB3K89_iITeanMM3YfdfSRakCzXAd0eWch74,477
+BRImage/__main__.py,sha256=EbBT0UdCyPsvZuwSpSg7LHmHWQfV4UC5JgaYtH3c2to,2770
+BRImage/glitchimage.py,sha256=Yi0NbK2LrruHYnifKGN4kEdYYZWONm7Y2PC-O8jNJaw,969
+BRImage/clib/_algorithms.cpython-38-darwin.so,sha256=H1rMmfrFR9Yfb5QC49rNlDzoVS1sVihNFGI7jliDHP0,63456
+BRImage/glitchcore/__init__.py,sha256=isNAGO8Xy4BBXeFl-Cw6oI42Y4zQNGtU6Jt0tOe6CF0,143
+BRImage/glitchcore/helper.py,sha256=HF--zPeYQzZ-DwRg_Muj97Xs1OFH77GnSFDxY3nnid0,138
+BRImage/glitchcore/image.py,sha256=_1EuvbIgufaiZeymzTpvx7PK96ZiPq9glxRLxVNOM3k,354
+BRImage/glitchcore/overlaybase.py,sha256=Y62ip5JCxlZV8h1McYuFbwwsLYJvJC3FHfatXdyGHkI,387
+BRImage/overlays/__init__.py,sha256=IlyeaZdYZGf7ongCy9HaUONs_1BNixTHJ_dMgEBsIgI,47
+BRImage/overlays/fm.py,sha256=kKJ2mgTrZ5zy9ji7tFiLb4_mfWVZwq2LCOLpBGoHIxs,3040
+BRImage-0.1.6.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+BRImage-0.1.6.dist-info/METADATA,sha256=ugh9sWNwv7Fk7VohnLgBur9sOgaqUDAMQkETBF1uxJM,2548
+BRImage-0.1.6.dist-info/WHEEL,sha256=OZYqKM1CyHVPhucOdIrOHvQLcF8LiOJ5yqSRunvjqZ0,110
+BRImage-0.1.6.dist-info/entry_points.txt,sha256=mcygLTuJK3WFq6dmUDl-2O1WdrE28z5thcdB8Q3OjDk,51
+BRImage-0.1.6.dist-info/top_level.txt,sha256=KSpbJio7Xw0otUT3K2t_X-rrqaZjuEc18CBMIkb8_n4,8
+BRImage-0.1.6.dist-info/RECORD,,

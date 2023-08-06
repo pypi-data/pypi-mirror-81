@@ -1,0 +1,3 @@
+[console_scripts]
+brimage = BRImage.__main__:main
+

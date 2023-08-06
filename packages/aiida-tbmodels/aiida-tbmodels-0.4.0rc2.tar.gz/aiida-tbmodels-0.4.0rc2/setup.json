@@ -1,0 +1,68 @@
+{
+  "name": "aiida-tbmodels",
+  "version": "0.4.0rc2",
+  "description": "AiiDA Plugin for running TBmodels",
+  "author": "Dominik Gresch",
+  "author_email": "greschd@gmx.ch",
+  "license": "Apache 2.0",
+  "url": "https://aiida-tbmodels.readthedocs.io",
+  "classifiers": [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Plugins",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Framework :: AiiDA"
+  ],
+  "keywords": [
+    "tbmodels",
+    "aiida",
+    "workflows"
+  ],
+  "entry_points": {
+    "aiida.calculations": [
+      "tbmodels.eigenvals = aiida_tbmodels.calculations.eigenvals:EigenvalsCalculation",
+      "tbmodels.parse = aiida_tbmodels.calculations.parse:ParseCalculation",
+      "tbmodels.slice = aiida_tbmodels.calculations.slice:SliceCalculation",
+      "tbmodels.symmetrize = aiida_tbmodels.calculations.symmetrize:SymmetrizeCalculation"
+    ],
+    "aiida.parsers": [
+      "tbmodels.model = aiida_tbmodels.parsers.model:ModelParser"
+    ],
+    "aiida.workflows": [
+      "tbmodels.parse = aiida_tbmodels.workflows.parse:ParseWorkChain"
+    ]
+  },
+  "include_package_data": true,
+  "setup_requires": [
+    "reentry"
+  ],
+  "reentry_register": true,
+  "install_requires": [
+    "aiida-core>=1.1.0<2.0.0",
+    "aiida-bands-inspect>=0.4.0",
+    "tbmodels>=1.4.0rc2<2"
+  ],
+  "python_requires": ">=3.6",
+  "extras_require": {
+    "testing": [
+      "pytest",
+      "aiida-pytest>=0.1.0a6"
+    ],
+    "docs": [
+      "sphinx",
+      "sphinx-rtd-theme",
+      "sphinxcontrib-details-directive"
+    ],
+    "dev_precommit": [
+      "yapf==0.29",
+      "pre-commit==2.2.0",
+      "prospector==1.2.0",
+      "pylint==2.4.4"
+    ]
+  }
+}

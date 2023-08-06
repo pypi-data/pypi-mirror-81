@@ -1,0 +1,13 @@
+compsyn/__init__.py,sha256=sV03VJQJLeps-a-68xn8MX0oSiGAu3MKTmdK4XSpC88,156
+compsyn/analysis.py,sha256=B3m9RRuBxpbgJcXF0CT5-OOPQTOqEXDoil3ycNRs4Wk,17672
+compsyn/datahelper.py,sha256=4-h3-l8UzmPXHFiKg6AGqqxOrfrUYfijokIFxo43LwY,5175
+compsyn/helperfunctions.py,sha256=DEjDTGEvE1T0TBWIijzRShfjyaGN4QPKoeAqAsdScLo,11567
+compsyn/logger.py,sha256=TEKsOech__E2CDZcd7PVqfLXsg3dJrU2B1fzoiX9ssM,1422
+compsyn/vectors.py,sha256=vRC05i_rVSCZB0yZAUZYleIMYnNKH62sLX0x_ysRRXQ,6406
+compsyn/visualisation.py,sha256=-5r_lKqcb7fA2ttCYnWP8Ys9QHuJs54Fdfu5IV7XUKQ,11330
+compsyn/wordnet_functions.py,sha256=n_3_VrDxQ5ctqDnSQ3hbOU9krMreJWZ8b6wt3cZZPzQ,7041
+compsyn-0.2.2.dist-info/LICENSE,sha256=8rUu9acUHGt7pqaRg6xGMBg2cs_RL6kU6H7-RHLZlJw,1180
+compsyn-0.2.2.dist-info/METADATA,sha256=VXPP-w1AK9vWaF2TBcQqUysbV-tLwTc0rxvY5xQYbIM,3133
+compsyn-0.2.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+compsyn-0.2.2.dist-info/top_level.txt,sha256=W_DfoeDfdSAS63-QTA58pLrcEfqfN271LFQj9GX8w9s,8
+compsyn-0.2.2.dist-info/RECORD,,

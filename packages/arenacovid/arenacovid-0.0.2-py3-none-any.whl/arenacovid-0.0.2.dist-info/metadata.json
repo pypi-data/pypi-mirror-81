@@ -1,0 +1,1 @@
+{"extensions": {"python.details": {"document_names": {"description": "DESCRIPTION.rst"}}}, "extras": [], "generator": "bdist_wheel (0.30.0)", "metadata_version": "2.0", "name": "arenacovid", "run_requires": [{"requires": ["boto3", "matplotlib", "numba", "pandas (==0.24.2)", "pyarrow", "pymc3", "s3fs (==0.2.2)", "theano"]}], "summary": "UNKNOWN", "version": "0.0.2"}

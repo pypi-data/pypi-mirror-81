@@ -1,0 +1,11 @@
+arenacovid/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arenacovid/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arenacovid/models/curve_fitting.py,sha256=zxiSOBUeTw3SM5g51gQgDPo8Ath_UnzgqLd0YVZpUkQ,5138
+arenacovid/models/phase_space.py,sha256=W9gWQEzoloTAs1P_sAh3ov5J3Y9HqgZ41kypzCvU5LA,4717
+arenacovid/models/sir.py,sha256=xamAKHL5p1z3nRpXaEgirg1u4JUNcprIQjHUP4QAg1w,1111
+arenacovid-0.0.2.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+arenacovid-0.0.2.dist-info/METADATA,sha256=JJhYjoGRrSnsw02MQizu9uVGAXxYlou8ZRDA5fOFsK0,371
+arenacovid-0.0.2.dist-info/RECORD,,
+arenacovid-0.0.2.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+arenacovid-0.0.2.dist-info/metadata.json,sha256=qVftVFsnR6nIeVKzu_3eFUHvxM4O8UmM2fUWvZzEAz8,367
+arenacovid-0.0.2.dist-info/top_level.txt,sha256=g52jl1wYsKSKQGCWxoKaiceDeQHL-pDmXp1H-V9vDXg,11

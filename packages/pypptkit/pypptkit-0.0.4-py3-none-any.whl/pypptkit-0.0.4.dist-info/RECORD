@@ -1,0 +1,15 @@
+pypptkit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypptkit/configs.py,sha256=gENZ6h8_ZirGgT1TT-EUAGfwS3SRUHqzOUQACSgszzQ,108
+pypptkit/main.py,sha256=eUtW_AUzOW34KwRtnEKMTV0by4Ad8-x1gAfqIqZKhxE,2644
+pypptkit/static.py,sha256=9A3Erw55dy2vDU6xcpgeGuzsxUhbrLFP-g0yOl5mhZ0,164
+pypptkit/utils.py,sha256=qXGPfHoMAhQq2o2yt0DIjZaxuyiIk1PGjAUBPp6c7g8,1077
+pypptkit/version.py,sha256=xaicLy_Vgl-SjlU0FLg3OO79hP7CBOsX3nEoN0SXU28,83
+pypptkit/endpoints/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypptkit/endpoints/group_default.py,sha256=njRxfL78pNeMsy9sgdkT0s9iHQJkmoVOOH6OQjBybpI,3550
+pypptkit/endpoints/main.py,sha256=b-WNcxA6lVcerAjWlXvQ0fTryLDoyaiXjtHfgWicUNo,543
+pypptkit-0.0.4.dist-info/LICENSE,sha256=iwFQQUu2nh_gHEI7WRLvLBV7tl-cWaV5-HRFz4nZ6B0,1069
+pypptkit-0.0.4.dist-info/METADATA,sha256=QZJY9VyF_dH8ifxl6gLsCADiJopoUi3k730EarQ0ZkE,1376
+pypptkit-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pypptkit-0.0.4.dist-info/entry_points.txt,sha256=y0iBz228umt02e4qgd5FNQZCf00cWjPf-JQ3B7a3p4o,49
+pypptkit-0.0.4.dist-info/top_level.txt,sha256=7a5OC2Hwt1bfnW4_s73dClSOa3zBLfAN9Shz5PcKlHA,9
+pypptkit-0.0.4.dist-info/RECORD,,

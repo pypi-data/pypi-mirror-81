@@ -1,0 +1,13 @@
+example_module/__init__.py,sha256=7pJAcozkuw3c5fbrEP28nc_I0G51GkuubCIufzWZtnM,171
+example_module/__main__.py,sha256=hx9ROiSFsXrp5i8vHvQoegwHb4I6vaXSyce2hYGFRTc,1881
+example_module/add_two_numbers.py,sha256=x68StK896msrEyhCys1fKEiraryQAVAQ8UmLaUZJ0bQ,402
+example_module/analyze_file_pipeline.py,sha256=nfjaTUCpZHmXqMab_WxuryH4L9R9M_K5-36dHbNci8k,779
+simppl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simppl/cli.py,sha256=-FHmKRh6xj5V46KDLvoICN4HThV7PrBQZuFVk2SbITg,5882
+simppl/command_line_tool.py,sha256=plmCpVz7D8TfcVq3tCj-jm77JCO4U4hx9bzRH8R5B2Y,2036
+simppl/simple_pipeline.py,sha256=qJ_9Pn-o0VwANg6H8j4ZpKb4x_kMdTHxMIJm8ta17Qw,6874
+simppl-1.0.1.dist-info/LICENSE,sha256=P6KSjd8w1TpUyOwN-e69xEYkc4j5nyZ58boP0j7KTjA,1063
+simppl-1.0.1.dist-info/METADATA,sha256=hTgc-zIAdifIrLgLwEUgPnsva3EBd_RmWZrD7wb_Wkg,511
+simppl-1.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+simppl-1.0.1.dist-info/top_level.txt,sha256=iGXpgT3LXieGvOzN2bplbFeENnMbrUIXuBrCblBDXLM,22
+simppl-1.0.1.dist-info/RECORD,,

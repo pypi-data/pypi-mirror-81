@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: gitmodules
+Version: 0.0.2
+Summary: Import this module to use gitmodules in Python projects without headache
+Home-page: https://github.com/kuyaki/gitmodules
+Author: kuyaki
+Author-email: kuzma.yakimets@huawei.com
+License: MIT
+Download-URL: https://github.com/kuyaki/gitmodules/archive/v0.0.2.tar.gz
+Description: This project was developed to avoid problems with gitmodules importing in Python projects.
+Keywords: git,submodules,submodule,module,gitmodules,gitmodule,python,import
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

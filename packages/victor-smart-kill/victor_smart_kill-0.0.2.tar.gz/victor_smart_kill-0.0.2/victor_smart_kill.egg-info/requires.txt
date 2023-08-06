@@ -1,0 +1,4 @@
+httpx>=0.15.5
+marshmallow>=3.8
+marshmallow-dataclass>=8.0
+typeguard

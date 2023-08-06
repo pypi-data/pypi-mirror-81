@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: libprimeiroprojeto
+Version: 0.1
+Summary: Módulo para exemplificar construção de projetos Python no curso PyTools
+Home-page: https://github.com/DanielEliaSimoes/libprimeiroprojeto
+Author: Daniel Simões Elias
+Author-email: daniel.elias@fatec.sp.gov.br
+License: GNU Affero General Public License v3 or later (AGPLv3+)
+Description: Módulo para exemplificar a criação de projetos Python
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Framework :: Pytest
+Description-Content-Type: text/markdown

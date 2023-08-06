@@ -1,0 +1,11 @@
+octobot_commons/async_job.cp37-win32.pyd
+octobot_commons/data_util.cp37-win32.pyd
+octobot_commons/evaluators_util.cp37-win32.pyd
+octobot_commons/event_tree.cp37-win32.pyd
+octobot_commons/list_util.cp37-win32.pyd
+octobot_commons/pretty_printer.cp37-win32.pyd
+octobot_commons/symbol_util.cp37-win32.pyd
+octobot_commons/time_frame_manager.cp37-win32.pyd
+octobot_commons/logging/logging_util.cp37-win32.pyd
+octobot_commons/singleton/singleton_class.cp37-win32.pyd
+octobot_commons/tentacles_management/class_inspector.cp37-win32.pyd

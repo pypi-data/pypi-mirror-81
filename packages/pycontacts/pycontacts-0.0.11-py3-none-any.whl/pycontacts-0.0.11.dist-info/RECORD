@@ -1,0 +1,16 @@
+pycontacts/__init__.py,sha256=6IRyWq7MSKIgbVRP6qX_erh52n1fVo1H7znMSN5TCB8,27
+pycontacts/configs.py,sha256=FEARfL--EN4CDn5_oVlOMjC1IwGkl-keVGRDh17hhHI,738
+pycontacts/list.py,sha256=YDTOWfU9NvGy2k5MdCC0CbNMPXfVt9zWpEFUug7BnuM,2576
+pycontacts/main.py,sha256=aGdCmw9ljdqBJocCQPdMOAcbrgvHhs6V3w2Qg1akNCs,7498
+pycontacts/static.py,sha256=d6D31uGnNaJhsJYpOrLRcT0y7Yjpg85ccjWZ5NlIs_0,202
+pycontacts/utils.py,sha256=g-ZmxoMaCH69CRJTSvmqTmHji1iRbmFtfCenSoL-M0Q,864
+pycontacts/version.py,sha256=HTRT86cibvGhXDPwPmn0zS2u1Gz89YjCLGd2ELlDDdU,84
+pycontacts/endpoints/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycontacts/endpoints/group_default.py,sha256=uXWyZpUo5o4z4Jg5PxZ5ziblFLR8GvNbK6cu0xstLS4,7703
+pycontacts/endpoints/main.py,sha256=Jal8hEuwnSlw_UmL-xlkTOKOXLRhirKFQ4Q1Zwrfil4,580
+pycontacts-0.0.11.dist-info/LICENSE,sha256=iwFQQUu2nh_gHEI7WRLvLBV7tl-cWaV5-HRFz4nZ6B0,1069
+pycontacts-0.0.11.dist-info/METADATA,sha256=3sR_ru4xUXIh4xmX1osGPjIu78RCXxQM9opRU75hqwQ,1538
+pycontacts-0.0.11.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pycontacts-0.0.11.dist-info/entry_points.txt,sha256=6oq3nIVqVDQtQ7Q8AaDNimvNspusShwqoyOfmtV5hQU,53
+pycontacts-0.0.11.dist-info/top_level.txt,sha256=ZXjkzp9CacNmcfqWr1Ml0OjzssK6KbF_rw4LSIFj-Js,11
+pycontacts-0.0.11.dist-info/RECORD,,

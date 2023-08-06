@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: alectio-kms
+Version: 0.7.0
+Summary: A CLI interface to get AlectioSDK token
+Home-page: https://github.com/
+Author: Devi Prasad Tripathy
+Author-email: devi.tripathy@alectio.com
+License: BSD
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Requires-Dist: jinja2
+Requires-Dist: flask
+Requires-Dist: requests
+Provides-Extra: tests
+Requires-Dist: jinja2 ; extra == 'tests'
+Requires-Dist: flask ; extra == 'tests'
+Requires-Dist: requests ; extra == 'tests'
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: flake8 ; extra == 'tests'
+Provides-Extra: toml
+Requires-Dist: jinja2 ; extra == 'toml'
+Requires-Dist: flask ; extra == 'toml'
+Requires-Dist: requests ; extra == 'toml'
+Requires-Dist: toml ; extra == 'toml'
+Provides-Extra: xml
+Requires-Dist: jinja2 ; extra == 'xml'
+Requires-Dist: flask ; extra == 'xml'
+Requires-Dist: requests ; extra == 'xml'
+Requires-Dist: xmltodict ; extra == 'xml'
+Provides-Extra: yaml
+Requires-Dist: jinja2 ; extra == 'yaml'
+Requires-Dist: flask ; extra == 'yaml'
+Requires-Dist: requests ; extra == 'yaml'
+Requires-Dist: pyyaml ; extra == 'yaml'
+
+A CLI interface to get AlectioSDK token
+
+

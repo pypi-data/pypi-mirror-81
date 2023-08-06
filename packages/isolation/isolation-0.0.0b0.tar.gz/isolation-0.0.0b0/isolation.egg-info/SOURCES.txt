@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+isolation.egg-info/PKG-INFO
+isolation.egg-info/SOURCES.txt
+isolation.egg-info/dependency_links.txt
+isolation.egg-info/top_level.txt

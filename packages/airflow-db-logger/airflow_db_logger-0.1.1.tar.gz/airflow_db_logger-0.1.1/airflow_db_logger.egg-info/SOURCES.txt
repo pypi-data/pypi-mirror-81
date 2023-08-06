@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+README.rst
+setup.cfg
+setup.py
+airflow_db_logger/__init__.py
+airflow_db_logger/config.py
+airflow_db_logger/consts.py
+airflow_db_logger/data.py
+airflow_db_logger/handlers.py
+airflow_db_logger/shell_logging_config.py
+airflow_db_logger/utils.py
+airflow_db_logger.egg-info/PKG-INFO
+airflow_db_logger.egg-info/SOURCES.txt
+airflow_db_logger.egg-info/dependency_links.txt
+airflow_db_logger.egg-info/requires.txt
+airflow_db_logger.egg-info/top_level.txt

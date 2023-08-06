@@ -1,0 +1,4 @@
+coveralls
+flaky
+pytest
+pytest-cov

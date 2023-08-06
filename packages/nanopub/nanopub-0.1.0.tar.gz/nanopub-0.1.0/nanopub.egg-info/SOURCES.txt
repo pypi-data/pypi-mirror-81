@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+np
+requirements-dev.txt
+requirements.txt
+setup.py
+nanopub/__init__.py
+nanopub/_version.py
+nanopub/definitions.py
+nanopub/java_wrapper.py
+nanopub/nanopub.py
+nanopub.egg-info/PKG-INFO
+nanopub.egg-info/SOURCES.txt
+nanopub.egg-info/dependency_links.txt
+nanopub.egg-info/requires.txt
+nanopub.egg-info/top_level.txt

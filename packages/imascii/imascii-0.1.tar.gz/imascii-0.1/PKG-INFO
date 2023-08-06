@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: imascii
+Version: 0.1
+Summary: Converts image to ASCII pattern
+Home-page: https://github.com/user/mornville
+Author: Ashutosh Jha
+Author-email: aj97389@gmail.com
+License: MIT
+Download-URL: https://github.com/mornville/Imascii-py/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: ASCII,IMAGE,PATTERN,CONVERSION
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6

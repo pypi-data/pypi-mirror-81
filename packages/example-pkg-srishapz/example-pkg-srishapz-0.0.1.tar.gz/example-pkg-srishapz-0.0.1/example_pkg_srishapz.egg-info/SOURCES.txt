@@ -1,0 +1,8 @@
+README.md
+setup.py
+example_pkg/__init__.py
+example_pkg/spg.py
+example_pkg_srishapz.egg-info/PKG-INFO
+example_pkg_srishapz.egg-info/SOURCES.txt
+example_pkg_srishapz.egg-info/dependency_links.txt
+example_pkg_srishapz.egg-info/top_level.txt

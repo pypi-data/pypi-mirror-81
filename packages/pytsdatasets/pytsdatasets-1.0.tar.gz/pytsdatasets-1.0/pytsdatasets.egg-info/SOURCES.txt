@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pytsdatasets/__init__.py
+pytsdatasets/pytsdatasets.py
+pytsdatasets.egg-info/PKG-INFO
+pytsdatasets.egg-info/SOURCES.txt
+pytsdatasets.egg-info/dependency_links.txt
+pytsdatasets.egg-info/requires.txt
+pytsdatasets.egg-info/top_level.txt
+pytsdatasets/data/airpassengers.csv
+pytsdatasets/data/co2.csv
+pytsdatasets/data/globaltemp.csv
+pytsdatasets/data/h02.csv
+pytsdatasets/data/jj.csv
+pytsdatasets/data/uschange.csv

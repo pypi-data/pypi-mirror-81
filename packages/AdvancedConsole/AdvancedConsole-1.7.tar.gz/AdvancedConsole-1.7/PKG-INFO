@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: AdvancedConsole
+Version: 1.7
+Summary: UNKNOWN
+Home-page: https://github.com/jack-the-hack/AdvancedConsole
+Author: Donnie Jack Baldyga
+License: UNKNOWN
+Description: Welcome to Advanced Console
+        ===========================
+        
+        Advanced Console is a python library which helps with using the python console.
+        -------------------------------------------------------------------------------
+        
+        Commands:
+        =========
+        
+        Addline
+        -------
+        
+        Just a basic print command. Syntax:
+        
+        ::
+        
+            addline("Text")
+        
+        fs/efs
+        ------
+        
+        Enters and exits fullscreen mode. Syntax:
+        
+        ::
+        
+            fs()
+            addline("this window is fullscreen!")
+            efs()
+            addline("no longer fullscreen.")
+        
+        color:
+        ------
+        
+        Sets color of window. Syntax:
+        
+        ::
+        
+            color("foreground color","background color")
+        
+        Notes:
+        ======
+        
+        1.only works on windows.
+        
+        2.It was made by a boy that knows nothing about
+        python packages.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown

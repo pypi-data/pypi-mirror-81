@@ -1,0 +1,8 @@
+Advancedconsole.py
+README.rst
+setup.py
+AdvancedConsole.egg-info/PKG-INFO
+AdvancedConsole.egg-info/SOURCES.txt
+AdvancedConsole.egg-info/dependency_links.txt
+AdvancedConsole.egg-info/requires.txt
+AdvancedConsole.egg-info/top_level.txt

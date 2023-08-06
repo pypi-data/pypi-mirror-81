@@ -1,0 +1,10 @@
+johann_plugin_example/__init__.py,sha256=3PMlPnKlVts6sjWUu-mxoN2gnndIijrv3nXdu0tZpLo,363
+johann_plugin_example/config.py,sha256=mhNv4IBMrrfRCNhxQqSWOChSZIECHHZGn2bAovrZn9Q,849
+johann_plugin_example/tasks.py,sha256=BZv0d4siSGihMbHHsECSCye1W95T8y7EVEFvXYm2VYM,1795
+johann_plugin_example/scores/simple_example_1.yml,sha256=7Ok1A-bYyRCvowDzOzGJx-FaiopHkbA_RLhUjAIz7TU,669
+johann_plugin_example-0.1.0a0.dist-info/AUTHORS,sha256=LmWnScpSOtmLeyS6d9M9yT4ImtX4JwNGEWVKN9GIJVc,441
+johann_plugin_example-0.1.0a0.dist-info/LICENSE,sha256=p3lMRBhCXS0EtLrjRYkhRkDt2K0-8ZoWXDKt1cT66H4,1550
+johann_plugin_example-0.1.0a0.dist-info/METADATA,sha256=n1veAPLzV4hXRZ7yNjHL-6rXO56FMRwf0NyrtazxOHc,2349
+johann_plugin_example-0.1.0a0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+johann_plugin_example-0.1.0a0.dist-info/top_level.txt,sha256=TPH57Nkw_fZFJoL53wiqKiD5bS42NpxDiJI_xQsYelc,22
+johann_plugin_example-0.1.0a0.dist-info/RECORD,,

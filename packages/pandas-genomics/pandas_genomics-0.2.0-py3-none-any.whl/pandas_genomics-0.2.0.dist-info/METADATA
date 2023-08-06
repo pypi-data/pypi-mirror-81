@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: pandas-genomics
+Version: 0.2.0
+Summary: Pandas ExtensionDtypes and ExtensionArray for working with genomics data
+Home-page: https://github.com/HallLab/pandas-genomics/
+License: BSD-3-Clause
+Author: John McGuigan
+Author-email: jrm5100@psu.edu
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Provides-Extra: docs
+Requires-Dist: ipython[docs] (>=7.18.1,<8.0.0)
+Requires-Dist: numpydoc[docs] (>=1.1.0,<2.0.0)
+Requires-Dist: pandas (>=1.1,<2.0)
+Requires-Dist: sphinx (>=3.2.1,<4.0.0); extra == "docs"
+Requires-Dist: sphinx-copybutton[docs] (>=0.3.0,<0.4.0)
+Requires-Dist: sphinx_rtd_theme[docs] (>=0.5.0,<0.6.0)
+Project-URL: Documentation, https://pandas-genomics.readthedocs.io/en/latest/
+Project-URL: Repository, https://github.com/HallLab/pandas-genomics/
+Description-Content-Type: text/markdown
+
+<div align="center">
+<img src="docs/_static/logo.png" alt="pandas_genomics logo"/>
+</div>
+
+<br/>
+
+<div align="center">
+
+<!-- Python version -->
+<a href="https://pypi.python.org/pypi/pandas-genomics">
+<img src="https://img.shields.io/badge/python-3.7+-blue.svg?style=for-the-badge" alt="PyPI version"/>
+</a>
+<!-- PyPi -->
+<a href="https://pypi.org/project/pandas-genomics/">
+<img src="https://img.shields.io/pypi/v/pandas-genomics.svg?style=for-the-badge" alt="pypi" />
+</a>
+<!-- Build status -->
+<a href="https://travis-ci.org/HallLab/pandas-genomics?branch=master">
+<img src="https://img.shields.io/travis/HallLab/pandas-genomics.svg?style=for-the-badge" alt="Build Status" />
+</a>
+<!-- Test coverage -->
+<a href="https://coveralls.io/github/HallLab/pandas-genomics?branch=master">
+<img src="https://img.shields.io/codecov/c/gh/HallLab/pandas-genomics.svg?style=for-the-badge" alt="Coverage Status"/>
+</a>
+<!-- License -->
+<a href="https://opensource.org/licenses/BSD-3-Clause">
+<img src="https://img.shields.io/pypi/l/pandas-genomics?style=for-the-badge" alt="license"/>
+</a>
+</div>
+
+<br/>
+
+Pandas ExtensionDtypes and ExtensionArray for working with genomics data
+

@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: tuning-metrics
+Version: 0.1.1
+Summary: Library to compute auto-tuning and performance metrics.
+Home-page: https://github.com/isazi/tuning_metrics
+Author: Alessio Sclocco
+Author-email: alessio@sclocco.eu
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.19.2)
+
+# tuning_metrics
+
+[![DOI](https://zenodo.org/badge/185180057.svg)](https://zenodo.org/badge/latestdoi/185180057)
+
+Library to compute auto-tuning and performance metrics.
+
+

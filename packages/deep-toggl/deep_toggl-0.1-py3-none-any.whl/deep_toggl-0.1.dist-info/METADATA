@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: deep-toggl
+Version: 0.1
+Summary: Package for managing deep work
+Home-page: https://github.com/gianscarpe/sampleproject
+Author: gianscarpe
+Author-email: me@scarpellini.dev
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: pendulum
+Requires-Dist: togglCli
+Requires-Dist: calmap
+
+UNKNOWN
+
+

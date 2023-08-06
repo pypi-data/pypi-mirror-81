@@ -1,0 +1,13 @@
+README.md
+setup.py
+deep_toggl/__init__.py
+deep_toggl/__main__.py
+deep_toggl/cli.py
+deep_toggl/config.py
+deep_toggl/evaluator.py
+deep_toggl.egg-info/PKG-INFO
+deep_toggl.egg-info/SOURCES.txt
+deep_toggl.egg-info/dependency_links.txt
+deep_toggl.egg-info/entry_points.txt
+deep_toggl.egg-info/requires.txt
+deep_toggl.egg-info/top_level.txt

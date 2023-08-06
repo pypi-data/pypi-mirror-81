@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: dbex
+Version: 0.0.10.6
+Summary: json-like encoder and decoder
+Home-page: https://github.com/tunapro1234/dbex/
+Author: TUNAPRO1234
+Author-email: tunagul54@gmail.com
+License: MIT
+Download-URL: https://github.com/tunapro1234/DBEX/archive/v0.0.10.6.tar.gz
+Description: 
+        Json like decoder
+        https://github.com/tunapro1234/dbex
+        
+Keywords: json,file,encryption,save,data
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Build Tools

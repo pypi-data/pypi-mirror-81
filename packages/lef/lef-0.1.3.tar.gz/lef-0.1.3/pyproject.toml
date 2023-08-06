@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "lef"
+version = "0.1.3"
+description = "Framework for creating AWS Lambda Extensions"
+authors = ["Joe Snell <joepsnell@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/lambda-extensions/python-extension-framework"
+documentation = "https://github.com/lambda-extensions/python-extension-framework"
+homepage = "https://github.com/lambda-extensions/python-extension-framework"
+keywords = [
+    "AWS",
+    "AWS Lambda",
+    "Lambda Extensions",
+    "Framework",
+    "Lambda Extension Framework"
+]
+
+packages = [
+    { include = "lef" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.24.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.1.1"
+bumpversion = "^0.6.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

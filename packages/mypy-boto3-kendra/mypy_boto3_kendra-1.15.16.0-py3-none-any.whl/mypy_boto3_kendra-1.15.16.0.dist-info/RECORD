@@ -1,0 +1,13 @@
+mypy_boto3_kendra/__init__.py,sha256=EYjw6ThdzKYOzjiVYd8HwASyzlGP0Wxa2nn5atRU8-o,426
+mypy_boto3_kendra/__init__.pyi,sha256=VAgEy0W2G0HAAkkP5Q4gzHOocpRzgkxSsf7zGc4-FTg,425
+mypy_boto3_kendra/__main__.py,sha256=DmKAyVSPwchG_iH6RyBEZAaB98A5P1-w_fFxd6I_SE8,392
+mypy_boto3_kendra/client.py,sha256=yFgawT7ii79Yt0aSgA2s5-Xwo82qO5wGEDjnYkh7K54,12375
+mypy_boto3_kendra/client.pyi,sha256=eifFu6adafH__6PWHyEtoyCwIowV_D7eI88BRRezp90,12344
+mypy_boto3_kendra/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_kendra/type_defs.py,sha256=iT1y_psSQ6yVFDZMsbNp23iA5vGM0cLMQaz1INBn4cE,28886
+mypy_boto3_kendra/type_defs.pyi,sha256=V0PFJQuqMGZhe8gjRujbOL6BBzbtuI4pa3bppJh-DaI,28847
+mypy_boto3_kendra/version.py,sha256=Khy9KglkZ6PZP-5D4TSZ6HVbbAdnuhMfmF192MJm3RE,57
+mypy_boto3_kendra-1.15.16.0.dist-info/METADATA,sha256=2RgCv8rgc949uyoCJOEpxMdgQhHHTe_w8rs3hvqd8Wc,8261
+mypy_boto3_kendra-1.15.16.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+mypy_boto3_kendra-1.15.16.0.dist-info/top_level.txt,sha256=5kcIM5QHVOF958NNOuIsBbYj7Abp_9zqARzReR6FzRU,18
+mypy_boto3_kendra-1.15.16.0.dist-info/RECORD,,

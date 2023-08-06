@@ -1,0 +1,11 @@
+spg_pkg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spg_pkg/spg.py,sha256=WBjWLfDy3W5qD4jgiTs0msVMYGiRhzlbOMeTUIhuv0k,49
+spg_pkg/spg_core.py,sha256=ReIcKRAKCsUy-CSNxU8HRCclkgIW-eM2lXizemjvbbU,92
+spg_pkg/python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spg_pkg/python/sparkplug_b.py,sha256=kt8u_mOKqTkD2IfnxIWJcdKjt-OeDHVDvtmbOxjCB_4,10490
+spg_pkg/python/sparkplug_b_pb2.py,sha256=WpJbinZkWbKWxUaTJV1gpRFEesGMqFO6JcTH8p-6nnc,56840
+spg_pkg-1.0.3.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spg_pkg-1.0.3.dist-info/METADATA,sha256=SjdIHuEB3bLlmcmOiqsEiBypaD2fii6XAieRM2sgX5g,504
+spg_pkg-1.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+spg_pkg-1.0.3.dist-info/top_level.txt,sha256=lyzAo0reIpHwJJlTV9INpTjyH0bzHm7tRs-ZBDDPri8,8
+spg_pkg-1.0.3.dist-info/RECORD,,

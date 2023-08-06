@@ -1,0 +1,224 @@
+2020-05-31T22:20:20,499 Non-user install because site-packages writeable
+2020-05-31T22:20:20,535 Created temporary directory: /private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-ephem-wheel-cache-gpa6umro
+2020-05-31T22:20:20,536 Created temporary directory: /private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-req-tracker-qi1nscr1
+2020-05-31T22:20:20,536 Initialized build tracking at /private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-req-tracker-qi1nscr1
+2020-05-31T22:20:20,536 Created build tracker: /private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-req-tracker-qi1nscr1
+2020-05-31T22:20:20,536 Entered build tracker: /private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-req-tracker-qi1nscr1
+2020-05-31T22:20:20,537 Created temporary directory: /private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-install-s_hupyh7
+2020-05-31T22:20:20,574 1 location(s) to search for versions of mayavi:
+2020-05-31T22:20:20,574 * https://pypi.org/simple/mayavi/
+2020-05-31T22:20:20,574 Fetching project page and analyzing links: https://pypi.org/simple/mayavi/
+2020-05-31T22:20:20,574 Getting page https://pypi.org/simple/mayavi/
+2020-05-31T22:20:20,575 Found index url https://pypi.org/simple
+2020-05-31T22:20:20,709   Found link https://files.pythonhosted.org/packages/e3/dd/dfa3d8e8072f92f443e33bfa5950a13305d95ef1b381c1270893f88d898b/mayavi-4.3.1.tar.gz#sha256=5a0b573d238c271302d41de7282bec55306ef80baa8339144a5565dff5fd4831 (from https://pypi.org/simple/mayavi/), version: 4.3.1
+2020-05-31T22:20:20,709   Found link https://files.pythonhosted.org/packages/12/0d/b9129b07139fa872707bc8049d9dec992414e9d3153ebc0c2a3715caf1fa/mayavi-4.4.1.tar.gz#sha256=af6f2dc7c3f84324de48116b13e4ca5a05daf72d24ca7e4bcdfa113cc7177688 (from https://pypi.org/simple/mayavi/), version: 4.4.1
+2020-05-31T22:20:20,709   Found link https://files.pythonhosted.org/packages/f0/82/3e5c775b87ab28e51deccdba2a1e48e09c7a840f4d3137bf9eeaa1e04859/mayavi-4.4.2.tar.gz#sha256=67e8d691951356135adb77f0e9e07d18223759b53b7ed8e84e398019ed26f298 (from https://pypi.org/simple/mayavi/), version: 4.4.2
+2020-05-31T22:20:20,710   Found link https://files.pythonhosted.org/packages/c9/fb/f34497dedce1601aead01675f0ae3725232a4c0b8fd75330938503c8ba19/mayavi-4.4.3.tar.bz2#sha256=0ce529a7f19fbde907e9b26d023ccf2356fc6797621fa95e09cc3c5b050fe6ef (from https://pypi.org/simple/mayavi/), version: 4.4.3
+2020-05-31T22:20:20,710   Found link https://files.pythonhosted.org/packages/ae/01/aa1fb00cd4f76acfed41691c7ccd82dcb9a75f27c651be763feff8c26e05/mayavi-4.4.3.zip#sha256=e7b82e0703d865a7b3761834db5aecec846f2febd85c489198bcb139ea393086 (from https://pypi.org/simple/mayavi/), version: 4.4.3
+2020-05-31T22:20:20,710   Found link https://files.pythonhosted.org/packages/76/e2/0a2cab8d3434cfc73b945170dd5ef2cb3616418f6cf6178a4037cd2adb45/mayavi-4.4.4.tar.bz2#sha256=a776d97571dd97434da72477e3af6b61221e9214b8e0841440ecdc93199d19f0 (from https://pypi.org/simple/mayavi/), version: 4.4.4
+2020-05-31T22:20:20,710   Found link https://files.pythonhosted.org/packages/03/02/2e87f3cc288b8fc9105440ad06103591bec7b5be0eb53f24274d044ba19a/mayavi-4.4.4.tar.gz#sha256=a6cbbcf3ef6c72970f4e46a52edb18f0f7b00980932ab8c737224314b63eef10 (from https://pypi.org/simple/mayavi/), version: 4.4.4
+2020-05-31T22:20:20,710   Found link https://files.pythonhosted.org/packages/19/f6/fde2f9bde7036c25b96d66d5ccf28c3ac14e5ecea92d0e5a6a0b2613f09f/mayavi-4.5.0.tar.bz2#sha256=b416bf0b183628e391b73377a965c500480466f06fcf21aae547783eb40c6e49 (from https://pypi.org/simple/mayavi/), version: 4.5.0
+2020-05-31T22:20:20,711   Found link https://files.pythonhosted.org/packages/6c/c7/3f49fe4caee7534838cbf03d8494f1f5de0d993606b02c5f90e37d69229c/mayavi-4.5.0.tar.gz#sha256=363dbd127477d9a6a7558ef852ecfe48f4688c3f631c1ede2dead78115e8f0a8 (from https://pypi.org/simple/mayavi/), version: 4.5.0
+2020-05-31T22:20:20,711   Found link https://files.pythonhosted.org/packages/8a/7d/3c3a7b60b5d87e69d194cc71de716178a7af165342f85083620c68d88260/mayavi-4.5.0.zip#sha256=033851ebe50edae015f96ef2121de2cfd16ab9e96c0ee9810b889a12b96a3ef6 (from https://pypi.org/simple/mayavi/), version: 4.5.0
+2020-05-31T22:20:20,711   Found link https://files.pythonhosted.org/packages/ff/05/1d38b1fd6ce1779e063b1f3a993552fb975e4e738ae197065f08b8c5f9fd/mayavi-4.6.0.tar.bz2#sha256=19d27dad02a6dcc0aeec476bbbded9bab6fe958f4f1c824afaf58b3958ed836e (from https://pypi.org/simple/mayavi/), version: 4.6.0
+2020-05-31T22:20:20,711   Found link https://files.pythonhosted.org/packages/36/8f/ab9555a37ab7c30560928c2eb0a9715f4492a11536f057aada019a319661/mayavi-4.6.1.tar.bz2#sha256=588264ced9c05a2b178f50c78fadd51443a2a069695e787fb2dfa0aa875438c0 (from https://pypi.org/simple/mayavi/), version: 4.6.1
+2020-05-31T22:20:20,711   Found link https://files.pythonhosted.org/packages/83/9e/293ba57353ed258c2f64d54bf00ca1447c1f38f4eb60d0e762ddec57bf51/mayavi-4.6.2.tar.bz2#sha256=7480f0f87c146888846b1a063893bb24549f4f01a4d602cf501074dda8724291 (from https://pypi.org/simple/mayavi/), version: 4.6.2
+2020-05-31T22:20:20,711   Found link https://files.pythonhosted.org/packages/bb/f7/395f897f2356037ea001157f5def7586d0d461815a2778508e3561064850/mayavi-4.7.0.tar.bz2#sha256=84c0e1c6a4e24f7f7c81e69934fa9ba45432de44e2b86171bcc2dbb983242f0b (from https://pypi.org/simple/mayavi/), version: 4.7.0
+2020-05-31T22:20:20,711   Found link https://files.pythonhosted.org/packages/08/ea/eb808cb4df8f92bc4d9f9a1ef14566b9b5d60370e6ecbaf9061cdae335fa/mayavi-4.7.1.tar.bz2#sha256=be51fb6f886f304f7c593c907e6a2e88d7919f8f446cdccfcd184fa35b3db724 (from https://pypi.org/simple/mayavi/), version: 4.7.1
+2020-05-31T22:20:20,715 Given no hashes to check 15 links for project 'mayavi': discarding no candidates
+2020-05-31T22:20:20,716 Using version 4.7.1 (newest of versions: 4.3.1, 4.4.1, 4.4.2, 4.4.3, 4.4.4, 4.5.0, 4.6.0, 4.6.1, 4.6.2, 4.7.0, 4.7.1)
+2020-05-31T22:20:20,719 Collecting mayavi
+2020-05-31T22:20:20,720   Created temporary directory: /private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-unpack-pdtce005
+2020-05-31T22:20:20,803   Using cached mayavi-4.7.1.tar.bz2 (7.0 MB)
+2020-05-31T22:20:23,664   Added mayavi from https://files.pythonhosted.org/packages/08/ea/eb808cb4df8f92bc4d9f9a1ef14566b9b5d60370e6ecbaf9061cdae335fa/mayavi-4.7.1.tar.bz2#sha256=be51fb6f886f304f7c593c907e6a2e88d7919f8f446cdccfcd184fa35b3db724 to build tracker '/private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-req-tracker-qi1nscr1'
+2020-05-31T22:20:23,664     Running setup.py (path:/private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-install-s_hupyh7/mayavi/setup.py) egg_info for package mayavi
+2020-05-31T22:20:23,664     Created temporary directory: /private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-pip-egg-info-nqgzoiql
+2020-05-31T22:20:23,665     Running command python setup.py egg_info
+2020-05-31T22:20:25,959     running egg_info
+2020-05-31T22:20:25,961     running build_src
+2020-05-31T22:20:25,962     build_src
+2020-05-31T22:20:25,962     building extension "tvtk.array_ext" sources
+2020-05-31T22:20:25,962     building data_files sources
+2020-05-31T22:20:26,045     build_src: building npy-pkg config files
+2020-05-31T22:20:26,050     creating /private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-pip-egg-info-nqgzoiql/mayavi.egg-info
+2020-05-31T22:20:26,054     writing /private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-pip-egg-info-nqgzoiql/mayavi.egg-info/PKG-INFO
+2020-05-31T22:20:26,059     writing dependency_links to /private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-pip-egg-info-nqgzoiql/mayavi.egg-info/dependency_links.txt
+2020-05-31T22:20:26,060     writing entry points to /private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-pip-egg-info-nqgzoiql/mayavi.egg-info/entry_points.txt
+2020-05-31T22:20:26,061     writing requirements to /private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-pip-egg-info-nqgzoiql/mayavi.egg-info/requires.txt
+2020-05-31T22:20:26,061     writing top-level names to /private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-pip-egg-info-nqgzoiql/mayavi.egg-info/top_level.txt
+2020-05-31T22:20:26,062     writing manifest file '/private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-pip-egg-info-nqgzoiql/mayavi.egg-info/SOURCES.txt'
+2020-05-31T22:20:26,138     reading manifest file '/private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-pip-egg-info-nqgzoiql/mayavi.egg-info/SOURCES.txt'
+2020-05-31T22:20:26,139     reading manifest template 'MANIFEST.in'
+2020-05-31T22:20:26,559     no previously-included directories found matching 'docs/build'
+2020-05-31T22:20:26,561     no previously-included directories found matching 'docs/pdf'
+2020-05-31T22:20:26,623     writing manifest file '/private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-pip-egg-info-nqgzoiql/mayavi.egg-info/SOURCES.txt'
+2020-05-31T22:20:26,936   Source in /private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-install-s_hupyh7/mayavi has version 4.7.1, which satisfies requirement mayavi from https://files.pythonhosted.org/packages/08/ea/eb808cb4df8f92bc4d9f9a1ef14566b9b5d60370e6ecbaf9061cdae335fa/mayavi-4.7.1.tar.bz2#sha256=be51fb6f886f304f7c593c907e6a2e88d7919f8f446cdccfcd184fa35b3db724
+2020-05-31T22:20:26,937   Removed mayavi from https://files.pythonhosted.org/packages/08/ea/eb808cb4df8f92bc4d9f9a1ef14566b9b5d60370e6ecbaf9061cdae335fa/mayavi-4.7.1.tar.bz2#sha256=be51fb6f886f304f7c593c907e6a2e88d7919f8f446cdccfcd184fa35b3db724 from build tracker '/private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-req-tracker-qi1nscr1'
+2020-05-31T22:20:27,093 Requirement already satisfied: apptools in /Users/tomburrows/miniconda3/lib/python3.8/site-packages (from mayavi) (4.5.0)
+2020-05-31T22:20:27,108 Requirement already satisfied: envisage in /Users/tomburrows/miniconda3/lib/python3.8/site-packages (from mayavi) (4.9.2)
+2020-05-31T22:20:27,118 Requirement already satisfied: numpy in /Users/tomburrows/miniconda3/lib/python3.8/site-packages (from mayavi) (1.18.1)
+2020-05-31T22:20:27,124 Requirement already satisfied: pyface>=6.1.1 in /Users/tomburrows/miniconda3/lib/python3.8/site-packages (from mayavi) (7.0.0)
+2020-05-31T22:20:27,187 Requirement already satisfied: pygments in /Users/tomburrows/miniconda3/lib/python3.8/site-packages (from mayavi) (2.6.1)
+2020-05-31T22:20:27,195 Requirement already satisfied: traits>=4.6.0 in /Users/tomburrows/miniconda3/lib/python3.8/site-packages (from mayavi) (6.0.0)
+2020-05-31T22:20:27,219 Requirement already satisfied: traitsui>=6.0.0 in /Users/tomburrows/miniconda3/lib/python3.8/site-packages (from mayavi) (7.0.0)
+2020-05-31T22:20:27,569 Requirement already satisfied: vtk in /Users/tomburrows/miniconda3/lib/python3.8/site-packages (from mayavi) (9.0.0)
+2020-05-31T22:20:27,596 Requirement already satisfied: six in /Users/tomburrows/miniconda3/lib/python3.8/site-packages (from apptools->mayavi) (1.14.0)
+2020-05-31T22:20:27,602 Requirement already satisfied: configobj in /Users/tomburrows/miniconda3/lib/python3.8/site-packages (from apptools->mayavi) (5.0.6)
+2020-05-31T22:20:27,606 Requirement already satisfied: setuptools in /Users/tomburrows/miniconda3/lib/python3.8/site-packages (from envisage->mayavi) (46.1.3.post20200325)
+2020-05-31T22:20:27,646 Building wheels for collected packages: mayavi
+2020-05-31T22:20:27,647   Created temporary directory: /private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-wheel-sn26h2rq
+2020-05-31T22:20:27,647   Destination directory: /private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-wheel-sn26h2rq
+2020-05-31T22:20:27,648   Running command /Users/tomburrows/miniconda3/bin/python3.8 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-install-s_hupyh7/mayavi/setup.py'"'"'; __file__='"'"'/private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-install-s_hupyh7/mayavi/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d /private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-wheel-sn26h2rq
+2020-05-31T22:20:28,936   running bdist_wheel
+2020-05-31T22:20:28,937   running build
+2020-05-31T22:20:29,935   ----------------------------------------------------------------------
+2020-05-31T22:20:30,292   Building TVTK classes... vtkContextDevice2D: Ignoring method: Get/SetViewportRect
+2020-05-31T22:20:30,293   default: [0, 0, 2031511744, 32639], range: None
+2020-05-31T22:20:30,293   vtkContextDevice2D: Ignoring method: Get/SetViewportSize
+2020-05-31T22:20:30,293   default: [0, 0], range: None
+2020-05-31T22:20:30,387   vtkEventDataForDevice: Ignoring method: Get/SetAction
+2020-05-31T22:20:30,387   default: -1, range: None
+2020-05-31T22:20:30,387   vtkEventDataForDevice: Ignoring method: Get/SetDevice
+2020-05-31T22:20:30,388   default: -1, range: None
+2020-05-31T22:20:30,416   vtkFXAAOptions: Ignoring method: Get/SetDebugOptionValue
+2020-05-31T22:20:30,416   default: 0, range: None
+2020-05-31T22:20:30,647   vtkIncrementalForceLayout: Ignoring method: Get/SetGravityPoint
+2020-05-31T22:20:30,647   default: [200.0, 200.0], range: None
+2020-05-31T22:20:31,284   vtkOpenGLBufferObject: Ignoring method: Get/SetType
+2020-05-31T22:20:31,285   default: 0, range: None
+2020-05-31T22:20:31,295   vtkOpenGLFXAAFilter: Ignoring method: Get/SetDebugOptionValue
+2020-05-31T22:20:31,296   default: 0, range: None
+2020-05-31T22:20:31,591   vtkRenderWidget: Ignoring method: Get/SetPosition
+2020-05-31T22:20:31,591   default: [0, 0], range: None
+2020-05-31T22:20:31,591   vtkRenderWidget: Ignoring method: Get/SetSize
+2020-05-31T22:20:31,591   default: [300, 300], range: None
+2020-05-31T22:20:31,728   vtkShader: Ignoring method: Get/SetType
+2020-05-31T22:20:31,728   default: 3, range: None
+2020-05-31T22:20:32,157   vtkVolumeTexture: Ignoring method: Get/SetPartitions
+2020-05-31T22:20:32,158   default: [1, 1, 1], range: None
+2020-05-31T22:20:32,509   vtkChartMatrix: Ignoring method: Get/SetGutter
+2020-05-31T22:20:32,509   default: [15.0, 15.0], range: None
+2020-05-31T22:20:32,509   vtkChartMatrix: Ignoring method: Get/SetSize
+2020-05-31T22:20:32,509   default: [0, 0], range: None
+2020-05-31T22:20:32,565   vtkContextArea: Ignoring method: Get/SetDrawAreaBounds
+2020-05-31T22:20:32,565   default: [0.0, 0.0, 300.0, 300.0], range: None
+2020-05-31T22:20:32,565   vtkContextArea: Ignoring method: Get/SetDrawAreaResizeBehavior
+2020-05-31T22:20:32,565   default: 0, range: None
+2020-05-31T22:20:32,565   vtkContextArea: Ignoring method: Get/SetFixedMargins
+2020-05-31T22:20:32,565   default: [0, 0, 0, 0], range: None
+2020-05-31T22:20:32,566   vtkContextArea: Ignoring method: Get/SetFixedRect
+2020-05-31T22:20:32,566   default: [0, 0, 300, 300], range: None
+2020-05-31T22:20:32,566   vtkContextArea: Ignoring method: Get/SetGeometry
+2020-05-31T22:20:32,566   default: [0, 0, 300, 300], range: None
+2020-05-31T22:20:32,879   vtkImplicitProjectOnPlaneDistance: Ignoring method: Get/SetNorm
+2020-05-31T22:20:32,880   default: 2, range: None
+2020-05-31T22:20:33,116   vtkOpenGLVertexBufferObject: Ignoring method: Get/SetCoordShiftAndScaleMethod
+2020-05-31T22:20:33,116   default: 0, range: None
+2020-05-31T22:20:33,431   vtkSimple3DCirclesStrategy: Ignoring method: Get/SetMarkedValue
+2020-05-31T22:20:33,431   default: (invalid), range: None
+2020-05-31T22:20:33,973   vtkArrayNorm: Ignoring method: Get/SetWindow
+2020-05-31T22:20:33,973   default: [0, 9223372036854775807), range: None
+2020-05-31T22:20:34,383   vtkChart: Ignoring method: Get/SetSize
+2020-05-31T22:20:34,383   default: [0.0, 0.0, 0.0, 0.0], range: None
+2020-05-31T22:20:34,392   vtkChartXYZ: Ignoring method: Get/SetAxisColor
+2020-05-31T22:20:34,393   default: [0, 0, 0, 255], range: None
+2020-05-31T22:20:35,409   Warning: We cannot determine the trait type of vtkHigherOrderHexahedron.Order
+2020-05-31T22:20:35,412   Warning: We cannot determine the trait type of vtkHigherOrderQuadrilateral.Order
+2020-05-31T22:20:35,416   ERROR: Failed building wheel for mayavi
+2020-05-31T22:20:35,416   Running setup.py clean for mayavi
+2020-05-31T22:20:35,417   Running command /Users/tomburrows/miniconda3/bin/python3.8 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-install-s_hupyh7/mayavi/setup.py'"'"'; __file__='"'"'/private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-install-s_hupyh7/mayavi/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' clean --all
+2020-05-31T22:20:36,380   running clean
+2020-05-31T22:20:36,380   'build/lib.macosx-10.9-x86_64-3.8' does not exist -- can't clean it
+2020-05-31T22:20:36,380   'build/bdist.macosx-10.9-x86_64' does not exist -- can't clean it
+2020-05-31T22:20:36,381   'build/scripts.macosx-10.9-x86_64-3.8' does not exist -- can't clean it
+2020-05-31T22:20:36,442 Failed to build mayavi
+2020-05-31T22:20:37,175 Installing collected packages: mayavi
+2020-05-31T22:20:37,178   Created temporary directory: /private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-record-ekg8df40
+2020-05-31T22:20:37,178     Running command /Users/tomburrows/miniconda3/bin/python3.8 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-install-s_hupyh7/mayavi/setup.py'"'"'; __file__='"'"'/private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-install-s_hupyh7/mayavi/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-record-ekg8df40/install-record.txt --single-version-externally-managed --compile --install-headers /Users/tomburrows/miniconda3/include/python3.8/mayavi
+2020-05-31T22:20:38,144     running install
+2020-05-31T22:20:38,146     running build
+2020-05-31T22:20:39,023     ----------------------------------------------------------------------
+2020-05-31T22:20:39,441     Building TVTK classes... vtkContextDevice2D: Ignoring method: Get/SetViewportRect
+2020-05-31T22:20:39,442     default: [-623314953, -760499477, 1420587904, 2983975], range: None
+2020-05-31T22:20:39,442     vtkContextDevice2D: Ignoring method: Get/SetViewportSize
+2020-05-31T22:20:39,443     default: [1673067796, -139009794], range: None
+2020-05-31T22:20:39,588     vtkEventDataForDevice: Ignoring method: Get/SetAction
+2020-05-31T22:20:39,589     default: -1, range: None
+2020-05-31T22:20:39,589     vtkEventDataForDevice: Ignoring method: Get/SetDevice
+2020-05-31T22:20:39,589     default: -1, range: None
+2020-05-31T22:20:39,628     vtkFXAAOptions: Ignoring method: Get/SetDebugOptionValue
+2020-05-31T22:20:39,628     default: 0, range: None
+2020-05-31T22:20:39,895     vtkIncrementalForceLayout: Ignoring method: Get/SetGravityPoint
+2020-05-31T22:20:39,896     default: [200.0, 200.0], range: None
+2020-05-31T22:20:40,275     vtkOpenGLBufferObject: Ignoring method: Get/SetType
+2020-05-31T22:20:40,276     default: 0, range: None
+2020-05-31T22:20:40,292     vtkOpenGLFXAAFilter: Ignoring method: Get/SetDebugOptionValue
+2020-05-31T22:20:40,292     default: 0, range: None
+2020-05-31T22:20:40,567     vtkRenderWidget: Ignoring method: Get/SetPosition
+2020-05-31T22:20:40,568     default: [0, 0], range: None
+2020-05-31T22:20:40,568     vtkRenderWidget: Ignoring method: Get/SetSize
+2020-05-31T22:20:40,568     default: [300, 300], range: None
+2020-05-31T22:20:40,762     vtkShader: Ignoring method: Get/SetType
+2020-05-31T22:20:40,762     default: 3, range: None
+2020-05-31T22:20:41,149     vtkVolumeTexture: Ignoring method: Get/SetPartitions
+2020-05-31T22:20:41,150     default: [1, 1, 1], range: None
+2020-05-31T22:20:41,596     vtkChartMatrix: Ignoring method: Get/SetGutter
+2020-05-31T22:20:41,596     default: [15.0, 15.0], range: None
+2020-05-31T22:20:41,596     vtkChartMatrix: Ignoring method: Get/SetSize
+2020-05-31T22:20:41,597     default: [0, 0], range: None
+2020-05-31T22:20:41,666     vtkContextArea: Ignoring method: Get/SetDrawAreaBounds
+2020-05-31T22:20:41,666     default: [0.0, 0.0, 300.0, 300.0], range: None
+2020-05-31T22:20:41,666     vtkContextArea: Ignoring method: Get/SetDrawAreaResizeBehavior
+2020-05-31T22:20:41,666     default: 0, range: None
+2020-05-31T22:20:41,666     vtkContextArea: Ignoring method: Get/SetFixedMargins
+2020-05-31T22:20:41,666     default: [0, 0, 0, 0], range: None
+2020-05-31T22:20:41,667     vtkContextArea: Ignoring method: Get/SetFixedRect
+2020-05-31T22:20:41,667     default: [0, 0, 300, 300], range: None
+2020-05-31T22:20:41,667     vtkContextArea: Ignoring method: Get/SetGeometry
+2020-05-31T22:20:41,667     default: [0, 0, 300, 300], range: None
+2020-05-31T22:20:42,303     vtkImplicitProjectOnPlaneDistance: Ignoring method: Get/SetNorm
+2020-05-31T22:20:42,303     default: 2, range: None
+2020-05-31T22:20:42,672     vtkOpenGLVertexBufferObject: Ignoring method: Get/SetCoordShiftAndScaleMethod
+2020-05-31T22:20:42,673     default: 0, range: None
+2020-05-31T22:20:43,118     vtkSimple3DCirclesStrategy: Ignoring method: Get/SetMarkedValue
+2020-05-31T22:20:43,118     default: (invalid), range: None
+2020-05-31T22:20:43,692     vtkArrayNorm: Ignoring method: Get/SetWindow
+2020-05-31T22:20:43,693     default: [0, 9223372036854775807), range: None
+2020-05-31T22:20:44,113     vtkChart: Ignoring method: Get/SetSize
+2020-05-31T22:20:44,113     default: [0.0, 0.0, 0.0, 0.0], range: None
+2020-05-31T22:20:44,122     vtkChartXYZ: Ignoring method: Get/SetAxisColor
+2020-05-31T22:20:44,122     default: [0, 0, 0, 255], range: None
+2020-05-31T22:20:45,306     Warning: We cannot determine the trait type of vtkHigherOrderHexahedron.Order
+2020-05-31T22:20:45,310     Warning: We cannot determine the trait type of vtkHigherOrderQuadrilateral.Order
+2020-05-31T22:20:45,315 ERROR: Command errored out with exit status -11: /Users/tomburrows/miniconda3/bin/python3.8 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-install-s_hupyh7/mayavi/setup.py'"'"'; __file__='"'"'/private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-install-s_hupyh7/mayavi/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-record-ekg8df40/install-record.txt --single-version-externally-managed --compile --install-headers /Users/tomburrows/miniconda3/include/python3.8/mayavi Check the logs for full command output.
+2020-05-31T22:20:45,315 Exception information:
+2020-05-31T22:20:45,315 Traceback (most recent call last):
+2020-05-31T22:20:45,315   File "/Users/tomburrows/miniconda3/lib/python3.8/site-packages/pip/_internal/req/req_install.py", line 827, in install
+2020-05-31T22:20:45,315     success = install_legacy(
+2020-05-31T22:20:45,315   File "/Users/tomburrows/miniconda3/lib/python3.8/site-packages/pip/_internal/operations/install/legacy.py", line 86, in install
+2020-05-31T22:20:45,315     raise LegacyInstallFailure
+2020-05-31T22:20:45,315 pip._internal.operations.install.legacy.LegacyInstallFailure
+2020-05-31T22:20:45,315 
+2020-05-31T22:20:45,315 During handling of the above exception, another exception occurred:
+2020-05-31T22:20:45,315 
+2020-05-31T22:20:45,315 Traceback (most recent call last):
+2020-05-31T22:20:45,315   File "/Users/tomburrows/miniconda3/lib/python3.8/site-packages/pip/_internal/cli/base_command.py", line 188, in _main
+2020-05-31T22:20:45,315     status = self.run(options, args)
+2020-05-31T22:20:45,315   File "/Users/tomburrows/miniconda3/lib/python3.8/site-packages/pip/_internal/cli/req_command.py", line 185, in wrapper
+2020-05-31T22:20:45,315     return func(self, options, args)
+2020-05-31T22:20:45,315   File "/Users/tomburrows/miniconda3/lib/python3.8/site-packages/pip/_internal/commands/install.py", line 398, in run
+2020-05-31T22:20:45,315     installed = install_given_reqs(
+2020-05-31T22:20:45,315   File "/Users/tomburrows/miniconda3/lib/python3.8/site-packages/pip/_internal/req/__init__.py", line 67, in install_given_reqs
+2020-05-31T22:20:45,315     requirement.install(
+2020-05-31T22:20:45,315   File "/Users/tomburrows/miniconda3/lib/python3.8/site-packages/pip/_internal/req/req_install.py", line 845, in install
+2020-05-31T22:20:45,315     six.reraise(*exc.parent)
+2020-05-31T22:20:45,315   File "/Users/tomburrows/miniconda3/lib/python3.8/site-packages/pip/_vendor/six.py", line 703, in reraise
+2020-05-31T22:20:45,315     raise value
+2020-05-31T22:20:45,315   File "/Users/tomburrows/miniconda3/lib/python3.8/site-packages/pip/_internal/operations/install/legacy.py", line 74, in install
+2020-05-31T22:20:45,315     runner(
+2020-05-31T22:20:45,315   File "/Users/tomburrows/miniconda3/lib/python3.8/site-packages/pip/_internal/utils/subprocess.py", line 270, in runner
+2020-05-31T22:20:45,315     call_subprocess(
+2020-05-31T22:20:45,315   File "/Users/tomburrows/miniconda3/lib/python3.8/site-packages/pip/_internal/utils/subprocess.py", line 241, in call_subprocess
+2020-05-31T22:20:45,315     raise InstallationError(exc_msg)
+2020-05-31T22:20:45,315 pip._internal.exceptions.InstallationError: Command errored out with exit status -11: /Users/tomburrows/miniconda3/bin/python3.8 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-install-s_hupyh7/mayavi/setup.py'"'"'; __file__='"'"'/private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-install-s_hupyh7/mayavi/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-record-ekg8df40/install-record.txt --single-version-externally-managed --compile --install-headers /Users/tomburrows/miniconda3/include/python3.8/mayavi Check the logs for full command output.
+2020-05-31T22:20:45,405 Removed build tracker: '/private/var/folders/s0/514rk5j90q90x4s8n48ry7wc0000gn/T/pip-req-tracker-qi1nscr1'

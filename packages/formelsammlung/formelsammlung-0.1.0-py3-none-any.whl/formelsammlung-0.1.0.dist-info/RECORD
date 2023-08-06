@@ -1,0 +1,11 @@
+formelsammlung/__init__.py,sha256=qx0Ojp-Y7FEMZ6nhj1tgaEQmhY-1QrHR2NxEIKaAfBs,395
+formelsammlung/dependency_checker.py,sha256=DQ4Ut8NeUgbD8pOsWBfBtAe8lLuXmTmKxDn9Kh_E5tM,4714
+formelsammlung/envvar.py,sha256=_nkDVi_PokvqtfPjTvO1g3AD78a4sPCTuOpwc1q4Dv4,3981
+formelsammlung/flask_sphinx_docs.py,sha256=GaXW8D2CJOIN4ymweDyAxp_0g58eieMAfm1mtPdIIME,593
+formelsammlung/get_css_from_html.py,sha256=XX2fkKcbBRknXzM8Fk1CtNqlJZLj0nJjIjGvPw6FJu4,2042
+formelsammlung/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+formelsammlung/strcalc.py,sha256=BoUK9dgvKFbgOS50UIb2YPtTk9PSThY3s4bxTWWO_7Q,2995
+formelsammlung-0.1.0.dist-info/LICENSE.txt,sha256=TwTHBaJstqiDWqbgv3TzE-4yh3o07vZdPuqpiq9b71M,35149
+formelsammlung-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+formelsammlung-0.1.0.dist-info/METADATA,sha256=GRAwO0VCmGCRor5rvkBp3-v9zfV5xyBZ2Bzr_T3Cds8,7924
+formelsammlung-0.1.0.dist-info/RECORD,,

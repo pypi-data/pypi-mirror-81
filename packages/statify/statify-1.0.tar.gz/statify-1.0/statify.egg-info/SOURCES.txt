@@ -1,0 +1,13 @@
+README.md
+setup.py
+statify/__init__.py
+statify/config.py
+statify/database_client.py
+statify/spotify_client.py
+statify/statify.py
+statify.egg-info/PKG-INFO
+statify.egg-info/SOURCES.txt
+statify.egg-info/dependency_links.txt
+statify.egg-info/entry_points.txt
+statify.egg-info/requires.txt
+statify.egg-info/top_level.txt

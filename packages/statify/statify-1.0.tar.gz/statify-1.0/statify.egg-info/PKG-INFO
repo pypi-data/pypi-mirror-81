@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: statify
+Version: 1.0
+Summary: Pull your playlist and listening data from the Spotify API
+Home-page: https://github.com/foobuzz/statify
+Author: @foobuzz
+Author-email: foobuzz@fastmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: tests

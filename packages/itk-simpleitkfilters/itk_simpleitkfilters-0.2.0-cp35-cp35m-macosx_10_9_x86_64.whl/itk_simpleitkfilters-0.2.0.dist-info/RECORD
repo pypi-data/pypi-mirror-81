@@ -1,0 +1,12 @@
+itk/SimpleITKFiltersPython.py,sha256=ASATt0yPjmWs0ULbv0Y2KG7ayFapWRl6WyZGxJ3pOX4,2549
+itk/_SimpleITKFiltersPython.so,sha256=vS-ZTJ8F6Wbn4ly_sl8t9aTXdO5rKJLZY5BpYrIUKc8,5854632
+itk/itkDICOMOrientImageFilterPython.py,sha256=fq2N42fbTVO9K4HnA--YjaT4-3vSpJ6RqyK4frdVQjw,51238
+itk/itkHessianImageFilterPython.py,sha256=Sxgve771QyAsOZ3FbgvwVei2f8gabE0dNw5QU3q36Ac,29859
+itk/itkNPasteImageFilterPython.py,sha256=5pvE9mc65sEZhxMRLZ-F_drKR6kIiguFMASqDmt5dAs,124333
+itk/itkObjectnessImageFilterPython.py,sha256=ct87AUa5gSeiqg9INMBRCizsiUzA3AmkoxdtVElFQx8,22926
+itk/Configuration/SimpleITKFiltersConfig.py,sha256=WbgA3UAfphz5AhK-qOME4N9dlv1sJmSi7h4ai0hikdE,7599
+itk_simpleitkfilters-0.2.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+itk_simpleitkfilters-0.2.0.dist-info/METADATA,sha256=yPgpu9D1sgmR7pXLz40PGKyGc5qaW-r9u7Wy-bRgRU8,1683
+itk_simpleitkfilters-0.2.0.dist-info/WHEEL,sha256=0qq-BLPgcSvEE2vBCDQI3-r5b-TfxEe9Vkwae9jy5rg,103
+itk_simpleitkfilters-0.2.0.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_simpleitkfilters-0.2.0.dist-info/RECORD,,

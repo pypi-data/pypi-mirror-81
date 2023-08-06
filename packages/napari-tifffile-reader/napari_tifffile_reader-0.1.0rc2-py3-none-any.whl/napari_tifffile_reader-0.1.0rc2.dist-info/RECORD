@@ -1,0 +1,11 @@
+napari_tifffile_reader/__init__.py,sha256=yYjYWL8Sim8wSlUHGJob2GXp74RT6vWKJcxzn0wTft8,233
+napari_tifffile_reader/_version.py,sha256=PYC_ikGE2seQ6cW-Ig8mY4Tq7GyTlaGoF_FHjpekWKY,119
+napari_tifffile_reader/napari_tifffile_reader.py,sha256=woxFBNXxC5IiP40m6fee576hq8g4ZsEwdebg3tF7UPk,11939
+napari_tifffile_reader/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_tifffile_reader/_tests/test_tifffile_reader.py,sha256=ZDneasnEN_K9M25-54vGcmj4M_MbCmWISlWbSAxoeKg,3627
+napari_tifffile_reader-0.1.0rc2.dist-info/LICENSE,sha256=kku4AaPUiw1GK500TgiXL6aMvYStzkvKrDnqnxEPnP8,1498
+napari_tifffile_reader-0.1.0rc2.dist-info/METADATA,sha256=MQpO_kCmJfB2GqLaWfcBy6trZMmLD-U64Qu62XpQ1k4,3588
+napari_tifffile_reader-0.1.0rc2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+napari_tifffile_reader-0.1.0rc2.dist-info/entry_points.txt,sha256=LLWven5JlS-oihggQL9cuYp72bjnD9l04ZgCvKZnnR0,51
+napari_tifffile_reader-0.1.0rc2.dist-info/top_level.txt,sha256=nlQ2_MvGosAUITSrQGvefi9MrU9isZ1u9K56jsMQ7Vw,23
+napari_tifffile_reader-0.1.0rc2.dist-info/RECORD,,

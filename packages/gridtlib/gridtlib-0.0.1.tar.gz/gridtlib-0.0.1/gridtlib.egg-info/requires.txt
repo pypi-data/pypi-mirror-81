@@ -1,0 +1,6 @@
+passlib
+pyjwt
+python-http-client
+sendgrid
+sqlalchemy
+starkbank-ecdsa

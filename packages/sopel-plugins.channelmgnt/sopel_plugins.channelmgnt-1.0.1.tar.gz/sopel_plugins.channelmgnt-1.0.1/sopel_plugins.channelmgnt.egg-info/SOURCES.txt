@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+sopel_channelmgnt/__init__.py
+sopel_channelmgnt/channelmgnt/__init__.py
+sopel_plugins.channelmgnt.egg-info/PKG-INFO
+sopel_plugins.channelmgnt.egg-info/SOURCES.txt
+sopel_plugins.channelmgnt.egg-info/dependency_links.txt
+sopel_plugins.channelmgnt.egg-info/entry_points.txt
+sopel_plugins.channelmgnt.egg-info/requires.txt
+sopel_plugins.channelmgnt.egg-info/top_level.txt

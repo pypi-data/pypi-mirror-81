@@ -1,0 +1,14 @@
+termux/API.py,sha256=kk423DcuouEp75Uds-LEgHPlNT1Z69uJ6C6HRDpE-hs,3136
+termux/Camera.py,sha256=cgWIaFRwu7-rlAcMVR5AgvbnHZf3ph-XeMFKssk20fc,703
+termux/Clipboard.py,sha256=Q5NlBDY2ME5uBUq4DLjQ4sEd31D5GZvfAEnPdzgjxds,552
+termux/Notification.py,sha256=40DRGdk5Ipdv-9KbkyJ9YejTaftxZbTYHWmHIKxmwOI,1300
+termux/Sensors.py,sha256=knN_GxZ-3BKklXOgWOoNATfRF2rZKudN1psorLawSpA,2456
+termux/TTS.py,sha256=sBY6KZRtuW8xIxZemSWYisEJU2_Oj9YgyfK0YdMsaJA,1172
+termux/Wifi.py,sha256=iq8DpMnuYC3OQqQ6rZSiV5KZ8VfwCJ6DblB9myCj2nY,525
+termux/__init__.py,sha256=Px4xk_j-dODUbHwHU9FSF7uSy02oxpQ4TWpkj0dFNGo,161
+termux/scrip.py,sha256=roQDBK_n_3RYLsaopc3qdGb_Sz3rKkR8WZ6kFKj8Mn8,1361
+termux_api-1.0.1.dist-info/LICENSE,sha256=8pV2KnzW1ucMPQAgs9jsSHtx_bulfW25Dy8G4xlgqtM,1108
+termux_api-1.0.1.dist-info/METADATA,sha256=WsZ4l9qR7kOgQpaPGEGPR2uVaMKLR6EyB9Y5KNy1zPg,3434
+termux_api-1.0.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+termux_api-1.0.1.dist-info/top_level.txt,sha256=um4-3luJXbxdXFKTESI57k0Y2m6NEvdUQGSPNx3E-vQ,7
+termux_api-1.0.1.dist-info/RECORD,,

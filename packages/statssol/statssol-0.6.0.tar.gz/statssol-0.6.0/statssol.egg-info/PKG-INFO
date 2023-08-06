@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: statssol
+Version: 0.6.0
+Summary: stats
+Home-page: https://some_website.nice
+Author: **insert Author**
+Author-email: some_email@mail.ru
+License: UNKNOWN
+Description: Working on it
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

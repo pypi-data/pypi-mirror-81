@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: motif-broker-request
+Version: 1.0.0
+Summary: Package to interrogate motif-broker JS microservice with python
+Home-page: https://github.com/MMSB-MOBI/motif-broker-request
+Author: Cécile Hilpert
+Author-email: cecile.hilpert@ibcp.fr
+License: UNKNOWN
+Description: # motif-broker-request
+        
+        Example in test/test.py
+        
+        ## Configure motif-broker-request
+        
+        ```python
+        import motif_broker_request.request as mb_request
+        
+        mb_request.configure("http://localhost:5984") #Default is localhost:3282
+        ```
+        
+        You can also change bulk length 
+        ```python
+        mb_request.set_bulk_length(10000) #Default is 50000
+        ```
+        
+        ## Request motif-broker 
+        
+        ```python
+        sgrnas = ["AAAAAAAAAAAAAAAAAAATGGG", "TCCAAAAAAAAACAGTGGATTGG", "CACTAAAAAAGAAGACCAAGCGG"] # sgRNAs you want to search
+        res = mb_request.get(sgrnas)
+        
+        print(res)
+        ```
+        ```
+        >
+        ```
+        
+        ## Request motif-broker with some filter
+        You can write filter functions. This functions have to take motif_broker results as arguments and return the filtered version with same format 
+        
+        **Example of function that just keep given genomes in results :**
+        ```python
+        def filter_genomes(mb_res, **kwargs):
+            if not "genomes" in kwargs:
+                raise Exception("you must provide 'genomes' argument to get function for filter_genomes function")
+            genomes = kwargs["genomes"]
+        
+            filtered_results = {}
+            for sgrna in mb_res: 
+                added = False 
+                for org in mb_res[sgrna]:
+                    if org in genomes:
+                        if added:
+                            filtered_results[sgrna][org] = mb_res[sgrna][org]
+                        else:
+                            filtered_results[sgrna] = {org : mb_res[sgrna][org]}
+            
+            return filtered_results
+        ```
+        
+        Applied this way to get results : 
+        ```python
+        res = mb_request.get(sgrnas, filter_predicate=filter_genomes, genomes=["dd6cfb980c8a3659acffa4f002ea7404", "dd6cfb980c8a3659acffa4f0029ff84a"])
+        print(res)
+        ```
+        ```
+        > 
+        ```
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

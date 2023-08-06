@@ -1,0 +1,10 @@
+basicdb/__init__.py,sha256=ywHYMlNsmsbYoIjalPcdv1kkhIKP2ZolUVVrGE7Ral4,95
+basicdb/basicdb.py,sha256=7XS5RKWniyLChFAK0HUtDsmlE4_sjCNHw5n4A6VLH-g,22233
+basicdb/db_adapter.py,sha256=CoZtRS_TbEwrleg9oAj27akx_OwPDcIfYob2NBKyMIs,3940
+basicdb/entities.py,sha256=FcXNZPVpxWGnBst9RcYCBKYKdz6gpxZsCRyVEEha1FY,1669
+basicdb/exceptions.py,sha256=RxNpeodqcUEFG2JR-5aDGaN-kmnJ8MsWEVjIEMS8cf4,85
+basicdb/sql_adapter.py,sha256=bJWqGuLEpRXxSHay8EXpl4crybkrCLIMh9dqc7Dme_4,32461
+basicdb/utils.py,sha256=bRWRXzVyZ4glv5JRgbiNeEWWiVEHd-N-hCrppRfSFRE,299
+basicdb-0.0.5.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+basicdb-0.0.5.dist-info/METADATA,sha256=tGRdiOeuqOcSYS2rBm-T3OFeFDZ1NHruOPVf8Ph6Gls,677
+basicdb-0.0.5.dist-info/RECORD,,

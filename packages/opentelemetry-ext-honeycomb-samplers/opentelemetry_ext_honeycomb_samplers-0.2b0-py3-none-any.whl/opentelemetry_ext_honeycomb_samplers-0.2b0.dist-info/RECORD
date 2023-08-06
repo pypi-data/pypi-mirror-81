@@ -1,0 +1,8 @@
+opentelemetry/ext/honeycomb/sampling/__init__.py,sha256=kRm8D2u1tQR8ZUxo1DhdWLhU6GimS06zCscVpjtFDCw,1079
+opentelemetry/ext/honeycomb/sampling/conftest.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opentelemetry/ext/honeycomb/sampling/version.py,sha256=EtvWaZ-U67N9rdw0JBn17MHqEukW-mcpoavDZKaX-tY,18
+opentelemetry_ext_honeycomb_samplers-0.2b0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+opentelemetry_ext_honeycomb_samplers-0.2b0.dist-info/METADATA,sha256=FoNI7Fhc-IRmGVMvD4fcpBBjX_yVCudAqYqJxN1KgXg,2042
+opentelemetry_ext_honeycomb_samplers-0.2b0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+opentelemetry_ext_honeycomb_samplers-0.2b0.dist-info/top_level.txt,sha256=5p97iTMneNm1LAKDalzEVpYhvPZsaqJZzdLuD_upSaQ,14
+opentelemetry_ext_honeycomb_samplers-0.2b0.dist-info/RECORD,,

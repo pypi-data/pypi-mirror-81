@@ -1,0 +1,6 @@
+six
+
+[testing]
+nose
+dnspython>=2.0.0
+pycountry

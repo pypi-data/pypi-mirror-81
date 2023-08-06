@@ -1,0 +1,13 @@
+README.md
+setup.py
+celeb_detector/__init__.py
+celeb_detector/celeb_recognition.py
+celeb_detector/celeb_utils.py
+celeb_detector/create_celeb_model.py
+celeb_detector/create_model_utils.py
+celeb_detector/download_gdrive.py
+celeb_detector.egg-info/PKG-INFO
+celeb_detector.egg-info/SOURCES.txt
+celeb_detector.egg-info/dependency_links.txt
+celeb_detector.egg-info/requires.txt
+celeb_detector.egg-info/top_level.txt

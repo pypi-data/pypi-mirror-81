@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: Windows-Screensaver
+Version: 1.0.0
+Summary: Simple library for creating Windows screensavers
+Home-page: https://github.com/gaming32/Windows-Screensaver
+Author: Gaming32
+Author-email: gaming32i64@gmail.com
+License: License :: OSI Approved :: MIT License
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: pywin32
+
+UNKNOWN
+
+

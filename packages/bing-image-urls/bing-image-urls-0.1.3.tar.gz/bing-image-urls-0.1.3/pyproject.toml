@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "bing-image-urls"
+version = "0.1.3"
+description = "fetch bing image urls based on keywords"
+readme ="README.md"
+authors = ["ffreemt"]
+repository = "https://github.com/ffreemt/bing-image-urls"
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+httpx = "^0.15.5"
+logzero = "^1.5.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+flake8 = "^3.8.3"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

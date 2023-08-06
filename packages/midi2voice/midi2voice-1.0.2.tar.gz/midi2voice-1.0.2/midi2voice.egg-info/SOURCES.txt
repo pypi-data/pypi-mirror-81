@@ -1,0 +1,11 @@
+README.md
+setup.py
+midi2voice/__init__.py
+midi2voice/__main__.py
+midi2voice/lyrics_tokenizer.py
+midi2voice/midi2xml.py
+midi2voice.egg-info/PKG-INFO
+midi2voice.egg-info/SOURCES.txt
+midi2voice.egg-info/dependency_links.txt
+midi2voice.egg-info/requires.txt
+midi2voice.egg-info/top_level.txt

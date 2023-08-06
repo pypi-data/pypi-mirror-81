@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: ilexconf
+Version: 0.6.1
+Summary: Configuration library for Python 🔧 Load from multiple sources
+Home-page: https://github.com/vduseev/ilexconf
+License: MIT
+Keywords: configuration,settings,json,yaml,ini
+Author: vduseev
+Author-email: vagiz@duseev.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: console
+Provides-Extra: yaml
+Requires-Dist: cleo (>=0.8.1,<0.9.0); extra == "console"
+Requires-Dist: ruamel.yaml (>=0.16.12,<0.17.0); extra == "yaml"
+Project-URL: Repository, https://github.com/vduseev/ilexconf
+Description-Content-Type: text/markdown
+
+![ilexconf](docs/img/logo.png)
+
+<h2 align="center">Configuration Library for Python</h2>
+
+<p align="center">
+<a href="https://travis-ci.com/psf/black"><img alt="Build Status" src="https://travis-ci.com/psf/black.svg?branch=master"></a>
+<a href="https://coveralls.io/github/psf/black?branch=master"><img alt="Coverage Status" src="https://coveralls.io/repos/github/psf/black/badge.svg?branch=master"></a>
+<a href="https://github.com/psf/black/blob/master/LICENSE"><img alt="License: MIT" src="https://black.readthedocs.io/en/stable/_static/license.svg"></a>
+<a href="https://pypi.org/project/black/"><img alt="PyPI" src="https://img.shields.io/pypi/v/black"></a>
+<a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
+</p>
+
+## Features
+
+## Quick Start
+
+## Alternatives
+
+| Library                           | Holly | Dynaconf |
+| --------------------------------- | ----- | -------- |
+| **Read from `.json`**             | x     | x        |
+| **Read from `.toml`**             | x     | x        |
+| **Read from `.ini`**              | x     | x        |
+| **Read from env vars**            | x     | x        |
+| **Read from `.py`**               |       | x        |
+| **Read from `.env`**              |       | x        |
+| **Read from dict object**         | x     |          |
+| **Read from Redis**               |       | x        |
+| **Read from Hashicorp Vault**     |       | x        |
+| **Default values**                | x     | x        |         
+| **Multienvironment**              |       | x        |
+| **Attribute access**              | x     | x        |
+| **Dotted key access**             | x     | x        |
+| **Merging**                       | x     | onelevel |
+| **Interpolation**                 |       | x        |
+| **Saving**                        | x     | x        |
+| **CLI**                           | x     | x        |
+| **Printing**                      | x     | x        |
+| **Validators**                    |       | x        |
+| **Masking sensitive info**        |       | x        |
+| **Django integration**            |       | x        |
+| **Flask integration**             |       | x        |
+| **Hot reload**                    |       |          |
+| *Python 3.6*                      |       |          |
+| *Python 3.7*                      |       |          |
+| *Python 3.8*                      | x     |          |
+
+## Kudos
+
+`ilexconf` heavily borrows from `python-configuration` library and is inspired by it.
+
+## License
+
+MIT

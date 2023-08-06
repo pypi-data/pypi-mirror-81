@@ -1,0 +1,4 @@
+recursive-include * *
+prune .git
+prune .idea
+prune images

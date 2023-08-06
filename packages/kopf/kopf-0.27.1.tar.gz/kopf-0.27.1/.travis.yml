@@ -1,0 +1,66 @@
+# See https://github.com/LiliC/travis-minikube for Travis+Minikube.
+# This affects the env & before_script sections, and some functional tests.
+language: python
+sudo: required
+dist: xenial
+services:
+  - docker
+
+env:
+  global:
+    - CHANGE_MINIKUBE_NONE_USER=true
+    - KUBECONFIG=$HOME/.kube/config
+    - MINIKUBE_WANTUPDATENOTIFICATION=false
+    - MINIKUBE_WANTREPORTERRORPROMPT=false
+    - MINIKUBE_IN_STYLE=true
+    - MINIKUBE_HOME=$HOME
+    - MINIKUBE_VERSION=latest
+  matrix:
+    - KUBERNETES_VERSION=latest CLIENT=yes  # only one "yes" is enough
+    - KUBERNETES_VERSION=latest CLIENT=no
+    - KUBERNETES_VERSION=v1.16.0 CLIENT=no
+    - KUBERNETES_VERSION=v1.16.0 CLIENT=no CRDAPI=v1beta1
+    - KUBERNETES_VERSION=v1.15.0 CLIENT=no CRDAPI=v1beta1
+    - KUBERNETES_VERSION=v1.14.0 CLIENT=no CRDAPI=v1beta1
+    - KUBERNETES_VERSION=v1.13.0 CLIENT=no CRDAPI=v1beta1
+#    - KUBERNETES_VERSION=v1.12.0 CLIENT=no CRDAPI=v1beta1
+#    - KUBERNETES_VERSION=v1.11.10  # Minikube fails on CRI preflight checks
+#    - KUBERNETES_VERSION=v1.10.13  # CRDs require spec.version, which fails on 1.14
+
+# Only one Python version is tested with all supported K8s versions: to check for API compatibility.
+# Other Python versions are tested with only one K8s version: if it works for one, it works for all.
+# One look-ahead Python dev version is tested for preview, but is optional.
+python:
+  - "3.8"
+matrix:
+  include:
+    - python: "3.7"
+      env: KUBERNETES_VERSION=latest CLIENT=yes
+    - python: "3.7"
+      env: KUBERNETES_VERSION=latest CLIENT=no
+    - python: "3.9-dev"
+
+before_install:
+  - sudo apt-get update -y
+  - sudo apt-get install -y conntrack  # see #334
+
+before_script:
+  - tools/minikube-for-travis.sh
+  - tools/kubernetes-client.sh
+
+script:
+  - pytest --cov=kopf --cov-branch
+  - coveralls || true
+  - codecov --flags unit
+  - pytest --only-e2e  # NB: after the coverage uploads!
+  - mypy kopf --strict --pretty
+
+deploy:
+  provider: pypi
+  username: "__token__"
+  password:
+    secure: "jkf7ncg2doyqEkASa4NFtNt9BfOcFvGvFIAj/jU55sCkKGfvavzC262/kmJnTZpF1ZStjL+z3AwSLT09cYtlujA/FRdPmuNzyRgr2j4D20Txx5whHj8zYdklquhEHbXo7FU+nQTDxkLqr35KEnMBIzoesz7xHoOH/MLzK5w2Ow8DprAjVVSY0Dv+glJ15qWo/pwNp1xetMGYjdO4ys4amdsvRlU4LmCcuMf5LsnuJyuR7yHsBs6CqmnitJezZ+fgGKqJDEC+jy/+q7aOc6V2iCDsOH5NNniUeVKTuDhmvK+1y146VVqWw+RqIG27cMyYbocmJhYRBQoLbwCKLPKF2l2YtgjKdt9izyYbjjBAVIUtsavGrsNSk08ujS8OCs9/4YXFFMjTTKwF+Hy0RqmIMNK2ymn8pWpo9HTJT2td9b0HkVikDX3D8sezD1koSxDTWYFs3MMVDPTA9lWL3sIFVHhQRr3rlk+qsoSsP5/SvVMGJv4NIjIi+SZaLvqR+aPaO1H92zVkhcMbNN3cNHE8ak1LXUmnr008xjJzsT+Y+wthx6G1zpFRSLH4dP7myxF0Zk7uJQPhaQTflICseVW4mp72HeraTKc+QHKZthTXwFeMVVSTdgNpVMpfYnjolkGXdubDbhhDhz6B4OzIRZXqiIUANHsT5zGiS0OjN7Pa4lY="
+  distributions: sdist bdist_wheel
+  skip_existing: true
+  on:
+    tags: true  # prohibit local versions not on the releases

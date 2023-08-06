@@ -1,0 +1,5 @@
+click~=7.0
+jenkinsapi~=0.3
+requests~=2.24
+beautifulsoup4~=4.9
+PyYaml~=5.3

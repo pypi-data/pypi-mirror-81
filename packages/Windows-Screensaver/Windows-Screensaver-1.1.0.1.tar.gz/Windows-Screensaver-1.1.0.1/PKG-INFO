@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: Windows-Screensaver
+Version: 1.1.0.1
+Summary: Simple library for creating Windows screensavers
+Home-page: https://github.com/gaming32/Windows-Screensaver
+Author: Gaming32
+Author-email: gaming32i64@gmail.com
+License: License :: OSI Approved :: MIT License
+Description: # Usage
+        
+        Create a `Screensaver` object with `winscr.parse_cmdline`.
+        It will automatically redirect stdout to `winscr.default_logfile` by default.
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

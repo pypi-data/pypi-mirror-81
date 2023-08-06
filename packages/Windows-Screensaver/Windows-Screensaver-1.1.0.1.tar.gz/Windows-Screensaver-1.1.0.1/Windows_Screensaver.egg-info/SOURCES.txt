@@ -1,0 +1,8 @@
+README.md
+setup.py
+winscr.py
+Windows_Screensaver.egg-info/PKG-INFO
+Windows_Screensaver.egg-info/SOURCES.txt
+Windows_Screensaver.egg-info/dependency_links.txt
+Windows_Screensaver.egg-info/requires.txt
+Windows_Screensaver.egg-info/top_level.txt

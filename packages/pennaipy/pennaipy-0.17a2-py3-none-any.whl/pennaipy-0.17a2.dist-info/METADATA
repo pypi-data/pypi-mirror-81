@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pennaipy
+Version: 0.17a2
+Summary: Penn Artificial Intelligence Data Assistant
+Home-page: https://github.com/epistasislab/pennai
+Author: Heather Williams, Weixuan Fu, William La Cava
+Author-email: hwilli@pennmedicine.upenn.edu, weixuanf@upenn.edu, lacava@upenn.edu
+License: GNU/GPLv3
+Keywords: data science,machine learning,metalearning
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Dist: numpy (>=1.16.3)
+Requires-Dist: scipy (>=1.3.1)
+Requires-Dist: scikit-learn (>=0.22.0)
+Requires-Dist: update-checker (>=0.16)
+Requires-Dist: pandas (>=0.24.2)
+Requires-Dist: joblib (>=0.13.2)
+Requires-Dist: simplejson (>=3.17.0)
+
+
+A system that intelligently manages machine learning workflows for data science
+
+Contact: Heather Williams (hwilli@upenn.edu), Weixuan Fu (weixuanf@upenn.edu), William La Cava (lacava@upenn.edu)
+
+This project is hosted at https://github.com/epistasislab/pennai
+
+

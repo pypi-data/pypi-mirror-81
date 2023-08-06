@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: nepalitokenizer
+Version: 1.8.4.0
+Summary: Tokenizes Nepali Text
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: twine (>=3.2.0) ; extra == 'dev'
+
+# Tokenizing Nepali Text Sentences 
+
+
+## Installation Guide
+
+```python
+pip install nepali_tokenizer
+```
+
+## Usage
+
+
+```python
+from nepali_tokenizer import NepaliTokenizer
+
+tokenize = NepaliTokenizer()
+print(tokenize.tokenizer('के छ खबर तिम्रो ? '))
+
+# output--> ['खबर','तिम्रो']
+```
+
+## We can use it with pandas dataframe too
+
+```python
+
+#for example
+
+df.head()
+
+#---> List of nepali corpora with 100 rows
+
+tokenize=NepaliTokenizer()
+
+df = df[0].apply(tokenize.tokenizer)
+
+#output--> All the text in tokenized forms
+
+```
+
+Feel Free to Contribute.
+

@@ -1,0 +1,13 @@
+snptoolkit-2.2.2.data/scripts/annotate_snpToolkit.py,sha256=lKVi7LcgzcfjtiKI737QnPjGwD2UMa66Wva7GzEG2QY,51091
+snptoolkit-2.2.2.data/scripts/argsLogger_snpToolkit.py,sha256=N9e7FWmiH-zqwxAt5Kzxz1hFMBu4NPbIv73nWPnYecA,7985
+snptoolkit-2.2.2.data/scripts/calls_snpToolkit.py,sha256=zbAUWbU40SCoUcO5UwjUSG7nwnzZRj2juWfYXQ2LLvU,22323
+snptoolkit-2.2.2.data/scripts/combine_snpToolkit.py,sha256=73Qjp6NvzmCN3q04Ks3wZLDWZEstfW1X6Mr-HQ4uaOA,12611
+snptoolkit-2.2.2.data/scripts/expand_snpToolkit.py,sha256=1gP5gcfUYh6XakKSnSP_jofdynAX3-TmcMh3altcXB8,26
+snptoolkit-2.2.2.data/scripts/explore_snpToolkit.py,sha256=pe-Irl-RyOYzo9MCXVKFoL4f32FTm9pG9F6wigZvsSU,8858
+snptoolkit-2.2.2.data/scripts/plot_snptoolkit_output.py,sha256=jgRBvWiVJ91UXGpixGGblWbPTAhY62rvJsdrlXPIewU,7224
+snptoolkit-2.2.2.data/scripts/snptoolkit,sha256=nBjHJZhpKE52IMNX29BncEsNUVzkfMbf2ue0gbDgFPA,4851
+snptoolkit-2.2.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+snptoolkit-2.2.2.dist-info/METADATA,sha256=CIa8NWOFt_0gzZuRNpnLvY1gXIp1anNf7gbhgJ4yMYY,751
+snptoolkit-2.2.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+snptoolkit-2.2.2.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+snptoolkit-2.2.2.dist-info/RECORD,,

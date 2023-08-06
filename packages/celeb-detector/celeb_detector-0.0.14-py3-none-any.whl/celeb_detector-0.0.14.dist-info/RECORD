@@ -1,0 +1,11 @@
+celeb_detector/__init__.py,sha256=2m3ZbhHsr8j103-91WmLYGOhDH2kWpM7-dzHv-QTmWM,128
+celeb_detector/celeb_recognition.py,sha256=zXgrVX53c__GFIPF2I-2tTRx1Zphs8QnoWhv28sJTZ0,1493
+celeb_detector/celeb_utils.py,sha256=iXztyqh8N6MV79onvsvFH1_-F4yhGTITyjo3kjyVpx0,3617
+celeb_detector/create_celeb_model.py,sha256=SCWqjJjcVvHNUgoOiUNHTMBfekP2VOOqLj3K7QtrLh0,1560
+celeb_detector/create_model_utils.py,sha256=GkPNoIAxz2pOXLS9qZjy7_tyKvXsaORmfNXmMQ8P0yc,1336
+celeb_detector/download_gdrive.py,sha256=g0i3j0iQpfSptvXfQYdcYQRew4OttWpFnEMR5oInU10,927
+celeb_detector-0.0.14.dist-info/LICENSE,sha256=M1ycM3y1mdu1YGRAgKN81DnZJ8hWwJ8qz5747zKufMI,1070
+celeb_detector-0.0.14.dist-info/METADATA,sha256=NfcE0925eBCXKaBdNQFxAHmmPtRuHeSr4kz20ut0Q0Q,5759
+celeb_detector-0.0.14.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+celeb_detector-0.0.14.dist-info/top_level.txt,sha256=Fole7vl978DfqYyCGCGPd2D6ftlbA6VG_zJVciuCY1k,15
+celeb_detector-0.0.14.dist-info/RECORD,,

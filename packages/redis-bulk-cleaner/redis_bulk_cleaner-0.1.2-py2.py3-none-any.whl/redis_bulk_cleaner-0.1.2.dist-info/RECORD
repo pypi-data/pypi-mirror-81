@@ -1,0 +1,10 @@
+redis_bulk_cleaner/__init__.py,sha256=fTGWALdT1VWDNE3eWJ2vNP9jc-kI6Ests2E22oxe3_0,143
+redis_bulk_cleaner/__main__.py,sha256=M5__8Lvth7dZC2aJCwF-59L7vTmKuqv3aBzkZ_3CFYI,72
+redis_bulk_cleaner/cli.py,sha256=EK0daXFVvLEFYYz3HVvq3HhIEDjrIS3qq8nIWg3fIhs,2010
+redis_bulk_cleaner/redis_bulk_cleaner.py,sha256=yI7CqU_mBFSSNMwUDwDISSqeknZ1DYRBLcxzWxjz2b8,3610
+redis_bulk_cleaner-0.1.2.dist-info/LICENSE,sha256=fOT8iPIw6S-4zrX7Qqs4__Sio9gvImHNfvEMFtXrZtQ,1077
+redis_bulk_cleaner-0.1.2.dist-info/METADATA,sha256=BzMYItm8ib_epo6V4EJ2OYFn0VDTAadffTRiM6KvRaY,3797
+redis_bulk_cleaner-0.1.2.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+redis_bulk_cleaner-0.1.2.dist-info/entry_points.txt,sha256=KWlNpnqID2MCaNE3YPpz1QShLhBrLk3h8aPPc8DMa4I,68
+redis_bulk_cleaner-0.1.2.dist-info/top_level.txt,sha256=nJH9c-lCKrjtfr6dWy8retX6EmcbhMzX3sg85SL00hs,19
+redis_bulk_cleaner-0.1.2.dist-info/RECORD,,

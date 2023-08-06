@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: o3plot
+Version: 0.0.6
+Summary: A plotting library for o3seespy
+Home-page: UNKNOWN
+Author: Maxim Millen
+Author-email: mmi46@uclive.ac.nz
+License: MIT with OpenSees License
+Description: .. image:: https://img.shields.io/pypi/v/o3plot.svg
+           :target: https://pypi.python.org/pypi/o3plot
+           :alt: PyPi version
+        
+        ******
+        o3plot
+        ******
+        
+        A plotting library for o3seespy - alpha version (under development expect major changes!)
+        
+        Built using the powerful and interactive pyqtgraph library.
+        
+        Can plot dynamic motion of finite element model.
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+Provides-Extra: test

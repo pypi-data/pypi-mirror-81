@@ -1,0 +1,9 @@
+openseespy
+o3seespy
+numpy
+PyQt5
+pyqtgraph
+bwplot>=0.2.24
+
+[test]
+pytest

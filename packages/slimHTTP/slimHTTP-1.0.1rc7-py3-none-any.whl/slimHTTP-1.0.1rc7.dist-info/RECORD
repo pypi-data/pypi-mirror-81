@@ -1,0 +1,12 @@
+slimHTTP/__init__.py,sha256=nE8jJjGJaKuJKCyuf6QLfrj8xPj8IqGKeH2VXP3FMzY,21
+slimHTTP/core.py,sha256=ViDRzjTsfaHmg8VBs5fY5fhdBT4dfwebUftj3OxhdsQ,57543
+slimHTTP/examples/REST_api.py,sha256=mjxIT-PjSf74xieaYUdD797XF0h4qnbuk7SyI6VFCE8,345
+slimHTTP/examples/discord_bot_and_web.py,sha256=CNbwFDAQKgHFq7WKyhlD9jQh0ayWLBqGhgQDT2IOpkA,3589
+slimHTTP/examples/http_server.py,sha256=-2ldonDmMwfFr-in8O9wu8A6Mt99t6sWoiLOwVACjC8,115
+slimHTTP/examples/http_websocket.py,sha256=ONb21D6K4QN3llER3iWV_VTNydl2xX5qGR6ikqn_wtc,501
+slimHTTP/examples/https_server.py,sha256=q8jbJi6c-ulBvd4G29ltnJOnrb_i1Sd9cYhlz8ah6zI,271
+slimHTTP-1.0.1rc7.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+slimHTTP-1.0.1rc7.dist-info/METADATA,sha256=4L5NBvBxJnKkg0sSS9L1ldmzqUtKRR5i2em5o1ievz8,1945
+slimHTTP-1.0.1rc7.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+slimHTTP-1.0.1rc7.dist-info/top_level.txt,sha256=1mCpExkMZ7XFuF7C6VlHglL_aDL0b3-Ryy4Z7wNLmRs,9
+slimHTTP-1.0.1rc7.dist-info/RECORD,,

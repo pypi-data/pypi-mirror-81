@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: instapull
+Version: 0.4
+Summary: Simple tool that lets you dump the imagestream from a Instagram user
+Home-page: https://www.frodehus.com
+Author: Frode Hus
+Author-email: frode.hus@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Requires-Dist: argparse
+Requires-Dist: requests
+
+UNKNOWN
+
+

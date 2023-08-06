@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: pairing-functions
+Version: 0.2.1
+Summary: A collection of pairing functions
+Home-page: https://github.com/ConvertGroupLabs/pairing-functions
+Author: Convert Group Labs
+Author-email: tools@convertgroup.com
+License: MIT License
+Description: # pairing-functions
+        
+        A pairing function is a function that *reversibly* maps two non-negative integers onto a single non-negative integer.
+        
+        This package currently supports the following pairing functions:
+        
+        - **Szudzik pairing function**
+        - **Cantor pairing function**
+        
+        
+        Install
+        -------
+        
+        Simply:
+        ```shell script
+        $ pip install pairing-functions
+        ```
+         
+        Usage
+        -----
+        ```python
+        from pairing_functions import cantor, szudzik
+        
+        szudzik.pair(3, 4)  
+        // 19
+        
+        szudzik.unpair(19)
+        // (3, 4)
+        
+        cantor.pair(3, 4)  
+        // 32
+        
+        cantor.unpair(32)
+        // (3, 4)
+        ```
+        
+        You can also work with more than 2 integers:
+        
+        ```python
+        from pairing_functions import cantor, szudzik
+        
+        szudzik.pair(1, 2, 3, 4)
+        // 1126
+        
+        cantor.pair(1, 2, 3, 4)
+        // 2705
+        
+        # by default, unpairing will result in two integers
+        
+        szudzik.unpair(1126)
+        // (33, 4)
+        
+        cantor.unpair(2705)
+        // (69, 4)
+        
+        # but going back to the initial integers is also possible
+        # just specify how many integers you expect
+        
+        szudzik.unpair(1126, n=4)
+        // (1, 2, 3, 4)
+        
+        cantor.unpair(2705, n=4)
+        // (1, 2, 3, 4)
+        ```
+            
+        Documentation
+        -------------
+        You can find more about pairing functions in the [docs](docs/pairing_functions.md).
+        
+        How to contribute
+        -----------------
+        If you wish to contribute, you can start from [here](CONTRIBUTING.md) !
+        
+        Test
+        ----
+        You can run the available tests with [pytest](https://docs.pytest.org/en/latest/) - code coverage metrics are also available via [pytest-cov](https://github.com/pytest-dev/pytest-cov).
+Platform: UNKNOWN
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.5.2
+Description-Content-Type: text/markdown

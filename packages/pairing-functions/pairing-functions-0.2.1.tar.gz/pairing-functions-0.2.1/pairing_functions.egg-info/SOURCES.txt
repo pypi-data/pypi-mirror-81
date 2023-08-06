@@ -1,0 +1,10 @@
+README.md
+setup.py
+pairing_functions/__init__.py
+pairing_functions/__version__.py
+pairing_functions/cantor.py
+pairing_functions/szudzik.py
+pairing_functions.egg-info/PKG-INFO
+pairing_functions.egg-info/SOURCES.txt
+pairing_functions.egg-info/dependency_links.txt
+pairing_functions.egg-info/top_level.txt

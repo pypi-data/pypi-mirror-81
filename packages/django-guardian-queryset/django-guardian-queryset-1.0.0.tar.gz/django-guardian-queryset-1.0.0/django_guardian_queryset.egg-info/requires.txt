@@ -1,0 +1,5 @@
+Django>=2.2
+djangorestframework>=3.12
+django-guardian>=2.3.0
+django-global-requests
+samsteady-django-utils

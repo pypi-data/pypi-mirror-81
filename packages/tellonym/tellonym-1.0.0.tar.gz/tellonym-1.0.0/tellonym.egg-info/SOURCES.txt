@@ -1,0 +1,7 @@
+README.md
+setup.py
+tellonym.egg-info/PKG-INFO
+tellonym.egg-info/SOURCES.txt
+tellonym.egg-info/dependency_links.txt
+tellonym.egg-info/top_level.txt
+tellonym_api/__init__.py

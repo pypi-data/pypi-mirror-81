@@ -1,0 +1,8 @@
+README.md
+setup.py
+xfn/__init__.py
+xfn/xfn.py
+xfn.egg-info/PKG-INFO
+xfn.egg-info/SOURCES.txt
+xfn.egg-info/dependency_links.txt
+xfn.egg-info/top_level.txt

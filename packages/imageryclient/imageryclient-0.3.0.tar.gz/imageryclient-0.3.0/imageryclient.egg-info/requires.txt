@@ -1,0 +1,8 @@
+scipy
+numpy
+cloud-volume>=3.1.0
+Pillow
+fastremap
+tqdm
+imageio
+seaborn

@@ -1,0 +1,2 @@
+graft  src/multi_vector_simulator/input_template
+graft  tests/inputs

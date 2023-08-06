@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+examples_sir/__init__.py
+gym_epidemic/__init__.py
+gym_epidemic.egg-info/PKG-INFO
+gym_epidemic.egg-info/SOURCES.txt
+gym_epidemic.egg-info/dependency_links.txt
+gym_epidemic.egg-info/requires.txt
+gym_epidemic.egg-info/top_level.txt

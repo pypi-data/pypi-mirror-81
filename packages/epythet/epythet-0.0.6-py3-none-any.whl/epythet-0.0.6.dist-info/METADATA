@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: epythet
+Version: 0.0.6
+Summary: Tools for documentation and packaging
+Home-page: UNKNOWN
+Author: Otosense
+Author-email: UNKNOWN
+License: Apache Software License
+Keywords: documentation,packaging,publishing
+Platform: UNKNOWN
+
+# epythet
+
+Documentation and packaging tools.
+
+Less humdrum, more automation, earlier at the pub.
+

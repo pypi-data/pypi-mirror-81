@@ -1,0 +1,9 @@
+antodo/__init__.py,sha256=5evkZnjBuXjl65uN6tTbM9perSp4ccus5e7fDJngAbY,102
+antodo/config.py,sha256=p0Myub-os8afZ2RgAayOxpBv32XpeinQ3_n8Uij4VkM,228
+antodo/todo.py,sha256=k1CvLy1e99w0gY3nFnDX93R68DX1OjJLWoG833Y_KU4,2560
+antodo/todo_cli.py,sha256=Itk21YLVkk6TrOkEHpGZkPsLZawvdWBtBTBsfibw_2U,2777
+antodo/todo_editor.py,sha256=Ul2-8VqxjZO0qivPkvCzYj4OOjUyphGiu91d3mk4Cpc,1062
+antodo-0.5.0.dist-info/entry_points.txt,sha256=uOnqcfZbQ1tWrQDqjDv14oqsy62TNNtOb7quK4ji-No,38
+antodo-0.5.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+antodo-0.5.0.dist-info/METADATA,sha256=k7t336oXpU1vLBfeSgtEg8MN7G6n72wzNXzc20dnJok,1337
+antodo-0.5.0.dist-info/RECORD,,

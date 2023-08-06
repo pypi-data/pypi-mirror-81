@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: rconfig
+Version: 1.1
+Summary: Python config
+Home-page: UNKNOWN
+Author: rivergold
+Author-email: jinghe.rivergold@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: addict
+Requires-Dist: pyyaml
+
+# rconfig
+
+A config loader and parser for Python.
+
+## Support File Type
+
+- `.yaml`
+
+## Example
+
+```python
+from rconfig import config
+config = Config.from_file('./data/example.yaml)
+print(config.TEST.DATA)
+```
+
+

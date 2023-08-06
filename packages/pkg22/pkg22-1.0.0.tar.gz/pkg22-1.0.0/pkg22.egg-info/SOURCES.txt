@@ -1,0 +1,9 @@
+setup.py
+pkg22/__init__.py
+pkg22/__main__.py
+pkg22/demo1.py
+pkg22/demo2.py
+pkg22.egg-info/PKG-INFO
+pkg22.egg-info/SOURCES.txt
+pkg22.egg-info/dependency_links.txt
+pkg22.egg-info/top_level.txt

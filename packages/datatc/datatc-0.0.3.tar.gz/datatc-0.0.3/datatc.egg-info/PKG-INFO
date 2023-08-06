@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: datatc
+Version: 0.0.3
+Summary: UNKNOWN
+Home-page: https://github.com/uzh-dqbm-cmi/data-traffic-control
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >3.5.0
+Provides-Extra: pdf

@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: santa-7imbrook
+Version: 0.1
+Summary: A secret santa matcher
+Home-page: UNKNOWN
+Author: Michael Timbrook
+Author-email: timbrook480@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+Secret Santa
+=============
+
+Simple cli to match your friends or family up for secret santas!
+
+Add people to your group, set a location to exclude households or partners. People in the same location wont get each other.
+
+```shell
+./santa.py add-person <name> <phone-number> <location>
+```
+
+You can test out your matches with `--dry-run`
+
+```shell
+./santa.py shuffle --dry-run
+```
+
+Then send it off! (without `--dry-run`) There's no way to track back who got who after the program quits so it's one shot.
+
+

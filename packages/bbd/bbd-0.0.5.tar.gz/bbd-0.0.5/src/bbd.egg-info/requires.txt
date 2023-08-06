@@ -1,0 +1,10 @@
+shapely
+pyshp
+folium
+branca
+requests
+us
+
+[dev]
+flake8
+black

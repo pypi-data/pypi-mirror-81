@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: scorefastlib
+Version: 0.1.3
+Summary: scorefast customer tool
+Home-page: https://github.com/ScoreDataCorporation/scorefast-lib
+Author: scorefast
+Author-email: ravisharma@scoredata.com
+License: UNKNOWN
+Description: # scorefast-lib
+        
+        Goal of this repository is to create in-house and client side libraries.
+        
+        ## ScoreFast Data Transfer
+        
+        ScoreFast Data transfer is responsible for transferring the data from client or server machine to ScoreData S3.
+        
+        ### Run scorefast transfer tool
+         *sbin/transfer-{os} --conf datatransfer/conf/config.conf*
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

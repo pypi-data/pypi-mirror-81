@@ -1,0 +1,22 @@
+{
+    "info" : {
+        "name" : "Geodetic GNSS receiver / single-freq and code only / static",
+        "description": "This dataset corresponds also to a Geodetic receiver but using only the code at L1. The length of the dataset is 1h, taken at 1Hz"
+    },
+    "inputs" : {
+        "rover_file": "mhdl100t.20o_l1_code_only"
+    },
+    "configurations" : [
+        {
+        "strategy": "SPP",
+        "rover_dynamics": "static"
+        },
+        {
+        "strategy": "SPP",
+        "rover_dynamics": "dynamic"
+        }
+    ],
+    "validation" : {
+        "reference_position": [-2709309.015, -4253690.880, 3891678.374]
+    }
+}

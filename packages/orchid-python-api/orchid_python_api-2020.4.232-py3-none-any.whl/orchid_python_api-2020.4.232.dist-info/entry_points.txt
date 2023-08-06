@@ -1,0 +1,4 @@
+[console_scripts]
+copy_orchid_examples=copy_orchid_examples:main
+use_orchid_test_data=use_orchid_test_data:main
+

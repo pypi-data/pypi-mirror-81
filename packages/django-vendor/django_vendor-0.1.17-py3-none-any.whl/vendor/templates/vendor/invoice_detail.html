@@ -1,0 +1,57 @@
+{% extends "vendor/base.html" %}
+{% load i18n %}
+
+{% block vendor_content %}
+
+<h2>{% trans 'Cart Details' %}</h2>
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">{% trans '#' %}</th>
+      <th scope="col">{% trans 'Item' %}</th>
+      <th scope="col">{% trans 'Price' %}</th>
+      <th scope="col">{% trans 'Quantity' %}</th>
+      <th scope="col">{% trans 'Total' %}</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for item in object.order_items.all %}
+    <tr>
+      <th scope="row">{{ forloop.counter }}</th>
+      <td>{{item.name}}</td>
+      <td>${{item.price|floatformat:2}}</td>
+      <td><a class="btn btn-success btn-sm" href="{{ item.offer.add_to_cart_link }}">add</a>{{item.quantity}} <a class="btn btn-success btn-sm" href="{{ item.offer.remove_from_cart_link }}">remove</a></td>
+      <td>${{item.total|floatformat:2}}</td>
+    </tr>
+    {% endfor %}
+    <tr>
+      <td colspan=3></td>
+      <td>{% trans 'Subtotal' %}</td>
+      <td>${{ object.subtotal|floatformat:2 }}</td>
+    </tr>
+    {% comment %} <tr>
+      <td colspan=3></td>
+      <td>{% trans 'Sales Tax' %}</td>
+      <td>{% if object.tax == None %}TBD{% else %}${{ object.tax|floatformat:2 }}{% endif %}</td>
+    </tr>
+    <tr>
+      <td colspan=3></td>
+      <td>{% trans 'Shipping' %}</td>
+      <td>{% if object.shipping == None %}TBD{% else %}${{ object.shipping|floatformat:2 }}{% endif %}</td>
+    </tr>
+    <tr>
+      <td colspan=3></td>
+      <td>{% trans 'Total' %}</td>
+      <td>{% if object.total == None %}TBD{% else %}${{ object.total|floatformat:2 }}{% endif %}</td>
+    </tr> {% endcomment %}
+
+  </tbody>
+
+
+</table>
+
+<a href="{% url 'vendor:checkout-account' %}" class="btn btn-success">{% trans 'Check Out' %}</a>
+
+{% endblock %}
+

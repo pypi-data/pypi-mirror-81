@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: reb
+Version: 0.0.4
+Summary: Regular Expression Beautiful
+Home-page: https://github.com/workingenius/reb
+Author: ruqishang
+Author-email: workingenius@163.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: dev

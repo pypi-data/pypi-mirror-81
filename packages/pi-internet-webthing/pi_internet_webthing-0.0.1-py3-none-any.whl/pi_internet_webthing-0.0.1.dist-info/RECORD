@@ -1,0 +1,11 @@
+pi_internet_webthing/__init__.py,sha256=ZqEiAd-qdzvggXL6kAshfhMidQhZSIJVBYXkqn3zOiM,1999
+pi_internet_webthing/connected.py,sha256=2C3dvl8eAg2EXj6vqeOSMOmEOE_B1XnSP3kkcqlIj24,1836
+pi_internet_webthing/internet.py,sha256=22qMVKYEy31s4tgNTJZ1rR7k_guiU-GYCAxMsSkmlwo,7618
+pi_internet_webthing/speedtestrunner.py,sha256=_A3ZGXoF2uZUko71SShmzhYTLXPiaCDZp7822sa3ebs,1182
+pi_internet_webthing/unit.py,sha256=dJXvJUXEsITZmy02fIs-6Qt-F7s-dEUb1RmeSCYjAZA,1709
+pi_internet_webthing-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pi_internet_webthing-0.0.1.dist-info/METADATA,sha256=mK1dEoPyu0M-GxSGp25CPBZ7JecsZnR2A4WiXEIDlko,739
+pi_internet_webthing-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pi_internet_webthing-0.0.1.dist-info/entry_points.txt,sha256=4ZyLOXRc_emkEDZs_V9X21fjIUXNfM6BBaG54YLLuK4,56
+pi_internet_webthing-0.0.1.dist-info/top_level.txt,sha256=ImO2_wLEIN-mpht5DnSE02X8xzK4Z8sEZA6IMboB6j8,21
+pi_internet_webthing-0.0.1.dist-info/RECORD,,

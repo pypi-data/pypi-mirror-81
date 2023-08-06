@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: asyncbasehttp
+Version: 1.0
+Summary: Simple async wrapper to python http server
+Home-page: https://gitlab.com/balki/asyncbasehttp
+Author: balki
+Author-email: asyncbasehttp@balki.me
+License: UNKNOWN
+Description: # Async Http Server
+        
+        The simplest async python http server library.
+        
+        # Example
+        
+            import asyncio
+            from asyncbasehttp import request_handler, Request, Response
+        
+            @request_handler
+            async def handle_request(req: Request):
+                return Response.create_ok_response(f'You requested path: {req.path}'.encode())
+        
+        
+            async def main():
+                server = await asyncio.start_server(handle_request, port=8000)
+                print("http://localhost:8000")
+                await server.serve_forever()
+        
+            asyncio.run(main())
+        
+        
+Keywords: http,asyncio
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown

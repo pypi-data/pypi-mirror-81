@@ -1,0 +1,5 @@
+Pillow
+ezutils
+aggdraw
+imgcat
+freetype-py

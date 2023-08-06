@@ -1,0 +1,9 @@
+README.rst
+flask_sockets.py
+setup.py
+py3socket.egg-info/PKG-INFO
+py3socket.egg-info/SOURCES.txt
+py3socket.egg-info/dependency_links.txt
+py3socket.egg-info/not-zip-safe
+py3socket.egg-info/requires.txt
+py3socket.egg-info/top_level.txt

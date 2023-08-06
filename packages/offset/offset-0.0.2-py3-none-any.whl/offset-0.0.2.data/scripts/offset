@@ -1,0 +1,3 @@
+#!python
+from offset import Offset
+Offset.cli()

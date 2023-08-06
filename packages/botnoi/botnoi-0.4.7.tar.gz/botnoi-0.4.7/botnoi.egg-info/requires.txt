@@ -1,0 +1,6 @@
+pandas
+pillow
+pythainlp
+gensim
+pymongo[srv,tls]
+SpeechRecognition

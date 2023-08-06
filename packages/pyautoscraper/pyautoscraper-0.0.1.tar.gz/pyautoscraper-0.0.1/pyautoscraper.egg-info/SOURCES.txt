@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+changelog.txt
+example.py
+setup.py
+pyautoscraper/__init__.py
+pyautoscraper/scraper.py
+pyautoscraper.egg-info/PKG-INFO
+pyautoscraper.egg-info/SOURCES.txt
+pyautoscraper.egg-info/dependency_links.txt
+pyautoscraper.egg-info/requires.txt
+pyautoscraper.egg-info/top_level.txt

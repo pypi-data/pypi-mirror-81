@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pyautoscraper
+Version: 0.0.1
+Summary: A lightweight module which automates webscraping with Python
+Home-page: https://github.com/Jeet-Chugh/pyautoscraper
+Author: Jeet Chugh
+Author-email: sunjeetchugh@gmail.com
+License: MIT
+Description: *** Coming Soon ***
+        
+        
+        CHANGELOG:
+        ==============
+        
+        0.0.1 (10/5/20):
+        ----------------
+        - GitHub Commit
+        - Published to PyPi
+        
+Keywords: pyautoscraper
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown

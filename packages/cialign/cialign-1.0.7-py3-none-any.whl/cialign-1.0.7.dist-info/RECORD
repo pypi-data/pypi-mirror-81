@@ -1,0 +1,15 @@
+CIAlign/CIAlign.py,sha256=sy1vNhjn6PAwHrqPvJoJv3Gbl8EkVsBDqMCguESwi9U,32978
+CIAlign/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+CIAlign/_version.py,sha256=BW7SWRpHoxuOQZ67pS20yog2LWYl-nK7-BEFBNrHGgA,22
+CIAlign/consensusSeq.py,sha256=TOIQCeCOsPBb1VbZiCzVSxFzC1NBQNE2BvVrDoBAzQM,17206
+CIAlign/cropSeq.py,sha256=XB7wS6UbXrpc4jNAS0uNpGnonJZI7lx3D3cXVFHyIrg,3245
+CIAlign/miniAlignments.py,sha256=lD27SGIT0hxMgpgWD9G8Jtv2AJPy-2N3yBH7TETwdwg,9853
+CIAlign/parsingFunctions.py,sha256=duWunE0soZ87fu8RtKHusqbdvwaVv7mdy3YJLRr5Hco,11879
+CIAlign/similarityMatrix.py,sha256=U_iZhUt3VpH3NqX4oGLwFkAh_NQilQ8iA5mFCzKZm7A,2487
+CIAlign/utilityFunctions.py,sha256=6-u63bsyEGItKabZtyER_q4ApMFKb7KQNuRJk8XDmLI,9513
+cialign-1.0.7.data/scripts/CIAlign,sha256=stBpYYCBUDT3fZTNo7uWqeLJfSKZ1mxpgK2D9mFqWqQ,32964
+cialign-1.0.7.dist-info/LICENSE,sha256=TDscsQrKkQ9XcT53LYW3hwCWSc4ohIuIFUFTeXnr6JI,1108
+cialign-1.0.7.dist-info/METADATA,sha256=Rhgc4e9opwYvuIzK36BmU9tXTNZyEW5kQalw41DbCuA,14286
+cialign-1.0.7.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+cialign-1.0.7.dist-info/top_level.txt,sha256=dRTQ-fqMwIhuTP6emH2XDWioAhtGoD5iZL3nfjr5j-Y,8
+cialign-1.0.7.dist-info/RECORD,,

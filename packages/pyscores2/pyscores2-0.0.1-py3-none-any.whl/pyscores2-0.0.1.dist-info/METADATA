@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pyscores2
+Version: 0.0.1
+Summary: Python API to ship strip theory code Scores2
+Home-page: https://github.com/martinlarsalbert/pyscores2
+Maintainer: Martin Alexandersson
+Maintainer-email: maa@sspa.se
+License: GNU GPLv3
+Download-URL: https://github.com/martinlarsalbert/pyscores2
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-gallery ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: numpydoc ; extra == 'docs'
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+
+![](https://vignette.wikia.nocookie.net/horrormovies/images/8/8a/Psycho.jpg/revision/latest/top-crop/width/360/height/450?cb=20150415212637)
+
+

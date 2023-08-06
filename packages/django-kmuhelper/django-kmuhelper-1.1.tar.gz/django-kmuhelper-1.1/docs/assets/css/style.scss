@@ -1,0 +1,94 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+:root {
+  --kmuhelper-darkest: #880044;
+  --kmuhelper-dark: #AA1155;
+  --kmuhelper-default: #DD1155;
+  --kmuhelper-light: #F6C400;
+  --kmuhelper-lightest: #FFEE88;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+header a.home {
+    text-decoration: none;
+    color: white;
+}
+
+.page-header {
+    background-color: var(--kmuhelper-darkest);
+    background-image: linear-gradient(120deg, var(--kmuhelper-darkest), var(--kmuhelper-light));
+}
+
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+    color: var(--kmuhelper-default);
+}
+
+a {
+    color: var(--kmuhelper-dark);
+}
+
+img {
+    border-radius: 5px;
+    margin: 5px;
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.5);
+}
+
+// Breadcrumbs
+
+
+nav#breadcrumbs {
+    padding: 10px 0px;
+    width: 100%;
+    background-color: var(--kmuhelper-dark);
+}
+
+nav#breadcrumbs > div {
+    margin: 0 auto;
+}
+
+nav#breadcrumbs a {
+    color: rgb(255, 255, 255);
+}
+
+nav#breadcrumbs a:hover {
+    color: rgba(255, 255, 255, 0.7);
+    transition-duration: 0.5s;
+}
+
+nav#breadcrumbs span.arrow {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+@media screen and (min-width: 64em) {
+    nav#breadcrumbs > div {
+        max-width: 64rem;
+        padding: 0.1rem 6rem;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 42em) and (max-width: 64em) {
+    nav#breadcrumbs > div {
+        padding: 0.1rem 4rem;
+    }
+}
+@media screen and (max-width: 42em) {
+    nav#breadcrumbs > div {
+        padding: 0.1rem 1rem;
+    }
+}
+
+// Diverses
+
+@media screen and (max-width: 42em) {
+    .hideonmobile {
+        display: none;
+    }
+}

@@ -1,0 +1,13 @@
+pytsdatasets/__init__.py,sha256=Z1jOQMbfjm-mNFKphrVojA2Uh0M9QwiMYPi-VrOHXTU,40
+pytsdatasets/pytsdatasets.py,sha256=_1XTJs3eKOWgHXLAyZU8eEPADemYsW4S9zOEgq-lIyA,992
+pytsdatasets/data/airpassengers.csv,sha256=NR9xlIqnQ62irVOecWQIG9QtEOQyEddIwDJN0lNpwEY,2174
+pytsdatasets/data/co2.csv,sha256=vqMl4whziqbQ_A3D6A0a_t8VrqECFqbyKsfIB4TYtzM,8370
+pytsdatasets/data/globaltemp.csv,sha256=Q1cn0lHLbEO3uFIr4g2HDZg4rBh4rkc8yBfrBe48JIg,1437
+pytsdatasets/data/h02.csv,sha256=dAkeYLLvHpk8qvGnzhPwPVM7INxgoAVwP01lzj3EaV8,4371
+pytsdatasets/data/jj.csv,sha256=ngB3y27A_iEZ264_Px4yoP4pYc1QWQX1AadHcCpTYIk,1525
+pytsdatasets/data/uschange.csv,sha256=yjKEuOGGQGdyoqOEkpmxPfgDCn3afZt8RptnV8i6fi4,12322
+pytsdatasets-1.0.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+pytsdatasets-1.0.dist-info/METADATA,sha256=sEyOaXbHS9JzRoYbV5KwR8R-fFiSHsx7W3TfoJAnXT8,4203
+pytsdatasets-1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pytsdatasets-1.0.dist-info/top_level.txt,sha256=BjogzdNMD3MnSSy_fgtvWbgKhrFli4O08TRewxIel-Y,13
+pytsdatasets-1.0.dist-info/RECORD,,

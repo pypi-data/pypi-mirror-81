@@ -1,0 +1,2 @@
+python-datauri==0.2.9
+reportbro-fpdf==1.7.10

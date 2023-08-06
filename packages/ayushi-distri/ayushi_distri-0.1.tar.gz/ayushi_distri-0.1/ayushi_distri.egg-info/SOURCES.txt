@@ -1,0 +1,10 @@
+setup.py
+ayushi_distri/Binomialdistribution.py
+ayushi_distri/Gaussiandistribution.py
+ayushi_distri/Generaldistribution.py
+ayushi_distri/__init__.py
+ayushi_distri.egg-info/PKG-INFO
+ayushi_distri.egg-info/SOURCES.txt
+ayushi_distri.egg-info/dependency_links.txt
+ayushi_distri.egg-info/not-zip-safe
+ayushi_distri.egg-info/top_level.txt

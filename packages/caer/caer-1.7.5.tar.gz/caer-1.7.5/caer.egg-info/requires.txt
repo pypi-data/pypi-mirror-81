@@ -1,0 +1,6 @@
+numpy
+opencv-contrib-python
+h5py
+
+[deep]
+canaro>=1.0.0

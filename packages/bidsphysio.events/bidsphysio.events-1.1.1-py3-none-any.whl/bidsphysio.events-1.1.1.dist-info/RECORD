@@ -1,0 +1,11 @@
+bidsphysio.events-1.1.1-py3.8-nspkg.pth,sha256=-q0tz3KpVFX-CTMy1tiWJVqFViYWx9xDeDOxnfxREoQ,559
+bidsphysio/events/__init__.py,sha256=G-d438vPx7m_ks5e9XTtM3u7LDRO5dSSukibukWmyPM,56
+bidsphysio/events/eventsbase.py,sha256=riIL16h-lWDqS2k_PuFY3Ti4Nge-u3qgF3c6K3WaXWA,5297
+bidsphysio/events/info.py,sha256=mNb1ZpSaI5zqEhuZDtBUp9ESMeXNg-ala9sJfTh_CNo,842
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_eventsbase.py,sha256=DnhE-5BOoDBGrz_oT6vdkBzWCPWMKBXdr5bOq2igZWw,102
+bidsphysio.events-1.1.1.dist-info/METADATA,sha256=JDwtMqTRO9UIPJdt-5Lr5l0J3mUbNQlhusqfpNV000E,745
+bidsphysio.events-1.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+bidsphysio.events-1.1.1.dist-info/namespace_packages.txt,sha256=2FheJI0dxUB4_GQLIG6kY3N9WvHdAtvGddpujVLE9xY,11
+bidsphysio.events-1.1.1.dist-info/top_level.txt,sha256=L5cDw-5BuJykyKxyEPg0Zg6zLxwJRIET5wcn9SWjXNY,17
+bidsphysio.events-1.1.1.dist-info/RECORD,,

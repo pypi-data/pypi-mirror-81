@@ -1,0 +1,8 @@
+README.md
+setup.py
+spreadG.egg-info/PKG-INFO
+spreadG.egg-info/SOURCES.txt
+spreadG.egg-info/dependency_links.txt
+spreadG.egg-info/top_level.txt
+spreadg/__init__.py
+spreadg/allfun.py

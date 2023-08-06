@@ -1,0 +1,16 @@
+model_bakery/__init__.py,sha256=5NdxnEH6ta-gbmqYGT-iEKfl7qUnD5CdnqzbZEMTtMU,180
+model_bakery/baker.py,sha256=uVYgK6Q3g8uNKCDrVK8rpTPy9uNOcLn_3qQxs_FDE1U,20029
+model_bakery/exceptions.py,sha256=q1oBZvfxL7HAD-F9aWgiYs4P4rz-hJ5TjeX7gcb3Q0I,333
+model_bakery/generators.py,sha256=QHG0UwUC-bpIoo-l23t3j6ubEuJbCAcxn_arwYNbJdI,5923
+model_bakery/gis.py,sha256=PNnH9nA_V7fBbE7TKH4Z0owoq7hIwJ-eAn8G8Jg85vM,1068
+model_bakery/mock_file.txt,sha256=CO5zPS6Uydk48ZRnGcRKVEYKd2YjaUMa9QOgF5gGMCo,10
+model_bakery/mock_img.jpeg,sha256=iF2ybgAVtDvl48-8VKdv_QFHKfnqeOaeGwR6ZLexJkY,1916
+model_bakery/random_gen.py,sha256=oEPhnnwMIHWJkfYmbON7SIgKIIUMNWjJiwsv-hhqM8Y,8635
+model_bakery/recipe.py,sha256=9ki9HPnnvn474LDhBIztbF59wINAyWtIG3Rhy17K7q0,4342
+model_bakery/timezone.py,sha256=OID9dg_-nL9HacOQ_8b8RPZ9cLgUYP7sx-m7XGkj6p0,625
+model_bakery/utils.py,sha256=5E-P2lNRufIkGAEFJDeB611SlM1hQoASZ7uMO8Xkl-k,3220
+model_bakery-1.2.0.dist-info/LICENSE,sha256=HIJ64rfqx0cBo7VpRa9QZwqpHMyPQRQYhvWVq6enYXc,582
+model_bakery-1.2.0.dist-info/METADATA,sha256=BjKgLRYyz0_F0QzOVlWDTvaQmtDbAusmiXiX2kl_XeQ,3486
+model_bakery-1.2.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+model_bakery-1.2.0.dist-info/top_level.txt,sha256=mGOOS07QeeZtBwJldXT4laCzu97fQVcMbzt0XQdm2JU,13
+model_bakery-1.2.0.dist-info/RECORD,,

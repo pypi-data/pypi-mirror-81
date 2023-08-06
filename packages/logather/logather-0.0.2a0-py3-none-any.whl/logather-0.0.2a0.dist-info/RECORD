@@ -1,0 +1,13 @@
+logather/__init__.py,sha256=_x2sp5J2nJ2o4VpG_G2PPV-UMLe_2iZJKxDsxYltPKI,63
+logather/__main__.py,sha256=4VAvubprG19Bt43BTLgWWxO_BqaUmpPxH0Oh0cMHbiA,65
+logather/cmdline.py,sha256=jwG_KIlHkr-xoLQoPmgZaCXwp9as4bBelMDiknZpo0w,469
+logather/log_regexps.py,sha256=SvhB6nBPF0V220ZeezynVMTv_C3xyAVocW5wGz07ykQ,405
+logather/logather.py,sha256=bbGw3GJJz49R2rhCmwMIhayag05R_mX96fBb0gHo-2E,842
+logather/startpage.py,sha256=RSN0mMWLSg2JkyAsuvyQk_5fi1IBzeHPasY3Lpz6PHM,2585
+logather/tor_proxies.py,sha256=_xfNUXjdAQprLuCSMBubkTr0bqVcLV8TrRXu6qwKigE,102
+logather/validator.py,sha256=gY_vkRDH8-0QkCof6O-mk3jNkTZgkdG19KJm3jTgxB8,2364
+logather-0.0.2a0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+logather-0.0.2a0.dist-info/METADATA,sha256=S1oTtcEx1dn3-EMFrzXCgGfjzXkhm7QW3u-FXXK_45Y,828
+logather-0.0.2a0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+logather-0.0.2a0.dist-info/top_level.txt,sha256=s8xFZLawe7NE6LKe61D7LvqidZTXNXDJDEQ419PISZE,9
+logather-0.0.2a0.dist-info/RECORD,,

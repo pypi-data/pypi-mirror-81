@@ -1,0 +1,69 @@
+Metadata-Version: 1.0
+Name: taxonomy-connector
+Version: 1.1.0
+Summary: Taxonomy connector
+Home-page: https://github.com/edx/taxonomy-connector
+Author: edX
+Author-email: oscm@edx.org
+License: MIT
+Description: Taxonomy
+        After submitting a pull request, please use the Github "Reviewers" widget to add
+        relevant reviewers and track review process.
+        
+        Reporting Security Issues
+        -------------------------
+        
+        Please do not report security issues in public. Please email security@edx.org.
+        
+        Getting Help
+        ------------
+        
+        Have a question about this repository, or about Open edX in general?  Please
+        refer to this `list of resources`_ if you need any assistance.
+        
+        .. _list of resources: https://open.edx.org/getting-help
+        
+        
+        Change Log
+        ==========
+        
+        ..
+           All enhancements and patches to edx-enterprise will be documented
+           in this file.  It adheres to the structure of http://keepachangelog.com/ ,
+           but in reStructuredText instead of Markdown (for ease of incorporation into
+           Sphinx documentation and the PyPI description).
+        
+           This project adheres to Semantic Versioning (http://semver.org/).
+        
+        .. There should always be an "Unreleased" section for changes pending release.
+        
+        Unreleased
+        --------------------
+        
+        
+        [1.1.0] - 2020-09-30
+        --------------------
+        
+        * Renamed main package name from taxonomy-service to taxonomy-connector.
+        
+        [1.0.1] - 2020-09-21
+        --------------------
+        
+        * Added package data, so that migrations and python packages are included in the final build.
+        
+        [1.0.0] - 2020-09-09
+        --------------------
+        
+        * Added Providers and Validators for integrations and upgraded to the first stable release.
+        
+        [0.1.1] - 2020-09-09
+        --------------------
+        
+        * Enable Travis integration
+        
+        [0.1.0] - 2020-08-27
+        --------------------
+        
+        * Added Basic skeleton and clients to call EMSI endpoint.
+        
+Platform: UNKNOWN

@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+pvarc/__init__.py
+pvarc/astmg173.csv
+pvarc/fit.py
+pvarc/main.py
+pvarc/materials.py
+pvarc/metrics.py
+pvarc/oceaninsight.py
+pvarc/tmm.py
+pvarc.egg-info/PKG-INFO
+pvarc.egg-info/SOURCES.txt
+pvarc.egg-info/dependency_links.txt
+pvarc.egg-info/requires.txt
+pvarc.egg-info/top_level.txt

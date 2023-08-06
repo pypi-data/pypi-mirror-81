@@ -1,0 +1,3 @@
+[console_scripts]
+ruly-dmn = ruly_dmn.main:main
+

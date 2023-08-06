@@ -1,0 +1,9 @@
+falign/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+falign/__main__.py,sha256=7CfEQhRRnyAWJ7JNCCoyuzPyhHZJ5TGKQ74RjWsKmxA,3531
+falign/falign.py,sha256=itSBXB0rYcA2c3dZUq1GuB4Jy6kxlvOq9nlnwERxQLQ,9841
+fortran_align-0.0.6.dist-info/LICENSE,sha256=59Ncmx6QeGNCeSFJoAHHiEC4XHOqnuuFN0o0m9aZQYw,1059
+fortran_align-0.0.6.dist-info/METADATA,sha256=rALBzyFCoLxgOPg6yYN8fbp5xO_Sbz7vxlXMV7hYI44,675
+fortran_align-0.0.6.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+fortran_align-0.0.6.dist-info/entry_points.txt,sha256=YGj3qVaQb8PIbZQwvrogYN78_ocyTT3qpbm50SscfNU,48
+fortran_align-0.0.6.dist-info/top_level.txt,sha256=drrJaWIBSewrOjO2R303DDrlnpBLpfy5jlsyxvi0wlQ,7
+fortran_align-0.0.6.dist-info/RECORD,,

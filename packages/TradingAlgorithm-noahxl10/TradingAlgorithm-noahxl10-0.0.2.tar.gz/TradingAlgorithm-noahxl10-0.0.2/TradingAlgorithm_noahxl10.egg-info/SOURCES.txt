@@ -1,0 +1,7 @@
+README.md
+setup.py
+TradingAlgorithm_noahxl10.egg-info/PKG-INFO
+TradingAlgorithm_noahxl10.egg-info/SOURCES.txt
+TradingAlgorithm_noahxl10.egg-info/dependency_links.txt
+TradingAlgorithm_noahxl10.egg-info/requires.txt
+TradingAlgorithm_noahxl10.egg-info/top_level.txt

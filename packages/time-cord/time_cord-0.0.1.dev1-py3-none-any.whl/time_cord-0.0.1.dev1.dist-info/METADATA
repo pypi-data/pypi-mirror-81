@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: time-cord
+Version: 0.0.1.dev1
+Summary: A Python library for time management tools for Discord
+Home-page: https://github.com/califynic/time-cord
+Author: Ali Yang
+Author-email: califynic@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Quantify & take control of time spent on Discord
+
+Current features:
+- None
+
+(In development) Functions that can:
+- Track time spent on Discord
+- Track time spent on specific servers & channels
+- Close Discord after too much time is spent
+...without violating Discord ToS!
+
+Areas for improvement:
+- Support for non-Mac OS devices
+
+Dependencies:
+- None
+
+

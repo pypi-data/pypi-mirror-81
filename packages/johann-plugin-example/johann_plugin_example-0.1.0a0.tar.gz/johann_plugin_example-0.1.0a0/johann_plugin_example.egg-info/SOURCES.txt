@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+johann_plugin_example/__init__.py
+johann_plugin_example/config.py
+johann_plugin_example/tasks.py
+johann_plugin_example.egg-info/PKG-INFO
+johann_plugin_example.egg-info/SOURCES.txt
+johann_plugin_example.egg-info/dependency_links.txt
+johann_plugin_example.egg-info/requires.txt
+johann_plugin_example.egg-info/top_level.txt
+johann_plugin_example/scores/simple_example_1.yml

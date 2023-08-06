@@ -1,0 +1,10 @@
+pairing_functions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pairing_functions/__version__.py,sha256=FwWrRwN13TBsUzDqVuuyVVRYOy44bhCn4qH6GjDDkDU,327
+pairing_functions/cantor.py,sha256=xnarB8U4vFFsnU6G3z-t5tQcQfsQfnH1G1Se48EbMXw,2063
+pairing_functions/szudzik.py,sha256=y8F6-Q6xtZUR_Ko3Q1SHwdG4gCBV8DWFO5IeIsIRSeI,2303
+pairing_functions-0.2.1.dist-info/AUTHORS.rst,sha256=yEiQmQlpjSXBPwoWIpuSf9bKvHHYjMcvjuxF46-9rV4,228
+pairing_functions-0.2.1.dist-info/LICENSE,sha256=IC_kjmykou2dKkorg8oB9XvAi7dHjr0lFKPEGYz7Y9M,1102
+pairing_functions-0.2.1.dist-info/METADATA,sha256=r5yiAnH0ZXKAgvO6tp8E22anRoDC-ZDA8RBTqtwJHWI,2143
+pairing_functions-0.2.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pairing_functions-0.2.1.dist-info/top_level.txt,sha256=e2bFaTwJZvcIOAW4BjKw7p80LSdEvXgDkgfQVrfP63A,18
+pairing_functions-0.2.1.dist-info/RECORD,,

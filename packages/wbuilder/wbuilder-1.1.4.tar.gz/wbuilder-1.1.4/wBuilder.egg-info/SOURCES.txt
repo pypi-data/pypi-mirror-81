@@ -1,0 +1,16 @@
+README.md
+setup.cfg
+setup.py
+wBuilder.egg-info/PKG-INFO
+wBuilder.egg-info/SOURCES.txt
+wBuilder.egg-info/dependency_links.txt
+wBuilder.egg-info/requires.txt
+wBuilder.egg-info/top_level.txt
+wbuilder/__init__.py
+wbuilder/version.py
+wbuilder/wbuilder.py
+wbuilder.egg-info/PKG-INFO
+wbuilder.egg-info/SOURCES.txt
+wbuilder.egg-info/dependency_links.txt
+wbuilder.egg-info/requires.txt
+wbuilder.egg-info/top_level.txt

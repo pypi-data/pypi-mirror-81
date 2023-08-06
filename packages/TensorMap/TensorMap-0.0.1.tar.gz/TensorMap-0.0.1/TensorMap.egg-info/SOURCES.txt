@@ -1,0 +1,7 @@
+README.md
+setup.py
+TensorMap/__init__.py
+TensorMap.egg-info/PKG-INFO
+TensorMap.egg-info/SOURCES.txt
+TensorMap.egg-info/dependency_links.txt
+TensorMap.egg-info/top_level.txt

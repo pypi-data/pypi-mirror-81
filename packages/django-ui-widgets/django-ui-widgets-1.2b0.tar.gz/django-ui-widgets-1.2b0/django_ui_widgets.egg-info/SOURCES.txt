@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+django_ui_widgets.egg-info/PKG-INFO
+django_ui_widgets.egg-info/SOURCES.txt
+django_ui_widgets.egg-info/dependency_links.txt
+django_ui_widgets.egg-info/entry_points.txt
+django_ui_widgets.egg-info/requires.txt
+django_ui_widgets.egg-info/top_level.txt
+ui/__init__.py
+ui/fields.py
+ui/forms.py
+ui/mixins.py
+ui/tests.py
+ui/widgets.py

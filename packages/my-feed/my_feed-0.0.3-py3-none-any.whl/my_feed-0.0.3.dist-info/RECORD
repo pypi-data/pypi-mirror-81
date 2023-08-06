@@ -1,0 +1,15 @@
+my_feed/__init__.py,sha256=BqGr28qJyFfaYwDuI7hyGVo5kDHWq9frRc2E01oTyys,149
+my_feed/my_feed.py,sha256=R3mv1TNyxjuTOABxEgot9lVIuWJvNudEqSn7FDqXXuY,3766
+my_feed/modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+my_feed/modules/post.py,sha256=QPi2EyWV2ydoPtZwuDPJrYyTyJSDkaCUNff_m82yI8Q,1361
+my_feed/modules/settings.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+my_feed/modules/types.py,sha256=tmmGlMCGfhFWRnd0QhMDGiRlGU1sH1jSvdfKxMkojBc,650
+my_feed/platforms/__init__.py,sha256=ZdH9mmoQKDKnz6nAYa8iHqBkqKafXJQkLWy9wqmrzIg,1818
+my_feed/platforms/instagram.py,sha256=T5Od4SEKs6mbwcceh99EMjnYxdFp1kTkBM-4z3Hs3iQ,3981
+my_feed/platforms/reddit.py,sha256=Lx0lrg4ukhc-dJCQOOmTfYd5bPvlSqBPVdKKHVbR0AU,4448
+my_feed/platforms/twitter.py,sha256=zHUguwbMsYGHMDm9hiLap_zNl5nh44xYnnwtlQvwJI8,1352
+my_feed-0.0.3.dist-info/LICENSE,sha256=L8vFn9ZHT3RRpTtzuzhkgDTutx_NNhMzCw_9YpbZR4Q,35129
+my_feed-0.0.3.dist-info/METADATA,sha256=iYGu7EuXx8TrsGHYWmcaTsOg15BRQLYW0nqeIN3dZts,526
+my_feed-0.0.3.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+my_feed-0.0.3.dist-info/top_level.txt,sha256=mc8u45U7UOPOGJhAorVIbCwfa1bT9FdQdelKhlEItps,8
+my_feed-0.0.3.dist-info/RECORD,,

@@ -1,0 +1,6 @@
+{
+	"name": "Products",
+	"type": "hidden",
+	"fa-icon": "",
+	"url_prefix": "/category"
+}

@@ -1,0 +1,12 @@
+dmi_instascraper/VERSION,sha256=sMsnbN5Rd3nKQ6X4_pStzWsco7Tn2l6X8szZw7Q4Hfg,5
+dmi_instascraper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dmi_instascraper/__main__.py,sha256=tEOSxU0_XEZilVxnI-TFTT32_TAjFE0_ZFYdJu8M58c,98
+dmi_instascraper/app.py,sha256=W3M0Zgfq3rnO6eRtw1ePiCc6-qI5WQVRDzwm4q9seVQ,19145
+dmi_instascraper/banner.png,sha256=awMzZlkGDDrS7fU3rIc0f1DKKbEOjRKBc5I5PpgQ_po,13985
+dmi_instascraper/icon.png,sha256=L4f3qxGTUjZBnHhUlB1FmNOnN0qN-85LpPaPZtcp96Y,14795
+dmi_instascraper/instagram_scraper.py,sha256=Qz9HTsPwJrnDUPQkNpF7V2VddR2V0V4x_F63RXFBdiw,13084
+dmi_instascraper-0.7.0.dist-info/LICENSE,sha256=kOmPtyjtAv7sWd5dd_2FGAq-Q68qqljwZVFQLlBhnJQ,17074
+dmi_instascraper-0.7.0.dist-info/METADATA,sha256=jO1y55rP0fb7Fi7pab5t0ZiFjc28Ru_IknXAcwPGEZ0,2493
+dmi_instascraper-0.7.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+dmi_instascraper-0.7.0.dist-info/top_level.txt,sha256=m8n7flu178sCpvmCd08kHplwS_KJaSKiKqPt832HMW4,17
+dmi_instascraper-0.7.0.dist-info/RECORD,,

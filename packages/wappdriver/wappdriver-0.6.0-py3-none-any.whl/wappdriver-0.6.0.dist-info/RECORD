@@ -1,0 +1,15 @@
+wappdriver/__init__.py,sha256=qbTSQ3ilRl_V82DHhR_dhoLCAJI2jG3PnLNIkznRFck,1093
+wappdriver/command_line.py,sha256=EPJk54wDQGcQJimQ3kyoxwhgzy_mJF1-K7KoPa_EyEo,516
+wappdriver/driver.py,sha256=e6V4q6IDh_u6ztvhhqyJ6tzT8ScChNsRdKVwYzFyGzM,4024
+wappdriver/error.py,sha256=rb4W8qS5zPOR5ikBSztSQG5J-WUHSFh9_MITGwLSPXo,4297
+wappdriver/whatsapp.py,sha256=1KUgT6mKo4JC2U3BUIJLERscadcJN6yGJ08BQ77pyjc,4039
+wappdriver/data/__init__.py,sha256=lYd5yj2fT5XT_H4HVFA2jCf8JHcZxLdJZ-Lg0nKoJAY,260
+wappdriver/data/data_error.py,sha256=MGgQBqxltRVIdhL1mqcYVdBWLd6r9eaQHmJ92KykcPw,1238
+wappdriver/data/local.py,sha256=xak7cN6PVH_AKPrSwLi0d3EekOEIh1thp_ZvKHvxJV4,5307
+wappdriver/data/remote.py,sha256=aeO95ZHV2zagy6ZayPBL1AK5-ThlhVwmbd0ar94nsew,689
+wappdriver-0.6.0.dist-info/LICENSE,sha256=QoZGyiA-h0QoadE7teULo3yKx7uRzYdZbSCkoMgcRLA,1067
+wappdriver-0.6.0.dist-info/METADATA,sha256=tIiK9Cmpq7i7SMpG5YAeCNM-eyeOX5HVzZmxgcw8agQ,3509
+wappdriver-0.6.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+wappdriver-0.6.0.dist-info/entry_points.txt,sha256=Lsqoh0sGEgtZlA1CpKkdNGsM2cQJCzeTp6mbTwhohgo,61
+wappdriver-0.6.0.dist-info/top_level.txt,sha256=aWmohwxU1F3snYGZjzXB7Xxz-hPSahmX0VX9S1hp0Uc,11
+wappdriver-0.6.0.dist-info/RECORD,,

@@ -1,0 +1,10 @@
+README.md
+setup.py
+vit_flax/__init__.py
+vit_flax/layers.py
+vit_flax/vit.py
+vit_flax.egg-info/PKG-INFO
+vit_flax.egg-info/SOURCES.txt
+vit_flax.egg-info/dependency_links.txt
+vit_flax.egg-info/requires.txt
+vit_flax.egg-info/top_level.txt

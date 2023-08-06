@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: vit-flax
+Version: 0.0.1
+Summary: Vision Transformer, ViT - Flax
+Home-page: https://github.com/vballoli/vit-flax
+Author: Vaibhav Balloli
+Author-email: balloli.vb@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: computer vision,transformers,flax,jax,transformers in computer vision
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6

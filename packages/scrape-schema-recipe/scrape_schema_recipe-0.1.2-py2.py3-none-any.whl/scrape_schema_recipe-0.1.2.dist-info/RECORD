@@ -1,0 +1,10 @@
+scrape_schema_recipe/VERSION,sha256=KXtQ8IOG01Ifj9ry94642dCs30UtLmFZaQX7o3IIx5I,6
+scrape_schema_recipe/__init__.py,sha256=ky6s5a4PiI9JvgssR8fvi_oXA4knfo0d3w7FS7fvE7o,722
+scrape_schema_recipe/example_output.py,sha256=O-KzJ0wWlV23GaCVMjrbLSvhwEYqO7NMsw7lqQuXzX0,1914
+scrape_schema_recipe/scrape.py,sha256=l5NiKCdgUdEVWd4xPZBRAwW9nMeO9e4fZYQhlQlogGg,17638
+scrape_schema_recipe-0.1.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+scrape_schema_recipe-0.1.2.dist-info/METADATA,sha256=Y5pwmRB0S8riv8I0Zf9vXIKWp7j5sX1_6Ft9GvbssA0,8971
+scrape_schema_recipe-0.1.2.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+scrape_schema_recipe-0.1.2.dist-info/top_level.txt,sha256=LEa-Nt33gQwTcgDUqIIrLRn2B4a_N111auP0JOTdbh8,31
+scrape_schema_recipe-0.1.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+scrape_schema_recipe-0.1.2.dist-info/RECORD,,

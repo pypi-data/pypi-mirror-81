@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: PyFacileGui
+Version: 0.5
+Summary: Simpler life with most modules combined.
+Home-page: https://github.com/AccessRetrieved/PyFacileGui
+Author: Jerry Hu
+Author-email: bestfit.jerry.wu@gmail.com
+License: MIT
+Download-URL: https://github.com/AccessRetrieved/PyFacileGui/archive/0.5.tar.gz
+Description: UNKNOWN
+Keywords: pygui,PyGui,python,Python,easy,combined,modules,pyfacilegui,PyFacileGui,Pyfacilegui
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8

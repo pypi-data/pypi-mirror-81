@@ -1,0 +1,3 @@
+[console_scripts]
+django-sftp=django_sftp.__main__:main
+

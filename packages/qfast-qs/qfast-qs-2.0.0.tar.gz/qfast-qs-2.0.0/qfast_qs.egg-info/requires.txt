@@ -1,0 +1,2 @@
+qfast>=2.0.0
+qsearch>=2.0.0a1

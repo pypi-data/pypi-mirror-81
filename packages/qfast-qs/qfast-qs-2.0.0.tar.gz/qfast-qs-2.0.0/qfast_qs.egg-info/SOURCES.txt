@@ -1,0 +1,9 @@
+README.md
+setup.py
+qfast/instantiation/native/qs.py
+qfast_qs.egg-info/PKG-INFO
+qfast_qs.egg-info/SOURCES.txt
+qfast_qs.egg-info/dependency_links.txt
+qfast_qs.egg-info/not-zip-safe
+qfast_qs.egg-info/requires.txt
+qfast_qs.egg-info/top_level.txt

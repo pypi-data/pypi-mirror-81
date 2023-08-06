@@ -1,0 +1,8 @@
+README.md
+setup.py
+ircchallenge/__init__.py
+ircchallenge/py.typed
+ircchallenge.egg-info/PKG-INFO
+ircchallenge.egg-info/SOURCES.txt
+ircchallenge.egg-info/dependency_links.txt
+ircchallenge.egg-info/top_level.txt

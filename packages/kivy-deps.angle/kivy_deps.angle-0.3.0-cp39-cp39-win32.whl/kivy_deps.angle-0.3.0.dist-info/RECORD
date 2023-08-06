@@ -1,0 +1,9 @@
+kivy_deps.angle-0.3.0.data/data/share/angle/bin/d3dcompiler_47.dll,sha256=JjD0GIvS6lRRymHYOGm_cGik8EQEAclJqf65-0duFd8,3714200
+kivy_deps.angle-0.3.0.data/data/share/angle/bin/libEGL.dll,sha256=86Sc16UJnZJBl3QQwCm7t2WDsptKnXOcvwJ-oI_kRac,328704
+kivy_deps.angle-0.3.0.data/data/share/angle/bin/libGLESv2.dll,sha256=7r4MmHmBJHkhWLjYd9OXoezWtPqSXc9hc7gwzHw0hi4,5551104
+kivy_deps.angle-0.3.0.data/purelib/kivy_deps/__init__.py,sha256=h-QyvMVzDNpT3jyVskcSbUVFXxGCRxieFPrvTveZG9k,64
+kivy_deps.angle-0.3.0.data/purelib/kivy_deps/angle/__init__.py,sha256=Fv_7rk5jjDxpcJi1ctlphuqOE2XRu5bvZ4hKEoi3Pzo,664
+kivy_deps.angle-0.3.0.dist-info/METADATA,sha256=1TGIpY-Kh7ZNS06pHd8C1KUtvjeEL4vvhLYOMnjItX0,234
+kivy_deps.angle-0.3.0.dist-info/WHEEL,sha256=lcspivZQS1dFTcDXXp8y2E13an7N4W7xLvllc3Am81g,101
+kivy_deps.angle-0.3.0.dist-info/top_level.txt,sha256=YMwhIe4C46UWpn5ggwslPdp7LkNw5RbCnvMcqI6e78Q,10
+kivy_deps.angle-0.3.0.dist-info/RECORD,,

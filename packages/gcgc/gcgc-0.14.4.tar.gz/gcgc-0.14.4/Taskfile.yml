@@ -1,0 +1,82 @@
+version: "3"
+
+env:
+  GCGC_VERSION: v0.14.4
+
+tasks:
+  ci-test:
+    cmds:
+      - task: build
+      - task: black-check
+      - task: pydocstyle
+      - task: pylint
+      - task: test
+  build:
+    cmds:
+      - docker-compose build gcgc
+  black-check:
+    cmds:
+      - docker-compose run gcgc black --check .
+  pydocstyle:
+    cmds:
+      - docker-compose run gcgc pydocstyle --add-ignore=D202,D203,D301 --convention=google gcgc
+  shell:
+    cmds:
+      - docker-compose run --entrypoint /bin/bash gcgc
+  pylint:
+    cmds:
+      - docker-compose run gcgc pylint gcgc
+  test:
+    cmds:
+      - docker-compose run gcgc pytest --strict --doctest-modules -v -s --cov-report term-missing --cov=gcgc
+  test-py36:
+    cmds:
+      - docker-compose build --build-arg PY_VERSION=3.6 gcgc
+      - docker-compose run gcgc pytest --strict --doctest-modules -v -s --cov-report term-missing --cov=gcgc
+  gh-release:
+    cmds:
+      - docker-compose build hub
+      - docker-compose run hub
+    env:
+      GITHUB_TOKEN:
+        sh: echo "$GITHUB_TOKEN"
+  publish:
+    cmds:
+      - python -m pip install --pre -U twine setuptools-scm wheel
+      - python setup.py sdist bdist_wheel
+      - twine upload dist/*
+    env:
+      TWINE_USERNAME:
+        sh: echo "$TWINE_USERNAME"
+      TWIN_PASSWORD:
+        sh: echo "$TWINE_PASSWORD"
+  docs-mk:
+    cmds:
+      - cz ch
+      - cp ./CHANGELOG.md ./docs/
+      - cp ./README.md ./docs/index.md
+      - mkdocs build
+  docs-rm:
+    cmds:
+      - rm -rf ./site
+  docs-upload:
+    cmds:
+      - aws s3 cp --recursive ./site s3://gcgc.trenthauck.com/
+  docs-publish:
+    cmds:
+      - task: docs-rm
+      - task: docs-mk
+      - task: docs-upload
+    env:
+      AWS_SECRET_ACCESS_KEY:
+        sh: echo "$AWS_SECRET_ACCESS_KEY"
+      AWS_ACCESS_KEY_ID:
+        sh: echo "$AWS_ACCESS_KEY_ID"
+  docs-publish-docker:
+    cmds:
+      - docker-compose run gcgc task docs-publish
+    env:
+      AWS_SECRET_ACCESS_KEY:
+        sh: echo "$AWS_SECRET_ACCESS_KEY"
+      AWS_ACCESS_KEY_ID:
+        sh: echo "$AWS_ACCESS_KEY_ID"

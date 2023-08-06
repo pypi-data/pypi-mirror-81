@@ -1,0 +1,17 @@
+pygotm-0.1.1.data/purelib/pygotm/__init__.py,sha256=vY11BVL5GtCxhWzCWVLjTILyiuOtEpB_k5cxKGoT6iQ,2080
+pygotm-0.1.1.data/purelib/pygotm/python_gotm.dll,sha256=U1Fj_dges99eDzTTznEdN15xbrSLVrSUIQJQfNZQQaw,12765184
+pygotm-0.1.1.data/purelib/pygotm/schemas/gotm-3.2.4.schema,sha256=Aq9NKiSFAE0jL0psUy4vWnUBugB6hEihv3ApVFx6ceg,66198
+pygotm-0.1.1.data/purelib/pygotm/schemas/gotm-3.2.4_gotm-3.3.2.converter,sha256=mFh0p_C-PgNjxzF-U70a-VfleUxyXRYOTdwu1DkBmas,423
+pygotm-0.1.1.data/purelib/pygotm/schemas/gotm-3.3.2.schema,sha256=mnxWIXMLFUWiYfLtlE3hSNNs9VaRHllfXPdeKd29X3w,67536
+pygotm-0.1.1.data/purelib/pygotm/schemas/gotm-3.3.2_gotm-4.0.0.converter,sha256=ZpMj-5HUOszRRcU8DYZOnHkXYpuFZ3rrDUcfsntAWDE,331
+pygotm-0.1.1.data/purelib/pygotm/schemas/gotm-4.0.0.schema,sha256=B_7tw6VfUZhPDtSZV8Vwi-nR2ywYTkGlpWZ5XjfzDlk,69300
+pygotm-0.1.1.data/purelib/pygotm/schemas/gotm-4.0.0_gotm-5.0.converter,sha256=rHoVkZzyhH2sCenUeHPbG2qZUJAheAWDKgWXz0PgtZ0,6423
+pygotm-0.1.1.data/purelib/pygotm/schemas/gotm-5.0.defaults,sha256=aeQ9QrwQPrFnKRiPuRzY359MokqtpDPam1RDwnGI7ks,11210
+pygotm-0.1.1.data/purelib/pygotm/schemas/gotm-5.0.schema,sha256=5WjFIIwq0sKLThIr9vey558GdYS8hboV_WTkmkamibk,79958
+pygotm-0.1.1.data/purelib/pygotm/schemas/gotm-5.0_gotm-5.3.converter,sha256=eJhpMGFeJFyopYIHj_SyQB2uc4YI1nwZEN8n9vfgYpg,231
+pygotm-0.1.1.data/purelib/pygotm/schemas/gotm-5.3.defaults,sha256=wX3WFO9St4i6J0zBmdz8dNJHfBMxtRqbUJxdRauc4yc,11469
+pygotm-0.1.1.data/purelib/pygotm/schemas/gotm-5.3.schema,sha256=Fb3ZKIXRyOr7t_2H0qfYYU6YDgTOVoFVH_1s18klB90,80844
+pygotm-0.1.1.dist-info/METADATA,sha256=i1F0InjBR3d6w3-NR2dKssm24f_G5HPtcThYLGWotIc,238
+pygotm-0.1.1.dist-info/WHEEL,sha256=uSmO2CJoVVlsWopcXLNJAn7d-7ja7WbZQfQvCaFOvF4,129
+pygotm-0.1.1.dist-info/top_level.txt,sha256=4FZQtX_6Sz_mXxuPdJqLv22uva4N08z5lPq4pIB1CdY,7
+pygotm-0.1.1.dist-info/RECORD,,

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: galpak
+Version: 1.30.0
+Summary: A tool to extract the intrinsic (i.e. deconvolved) Galaxy Parameters and Kinematics from any 3-Dimensional data.
+Home-page: http://galpak3d.univ-lyon1.fr
+Author: Nicolas Bouché
+Author-email: nicolas.bouche@univ-lyon1.fr
+License: GPL
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Requires-Dist: astropy (>=2.0)
+Requires-Dist: numpy (>=1.14)
+Requires-Dist: scipy
+Requires-Dist: matplotlib (>=2.0)
+
+UNKNOWN
+
+

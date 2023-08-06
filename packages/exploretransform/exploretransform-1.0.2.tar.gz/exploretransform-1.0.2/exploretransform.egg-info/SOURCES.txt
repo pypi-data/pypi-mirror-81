@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+exploretransform.egg-info/PKG-INFO
+exploretransform.egg-info/SOURCES.txt
+exploretransform.egg-info/dependency_links.txt
+exploretransform.egg-info/requires.txt
+exploretransform.egg-info/top_level.txt

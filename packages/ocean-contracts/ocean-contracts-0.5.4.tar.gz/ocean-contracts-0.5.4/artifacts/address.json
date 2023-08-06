@@ -1,0 +1,22 @@
+{
+  "rinkeby": {
+    "DTFactory": "0xE423723C93cC3e8f4a76e696A49362402D0Db010",
+    "BFactory": "0xa93072FD0a99DF79c922A67c65a3Eb766F4276e5",
+    "FixedRateExchange": "0x3EE0182fC75Fa90177201A0E504923cc4E841A80",
+    "Metadata": "0xbd39C3d3bBAb1Ef79e9f4260813EBa5AB987b0dC",
+    "Ocean": "0x8967BCF84170c91B0d24D4302C2376283b0B3a07"
+  },
+  "development": {
+    "DTFactory": "0x945e10bf14F62c3a4618CBbFea03639316e471E6",
+    "BFactory": "0xed534D1f25fb8bA4b4f53feEe1D8fDF47Bfc2D99",
+    "FixedRateExchange": "0x2FcEF083D0366ca37D4F934De443B90C7CF89B78",
+    "Metadata": "0xcc4dBcAB5CA4b8A169917c4D4B4f34A570340B35",
+    "Ocean": ""
+  },
+  "undefined": {
+    "DTFactory": "0x2f8bfFD345A6936dce3C061AC4e9A0F576614eaE",
+    "BFactory": "0x5959ffDF2875867D46acDD0B51c0682662af0376",
+    "FixedRateExchange": "0x5b1a406e06dDDD0689add1Bd3E43e1196887632D",
+    "Metadata": "0x386ba01D9268f1960080b77D0621696E595D8500"
+  }
+}

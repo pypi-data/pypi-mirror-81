@@ -1,0 +1,6 @@
+README.md
+setup.py
+akefpdf.egg-info/PKG-INFO
+akefpdf.egg-info/SOURCES.txt
+akefpdf.egg-info/dependency_links.txt
+akefpdf.egg-info/top_level.txt

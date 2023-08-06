@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: xitorch
+Version: 0.1.1
+Summary: Differentiable scientific computing library
+Home-page: https://xitorch.readthedocs.io/
+Author: mfkasim1
+Author-email: firman.kasim@gmail.com
+License: MIT
+Keywords: project library linear-algebra autograd functionals
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Requires-Dist: numpy (>=1.8.2)
+Requires-Dist: scipy (>=1.1.0)
+Requires-Dist: matplotlib (>=1.5.3)
+Requires-Dist: torch (>=1.5)
+
+UNKNOWN
+
+

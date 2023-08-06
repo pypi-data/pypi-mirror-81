@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+selenium_cookies/__init__.py
+selenium_cookies.egg-info/PKG-INFO
+selenium_cookies.egg-info/SOURCES.txt
+selenium_cookies.egg-info/dependency_links.txt
+selenium_cookies.egg-info/requires.txt
+selenium_cookies.egg-info/top_level.txt

@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: pybraille
+Version: 1.0.0
+Summary: A library to convert text to 6-dot braille pattern(Grade 1)
+Home-page: https://github.com/vineethsubbaraya/pybraille
+Author: Vineeth Subbaraya
+Author-email: vsubbaraya033@gmail.com
+License: MIT
+Description: # PyBraille
+        
+        A simple library in Python to convert text to 6-dots pattern braille (Grade 1)
+        
+        ## Installation
+        
+        Run the following to install the package
+        
+        ```python
+        pip install pybraille
+        ```
+        
+        ## Usage
+        
+        ```python
+        from pybraille import convertText
+        
+        print(convertText("hello"))
+        >>> ⠓⠑⠇⠇⠕
+        
+        print(convertText("filename.txt")) #eg: tests/sample.txt
+        >>> ⠠⠞⠓⠊⠎ ⠙⠊⠗⠑⠉⠞⠕⠗⠽ ⠉⠕⠝⠞⠁⠊⠝⠎ ⠞⠑⠎⠞ ⠋⠊⠇⠑⠎⠲
+        ```
+        
+        ## Testing
+        
+        This library needs is tested against python 3.6 and 3.7. Both interpreters need to be available to tox
+        
+        Running tests:
+        
+        ```tox``` or ```pytest```
+        
+        #### Support
+        Any python 3.x version should work.
+Keywords: python,braille,text to braille
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown

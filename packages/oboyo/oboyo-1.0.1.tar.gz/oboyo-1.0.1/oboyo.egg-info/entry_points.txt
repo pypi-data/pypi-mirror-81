@@ -1,0 +1,3 @@
+[console_scripts]
+oboyo = oboyo.cli:cli
+

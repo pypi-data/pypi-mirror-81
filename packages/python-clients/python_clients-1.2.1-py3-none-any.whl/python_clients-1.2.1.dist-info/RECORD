@@ -1,0 +1,11 @@
+clients/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clients/http.py,sha256=LqNNVzVwkYx2XeB_Cs2mGb9fZ4gxeJzp0UFf1nORboQ,13132
+tests/__init__.py,sha256=NxB6Tl6oczmeFsxBeB7eaXUic9QjJnXZkP2kSgYD36I,12
+tests/unit/__init__.py,sha256=Bh05qAAVskp3Nq2frIUaUHJbq448m8s6XCwv9si4qWs,2351
+tests/unit/test_async_request.py,sha256=9_-cns5_2hBr7pPhFyz9xzePhLKW07UK_oULEximUY8,9550
+tests/unit/test_mock.py,sha256=KwxsBOv835A6akRtQ1fKFn8rvr0BWFcKGvTWy2dabsU,1684
+tests/unit/test_request.py,sha256=L9XpZb-EZGiOQ1IYGPUzJ50yrAdCv6LUWOuFwNgXpGc,8443
+python_clients-1.2.1.dist-info/METADATA,sha256=7-HJPkQa9_pWmnyrSUMfM0aw2NlcJx8j3WAYlznyFdM,2114
+python_clients-1.2.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+python_clients-1.2.1.dist-info/top_level.txt,sha256=bksOFlpQ4dqNckpOzoIAemf_XishvzoaDZKV75wUayc,14
+python_clients-1.2.1.dist-info/RECORD,,

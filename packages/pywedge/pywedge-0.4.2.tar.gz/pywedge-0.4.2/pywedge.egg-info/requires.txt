@@ -1,0 +1,6 @@
+jupyter
+xgboost
+pandas
+catboost
+numpyscikit-learn
+imbalanced-learn

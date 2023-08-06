@@ -1,0 +1,8 @@
+README.md
+setup.py
+SimplyNews/SimplyNews.egg-info/PKG-INFO
+SimplyNews/SimplyNews.egg-info/SOURCES.txt
+SimplyNews/SimplyNews.egg-info/dependency_links.txt
+SimplyNews/SimplyNews.egg-info/not-zip-safe
+SimplyNews/SimplyNews.egg-info/requires.txt
+SimplyNews/SimplyNews.egg-info/top_level.txt

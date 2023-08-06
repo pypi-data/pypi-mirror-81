@@ -1,0 +1,9 @@
+README.md
+setup.py
+hello_world/__init__.py
+hello_world/main.py
+hello_world_crock_dev.egg-info/PKG-INFO
+hello_world_crock_dev.egg-info/SOURCES.txt
+hello_world_crock_dev.egg-info/dependency_links.txt
+hello_world_crock_dev.egg-info/requires.txt
+hello_world_crock_dev.egg-info/top_level.txt

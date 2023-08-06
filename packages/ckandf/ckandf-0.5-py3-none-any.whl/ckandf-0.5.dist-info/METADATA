@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ckandf
+Version: 0.5
+Summary: UNKNOWN
+Home-page: https://github.com/fwoerister/ckan-dataset-fetcher
+Author: Florian Woerister
+Author-email: e1126205@student.tuwien.ac.at
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: Click
+
+UNKNOWN
+
+

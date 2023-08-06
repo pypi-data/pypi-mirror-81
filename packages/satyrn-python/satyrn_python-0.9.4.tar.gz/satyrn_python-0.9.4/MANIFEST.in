@@ -1,0 +1,2 @@
+recursive-include satyrn_python *
+recursive-include satyrn_python/static *

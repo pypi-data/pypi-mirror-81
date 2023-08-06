@@ -1,0 +1,11 @@
+CommonMark
+Django<2.3
+bleach
+cached-property
+flattentool>=0.11.0
+json-merge-patch
+jsonref
+jsonschema
+requests
+rfc3987
+strict-rfc3339

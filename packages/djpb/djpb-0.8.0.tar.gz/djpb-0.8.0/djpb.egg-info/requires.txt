@@ -1,0 +1,7 @@
+django
+protobuf
+djangorestframework
+msgpack
+
+[dev]
+twine

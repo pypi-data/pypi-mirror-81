@@ -1,0 +1,17 @@
+setup.py
+UEManifestReader/__init__.py
+UEManifestReader/converter.py
+UEManifestReader/enums.py
+UEManifestReader.egg-info/PKG-INFO
+UEManifestReader.egg-info/SOURCES.txt
+UEManifestReader.egg-info/dependency_links.txt
+UEManifestReader.egg-info/requires.txt
+UEManifestReader.egg-info/top_level.txt
+UEManifestReader/classes/FChunkDataList.py
+UEManifestReader/classes/FCustomFields.py
+UEManifestReader/classes/FFileManifestList.py
+UEManifestReader/classes/FManifestData.py
+UEManifestReader/classes/FManifestHeader.py
+UEManifestReader/classes/FManifestMeta.py
+UEManifestReader/classes/__init__.py
+UEManifestReader/classes/stream_reader.py

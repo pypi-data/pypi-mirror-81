@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+bagcat.py
+requirements.txt
+setup.py
+bagcat.egg-info/PKG-INFO
+bagcat.egg-info/SOURCES.txt
+bagcat.egg-info/dependency_links.txt
+bagcat.egg-info/entry_points.txt
+bagcat.egg-info/requires.txt
+bagcat.egg-info/top_level.txt

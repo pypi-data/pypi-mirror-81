@@ -1,0 +1,12 @@
+README.md
+setup.py
+fooster/__init__.py
+fooster/curse/__init__.py
+fooster/curse/__main__.py
+fooster_curse.egg-info/PKG-INFO
+fooster_curse.egg-info/SOURCES.txt
+fooster_curse.egg-info/dependency_links.txt
+fooster_curse.egg-info/entry_points.txt
+fooster_curse.egg-info/namespace_packages.txt
+fooster_curse.egg-info/requires.txt
+fooster_curse.egg-info/top_level.txt

@@ -1,0 +1,15 @@
+sanic_swagger_ui/__init__.py,sha256=I00wKx2Zaa5prq54t0XOU7PQPrWTrGqsRezlwk136HY,123
+sanic_swagger_ui/sanic_swagger_ui.py,sha256=WVvO-gDk9JkMc0t9oF5Ps1O0Xg4_cvkxP8i4ImkQs_0,1474
+sanic_swagger_ui/static/favicon-16x16.png,sha256=ryStYE3Xs7zaj5dauXMHX0ovcKQIeUShL474tjo-B8I,665
+sanic_swagger_ui/static/favicon-32x32.png,sha256=PtYS9B4FDKXnAAytbxy-fn2jn2X8qZwC6Z5lkQVuWDc,628
+sanic_swagger_ui/static/swagger-ui-bundle.js,sha256=4TEpVgf6SOVQPUj5qgEbmIcxoMCXTDQfWR8iifTPKVs,1035187
+sanic_swagger_ui/static/swagger-ui-es-bundle-core.js,sha256=B9SfOXYILDQjkgbGluHAVEGAfPmvyvY02Hb-GvfQu58,475900
+sanic_swagger_ui/static/swagger-ui-es-bundle.js,sha256=JGhYOXgc_I4k2gWEnWUOthjkhnjz8Wj2DzjX7-qlTXs,1034763
+sanic_swagger_ui/static/swagger-ui-standalone-preset.js,sha256=BnffKUeV8axy6D6DHp1XuGSUz6c7xAYRiR7mhOiLpZw,329043
+sanic_swagger_ui/static/swagger-ui.css,sha256=5s_7Ulj9mWrNNy4tehCI-cdeVUbq5gCYuaymvWkdjhA,142944
+sanic_swagger_ui/static/swagger-ui.js,sha256=g_R2O55XtjJBZvH3jSA7JXRZgzxh3lOcP8dNT_8TsJA,476089
+sanic_swagger_ui/templates/index.html,sha256=DX4hRStLgRDussOikHOw5x81RhsS-796FRQpn3qZ-TA,1343
+sanic_swagger_ui-0.0.1.dist-info/METADATA,sha256=2ILG04eF4OwhL0Q6uOHeEFLfumO3aoNTPpSTNFQDIvE,1874
+sanic_swagger_ui-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sanic_swagger_ui-0.0.1.dist-info/top_level.txt,sha256=8N4axYOGoQmSEnhDf-6XoaC5cO-JVbX80XYx0T9njIo,17
+sanic_swagger_ui-0.0.1.dist-info/RECORD,,

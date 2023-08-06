@@ -1,0 +1,15 @@
+future
+matplotlib
+numpy<1.19.0,>=1.14.5
+pillow
+pylint
+pyyaml>=5.1
+sacrebleu>=1.3.6
+seaborn
+setuptools>=41.0.0
+six==1.12
+subword-nmt
+tensorflow>=1.14
+torch>=1.1
+torchtext<0.8.0
+wrapt==1.11.1

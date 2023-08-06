@@ -1,0 +1,12 @@
+cloud_compose_image-0.2.0-py3.8-nspkg.pth,sha256=qvrxVaTHY-dYgyCVY8y-ggxtRUlnrvTbs7FJE3kPDCQ,569
+cloudcompose/image/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudcompose/image/aws/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudcompose/image/aws/cloudcontroller.py,sha256=wXXhY4GL39TzwTn59dZm7vSQLx4Q4DmewRxgHalqxYI,9725
+cloudcompose/image/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudcompose/image/commands/cli.py,sha256=G55tvxFgvnGFizUVFJuIV_-Gph4v5aswtxQ8yoJ5K-w,1378
+cloud_compose_image-0.2.0.dist-info/LICENSE.txt,sha256=VGVFeoGIBoEIClmr1uEHs42iJB47Oef4bgzz4DAIHh8,1064
+cloud_compose_image-0.2.0.dist-info/METADATA,sha256=S8WAPtK2PkP9vD5JMrKsUYnbbeSQuIPb-gRGe1dWDAs,835
+cloud_compose_image-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+cloud_compose_image-0.2.0.dist-info/namespace_packages.txt,sha256=97wnmydfDyz1fUDOL1tKkBSY1QAEQysezcELpQHhQhk,13
+cloud_compose_image-0.2.0.dist-info/top_level.txt,sha256=97wnmydfDyz1fUDOL1tKkBSY1QAEQysezcELpQHhQhk,13
+cloud_compose_image-0.2.0.dist-info/RECORD,,

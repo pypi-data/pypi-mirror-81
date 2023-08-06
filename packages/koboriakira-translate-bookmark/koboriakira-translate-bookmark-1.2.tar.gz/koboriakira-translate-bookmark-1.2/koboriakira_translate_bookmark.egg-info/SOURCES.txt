@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.py
+koboriakira_translate_bookmark.egg-info/PKG-INFO
+koboriakira_translate_bookmark.egg-info/SOURCES.txt
+koboriakira_translate_bookmark.egg-info/dependency_links.txt
+koboriakira_translate_bookmark.egg-info/entry_points.txt
+koboriakira_translate_bookmark.egg-info/requires.txt
+koboriakira_translate_bookmark.egg-info/top_level.txt

@@ -1,0 +1,12 @@
+README.md
+setup.py
+OpenDiscord/__init__.py
+OpenDiscord/arcane_center.py
+OpenDiscord/blist.py
+OpenDiscord/botsondiscord.py
+OpenDiscord/discordlabs.py
+OpenDiscord.egg-info/PKG-INFO
+OpenDiscord.egg-info/SOURCES.txt
+OpenDiscord.egg-info/dependency_links.txt
+OpenDiscord.egg-info/top_level.txt
+test/test.py

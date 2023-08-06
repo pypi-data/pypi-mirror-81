@@ -1,0 +1,3 @@
+[console_scripts]
+lc = lordcommander:main
+

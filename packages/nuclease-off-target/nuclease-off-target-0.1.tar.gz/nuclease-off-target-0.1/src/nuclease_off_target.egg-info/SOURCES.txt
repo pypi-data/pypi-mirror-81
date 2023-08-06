@@ -1,0 +1,12 @@
+CHANGELOG.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+src/nuclease_off_target/__init__.py
+src/nuclease_off_target/constants.py
+src/nuclease_off_target/crispr_target.py
+src/nuclease_off_target/genomic_sequence.py
+src/nuclease_off_target.egg-info/PKG-INFO
+src/nuclease_off_target.egg-info/not-zip-safe

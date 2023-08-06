@@ -1,0 +1,5 @@
+selenium
+selenium_firefox
+ktimeout
+kcu
+beautifulsoup4

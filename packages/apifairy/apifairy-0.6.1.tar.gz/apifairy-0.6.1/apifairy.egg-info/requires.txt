@@ -1,0 +1,5 @@
+flask
+flask-marshmallow
+webargs>=6
+flask-httpauth>=4
+apispec>=4

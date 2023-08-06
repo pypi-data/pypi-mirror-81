@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pyglotaran/__init__.py
+pyglotaran_alias.egg-info/PKG-INFO
+pyglotaran_alias.egg-info/SOURCES.txt
+pyglotaran_alias.egg-info/dependency_links.txt
+pyglotaran_alias.egg-info/entry_points.txt
+pyglotaran_alias.egg-info/top_level.txt

@@ -1,0 +1,13 @@
+lmfit
+matplotlib>=3.1
+numpy
+openpyxl
+pandas
+pysimplegui>=4.19
+scipy
+sympy
+
+[docs]
+sphinx
+sphinx-rtd-theme
+sphinx-autoapi

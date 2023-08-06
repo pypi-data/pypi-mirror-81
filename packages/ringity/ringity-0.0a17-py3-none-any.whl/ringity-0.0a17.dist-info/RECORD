@@ -1,0 +1,16 @@
+ringity/__init__.py,sha256=AE8GoPbzeu0_F6vb8VTxoTFnJbwvfBE-41QbLKht0MU,541
+ringity/animation.py,sha256=Swz6s8fbNHW2jveAqYm0KwIqHYWi3IlNMSxMWZvcXpE,3732
+ringity/centralities.py,sha256=m7viYesf8GxDcc2RlY9Adyry7OC0HQ6IEvPDwDn1DqE,3713
+ringity/classes.py,sha256=9c2ZEwRz9ESwxxLmycs5GstcHMK1e4NjPYR7LnD3XQw,6470
+ringity/constants.py,sha256=Zr4eFVxfGeMjuFFYPxKZgO1iburWaf4EPzDSSHSk2d0,1494
+ringity/core.py,sha256=0AFe-5_xsy5xHToJC3U7iNmGTKUxIBlL2xQiwS_ujdA,4196
+ringity/distribution_functions.py,sha256=dJ53fQQDeSyqC6sNZbOFDYdu3GWbSowbc2uczv30DsQ,4555
+ringity/exceptions.py,sha256=NfcJWeMwMx9QWGeRKugIFeEd46X0ntPm9Wm6D2fajzs,882
+ringity/methods.py,sha256=zKGGFvS1ZcGGt3v7q4Hy6XR4CWWvW3jLnSycz7aaEiY,3447
+ringity/network_model.py,sha256=3_MfKgurtoewaNRkr8LslLb6sJVl20tIbP11bVsS-a8,5657
+ringity/plots.py,sha256=WVD6LFAjtV8T-F48xthLBKyjADcz4j4jOs82LBPrJuk,2708
+ringity-0.0a17.dist-info/LICENSE.txt,sha256=tHvKvqAGSfumJb_MAc16GWWmexq3tt3J205tFV6u3QM,1074
+ringity-0.0a17.dist-info/METADATA,sha256=t6NfKawuY4D5gLoTA0N4aR4E4Qugau7dKLCxDQFp4kc,1756
+ringity-0.0a17.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ringity-0.0a17.dist-info/top_level.txt,sha256=PSE9y68DOZ5tprxq4KmyuB2dR60unvcTBMIOO3v940k,8
+ringity-0.0a17.dist-info/RECORD,,

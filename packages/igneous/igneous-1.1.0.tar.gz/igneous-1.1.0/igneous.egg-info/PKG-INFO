@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: igneous
+Version: 1.1.0
+Summary: Igneous API Python SDK
+Home-page: https://github.com/igneous-systems/python-igneous
+Author: Gui Rava
+Author-email: guirava@igneous.io
+License: UNKNOWN
+Description: # python-igneous
+        The Igneous API Client SDK
+        
+        This is the Python client library for Igneous' APIs.
+        
+        Please refer to the Igneous API documentation at https://kb.igneous.io/docs for an introduction ;
+        
+        For an example on how to use this SDK, see `tools/ig.py` , a command line tool for interacting with Igneous' APIs,
+        written with this very `igneous` package
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

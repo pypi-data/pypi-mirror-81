@@ -1,0 +1,539 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Python API &mdash; PreciSo  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/style.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Tutorial" href="tutorial.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1.2
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Documentation contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="quickstart.html">Getting started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial.html">Tutorial</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Python API</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#module-preciso.preciso">preciso</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-preciso.results">preciso.results</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-preciso.run">preciso.run</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-preciso.HDF5">preciso.HDF5</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">PreciSo</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Python API</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/preciso.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="python-api">
+<h1>Python API<a class="headerlink" href="#python-api" title="Permalink to this headline">¶</a></h1>
+<p>Below is the automatically generated documentation of PreciSo.</p>
+<div class="section" id="module-preciso.preciso">
+<span id="preciso"></span><h2>preciso<a class="headerlink" href="#module-preciso.preciso" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="preciso.preciso.add_logo">
+<code class="sig-prename descclassname">preciso.preciso.</code><code class="sig-name descname">add_logo</code><span class="sig-paren">(</span><em class="sig-param">f</em>, <em class="sig-param">x_frac</em>, <em class="sig-param">y_frac</em>, <em class="sig-param">scale=1</em>, <em class="sig-param">alpha=1</em>, <em class="sig-param">path=''</em>, <em class="sig-param">dpi=300</em><span class="sig-paren">)</span><a class="headerlink" href="#preciso.preciso.add_logo" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add an image to the figure (not the axes)</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>f</strong> – a matplotlib figure instance.</p></li>
+<li><p><strong>x_frac</strong> – the fraction of the x dimension of the figure to set the offset to. Must be a float.</p></li>
+<li><p><strong>y_frac</strong> – the fraction of the y dimension of the figure to set the offset to.
+Must be a float.</p></li>
+<li><p><strong>scale</strong> – The float scale by which to multiply to the image pixel dimensions. Defalut is 1.</p></li>
+<li><p><strong>alpha</strong> – Sets the opacity (named alpha in matplotlib). Must be a float between 0 and 1. Default is 1 (full opacity).</p></li>
+<li><p><strong>path</strong> – The path to the image to add to the figure, as a string or a pathlib.Path object. By default, it adds the PreciSo logo image that is included in the python package.</p></li>
+<li><p><strong>dpi</strong> – Set the figure resolution in dpi (dots per inch). Default is 300.</p></li>
+</ul>
+</dd>
+</dl>
+<p class="rubric">Examples</p>
+<p>To insert a preciso logo at the center of the figure, at half it’s original size, with 15% opacity.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">preciso</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">f</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">Figure</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">f</span> <span class="o">=</span> <span class="n">add_logo</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">x_frac</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span> <span class="n">y_frac</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span> <span class="n">scale</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.15</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="preciso.preciso.fillTemplate">
+<code class="sig-prename descclassname">preciso.preciso.</code><code class="sig-name descname">fillTemplate</code><span class="sig-paren">(</span><em class="sig-param">template_string</em>, <em class="sig-param">values</em><span class="sig-paren">)</span><a class="headerlink" href="#preciso.preciso.fillTemplate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Fills-in a template that complies with Jinja2 convention.
+Variables appear as <cite>{{variable}}</cite> in the template.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>template_string</strong> (<em>str</em>) – The template to fill-in, in plain-text format.</p></li>
+<li><p><strong>values</strong> (<em>dict</em>) – A dictionnary containing variables to replace (keys) and
+values to put in place (values).</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><strong>filled_template</strong> (<em>str</em>) – The template, with variables replaced by their values. If there are
+keys without matching values, they will be <strong>ignored</strong> (i.e replaced by
+an empty string).</p>
+</dd>
+</dl>
+<p class="rubric">Examples</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">preciso</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">template</span> <span class="o">=</span> <span class="s2">&quot;Hello {{ something }} !&quot;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">variables</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;something&quot;</span><span class="p">:</span><span class="s2">&quot;World&quot;</span><span class="p">}</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">preciso</span><span class="o">.</span><span class="n">fillTemplate</span><span class="p">(</span><span class="n">template</span><span class="p">,</span> <span class="n">variables</span><span class="p">)</span>
+<span class="go">&#39;Hello world !&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">preciso</span><span class="o">.</span><span class="n">fillTemplate</span><span class="p">(</span><span class="n">template</span><span class="p">,</span> <span class="p">{</span><span class="s2">&quot;somessshing&quot;</span><span class="p">:</span><span class="s2">&quot;World&quot;</span><span class="p">})</span>
+<span class="go">&#39;Hello  !&#39;</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="preciso.preciso.logo_path">
+<code class="sig-prename descclassname">preciso.preciso.</code><code class="sig-name descname">logo_path</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#preciso.preciso.logo_path" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the path to the PreciSo logo as a pathlib.Path object.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="preciso.preciso.runSimulation">
+<code class="sig-prename descclassname">preciso.preciso.</code><code class="sig-name descname">runSimulation</code><span class="sig-paren">(</span><em class="sig-param">inputFileName</em>, <em class="sig-param">temp=True</em>, <em class="sig-param">write_limit=100</em>, <em class="sig-param">nodes=None</em>, <em class="sig-param">n_samples=2</em>, <em class="sig-param">debug=False</em>, <em class="sig-param">save_title=None</em>, <em class="sig-param">save_target_path=None</em>, <em class="sig-param">save_mode=None</em><span class="sig-paren">)</span><a class="headerlink" href="#preciso.preciso.runSimulation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Runs PreciSo in a temporary folder (default), using provided Input File
+and gives results in the form of a PrecisoResults object. <strong>Run in temporary directories is not supported on Windows currently. It will issue a warning and fallback to temp=False.</strong></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>inputFileName</strong> (<em>pathlib.Path object</em><em> or </em><em>str</em>) – The path to the input file to use in Preciso. Can be given either as
+a <cite>pathlib.Path</cite> object (recommended as it is cross-plateform) or as
+a <cite>str</cite> that complies with the computer’s filesystem.</p></li>
+<li><p><strong>temp</strong> (<em>bool</em>) – If True, PreciSo will run in a temporary folder, and its results files will
+be read and outputed. All files will be discarded at the end.
+If false, <cite>run_input_file</cite> is directly called and output files will be created
+in current working directory.</p></li>
+<li><p><strong>write_limit</strong> (<em>int</em>) – The maximum total size of the files written by PreciSo, in Megabytes. It prevents PreciSo from filling up your computer’s hard drive.
+Default value is 100MB. If <cite>write_limit</cite> is of a type different than <cite>int</cite>, no limit is set. <strong>Windows is not supported</strong>, there will be <strong>no limit on this plateform</strong>.</p></li>
+<li><p><strong>nodes</strong> (<em>List of int</em><em> (</em><em>optional</em><em>)</em>) – The id of the node(s) for which we want the precipitates distribution. Default is [0].</p></li>
+<li><p><strong>save_title</strong> (<em>str</em>) – Specify if the results and parameters are to be saved in an HDF5 file (for testing purposes for now).
+In that case, this is the name of the saved file. Make sure its extension is ‘.hdf5’</p></li>
+<li><p><strong>save_target_path</strong> (<em>str</em><em> or </em><em>Pathlib.path</em>) – Specify only if save_title is set.
+The directory where the HDF5 file will be saved. Default is current directory.</p></li>
+<li><p><strong>save_mode</strong> (<em>char</em>) – Specify only if save_title is set.
+The opening mode for the save file. Default is ‘x’ to prevent overwritting existing data; use ‘w’ to bypass.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><strong>out</strong> (<em>preciso.Results object</em>) – An object that stores the results from a PreciSo simulation.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="preciso.preciso.version">
+<code class="sig-prename descclassname">preciso.preciso.</code><code class="sig-name descname">version</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#preciso.preciso.version" title="Permalink to this definition">¶</a></dt>
+<dd><p>Finds the installed version of PreciSo using pkg_resources.</p>
+<p class="rubric">Examples</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">preciso</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">preciso</span><span class="o">.</span><span class="n">version</span><span class="p">()</span>
+<span class="go">&#39;0.1.2&#39;</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="module-preciso.results">
+<span id="preciso-results"></span><h2>preciso.results<a class="headerlink" href="#module-preciso.results" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="preciso.results.Results">
+<em class="property">class </em><code class="sig-prename descclassname">preciso.results.</code><code class="sig-name descname">Results</code><span class="sig-paren">(</span><em class="sig-param">input_file</em>, <em class="sig-param">results_directory</em>, <em class="sig-param">output</em>, <em class="sig-param">nodes</em>, <em class="sig-param">n_samples</em><span class="sig-paren">)</span><a class="headerlink" href="#preciso.results.Results" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Class for manipulating PreciSo simulation results.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>input_file</strong> (<em>pathlib.Path object</em><em> or </em><em>str</em>) – The path to the input file to use in Preciso. Can be given either as
+a <cite>pathlib.Path</cite> object (recommended as it is cross-plateform) or as
+a <cite>str</cite> that complies with the computer’s filesystem.</p></li>
+<li><p><strong>results_directory</strong> (<em>pathlib.Path object</em><em> or </em><em>str</em>) – The path to directory where Preciso wrote its output files. Can be given either as
+a <cite>pathlib.Path</cite> object (recommended as it is cross-plateform) or as
+a <cite>str</cite> that complies with the computer’s filesystem.</p></li>
+<li><p><strong>output</strong> (<em>str</em>) – The standard output captured during the run of preciso.</p></li>
+<li><p><strong>nodes</strong> (<em>List of int</em><em> (</em><em>optional</em><em>)</em>) – The id of the node(s) for which we want the precipitates distribution. Default is 0.</p></li>
+<li><p><strong>n_samples</strong> (<em>int</em>) – <em>Not implemented yet</em> - The number of “snapshots” of the precipitates distribution we want.</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="attribute">
+<dt id="preciso.results.Results.log">
+<code class="sig-name descname">log</code><a class="headerlink" href="#preciso.results.Results.log" title="Permalink to this definition">¶</a></dt>
+<dd><p>The standard output passed by PreciSo during its execution.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="preciso.results.Results.distribution">
+<code class="sig-name descname">distribution</code><a class="headerlink" href="#preciso.results.Results.distribution" title="Permalink to this definition">¶</a></dt>
+<dd><p>A preciso.Distribution object, that contains all the data related to precipitates size distributions.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>preciso.Distribution object</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="preciso.results.Results.precipitatiton">
+<code class="sig-name descname">precipitatiton</code><a class="headerlink" href="#preciso.results.Results.precipitatiton" title="Permalink to this definition">¶</a></dt>
+<dd><p>A nested dictionary that contains the data in the form of pandas dataframes.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>dict</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="preciso.results.Results.mechanics">
+<code class="sig-name descname">mechanics</code><a class="headerlink" href="#preciso.results.Results.mechanics" title="Permalink to this definition">¶</a></dt>
+<dd><p>A nested dictionary that contains the data in the form of pandas dataframes.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="preciso.results.Results.parse_log">
+<code class="sig-name descname">parse_log</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#preciso.results.Results.parse_log" title="Permalink to this definition">¶</a></dt>
+<dd><p>Opens and reads the <cite>log.log</cite> file.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>results_directory</strong> (<em>str</em><em> or </em><em>pathlib.Path object</em>) – The location of the results files created by PreciSo.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><strong>log</strong> (<em>str</em>) – The content of log.log</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="preciso.results.Results.parse_mechanics">
+<code class="sig-name descname">parse_mechanics</code><span class="sig-paren">(</span><em class="sig-param">results_directory</em><span class="sig-paren">)</span><a class="headerlink" href="#preciso.results.Results.parse_mechanics" title="Permalink to this definition">¶</a></dt>
+<dd><p>Opens and reads the “mechanics” files saved by Preciso.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>input_file</strong> (<em>str</em><em> or </em><em>pathlib.Path object</em>) – The location of the input file to search in.</p></li>
+<li><p><strong>results_directory</strong> (<em>str</em><em> or </em><em>pathlib.Path object</em>) – The location of the results files created by PreciSo.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><strong>results</strong> (<em>dict</em>) – A nested dictionary that contains the data in the form of pandas dataframes.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="preciso.results.Results.parse_precipitation">
+<code class="sig-name descname">parse_precipitation</code><span class="sig-paren">(</span><em class="sig-param">results_directory</em><span class="sig-paren">)</span><a class="headerlink" href="#preciso.results.Results.parse_precipitation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Opens and reads the “results” files saved by Preciso.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>input_file</strong> (<em>str</em><em> or </em><em>pathlib.Path object</em>) – The location of the input file to search in.</p></li>
+<li><p><strong>results_directory</strong> (<em>str</em><em> or </em><em>pathlib.Path object</em>) – The location of the results files created by PreciSo.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><strong>results</strong> (<em>dict</em>) – A nested dictionary that contains the data in the form of pandas dataframes.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="preciso.results.keyword_to_value">
+<code class="sig-prename descclassname">preciso.results.</code><code class="sig-name descname">keyword_to_value</code><span class="sig-paren">(</span><em class="sig-param">input_file</em>, <em class="sig-param">keyword</em>, <em class="sig-param">index</em>, <em class="sig-param">multiple=False</em>, <em class="sig-param">strict=True</em><span class="sig-paren">)</span><a class="headerlink" href="#preciso.results.keyword_to_value" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the value associated to given keyword in a Preciso InputFile.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>input_file</strong> (<em>str</em><em> or </em><em>pathlib.Path object</em>) – The location of the input file to search in.</p></li>
+<li><p><strong>keyword</strong> (<em>str</em>) – The keyword you’re looking for the value of.</p></li>
+<li><p><strong>index</strong> (<em>int</em>) – The position of the value in the line. For example with <cite>key foo val</cite>,
+<cite>val</cite> is at position [2] on the line.</p></li>
+<li><p><strong>multiple</strong> (<em>bool</em>) – Allow multiple occurences of the keyword to be found.</p></li>
+<li><p><strong>strict</strong> (<em>bool</em>) – Raise an error if no match was found. If False, [] is returned instead.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><strong>values</strong> (<em>list of str</em>) – The values found.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="module-preciso.run">
+<span id="preciso-run"></span><h2>preciso.run<a class="headerlink" href="#module-preciso.run" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="preciso.run.run_input_file">
+<code class="sig-prename descclassname">preciso.run.</code><code class="sig-name descname">run_input_file</code><span class="sig-paren">(</span><em class="sig-param">inputFileName</em>, <em class="sig-param">nodes</em>, <em class="sig-param">n_samples</em>, <em class="sig-param">write_limit=100</em>, <em class="sig-param">debug=False</em><span class="sig-paren">)</span><a class="headerlink" href="#preciso.run.run_input_file" title="Permalink to this definition">¶</a></dt>
+<dd><p>A tool to run PreciSo with a specified inputFile as input.
+It makes use of a system call to the PreciSo executable. The input file
+should be formatted as described here <a class="footnote-reference brackets" href="#id4" id="id1">1</a>.
+PreciSo binaries are treated as package data <a class="footnote-reference brackets" href="#id5" id="id2">2</a> and are therefore accessible using the <cite>pkg_ressources</cite> module.
+System calls are made using <cite>subprocess.getoutput</cite> <a class="footnote-reference brackets" href="#id6" id="id3">3</a>.</p>
+<dl class="footnote brackets">
+<dt class="label" id="id4"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
+<dd><p><a class="reference external" href="https://framagit.org/arnall/preciso/wikis/Input%20files%20in%20PreciSo">https://framagit.org/arnall/preciso/wikis/Input%20files%20in%20PreciSo</a></p>
+</dd>
+<dt class="label" id="id5"><span class="brackets"><a class="fn-backref" href="#id2">2</a></span></dt>
+<dd><p><a class="reference external" href="https://docs.python.org/3/distutils/setupscript.html#installing-package-data">https://docs.python.org/3/distutils/setupscript.html#installing-package-data</a></p>
+</dd>
+<dt class="label" id="id6"><span class="brackets"><a class="fn-backref" href="#id3">3</a></span></dt>
+<dd><p><a class="reference external" href="https://docs.python.org/3/library/subprocess.html#subprocess.getoutput">https://docs.python.org/3/library/subprocess.html#subprocess.getoutput</a></p>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>inputFileName</strong> (<em>pathlib.Path object</em><em> or </em><em>str</em>) – The path to the input file to use in Preciso. Can be given either as
+a <cite>pathlib.Path</cite> object (recommended as it is cross-plateform) or as
+a <cite>str</cite> that complies with the computer’s filesystem.</p></li>
+<li><p><strong>nodes</strong> (<em>List of int</em><em> (</em><em>optional</em><em>)</em>) – The id of the node(s) for which we want the precipitates distribution. Default is [0].</p></li>
+<li><p><strong>n_samples</strong> (<em>int</em>) – The number of images of the precipitate distribution that should be saved.</p></li>
+<li><p><strong>write_limit</strong> (<em>int</em>) – The maximum total size of the files written by PreciSo, in Megabytes. It prevents PreciSo from filling up your computer’s hard drive.
+Default value is 100MB. If <cite>write_limit</cite> is of a type different than <cite>int</cite>, no limit is set. <strong>Windows is not supported</strong>, there will be <strong>no limit on this plateform</strong>.</p></li>
+<li><p><strong>debug</strong> (<em>boolean</em>) – Whether you want to print PreciSo’s output directly to the terminal, e.g. to spot situations when it’s stuck and can’t converge. Default is False.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><strong>out</strong> (<em>Results obj</em>) – The results of the simulation, in the form of a Results object.</p>
+</dd>
+</dl>
+<p class="rubric">Examples</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">preciso.run</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">preciso</span><span class="o">.</span><span class="n">run</span><span class="o">.</span><span class="n">run_input_file</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+<span class="go">Welcome to PreciSo v3.0</span>
+<span class="go">FATAL ERROR: PreciSo have been launch with an incorrect number of arguments</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="module-preciso.HDF5">
+<span id="preciso-hdf5"></span><h2>preciso.HDF5<a class="headerlink" href="#module-preciso.HDF5" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="preciso.HDF5.HDF5_make">
+<code class="sig-prename descclassname">preciso.HDF5.</code><code class="sig-name descname">HDF5_make</code><span class="sig-paren">(</span><em class="sig-param">title</em>, <em class="sig-param">inputFileName</em>, <em class="sig-param">res=None</em>, <em class="sig-param">target_path=None</em>, <em class="sig-param">mode=None</em>, <em class="sig-param">temp=True</em>, <em class="sig-param">write_limit=100</em>, <em class="sig-param">nodes=None</em>, <em class="sig-param">n_samples=2</em>, <em class="sig-param">debug=False</em><span class="sig-paren">)</span><a class="headerlink" href="#preciso.HDF5.HDF5_make" title="Permalink to this definition">¶</a></dt>
+<dd><p>Procedure creating an hdf data file for preciso results</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>title</strong> (<em>str</em>) – The name of the created file. Make sure its extentsion is ‘.hdf5’.</p></li>
+<li><p><strong>inputFileName</strong> (<em>str</em><em> or </em><em>Pathlib.Path</em>) – The location of the input file used for the simulation. The file information will be stored into the hdf created,
+so that the file itself can be discarded afterwards.</p></li>
+<li><p><strong>res</strong> (<em>Results object</em>) – The results of the precio simulation with the specified arguments.
+By default, the function is running a a standalone, and determine this object calling preciso by itself.</p></li>
+<li><p><strong>target_path</strong> (<em>str</em><em> or </em><em>Pathlib.Path</em>) – The directory where the HDF5 file will be saved. Default is current directory.</p></li>
+<li><p><strong>mode</strong> (<em>char</em>) – The opening mode for the HDF5 file. Default is ‘x’ to prevent overwriting existing data; use ‘w’ to bypass.</p></li>
+<li><p><strong>temp</strong> (<em>bool</em>) – If True (default), PreciSo will run in a temporary folder, and its results files will
+be read and outputed. All files will be discarded at the end.
+If false, <cite>run_input_file</cite> is directly called and output files will be created
+in current working directory.</p></li>
+<li><p><strong>write_limit</strong> (<em>int</em>) – The maximum size of the files written by PreciSo, in Megabytes. It prevents PreciSo from filling up your computer’s hard drive.
+Default value is 100MB. If <cite>write_limit</cite> is of a type different than <cite>int</cite>, no limit is set. <strong>Windows is not supported</strong>, there will be <strong>no limit on this plateform</strong>.</p></li>
+<li><p><strong>nodes</strong> (<em>List of int</em><em> (</em><em>optional</em><em>)</em>) – The id of the node(s) for which we want the precipitates distribution. Default is [0].</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="tutorial.html" class="btn btn-neutral float-left" title="Tutorial" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Michel Perez, Thibaut Chaise, Arnaud Allera
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

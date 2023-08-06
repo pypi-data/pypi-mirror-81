@@ -1,0 +1,3 @@
+natasha
+pdfminer
+docx2txt

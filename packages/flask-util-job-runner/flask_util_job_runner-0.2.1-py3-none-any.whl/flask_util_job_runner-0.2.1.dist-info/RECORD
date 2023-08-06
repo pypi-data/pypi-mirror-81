@@ -1,0 +1,7 @@
+flask_util_job_runner/__init__.py,sha256=FVqOoAn3lVpgwJ0gUoCqgS49RyhCqFLQtEg1eVvmDE4,55
+flask_util_job_runner/api_utils.py,sha256=yB4-_QuXUXzq5v9-dkq6j4NOpyV8cafBJtjP8rEog5U,3652
+flask_util_job_runner/definitions.py,sha256=-wLe39sS92K8P8z-WaY3_ZBISkcYESPvEs5ozuswJeM,526
+flask_util_job_runner/flask_utils.py,sha256=oWGBsOfO0zo3YnkHoVFeDPdl23P265jvnfwVLep5_dM,1564
+flask_util_job_runner-0.2.1.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+flask_util_job_runner-0.2.1.dist-info/METADATA,sha256=3DGrZ__ncwqw91nmD6LBZsi-DCqceVcBxyp8fT01C3k,408
+flask_util_job_runner-0.2.1.dist-info/RECORD,,

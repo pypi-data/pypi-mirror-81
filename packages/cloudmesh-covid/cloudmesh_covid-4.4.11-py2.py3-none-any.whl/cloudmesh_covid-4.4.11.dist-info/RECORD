@@ -1,0 +1,15 @@
+cloudmesh_covid-4.4.11-nspkg.pth,sha256=K4lDZyHlKS0TcVsgEjQjgNPYnsZp6PXCSyRIy68BhkI,554
+cloudmesh/covid/__init__.py,sha256=mkN5ra6sQDgfCG6EMWTU4jQERYHDtGbPbOP6U-rJh9M,23
+cloudmesh/covid/__version__.py,sha256=MjBH1zrNRCucAtV7izVqIAYw7URIDygq0agjn3TYqpk,19
+cloudmesh/covid/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudmesh/covid/api/manager.py,sha256=T96uGh9EU3bxTPc8T8C8gfPdUiWFQIOD1A_zErxh5Ss,179
+cloudmesh/covid/command/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudmesh/covid/command/covid.py,sha256=KUgQGNmbA09RFCyMO7qcEGiJHrxmyZ9J2zgzHadz-Zc,1136
+cloudmesh/covid/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudmesh/covid/data/world.py,sha256=nnBFbAgPmflL__UCf-g9FYk_Kf4hadraRofc4xd1de4,2246
+cloudmesh_covid-4.4.11.dist-info/LICENSE,sha256=w7U4P4ljhJjniTEMxSyhAcEbWHDk2Ng1FqsOG6aEgs0,769
+cloudmesh_covid-4.4.11.dist-info/METADATA,sha256=j612z667Gq9AawErKL_cz1GhLVcvKk0EiyuURnLEuxk,954
+cloudmesh_covid-4.4.11.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+cloudmesh_covid-4.4.11.dist-info/namespace_packages.txt,sha256=aTw_KEhKv-8X8yWzikhSTeYlXkcauZxg_98rOi1SJHg,10
+cloudmesh_covid-4.4.11.dist-info/top_level.txt,sha256=aTw_KEhKv-8X8yWzikhSTeYlXkcauZxg_98rOi1SJHg,10
+cloudmesh_covid-4.4.11.dist-info/RECORD,,

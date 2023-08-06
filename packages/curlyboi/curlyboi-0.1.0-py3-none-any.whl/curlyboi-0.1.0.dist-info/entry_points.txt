@@ -1,0 +1,3 @@
+[console_scripts]
+curlyboi = curlyboi.cli:cli
+

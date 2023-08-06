@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: testtest-120
+Version: 1.1
+Summary: Celery-based timing tasks
+Home-page: https://github.com/dteer
+Author: dteer
+Author-email: dteer@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# celerytimer
+
+> 基于celery实现的一个定时器
+
+
+

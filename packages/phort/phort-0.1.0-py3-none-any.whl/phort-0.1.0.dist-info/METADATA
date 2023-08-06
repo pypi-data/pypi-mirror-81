@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: phort
+Version: 0.1.0
+Summary: A command line tool to sort photos for the family.
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pillow (==7.2.0)
+Requires-Dist: yaspin (==0.17.0)
+
+UNKNOWN
+
+

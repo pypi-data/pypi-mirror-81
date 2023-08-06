@@ -1,0 +1,2 @@
+langumo
+ijson>=3.1.1

@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: pyminer-algorithms-document-server
+Version: 0.0.5
+Summary: A small documentation server for PyMiner
+Home-page: https://gitee.com/py2cn/pyminer-algorithms-document-server
+Author: panhaoyu
+Author-email: panhaoyu.china@outlook.com
+License: UNKNOWN
+Description: # PyMiner Documentation Server
+        
+        This is a simple documentation server, mainly for PyMiner.
+        
+        # PyMiner文档服务器
+        
+        这是一个简单的文档服务器，使用传统的后端渲染技术，主要采用了以下框架：
+        
+        1. WSGI服务器：`waitress`
+        1. 后端服务器：`flask`
+        1. Markdown：`markdown`
+        1. 样式预处理器：`sass`
+        
+        目前非常不完善，只是一个临时的小服务器，欢迎各位一起完善。
+        
+        # 接口
+        
+        目前主要考虑两个接口：
+        
+        创建服务器：`server = Server(base_path)`
+        
+        启动服务器：`server.run()`
+        
+        打开特定页面：`server.show(path: str)`。
+        这将直接调用`webbrowser.open`打开一个网页。
+        
+        这个特定页面的路径应该是基于服务器的根路径`base_path`的相对路径，例如：
+        
+        ```python
+        import os
+        
+        from pyminer_algorithms_document_server.server import Server
+        
+        if __name__ == '__main__':
+            server = Server(os.path.join(os.path.dirname(__file__), 'base'))
+            server.run()
+            server.show('lib1/func1.md')
+            from time import sleep
+        
+            sleep(10)
+        ```
+        
+        应当注意的是，服务器跑在`dameon`线程中，当主程序退出时，子线程也会随之退出。
+        
+        # 致谢
+        
+        感谢nwljy提供的初版代码！
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

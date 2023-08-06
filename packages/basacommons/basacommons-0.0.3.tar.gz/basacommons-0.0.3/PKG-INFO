@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: basacommons
+Version: 0.0.3
+Summary: Basic project utilities
+Home-page: https://github.com/ebasanez/python-commons
+Author: Enrique Basañez Mercader
+Author-email: enrique.basanez@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7

@@ -1,0 +1,9 @@
+README.rst
+setup.py
+clangTooling.egg-info/PKG-INFO
+clangTooling.egg-info/SOURCES.txt
+clangTooling.egg-info/dependency_links.txt
+clangTooling.egg-info/requires.txt
+clangTooling.egg-info/top_level.txt
+include/__init__.py
+lib/__init__.py

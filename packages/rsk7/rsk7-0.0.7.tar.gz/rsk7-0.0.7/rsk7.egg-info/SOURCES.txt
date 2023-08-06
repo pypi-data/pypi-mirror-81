@@ -1,0 +1,6 @@
+README.md
+setup.py
+rsk7.egg-info/PKG-INFO
+rsk7.egg-info/SOURCES.txt
+rsk7.egg-info/dependency_links.txt
+rsk7.egg-info/top_level.txt

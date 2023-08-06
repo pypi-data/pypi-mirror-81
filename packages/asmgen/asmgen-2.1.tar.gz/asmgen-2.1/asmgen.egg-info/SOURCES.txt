@@ -1,0 +1,8 @@
+README.rst
+asmgen.py
+setup.py
+asmgen.egg-info/PKG-INFO
+asmgen.egg-info/SOURCES.txt
+asmgen.egg-info/dependency_links.txt
+asmgen.egg-info/requires.txt
+asmgen.egg-info/top_level.txt

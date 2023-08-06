@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: flextruct
+Version: 1.0.1
+Summary: Identification of the flexible parts of a pdb described molecule (linker, double linker, terminal part or loop) given the user defined rigid bodies
+Home-page: UNKNOWN
+Author: Olga Roudenko
+Author-email: roudenko@synchrotron-soleil.fr
+License: GPL >= v.3
+Platform: Linux
+Platform: Windows
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+UNKNOWN
+
+

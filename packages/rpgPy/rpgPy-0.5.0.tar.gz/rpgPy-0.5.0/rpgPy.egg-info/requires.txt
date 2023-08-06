@@ -1,0 +1,5 @@
+numpy
+cython
+netCDF4
+tqdm
+pytest

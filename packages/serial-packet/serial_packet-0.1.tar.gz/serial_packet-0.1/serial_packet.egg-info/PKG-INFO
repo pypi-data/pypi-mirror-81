@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: serial-packet
+Version: 0.1
+Summary: Serial Packet Library
+Home-page: https://github.com/alvarop/serial_packet
+Author: Alvaro Prieto
+Author-email: source@alvaroprieto.com
+License: MIT
+Description: # Alvaro's Serial Packet Library
+        
+        In progress...
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

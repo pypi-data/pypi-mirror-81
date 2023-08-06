@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: w-parser
+Version: 0.1.0
+Summary: Parser for job search sites
+Home-page: https://github.com/dayonizeus/parsers
+License: MIT
+Author: dayonizeus
+Author-email: dayonizeus@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: beautifulsoup4 (>=4.9.3,<5.0.0)
+Requires-Dist: lxml (>=4.5.2,<5.0.0)
+Requires-Dist: requests (>=2.24.0,<3.0.0)
+Project-URL: Documentation, https://github.com/dayonizeus/parsers/blob/master/README.md

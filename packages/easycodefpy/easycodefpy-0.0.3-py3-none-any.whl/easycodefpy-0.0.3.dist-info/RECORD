@@ -1,0 +1,17 @@
+easycodefpy/__init__.py,sha256=b5VCQr4hvNfqj9ABHKoCvb2JVT2VUZ0VXFgPxRV6Dko,181
+easycodefpy/connector.py,sha256=k3ccTsUUQ8i3oBaEzmncjAV4q4QsCnPPpmKShwPLi6M,3733
+easycodefpy/easycodefpy.py,sha256=1YRJZ0IUGT0yiWydZjlXdjDWQWPbZp5LaUI79Zn7h5k,9774
+easycodefpy/message.py,sha256=k4J2x5QRPCZsZZYDg-VShgP7CqE3IrteAo0qkaRTxRQ,2265
+easycodefpy/properties.py,sha256=jy0NWO3YG3kpYA0T25AozKppM_3hiZR-2YPWpE9exDI,1168
+easycodefpy/util.py,sha256=I7K3h3hnu1xqV2Q2TtroZzEwwzGCAwFPYcNrYPwW1jg,1224
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/helper.py,sha256=YyNAO2tg9NZDWBT8Jz8Hz2rmgyzki39Ive-DNWS1WUs,1042
+tests/test_connector.py,sha256=ejDqkyoeLrxbvXVhv-WOeFIBHpWkrgH_jEIDPmIv6ZI,1619
+tests/test_easycodefpy.py,sha256=3j3I7njMeH5HICOJjCjIPh0CqUoncRJr58a3aUWah1A,4345
+tests/test_properties.py,sha256=Vh-L4hYqoIuTaWu1RqcV4c0Cb-f5-tXyWfXTh-j2WNY,259
+tests/test_util.py,sha256=Fy5Vto7-mbLcigpoBFSJES6BaMvDVBVRTVJN_3XybBA,2061
+easycodefpy-0.0.3.dist-info/LICENSE,sha256=gbgPA0-i3yQz9cAFp7a0bF07b1nSP4llBrxKhE_e0Cs,1061
+easycodefpy-0.0.3.dist-info/METADATA,sha256=Uo42sARLv8PVUwh_DUh60WwiXQocHDeUicI_9lHBUrQ,18635
+easycodefpy-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+easycodefpy-0.0.3.dist-info/top_level.txt,sha256=iKxrvoyPFpjFOSq1FkOTftMJZrlp8zhuIIrP6rYob34,18
+easycodefpy-0.0.3.dist-info/RECORD,,

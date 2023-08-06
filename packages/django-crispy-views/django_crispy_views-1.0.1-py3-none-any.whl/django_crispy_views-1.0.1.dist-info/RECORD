@@ -1,0 +1,10 @@
+crispy_views/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crispy_views/forms.py,sha256=CUWqpnwBNzhhmpHWeDKkoDiUI1a8Du-CeNGl_wivunY,3691
+crispy_views/mixins.py,sha256=rogXId59eCnfuzd-2YlarZJL40bcqkaym9PtK6x0-NU,2919
+crispy_views/tables.py,sha256=ODik2hQ83vsLJ-s5dJfiN4DuzR_qrkUN402SMvRpgIE,1460
+crispy_views/views.py,sha256=DtI6vkzg3ZlKsyUzWHF-b3kZXRqlufp_3jA0M-Ad1WY,2563
+django_crispy_views-1.0.1.dist-info/LICENSE,sha256=gb9gMJCf_637x6v3MvBVqtpUy6Rg3IJpXsIKb3tO3sg,1089
+django_crispy_views-1.0.1.dist-info/METADATA,sha256=xfPoHgtVZeC1yxuCpq5apv-BcKwGnj-LDdikyaILgWY,1090
+django_crispy_views-1.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+django_crispy_views-1.0.1.dist-info/top_level.txt,sha256=uflSNX3KA6AV9FbP9XKQJot4ib9D0QLdqCn3sYJzEWw,13
+django_crispy_views-1.0.1.dist-info/RECORD,,

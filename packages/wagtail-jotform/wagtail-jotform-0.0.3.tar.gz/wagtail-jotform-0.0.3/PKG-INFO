@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: wagtail-jotform
+Version: 0.0.3
+Summary: Embed Jotform forms in wagtail.
+Home-page: https://github.com/kevinhowbrook/wagtail-jotform
+Author: Kevin Howbrook
+Author-email: kevin.howbrook@torchbox.com
+License: BSD
+Description: ## Installation
+        
+        TODO (pip install)
+        
+        ## Configuration
+        
+        You will need an API key from jotform
+        
+        Add the following variables to your settings
+        
+        ```
+        JOTFORM_API_KEY = 'somekey'
+        JOTFORM_API_URL = 'https://api.jotform.com'
+        ```
+        
+        If your Jotform account is in EU safe mode, your JOTFORM_API_URL should be `https://eu-api.jotform.com`
+        
+        Add the following to you INSTALLED_APPS in settings, note that wagtail_jotform depends on routable_page:
+        
+        ```
+        INSTALLED_APPS = [
+            ...
+            'wagtail_jotform',
+            "wagtail.contrib.routable_page",
+        ]
+        ```
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Framework :: Wagtail
+Classifier: Framework :: Wagtail :: 2
+Description-Content-Type: text/markdown

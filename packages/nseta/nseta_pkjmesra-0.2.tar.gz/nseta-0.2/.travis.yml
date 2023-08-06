@@ -1,0 +1,27 @@
+language: sh
+os: osx
+before_install:
+  - /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+  - brew list | grep python
+  - brew info python
+  - brew update && brew upgrade python
+  - brew install ta-lib
+  - pip3 install TA-Lib
+  - pip3 install fastquant
+  - pip3 install -r requirements.txt
+install:
+  - python3 setup.py clean build install 
+script:
+  - nsetacli --help
+
+# before_install: 
+#   - choco install python3
+#   - export PATH="/c/Python39:/c/Python39/Scripts:$PATH"
+#   - python -m pip install --upgrade pip wheel
+#   - python -m pip install fastquant
+#   - python -m pip install -r requirements.txt
+# install:
+#   - python -m setup.py clean build install 
+# script:
+#   - python nsetacli --help
+#   - python nsetacli live-quote -S bandhanbnk

@@ -1,0 +1,7 @@
+README.md
+setup.py
+k8sconf/__init__.py
+k8sconf.egg-info/PKG-INFO
+k8sconf.egg-info/SOURCES.txt
+k8sconf.egg-info/dependency_links.txt
+k8sconf.egg-info/top_level.txt

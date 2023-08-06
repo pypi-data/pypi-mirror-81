@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: gymbob
+Version: 2.4
+Summary: Simple script to prompt the user during a workout
+Home-page: https://gymbob.sourceforge.io
+Author: A S Lewis
+Author-email: aslewis@cpan.org
+License: GPLv3+
+Project-URL: Bug Reports, https://github.com/axcore/gymbob/issues
+Project-URL: Source, https://github.com/axcore/gymbob
+Keywords: gymbob gym workout
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Games/Entertainment
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.0, <4
+Description-Content-Type: text/plain
+Requires-Dist: playsound
+
+
+Designed for use at the gym, GymBob prompts the user (graphically and using
+sound effects) at regular intervals during a workout. The workout programmes
+are completely customistable. GymBob is written in Python 3 / Gtk 3 and runs
+on Linux/*BSD.
+
+

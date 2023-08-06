@@ -1,0 +1,10 @@
+README.md
+setup.py
+sdkms_git_sign_tool/__init__.py
+sdkms_git_sign_tool/__main__.py
+sdkms_git_sign_tool.egg-info/PKG-INFO
+sdkms_git_sign_tool.egg-info/SOURCES.txt
+sdkms_git_sign_tool.egg-info/dependency_links.txt
+sdkms_git_sign_tool.egg-info/entry_points.txt
+sdkms_git_sign_tool.egg-info/requires.txt
+sdkms_git_sign_tool.egg-info/top_level.txt

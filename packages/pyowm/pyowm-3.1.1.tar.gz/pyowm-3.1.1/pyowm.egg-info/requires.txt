@@ -1,0 +1,4 @@
+PySocks<2,>=1.7.1
+geojson<3,>=2.3.0
+requests<3,>=2.20.0
+requests[socks]

@@ -1,0 +1,10 @@
+lazperf/PyLazperf.cpp,sha256=o1jsJJLyfplLMYBUuQ6dU40CpfUQw1kUQvAZOOwQKro,3043
+lazperf/PyVlrCompressor.cpp,sha256=v2D_XcyRm-pGbLTPS_EZ1ut3hph0zlccMn2JfhJapI8,3235
+lazperf/__init__.py,sha256=Wapn8HE4xhsU9-s70MOBENEmXq5KpmNEtIo5B9_V-MA,465
+lazperf/pylazperfapi.cp38-win_amd64.pyd,sha256=J57OqkKNMWb00KyARxpilYHLXZf_qyGlPT7TTA_aM6o,323584
+lazperf/pylazperfapi.cpp,sha256=FGAqICv57_yex4MHeKKn8nd2IEwtvDacCRg3gCxcL2w,1222024
+lazperf-1.5.dist-info/COPYING,sha256=KzPvEeMiJ9PaPKiNLl5xA24wgNy9iqTpJrE6mL9XXr4,26936
+lazperf-1.5.dist-info/METADATA,sha256=7Q1tg_DqeJik5kZ-r7yY69pW-a8l8_qWYRIig5BIPx8,934
+lazperf-1.5.dist-info/WHEEL,sha256=9MdUI0OzwjYaHl3jWlKFDIJ5MFBPjwppNgWNtexntqg,105
+lazperf-1.5.dist-info/top_level.txt,sha256=0xINHMkCKStlFopGjNovc2SUm9-7aAurhIhZF1weuk8,8
+lazperf-1.5.dist-info/RECORD,,

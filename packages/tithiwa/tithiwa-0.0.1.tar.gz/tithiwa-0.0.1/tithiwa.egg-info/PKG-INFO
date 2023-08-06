@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: tithiwa
+Version: 0.0.1
+Summary: tithiwa - WhatsApp-bot: Automate WhatsApp with selenium in python.
+Home-page: https://github.com/Maskgirl/tithi
+Author: SuLagna Mukherjee
+Author-email: tithimukherjee12@gmail.com
+License: MIT
+Description: # tithiwa - WhatsApp-bot
+        
+        Automate WhatsApp with selenium in python.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: dev

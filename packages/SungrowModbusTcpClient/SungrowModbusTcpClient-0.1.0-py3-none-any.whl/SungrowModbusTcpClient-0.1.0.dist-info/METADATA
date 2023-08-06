@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: SungrowModbusTcpClient
+Version: 0.1.0
+Summary: A ModbusTCPClient wrapper for talking to Sungrow solar inverters
+Home-page: https://github.com/rpvelloso/Sungrow-Modbus
+Author: Roberto Panerai Velloso
+Author-email: rvelloso@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5.0
+Description-Content-Type: text/markdown
+Requires-Dist: pymodbus (>=2.3.0)
+Requires-Dist: pycrypto (>=2.6.1)
+
+# Sungrow-Modbus
+### TCP Client for Sungrow Devices with AES128 ECB encryption
+
+### Class based on pymodbus.ModbusTcpClient, completely interchangeable, just replace ModbusTcpClient() with SungrowModbusTcpClient()
+
+

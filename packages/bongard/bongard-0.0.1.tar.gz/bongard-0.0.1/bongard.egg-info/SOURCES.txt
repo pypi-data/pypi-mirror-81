@@ -1,0 +1,16 @@
+README.md
+setup.py
+bongard/__init__.py
+bongard/bongard.py
+bongard/bongard_painter.py
+bongard/plot.py
+bongard/util_funcs.py
+bongard.egg-info/PKG-INFO
+bongard.egg-info/SOURCES.txt
+bongard.egg-info/dependency_links.txt
+bongard.egg-info/top_level.txt
+bongard/sampler/__init__.py
+bongard/sampler/abstract_sampler.py
+bongard/sampler/basic_sampler.py
+bongard/sampler/bongard_sampler.py
+bongard/sampler/freeform_sampler.py

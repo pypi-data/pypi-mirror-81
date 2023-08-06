@@ -1,0 +1,4 @@
+[console_scripts]
+offl115 = offline_115:main
+offline115 = offline_115:main
+

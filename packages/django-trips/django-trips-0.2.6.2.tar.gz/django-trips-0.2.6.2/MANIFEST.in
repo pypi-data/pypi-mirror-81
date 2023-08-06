@@ -1,0 +1,7 @@
+include LICENSE
+include README.md
+
+recursive-include djangotrips/trips/ *
+recursive-include djangotrips/trips/docs *
+recursive-include djangotrips/trips/static *
+recursive-include djangotrips/trips/templates *

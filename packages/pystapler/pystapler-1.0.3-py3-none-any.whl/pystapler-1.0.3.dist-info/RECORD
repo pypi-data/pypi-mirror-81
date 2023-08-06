@@ -1,0 +1,8 @@
+stapler/__init__.py,sha256=-Uhz9TNrlBDCQCt5n8iWRzLLT4Hff6WisJmS3yDU_OM,90
+stapler/native_disulfide_stapler.py,sha256=XyQ8K80KPuWK5a_Ws8IUELDZbIpn3PNDmN3luItM6q8,1735
+stapler/stapler.py,sha256=U_yBztW1A-TdDTIUVWLIXuTyMCrRJLUtSW2Nhrwnug0,2786
+stapler/hash_tables/default_native_disulfide.bin,sha256=9MS86ONpd8bVA6PMJ_xsbkWkd_i1r_JV5LRTJ5NxpgU,2543354
+pystapler-1.0.3.dist-info/METADATA,sha256=Wa5E-wlZUpJ9fiHB0pf3cOlFAdGAUPMVX1KgWOmd1bI,1640
+pystapler-1.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pystapler-1.0.3.dist-info/top_level.txt,sha256=ja3noCq2WbjydqPJGel7_toOX4YIvMU1hg-PGr3Vt68,8
+pystapler-1.0.3.dist-info/RECORD,,

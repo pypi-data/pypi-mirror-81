@@ -1,0 +1,14 @@
+fslash/__init__.py,sha256=lUoRtWRpLXhxn2us1SWDFqd5LXdRUTk_F9_gzqCelUM,599
+fslash/_version.py,sha256=QvgNYtHAe_fhAQBJ-aDQlyxFQfMJpDzz7QPMqztmXik,497
+fslash/compose.py,sha256=gDQkcedaKnTbXFGnA4hM5ec0x-GW5qWqZd1yVW0oANg,2340
+fslash/curry.py,sha256=WMSIgYfhyJ6MMZce2jKDW2WTMY26EoTLpqUkWqsdkOs,552
+fslash/option.py,sha256=FLsiNfiVXEKoao2tsicVQL3Gn37vKSpETnu87Ebu0HA,7599
+fslash/pipe.py,sha256=NPljcX8E01eTnHIRQyi1_CMQG2gvJf37-ECJHMraT8M,1436
+fslash/result.py,sha256=QxjF9cTzJDz2axXU2O-iwpmBF22CxA2pLDbif4_BZAA,5511
+fslash/seq.py,sha256=_djDtCquW8K1-HTorpnQDcT-C4NVGeBwRcePzYxpC8w,11228
+FSlash-0.1.0.dist-info/LICENSE,sha256=BdwrUfZCLmGeg02GROdF758YQN3u_ZTyxH_czdgqrlQ,1068
+FSlash-0.1.0.dist-info/METADATA,sha256=aulN847Nm7ypxj3et_163TEnvnuADuTI81gqiCIm4Zc,9138
+FSlash-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+FSlash-0.1.0.dist-info/top_level.txt,sha256=flVTGMyxcG2jw4CghbDsBtg0ebLVzbuZKAMv8ggMFEU,7
+FSlash-0.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+FSlash-0.1.0.dist-info/RECORD,,

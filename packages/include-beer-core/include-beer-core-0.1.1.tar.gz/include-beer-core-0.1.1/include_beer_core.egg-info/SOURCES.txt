@@ -1,0 +1,17 @@
+README.md
+setup.py
+core/__init__.py
+core/config/__init__.py
+core/config/manager.py
+core/config/sessions.py
+core/utils/__init__.py
+core/utils/dicts.py
+core/utils/ftp.py
+core/utils/json.py
+core/utils/logging.py
+core/utils/yaml.py
+include_beer_core.egg-info/PKG-INFO
+include_beer_core.egg-info/SOURCES.txt
+include_beer_core.egg-info/dependency_links.txt
+include_beer_core.egg-info/requires.txt
+include_beer_core.egg-info/top_level.txt

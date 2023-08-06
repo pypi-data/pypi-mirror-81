@@ -1,0 +1,3 @@
+[console_scripts]
+curse = fooster.curse.__main__:main
+

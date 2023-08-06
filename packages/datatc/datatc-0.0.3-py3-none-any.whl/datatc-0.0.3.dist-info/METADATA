@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: datatc
+Version: 0.0.3
+Summary: UNKNOWN
+Home-page: https://github.com/uzh-dqbm-cmi/data-traffic-control
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >3.5.0
+Provides-Extra: pdf
+Requires-Dist: dill
+Requires-Dist: flake8
+Requires-Dist: gitpython
+Requires-Dist: pandas
+Requires-Dist: pyyaml
+Requires-Dist: xlrd
+Provides-Extra: pdf
+Requires-Dist: pymupdf; extra == 'pdf'
+
+UNKNOWN
+
+

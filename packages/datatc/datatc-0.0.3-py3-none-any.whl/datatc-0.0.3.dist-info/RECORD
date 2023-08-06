@@ -1,0 +1,11 @@
+datatc/__init__.py,sha256=g1Jq1ynXpW6YYt4tLHukVdzl9SGcyBCW5V6Her6Qv7w,71
+datatc/data_directory.py,sha256=eNGrPRLeejrIpcIui8NQrlzvc-FNv368RhFnJdUFfG8,11071
+datatc/data_interface.py,sha256=4uNrzXdTwseycxoZ0jF4divgWGmGmSbRb5QWAV2ZOT4,7369
+datatc/data_manager.py,sha256=y1h_B1ceOxcmqUw7tbsC01LitqD_N61YV4ZHhv0FD8E,6448
+datatc/data_processor.py,sha256=CeKa5tAq7ihCAFSEag8NtjBfs4a75WlnQkHnt1nFwSk,4328
+datatc/data_transformer.py,sha256=cy5_ZN36bqo6WUi8trENQ7m1BBLxQRoiBII0M-w_SVc,9434
+datatc/git_utilities.py,sha256=66zoJFXMDVpKVUVRlQajTfPmDGjbhF2QmIKiRZQIe_Q,3492
+datatc-0.0.3.dist-info/METADATA,sha256=YgCHH-5a2obpJRqnOwA6YUYAYOoPMxP3XJWnu2Jo7NY,411
+datatc-0.0.3.dist-info/RECORD,,
+datatc-0.0.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+datatc-0.0.3.dist-info/top_level.txt,sha256=PQ9NAsH3Mq9BOqZb2oxq918dL-LAb4SMyTQo-s-2lK0,7

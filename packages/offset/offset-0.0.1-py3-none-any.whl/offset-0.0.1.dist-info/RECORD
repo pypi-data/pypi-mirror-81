@@ -1,0 +1,11 @@
+offset/__init__.py,sha256=hjU04HsGLzh-68nbHJ9rJ4qfFgufcV4jeRyCQU7vYiA,1134
+offset/offset.py,sha256=Ln4HrMSgcVs52AkigZvS5JqvpCmoLtWXRYikWYTUppk,4536
+offset/test_offset.py,sha256=9H52BTCTYMS0L5bfmbgm1aPo4ViihozeKdONi8Qlnqk,583
+offset-0.0.1.data/scripts/offset,sha256=opnAmeMvyBMrbH4DNk0CvdmlCCnuo6yw_KmAZx3THpc,48
+text_shifter/__init__.py,sha256=IBDbELoisTbMkGHXuxAq3X2RZVAVT6HYq7_83H4U4PY,1145
+text_shifter/test_text_shifter.py,sha256=9H52BTCTYMS0L5bfmbgm1aPo4ViihozeKdONi8Qlnqk,583
+text_shifter/text_shifter.py,sha256=Z-omWhOJ-6VspkAd7ObOSLq7X79prq4aCIgnmO1RHHk,4670
+offset-0.0.1.dist-info/METADATA,sha256=hiwp1HbctnlDkLk4TYDIyhxvnJFc34TgNpX_FjuOwxI,1304
+offset-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+offset-0.0.1.dist-info/top_level.txt,sha256=gEhGK-SAVH4Gj23BvPHOqBVmEoHQgDcft1haVV-u1eo,7
+offset-0.0.1.dist-info/RECORD,,

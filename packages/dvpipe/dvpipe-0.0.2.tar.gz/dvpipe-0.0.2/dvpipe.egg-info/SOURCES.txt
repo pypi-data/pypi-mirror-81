@@ -1,0 +1,7 @@
+README.md
+setup.py
+dvpipe/__init__.py
+dvpipe.egg-info/PKG-INFO
+dvpipe.egg-info/SOURCES.txt
+dvpipe.egg-info/dependency_links.txt
+dvpipe.egg-info/top_level.txt

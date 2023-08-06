@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pi-anwing-webthing
+Version: 0.0.6
+Summary: A web connected patio awnings controller on Raspberry Pi
+Home-page: https://github.com/grro/pi_anwing_webthing
+Author: Gregor Roth
+Author-email: gregor.roth@web.de
+License: MIT
+Keywords: webthings,anwing,control,pation,terrace
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown
+Requires-Dist: webthing
+Requires-Dist: schedule
+Requires-Dist: RPi.GPIO
+
+# pi_anwing_webthing
+A web connected patio awnings controller on Raspberry Pi
+
+Currently supported are [TB6612FNG driven](https://www.pololu.com/product/713) motors such 
+as [DGO-3512ADA](https://www.ebay.co.uk/itm/Gear-Motor-Direct-Current-6-12V-Electric-With-Removable-Crank-DGO-3512ADA-/183375290396)
+
+
+
+

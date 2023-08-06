@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: qtypes
+Version: 0.2.0
+Summary: Build qt graphical user interfaces out of simple type objects.
+Home-page: https://gitlab.com/yaq/qtypes
+Author: Blaise Thompson
+Author-email: blaise@untzag.com

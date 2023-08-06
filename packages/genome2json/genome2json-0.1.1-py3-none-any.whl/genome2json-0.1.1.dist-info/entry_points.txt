@@ -1,0 +1,3 @@
+[console_scripts]
+g2j = g2j.main:run
+

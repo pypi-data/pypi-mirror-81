@@ -1,0 +1,13 @@
+g2j/__init__.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+g2j/classes.py,sha256=EDS6vTh4nnziEQVqiOzLPN2xDc_llC__fwqZdKaX9XE,13063
+g2j/fasta.py,sha256=1DhGNw5LWbDgU-sYsJmhzPT3Sa0LIvm74Tgo4goxc4M,551
+g2j/genbank.py,sha256=yQbdaUZ40dhm44Xo1HuQn93CuXcV2x1CvOn8Yt2AkRU,7565
+g2j/gff3.py,sha256=hmk5Dz0XO6bC2Men2ugWrs9FSGI7wJq_1XO0mFosJno,4602
+g2j/grouping.py,sha256=MF5I5btZXPIW_YC1RgTDxCESX6oiQxU60mm8Mc0GVXA,5654
+g2j/main.py,sha256=wRyQMu9KNcL9QPEIGXjfWXZ4vsVotuh26Y0zjFICYA4,3877
+genome2json-0.1.1.dist-info/LICENSE,sha256=4nXBp7RjM6RuAhZ0X8VbDskcmMKLGWmoO_bCR_qI20A,1070
+genome2json-0.1.1.dist-info/METADATA,sha256=r7E7piDZdqu_Jw3-Y1ZEMOwsELadbOWwyZLQKPZoHOg,1308
+genome2json-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+genome2json-0.1.1.dist-info/entry_points.txt,sha256=shxVFa6l3GkaQ5x-op-ATDXe8GZKzIoFJH11FVPffX4,38
+genome2json-0.1.1.dist-info/top_level.txt,sha256=UjTfamRepfiG41FJoM3Z5vhTXhSyBYZvEGjSJSVRmqU,4
+genome2json-0.1.1.dist-info/RECORD,,

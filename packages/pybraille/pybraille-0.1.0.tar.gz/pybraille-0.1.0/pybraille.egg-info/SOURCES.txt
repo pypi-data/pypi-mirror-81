@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+pybraille/__init__.py
+pybraille/main.py
+pybraille.egg-info/PKG-INFO
+pybraille.egg-info/SOURCES.txt
+pybraille.egg-info/dependency_links.txt
+pybraille.egg-info/top_level.txt

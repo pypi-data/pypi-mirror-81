@@ -1,0 +1,9 @@
+xlrd
+Qt.py
+pymongo
+
+[:python_version<'3.0']
+PySide
+
+[:python_version>='3.0']
+PySide2

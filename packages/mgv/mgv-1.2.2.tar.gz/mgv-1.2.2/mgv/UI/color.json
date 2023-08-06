@@ -1,0 +1,15 @@
+{
+  "background": "#303030",
+  "selection" : "#358c64",
+  "selectLight" : "#27674a",
+  "selectDark" : "#172525",
+  "edit": "#454545",
+  "comment2": "#505258",
+  "white": "#FFFFFF",
+  "grey": "#a1a1a1",
+  "dark": "#282828",
+  "darker": "#1F201F",
+  "text": "#e6e6e6",
+  "pieSelection": "#adcade",
+  "red": "#FF0000"
+}

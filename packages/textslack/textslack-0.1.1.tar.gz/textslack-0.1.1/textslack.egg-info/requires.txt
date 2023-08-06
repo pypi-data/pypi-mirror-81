@@ -1,0 +1,4 @@
+nltk
+textblob
+sklearn
+normalise

@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: sdkms-git-sign-tool
+Version: 0.1.1
+Summary: Fortanix SDKMS Git sign tool
+Home-page: https://support.fortanix.com
+Author: Fortanix
+Author-email: support@fortanix.com
+License: Apache 2.0
+Keywords: SDKMS,Fortanix SDKMS,git,sign-tool
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Security :: Cryptography
+Description-Content-Type: text/markdown
+Requires-Dist: sdkms
+Requires-Dist: gitpython
+Requires-Dist: PGPy
+Requires-Dist: gitdb2
+
+# SDKMS Git Signing Tool
+
+This is a utility for signing/verifying git commits with keys stored in Fortanix Self-Defending Key Management System. It includes commands for generating a PGP compatible key in SDKMS.
+
+# Setup
+1. In SDKMS create an App and key (RSA, EC). Take notes of:
+    - App API Key
+    - Key UUID
+
+2. In you git repository, the following configuration is needed:
+
+```
+git config --local gpg.program </path/to/sdkms-git-sign-tool>
+git config --local user.signingkey <Key UUID>
+git config --local sdkms.endpoint <SDKMS endpoint>
+git config --local sdkms.apikey <SDKMS API Key>
+```
+
+# Build Tool
+
+$ python3 setup.py build
+$ sudo python3 setup.sh install
+OR
+$ sudo pip3 install .
+
+
+

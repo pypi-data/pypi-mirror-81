@@ -1,0 +1,3 @@
+[console_scripts]
+latam=latam.__main__:app
+

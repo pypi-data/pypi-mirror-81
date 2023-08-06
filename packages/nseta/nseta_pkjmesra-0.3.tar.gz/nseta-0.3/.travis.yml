@@ -1,0 +1,17 @@
+language: sh
+cache: pip
+os: osx
+before_install:
+  - /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+  - brew list | grep python
+  - brew info python
+  - brew update && brew upgrade python
+  - brew install ta-lib
+  - pip3 install TA-Lib
+  - pip3 install fastquant
+  - pip3 install -r requirements.txt
+install:
+  - python3 setup.py clean build install sdist bdist_wheel
+script:
+  - nseta --help
+  - nseta --version

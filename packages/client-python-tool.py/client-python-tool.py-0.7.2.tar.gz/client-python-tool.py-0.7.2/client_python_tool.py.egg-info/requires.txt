@@ -1,0 +1,12 @@
+eth_typing
+rlp
+collections
+
+[:implementation_name == "cpython"]
+cytoolz<1.0.0,>=0.9.0
+
+[:implementation_name == "pypy"]
+toolz<1.0.0,>=0.9.0
+
+[:platform_system == "Windows"]
+eth_hashpypiwin32>=223

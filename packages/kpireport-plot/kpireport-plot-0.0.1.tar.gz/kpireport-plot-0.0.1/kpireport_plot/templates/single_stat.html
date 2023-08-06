@@ -1,0 +1,23 @@
+<style>
+.kpireport__stat {
+    width: 100%;
+    font-size: 36px;
+}
+
+.kpireport__stat .delta {
+    font-size: 50%;
+}
+  .kpireport__stat .delta.up {
+      color: green;
+  }
+  .kpireport__stat .delta.down {
+      color: red;
+  }
+</style>
+
+<div class="kpireport__stat">
+    {{ label }}
+    {% if stat_delta is not none %}
+    <span class="delta {{ direction }}">{% if direction == "up" %}▲{% else %}▼{% endif %}{{ stat_delta }}</span>
+    {% endif %}
+</div>

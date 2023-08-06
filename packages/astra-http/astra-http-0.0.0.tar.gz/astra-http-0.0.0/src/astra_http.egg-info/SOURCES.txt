@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+package.yml
+setup.py
+src/astra_http/__init__.py
+src/astra_http.egg-info/PKG-INFO
+src/astra_http.egg-info/SOURCES.txt
+src/astra_http.egg-info/dependency_links.txt
+src/astra_http.egg-info/top_level.txt
+src/astra_http.egg-info/zip-safe

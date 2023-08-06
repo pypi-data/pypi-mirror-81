@@ -1,0 +1,3 @@
+[kpireport.output]
+sendgrid = kpireport_sendgrid:SendGridOutputDriver
+

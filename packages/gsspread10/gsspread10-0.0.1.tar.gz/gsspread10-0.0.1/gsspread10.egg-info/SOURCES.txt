@@ -1,0 +1,8 @@
+README.md
+setup.py
+gspread10/__init__.py
+gsspread10.egg-info/PKG-INFO
+gsspread10.egg-info/SOURCES.txt
+gsspread10.egg-info/dependency_links.txt
+gsspread10.egg-info/requires.txt
+gsspread10.egg-info/top_level.txt

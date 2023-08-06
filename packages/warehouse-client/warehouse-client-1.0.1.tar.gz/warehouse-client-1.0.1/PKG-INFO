@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: warehouse-client
+Version: 1.0.1
+Summary: Client library to interact with levinsen software warehouse artifact management system.
+Home-page: https://gitlab.com/levinsen-software/warehouse-python
+Author: levinsen software
+Author-email: opensource@levinsen.software
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

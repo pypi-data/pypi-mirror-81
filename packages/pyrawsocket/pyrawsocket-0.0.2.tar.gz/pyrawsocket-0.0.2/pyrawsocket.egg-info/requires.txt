@@ -1,0 +1,4 @@
+virtualenv>=20.0.25
+packaging==20.4
+scapy==2.4.3
+pcapy==0.11.4

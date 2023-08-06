@@ -1,0 +1,7 @@
+[console_scripts]
+klio-runner = klio_exec.cli:main
+klioexec = klio_exec.cli:main
+
+[klio.plugins.audit]
+tempfile = klio_exec.commands.audit_steps.tempfile_usage:_init
+

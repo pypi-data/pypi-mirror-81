@@ -1,0 +1,6 @@
+pytileproj>=0.0.13
+
+[test]
+pytest-cov
+pytest
+nose

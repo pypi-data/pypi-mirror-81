@@ -1,0 +1,14 @@
+README.md
+setup.py
+make_to_batch/__init__.py
+make_to_batch/__main__.py
+make_to_batch/cli.py
+make_to_batch/look_up_table.py
+make_to_batch/makefile.py
+make_to_batch/parser.py
+make_to_batch.egg-info/PKG-INFO
+make_to_batch.egg-info/SOURCES.txt
+make_to_batch.egg-info/dependency_links.txt
+make_to_batch.egg-info/entry_points.txt
+make_to_batch.egg-info/requires.txt
+make_to_batch.egg-info/top_level.txt

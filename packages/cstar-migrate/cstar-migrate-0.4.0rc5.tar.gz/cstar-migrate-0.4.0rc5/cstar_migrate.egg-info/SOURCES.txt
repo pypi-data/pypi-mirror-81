@@ -1,0 +1,17 @@
+README.rst
+setup.cfg
+setup.py
+cstar_migrate.egg-info/PKG-INFO
+cstar_migrate.egg-info/SOURCES.txt
+cstar_migrate.egg-info/dependency_links.txt
+cstar_migrate.egg-info/entry_points.txt
+cstar_migrate.egg-info/requires.txt
+cstar_migrate.egg-info/top_level.txt
+cstarmigrate/__init__.py
+cstarmigrate/__main__.py
+cstarmigrate/cli.py
+cstarmigrate/config.py
+cstarmigrate/cql.py
+cstarmigrate/exceptions.py
+cstarmigrate/migration.py
+cstarmigrate/migrator.py

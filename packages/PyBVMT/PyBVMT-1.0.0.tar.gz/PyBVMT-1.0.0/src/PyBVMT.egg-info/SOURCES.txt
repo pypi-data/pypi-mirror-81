@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/PyBVMT.py
+src/__init__.py
+src/fetchapi.py
+src/PyBVMT.egg-info/PKG-INFO
+src/PyBVMT.egg-info/SOURCES.txt
+src/PyBVMT.egg-info/dependency_links.txt
+src/PyBVMT.egg-info/requires.txt
+src/PyBVMT.egg-info/top_level.txt

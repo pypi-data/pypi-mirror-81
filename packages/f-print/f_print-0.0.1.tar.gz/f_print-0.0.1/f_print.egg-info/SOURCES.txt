@@ -1,0 +1,6 @@
+README.txt
+setup.py
+f_print.egg-info/PKG-INFO
+f_print.egg-info/SOURCES.txt
+f_print.egg-info/dependency_links.txt
+f_print.egg-info/top_level.txt

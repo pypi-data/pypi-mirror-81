@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: isobar
+Version: 0.1.0
+Summary: A Python library to express and manipulate musical patterns
+Home-page: https://github.com/ideoforms/isobar
+Author: Daniel Jones
+Author-email: dan-isobar@erase.net
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: sound,music,composition
+Platform: UNKNOWN
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Topic :: Artistic Software
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers

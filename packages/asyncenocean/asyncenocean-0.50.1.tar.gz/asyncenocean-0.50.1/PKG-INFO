@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: asyncenocean
+Version: 0.50.1
+Summary: EnOcean serial protocol implementation
+Home-page: https://github.com/M-o-a-T/asyncenocean
+Author: Matthias Urlichs
+Author-email: matthias@urlichs.de
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

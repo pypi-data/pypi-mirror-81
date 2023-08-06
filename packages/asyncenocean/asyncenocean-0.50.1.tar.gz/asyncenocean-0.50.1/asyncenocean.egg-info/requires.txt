@@ -1,0 +1,3 @@
+anyio_serial
+beautifulsoup4>=4.3.2
+enum-compat>=0.0.2

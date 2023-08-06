@@ -1,0 +1,12 @@
+statuspageio/__init__.py,sha256=mZrvJ_kJjEdJGjgCutxSjYgWr4iqU_b1L26yTIT4dkc,866
+statuspageio/client.py,sha256=-LAe42-bCihWryQLds9QvuFPxKW_Vf0bJ_cPN6eEw70,3060
+statuspageio/configuration.py,sha256=2HJpJ2HZ6SqHW0HxCA6MWmyuGcwbGypMD7L8GYTEZec,2583
+statuspageio/errors.py,sha256=DYphH0E8rKEizrzHFZfIsaBDrZzleXhIC_9YPJTeA5Q,2336
+statuspageio/http_client.py,sha256=GPMEf1futHw3xA-ZaHPZs3lZWm-GlXa1FnoXBq1w6sE,8606
+statuspageio/services.py,sha256=NUwqrRYesr7tHHTe9VlMBKYs_yEa8ouB7jv2--vWlhU,22897
+statuspageio/version.py,sha256=wUIJ95OZsXJ6m4coggPsH2_ZCCTjiXkHnIUOr416vQc,50
+transity_statuspageio-0.0.3.dist-info/LICENSE,sha256=oypES1NBB4175Sv-cDoSNuNadOwr8IPCaMz9mAe3cPM,1099
+transity_statuspageio-0.0.3.dist-info/METADATA,sha256=dnzuO6NjBknvhrksQ9ibswsRiCjrehpKyEA9WA9gKvg,1183
+transity_statuspageio-0.0.3.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+transity_statuspageio-0.0.3.dist-info/top_level.txt,sha256=xCKXwxzjlhxIpQkhrRVY71BiOSMrHIL6V6gUXvtVSFc,13
+transity_statuspageio-0.0.3.dist-info/RECORD,,

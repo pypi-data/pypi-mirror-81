@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.py
+ParaCode/RunShell.py
+ParaCode/__init__.py
+ParaCode/basic.py
+ParaCode/config.py
+ParaCode/shell.py
+ParaCode/strings_with_arrows.py
+ParaCode.egg-info/PKG-INFO
+ParaCode.egg-info/SOURCES.txt
+ParaCode.egg-info/dependency_links.txt
+ParaCode.egg-info/top_level.txt

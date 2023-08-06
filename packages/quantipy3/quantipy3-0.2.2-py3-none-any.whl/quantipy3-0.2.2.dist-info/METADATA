@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: quantipy3
+Version: 0.2.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Geir Freysson
+Author-email: geir@datasmoothie.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy (==1.14.5)
+Requires-Dist: scipy (==1.2.1)
+Requires-Dist: pandas (==0.25.3)
+Requires-Dist: ftfy (==5.5.1)
+Requires-Dist: xmltodict
+Requires-Dist: lxml
+Requires-Dist: xlsxwriter
+Requires-Dist: prettytable
+Requires-Dist: decorator
+Requires-Dist: watchdog
+Requires-Dist: requests
+Requires-Dist: python-pptx
+
+UNKNOWN
+
+

@@ -1,0 +1,10 @@
+README.md
+setup.py
+ksox/__init__.py
+ksox/sox.py
+ksox/soxi.py
+ksox.egg-info/PKG-INFO
+ksox.egg-info/SOURCES.txt
+ksox.egg-info/dependency_links.txt
+ksox.egg-info/requires.txt
+ksox.egg-info/top_level.txt

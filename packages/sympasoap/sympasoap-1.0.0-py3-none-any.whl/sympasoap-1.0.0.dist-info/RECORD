@@ -1,0 +1,9 @@
+sympasoap/__init__.py,sha256=it6PqqQo34uGc43ke-0LaQAp4vrNUq1mpKDd3zvlBfE,57
+sympasoap/client.py,sha256=v7pez2v_p5KKsonX4yeRRph5PrsH473TEpI-xjtFca0,8450
+sympasoap/constants.py,sha256=qcVaxc-SF2dyFh-5fP_CtQo2mOblim4KenJbVBWWW6w,1405
+sympasoap/lists.py,sha256=nHIMeVydSPwNtb_dIah_wj5qGNNvUcvwlJ23jNGhv3A,967
+sympasoap-1.0.0.dist-info/LICENSE,sha256=ZeUvZVo6NWZLUYVcZiO0iO2Cw4F6opKgnuMxqi4GU64,34974
+sympasoap-1.0.0.dist-info/METADATA,sha256=V-44TiqmUgWPoFB_8AvJ_l31i3rleqwGE_QssnzPhws,4712
+sympasoap-1.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+sympasoap-1.0.0.dist-info/top_level.txt,sha256=mOjnkSwP6wttjXSMvVMtR7byip20r-BnLcGLE80vmhY,10
+sympasoap-1.0.0.dist-info/RECORD,,

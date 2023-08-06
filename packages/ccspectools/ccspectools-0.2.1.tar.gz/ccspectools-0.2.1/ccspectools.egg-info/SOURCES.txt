@@ -1,0 +1,10 @@
+COPYING
+README.md
+ccspectools.py
+setup.cfg
+setup.py
+ccspectools.egg-info/PKG-INFO
+ccspectools.egg-info/SOURCES.txt
+ccspectools.egg-info/dependency_links.txt
+ccspectools.egg-info/requires.txt
+ccspectools.egg-info/top_level.txt

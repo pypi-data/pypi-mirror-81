@@ -1,0 +1,13 @@
+[console_scripts]
+csv_to_json = datascience_utilities.csv_to_json:main
+describe = datascience_utilities.describe:main
+exponential = datascience_utilities.exponential:main
+json_to_csv = datascience_utilities.json_to_csv:main
+normal = datascience_utilities.normal:main
+plot_hex = datascience_utilities.plotHex:main
+plot_hist = datascience_utilities.plotHist:main
+plot_xy = datascience_utilities.plotXY:main
+poisson = datascience_utilities.poisson:main
+reservoir_sample = datascience_utilities.reservoirSampling:main
+ztest = datascience_utilities.ztest:main
+

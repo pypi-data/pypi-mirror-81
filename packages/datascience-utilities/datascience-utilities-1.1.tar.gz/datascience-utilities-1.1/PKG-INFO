@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: datascience-utilities
+Version: 1.1
+Summary: Various data analysis scripts, useful for command line data mining and exploration. Most scripts work on csv numeric data with some configurable separator, defaulting to 	, with optional header-handling.
+Home-page: https://github.com/jattenberg/datascience-utilities
+Author: josh attenberg
+Author-email: jattenbe@stern.nyu.edu
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: iterm

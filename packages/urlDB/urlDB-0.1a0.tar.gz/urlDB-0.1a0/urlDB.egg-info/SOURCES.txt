@@ -1,0 +1,9 @@
+README.md
+setup.py
+urlDB.egg-info/PKG-INFO
+urlDB.egg-info/SOURCES.txt
+urlDB.egg-info/dependency_links.txt
+urlDB.egg-info/requires.txt
+urlDB.egg-info/top_level.txt
+urldb/Urldb.py
+urldb/__init__.py

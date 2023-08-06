@@ -1,0 +1,9 @@
+uiutils/__init__.py,sha256=cgkRW5tXrGA-nFVzCfhkSDVvW0cnrMpB0FDqCvaLJls,1072
+uiutils/gridview.py,sha256=7IiYw3F8mJIN7-hOkgxeeMBG31miUcJHubLFOzxw0WQ,4164
+uiutils/hierarchy.py,sha256=bN4vs88XA_seMvQtubJ38x9sJoBCPiMfdvGTayKSza0,4151
+uiutils/richlabel.py,sha256=mKitx7h496I1V3odEN-PZU67FvajRveq_QxOsAkvhSE,16290
+uiutils/safearea.py,sha256=AUlVNviiqbngQvTFkAjE9m-G280zTrJZfnuqjiUJ6fs,1253
+uiutils/sfsymbol.py,sha256=jQpJaMOk3uDIW-CbnawAb82jUUVBUaX_7Bw0b7zdlFo,9305
+pythonista_uiutils-2020.7.25.dist-info/WHEEL,sha256=VCdoNBk3hWpF-6e5lKoFTDe2J_z3c2Yvza9_dZz7drc,99
+pythonista_uiutils-2020.7.25.dist-info/METADATA,sha256=nhtwSj5CNlHrsKgwfCh8w8Wymo5JdVrn7UDmHNgk-kc,491
+pythonista_uiutils-2020.7.25.dist-info/RECORD,,

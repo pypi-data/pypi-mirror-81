@@ -1,0 +1,9 @@
+pybullet==2.8.5
+gym
+numpy
+catkin_pkg
+sphinx
+matplotlib
+sphinx_rtd_theme
+pytest
+psutil

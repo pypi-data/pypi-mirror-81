@@ -1,0 +1,4 @@
+cryptography
+pandas
+SQLAlchemy
+mysql-connector-python

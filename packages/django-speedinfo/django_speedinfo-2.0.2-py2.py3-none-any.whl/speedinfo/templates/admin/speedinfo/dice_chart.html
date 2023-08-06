@@ -1,0 +1,13 @@
+<div id="{{ chartd_id }}" class="chart"></div>
+<script type="text/javascript">
+  am4core.ready(function () {
+    dice_chart("{{ chartd_id }}", [
+      {% for item in results %}
+        {
+          "name": "{{ item.view_name }}",
+          "value": "{{ item.time_per_call }}",
+        },
+      {% endfor %}
+    ]);
+  });
+</script>

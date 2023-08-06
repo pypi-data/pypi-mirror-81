@@ -1,0 +1,4 @@
+PyTelegramBotApi
+cloudinary
+requests
+numpy

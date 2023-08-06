@@ -1,0 +1,8 @@
+README.md
+setup.py
+statssol.py
+statssol.egg-info/PKG-INFO
+statssol.egg-info/SOURCES.txt
+statssol.egg-info/dependency_links.txt
+statssol.egg-info/requires.txt
+statssol.egg-info/top_level.txt

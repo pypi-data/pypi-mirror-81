@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: causal-world
+Version: 1.2
+Summary: CausalWorld: A Robotic Manipulation Benchmark for Causal Structure and Transfer Learning
+Home-page: https://github.com/rr-learning/CausalWorld
+Author: Ossama Ahmed, Frederik Trauble
+Author-email: ossama.ahmed@mail.mcgill.ca, frederik.traeuble@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pybullet (==2.8.5)
+Requires-Dist: gym
+Requires-Dist: numpy
+Requires-Dist: catkin-pkg
+Requires-Dist: sphinx
+Requires-Dist: matplotlib
+Requires-Dist: sphinx-rtd-theme
+Requires-Dist: pytest
+Requires-Dist: psutil
+
+UNKNOWN
+
+

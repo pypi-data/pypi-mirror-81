@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: fooster-curse
+Version: 0.1
+Summary: rewrite identifiers in Python source code with Unicode characters that still have the same canonical normalization
+Home-page: https://github.com/lilyinstarlight/python-fooster-curse
+Author: Lily Foster
+Author-email: lily@lily.flowers
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: Freely Distributable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Artistic Software
+Classifier: Topic :: Religion
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Localization
+Classifier: Topic :: Software Development :: Pre-processors
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+Requires-Dist: redbaron
+
+# Widdershins
+
+## Usage
+
+    $ pip install fooster-curse
+    $ curse file.py
+
+
+## Rule of Three Clause
+
+Mind the Three-fold Laws you should three times bad and three times good.
+When misfortune is enow wear the star upon your brow.
+
+Be true in love this you must do unless your love is false to you.
+
+These Eight words the Rede fulfill:
+"An Ye Harm None, Do What Ye Will"
+
+

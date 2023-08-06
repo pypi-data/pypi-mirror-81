@@ -1,0 +1,12 @@
+[pytest11]
+adr_check = pytest_alphamoon.adr_check
+annotation_check = pytest_alphamoon.annotation_check
+import_check = pytest_alphamoon.import_check
+init_check = pytest_alphamoon.init_check
+newline_check = pytest_alphamoon.newline_check
+notebook_check = pytest_alphamoon.notebook_check
+requirements_coherence_check = pytest_alphamoon.requirements_coherence_check
+requirements_versions_check = pytest_alphamoon.requirements_versions_check
+sorted_requirements_check = pytest_alphamoon.sorted_requirements_check
+testdir_check = pytest_alphamoon.testdir_check
+

@@ -1,0 +1,12 @@
+argusclient/client.py,sha256=yzTNLSX6BAgK96TKQEbbb8g7j96QPnGn2G0jQFT2F28,33725
+argusclient/__init__.py,sha256=CIAg4qNKDDU6uIlZIs1WCjq2ESSQ7leHKZ_rNBfNDyg,474
+argusclient/model.py,sha256=TDE70sxUflc4uyTVWN1UHQyplU3Cue8BpoBka8NBeVA,16586
+argusclient/dashboardtags.py,sha256=rv09SR5Eya8VBWAdPDIP2G1cp4xjgs8V86OPhH4Hq10,4991
+argusclient-0.5.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+argusclient-0.5.dist-info/RECORD,,
+argusclient-0.5.dist-info/metadata.json,sha256=ctjQDQeC4dwBhIT_LRuGm3TPXIM9NRI0BWnx4QndSrg,785
+argusclient-0.5.dist-info/WHEEL,sha256=54bVun1KfEBTJ68SHUmbxNPj80VxlQ0sHi4gZdGZXEY,92
+argusclient-0.5.dist-info/entry_points.txt,sha256=FjKvgvGyIyqokCxiGIVCvaGmkWcXwEXZ8W6zk1mtvZQ,37
+argusclient-0.5.dist-info/DESCRIPTION.rst,sha256=Ab2TRh1H2ltac8zTFBb1RBgrInk6DutXNbbopwtiAq8,6951
+argusclient-0.5.dist-info/top_level.txt,sha256=2sL6dps7f8axrTSXHByLdxGdHzMwvORIhSvcZYgW1_M,12
+argusclient-0.5.dist-info/METADATA,sha256=LXdEjOgyOAj_qdj1wHs0C4wCOl5m_Ra8TnTG46erVcs,7547

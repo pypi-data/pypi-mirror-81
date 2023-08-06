@@ -1,0 +1,11 @@
+
+[dev]
+black
+flake8
+isort
+pytest
+pytest-cov
+make-to-batch
+
+[publish]
+twine

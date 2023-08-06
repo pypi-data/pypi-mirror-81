@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: kalna
+Version: 0.0.3
+Summary: A package calculate basic numerical operations on a single number
+Home-page: 
+Author: Sayantan Ghosh
+Author-email: sayantanghosh.work@gmail.com
+License: UNKNOWN
+Keywords: package numbers calculations
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: sklearn
+
+# Kalna 0.0.2
+***
+
+
+## Documentation
+
+**Kalna is a powerful Automated Machine Learning python library.** It provides the following features:
+
+
+* Fast reading and distributed data preprocessing/cleaning/formatting
+
+
+
+## Installation
+To install via `pip` use:
+```python
+pip install kalna
+```
+
+## Basic Usage
+The usage of the wrapper is very easy. It does not require any initialisation. Just import and start coding:
+```python
+from kalna import calculate
+
+#Calculate the Square of a Number
+print(calculate.calculateSquare(8))
+# 64
+
+#calculate th Cube Of a Number
+print(calculate.calculateCube(3))
+# 27
+
+#reading teh dataset
+dataset = read_data('file_path')
+
+
+#Showing Selected records
+show_data(data,no_of_records)
+
+```
+
+## Local Testing
+* * *
+
+### Configuring Setup.py file
+```python
+  python setup.py install
+
+```
+### Configuring Wheel file
+```python
+  pip install wheel
+  python setup.py bdist_wheel
+```
+### Local System chacking
+```python
+  pip install kalna
+
+```
+
+### Uploading Packages to test.pypi Repository
+```python
+  pip install twine
+  twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+```
+
+### Uploading Packages to Pypi Original repository
+```python
+  twine upload dist/*
+```
+
+
+

@@ -1,0 +1,12 @@
+CHANGES.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+fragment/__init__.py
+fragment/fragment.py
+image_fragment.egg-info/PKG-INFO
+image_fragment.egg-info/SOURCES.txt
+image_fragment.egg-info/dependency_links.txt
+image_fragment.egg-info/requires.txt
+image_fragment.egg-info/top_level.txt

@@ -1,0 +1,9 @@
+_pydelatin.cpython-38-i386-linux-gnu.so,sha256=HpRY4ut8Is9dMevPMV_iv6YhUoT5YfWsPOm_MwgdreE,4930412
+pydelatin-0.0.2.dist-info/WHEEL,sha256=5sVZizCrL6V6GTSlz2gB1j2D7vS_LJeGqIpb1NNiG2o,109
+pydelatin-0.0.2.dist-info/LICENSE,sha256=nibXnqSIeJlpfnQR5MVbs8vUPl-FZQQeoZjiEko4vnY,1068
+pydelatin-0.0.2.dist-info/top_level.txt,sha256=IqYA-uufehdU9pHdj2P87jTGDW8dsH1x3WEVnpTbAYw,21
+pydelatin-0.0.2.dist-info/RECORD,,
+pydelatin-0.0.2.dist-info/METADATA,sha256=e6288ss6wWSjdP1iVEjcS7do0JSAnF5db3EvITY4X2k,375
+pydelatin/util.py,sha256=_-ryqNy5ywrOvo0wgE8c4CfQKy_juMP5DXTaQe9ymPI,1245
+pydelatin/wrapper.py,sha256=0y-coet-sbim2XvNt12Pk1-kCs1sDz2KJpjaZBvSF24,2563
+pydelatin/__init__.py,sha256=hHeTK7Lw54pelB5-qX0qBwH9-gtwvHNO9DZ_Cy8SZyI,190

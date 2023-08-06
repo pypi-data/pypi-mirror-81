@@ -1,0 +1,4 @@
+recursive-exclude * .gitignore
+recursive-include docs *
+recursive-exclude docs/build *
+include CHANGELOG.rst

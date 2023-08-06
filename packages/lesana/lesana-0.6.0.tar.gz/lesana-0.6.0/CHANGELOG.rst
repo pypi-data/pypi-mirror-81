@@ -1,0 +1,22 @@
+***********
+ CHANGELOG
+***********
+
+Unreleased
+==========
+
+* Validation of field contents have been made stricter: invalid contents
+  that were accepted in the past may now cause an indexing error.
+* The timestamp field type is now expected to contain a unix timestamp
+  (a yaml datetime is accepted, but may be converted to a unix
+  timestamp) and the types datetime and date have been added.
+
+0.5.1
+=====
+
+Library
+-------
+
+* This version changes the name of entry IDs from the nonsensical ``uid`` to
+  ``eid`` (Entry ID) everywhere in the code, including the property
+  ``Entry.uid`` and all method names.

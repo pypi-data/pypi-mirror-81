@@ -1,0 +1,13 @@
+luxwidget/__init__.py,sha256=UA4Fpb2GrVcgHBZAibgM0MlAb-v5HJ21tFRvIssYtDc,170
+luxwidget/_frontend.py,sha256=M0IM46YDS7sYEA9HiXe-MRHa-WSteC1f6dnnzik72tY,192
+luxwidget/_version.py,sha256=L8RM2o1Sdu7Z1dzwW36g2x6xZwhpss9f5RRv0cQ07FI,111
+luxwidget/widget.py,sha256=AXrlmhq0mrWopLpFOhUdDaULoOq72DvIIEuTs902s1g,1140
+luxwidget/nbextension/__init__.py,sha256=UvDstiSSAxC8x-9Y87R7W8FJ8fOVGxUoQDIgwWLAUqo,232
+luxwidget/nbextension/static/extension.js,sha256=lXDx0HKkoUV22wseDcbakmOVtw8aZxuiuJHXuv2LDv8,408
+luxwidget/nbextension/static/index.js,sha256=cc-1TBTcFPIRHqZiuZihjG7LO6pklUCfjlScECiFKA8,1297291
+luxwidget/nbextension/static/index.js.map,sha256=nJ19xXD0kAfbF9_C1fIxsSMaYMGtTysZKqFEky6h5KU,5706387
+lux_widget-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+lux_widget-0.1.0.dist-info/METADATA,sha256=seoH9-aEBATd37tnKzsGORKtbYLjoiAahkrVlVmfVKY,3422
+lux_widget-0.1.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+lux_widget-0.1.0.dist-info/top_level.txt,sha256=A6wq9EJVGTknnRBm5LkoOy8saLX9jHv33UMD7kd8iLI,10
+lux_widget-0.1.0.dist-info/RECORD,,

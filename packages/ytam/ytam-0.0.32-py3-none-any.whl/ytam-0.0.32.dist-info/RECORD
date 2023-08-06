@@ -1,0 +1,15 @@
+ytam/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ytam/cmd.py,sha256=BSOKyTQo2Jkwveo4pyfl_SNEyFUDv4yZNH0R2SOdx-4,6463
+ytam/error.py,sha256=TR0ZiCQ9-aiKJNYEztTNiOdC6J1QEPGB5a2e2Wz3Pbw,1397
+ytam/font.py,sha256=OwYZRzLRrvDJY6sVPqrFjUmsrsglENTxFiP_tjebDVI,842
+ytam/title.py,sha256=N1eYVXfZFQigY0v96yePlldVoGwFPimpQqGnDt8NuyQ,1825
+ytam/ytam.py,sha256=jdUi2BUVQfe8d4g4eIvIoAJk_E4AvIyqj1iHG_lYPGk,7685
+ytam/check/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ytam/check/check.jpg,sha256=6PuuAix68p3bOCN8aX8jXHL4xbUtU7srS0PLZh64i-0,124556
+ytam/check/check.txt,sha256=XaKjjZ5EwkHJBrAYGaRtSFmxmW-cxB9yEfNsHsAOb3w,59
+ytam-0.0.32.dist-info/LICENSE,sha256=ISUlxZAu39bqxsg_J3pMzVUGpeaZESMuaExZP29saxU,1154
+ytam-0.0.32.dist-info/METADATA,sha256=ftT83qMGVh2cks0bhpVPV2fI1bP1_xq7WWwsFFv-HWY,5332
+ytam-0.0.32.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ytam-0.0.32.dist-info/entry_points.txt,sha256=oPviEbbI2F7AL8pVFKhQ7BRaJAUr9L2aiMdBwGqyLW0,40
+ytam-0.0.32.dist-info/top_level.txt,sha256=QQKQZBlGSqd40TShwIrYseJ5xSnK-rrU1nTO_yBD4T8,5
+ytam-0.0.32.dist-info/RECORD,,

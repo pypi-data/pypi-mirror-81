@@ -1,0 +1,12 @@
+zdcode/__init__.py,sha256=YzMTksTSwmnUPTt7o9QetAmMMfDN-Neo_gpVmYGijqc,70664
+zdcode/__main__.py,sha256=bQTdbDPnd-m5Y67RHEpQEZUBwb2Ffw990EuD19b9yGA,37
+zdcode/bundle.py,sha256=UuxTbcBgA1mR9ozYK4VMR_iUUeRL8A9o8aZGL7EWOXQ,7883
+zdcode/program.py,sha256=RmLl_OUh1Ui6bSw83pw5RyCDePTef4XHKZxEd7poqJw,3296
+zdcode/zake.py,sha256=wvRCWJYPPtzQ_CMRPGJacnB146obXj6_Ifu5ipC9sWU,4669
+zdcode/zdlexer.py,sha256=EDUBg09esVJb_VWoR_JW4qvGb-JM1AoQAZves5GVXXg,43561
+ZDCode-2.12.0.dist-info/LICENSE.md,sha256=qjPRElc-ZJm_CtmHIu8O17t_Y5ZE1U4QpVjOZFGuXwg,1101
+ZDCode-2.12.0.dist-info/METADATA,sha256=-3foCXM06fPSTbjXP_7tCB9jrcoe5OfJyj-dVMXWH2I,310
+ZDCode-2.12.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ZDCode-2.12.0.dist-info/entry_points.txt,sha256=bHrD4gzcysSBrVDU35a_poj3yT3d0LNvvuIJbQLnPcw,48
+ZDCode-2.12.0.dist-info/top_level.txt,sha256=w9VLqPD3WQ4mmsc-fl7ukUsY3ipsRgL_TxxXvjHBA9o,7
+ZDCode-2.12.0.dist-info/RECORD,,

@@ -1,0 +1,15 @@
+folium>=0.9.1
+sphinx
+setuptools
+matplotlib>=3.0.0
+pandas
+scipy
+numpy
+ipython
+plotly
+branca
+nbsphinx
+pytest
+coverage
+coveralls
+bokeh

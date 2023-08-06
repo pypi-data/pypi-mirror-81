@@ -1,0 +1,8 @@
+klio_devtools/__init__.py,sha256=e5tFmVEpA8I3c3cR4oBy5VT1p9HiCatO7QVeiudWFpQ,791
+klio_devtools/cli.py,sha256=5N2Y4DnZm3-OwvMXJRai4vGcvT5Pgzs2veNYBHoOdlI,2534
+klio_devtools/commands/develop.py,sha256=ekB-_Ft3JrGc80VISbdPCtXkTEQ0iIjsPMiRIwSJW_8,3418
+klio_devtools-0.1.0.dist-info/METADATA,sha256=k8AOeq4pTZaMchehqjbAC_0Z8HM9msIXprZCIQbjJxs,1482
+klio_devtools-0.1.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+klio_devtools-0.1.0.dist-info/entry_points.txt,sha256=R58EN5QcV6eSiRacg19eLBj2rKz04rc_mMrvaxJsXH8,53
+klio_devtools-0.1.0.dist-info/top_level.txt,sha256=3QXLlK489crrC-ZRtO2uMuzvc2-M8uLN2vrkW9hQetw,14
+klio_devtools-0.1.0.dist-info/RECORD,,

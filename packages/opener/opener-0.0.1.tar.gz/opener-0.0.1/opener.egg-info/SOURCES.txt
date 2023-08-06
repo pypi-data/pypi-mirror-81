@@ -1,0 +1,11 @@
+Changelog.md
+MANIFEST.in
+README.md
+setup.py
+opener/__init__.py
+opener/open_the_lock.py
+opener.egg-info/PKG-INFO
+opener.egg-info/SOURCES.txt
+opener.egg-info/dependency_links.txt
+opener.egg-info/not-zip-safe
+opener.egg-info/top_level.txt

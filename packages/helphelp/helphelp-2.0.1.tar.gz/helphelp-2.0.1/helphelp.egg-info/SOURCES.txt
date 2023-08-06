@@ -1,0 +1,9 @@
+README.md
+setup.py
+helphelp/__init__.py
+helphelp.egg-info/PKG-INFO
+helphelp.egg-info/SOURCES.txt
+helphelp.egg-info/dependency_links.txt
+helphelp.egg-info/entry_points.txt
+helphelp.egg-info/requires.txt
+helphelp.egg-info/top_level.txt

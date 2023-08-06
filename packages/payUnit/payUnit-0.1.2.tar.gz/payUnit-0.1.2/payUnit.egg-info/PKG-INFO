@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: payUnit
+Version: 0.1.2
+Summary: Python sdk for payUnit payments, including Mtn momo,Orange momo,Express Union
+Home-page: UNKNOWN
+Author: SevenGps
+Author-email: info@sevengps.com
+License: MIT
+Description: # PayUnit
+        <p align="center">
+            <h4 align="center">An python payment sdk for MTN Mobile Money,Orange Money,Express Union and Yup transactions.</h4>
+        </p>
+        
+        ## Installation
+        
+        ```bash
+        pip install payunit
+        ```
+        
+        ## Usage
+        **Firstly, Create an instance of payunit, passing as parameter a dictionary with properties**
+        
+        *   **user_api** :  Your user api from payunit dashboard.
+        *   **password_api** : Your user password api from payunit dashboard.
+        *   **api_key** :  Your user password api from payunit dashboard.
+        *   **return_url** :  The return url to your website, for either transaction completed successfully or transaction failed.
+        
+        **Call the make payment method, passing in the amount for the transaction as parameters**
+        #### Example
+        
+        ```py
+        from payunit import payunit
+        
+        # Enter your config details as parameters
+        payment = payunit({
+            "user_api": "Your_User_Api",
+            "password_api": "Your_Password_Api",
+            "api_key": "Your_User_Api_Kay",
+            "return_url": "Return_Url_To_Your_Website"
+        })
+        
+        
+        # Spawns a new transaction process of 4000
+        payment.makePayment(4000)
+        ```
+        Change Log
+        ==========
+        
+        0.0.1 (28/09/2020)
+        ------------------
+        - First Release
+Keywords: payUnit,momo,payment
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown

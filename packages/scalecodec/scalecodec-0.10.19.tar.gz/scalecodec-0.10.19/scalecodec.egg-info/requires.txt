@@ -1,0 +1,6 @@
+more-itertools
+base58>=2.0.1
+
+[test]
+coverage
+pytest

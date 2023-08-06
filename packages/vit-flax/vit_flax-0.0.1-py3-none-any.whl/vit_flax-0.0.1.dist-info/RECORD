@@ -1,0 +1,8 @@
+vit_flax/__init__.py,sha256=IMPKsrYaZeA1vrLvBxVZcaCPXkO0UTLdNyZHGTNFzi8,20
+vit_flax/layers.py,sha256=uxdSBbN4caYffcNE-5swgXaS0k06SCj7nvs9hEBlC_Y,1126
+vit_flax/vit.py,sha256=lGczFji0sgHKYnJc5ch-0TZjuzNbgtRASB107ePrBDo,1043
+vit_flax-0.0.1.dist-info/LICENSE,sha256=ZZT-waNSRD6d-sMAE0pY-3kc9l-YfPzc5v4B0_Pjjdo,1072
+vit_flax-0.0.1.dist-info/METADATA,sha256=-q7QLw9GTu6Vq9Wukz5Fmm36Rk8Ilg4LVynaaaVm9es,625
+vit_flax-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+vit_flax-0.0.1.dist-info/top_level.txt,sha256=ZS_BkZ8mHrypGQFt7USdMiopTXOmSp7H-_oV9zRHe9w,9
+vit_flax-0.0.1.dist-info/RECORD,,

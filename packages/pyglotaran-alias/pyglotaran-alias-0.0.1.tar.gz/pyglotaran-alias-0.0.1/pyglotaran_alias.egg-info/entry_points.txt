@@ -1,0 +1,3 @@
+[console_scripts]
+pyglotaran = glotaran.cli.main:glotaran
+

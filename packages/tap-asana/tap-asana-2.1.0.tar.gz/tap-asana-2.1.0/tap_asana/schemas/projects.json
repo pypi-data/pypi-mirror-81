@@ -1,0 +1,435 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "name": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "gid": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "resource_type": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "owner": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "gid": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "resource_type": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "name": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "current_status": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "custom_fields": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "gid": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "resource_type": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "name": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "resource_subtype": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "type": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "enum_options": {
+            "type": [
+              "null",
+              "array"
+            ],
+            "items": {
+              "type": [
+                "object"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "gid": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "resource_type": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "name": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "enabled": {
+                  "type": [
+                    "null",
+                    "boolean"
+                  ]
+                },
+                "color": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                }
+              }
+            }
+          },
+          "enum_value": {
+            "type": [
+              "null",
+              "object"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "gid": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "resource_type": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "name": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "enabled": {
+                "type": [
+                  "null",
+                  "boolean"
+                ]
+              },
+              "color": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              }
+            }
+          },
+          "enabled": {
+            "type": [
+              "null",
+              "boolean"
+            ]
+          },
+          "text_value": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "number_value": {
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "description": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "precision": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "is_global_to_workspace": {
+            "type": [
+              "null",
+              "boolean"
+            ]
+          },
+          "has_notifications_enabled": {
+            "type": [
+              "null",
+              "boolean"
+            ]
+          }
+        }
+      }
+    },
+    "default_view": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "due_date": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "due_on": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "html_notes": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "is_template": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "created_at": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "modified_at": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "start_on": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "archived": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "public": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "members": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "object"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "gid": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "resource_type": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "name": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        }
+      }
+    },
+    "followers": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "object"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "gid": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "resource_type": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "name": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        }
+      }
+    },
+    "color": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "notes": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "icon": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "permalink_url": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "workspace": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "gid": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "resource_type": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "name": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "team": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "gid": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "resource_type": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "name": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    }
+  }
+}

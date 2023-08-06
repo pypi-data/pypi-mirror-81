@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: oui
+Version: 0.0.0
+Summary: Highly reusable UI components for sound recognition
+Home-page: UNKNOWN
+Author: Otosense
+Author-email: UNKNOWN
+License: Apache Software License
+Keywords: User Interface,UI,sound recognition
+Platform: UNKNOWN
+Requires-Dist: argh
+
+UNKNOWN
+
+

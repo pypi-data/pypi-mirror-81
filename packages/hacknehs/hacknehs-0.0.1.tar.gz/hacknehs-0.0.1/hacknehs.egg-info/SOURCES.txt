@@ -1,0 +1,7 @@
+README.md
+setup.py
+hacknehs/__init__.py
+hacknehs.egg-info/PKG-INFO
+hacknehs.egg-info/SOURCES.txt
+hacknehs.egg-info/dependency_links.txt
+hacknehs.egg-info/top_level.txt

@@ -1,0 +1,15 @@
+scrapper/__init__.py,sha256=IyW3fZJBmKY6v89EjC1u6GtpcrfhhkJd5DPZjU34I-8,20
+scrapper/altall.py,sha256=LFARwjN7rO_quPMqdYFsseym2rw1miPRLYdBVZ4KDDY,1955
+scrapper/fbsingle.py,sha256=wZ9n1SCA8911E3MOcHbj92n4y9IXSvxNWQBxz0qU6w8,1890
+scrapper/goimg.py,sha256=q6G4kzs1WuJZB-hWmRKa4l6n49TwEtbuk7rAM2r9X5k,5241
+scrapper/instaall.py,sha256=w3Au8fD5_dg7I8sgY_Pxe349reZsYqPZISttJNH25Lk,2016
+scrapper/instasingle.py,sha256=MxgvGLaSd-K_djtg9rlWgD3EFpDpU5kYpTFxvXdqnj8,985
+scrapper/scrape.py,sha256=rKQ8_Tmysds8kmuJtDyfUShWZi_2PZ8qDonNnEeblYw,6698
+scrapper/trading_image.py,sha256=weWIRZaLLgqHB21TXNQeLWXE8z-0STNpFEiZrDtw2LQ,3319
+scrapper/twsingle.py,sha256=f_sD22jiDR2dz1i4DCTtuK0Min_5ZYEwcGcJWEciIOc,853
+scrapper/wpmsg.py,sha256=DqLA6Gia7QofT_-4JcsfD38VuvG3_ZTbmAn_YtNWQnQ,1819
+scrapeShivam-0.0.5.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+scrapeShivam-0.0.5.dist-info/METADATA,sha256=9nfzKtBzNlhbHnEFiUNmg-B5H56wVaapsS6ZSHJ3iLM,8205
+scrapeShivam-0.0.5.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+scrapeShivam-0.0.5.dist-info/top_level.txt,sha256=oBjMx0K6SKaYPvGsHHBbO2V1qpfFBdObvmmvtUoqeuQ,9
+scrapeShivam-0.0.5.dist-info/RECORD,,

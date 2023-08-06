@@ -1,0 +1,7 @@
+cloudmesh-admin
+cloudmesh-cmd5
+cloudmesh-common
+cloudmesh-sys
+connexion[swagger-ui]
+docstring_parser
+numpydoc

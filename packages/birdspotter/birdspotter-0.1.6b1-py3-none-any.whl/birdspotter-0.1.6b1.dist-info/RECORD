@@ -1,0 +1,14 @@
+birdspotter/BirdSpotter.py,sha256=3qNKpTarRxIkzc_X4-R-G8mke0K-iljOxwA88twA1TA,31005
+birdspotter/__init__.py,sha256=XsPXS85ZGkeK22khNwiGzx5blMvIVlzUffyAkuUUxNo,73
+birdspotter/user_influence.py,sha256=pnkLnvPsL-B4QC27BY4PupnB0XCYJQ6Djsp_hkbpn5g,3439
+birdspotter/utils.py,sha256=BMIfKLDzEH9wc7xMha1ImOlOlyXPOQydnUlAk6fBn7Q,2413
+birdspotter/data/bot_repository_booster.pickle,sha256=GT6FO8J9VI78-Qf7BRRmspFCWNmX1aVx3_Bbcj0s5tA,170324
+birdspotter/data/oversampled_booster.pickle,sha256=-bOJHdVLhiTo_J5n10xJwMz5rK0i-jldXaoX88x0iAw,337396
+birdspotter/data/pretrained_botness_model.xgb,sha256=Ff2EkbgT0lOYloIjV2-8-tVSYOzprCnQqL2TtoTApVY,169165
+birdspotter/data/standard_bot_features,sha256=Ax4N8hfQh2m-nz28l9CU3yCFEUb94Oh4eb-fiIEeVNw,14026
+birdspotter-0.1.6b1.data/scripts/birdspotter,sha256=Ra77GqJ8rK-0Ya_5v1W80kP6zc91GlSkWPSLqZ1dwXc,975
+birdspotter-0.1.6b1.dist-info/LICENSE.txt,sha256=SfPzuKdgiPXszhNnzftQXmVliu4QbyxmrSr4lYoIA5Y,1087
+birdspotter-0.1.6b1.dist-info/METADATA,sha256=Fn2gEOiMg1jJoFVN1IFa7xxL0UAADvl03lRatrzHJm4,1078
+birdspotter-0.1.6b1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+birdspotter-0.1.6b1.dist-info/top_level.txt,sha256=zkbdgx8gyaNhSHYYEPFuqETCbXtafjmRMGMbISSxUEM,12
+birdspotter-0.1.6b1.dist-info/RECORD,,

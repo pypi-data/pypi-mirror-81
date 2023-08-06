@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: sms-gateway
+Version: 0.1.7
+Summary: Web App Serving as an SMS Gateway based on Gammu
+Home-page: https://github.com/joneug/sms-gateway
+Author: joneug
+License: MIT
+Project-URL: Documentation, https://github.com/joneug/sms-gateway
+Project-URL: Source, https://github.com/joneug/sms-gateway
+Project-URL: Tracker, https://github.com/joneug/sms-gateway/issues
+Description: # SMS Gateway API
+        
+        This repository contains a Python web application providing an API for sending SMS. The SMS sending is based on [`python-gammu`](https://pypi.org/project/python-gammu/). Some concepts used for implementing this application are borrowed from [`vvanholl/smsgateway-gammu`](https://github.com/vvanholl/smsgateway-gammu).
+        
+        ## Usage
+        
+        ### PIP
+        
+        First install `sms-gateway` using PIP:
+        
+        ```sh
+        $ pip install sms-gateway
+        ```
+        
+        Then run the application and provide the device name, the PIN and a token used to authenticate against the API. For further options see [Options](#options).
+        
+        ```sh
+        $ sms-gateway --device /dev/ttyUSB1 --pin 1234 --token ABCD1234
+        ```
+        
+        ### Docker
+        
+        You can also run the web app via Docker:
+        
+        ```sh
+        $ docker run --device=/dev/ttyUSB1:/dev/modem -p 8000:8000 joneug/sms-gateway --pin 1234 --token ABCD1234
+        ```
+        
+        Alternatively you can use docker-compose:
+        
+        ```yaml
+        version: '3'
+        services:
+          sms-gateway:
+            image: joneug/sms-gateway
+            environment:
+              - "SG_PIN=1234"
+              - "SG_TOKEN=ABCD1234"
+            devices:
+              - /dev/ttyUSB1:/dev/modem
+        ```
+        
+        ## Options
+        
+        TODO
+        
+Keywords: SMS,gateway,gammu
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Environment :: Console
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python:  >= 3.5
+Description-Content-Type: text/markdown

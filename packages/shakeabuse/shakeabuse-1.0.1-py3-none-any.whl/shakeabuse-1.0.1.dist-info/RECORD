@@ -1,0 +1,12 @@
+shakeabuse/__init__.py,sha256=d4QHYmS_30j0hPN8NmNPnQ_Z0TphDRbu4MtQj9cT9e8,22
+shakeabuse/__main__.py,sha256=lGQ2yUBvyCMPFsWPosMGeehk13evv3LgtVGzlRk40WQ,184
+shakeabuse/abuses.py,sha256=jTS1fUrLIFzKxD6oZzB2tTAWTt4mFKJ9-mz73fCwtc8,2587
+shakeabuse/insults_full.py,sha256=KPHzOfyU_wdFbhCZ8chnjjAXmaTk9UfNFD6_wAmLHrk,5225
+shakeabuse/insults_parts.py,sha256=l8xtzizGUMHfAv98JE_hnbTgbWEG0v8lUy2W01xv_Mc,3331
+shakeabuse/make_abuse.py,sha256=iuy7JlQRkWdUrvOeIaaKHSU5N-xpgsN7m_ZSjKvntYo,527
+shakeabuse-1.0.1.dist-info/LICENSE,sha256=yezfUhqHh91mALGHVQba1nW7VauFk31IXmSTETvIT9o,1074
+shakeabuse-1.0.1.dist-info/METADATA,sha256=SWQU5sXatsuwgNN7BQ43RIICb_Ty_IFTskhivVqNrzw,1046
+shakeabuse-1.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+shakeabuse-1.0.1.dist-info/entry_points.txt,sha256=J9b1P8mvJOZubftOiBefO1_WMJqTuSx2GRU2GL0cHi0,56
+shakeabuse-1.0.1.dist-info/top_level.txt,sha256=2tYzfB_KYgMO5Xdf4Se_hWMoTENtWIhU_8Et7BbOIUE,11
+shakeabuse-1.0.1.dist-info/RECORD,,

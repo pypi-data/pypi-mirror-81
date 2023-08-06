@@ -1,0 +1,14 @@
+django_discount/__init__.py,sha256=QpG7uue_GC5QFO0OaTpQDm9W3kVZDliQkN_j__KLDW8,68
+django_discount/admin.py,sha256=8wuo9GMXHdYSncFtTtEadDQ90URBz5S-fExaFKCB0Jk,190
+django_discount/apps.py,sha256=eaOD0k2NVhoTI78JD_04TM4jB04pSsuJ9dyuMZ7gKgU,107
+django_discount/consts.py,sha256=TMS-ExqppcsTsl-S2iCHXJwLaS6-skLV96x86sws6do,258
+django_discount/models.py,sha256=ZOnHud1dV5aQDT6eBFUYjTn8si_pRYJIVfUy23yPhxQ,10256
+django_discount/utils.py,sha256=GRAZccTnpDR3M7nXZRt8uV7NmSw5AQ6bdiz3YPjsSdU,343
+django_discount/views.py,sha256=sSIfJhU0zwLgPpuOqgrc2-5zEC7llYICamQ5xSHMKG0,290
+django_discount/migrations/0001_initial.py,sha256=T1csC1CB2pWKkUvsoojVHbSNuPI3UcsslZ-vSbR_P_A,2617
+django_discount/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_discount-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+django_discount-0.0.1.dist-info/METADATA,sha256=MZulkq8lL43ovs49slTuUpU1Ugpjo-mXQwN1ujHV2Ts,447
+django_discount-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_discount-0.0.1.dist-info/top_level.txt,sha256=4BFVP5PUpxf1wtRkwlPz2z5H9JB_u7OzjlrlOpqh47s,16
+django_discount-0.0.1.dist-info/RECORD,,

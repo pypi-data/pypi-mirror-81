@@ -1,0 +1,10 @@
+dm-haiku
+jax
+jaxlib
+jax_toolkit
+pandas
+scikit-learn
+
+[streamz]
+hvplot
+streamz

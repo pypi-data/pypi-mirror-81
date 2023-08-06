@@ -1,0 +1,5 @@
+setup.py
+czyutils.egg-info/PKG-INFO
+czyutils.egg-info/SOURCES.txt
+czyutils.egg-info/dependency_links.txt
+czyutils.egg-info/top_level.txt

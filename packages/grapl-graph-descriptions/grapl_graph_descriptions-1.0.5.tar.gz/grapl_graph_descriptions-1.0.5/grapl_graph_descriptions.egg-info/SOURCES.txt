@@ -1,0 +1,9 @@
+setup.py
+grapl_graph_descriptions/__init__.py
+grapl_graph_descriptions/graph_description_pb2.py
+grapl_graph_descriptions.egg-info/PKG-INFO
+grapl_graph_descriptions.egg-info/SOURCES.txt
+grapl_graph_descriptions.egg-info/dependency_links.txt
+grapl_graph_descriptions.egg-info/not-zip-safe
+grapl_graph_descriptions.egg-info/requires.txt
+grapl_graph_descriptions.egg-info/top_level.txt

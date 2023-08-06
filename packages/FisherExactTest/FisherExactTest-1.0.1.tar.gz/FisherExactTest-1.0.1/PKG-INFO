@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: FisherExactTest
+Version: 1.0.1
+Summary: Two tailed Fisher's exact test wrote in pure Python
+Home-page: https://github.com/Ae-Mc/Fisher
+Author: Ae-Mc
+Author-email: ae_mc@mail.ru
+License: UNKNOWN
+Description: # Fisher
+        ![PyPI](https://img.shields.io/pypi/v/FisherExactTest?color=orange)
+        
+        Pure Python realization of Fisher's exact test
+        
+        Usage example:
+        ```python
+        from FisherExactTest import FisherExact
+        
+        
+        print(FisherExact(504, 539,
+                          504, 468))  # Decimal('0.1187334465023821683418832686')
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

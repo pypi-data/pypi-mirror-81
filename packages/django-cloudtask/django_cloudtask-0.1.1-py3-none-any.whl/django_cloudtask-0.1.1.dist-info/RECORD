@@ -1,0 +1,13 @@
+django_cloudtask/__init__.py,sha256=L4r4weOWgLZDvlpWsJZmqsiGgdUEE_JgeumeK-F238I,97
+django_cloudtask/apps.py,sha256=hMffaxL04QLwIO2MDsQVhrWxjWV89uVOxmvMFd_Fy38,680
+django_cloudtask/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_cloudtask/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_cloudtask/management/commands/sync_scheduler.py,sha256=RXUeJCFhR4jmsBNLnvUnwc7C9Y-uUw2x9KFMl64-hqQ,3869
+django_cloudtask/task.py,sha256=RW15aPnzXApaB_aNnA1VWXvoR-iVVSjoyVQPSWyzjY8,3626
+django_cloudtask/urls.py,sha256=tBvulpQy5mUTD01wPxBtBMSmVHHTElCyKsC5-dr1ys8,131
+django_cloudtask/utils.py,sha256=slJIFEVrOKAtu6aZs5kYS3AAFQgPIetdwjOdoJJP8CQ,568
+django_cloudtask/views.py,sha256=3lXSj86CARtPBHen8Q2TM75npeP12yQv8rnZz7edDTw,949
+django_cloudtask-0.1.1.dist-info/LICENSE,sha256=2_0_i37muIh5ZMvoAwCLMIEPVePV6knQRmugrIP9tVw,1513
+django_cloudtask-0.1.1.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+django_cloudtask-0.1.1.dist-info/METADATA,sha256=wyKntA787UPVzEXOWUbKPinK91BngZ8VFeK7S3ME7Y8,2645
+django_cloudtask-0.1.1.dist-info/RECORD,,

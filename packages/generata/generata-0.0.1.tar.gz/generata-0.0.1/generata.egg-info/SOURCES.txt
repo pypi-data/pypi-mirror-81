@@ -1,0 +1,10 @@
+setup.py
+generata/__init__.py
+generata/__main__.py
+generata/generator.py
+generata.egg-info/PKG-INFO
+generata.egg-info/SOURCES.txt
+generata.egg-info/dependency_links.txt
+generata.egg-info/entry_points.txt
+generata.egg-info/requires.txt
+generata.egg-info/top_level.txt

@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+DirectFolderBrowser/DirectFolderBrowser.py
+DirectFolderBrowser/__init__.py
+DirectFolderBrowser.egg-info/PKG-INFO
+DirectFolderBrowser.egg-info/SOURCES.txt
+DirectFolderBrowser.egg-info/dependency_links.txt
+DirectFolderBrowser.egg-info/top_level.txt
+DirectFolderBrowser/icons/File.png
+DirectFolderBrowser/icons/Folder.png
+DirectFolderBrowser/icons/FolderNew.png
+DirectFolderBrowser/icons/FolderShowHidden.png
+DirectFolderBrowser/icons/FolderUp.png
+DirectFolderBrowser/icons/Reload.png

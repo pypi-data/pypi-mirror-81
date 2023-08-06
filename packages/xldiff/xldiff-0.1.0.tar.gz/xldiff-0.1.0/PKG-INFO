@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: xldiff
+Version: 0.1.0
+Summary: A dead-simple command line diffing of datasets stored in Excel
+Home-page: https://github.com/glesica/xldiff
+Author: George Lesica
+Author-email: george@lesica.com

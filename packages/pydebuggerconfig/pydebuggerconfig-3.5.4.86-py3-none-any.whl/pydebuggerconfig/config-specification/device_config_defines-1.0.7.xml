@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration name="fw5gDeviceConfig" prefix="FW5GDCFG" caption="5G Device Configuration" size="2816">
+    <version>
+        <MAJOR>1</MAJOR> <!-- Increase by 1 if a change breaks backwards compatibility (don't do it!) -->
+        <MINOR>0</MINOR> <!-- Increase by 1 every time something is added, reset to 0 when major is increased -->
+        <BUILD>7</BUILD> <!-- Automatically set by the build server -->
+    </version>
+
+    <!-- Device Configuration Specification Version -->
+    <registers>
+        <register offset="0x000" size="1" type="BYTE" name="DEVICE_CONFIG_MAJOR" caption="Configuration major version">
+            <description>The major version number of the configuration specification. Any change that is not backward-compatible will trigger a new major version.</description>
+        </register>
+        <register offset="0x001" size="1" type="BYTE" name="DEVICE_CONFIG_MINOR" caption="Configuration minor version">
+            <description>The minor version number of the configuration specification. This number is increased every time something is added to the configuration.</description>
+        </register>
+        <register offset="0x002" size="2" type="BYTE" name="DEVICE_CONFIG_BUILD" caption="Configuration build number">
+            <description>Build number of the configuration specification.</description>
+        </register>
+
+        <!-- Content information -->
+        <register offset="0x004" size="2" type="BYTE" name="CONTENT_LENGTH" caption="Content length">
+            <description>Number of bytes of content counting from address 0x008.</description>
+        </register>
+        <register offset="0x006" size="2" type="BYTE" name="CONTENT_CHECKSUM" caption="Content checksum">
+            <description>Checksum of the content from offset 0x008 to 0x008 + CONTENT_LENGTH.</description>
+        </register>
+
+        <!-- Content version -->
+        <register offset="0x008" size="1" type="BYTE" name="INSTANCE" caption="Content instance">
+            <description>The instance (version) of content</description>
+        </register>
+
+        <!-- Device / Interface parameters -->
+        <register offset="0x010" size="1" type="ENUM" name="INTERFACE_TYPE" caption="Interface selection">
+            <value caption="None" name="NONE" value="0x00">
+                <description>No device type specified</description>
+            </value>
+            <value caption="AVR TINYX using UPDI API" name="UPDI_TINYX_API" value="0x01">
+                <description></description>
+            </value>
+            <value caption="PIC using API" name="PIC_API" value="0x02">
+                <description></description>
+            </value>
+            <value caption="PIC using script engine" name="PIC_SCRAPI" value="0x03">
+                <description></description>
+            </value>
+        </register>
+        <!-- Device / Interface variant -->
+        <register offset="0x011" size="1" type="BYTE" name="DEVICE_VARIANT" caption="Device variant"/>
+
+        <!-- Data Blob -->
+        <register offset="0x020" size="2784" type="BLOB" name="BLOB" caption="data blob">
+            <description>This is where all the data goes</description>
+            <!-- the "BLOB" register contains 1 or more blobs-->
+            <blob num="inf">
+                <!-- A blob has a type token -->
+                <token size="1" num="1" type="ENUM">
+                    <!-- Valid blob tokens -->
+                    <value caption="List" name="LIST" value="0x4C">
+                        <description>This is a list, ASCII value for "L"</description>
+                    </value>
+                </token>
+                <list>
+                    <!-- A list has a number of data entries -->
+                    <number size="1" num="1" type="BYTE">
+                        <description>Number of entries on the list</description>
+                    </number>
+                    <!-- All the data entries start at different offsets relative to the list start -->
+                    <offset size="2" num="inf" type="BYTE">
+                        <description>Offset to where the data for this blob starts, relative to list start.</description>
+                    </offset>
+                    <entry>
+                        <!-- Each entry has a type -->
+                        <type size="1" num="1" type="ENUM">
+                            <!-- Tells the firmware how to read the entry -->
+                            <description>Entry type, either "S" for script or "D" for device context.</description>
+                            <value caption="UPDI TINYX device context" name="D_TINYX" value="0x44">
+                                <description>Device context entry for UPDI.</description>
+                            </value>
+                            <value caption="ICSP device context" name="D_ICSP" value="0x44">
+                                <description>Device context entry for ICSP.</description>
+                            </value>
+                            <value caption="script" name="SCRIPT" value="0x53">
+                                <description>Entry for a script, ASCII value for "S"</description>
+                            </value>
+                        </type>
+                        <!-- ID is used for scripts -->
+                        <ID size="1" num="1" type="BYTE">
+                            <description>Script ID</description>
+                        </ID>
+                        <!-- Length of data -->
+                        <DATA_LENGTH size="2" num="1" type="BYTE">
+                            <description>Number of date bytes</description>
+                        </DATA_LENGTH>
+                        <!-- A script is of type "S" and has the following registers -->
+                        <script type="SCRIPT">
+                            <DATA size="1" num="inf" type="BYTE">
+                                <description>Script data</description>
+                            </DATA>
+                        </script>
+                        <!-- Device contexts are of type "D" and has different data based on interface -->
+                        <UPDIDeviceContext type="D_TINYX">
+                            <PROG_BASE offset="0x00" size="2" num="1" type="BYTE">
+                                <description>Start address of program memory</description>
+                            </PROG_BASE>
+                            <FLASH_PAGE_BYTES offset="0x02" size="1" num ="1" type="BYTE">
+                                <description>Page size of flash in bytes</description>
+                            </FLASH_PAGE_BYTES>
+                            <EEPROM_PAGE_BYTES offset="0x03" size="1" num="1" type="BYTE">
+                                <description>Page size of EEPROM</description>
+                            </EEPROM_PAGE_BYTES>
+                            <NVMCTRL_MODULE offset="0x04" size="2" num="1" type="BYTE">
+                                <description>Address of the NVMCTRL module</description>
+                            </NVMCTRL_MODULE>
+                            <OCD_MODULE offset="0x06" size="2" num="1" type="BYTE">
+                                <description>Address of the OCD module</description>
+                            </OCD_MODULE>
+                        </UPDIDeviceContext>
+                        <ICSPDeviceContext type="D_ICSP">
+                            <PIC_FLASH_BASE_W offset="0x00" size="4" num="1" type="BYTE"/>
+                            <PIC_EEPROM_BASE_W offset="0x04" size="4" num="1" type="BYTE"/>
+                            <PIC_USER_ID_BASE_W offset="0x08" size="4" num="1" type="BYTE"/>
+                            <PIC_CONFIG_BASE_W offset="0x0C" size="4" num="1" type="BYTE"/>
+                            <PIC_FLASH_SIZE_W offset="0x10" size="4" num="1" type="BYTE"/>
+                            <PIC_EEPROM_SIZE_B offset="0x14" size="2" num="1" type="BYTE"/>
+                            <PIC_USER_ID_SIZE_W offset="0x16" size="2" num="1" type="BYTE"/>
+                            <PIC_CONFIG_SIZE_W offset="0x18" size="2" num="1" type="BYTE"/>
+                            <PIC_FLASH_WRITE_BLOCK_B offset="0x1A" size="2" num="1" type="BYTE"/>
+                            <PIC_EEPROM_WRITE_BLOCK_B offset="0x1C" size="2" num="1" type="BYTE"/>
+                            <PIC_USER_ROW_WRITE_BLOCK_B offset="0x1E" size="1" num="1" type="BYTE"/>
+                            <PIC_CONFIG_WRITE_BLOCK_B offset="0x1F" size="1" num="1" type="BYTE"/>
+                            <PIC_DEVICE_ID offset="0x20" size="2" num="1" type="BYTE"/>
+                        </ICSPDeviceContext>
+                        <!-- TODO: Add more device context types-->
+                    </entry>
+                </list>
+            </blob>
+        </register>
+    </registers>
+</configuration>

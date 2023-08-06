@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<deviceconf name="no-msc-programming">
+    <register name="DEVICE_CONFIG_MAJOR" value="1"/>
+    <register name="DEVICE_CONFIG_MINOR" value="6"/>
+    <register name="DEVICE_CONFIG_BUILD" value="49"/>
+    <register name="CONTENT_LENGTH" value="0"/>
+    <register name="CONTENT_CHECKSUM" value="0"/>
+    <register name="INSTANCE" value="1"/>
+    <register name="INTERFACE_TYPE" value="0x00"/> <!-- No mass storage support -->
+    <register name="DEVICE_VARIANT" value="0x00"/>
+    <register name="BLOB" value=""/>
+</deviceconf>

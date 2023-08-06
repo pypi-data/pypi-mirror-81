@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration name="SAMD21G18AIoTWIFI">
+    <register name="CONFIG_FORMAT_MAJOR" value="1"/>
+    <register name="CONFIG_FORMAT_MINOR" value="9"/>
+    <register name="CONFIG_FORMAT_BUILD" value="63"/>
+    <register name="INSTANCE" value="0"/>
+    <register name="HARDWARE_MOD" value="0x00"/>
+    <register name="USB_ENUMERATION" value="0x03"/>
+    <register name="MSD_SETTINGS" value="0x01"/>
+	<register name="CLICK_ME_TYPE" value="0x00"/>
+    <register name="TARGET_DEBUG_INTERFACES" value="0x00000002"/>
+    <register name="TARGET_DEBUG_FEATURES" value="0x07"/>
+    <register name="ID_CHANNELS" value="0x00"/>
+    <register name="DGI_INTERFACES" value="0x01"/>
+    <register name="DGI_GPIO_MAP" value="0x01"/>
+    <register name="I2C_ADDR_0" value="0x00"/>
+    <register name="I2C_ADDR_1" value="0x00"/>
+    <register name="ANALOG_FEATURES" value="0x0002"/>
+    <register name="VMIN" value="20"/>
+    <register name="VMAX" value="36"/>
+    <register name="VTG" value="33"/>
+    <register name="VREG" value="0x00"/>
+    <register name="LABS" value="0x0000"/>
+    <register name="KITNAME" value="SAMD21-IoT WG"/>
+    <register name="MNFRNAME" value="Microchip"/>
+    <register name="DEVNAME" value="ATSAMD21G18A"/>
+    <register name="SERNUM" value="FFFFFFFFFFFFFFFFFFFF"/>
+    <register name="REDIRECT" value="0025"/>
+    <register name="DATE" value="20200406"/>
+    <register name="KEY1_TYPE" value="0x00"/>
+    <register name="KEY2_TYPE" value="0x00"/>
+    <register name="KEY3_TYPE" value="0x00"/>
+    <register name="KEY4_TYPE" value="0x00"/>
+    <register name="KEY1_LEN" value="0x00"/>
+    <register name="KEY2_LEN" value="0x00"/>
+    <register name="KEY3_LEN" value="0x00"/>
+    <register name="KEY4_LEN" value="0x00"/>
+    <register name="KEY1" value="00"/>
+    <register name="KEY2" value="00"/>
+    <register name="KEY3" value="00"/>
+    <register name="KEY4" value="00"/>
+</configuration>

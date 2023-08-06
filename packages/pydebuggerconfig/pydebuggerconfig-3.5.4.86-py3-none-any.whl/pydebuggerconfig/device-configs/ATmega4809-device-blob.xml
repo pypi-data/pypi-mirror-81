@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<deviceconf name="ATmega4809">
+    <register name="DEVICE_CONFIG_MAJOR" value="1"/>
+    <register name="DEVICE_CONFIG_MINOR" value="6"/>
+    <register name="DEVICE_CONFIG_BUILD" value="49"/>
+    <register name="CONTENT_LENGTH" value="0"/>
+    <register name="CONTENT_CHECKSUM" value="0"/>
+    <register name="INSTANCE" value="1"/>
+    <register name="INTERFACE_TYPE" value="0x01"/>
+    <register name="DEVICE_VARIANT" value="0x00"/>
+    <register name="BLOB" value="">
+        <blob>
+            <token>LIST</token>
+            <entry>
+                <type>D_TINYX</type>
+                <!-- Flash information -->
+                <data type="PROG_BASE">0x4000</data>
+                <data type="FLASH_BYTES">0xC000</data>
+                <data type="FLASH_PAGE_BYTES">0x80</data>
+                <!-- EEPROM information -->
+                <data type="EEPROM_BASE">0x1400</data>
+                <data type="EEPROM_BYTES">0x100</data>
+                <data type="EEPROM_PAGE_BYTES">0x40</data>
+                <!-- User row information -->
+                <data type="USER_ROW_BASE">0x1300</data>
+                <data type="USER_SIG_BYTES">0x40</data>
+                <!-- Signature row information -->
+                <data type="SIGROW_BASE">0x1100</data>
+                <data type="DEVICE_ID">0x9651</data>
+                <!-- FUSE/LOCK information -->
+                <data type="FUSE_BASE">0x1280</data>
+                <data type="FUSE_BYTES">0x0A</data>
+                <data type="LOCK_BASE">0x128A</data>
+                <!-- PROG/DEBUG information -->
+                <data type="NVMCTRL_MODULE">0x1000</data>
+                <data type="OCD_MODULE">0x0F80</data>
+                <!-- UPDI speed limits -->
+                <data type="PDICLK_DIV1_VMIN">4500</data> <!-- mV-->
+                <data type="PDICLK_DIV2_VMIN">2700</data> <!-- mV-->
+                <data type="PDICLK_DIV4_VMIN">2200</data> <!-- mV-->
+                <data type="PDICLK_DIV8_VMIN">1500</data> <!-- mV-->
+                <data type="PDI_PAD_FMAX">1500</data> <!-- kB -->
+                <!-- Fuse protection parameters -->
+                <data type="SYSCFG_OFFSET">5</data> <!-- SYSCFG0 is at address 0x1285 -->
+                <!-- This part has a dedicated UPDI pin, and the reset pin is not used -->
+                <data type="SYSCFG_WRITE_MASK_AND">0xFF</data> <!-- Force no bits low -->
+                <data type="SYSCFG_WRITE_MASK_OR">0x00</data> <!-- Force no bits high -->
+                <!-- To disable CRC: ensure CRCSRC bits are b11, ie: SYSCFG0 is b11XXXXXX -->
+                <data type="SYSCFG_ERASE_MASK_AND">0xFF</data> <!-- Force no bits low -->
+                <data type="SYSCFG_ERASE_MASK_OR">0xC0</data> <!-- Force bits 7:6 high -->
+                <!-- additional UPDI parameters, not applicable for ATmega4809 -->
+                <data type="PROG_BASE_MSB">0x00</data>
+                <data type="FLASH_PAGE_BYTES_MSB">0x00</data>
+                <data type="ADDRESS_SIZE">0x00</data>
+            </entry>
+        </blob>
+    </register>
+</deviceconf>

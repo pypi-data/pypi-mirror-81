@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration name="EdbgBoardConfig" prefix="EDBGCFG" caption="EDBG Configuration" size="512">
+    <version>
+        <MAJOR>1</MAJOR> <!-- Increase by 1 if a change breaks backwards compatibility (don't do it!) -->
+        <MINOR>6</MINOR> <!-- Increase by 1 every time something is added, reset to 0 when major is increased -->
+        <BUILD>49</BUILD> <!-- Automatically set by the build server -->
+    </version>
+
+    <registers>
+        <!-- Configuration version -->
+        <register offset="0x000" size="1" type="BYTE" name="CONFIG_FORMAT_MAJOR" introduced="1.0" caption="Configuration major version" show="false">
+            <description>The major version number of the configuration specification. Any change that is not backward-compatible will trigger a new major version.</description>
+        </register>
+        <register offset="0x001" size="1" type="BYTE" name="CONFIG_FORMAT_MINOR" introduced="1.0" caption="Configuration minor version" show="false">
+            <description>The minor version number of the configuration specification. This number is increased every time something is added to the configuration.</description>
+        </register>
+        <register offset="0x002" size="2" type="BYTE" name="CONFIG_FORMAT_BUILD" introduced="1.0" caption="Configuration build number" show="false">
+            <description>Build number of the configuration specification.</description>
+        </register>
+
+        <!-- Content version -->
+        <register offset="0x004" size="1" type="BYTE" name="INSTANCE" introduced="1.0" caption="Content instance" show="false">
+            <description>The instance (version) of content</description>
+        </register>
+        <register offset="0x005" size="1" type="BYTE" name="HARDWARE_MOD" introduced="1.0" caption="Hardware modification" product="cnano" show="false">
+            <description>Hardware modification bits</description>
+        </register>
+
+        <!-- USB Settings -->
+        <!-- USB VID and PID may become useful
+        <register offset="0x006" size="2" type="BYTE" name="USB_VID" caption="USB Vendor ID (LSB first)" show="false">
+            <description>Sets the USB vendor ID that the debugger will enumerate with.</description>
+        </register>
+        <register offset="0x008" size="2" type="BYTE" name="USB_PID" caption="USB Product ID (LSB first)" show="false">
+            <description>Sets the USB product ID that the debugger will enumerate with.</description>
+        </register>
+        -->
+        <register offset="0x00A" size="1" type="ENUM" name="USB_ENUMERATION" introduced="1.0" caption="USB Enumeration" show="true">
+            <description>Select which USB interfaces are enumerated in the composite USB device.</description>
+            <value caption="HID" name="HID" introduced="1.0" value="0x00">
+                <description>HID</description>
+            </value>
+            <value caption="HID + CDC" name="HID_CDC" introduced="1.0" value="0x01">
+                <description>HID + CDC</description>
+            </value>
+            <value caption="HID + DGI" name="HID_DGI" introduced="1.0" value="0x02">
+                <description>HID + DGI</description>
+            </value>
+            <value caption="HID + MSD + DGI + CDC" name="HID_MSD_DGI_CDC" introduced="1.0" value="0x03">
+                <description>HID + MSD + DGI + CDC</description>
+            </value>
+            <value caption="HID + DGI + CDC" name="HID_DGI_CDC" introduced="1.0" value="0x04">
+                <description>HID + DGI + CDC</description>
+            </value>
+            <value caption="HID + MSD + CDC" name="HID_MSD_CDC" introduced="1.0" value="0x05">
+                <description>HID + MSD + CDC</description>
+            </value>
+        </register>
+        
+        <!-- MSD settings -->
+        <register offset="0x00B" size="1" type="ENUM" name="MSD_SETTINGS" introduced="1.1" caption="Mass storage settings" show="false">
+            <description>Used to determine the configuration of the MSD file system and file content</description>
+            <value name="DEFAULT" caption="Default settings" value="0x00" introduced="1.1">
+                <description>Default setup</description>
+            </value>
+            <value name="IOT_AVR" caption="Settings for AVR IOT boards" value="0x01" introduced="1.1">
+                <description>AVR IOT kit, two extra files with the public key and avr-iot link</description>
+            </value>
+            <!-- Value 0x02 reserved for future use -->
+            <value name="IOT_PIC" caption="Settings for PIC IOT boards" value="0x03" introduced="1.6">
+                <description>PIC IOT kit, two extra files with the public key and pic-iot link</description>
+            </value>
+        </register>
+        
+        <!-- 3-byte gap -->
+        
+        <!-- Programming / Debug settings -->
+        <register offset="0x00F" size="4" type="BITS" name="TARGET_DEBUG_INTERFACES" introduced="1.0" caption="Program/debug interfaces" show="true">
+            <description>Program / Debug interface select bits on the debugger.</description>
+            <bits pos="1" size="1" name="SWD" introduced="1.0" caption="SWD">
+                <description>SWD for ARM.</description>
+                <value value="0" introduced="1.0">
+                    <description>Do not report the SWD interface as available.</description>
+                </value>
+                <value value="1" introduced="1.0">
+                    <description>Report the SWD interface as available.</description>
+                </value>
+            </bits>
+            <bits pos="2" size="1" name="ARMJTAG" introduced="1.0" caption="JTAG">
+                <description>JTAG for ARM.</description>
+                <value value="0" introduced="1.0">
+                    <description>Do not report the JTAG for ARM interface as available.</description>
+                </value>
+                <value value="1" introduced="1.0">
+                    <description>Report the JTAG for ARM interface as available.</description>
+                </value>
+            </bits>
+            <bits pos="3" size="1" name="AVRJTAG" introduced="1.0" caption="JTAG">
+                <description>JTAG for AVR.</description>
+                <value value="0" introduced="1.0">
+                    <description>Do not report the JTAG for AVR interface as available.</description>
+                </value>
+                <value value="1" introduced="1.0">
+                    <description>Report the JTAG for AVR interface as available.</description>
+                </value>
+            </bits>
+            <bits pos="4" size="1" name="aW" introduced="1.0" caption="aWire">
+                <description>aWire for AVR32.</description>
+                <value value="0" introduced="1.0">
+                    <description>Do not report the aW interface as available.</description>
+                </value>
+                <value value="1" introduced="1.0">
+                    <description>Report the aW interface as available.</description>
+                </value>
+            </bits>
+            <bits pos="5" size="1" name="dW" introduced="1.0" caption="debugWire">
+                <description>debugWire for AVR.</description>
+                <value value="0" introduced="1.0">
+                    <description>Do not report the dW interface as available.</description>
+                </value>
+                <value value="1" introduced="1.0">
+                    <description>Report the dW interface as available.</description>
+                </value>
+            </bits>
+            <bits pos="6" size="1" name="PDI" introduced="1.0" caption="PDI">
+                <description>PDI for AVR.</description>
+                <value value="0" introduced="1.0">
+                    <description>Do not report the PDI interface as available.</description>
+                </value>
+                <value value="1" introduced="1.0">
+                    <description>Report the PDI interface as available.</description>
+                </value>
+            </bits>
+            <bits pos="7" size="1" name="ISP" introduced="1.0" caption="ISP">
+                <description>ISP for AVR.</description>
+                <value value="0" introduced="1.0">
+                    <description>Do not report the ISP interface as available.</description>
+                </value>
+                <value value="1" introduced="1.0">
+                    <description>Report the ISP interface as available.</description>
+                </value>
+            </bits>
+            <bits pos="8" size="1" name="UPDI" introduced="1.0" caption="UPDI">
+                <description>UPDI.</description>
+                <value value="0" introduced="1.0">
+                    <description>Do not report the UPDI interface as available.</description>
+                </value>
+                <value value="1" introduced="1.0">
+                    <description>Report the UPDI interface as available.</description>
+                </value>
+            </bits>
+            <bits pos="9" size="1" name="TPI" introduced="1.0" caption="TPI">
+                <description>TPI for AVR.</description>
+                <value value="0" introduced="1.0">
+                    <description>Do not report the TPI interface as available.</description>
+                </value>
+                <value value="1" introduced="1.0">
+                    <description>Report the TPI interface as available.</description>
+                </value>
+            </bits>
+            <bits pos="10" size="1" name="SWO" introduced="1.0" caption="SWO">
+                <description>SWO for ARM.</description>
+                <value value="0" introduced="1.0">
+                    <description>Do not report the SWO interface as available.</description>
+                </value>
+                <value value="1" introduced="1.0">
+                    <description>Report the SWO interface as available.</description>
+                </value>
+            </bits>
+            <bits pos="11" size="1" name="ICSP" introduced="1.0" caption="ICSP">
+                <description>ICSP for PIC.</description>
+                <value value="0" introduced="1.0">
+                    <description>Do not report the ICSP interface as available.</description>
+                </value>
+                <value value="1" introduced="1.0">
+                    <description>Report the ICSP interface as available.</description>
+                </value>
+            </bits>
+        </register>
+        <register offset="0x013" size="1" type="BITS" name="TARGET_DEBUG_FEATURES" introduced="1.0" caption="Program/debug features" show="false">
+            <description>Feature select bits on the debugger.</description>
+            <bits pos="0" size="1" name="SINGLE_DEVICE" introduced="1.0" caption="Single-device">
+                <description>Single-device debugger (on-board).</description>
+                <value value="0" introduced="1.0">
+                    <description>Do not report a suggested target microcontroller.</description>
+                </value>
+                <value value="1" introduced="1.0">
+                    <description>Report a suggested target microcontroller.</description>
+                </value>
+            </bits>
+            <bits pos="1" size="1" name="PROG_ENABLED" introduced="1.0" caption="Programming">
+                <description>Programming capability.</description>
+                <value value="0" introduced="1.0">
+                    <description>Programming of microcontrollers is not enabled.</description>
+                </value>
+                <value value="1" introduced="1.0">
+                    <description>Programming of microcontrollers is enabled.</description>
+                </value>
+            </bits>
+            <bits pos="2" size="1" name="DEBUG_ENABLED" introduced="1.0" caption="Debug">
+                <description>Debug capability.</description>
+                <value value="0" introduced="1.0">
+                    <description>Debugging of microcontrollers is not enabled.</description>
+                </value>
+                <value value="1" introduced="1.0">
+                    <description>Debugging of microcontrollers is enabled.</description>
+                </value>
+            </bits>
+            <bits pos="3" size="1" name="FUSE_PROTECTION" introduced="1.5" caption="Fuse protection">
+                <description>Fuse protection capabilty (AVR only). Indicates that the SYSCFG mask in the device config should be applied.</description>
+                <value value="0" introduced="1.5">
+                    <description>Fuse protection is NOT enabled. All fuses (including UPDI / RSTPINCFG) can be manipulated at the user's risk.</description>
+                </value>
+                <value value="1" introduced="1.5">
+                    <description>Fuse protection is enabled (UPDI cannot be disabled in RSTPINCFG).</description>
+                </value>
+            </bits>
+        </register>
+
+        <!-- 6-byte gap -->
+
+        <!-- DGI settings -->
+        <register offset="0x01A" size="4" type="BITS" name="DGI_INTERFACES" introduced="1.0" caption="DGI interfaces" show="true">
+            <description>DGI interface select bits.</description>
+            <bits pos="0" size="1" name="GPIO" introduced="1.0" caption="GPIO">
+                <description>The DGI GPIO interface.</description>
+                <value value="0" introduced="1.0">
+                    <description>The DGI GPIO interface is not enabled.</description>
+                </value>
+                <value value="1" introduced="1.0">
+                    <description>The DGI GPIO interface is enabled.</description>
+                </value>
+            </bits>
+            <bits pos="1" size="1" name="USART" introduced="1.0" caption="USART">
+                <description>The DGI USART interface.</description>
+                <value value="0" introduced="1.0">
+                    <description>The DGI USART interface is not enabled.</description>
+                </value>
+                <value value="1" introduced="1.0">
+                    <description>The DGI USART interface is enabled.</description>
+                </value>
+            </bits>
+            <bits pos="2" size="1" name="UART" introduced="1.0" caption="UART">
+                <description>The DGI UART interface.</description>
+                <value value="0" introduced="1.0">
+                    <description>The DGI UART interface is not enabled.</description>
+                </value>
+                <value value="1" introduced="1.0">
+                    <description>The DGI UART interface is enabled.</description>
+                </value>
+            </bits>
+            <bits pos="3" size="1" name="SPI" introduced="1.0" caption="SPI">
+                <description>The DGI SPI interface.</description>
+                <value value="0" introduced="1.0">
+                    <description>The DGI SPI interface is not enabled.</description>
+                </value>
+                <value value="1" introduced="1.0">
+                    <description>The DGI SPI interface is enabled.</description>
+                </value>
+            </bits>
+            <bits pos="4" size="1" name="I2C" introduced="1.0" caption="I2C">
+                <description>The DGI I2C interface.</description>
+                <value value="0" introduced="1.0">
+                    <description>The DGI I2C interface is not enabled.</description>
+                </value>
+                <value value="1" introduced="1.0">
+                    <description>The DGI I2C interface is enabled.</description>
+                </value>
+            </bits>
+            <!-- Possible future interfaces
+            <bits pos="5" size="1" name="ADC" caption="">
+                <value value="0">
+                    <description>The DGI ADC interface is not enabled.</description>
+                </value>
+                <value value="1">
+                    <description>The DGI ADC interface is enabled.</description>
+                </value>
+            </bits>
+            <bits pos="6" size="1" name="DAC" caption="">
+                <value value="0">
+                    <description>The DGI DAC interface is not enabled.</description>
+                </value>
+                <value value="1">
+                    <description>The DGI DAC interface is enabled.</description>
+                </value>
+            </bits>
+            <bits pos="7" size="1" name="PM" caption="Power Measurement">
+                <value value="0">
+                    <description>Power measurement interface is not enabled.</description>
+                </value>
+                <value value="1">
+                    <description>Power measurement interface is enabled.</description>
+                </value>
+            </bits>
+            -->
+        </register>
+        <register offset="0x01E" size="1" type="BITS" name="DGI_GPIO_MAP" introduced="1.0" caption="DGI GPIO map" show="false">
+            <bits pos="0" size="1" name="DGI_GPIO0" introduced="1.0" caption="GPIO0">
+                <description>DGI GPIO 0.</description>
+                <value value="0" introduced="1.0">
+                    <description>DGI GPIO line 0 is disabled.</description>
+                </value>
+                <value value="1" introduced="1.0">
+                    <description>DGI GPIO line 0 is enabled.</description>
+                </value>
+            </bits>
+            <bits pos="1" size="1" name="DGI_GPIO1" introduced="1.0" caption="GPIO1">
+                <description>DGI GPIO 1.</description>
+                <value value="0" introduced="1.0">
+                    <description>DGI GPIO line 1 is disabled.</description>
+                </value>
+                <value value="1" introduced="1.0">
+                    <description>DGI GPIO line 1 is enabled.</description>
+                </value>
+            </bits>
+            <bits pos="2" size="1" name="DGI_GPIO2" introduced="1.0" caption="GPIO2">
+                <description>DGI GPIO 2.</description>
+                <value value="0" introduced="1.0">
+                    <description>DGI GPIO line 2 is disabled.</description>
+                </value>
+                <value value="1" introduced="1.0">
+                    <description>DGI GPIO line 2 is enabled.</description>
+                </value>
+            </bits>
+            <bits pos="3" size="1" name="DGI_GPIO3" introduced="1.0" caption="GPIO3">
+                <description>DGI GPIO 3.</description>
+                <value value="0" introduced="1.0">
+                    <description>DGI GPIO line 3 is disabled.</description>
+                </value>
+                <value value="1" introduced="1.0">
+                    <description>DGI GPIO line 3 is enabled.</description>
+                </value>
+            </bits>
+        </register>
+        <register offset="0x01F" size="1" type="BYTE" name="I2C_ADDR_0" introduced="1.0" caption="I2C address" show="false">
+            <description>I2C address to respond to.</description>
+        </register>
+        <register offset="0x020" size="1" type="BYTE" name="I2C_ADDR_1" introduced="1.0" caption="Alt. I2C address" show="false">
+            <description>Alternative I2C address to respond to.</description>
+        </register>
+
+        <!-- 9-byte gap -->
+
+        <!-- Analog settings -->
+        <register offset="0x02A" size="4" type="BITS" name="ANALOG_FEATURES" introduced="1.0" caption="Analog features" show="true">
+            <description>Board analog functionality.</description>
+            <bits pos="0" size="1" name="TVS" introduced="1.0" caption="TVS">
+                <description>Set target voltage</description>
+                <value value="0" introduced="1.0">
+                    <description>The debugger can not set the target voltage.</description>
+                </value>
+                <value value="1" introduced="1.0">
+                    <description>The debugger can set the target voltage.</description>
+                </value>
+            </bits>
+            <bits pos="1" size="1" name="TVR" introduced="1.0" caption="TVR">
+                <description>Read target voltage</description>
+                <value value="0" introduced="1.0">
+                    <description>The debugger can not read the target voltage.</description>
+                </value>
+                <value value="1" introduced="1.0">
+                    <description>The debugger can read the target voltage.</description>
+                </value>
+            </bits>
+            <bits pos="2" size="1" name="LVC" introduced="1.0" caption="LVC">
+                <description>Level shifters present</description>
+                <value value="0" introduced="1.0">
+                    <description>There are no level shifters connected between the debugger and target, the debugger does not use level shifter direction pins.</description>
+                </value>
+                <value value="1" introduced="1.0">
+                    <description>There are level shifters connected between the debugger and target, the debugger actively use level shifter direction pins.</description>
+                </value>
+            </bits>
+        </register>
+        <register offset="0x02E" size="1" type="BYTE" name="VMIN" introduced="1.0" caption="Min voltage" show="false">
+            <description>
+                Minimum operating voltage of the kit in deciVolt.
+                Set this voltage to the minimum voltage of the target microcontroller, level shifters and voltage regulator.
+
+                example: 16 --> 16dV * 100 = 1600mV = 1.6V
+            </description>
+        </register>
+        <register offset="0x02F" size="1" type="BYTE" name="VMAX" introduced="1.0" caption="Max voltage" show="false">
+            <description>
+                Maximum operating voltage of the kit in deciVolt.
+                Set this voltage to the maximum voltage of the target microcontroller, level shifters and voltage regulator.
+
+                example: 50 --> 50dV * 100 = 5000mV = 5.0V
+            </description>
+        </register>
+        <register offset="0x030" size="1" type="BYTE" name="VTG" introduced="1.0" caption="Default voltage" show="false">
+            <description>
+                Default operating voltage of the kit in deciVolt.
+
+                example: 33 --> 33dV * 100 = 3300mV = 3.3V
+            </description>
+        </register>
+        <register offset="0x031" size="1" type="ENUM" name="VREG" introduced="1.0" caption="Voltage regulator" show="false">
+            <description>
+                Tells the debugger which target microcontroller power supply solution is implemented on the board.
+            </description>
+            <value name="NO_ADJUST" caption="Not adjustable" value="0x00" introduced="1.0">
+                <description>The debugger is not able to adjust the target voltage.</description>
+            </value>
+            <value name="DAC_FEEDBACK_CTRL_0" caption="DAC0 feedback manipulation" value="0x01" introduced="1.0">
+                <description>
+                    The debugger adjusts the target voltage by manipulating the feedback pin of the voltage regulator using DAC0.
+                    R1 = 47000Ω, R2 = 27000Ω, RDAC = 33000Ω, Vadj_regulator = 1.25V
+                </description>
+            </value>
+        </register>
+
+        <!-- 18-byte gap -->
+
+        <!-- Extension settings -->
+        <register offset="0x044" size="1" type="BITS" name="ID_CHANNELS" introduced="1.0" caption="ID channels" show="true">
+            <bits pos="0" size="1" name="CH1" caption="ID channel 1" introduced="1.0">
+                <value value="0" introduced="1.0">
+                    <description>ID channel 1 is disabled.</description>
+                </value>
+                <value value="1" introduced="1.0">
+                    <description>ID channel 1 is enabled.</description>
+                </value>
+            </bits>
+            <bits pos="1" size="1" name="CH2" caption="ID channel 2" introduced="1.0">
+                <value value="0" introduced="1.0">
+                    <description>ID channel 2 is disabled.</description>
+                </value>
+                <value value="1" introduced="1.0">
+                    <description>ID channel 2 is enabled.</description>
+                </value>
+            </bits>
+            <bits pos="2" size="1" name="CH3" caption="ID channel 3" introduced="1.0">
+                <value value="0" introduced="1.0">
+                    <description>ID channel 3 is disabled.</description>
+                </value>
+                <value value="1" introduced="1.0">
+                    <description>ID channel 3 is enabled.</description>
+                </value>
+            </bits>
+            <bits pos="3" size="1" name="CH4" caption="ID channel 4" introduced="1.0">
+                <value value="0" introduced="1.0">
+                    <description>ID channel 4 is disabled.</description>
+                </value>
+                <value value="1" introduced="1.0">
+                    <description>ID channel 4 is enabled.</description>
+                </value>
+            </bits>
+        </register>
+
+        <!-- 1-byte gap -->
+
+        <!-- Experimental Settings -->
+        <register offset="0x046" size="2" type="BITS" name="LABS" introduced="1.0" caption="Lab features" show="false">
+            <description>Lab features enabled.</description>
+        </register>
+        
+        <!-- String-tables (192 bytes)-->
+        <register offset="0x048" size="60" type="STRING" name="KITNAME" introduced="1.0" caption="Kit name" show="true">
+            <description>The product name.</description>
+        </register>
+        <register offset="0x084" size="60" type="STRING" name="MNFRNAME" introduced="1.0" caption="Manufacturer" show="true">
+            <description>The manufacturer name, e.g Microchip.</description>
+        </register>
+        <register offset="0x0C0" size="32" type="STRING" name="DEVNAME" introduced="1.0" caption="Target name" show="true">
+            <description>The name of the target device, as written in MPLAB / Studio.</description>
+        </register>
+        <register offset="0x0E0" size="20" type="STRING" name="SERNUM" introduced="1.0" caption="Serial Number" show="true">
+            <description>Product serial number.</description>
+        </register>
+        <register offset="0x0F4" size="4" type="STRING" name="REDIRECT" introduced="1.0" caption="redirectID" show="false">
+            <description>HTML redirect ID</description>
+        </register>
+        <register offset="0x0F8" size="8" type="STRING" name="DATE" introduced="1.0" caption="Manufacturing date" show="false">
+            <description>Manufacturing date stamp. ASCII: YYYYMMDD</description>
+        </register>
+        
+        <!-- Key type register (4 bytes)-->
+        <register offset="0x100" size="1" type="ENUM" name="KEY1_TYPE" introduced="1.2" caption="Key 1 type" show="true">
+            <description>Defines what the content of the KEY1 register is</description>
+            <value caption="No content type is defined" name="NONE" introduced="1.2" value="0x00">
+                <description>Content of the KEY1 register is undefined</description>
+            </value>
+            <value caption="MAC48" name="MAC48" introduced="1.2" value="0x01">
+                <description>The KEY1 register contains a 48-bit MAC address</description>
+            </value>
+            <value caption="MAC64" name="MAC64" introduced="1.2" value="0x02">
+                <description>The KEY1 register contains a 64-bit MAC address</description>
+            </value>
+            <value caption="GUID/UUID" name="GUID" introduced="1.2" value="0x03">
+                <description>The KEY1 register contains a 128-bit GUID/UUID</description>
+            </value>
+            <value caption="UID" name="UID" introduced="1.2" value="0x04">
+                <description>The KEY1 register contains a UID</description>
+            </value>
+            <value caption="PUBKEY" name="PUBKEY" introduced="1.2" value="0x05">
+                <description>They KEY1 register contains a raw public key from a CryptoAuthentication ATECCx08 device</description>
+            </value>
+        </register>
+        <register offset="0x101" size="1" type="ENUM" name="KEY2_TYPE" introduced="1.2" caption="Key 2 type" show="true">
+            <description>Defines what the content of the KEY2 register is</description>
+            <value caption="No content type is defined" name="NONE" introduced="1.2" value="0x00">
+                <description>Content of the KEY2 register is undefined</description>
+            </value>
+            <value caption="MAC48" name="MAC48" introduced="1.2" value="0x01">
+                <description>The KEY2 register contains a 48-bit MAC address</description>
+            </value>
+            <value caption="MAC64" name="MAC64" introduced="1.2" value="0x02">
+                <description>The KEY2 register contains a 64-bit MAC address</description>
+            </value>
+            <value caption="UID" name="UID" introduced="1.2" value="0x04">
+                <description>The KEY2 register contains a UID</description>
+            </value>
+        </register>
+        <register offset="0x102" size="1" type="ENUM" name="KEY3_TYPE" introduced="1.2" caption="Key 3 type" show="true">
+            <description>Defines what the content of the KEY3 register is</description>
+            <value caption="No content type is defined" name="NONE" introduced="1.2" value="0x00">
+                <description>Content of the KEY3 register is undefined</description>
+            </value>
+            <value caption="MAC48" name="MAC48" introduced="1.2" value="0x01">
+                <description>The KEY3 register contains a 48-bit MAC address</description>
+            </value>
+            <value caption="MAC64" name="MAC64" introduced="1.2" value="0x02">
+                <description>The KEY3 register contains a 64-bit MAC address</description>
+            </value>
+            <value caption="UID" name="UID" introduced="1.2" value="0x04">
+                <description>The KEY3 register contains a UID</description>
+            </value>
+        </register>
+        <register offset="0x103" size="1" type="ENUM" name="KEY4_TYPE" introduced="1.2" caption="Key 4 type" show="true">
+            <description>Defines what the content of the KEY4 register is</description>
+            <value caption="No content type is defined" name="NONE" introduced="1.2" value="0x00">
+                <description>Content of the KEY4 register is undefined</description>
+            </value>
+            <value caption="MAC48" name="MAC48" introduced="1.2" value="0x01">
+                <description>The KEY4 register contains a 48-bit MAC address</description>
+            </value>
+            <value caption="MAC64" name="MAC64" introduced="1.2" value="0x02">
+                <description>The KEY4 register contains a 64-bit MAC address</description>
+            </value>
+            <value caption="UID" name="UID" introduced="1.2" value="0x04">
+                <description>The KEY4 register contains a UID</description>
+            </value>
+        </register>
+        
+        <!-- Key length register (4 bytes) --> 
+        <register offset="0x104" size="1" type="BYTE" name="KEY1_LEN" introduced="1.2" caption="Key 1 length" show="true">
+            <description>Number of data bytes in the KEY1 register</description>
+        </register>
+        <register offset="0x105" size="1" type="BYTE" name="KEY2_LEN" introduced="1.2" caption="Key 2 length" show="true">
+            <description>Number of data bytes in the KEY2 register</description>
+        </register>
+        <register offset="0x106" size="1" type="BYTE" name="KEY3_LEN" introduced="1.2" caption="Key 3 length" show="true">
+            <description>Number of data bytes in the KEY3 register</description>
+        </register>
+        <register offset="0x107" size="1" type="BYTE" name="KEY4_LEN" introduced="1.2" caption="Key 4 length" show="true">
+            <description>Number of data bytes in the KEY4 register</description>
+        </register>
+        
+        <!-- Key content registers (128 bytes)-->
+        <register offset="0x108" size="64" type="ARRAY" name="KEY1" introduced="1.2" caption="Key register 1" show="true">
+            <description>Generic 64-byte array register, content is described by the KEY1_TYPE register, data length in the KEY1_LEN register.</description>
+        </register>
+        <register offset="0x148" size="32" type="ARRAY" name="KEY2" introduced="1.2" caption="Key register 2" show="true">
+            <description>Generic 32-byte array register, content is described by the KEY2_TYPE register, data length in the KEY2_LEN register.</description>
+        </register>
+        <register offset="0x168" size="16" type="ARRAY" name="KEY3" introduced="1.2" caption="Key register 3" show="true">
+            <description>Generic 16-byte array register, content is described by the KEY3_TYPE register, data length in the KEY3_LEN register.</description>
+        </register>
+        <register offset="0x178" size="16" type="ARRAY" name="KEY4" introduced="1.2" caption="Key register 4" show="true">
+            <description>Generic 16-byte array register, content is described by the KEY4_TYPE register, data length in the KEY4_LEN register.</description>
+        </register>
+        
+        <!--Spare (120 bytes)-->
+        <!--
+        <register offset="0x188" size="120" type="BYTE" name="RESERVED" caption="Spare region" export="0" show="false">
+            <description>This area is reserved for future expansion of the configuration</description>
+        </register>
+        -->
+    </registers>
+</configuration>

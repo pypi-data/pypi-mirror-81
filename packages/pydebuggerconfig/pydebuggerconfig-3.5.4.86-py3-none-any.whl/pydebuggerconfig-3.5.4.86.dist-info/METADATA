@@ -1,0 +1,245 @@
+Metadata-Version: 2.1
+Name: pydebuggerconfig
+Version: 3.5.4.86
+Summary: Collection of tools to configure Microchip PKOB nano on-board debuggers
+Home-page: http://www.microchip.com
+Author: Microchip Technology
+Author-email: support@microchip.com
+License: Microchip Technology Inc. Proprietary License
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Embedded Systems
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Description-Content-Type: text/markdown
+Requires-Dist: crcmod
+Requires-Dist: pyedbglib (>=2.15)
+Requires-Dist: xmlschema
+Requires-Dist: packaging
+Requires-Dist: IntelHex
+Requires-Dist: PyYAML
+Requires-Dist: appdirs
+Provides-Extra: dev
+Requires-Dist: mock ; extra == 'dev'
+
+# pydebuggerconfig
+pydebuggerconfig is a utility for accessing the configuration information stored inside the PKOB nano on-board debugger,
+typically found on Curiosity Nano kits.
+
+## Who should use pydebuggerconfig?
+Kit designers who are ready to personalize their new kit
+
+## Prerequisite knowledge
+In order for the PKOB nano on-board debugger to be aware of the properties and capabilities of the board in which
+it is mounted, as well as the target device it will operate with, a "board configuration" and "device configuration"
+is necessary.  This information is stored separately to the PKOB nano firmware, allowing field upgrades to be
+performed with identical firmware on all deployed kits without any customization required.
+
+The parameters stored in the configuration include PKOB nano features, program/debug interface capability,
+board and manufacturer names and USB serial number as well as device specific parameters required for device
+programming through drag and drop.
+
+The configuration information is stored in flash memory and can be modified freely.  However, it is recommended
+that this information is programmed into the PKOB nano during the kit manufacturing process and not altered
+after deployment.
+
+For board specific configuration data there are two identical sections in the configuration memory.  One section
+is intended for factory settings programmed during production and one for settings that have been changed by the user.
+The user section can be reverted to the factory settings by using the pydebuggerconfig utility.
+
+### Device and Board XML files
+The actual configuration data to be programmed into the PKOB nano debugger's configuration space is stored in XML files,
+one file for the data concerning the debugger and kit itself and one file with data concerning the target device.
+The board related files are stored in the _pydebuggerconfig/board-configs_ folder and the device specific files
+are stored in the _pydebuggerconfig/device-configs_ folder.  pydebuggerconfig also supports XML files stored in
+other folders by providing the full path to the files.
+
+The specifications for the config XML files are stored in the _pydebuggerconfig/config-specification_ folder.
+Each configuration file specifies which specification version to be used by the version registers in the XML file.
+These are called CONFIG_FORMAT_MAJOR, CONFIG_FORMAT_MINOR and CONFIG_FORMAT_BUILD for board configuration files and
+DEVICE_CONFIG_MAJOR, DEVICE_CONFIG_MINOR and DEVICE_CONFIG_BUILD for device configuration files.  The version of
+the specification files are given by the file name.  Example:
+A board config XML file with the following version registers
+```
+    <register name="CONFIG_FORMAT_MAJOR" value="1"/>
+    <register name="CONFIG_FORMAT_MINOR" value="5"/>
+    <register name="CONFIG_FORMAT_BUILD" value="47"/>
+```
+will refer to specification files _board_config_defines-1.5.47.xml_ and _board_config_defines-1.5.47.xsd_
+
+## Usage
+pydebuggerconfig can be used as a command-line interface or a library
+
+### Command-line
+for help, use:
+```
+pydebuggerconfig --help
+```
+
+#### Important note on order of command line arguments
+It is recommended to put the action next to pydebuggerconfig on the command line.  This is in some cases important as
+some of the command line arguments takes a list of values and if the action is placed next to such an argument the
+action will be interpreted as one of the argument values.  Example:
+```
+WRONG: pydebuggerconfig -b board-configs/PIC16F18446-CNANO.xml -d device-configs/PIC16F18446-device-blob.xml -p SERNUM write
+```
+This will not work as the ``-p`` argument takes a list of registers, so ``write`` is interpreted as a register to preserve and no
+action is found
+```
+CORRECT: pydebuggerconfig write -b board-configs/PIC16F18446-CNANO.xml -d device-configs/PIC16F18446-device-blob.xml -p SERNUM
+```
+This will work as the action comes first so it is not seen as a part of any of the arguments
+
+
+#### Action: read
+reads out the config from a board
+* use -fa to read from factory section instead of user section for board config
+```
+pydebuggerconfig read
+```
+This will read out both board and device config from the kit and print it in a human readable format
+
+#### Action: write
+writes config from board and/or device files
+* use -b to specify board config XML file
+* use -d to specify device config XML file
+* use -fa to write to factory section in addition to user section of board config
+* use -p to preserve the value of one or more registers
+```
+pydebuggerconfig write -b board-configs/ATmega4809-CNANO.xml -d device-configs/ATmega4809-device-blob.xml
+```
+
+#### Action: replace
+replaces the value of one or more registers in config
+* use -r to specify which registers to update
+```
+pydebuggerconfig replace -r SERNUM=MCHP0000111122223333 KITNAME="My new kit"
+```
+
+#### Action: show
+to print the content of config xml files in a human readable format
+* use -b to specify board config XML file
+* use -d to specify device config XML file
+```
+pydebuggerconfig show -b board-configs/ATmega4809-CNANO.xml -d device-configs/ATmega4809-device-blob.xml
+```
+
+#### Action: verify
+to compare the content of config XML files with the config on a kit
+* use -b to specify board config XML file
+* use -d to specify device config XML file
+```
+pydebuggerconfig verify -b board-configs/ATmega4809-CNANO.xml -d device-configs/ATmega4809-device-blob.xml
+```
+
+#### Action: restore
+to restore board config to factory settings
+```
+pydebuggerconfig restore
+```
+This will copy the board config on the kit from the factory section to the user section
+
+#### Action: version-update
+to update the version of the board config in a kit
+```
+pydebuggerconfig version-update
+```
+This will update the version registers in the board config to the latest available spec version to allow new
+registers to be supported. It  depends on back-compatibility, i.e. minor version updates only.  Note that this command
+will not change the actual config settings.
+
+#### Action: generate-hex
+to generate a hex file from config xml files
+* use -b to specify board config XML file
+* use -d to specify device config XML file
+```
+pydebuggerconfig generate-hex -b board-configs/ATmega4809-CNANO.xml -d device-configs/ATmega4809-device-blob.xml
+```
+This will generate an Intel-hex file with the XML files contents.  This file can then be programmed directly into the debugger.
+This feature is most useful when making pre-programmed debuggers.
+
+### Command-line switches
+Many of these switches are optional, and some only apply to certain actions.  See the action details above.
+* -b BOARD to specify board XML file.  Some actions require at least either a board XML file or a device XML file but
+    not necessarily both.  Can be either an absolute path or a path relative to pydebuggerconfig folder,
+    i.e. _board-configs/ATmega4809-CNANO.xml_.
+* -d DEVICE to specify device XML file.  Some actions require at least either a device XML file or a board XML file but
+    not necessarily both.  Can be either an absolute path or a path relative to pydebuggerconfig folder,
+    i.e. _device-configs/ATmega4809-device-blob.xml_.
+* -s SERIALNUMBER to specify the USB serial number of the kit/debugger to connect to when reading and writing config data.
+    This is not the USB serial number to program into the config, it is the serial number of the debugger before any config
+    has been written.  Sub-string matching on end of serial number is supported.  If this argument is omitted or set to an
+    empty string pydebuggerconfig will connect to any PKOB nano debugger connected to the host if there is only one connected.
+    If there are more than one matching debugger connected, pydebuggerconfig will just terminate with an error message.
+* -cs CONFIG_SERIALNUMBER to specify the USB serial number to program to the kit.  The serial number should be 20 ASCII characters.
+    This option makes it possible to program a custom serial number to a kit while fetching the rest of the config parameters
+    from a board config XML file.  Without this option the serial number will be fetched from the board config XML file
+    (usually set to "FFFFFFFFFFFFFFFFFFFF").  Note that the new serial number will not latch (be used) until the debugger
+    is rebooted.
+* -p PRESERVE [PRESERVE ...] to specify registers that should not be updated when writing config data to the kit.  These registers
+    will keep their current values even if new values are given in the provided config XML files.
+* -r REGISTER [REGISTER ...] to specify register values to replace.  Only used with ``replace`` action.
+* -fa to access factory board config section.  For ``read`` it means read factory board config while for ``write`` it means
+    write both factory and user board config.  There is no factory section for device config.
+* -v to enable verbose output.
+* -vv to enable debug output.
+* -V to print pydebuggerconfig version number and exit.
+* -R to print pydebuggerconfig release details and exit.
+
+### Library
+pydebuggerconfig can be used as a library using its "backend API".  For example:
+```
+# Instantiate backend (if more than one kit is connected a serial number must be provided as parameter to the Backend constructor)
+from pydebuggerconfig.backend import Backend
+pb = Backend()
+
+# Write board configuration data to a kit, preserving KITNAME and setting custom USB serial number
+board_config_string = pb.write_board_config("board-configs/ATmega4809-CNANO.xml", serial_number="MYSERIALNUMBER012345", preserve=['KITNAME'])
+print("Written board config to kit:")
+print(board_config_string)
+
+# Write device configuration data to a kit
+device_config_string = pb.write_device_config("device-configs/ATmega4809-device-blob.xml)
+print("Written device config to kit:")
+print(device_config_string)
+
+# Update the name and serial number of a kit
+registers = {'KITNAME': 'My new kitname', 'SERNUM': 'MYNEWSERIAL012345678'}
+pb.replace(registers)
+
+# Read out and print board configuration data from a kit
+board_config_string = pb.read_board_config_as_string("board-configs/ATmega4809-CNANO.xml")
+print("Board config from kit:")
+print(board_config_string)
+
+# Read out and print device configuration data from a kit
+device_config_string = pb.read_device_config_as_string()
+print("Device config from kit:")
+print(device_config_string)
+
+# Print the pydebuggerconfig package version
+from pydebuggerconfig.version import VERSION as pydebuggerconfig_version
+print("pydebuggerconfig version {}".format(pydebuggerconfig_version))
+
+# In addition, the CLI-backend API is versioned for convenience
+print("pydebuggerconfig backend API version: {}".format(pb.get_api_version()))
+```
+
+## Dependencies
+pydebuggerconfig depends on pyedbglib for its transport protocol.  pyedbglib requires a USB transport library like libusb.
+See pyedbglib package for more information.
+
+## Supported tools
+pydebuggerconfig only supports PKOB nano (nEDBG) debuggers.  These are typically found on Curiosity Nano kits.
+
+
+

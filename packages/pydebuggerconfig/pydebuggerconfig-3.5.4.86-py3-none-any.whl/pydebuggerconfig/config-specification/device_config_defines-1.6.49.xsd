@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xsd:element name="deviceconf" type="device_config_instance_type"/>
+  
+  <xsd:complexType name="device_config_instance_type">
+    <xsd:annotation>
+      <xsd:documentation>Configuration description for tools running FW5G firmware.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element name="register" minOccurs="1" maxOccurs="unbounded" type="register_instance_type"/>
+    </xsd:sequence>
+    <xsd:attribute name="name" use="required" type="xsd:NCName">
+      <xsd:annotation>
+        <xsd:documentation>The name of the kit the configuration is made for</xsd:documentation>
+      </xsd:annotation>
+    </xsd:attribute>
+  </xsd:complexType>
+  
+  <xsd:complexType name="register_instance_type">
+    <xsd:annotation>
+      <xsd:documentation>A register instance must have a name and a value</xsd:documentation>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element name="blob" minOccurs="0" maxOccurs="unbounded" type="blob_type"/>
+    </xsd:sequence>
+    <xsd:attribute name="name" use="required" type="xsd:NCName">
+      <xsd:annotation>
+        <xsd:documentation>Register Name</xsd:documentation>
+      </xsd:annotation>
+    </xsd:attribute>
+    <xsd:attribute name="value" use="required">
+      <xsd:annotation>
+        <xsd:documentation>Value to put in the register</xsd:documentation>
+      </xsd:annotation>
+    </xsd:attribute>
+  </xsd:complexType>
+  
+  <xsd:complexType name="blob_type">
+    <xsd:annotation>
+      <xsd:documentation>A blob type</xsd:documentation>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element name="token" minOccurs="1" maxOccurs="1"/>
+      <xsd:element name="entry" minOccurs="1" maxOccurs="unbounded" type="device_blob_entry_type"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  
+  <xsd:complexType name="device_blob_entry_type">
+    <xsd:annotation>
+      <xsd:documentation>A blob entry type</xsd:documentation>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element name="type" minOccurs="1" maxOccurs="1"/>
+      <xsd:element name="id" minOccurs="0" maxOccurs="1"/>
+      <xsd:element name="data" minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+</xsd:schema>

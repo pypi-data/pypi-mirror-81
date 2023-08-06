@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<deviceconf name="ATSAMD21G18A">
+    <register name="DEVICE_CONFIG_MAJOR" value="1"/>
+    <register name="DEVICE_CONFIG_MINOR" value="8"/>
+    <register name="DEVICE_CONFIG_BUILD" value="60"/>
+    <register name="CONTENT_LENGTH" value="0"/>
+    <register name="CONTENT_CHECKSUM" value="0"/>
+    <register name="INSTANCE" value="0"/>
+    <register name="INTERFACE_TYPE" value="0x05"/>
+    <register name="DEVICE_VARIANT" value="0x00"/>
+    <register name="BLOB" value="">
+        <blob>
+            <token>LIST</token>
+            <entry>
+                <type>D_SAM_M0P</type>
+                <!-- Flash always starts at 0 in SAMD2x-->
+                <data type="SAM_M0P_FLASH_START">0x00000000</data>
+                <!-- SAMD21x18 parts are 256k-->
+                <data type="SAM_M0P_FLASH_BYTES">0x40000</data>
+                <!-- 64b per page -->
+                <data type="SAM_M0P_FLASH_PAGE_BYTES">64</data>
+                <!-- 4 pages per row -->
+                <data type="SAM_M0P_FLASH_ROW_PAGES">4</data>
+                <!-- 1 user row for AUX0 -->
+                <data type="SAM_M0P_NVM_AUX0_PAGES">4</data>
+                <!-- ARM TechRef: M0(+) type 0 has 32'h0BC11477 in DP Architecture 1; 32'h0BC12477 in DP Architecture 2 -->
+                <data type="SAM_M0P_DAP_ID">0x0BC11477</data>
+                <!-- DSU (internal) is memory mapped here: -->
+                <data type="SAM_M0P_DSU_ADDRESS">0x41002000</data>
+                <!-- DID is in the DSU; absolute address: -->
+                <data type="SAM_M0P_DEVICE_ID_ADDRESS">0x41002018</data>
+                <!-- Before checking, mask out DIE and REVISION as don't care -->
+                <data type="SAM_M0P_DEVICE_ID_MASK">0xFFFF00FF</data>
+                <!-- Actual value to check against -->
+                <data type="SAM_M0P_DEVICE_ID_VALUE">0x10010005</data>
+                <!-- NVM Controller absolute address -->
+                <data type="SAM_M0P_NVMCTRL_ADDRESS">0x41004000</data>
+                <!-- User row AUX0 starts at -->
+                <data type="SAM_M0P_NVM_AUX0_START">0x00804000</data>
+                <!-- Value to be applied to fuse bits after erase (low) -->
+                <data type="SAM_M0P_NVM_AUX0_0_FORCE_VALUE">0xD800E277</data>
+                <!-- Value to be applied to fuse bits after erase (high) -->
+                <data type="SAM_M0P_NVM_AUX0_1_FORCE_VALUE">0xFFFF005A</data>
+                <!-- Mask which defines which bits to force after erase (low) -->
+                <data type="SAM_M0P_NVM_AUX0_0_FORCE_MASK">0xFE01FF77</data>
+                <!-- Mask which defines which bits to force after erase (high) -->
+                <data type="SAM_M0P_NVM_AUX0_1_FORCE_MASK">0xFFFF01FF</data>
+                <!-- Mask which defines which bits to preserve during programming (low) -->
+                <data type="SAM_M0P_NVM_AUX0_0_PRESERVE_MASK">0x01FE0088</data>
+                <!-- Mask which defines which bits to preserve during programming (high) -->
+                <data type="SAM_M0P_NVM_AUX0_1_PRESERVE_MASK">0x0000FE00</data>
+            </entry>
+        </blob>
+    </register>
+</deviceconf>

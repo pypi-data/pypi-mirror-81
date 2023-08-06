@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<deviceconf name="PIC24FJ128GA705">
+    <register name="DEVICE_CONFIG_MAJOR" value="1"/>
+    <register name="DEVICE_CONFIG_MINOR" value="3"/>
+    <register name="DEVICE_CONFIG_BUILD" value="41"/>
+    <register name="CONTENT_LENGTH" value="0"/>
+    <register name="CONTENT_CHECKSUM" value="0"/>
+    <register name="INSTANCE" value="0"/>
+    <register name="INTERFACE_TYPE" value="0x03"/>
+    <register name="DEVICE_VARIANT" value="0x02"/>
+    <register name="BLOB" value="">
+        <blob>
+            <token>LIST</token>
+            <entry>
+                <type>SCRIPT</type>
+                <id>0</id>
+                <!-- STORED_SCRIPT_ENTER_TMOD_LV -->
+                <!-- harvested from icd4 -->
+                <data>0xB1</data>
+                <data>0xB2</data>
+                <data>0x00</data>
+                <data>0xA0</data>
+                <data>0x01</data>
+                <data>0x00</data>
+                <data>0xB0</data>
+                <data>0xA0</data>
+                <data>0x0A</data>
+                <data>0x00</data>
+                <data>0xB1</data>
+                <data>0xA0</data>
+                <data>0xE8</data>
+                <data>0x03</data>
+                <data>0xB4</data>
+                <data>0xB2</data>
+                <data>0xC2</data>
+                <data>0x12</data>
+                <data>0x8A</data>
+                <data>0xA0</data>
+                <data>0xF6</data>
+                <data>0x09</data>
+                <data>0xB0</data>
+                <data>0xA0</data>
+                <data>0x50</data>
+                <data>0xC3</data>
+                <data>0xB5</data>
+                <data>0x05</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0x00</data>
+            </entry>
+            <entry>
+                <type>SCRIPT</type>
+                <id>1</id>
+                <!-- STORED_SCRIPT_GET_ID -->
+                <!-- harvested from icd4. Edited to only return the ID (16-bit) and not the revision -->
+                <data>0xE0</data>
+                <data>0x00</data>
+                <data>0x02</data>
+                <data>0x04</data>
+                <data>0xE0</data>
+                <data>0x00</data>
+                <data>0x02</data>
+                <data>0x04</data>
+                <data>0xE1</data>
+                <data>0x95</data>
+                <data>0x90</data>
+                <data>0x0A</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0xFF</data>
+                <data>0x00</data>
+                <data>0xE4</data>
+                <data>0x0A</data>
+                <data>0x00</data>
+                <data>0xE0</data>
+                <data>0xA0</data>
+                <data>0x02</data>
+                <data>0x88</data>
+                <data>0xE5</data>
+                <data>0x0A</data>
+                <data>0x06</data>
+                <data>0xE0</data>
+                <data>0x47</data>
+                <data>0x78</data>
+                <data>0x20</data>
+                <data>0xE0</data>
+                <data>0xB6</data>
+                <data>0x0B</data>
+                <data>0xBA</data>
+                <data>0xE1</data>
+                <data>0xE1</data>
+                <data>0xE2</data>
+            </entry>
+            <entry>
+                <type>SCRIPT</type>
+                <id>2</id>
+                <!-- STORED_SCRIPT_ERASE_CHIP -->
+                <!-- harvested from icd4. Edited to poll the target during erase, or else it does not get a clock and cannot complete -->
+                <data>0x90</data>
+                <data>0x0A</data>
+                <data>0x0E</data>
+                <data>0x40</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0x60</data>
+                <data>0x0B</data>
+                <data>0x0A</data>
+                <data>0xE0</data>
+                <data>0x00</data>
+                <data>0x02</data>
+                <data>0x04</data>
+                <data>0xE0</data>
+                <data>0x00</data>
+                <data>0x02</data>
+                <data>0x04</data>
+                <data>0xE1</data>
+                <data>0xE5</data>
+                <data>0x0B</data>
+                <data>0x0A</data>
+                <data>0xE0</data>
+                <data>0x0A</data>
+                <data>0x3B</data>
+                <data>0x88</data>
+                <data>0xE0</data>
+                <data>0x58</data>
+                <data>0x05</data>
+                <data>0x20</data>
+                <data>0xE0</data>
+                <data>0x38</data>
+                <data>0x3B</data>
+                <data>0x88</data>
+                <data>0xE0</data>
+                <data>0xA9</data>
+                <data>0x0A</data>
+                <data>0x20</data>
+                <data>0xE0</data>
+                <data>0x39</data>
+                <data>0x3B</data>
+                <data>0x88</data>
+                <data>0xE0</data>
+                <data>0x61</data>
+                <data>0xE7</data>
+                <data>0xA8</data>
+                <data>0xE1</data>
+                <data>0xE1</data>
+                <data>0xE1</data>
+                <data>0xE1</data>
+                <data>0xE0</data>
+                <data>0x00</data>
+                <data>0x02</data>
+                <data>0x04</data>
+                <data>0xA0</data>
+                <data>0x78</data>
+                <data>0x69</data>
+                <data>0x90</data>
+                <data>0x0A</data>
+                <data>0x60</data>
+                <data>0x07</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0xA2</data>
+                <data>0xE0</data>
+                <data>0x00</data>
+                <data>0x02</data>
+                <data>0x04</data>
+                <data>0xE1</data>
+                <data>0xE0</data>
+                <data>0x41</data>
+                <data>0x78</data>
+                <data>0x20</data>
+                <data>0xE5</data>
+                <data>0x0A</data>
+                <data>0x02</data>
+                <data>0xE1</data>
+                <data>0xE0</data>
+                <data>0x92</data>
+                <data>0x08</data>
+                <data>0x78</data>
+                <data>0xE1</data>
+                <data>0xE2</data>
+                <data>0xA5</data>
+                <data>0x00</data>
+                <data>0x80</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0x02</data>
+                <data>0xE1</data>
+                <data>0xE1</data>
+            </entry>
+            <entry>
+                <type>SCRIPT</type>
+                <id>3</id>
+                <!-- STORED_SCRIPT_PROGRAM_FLASH -->
+                <!-- harvested from icd4. -->
+                <data>0x91</data>
+                <data>0x00</data>
+                <data>0x91</data>
+                <data>0x01</data>
+                <data>0x93</data>
+                <data>0x01</data>
+                <data>0x80</data>
+                <data>0x01</data>
+                <data>0xAD</data>
+                <data>0x01</data>
+                <data>0xE0</data>
+                <data>0x00</data>
+                <data>0x02</data>
+                <data>0x04</data>
+                <data>0xE0</data>
+                <data>0x00</data>
+                <data>0x02</data>
+                <data>0x04</data>
+                <data>0xE1</data>
+                <data>0xE0</data>
+                <data>0x2A</data>
+                <data>0x00</data>
+                <data>0x24</data>
+                <data>0xE0</data>
+                <data>0x0A</data>
+                <data>0x3B</data>
+                <data>0x88</data>
+                <data>0xE0</data>
+                <data>0xA0</data>
+                <data>0x0F</data>
+                <data>0x20</data>
+                <data>0xE0</data>
+                <data>0xA0</data>
+                <data>0x02</data>
+                <data>0x88</data>
+                <data>0xE4</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0xE0</data>
+                <data>0x20</data>
+                <data>0x3B</data>
+                <data>0x88</data>
+                <data>0xE5</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0xE0</data>
+                <data>0x10</data>
+                <data>0x3B</data>
+                <data>0x88</data>
+                <data>0xE0</data>
+                <data>0x80</data>
+                <data>0x03</data>
+                <data>0xEB</data>
+                <data>0xAC</data>
+                <data>0x20</data>
+                <data>0x00</data>
+                <data>0xE6</data>
+                <data>0x00</data>
+                <data>0xE6</data>
+                <data>0x01</data>
+                <data>0xE6</data>
+                <data>0x02</data>
+                <data>0xE6</data>
+                <data>0x03</data>
+                <data>0xE6</data>
+                <data>0x04</data>
+                <data>0xE6</data>
+                <data>0x05</data>
+                <data>0xE0</data>
+                <data>0x00</data>
+                <data>0x03</data>
+                <data>0xEB</data>
+                <data>0xE1</data>
+                <data>0xE0</data>
+                <data>0xB6</data>
+                <data>0x0B</data>
+                <data>0xBB</data>
+                <data>0xE1</data>
+                <data>0xE1</data>
+                <data>0xE0</data>
+                <data>0xB6</data>
+                <data>0xDB</data>
+                <data>0xBB</data>
+                <data>0xE1</data>
+                <data>0xE1</data>
+                <data>0xE0</data>
+                <data>0xB6</data>
+                <data>0xEB</data>
+                <data>0xBB</data>
+                <data>0xE1</data>
+                <data>0xE1</data>
+                <data>0xE0</data>
+                <data>0xB6</data>
+                <data>0x1B</data>
+                <data>0xBB</data>
+                <data>0xE1</data>
+                <data>0xE1</data>
+                <data>0xE0</data>
+                <data>0xB6</data>
+                <data>0x0B</data>
+                <data>0xBB</data>
+                <data>0xE1</data>
+                <data>0xE1</data>
+                <data>0xE0</data>
+                <data>0xB6</data>
+                <data>0xDB</data>
+                <data>0xBB</data>
+                <data>0xE1</data>
+                <data>0xE1</data>
+                <data>0xE0</data>
+                <data>0xB6</data>
+                <data>0xEB</data>
+                <data>0xBB</data>
+                <data>0xE1</data>
+                <data>0xE1</data>
+                <data>0xE0</data>
+                <data>0xB6</data>
+                <data>0x1B</data>
+                <data>0xBB</data>
+                <data>0xE1</data>
+                <data>0xE1</data>
+                <data>0xA4</data>
+                <data>0xE0</data>
+                <data>0x58</data>
+                <data>0x05</data>
+                <data>0x20</data>
+                <data>0xE0</data>
+                <data>0x38</data>
+                <data>0x3B</data>
+                <data>0x88</data>
+                <data>0xE0</data>
+                <data>0xA9</data>
+                <data>0x0A</data>
+                <data>0x20</data>
+                <data>0xE0</data>
+                <data>0x39</data>
+                <data>0x3B</data>
+                <data>0x88</data>
+                <data>0xE0</data>
+                <data>0x61</data>
+                <data>0xE7</data>
+                <data>0xA8</data>
+                <data>0xE1</data>
+                <data>0xE1</data>
+                <data>0xE1</data>
+                <data>0xE1</data>
+                <data>0xA0</data>
+                <data>0xD0</data>
+                <data>0x07</data>
+                <data>0x90</data>
+                <data>0x0A</data>
+                <data>0x60</data>
+                <data>0x07</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0xA2</data>
+                <data>0xE0</data>
+                <data>0x00</data>
+                <data>0x02</data>
+                <data>0x04</data>
+                <data>0xE1</data>
+                <data>0xE0</data>
+                <data>0x41</data>
+                <data>0x78</data>
+                <data>0x20</data>
+                <data>0xE5</data>
+                <data>0x0A</data>
+                <data>0x02</data>
+                <data>0xE1</data>
+                <data>0xE0</data>
+                <data>0x92</data>
+                <data>0x08</data>
+                <data>0x78</data>
+                <data>0xE1</data>
+                <data>0xE2</data>
+                <data>0xA5</data>
+                <data>0x00</data>
+                <data>0x80</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0x02</data>
+                <data>0x92</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0x01</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0xAE</data>
+            </entry>
+            <entry>
+                <type>SCRIPT</type>
+                <id>4</id>
+                <!-- STORED_SCRIPT_WRITE_CONFIG_MEM -->
+                <!-- null script to keep FW checks happy -->
+            </entry>
+            <entry>
+                <type>SCRIPT</type>
+                <id>5</id>
+                <!-- STORED_SCRIPT_EXIT_TMOD -->
+                <!-- harvested from icd4 -->
+                <data>0xE0</data>
+                <data>0x02</data>
+                <data>0x28</data>
+                <data>0xA9</data>
+                <data>0xE1</data>
+                <data>0xE1</data>
+                <data>0xE1</data>
+                <data>0x94</data>
+                <data>0x01</data>
+                <data>0x00</data>
+                <data>0xB2</data>
+                <data>0x03</data>
+                <data>0xB1</data>
+                <data>0x94</data>
+                <data>0x64</data>
+                <data>0x00</data>
+                <data>0xA0</data>
+                <data>0x0A</data>
+                <data>0x00</data>
+                <data>0x42</data>
+            </entry>
+            <entry>
+                <type>D_ICSP</type>
+                <!-- Flash starts at zero -->
+                <data type="PIC_FLASH_BASE_W">0x00000000</data>
+                <!-- This part has no user ID memory -->
+                <data type="PIC_USER_ID_BASE_W">0x00000000</data>
+                <!-- Config is within flash -->
+                <data type="PIC_CONFIG_BASE_W">0x00000000</data>
+                <!-- This part has no eeprom -->
+                <data type="PIC_EEPROM_BASE_W">0x00000000</data>
+                <!-- user flash including config section -->
+                <data type="PIC_FLASH_SIZE_W">0x00016000</data>
+                <!-- This part has no eeprom -->
+                <data type="PIC_EEPROM_SIZE_B">0</data>
+                <!-- This part has no user ID memory -->
+                <data type="PIC_USER_ID_SIZE_W">0</data>
+                <!-- Config bytes are really just flash  -->
+                <data type="PIC_CONFIG_SIZE_W">0</data>
+                <!-- 512 byte blocks are written in 384-byte packed frames -->
+                <data type="PIC_FLASH_WRITE_BLOCK_B">512</data>
+                <!-- This part has no eeprom -->
+                <data type="PIC_EEPROM_WRITE_BLOCK_B">0</data>
+                <!-- This part has no user ID memory -->
+                <data type="PIC_USER_ID_WRITE_BLOCK_B">0</data>
+                <!-- Config bytes are just flash -->
+                <data type="PIC_CONFIG_WRITE_BLOCK_B">0</data>
+                <data type="PIC_DEVICE_ID">0x750B</data>
+            </entry>
+        </blob>
+    </register>
+</deviceconf>

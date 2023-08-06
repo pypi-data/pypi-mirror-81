@@ -1,0 +1,8 @@
+aws_cdk/aws_neptune/__init__.py,sha256=uwFs74czjZOo0t6XfZlOGB77msbjfR-buIyljNMmW_Q,90743
+aws_cdk/aws_neptune/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_neptune/_jsii/__init__.py,sha256=114ucs7UdOh-cKSoMTRRPj19ykMOsbWkISl7jscrfhI,371
+aws_cdk/aws_neptune/_jsii/aws-neptune@1.66.0.jsii.tgz,sha256=pRcPlQJSN4aYbQm_9FSVvwhNu6e13JQRsVh0rmTcMsk,36316
+aws_cdk.aws_neptune-1.66.0.dist-info/METADATA,sha256=cvMA1npVOSg0KqAeuqvPWQoXNjCxR1Lvd0U7Vr85lKM,1552
+aws_cdk.aws_neptune-1.66.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+aws_cdk.aws_neptune-1.66.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_neptune-1.66.0.dist-info/RECORD,,

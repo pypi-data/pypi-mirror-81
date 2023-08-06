@@ -1,0 +1,3 @@
+include russianCVparser/README.md
+include russianCVparser/LICENSE
+exclude russianCVparser/test.py

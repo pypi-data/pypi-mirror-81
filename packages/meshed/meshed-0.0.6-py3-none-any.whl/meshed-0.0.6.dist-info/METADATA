@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: meshed
+Version: 0.0.6
+Summary: Tools that enable operations on graphs where grapsh are represented by an adjacency Mapping.
+Home-page: https://github.com/i2mint/meshed
+Author: Otosense
+License: MIT
+Keywords: dag,graph,network
+Platform: any
+Description-Content-Type: text/markdown
+
+# meshed
+
+Tools that enable operations on graphs where grapsh are represented by an adjacency Mapping.
+
+# Examples
+
+```pydocstring
+>>> from meshed.itools import edges, nodes, isolated_nodes
+>>> graph = dict(a='c', b='ce', c='abde', d='c', e=['c', 'b'], f={})
+>>> sorted(edges(graph))
+[('a', 'c'), ('b', 'c'), ('b', 'e'), ('c', 'a'), ('c', 'b'), ('c', 'd'), ('c', 'e'), ('d', 'c'), ('e', 'b'), ('e', 'c')]
+>>> sorted(nodes(graph))
+['a', 'b', 'c', 'd', 'e', 'f']
+>>> set(isolated_nodes(graph))
+{'f'}
+```
+
+
+

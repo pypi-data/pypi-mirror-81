@@ -1,0 +1,11 @@
+megakeep/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+megakeep/megakeep.py,sha256=TtCQrfFchNQUckiHviNgNWuBoZSJ-lUDcWoHyFepkTA,1965
+megakeep/parser.py,sha256=VH7_dfenw03ot00oMJoQfX4SZRqt57Glby-P7-FRnmg,1256
+megakeep/user.py,sha256=4V0-jsFw58TxLbri96kQIITYINA_tmzfxjhLNPfBJrI,117
+megakeep/userslist.py,sha256=ryOAd_YguczV_jV0m1zbROnLCw9iT5PJv7lUEidb4zA,1076
+megakeep-1.1.0.dist-info/METADATA,sha256=3MyFmnIkoLmxte4rEOxr_-nt3fZJOOoih8zVcBf7fTs,1584
+megakeep-1.1.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+megakeep-1.1.0.dist-info/dependency_links.txt,sha256=q84ElXE4qIbwYkyjV9_WkrmFmg6rSAwvH3RkpNOjbkI,41
+megakeep-1.1.0.dist-info/entry_points.txt,sha256=dAzATJvfUpJp6Bv8VxV9LSS_L6e8KpkugJ0eOf1JKhM,53
+megakeep-1.1.0.dist-info/top_level.txt,sha256=i1uOC_KfkTQTBe_VZLmoJ9WTp2QNgOHXPEePndLTPw8,9
+megakeep-1.1.0.dist-info/RECORD,,

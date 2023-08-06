@@ -1,0 +1,3 @@
+[console_scripts]
+megakeep = megakeep.megakeep:main
+

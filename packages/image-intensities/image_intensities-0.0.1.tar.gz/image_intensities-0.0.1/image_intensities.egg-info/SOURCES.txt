@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.py
+image_intensities/__init__.py
+image_intensities/compiled_cffi.py
+image_intensities/compiled_cython.c
+image_intensities/pure_python.c
+image_intensities/pure_python.py
+image_intensities.egg-info/PKG-INFO
+image_intensities.egg-info/SOURCES.txt
+image_intensities.egg-info/dependency_links.txt
+image_intensities.egg-info/requires.txt
+image_intensities.egg-info/top_level.txt

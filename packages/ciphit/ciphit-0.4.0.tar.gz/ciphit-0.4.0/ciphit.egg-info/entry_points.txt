@@ -1,0 +1,3 @@
+[console_scripts]
+ciphit = ciphit.__main__:main
+

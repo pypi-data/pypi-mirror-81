@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+azurefunctionhelpers/azurefunctionhelpers.egg-info/PKG-INFO
+azurefunctionhelpers/azurefunctionhelpers.egg-info/SOURCES.txt
+azurefunctionhelpers/azurefunctionhelpers.egg-info/dependency_links.txt
+azurefunctionhelpers/azurefunctionhelpers.egg-info/requires.txt
+azurefunctionhelpers/azurefunctionhelpers.egg-info/top_level.txt
+azurefunctionhelpers/logging/__init__.py
+azurefunctionhelpers/logging/elastic_apm.py

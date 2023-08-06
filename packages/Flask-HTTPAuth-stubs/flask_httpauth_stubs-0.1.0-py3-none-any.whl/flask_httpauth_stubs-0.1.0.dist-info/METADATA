@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: flask-httpauth-stubs
+Version: 0.1.0
+Summary: Mypy plugin and stubs for Flask-HTTPAuth
+Home-page: UNKNOWN
+Author: Martin Thoma
+Author-email: info@martin-thoma.de
+Maintainer: Martin Thoma
+Maintainer-email: info@martin-thoma.de
+License: MIT license
+Keywords: utility,mypy
+Platform: Linux
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown
+Requires-Dist: mypy (>=0.720)
+Requires-Dist: typing-extensions (>=3.7.4)
+
+# flask_httpauth_stubs
+
+Add types for Flask-HTTPAuth for mypy.
+
+## Installation
+
+```
+$ pip install flask-httpauth-stubs
+```
+
+<!-- ## Usage
+
+You need to enable the plugin in your mypy config file:
+
+```
+[mypy]
+plugins = flask_httpauth_stubs
+```
+ -->
+
+

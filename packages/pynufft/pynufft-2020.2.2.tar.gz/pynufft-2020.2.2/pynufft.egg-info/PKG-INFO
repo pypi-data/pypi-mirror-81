@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pynufft
+Version: 2020.2.2
+Summary: Python non-uniform fast Fourier transform (PyNUFFT)
+Home-page: https://github.com/jyhmiinlin/pynufft
+Author: PyNUFFT
+Author-email: pynufft@gmail.com
+License: LGPLv3, AGPL
+Description: UNKNOWN
+Platform: UNKNOWN

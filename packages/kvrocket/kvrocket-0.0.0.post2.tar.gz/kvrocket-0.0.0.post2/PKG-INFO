@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: kvrocket
+Version: 0.0.0.post2
+Summary: KVRocket is a lightweight persistent key value store for Python.
+Home-page: https://github.com/apexapi/kvrocket
+Author: Dan Sikes
+Author-email: dansikes7@gmail.com
+License: UNKNOWN
+Project-URL: Source, https://github.com/apexapi/kvrocket
+Description: UNKNOWN
+Keywords: python,portable storage,key value store
+Platform: UNKNOWN

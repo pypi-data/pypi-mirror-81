@@ -1,0 +1,15 @@
+bongard/__init__.py,sha256=iOv2CC942C-a-sE2EzI5-K-nGYuxdZyErg-bFQAAZiI,351
+bongard/bongard.py,sha256=cUVGciZNmfxQ9EBChUkizp85pjtK26XEJTUQYWKrKWE,18278
+bongard/bongard_painter.py,sha256=qgBrgUhj8lBXys6zoS_GfSaRvKiKz45wzZvq6OYGqwI,23326
+bongard/plot.py,sha256=VGdhnFq2vk9qTtA72xaG3Af_mqUX0uoP2uFGUFmoK1M,3844
+bongard/util_funcs.py,sha256=OimfWzTTUZWBiBjgsgkUS_Ay_3pkbEo2roNLP38MnS4,5749
+bongard/sampler/__init__.py,sha256=Kp4SJsTt6Ev4yfktmkvNUk3jMgcp0XRK-FlaMhiO0aQ,371
+bongard/sampler/abstract_sampler.py,sha256=rnwUOlNWjbMeVSVmKK5JOLDKoyWW47rk6UNO7a2zdOg,10090
+bongard/sampler/basic_sampler.py,sha256=xDwE0WG1pG7loxm5thi7LWYY-F22Te_UKxDd0Duq1Tc,7293
+bongard/sampler/bongard_sampler.py,sha256=kghjPXAv5zh9QgIH9K-lvzsAVhAkcgJRG0ffKwhWcG8,485
+bongard/sampler/freeform_sampler.py,sha256=idgONGS3rfEVdVjX8z876x3Ve4BT8Ms_yR0pVnoba0c,11147
+bongard-0.0.1.dist-info/LICENSE,sha256=G557QrQ_hBaGUB4Sq3fqYqr7VzcHghPjqLy-WWlpB-g,1072
+bongard-0.0.1.dist-info/METADATA,sha256=y7CdLA6iKiVaRV3qeVUQIgJr3XFxd6YYtER-iM1eZtA,15125
+bongard-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+bongard-0.0.1.dist-info/top_level.txt,sha256=B-E6lDxYjkXsLEkwQzHWVSZzqUxcMpEtpW-quZ5pzJM,8
+bongard-0.0.1.dist-info/RECORD,,

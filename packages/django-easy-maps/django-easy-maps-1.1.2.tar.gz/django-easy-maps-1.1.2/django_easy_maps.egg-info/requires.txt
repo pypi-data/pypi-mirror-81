@@ -1,0 +1,4 @@
+django-classy-tags>=0.6.2
+django-appconf
+geopy>=0.96
+six>=1.9.0

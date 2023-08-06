@@ -1,0 +1,16 @@
+LICENSE
+setup.cfg
+setup.py
+secure_file_detection/__init__.py
+secure_file_detection/constants.py
+secure_file_detection/detector.py
+secure_file_detection/exceptions.py
+secure_file_detection/tests.py
+secure_file_detection/typing_types.py
+secure_file_detection/utils.py
+secure_file_detection/validators.py
+secure_file_detection.egg-info/PKG-INFO
+secure_file_detection.egg-info/SOURCES.txt
+secure_file_detection.egg-info/dependency_links.txt
+secure_file_detection.egg-info/requires.txt
+secure_file_detection.egg-info/top_level.txt

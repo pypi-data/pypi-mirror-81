@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+awscli_plugin_logs_tail/__init__.py
+awscli_plugin_logs_tail/tail.py
+awscli_plugin_logs_tail.egg-info/PKG-INFO
+awscli_plugin_logs_tail.egg-info/SOURCES.txt
+awscli_plugin_logs_tail.egg-info/dependency_links.txt
+awscli_plugin_logs_tail.egg-info/requires.txt
+awscli_plugin_logs_tail.egg-info/top_level.txt

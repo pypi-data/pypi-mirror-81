@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: awscli-plugin-logs-tail
+Version: 0.1
+Summary: CloudWatch Logs tail command plugin for AWS CLI
+Home-page: https://github.com/corymbia/logs-tail-awscli-plugin
+Author: Steve Jones
+Author-email: steve@iaascream.cloud
+License: BSD (Simplified)
+Description: # AWS CLI plugin for tailing CloudWatch Logs
+        
+        An awscli plugin backporting the [tail command](https://github.com/aws/aws-cli/pull/3729) from AWS CLI v2
+        
+        ## AWS CLI Tail Command
+        
+        This plugin is a backport of the [tail command](https://github.com/aws/aws-cli/pull/3729) added in AWS CLI v2.
+        
+        ## Installation
+        
+        To install the latest release of the logs tail plugin:
+        
+        
+        ```
+        $ pip install awscli-plugin-logs-tail
+        
+        ```
+        
+        To install the plugin from source:
+        
+        ```
+        $ pip install git+https://github.com/corymbia/logs-tail-awscli-plugin.git
+        ```
+        
+        This requires `pip` and `git` are available.
+        
+        ## Configuration
+        
+        To enable the plugin:
+        
+        ```
+        $ cat .aws/config 
+        [plugins]
+        logs_tail = awscli_plugin_logs_tail
+        ```
+        
+        ## Usage
+        
+        Assuming the plugin is registered:
+        
+        ```
+        $ aws logs tail LOG_GROUP_NAME
+        ...
+        ...
+        ```
+        
+        See command help for details:
+        
+        ```
+        $ aws logs tail help
+        ```
+        
+Keywords: awscli,cloudwatch
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Internet
+Description-Content-Type: text/markdown

@@ -1,0 +1,4 @@
+awscli>=1.14.0
+botocore>=1.8.35
+colorama>=0.3.2
+python-dateutil>=1.4

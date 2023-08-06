@@ -1,0 +1,3 @@
+[git_record.main]
+main = git_record.main
+

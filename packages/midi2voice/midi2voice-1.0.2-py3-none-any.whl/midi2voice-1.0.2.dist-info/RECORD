@@ -1,0 +1,9 @@
+midi2voice/__init__.py,sha256=PPGZ6qrdavMetcnqJXSvO1PXvVuO9t4bm9Ohh2BRwWY,1464
+midi2voice/__main__.py,sha256=DiPCizvuWBegQ1MMtIsMKJrqYum91SUr-venfgqEogs,784
+midi2voice/lyrics_tokenizer.py,sha256=TVOViEIzxrKnNfrjoX8EVsgJuxG4JON_GqBveTaN8is,2880
+midi2voice/midi2xml.py,sha256=yN0jXBqSjAJMa3d5Sowor6nguSficq1LUfpvhjTLkT8,2031
+midi2voice-1.0.2.dist-info/LICENSE,sha256=dtS568unBszh_m_XZ7KXcMgv0q9v2rWc05A4lugmN74,1070
+midi2voice-1.0.2.dist-info/METADATA,sha256=gfPHQfxeh14gjx3qXReXuEpLIDrO7vr3Z45590RzVz4,2546
+midi2voice-1.0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+midi2voice-1.0.2.dist-info/top_level.txt,sha256=wNN7r7L2-MTiKQUaNARVTPSxAUay5GtTq-rhjl6981o,11
+midi2voice-1.0.2.dist-info/RECORD,,

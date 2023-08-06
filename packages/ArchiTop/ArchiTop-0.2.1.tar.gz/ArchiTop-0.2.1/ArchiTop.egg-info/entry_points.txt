@@ -1,0 +1,3 @@
+[console_scripts]
+archiTop = archiTop.__main__:main
+

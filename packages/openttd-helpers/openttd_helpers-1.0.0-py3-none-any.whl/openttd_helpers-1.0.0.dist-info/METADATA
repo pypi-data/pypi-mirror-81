@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: openttd-helpers
+Version: 1.0.0
+Summary: Small helpers common in most Python applications for OpenTTD
+Home-page: https://github.com/OpenTTD/py-helpers
+Author: OpenTTD Dev Team
+Author-email: info@openttd.org
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: click (>=7.1.2)
+Requires-Dist: sentry-sdk (>=0.18.0)
+
+# openttd-helpers
+
+A repository full of small bits of Python code, commonly used in other
+projects developed for OpenTTD.
+
+To increase maintainability and to decrease code duplication, this repository
+was created.
+
+# Usage
+
+`pip install openttd-helpers`
+
+See `examples/` folder for example use, or look into OpenTTD repositories containing Python code.
+
+# Modules
+
+## click_helper
+
+Helpers to make the use of "click" easier.
+
+- command: by default, add `-h` to the allowed parameters.
+- extend: allow extending a `click.command()` in other functions.
+- import_module: used in combination with `Choice`, to auto-load modules based on the choice.
+
+## logging_helper
+
+Setup a default logger via a `click.extend()` function.
+
+## sentry_helper
+
+Setup Sentry via a `click.extend()` function.
+
+

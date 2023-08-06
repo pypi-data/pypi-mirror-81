@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: keras-helper
+Version: 1.0
+Summary: Helpful Keras Import Wrapper
+Home-page: https://github.com/guilt/keras-helper
+Author: Karthik Kumar Viswanathan
+Author-email: karthikkumar@gmail.com
+License: MIT
+Description: # Helpful Keras Import Wrapper
+        
+        This is a library meant to help get an optimized version of 
+        Keras and other useful libraries without worrying about what
+        is the underlying implementation (PlaidML, Tensorflow etc.)
+        
+        ## Usage
+        
+        ```python
+        from keras_helper import keras
+        
+        if not keras:
+            raise ImportError('No keras found')
+        ```
+        
+        ## Questions?
+        
+        Reach out to *Karthik Kumar Viswanathan* `karthikkumar at gmail dot com`
+        for any suggestions, feedback. PRs welcome.
+Keywords: keras mxnet cntk plaidml tensorflow theano cuda numpy numpy-intel pandas ray modin scikit-learn matplotlib seaborn plotly helper ai ml datascience
+Platform: UNKNOWN
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown

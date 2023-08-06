@@ -1,0 +1,9 @@
+roufcp/__init__.py,sha256=54R3c1Ewmz6cK2penlKwB1Jr_vka09EHBlHvExF3qN8,26
+roufcp/roufcp.py,sha256=VmRQ4BjKVK2b2RejXcEpI84IPI1wPw8Ya6ijXdt2qTM,15690
+roufcp/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+roufcp/tests/test_roufcp.py,sha256=41-lEfst3Gqe6P66jPtIlpCR1o1mlEo3nf2gSJ_ZB-E,1205
+roufcp-0.1.1.dist-info/LICENSE,sha256=nqVwIpFLlc2t8cBhFVqIgcCphvAJP8VuXycz-c_W3IY,1091
+roufcp-0.1.1.dist-info/METADATA,sha256=duQf98OSIHA9_iGXHypfDFVx75FSyqnfDsP9uDlOlJM,2759
+roufcp-0.1.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+roufcp-0.1.1.dist-info/top_level.txt,sha256=JW6PnbiXPKDKj_ABxwdpZYX66ih0zYIJwKa3THTM6P8,7
+roufcp-0.1.1.dist-info/RECORD,,

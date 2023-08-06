@@ -1,0 +1,13 @@
+seurvalencia/__init__.py,sha256=3elKBL6I_mtLx4oWecng79KnvZGFj_vaE5tk_JGuEyI,262
+seurvalencia/api.py,sha256=zJiGCKeepYJrv5tT1kXLQq6ks7j8Ipy53jcqzCTWItI,4793
+seurvalencia/picking.py,sha256=QyyFT_gtUK3U-I84sgQVvWuw8rQ6C7B13Ee1gzZAbyM,7368
+seurvalencia/utils.py,sha256=muDsR2jX-ns2HdztMdBc0ZaytT_H9tZnoC3vslN1lk4,799
+seurvalencia/template/get_city.xml,sha256=K8zEIWl4qTXPLvVAJNq0Wt8bDcIm8u9uoDmt0BzkDJs,645
+seurvalencia/template/picking_info.xml,sha256=Xdv4MB7MxrmSKIR1QmRhMN_bQst7TnjLcu7U0vaHb3c,541
+seurvalencia/template/picking_send.xml,sha256=aeZPPy42hcJKUePbPPb1H4FifHMp9N5gqVX47mIXZOE,5713
+seurvalencia/template/validate_user.xml,sha256=WyCHwY7LGLFrWnbYAkM7bClRV6YfjekYG7j6XHbMya0,534
+seurvalencia-0.0.5.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+seurvalencia-0.0.5.dist-info/METADATA,sha256=NRaLkXkLOSUhYJybyxAYvpNjgIPqDAQ0TIG2bHNHQY0,2012
+seurvalencia-0.0.5.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+seurvalencia-0.0.5.dist-info/top_level.txt,sha256=m0Cl6Y9ZqnHA97X_3oYZTW5w85RDptb1CLb4tDg9hIw,13
+seurvalencia-0.0.5.dist-info/RECORD,,

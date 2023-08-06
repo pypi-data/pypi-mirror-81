@@ -1,0 +1,14 @@
+assetic_qgis/__init__.py,sha256=Cu7Cs04mBHp2dF-jXYTzuKFEX1ZW7RqLZctLfBtLNyM,1263
+assetic_qgis/__version__.py,sha256=WerrBIw4XwTzhpJdC-6AkKSsO0ODpvvWL6nFtz92_NA,46
+assetic_qgis/initialise.py,sha256=Bhk5JFwppY4GShUrPZ1s5lScEmtGteDFWi8fNODwEEY,270
+assetic_qgis/qgis_config.py,sha256=xo_iLc4C4V_gpSwk0TaJX9wJFd9BEJa0V8vbqGarsKw,602
+assetic_qgis/settings/__init__.py,sha256=cSaUwSsL-RxpIpBBtl3Jxshguw0q9Lmv8Hbma92cReg,187
+assetic_qgis/settings/assetic_qgis_config.py,sha256=6hrvaAj0847n-fBjk-u_dN66mkxDULf1FNmWNT7cLwk,20656
+assetic_qgis/tools/__init__.py,sha256=73GyVMIJwlqX9OsUtHypM4EQsfEgDdG8fQ4pMehyaOo,229
+assetic_qgis/tools/qgis_layertools.py,sha256=bUesTc3C4e1zvUmDmDyVIBqE5HLeejg2zivCpHFDZCk,37665
+assetic_qgis/tools/qgis_messager.py,sha256=-OvIh9223sHZBnTMm8ZikuZ25fAc5v7SfGhNmix5uxs,708
+assetic_qgis-2.0.1.0.dist-info/LICENSE.txt,sha256=rs1LBK5Qjass3Y2clcmQAcaKbYiAkjihOCwop2lTiIU,1068
+assetic_qgis-2.0.1.0.dist-info/METADATA,sha256=L_0UqTAaNL93K0ewUuMmeOmzBnX6a4a_XrzG00NUrAw,1444
+assetic_qgis-2.0.1.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+assetic_qgis-2.0.1.0.dist-info/top_level.txt,sha256=4D1mJUQBUOqo1hCX-uQCO-cEJ1CubMzX0_G8ihfVy2U,13
+assetic_qgis-2.0.1.0.dist-info/RECORD,,

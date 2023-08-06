@@ -1,0 +1,17 @@
+geoarray>=0.8.30
+py_tools_ds>=0.14.28
+cmocean
+numpy
+gdal
+shapely
+scikit-image
+matplotlib
+geopandas
+pandas
+plotly
+six
+folium>=0.6.0
+geojson
+pykrige
+pyfftw
+git+https://github.com/matplotlib/basemap#egg=basemap

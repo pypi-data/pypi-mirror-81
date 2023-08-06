@@ -1,0 +1,3 @@
+[console_scripts]
+sms-gateway = sms_gateway.__main__:main
+

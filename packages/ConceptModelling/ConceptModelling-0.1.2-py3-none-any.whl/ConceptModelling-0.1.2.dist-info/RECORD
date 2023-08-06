@@ -1,0 +1,12 @@
+ConceptModelling/__init__.py,sha256=AiMFOVOvqQvwsB7XlMw4tGyXncsMohn8vKQl9QOmiNQ,658
+ConceptModelling/text_preprocessing.py,sha256=gtP1R9x08CBubAdI84_mYm1f8p10CnAJ0nn4XI-vslM,16656
+ConceptModelling/thumbs_up_down.py,sha256=b5_MCigY4jaSX712GV0Spn6eZ3yp2U5Xh36BPZDQeJo,9395
+ConceptModelling/data/ar.affective.words.json,sha256=1BCI2uYg5R8YKOehUd3_v4-Y7XZAGGP9Py9R_8WFNVI,181438
+ConceptModelling/data/en.affective.words.json,sha256=NN9dFeJLZ1mrkA_B419VsDOwwhkJ1Jv4-ZOQhKg__JY,49871
+ConceptModelling/data/es.affective.words.json,sha256=QM0DL0D8UPbTTLILydsrk4H0mwf9PclNkPANpuDcMzI,20440
+ConceptModelling/tests/test_thumbs_up_down.py,sha256=9KlWt3WscO-EVXBXtyLYtigLJab5OfS5s8A8w33AZxs,908
+ConceptModelling-0.1.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ConceptModelling-0.1.2.dist-info/METADATA,sha256=thzjoy94OaFKRN1sB7XtVCGJTie3hBIqvSv0UD0zzOA,697
+ConceptModelling-0.1.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+ConceptModelling-0.1.2.dist-info/top_level.txt,sha256=PoWaaXAOiYugUoK-WW_uEs9NU6Yis0oGbVn1D-fH6CY,40
+ConceptModelling-0.1.2.dist-info/RECORD,,

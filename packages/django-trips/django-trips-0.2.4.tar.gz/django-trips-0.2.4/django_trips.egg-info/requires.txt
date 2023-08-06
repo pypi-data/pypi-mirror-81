@@ -1,0 +1,11 @@
+pytest
+djangorestframework
+factory_boy
+setuptools
+mysqlclient
+pytest-django
+django_extensions
+django-config-models
+django-cors-headers
+Django<2.3
+ddt

@@ -1,0 +1,15 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+src/ofxstatement/__init__.py
+src/ofxstatement/plugins/__init__.py
+src/ofxstatement/plugins/jlpartnership.py
+src/ofxstatement_jl_partnership.egg-info/PKG-INFO
+src/ofxstatement_jl_partnership.egg-info/SOURCES.txt
+src/ofxstatement_jl_partnership.egg-info/dependency_links.txt
+src/ofxstatement_jl_partnership.egg-info/entry_points.txt
+src/ofxstatement_jl_partnership.egg-info/namespace_packages.txt
+src/ofxstatement_jl_partnership.egg-info/requires.txt
+src/ofxstatement_jl_partnership.egg-info/top_level.txt
+src/ofxstatement_jl_partnership.egg-info/zip-safe

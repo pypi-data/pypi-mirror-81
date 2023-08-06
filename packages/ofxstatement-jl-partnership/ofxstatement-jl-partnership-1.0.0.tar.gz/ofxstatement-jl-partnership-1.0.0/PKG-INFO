@@ -1,0 +1,63 @@
+Metadata-Version: 1.1
+Name: ofxstatement-jl-partnership
+Version: 1.0.0
+Summary: OFXStatement plugin for John Lewis Partnership card (UK)
+Home-page: https://github.com/daniel-beet/ofxstatement-jl-partnership
+Author: Daniel Beet
+Author-email: dan@ionicblue.com
+License: MIT
+Description: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        John Lewis Partnership Card plugin for ofxstatement
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        
+        `ofxstatement`_ is a tool to convert proprietary bank statement to OFX format,
+        suitable for importing to GnuCash. Plugin for ofxstatement parses a
+        particular proprietary bank statement format and produces common data
+        structure, that is then formatted into an OFX file.
+        
+        .. _ofxstatement: https://github.com/kedder/ofxstatement
+        
+        
+        Users of ofxstatement have developed several plugins for their banks. They are
+        listed on main `ofxstatement`_ site. If your bank is missing, you can develop
+        your own plugin.
+        
+        Usage
+        =====
+        
+          $ ofxstatement convert -t jlpartnership input.csv output.ofx
+        
+        Development / Test
+        ==================
+        
+        ``ofxstatemnt`` uses `pipenv`_ to manage the development environment and
+        dependencies::
+        
+          $ pip install pipenv
+          $ pipenv sync --dev
+        
+        .. _pipenv: https://github.com/pypa/pipenv
+        
+        And finally run the test suite::
+        
+          $ pipenv shell
+          $ pytest
+        
+        Or use make:
+          $ make
+        
+        Package tgz for pip install:
+          $ python setup.py sdist
+        
+        
+        When satisfied, you may create a pull request.
+Keywords: ofx,banking,statement,john lewis,partnership
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: Natural Language :: English
+Classifier: Topic :: Office/Business :: Financial :: Accounting
+Classifier: Topic :: Utilities
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License

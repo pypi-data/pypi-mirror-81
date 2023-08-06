@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: finsights
+Version: 0.1.0
+Summary: Derive investment insights
+Home-page: https://gitlab.com/qiujunda/finsights
+Author: Finsights
+License: MIT
+Description: # Introduction
+        
+        Finsights is a package to derive financial insights. It aims to covers the multi-facted areas associated with investment research. This includes getting of data from various sources, preprocessing of data, and analysis-related functions to obtain insights.
+        
+        ## Chapters
+        
+        1. Data
+        
+        2. Analysis
+        
+        ## Compatibility
+        
+        This package was developed in Python 3.8.5 on MacOS.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: MacOS
+Requires-Python: >=3.8.5
+Description-Content-Type: text/markdown

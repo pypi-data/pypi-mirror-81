@@ -1,0 +1,11 @@
+README.md
+setup.py
+modbusclc/__init__.py
+modbusclc/__main__.py
+modbusclc/cli.py
+modbusclc.egg-info/PKG-INFO
+modbusclc.egg-info/SOURCES.txt
+modbusclc.egg-info/dependency_links.txt
+modbusclc.egg-info/not-zip-safe
+modbusclc.egg-info/requires.txt
+modbusclc.egg-info/top_level.txt

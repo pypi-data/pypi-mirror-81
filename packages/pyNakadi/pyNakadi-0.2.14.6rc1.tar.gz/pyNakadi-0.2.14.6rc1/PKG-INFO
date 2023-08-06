@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyNakadi
+Version: 0.2.14.6rc1
+Summary: Python client for Nakadi
+Home-page: https://github.com/eiunkar/pyNakadi
+Author: Ersin Ihsan Unkar
+Author-email: eiunkar@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: python client nakadi reader
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown

@@ -1,0 +1,15 @@
+.coveragerc
+CHANGES.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+requirements-dev.txt
+requirements.txt
+setup.cfg
+setup.py
+.github/workflows/pre-commit.yml
+erddapy/__init__.py
+erddapy/erddaps.json
+erddapy/erddapy.py
+erddapy/utilities.py

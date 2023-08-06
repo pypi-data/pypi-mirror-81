@@ -1,0 +1,11 @@
+daves_utilities/__init__.py,sha256=pVuCArjCg4fKZ5TGuzrcbTqngqkr7Bg_oJ7gB1bU-iM,416
+daves_utilities/for_long.py,sha256=qQEVpND_g976jKfR0imw0BMnkZsjADiZaqd3ja2DdJo,5307
+daves_utilities/fun_save.py,sha256=7fV4hAquC7CGn8d4gdDqAb_yWQhEwRdPNy-WvymhkqA,2477
+daves_utilities/is_equal.py,sha256=gLf-1SpHTivzR18tkSij3YYi3XMpBlZB73vX_h4j2YQ,1562
+daves_utilities/print_structure.py,sha256=h4d-cOA6c-DQ6nIh-JZZGZ8iqZeTKzU8G4-IhcmmoP8,3245
+daves_utilities/test/test_fun_save.py,sha256=U8smgIJXe76ZIJJZAHLe3Y_5SVLIduzRfH0nwDwhEsY,794
+daves_utilities/test/test_is_equal.py,sha256=5IthdzsYVIN1dX4MCNwuz5wN3EmlVkMVFYwb6KpWR2Q,931
+daves_utilities-0.0.12.dist-info/LICENSE,sha256=03RzeD33ZRbncU6T3vXuREHVK2kwAuOxCFexpPLFAls,1086
+daves_utilities-0.0.12.dist-info/WHEEL,sha256=4vGQWMHJO3SOyvYcLHqr380W2n90FCfzkrP_YY3xjq8,99
+daves_utilities-0.0.12.dist-info/METADATA,sha256=svYrmMU6PFc4cXkfpLeOUZKen5fOrrtJvCZTaCN6F0s,1510
+daves_utilities-0.0.12.dist-info/RECORD,,

@@ -1,0 +1,14 @@
+README.rst
+setup.cfg
+setup.py
+src/bits3/__init__.py
+src/bits3/cli.py
+src/bits3/core.py
+src/bits3/utils.py
+src/bits3.egg-info/PKG-INFO
+src/bits3.egg-info/SOURCES.txt
+src/bits3.egg-info/dependency_links.txt
+src/bits3.egg-info/entry_points.txt
+src/bits3.egg-info/not-zip-safe
+src/bits3.egg-info/requires.txt
+src/bits3.egg-info/top_level.txt

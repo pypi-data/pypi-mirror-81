@@ -1,0 +1,3 @@
+[console_scripts]
+bits3 = bits3.cli:run
+

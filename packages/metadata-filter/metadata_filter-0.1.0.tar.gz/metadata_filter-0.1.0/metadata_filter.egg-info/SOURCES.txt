@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+metadata_filter/__init__.py
+metadata_filter/filters.py
+metadata_filter/rules.py
+metadata_filter.egg-info/PKG-INFO
+metadata_filter.egg-info/SOURCES.txt
+metadata_filter.egg-info/dependency_links.txt
+metadata_filter.egg-info/not-zip-safe
+metadata_filter.egg-info/top_level.txt
+tests/README.md
+tests/__init__.py
+tests/test_spotify.py

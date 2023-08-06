@@ -1,0 +1,8 @@
+r_freeze/__init__.py,sha256=tNLmYvb0ZzlGnNoYW2cbi9XRk3hO_nxiX6kvUdmewss,133
+r_freeze/cli.py,sha256=rmcuUl7icC1HEymtfc9el3OXS1VGYrrisPxkjfSuHak,1026
+r_freeze/r_freeze.py,sha256=s56_GyBPzJoqj7p9iS7sZgeH18lkZp4uAVjbzYmWV_M,3053
+r_freeze-0.1.0.dist-info/METADATA,sha256=Rd6G-ZpTYWAJW2D3Ik8NEltAS-Q8g282ds-qO3xuohA,2186
+r_freeze-0.1.0.dist-info/RECORD,,
+r_freeze-0.1.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+r_freeze-0.1.0.dist-info/entry_points.txt,sha256=rI_7xHHzBZboaXKFkjqOvxdWHO5lzoxcPhLoSumMff0,48
+r_freeze-0.1.0.dist-info/top_level.txt,sha256=D1E9nmMXM5f2NnP0FU8FkN_Sor5b1A5KnTKAS3S1D_s,9

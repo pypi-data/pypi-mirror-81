@@ -1,0 +1,12 @@
+xortool/__init__.py,sha256=5RpLGahop916SeM-IBybvWyDoKIuatfa3Aw-NIlBIgA,75
+xortool/args.py,sha256=HxwCdvet4fhaN6YZktffEWV19A3oF9S1QdbkyzlIruo,1472
+xortool/charset.py,sha256=DnfsRjttat9_Zi3x2tV1P8ztbN8NP55aERHKi-rehOQ,756
+xortool/colors.py,sha256=QlSsrkGPDT4ttkeCtaHlERA4d5wwHulA2Zkj08qPqrw,672
+xortool/libcolors.py,sha256=KBOo_IPAGRXVSJzPUlXGhCBPCbka_YWsTSTRvJpBBD4,2249
+xortool/routine.py,sha256=778dbxukqZ7RPrGjTqBrAGadtggzBlqA1UP7JeYVHWI,1580
+xortool/tool_main.py,sha256=Wu1HYfQVVD1Cm0yWC5Gb4K2Ocr820zYj_moWkGBu2qo,12708
+xortool/tool_xor.py,sha256=piUnolEXWccMmRDTeazVFicLMeIYkdRPL7BextgkY1w,2308
+xortool-1.0.0.dist-info/entry_points.txt,sha256=fpI9xyAG0gmCnQdMq-PtAKiNlRHu_S-y7pLTdwzNb0c,84
+xortool-1.0.0.dist-info/WHEEL,sha256=1Wv1-j00YAJKW7-71pMbcybYgVOmSGd4AVtGoeL4spQ,86
+xortool-1.0.0.dist-info/METADATA,sha256=DA-KIB8bIQhL9NZsPeHKeM5gFvQOjtdYBVIHChTPYq4,6227
+xortool-1.0.0.dist-info/RECORD,,

@@ -1,0 +1,5 @@
+pytest-cov
+pytest
+pytest-remotedata
+mock
+veracitools

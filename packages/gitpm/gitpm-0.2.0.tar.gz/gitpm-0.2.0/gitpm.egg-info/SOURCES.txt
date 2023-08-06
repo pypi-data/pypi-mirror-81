@@ -1,0 +1,12 @@
+setup.py
+gitpm/__init__.py
+gitpm/command_line.py
+gitpm/gitpm.py
+gitpm/repository.py
+gitpm/view.py
+gitpm.egg-info/PKG-INFO
+gitpm.egg-info/SOURCES.txt
+gitpm.egg-info/dependency_links.txt
+gitpm.egg-info/entry_points.txt
+gitpm.egg-info/not-zip-safe
+gitpm.egg-info/top_level.txt

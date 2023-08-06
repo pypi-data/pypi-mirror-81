@@ -1,0 +1,44 @@
+Metadata-Version: 1.1
+Name: gitpm
+Version: 0.2.0
+Summary: Efficient multi git-repository project management.
+Home-page: http://github.com/finnmglas/gitPM
+Author: Finn M Glas
+Author-email: finn@finnmglas.com
+License: MIT
+Description: 
+        |PyPI - Version| |Downloads| |Code style: black|
+        
+        Git Project Manager
+        ===================
+        
+        GitPM is a commandline application that facilitates managing large
+        amounts of locally stored git-repositories.
+        
+        It does this in a secure way - no need to upload them anywhere unless
+        you want to.
+        
+        
+        `Read more on GitHub <https://github.com/finnmglas/gitPM>`__ or
+        `Contact Finn <https://www.finnmglas.com/contact>`__
+        
+        .. |PyPI - Version| image:: https://img.shields.io/pypi/v/gitpm?color=000
+           :target: https://pypi.org/project/gitpm/
+        .. |Downloads| image:: https://img.shields.io/badge/dynamic/json?style=flat&color=000&maxAge=86400&label=downloads&query=%24.total_downloads&url=https%3A%2F%2Fapi.pepy.tech%2Fapi%2Fprojects%2Fgitpm
+           :target: https://pepy.tech/project/gitpm
+        .. |Code style: black| image:: https://img.shields.io/badge/code%20style-black-000000.svg
+           :target: https://github.com/psf/black
+        
+Keywords: git management repositories manager efficiency
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: License :: Free For Educational Use
+Classifier: License :: Free For Home Use
+Classifier: License :: Free for non-commercial use
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Version Control
+Classifier: Topic :: Software Development :: Version Control :: Git

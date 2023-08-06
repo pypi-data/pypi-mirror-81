@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: hebrew-fix
+Version: 0.0.2
+Summary: With this module you can fix your hebrew broken encode
+Home-page: https://lamed-oti2.ml/
+Author: Kobi Shutzi
+Author-email: shutzi@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: Hebrew-fixer
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

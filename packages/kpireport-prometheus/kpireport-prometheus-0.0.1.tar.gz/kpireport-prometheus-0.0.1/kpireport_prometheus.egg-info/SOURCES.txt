@@ -1,0 +1,13 @@
+setup.py
+kpireport_prometheus/__init__.py
+kpireport_prometheus/alert_summary.py
+kpireport_prometheus/datasource.py
+kpireport_prometheus.egg-info/PKG-INFO
+kpireport_prometheus.egg-info/SOURCES.txt
+kpireport_prometheus.egg-info/dependency_links.txt
+kpireport_prometheus.egg-info/entry_points.txt
+kpireport_prometheus.egg-info/requires.txt
+kpireport_prometheus.egg-info/top_level.txt
+kpireport_prometheus/templates/prometheus_alert_summary.html
+kpireport_prometheus/templates/prometheus_alert_summary.md
+kpireport_prometheus/templates/prometheus_alert_summary.slack

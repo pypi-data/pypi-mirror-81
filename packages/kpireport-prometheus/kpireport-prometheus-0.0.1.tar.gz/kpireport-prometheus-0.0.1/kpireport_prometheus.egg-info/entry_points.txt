@@ -1,0 +1,6 @@
+[kpireport.datasource]
+prometheus = kpireport_prometheus:PrometheusDatasource
+
+[kpireport.view]
+prometheus.alert_summary = kpireport_prometheus:PrometheusAlertSummary
+

@@ -1,0 +1,54 @@
+Interesting projects to checkout later:
+
+https://github.com/DerekEdwards/mercury/tree/e34529bb4ac900617331eb631467c8261ddaedd1
+
+Dealing with OSRM:
+https://github.com/SiitESTGL/OTIS/blob/4f3ae74c01e076322f73f299911093e0bc576b46/my_function_osrm.py
+Your API should be something like this: https://github.com/SiitESTGL/OTIS/tree/4f3ae74c01e076322f73f299911093e0bc576b46
+
+Nearby Transit Trip Frequency:
+https://github.com/SAUSy-Lab/nearby-transit-trip-frequency/tree/0c38df7ef149291e8dbd3fad06db26b0de50dd17
+
+Lua profiles to represent itineraries:
+https://docs.itinero.tech/docs/itinero/basic-concepts/profiles/lua.html
+
+A python wrapper around OSRM API:
+https://github.com/ustroetz/python-osrm
+
+GTFS to Networkx:
+https://github.com/Data-Monkey/GTFS-NetworkX/blob/master/GTFStoGraph.py
+
+Publishing the perfect package:
+https://www.youtube.com/watch?v=GIF3LaRqgXo&t=61s
+
+Sources Mahrous sent to me:
+https://jupyterbook.org/intro.html
+
+
+Very important relevant thesis:
+https://cs.nyu.edu/mishra/PEOPLE/daruwala_raoul.pdf
+
+An algorithm finding reasonable path in transit network:
+https://onlinelibrary.wiley.com/doi/pdf/10.1002/atr.5670410305#:~:text=Computer%2Dbased%20trip%20planning%20frequently,sum%20of%20its%20arc%20costs.
+
+Shortest Paths Algorithms:
+https://www.myrouteonline.com/blog/what-is-the-best-shortest-path-algorithm
+Bellman ford's algo
+https://github.com/paulgb/gtfs-gexf
+trip based public transit routing algo
+https://github.com/mk-fg/trip-based-public-transit-routing-algo
+
+
+GTFS route server to build a complete search graph out of GTS data:
+https://github.com/joshchea/gtfs-route-server/blob/master/scripts/GTFS_RouteServer.py#L119
+
+Convert GTFS transit map to GEXF graph for use in Gephi.
+https://github.com/paulgb/gtfs-gexf
+
+Iterated Local Search Algorithms for Bike Route Generation
+https://digitalworks.union.edu/cgi/viewcontent.cgi?article=1790&context=theses
+
+
+numpy vectorization of a dict or pd dataframe
+https://towardsdatascience.com/how-to-make-your-pandas-loop-71-803-times-faster-805030df4f06
+

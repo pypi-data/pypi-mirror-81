@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: fba
+Version: 0.0.5.dev0
+Summary: Tools for feature barcoding analyses
+Home-page: https://github.com/jlduan/fba
+Author: JD
+License: UNKNOWN
+Description: # fba
+        
+        
+        Tools for feature barcoding analysis
+        
+        <br>
+        
+        ## Installation
+        
+        ```shell
+        pip install fba
+        ```
+        
+        <br>
+        
+        ## Examples
+        
+        [Cell hashing](https://github.com/jlduan/fba/blob/master/examples/cell_hashing/tutorial.md)
+        
+        [Cell surface protein labeling](https://github.com/jlduan/fba/blob/master/examples/cell_surface_protein_labeling/tutorial.md)
+        
+        [CRISPR screening](https://github.com/jlduan/fba/blob/master/examples/crispr_screening/tutorial.md)
+        
+        [Targeted transcript enrichment](https://github.com/jlduan/fba/blob/master/examples/targeted_transcript_enrichment/tutorial.md)
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

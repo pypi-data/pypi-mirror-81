@@ -1,0 +1,27 @@
+name: Run Tests and Lint
+
+on: [push]
+
+jobs:
+  test_37:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Install Tasks
+        uses: Arduino/actions/setup-taskfile@master
+        with:
+          version: '3'
+      - uses: actions/checkout@v1
+      - name: Run tests
+        run: task ci-test
+  test_36:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Install Tasks
+        uses: Arduino/actions/setup-taskfile@master
+        with:
+          version: '3'
+      - uses: actions/checkout@v1
+      - name: Run tests
+        run: task test-py36

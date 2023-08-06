@@ -1,0 +1,29 @@
+version: "3"
+
+services:
+  gcgc:
+    build:
+      context: .
+      args:
+        PY_VERSION: "${PY_VERSION:-3.7}"
+        GCGC_VERSION: "${GCGC_VERSION}"
+    environment:
+      GCGC_VERSION: "${GCGC_VERSION}"
+      AWS_ACCESS_KEY_ID:
+      AWS_SECRET_ACCESS_KEY:
+    image: docker.io/thauck/gcgc:${GCGC_VERSION}
+    volumes:
+      - $PWD/gcgc/data:/data
+    working_dir: /gcgc
+    stdin_open: true
+    tty: true
+  hub:
+    build:
+      context: .
+      dockerfile: ./build/hub/Dockerfile
+    image: hub
+    working_dir: /src
+    volumes:
+      - ./:/src
+    environment:
+      GITHUB_TOKEN: "${GITHUB_TOKEN}"

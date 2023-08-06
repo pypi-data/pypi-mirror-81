@@ -1,0 +1,10 @@
+directory_client_core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+directory_client_core/authentication.py,sha256=O8pHGxAeJNXQW3Lbp5UH0t27bVNuC0713TbyHkvQwgc,876
+directory_client_core/base.py,sha256=E0__Zvam04P0tpui1BfAee08jF0XGszzjKK55tYUFcM,4876
+directory_client_core/cache_control.py,sha256=wbkMabzKYZqOfP6HeO-ebZu4mpL0gYMUevpE1ICLTw0,381
+directory_client_core/helpers.py,sha256=g5MEi3vSTTPbBB2lVzDbP1TaSfib82TLmYW5Rw2Wcts,5001
+directory_client_core-6.3.0.dist-info/LICENSE,sha256=y-ArErAQz98OorLek2xntwEp9bo3ZcqfQMtAIcjBdvQ,1091
+directory_client_core-6.3.0.dist-info/METADATA,sha256=7YiMFuwLH813bNqk35AwwqbPjBhpE2F9uvSZ6ZAYQhE,5238
+directory_client_core-6.3.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+directory_client_core-6.3.0.dist-info/top_level.txt,sha256=hX51yuY3cBj41kaAYbfK-nJQlF8tuTg6gVVRtqIXCg4,22
+directory_client_core-6.3.0.dist-info/RECORD,,

@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: appchance
+Version: 0.1.1
+Summary: In Appchance we trust
+Home-page: https://bitbucket.org/appchance/pychance/
+Author: Radosław Przytuła
+Author-email: radoslaw.przytula@appchance.com
+License: UNKNOWN
+Description: # Appchance Toolbelt for Python
+        
+        Common models, dockerfiles, clients and project automation. Dig yourself to find your needs ;)
+        
+        Use as submodule included at top-level directory of your project.
+        ```bash
+        $ git submodule add git@bitbucket.org:appchance/pychance.git
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

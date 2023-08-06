@@ -1,0 +1,13 @@
+README.md
+setup.py
+extracteur_de_fou_malade_pour_charles_le_charlo.egg-info/PKG-INFO
+extracteur_de_fou_malade_pour_charles_le_charlo.egg-info/SOURCES.txt
+extracteur_de_fou_malade_pour_charles_le_charlo.egg-info/dependency_links.txt
+extracteur_de_fou_malade_pour_charles_le_charlo.egg-info/requires.txt
+extracteur_de_fou_malade_pour_charles_le_charlo.egg-info/top_level.txt
+pdf_extractor/__init__.py
+pdf_extractor/cleaning_encoding.py
+pdf_extractor/date_miner.py
+pdf_extractor/pdf_extractor.py
+pdf_extractor/text_extraction.py
+pdf_extractor/text_summarizer.py

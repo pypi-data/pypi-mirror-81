@@ -1,0 +1,16 @@
+# PDF Data extractor
+
+Simple package wrapper that allows us to retrieve both the year of publication and a summary of a PDF.
+
+The package mainly relies on 3 other packages :
+
+- [textract](https://textract.readthedocs.io/en/stable/) to convert PDF to plain text
+- [pdfminer3](https://pypi.org/project/pdfminer3/) to extract the date from a PDF file
+- [sumy](https://github.com/miso-belica/sumy) to summarize text
+
+## Usage
+
+> from pdf_extractor import pdf_extractor <br>
+> extractor = pdf_extractor.PDFExtractor() <br>
+> pdf_path = "./test.pdf" <br>
+> extractor.extract_data(pdf_path, 10)

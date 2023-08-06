@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: extracteur_de_fou_malade_pour_charles_le_charlo
+Version: 0.0.1
+Summary: PDF data parser
+Home-page: UNKNOWN
+Author: Jordan
+Author-email: hehe@example.com
+License: UNKNOWN
+Description: # PDF Data extractor
+        
+        Simple package wrapper that allows us to retrieve both the year of publication and a summary of a PDF.
+        
+        The package mainly relies on 3 other packages :
+        
+        - [textract](https://textract.readthedocs.io/en/stable/) to convert PDF to plain text
+        - [pdfminer3](https://pypi.org/project/pdfminer3/) to extract the date from a PDF file
+        - [sumy](https://github.com/miso-belica/sumy) to summarize text
+        
+        ## Usage
+        
+        > from pdf_extractor import pdf_extractor <br>
+        > extractor = pdf_extractor.PDFExtractor() <br>
+        > pdf_path = "./test.pdf" <br>
+        > extractor.extract_data(pdf_path, 10)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

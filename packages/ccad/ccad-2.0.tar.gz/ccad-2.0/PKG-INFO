@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: ccad
+Version: 2.0
+Summary: Python library to render Reactionware cartridges
+Home-page: https://github.com/croningroup/ccad
+Author: Cronin Group
+Author-email: croningp.pypi@gmail.com
+License: UNKNOWN
+Description: # About
+        
+        ccad is the backend Python module for ChemCAD
+        (https://gitlab.com/croningroup/reactionware/chemcad). It's its API and performs
+        all the calculations/rendering. ChemCAD is just a GUI for this module, and you
+        can use ccad without the GUI.
+        
+        # Installation
+        
+        ccad is now installed automatically as part of ChemCAD. Please refer to the installation instructions on the ChemCAD repository for further information - https://gitlab.com/croningroup/reactionware/chemcad
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

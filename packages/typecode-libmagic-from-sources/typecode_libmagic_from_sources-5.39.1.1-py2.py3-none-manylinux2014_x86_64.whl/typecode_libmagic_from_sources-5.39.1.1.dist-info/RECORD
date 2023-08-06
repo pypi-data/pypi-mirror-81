@@ -1,0 +1,15 @@
+typecode_libmagic_from_sources/__init__.py,sha256=DQrXVxPQdWE-QKSZeFpj_SiMxinAW47OcyNjPDJ8rbI,2026
+typecode_libmagic_from_sources/data/.keepme,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+typecode_libmagic_from_sources/data/magic.mgc,sha256=j8dRuwsWiSR6P__dZhXVE0sCedNPAtoZBfAX9_V28KY,6652192
+typecode_libmagic_from_sources/lib/.keepme,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+typecode_libmagic_from_sources/lib/libmagic.so,sha256=HKAZvSxd6cmbkNXOU6l8w4oQ27wcvSX4CSsPwcsPVtM,671832
+typecode_libmagic_from_sources/licenses/libmagic/COPYING,sha256=C_qFapkwvdrb75XRvhz04WPAvmGOduoydcqvJVKD4nQ,1649
+typecode_libmagic_from_sources/licenses/libmagic/ChangeLog,sha256=flk7QdF3dix8GKP9n78-lUlQs9wW8acfMlVWH_9F2H4,56383
+typecode_libmagic_from_sources/licenses/libmagic/README,sha256=7RuVB98Aniy0_T1ZghMK4zRLNnS1yEwTMyT3dk40h7E,7153
+typecode_libmagic_from_sources-5.39.1.1.dist-info/LICENSE.txt,sha256=CnIM1s6GXPr9zFMzvzQ-3fsKoT1CQ3Xbv8iA6UlWncA,1594
+typecode_libmagic_from_sources-5.39.1.1.dist-info/METADATA,sha256=mYYGYpFTqrEJUIWvdNWJwFWWX0m6ubMW_g7J4eydFwg,902
+typecode_libmagic_from_sources-5.39.1.1.dist-info/README.rst,sha256=DyMPwUHWxXY4lKNy_36sxBxQpDz7iGXOGYNrXtg-AFI,107
+typecode_libmagic_from_sources-5.39.1.1.dist-info/WHEEL,sha256=Ds4baGGIKChbnDEdsQuRAJbaEAqrk_PaZpy8Xz7w7Bw,144
+typecode_libmagic_from_sources-5.39.1.1.dist-info/entry_points.txt,sha256=bV5LEIw2Om3gXFw602V-9YuSbXubWs6EtJ89G6YDM6M,95
+typecode_libmagic_from_sources-5.39.1.1.dist-info/top_level.txt,sha256=6t6PxyZeA08z4zj2wyE76WWizza0yyXiaYmoHlovXVY,31
+typecode_libmagic_from_sources-5.39.1.1.dist-info/RECORD,,

@@ -1,0 +1,13 @@
+aiohttp<3.5.0,>=3.4.0
+
+[dev]
+ipdb
+ipython
+
+[testing]
+async_generator
+coverage
+pytest
+pytest-asyncio
+pytest-cov
+pytest-sugar

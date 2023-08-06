@@ -1,0 +1,11 @@
+cased_django/__init__.py,sha256=y9JlJbHdZ0raSRmbpDRzBmmwmUgMeARssAuEU4rXvA8,433
+cased_django/cased_model_event.py,sha256=jGlEh4WZeULtfStN6WaOtn1pF9BcACUDbRw_PfI6mO0,1854
+cased_django/client.py,sha256=MyOOgJZY54iZgLmdB_unVC49B-nEmJ6ye9LDruM7CF8,836
+cased_django/conf.py,sha256=g-W43YF-ZkkR63nBP6ThrwF4sM4UrqaUtiiRe-h48Cw,869
+cased_django/event_manager.py,sha256=T-X5twD9_-XksieU6FQ1bWGfYgpMwskRorXqyXFoB5s,1545
+cased_django/middleware.py,sha256=3C5y8Kr93G-hothc2AH4ES1gKspe0lSDN1dXqC61Ps8,816
+cased_django-0.6.0.dist-info/LICENSE,sha256=55JiyfyGEDynXPsGUVqcmD75qEn8U_pdB3I0aKROxL0,1078
+cased_django-0.6.0.dist-info/METADATA,sha256=kjZMVTSVA5XeI7wU7LauIzRATZHWugdQ_Q7eqGdDU7I,463
+cased_django-0.6.0.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+cased_django-0.6.0.dist-info/top_level.txt,sha256=HMvYWwJ801hPwnPW2IWFllVAQUbxe0lXNw50PTc4Pxc,13
+cased_django-0.6.0.dist-info/RECORD,,

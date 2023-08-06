@@ -1,0 +1,45 @@
+Metadata-Version: 1.2
+Name: fast-upfirdn
+Version: 0.5
+Summary: fast_upfirdn: CPU & GPU implementations of scipy.signal.upfirdn
+Home-page: http://github.com/mritools/fast_upfirdn
+Author: Gregory R. Lee
+Author-email: grlee77@gmail.com
+Maintainer: Gregory R. Lee
+Maintainer-email: grlee77@gmail.com
+License: BSD
+Description: 
+        
+        Fast Upfirdn
+        ============
+        The core low-level function implemented here is an equivalent of
+        ``scipy.signal.upfirdn`` but with support for both CPU (via NumPy) and GPU
+        (via CuPy).
+        
+        The version of ``upfirdn`` here supports several signal extension modes. These
+        have been contributed upstream to SciPy and are available there for SciPy 1.4+.
+        
+        .. _README: https://github.com/mritools/fast_upfirdn/blob/master/README.md
+        
+        License
+        =======
+        ``fast_upfirdn`` is licensed under the terms of the BSD 3-clause license. See
+        the file "LICENSE.txt" for information on the history of this software, terms &
+        conditions for usage, and a DISCLAIMER OF ALL WARRANTIES.
+        
+        All trademarks referenced herein are property of their respective holders.
+        
+        Copyright (c) 2019-2020,
+        Gregory R. Lee, Cincinnati Children's Hospital Medical Center.
+        
+Platform: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Requires: numpy
+Requires: cython
+Requires-Python: >= 3.6

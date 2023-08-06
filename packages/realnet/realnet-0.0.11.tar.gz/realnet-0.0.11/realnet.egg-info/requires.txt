@@ -1,0 +1,6 @@
+bleak
+pybluez
+pynecone==0.0.61
+python-jsonstore==1.2.0
+realnet-core==0.0.13
+tabulate

@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/alphabet.py
+src/main.py
+src/turtletext.egg-info/PKG-INFO
+src/turtletext.egg-info/SOURCES.txt
+src/turtletext.egg-info/dependency_links.txt
+src/turtletext.egg-info/entry_points.txt
+src/turtletext.egg-info/top_level.txt

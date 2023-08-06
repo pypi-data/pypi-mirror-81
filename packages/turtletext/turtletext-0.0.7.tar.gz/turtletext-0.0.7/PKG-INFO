@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: turtletext
+Version: 0.0.7
+Summary: A turtle writes text.
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: This software is released under the MIT License, see LICENSE.
+        
+        ## Example Usage
+        
+        ```
+        turtletext "hello world!!" -s 1 -w 2 --shape "turtle"
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

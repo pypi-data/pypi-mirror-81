@@ -1,0 +1,7 @@
+[console_scripts]
+kosciuszko-addfile = kosciuszko_addfile.__init__:main
+kosciuszko-extract = kosciuszko_extract.__init__:main
+kosciuszko-extract-file = kosciuszko_extract_file.__init__:main
+kosciuszko-list = kosciuszko_list.__init__:main
+kosciuszko-new = kosciuszko_new.__init__:main
+

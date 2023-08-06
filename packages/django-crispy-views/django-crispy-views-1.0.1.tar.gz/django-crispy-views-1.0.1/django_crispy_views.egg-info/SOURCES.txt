@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+crispy_views/__init__.py
+crispy_views/forms.py
+crispy_views/mixins.py
+crispy_views/tables.py
+crispy_views/views.py
+django_crispy_views.egg-info/PKG-INFO
+django_crispy_views.egg-info/SOURCES.txt
+django_crispy_views.egg-info/dependency_links.txt
+django_crispy_views.egg-info/requires.txt
+django_crispy_views.egg-info/top_level.txt

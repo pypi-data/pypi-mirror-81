@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "drf-case-middleware"
+version = "0.1.2"
+description = "Camel case to snake case and snake case to camel case for Django REST framework"
+authors = ["punkyoon <punkkid001@gmail.com>"]
+license = "MIT"
+readme = "README.rst"
+repository = "https://github.com/django-breaker/drf-case-middleware"
+keywords = ["drf-case-middleware"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+pyhumps = "^1.3.1"
+djangorestframework = "^3.11.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=1.0.0"]
+build-backend = "poetry.masonry.api"

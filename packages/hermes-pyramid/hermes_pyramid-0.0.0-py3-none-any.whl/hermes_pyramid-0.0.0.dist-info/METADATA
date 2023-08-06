@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: hermes-pyramid
+Version: 0.0.0
+Summary: Web based reporting api
+Home-page: https://github.com/EdgyEdgemond/hermes/
+License: Apache-2.0
+Author: Daniel Edgecombe
+Author-email: edgy.edgemond@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: chameleon (>=3.7.0,<3.8.0)
+Requires-Dist: pyramid
+Requires-Dist: pyramid_chameleon
+Requires-Dist: web_error
+Project-URL: Repository, https://github.com/EdgyEdgemond/hermes/
+Description-Content-Type: text/markdown
+
+# Hermes Reporting v0.0.0
+[![image](https://img.shields.io/pypi/v/changelog_gen.svg)](https://pypi.org/project/changelog_gen/)
+[![image](https://img.shields.io/pypi/l/changelog_gen.svg)](https://pypi.org/project/changelog_gen/)
+[![image](https://img.shields.io/pypi/pyversions/changelog_gen.svg)](https://pypi.org/project/changelog_gen/)
+![style](https://github.com/EdgyEdgemond/hermes/workflows/style/badge.svg)
+![tests](https://github.com/EdgyEdgemond/hermes/workflows/tests/badge.svg)
+[![codecov](https://codecov.io/gh/EdgyEdgemond/hermes/branch/master/graph/badge.svg)](https://codecov.io/gh/EdgyEdgemond/hermes)
+

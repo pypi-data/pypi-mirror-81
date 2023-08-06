@@ -1,0 +1,13 @@
+hermes/__init__.py,sha256=WRG14cMsEGNpDRO9kyOHW9Xoa1T_4-BSIA7FsksP5TQ,44
+hermes/report.py,sha256=2S9sgcdRd0nXW-k7MWgB8j5bgpMpWcenZ2m6etf6byc,10436
+hermes/server.py,sha256=cfg1e1rViu4-tfELZOFJ3N0-lni_d27CDmFRB5bUnrE,1684
+hermes/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hermes/templates/drill.pt,sha256=4mi8AB5Rapjq_g8ensPybegh43fL86j7_Cvzkav4E9s,1037
+hermes/templates/report.pt,sha256=T0LLXvAJDaXoNmFtEkJ5RhT-kaN5Rwl29OuYfyaOP9c,3427
+hermes/templates/x,sha256=ZTLmqhGme8v3E5326vI4uh6QXXmmKKV--FnPoqQ9y0c,1824
+hermes/views.py,sha256=b_MG2G8fbxx5ieItCJiiUDbOEZe2sp7nVA7lSY05jqk,1727
+hermes_pyramid-0.0.0.dist-info/entry_points.txt,sha256=U9YEXVeyOXolXmTyhYrKBMTWijlrJ44Wf6mQFbpZfOA,45
+hermes_pyramid-0.0.0.dist-info/LICENSE,sha256=dX6lidxbITpV4rgpnZ_dj15POhb5uHlh4r9gj8YxkwI,11307
+hermes_pyramid-0.0.0.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+hermes_pyramid-0.0.0.dist-info/METADATA,sha256=PoooaYNlTdbPWQEX7qrab-BDSVW8sHuTWVW-tVbsJO4,1261
+hermes_pyramid-0.0.0.dist-info/RECORD,,

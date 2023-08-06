@@ -1,0 +1,7 @@
+blinker
+networkx
+
+[docs]
+nbsphinx
+sphinx
+sphinx-rtd-theme

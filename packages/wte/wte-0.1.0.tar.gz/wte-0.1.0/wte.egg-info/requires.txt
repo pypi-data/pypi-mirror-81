@@ -1,0 +1,4 @@
+requests>=2.24
+lxml>=4.5
+pyquery>=1.4
+ebooklib>=0.17

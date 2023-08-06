@@ -1,0 +1,9 @@
+berycker/__init__.py,sha256=ryAfvAaW7VM8g1gnCrFCPrXmcbbm99Xw44aLkwGZzaI,23
+berycker/build.py,sha256=1H8ddXpxlkIRNI0plv10k06aghIy1_BGju0rH3zN7O8,2094
+berycker/cli.py,sha256=Tl2OpL7DZJBfSfQfuW-d0wNET7-AvPQidh72VBAlCq8,252
+berycker/initialize.py,sha256=x_vIHmnEykE5OCrGguSXDQfeuTNEgBJIuSThYOpuWI8,1463
+berycker/tools.py,sha256=kq5B0zUI-YynzmMS9DxkeiBBEtgiYgnp6iAP5RtmJfc,669
+berycker-0.1.4.dist-info/entry_points.txt,sha256=q21RkbmmshSMrNBtj6K8qkn2aFqSFIAG1ZmZS-_tmss,46
+berycker-0.1.4.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+berycker-0.1.4.dist-info/METADATA,sha256=UHGBp81ayFRWIJTarVQGBKJkVptUOZkY75sLD8NYU2w,409
+berycker-0.1.4.dist-info/RECORD,,

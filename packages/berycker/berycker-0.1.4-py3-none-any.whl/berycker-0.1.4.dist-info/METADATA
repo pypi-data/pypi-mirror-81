@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: berycker
+Version: 0.1.4
+Summary: 
+Author: Tomoki Murayama
+Author-email: muratomo.0205@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: fire (>=0.3.1,<0.4.0)
+Requires-Dist: paramiko (>=2.7.2,<3.0.0)
+Requires-Dist: psutil (>=5.7.2,<6.0.0)
+Requires-Dist: termcolor (>=1.1.0,<2.0.0)

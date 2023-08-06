@@ -1,0 +1,8 @@
+README.md
+setup.py
+spinel/__init__.py
+spinel/wrapper.py
+spinel.egg-info/PKG-INFO
+spinel.egg-info/SOURCES.txt
+spinel.egg-info/dependency_links.txt
+spinel.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: oxfordcanvastools
+Version: 1.1
+Summary: A minimal set of tools for interacting with the Canvas API at Oxford
+Home-page: https://github.com/SABS-R3/oxfordcanvastools
+Maintainer: Fergus Cooper
+Maintainer-email: fergus.cooper@cs.ox.ac.uk
+License: MIT license
+Description: # oxfordcanvastools
+        A minimal set of tools for interacting with the Canvas API at Oxford
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

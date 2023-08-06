@@ -1,0 +1,3 @@
+[console_scripts]
+export_torrent_cache = export_torrent_cache:main
+

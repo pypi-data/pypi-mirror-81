@@ -1,0 +1,3 @@
+[console_scripts]
+matrix_rotation = matrix_rotation.matrix_rotation_cli:main
+

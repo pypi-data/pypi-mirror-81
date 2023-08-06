@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: vetpack
+Version: 0.0.dev2
+Summary: Tools for vetting transit signals
+Home-page: https://github.com/disruptiveplanets/vetpack/
+Author: Benjamin V. Rackham
+Author-email: brackham@mit.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: astropy
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: transitleastsquares
+
+# vetpack
+Tools for vetting transit signals
+
+* Code: https://github.com/disruptiveplanets/vetpack
+* Docs: https://vetpack.readthedocs.io
+* License: MIT
+
+# Installation
+From a command line, simply type
+
+    pip install vetpack
+
+and you're good to go!
+
+

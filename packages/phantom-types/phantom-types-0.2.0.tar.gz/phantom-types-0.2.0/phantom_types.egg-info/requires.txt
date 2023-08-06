@@ -1,0 +1,11 @@
+typing-extensions>=3.7
+
+[lint]
+black
+flake8
+isort
+
+[test]
+mypy
+pytest
+pytest-mypy-plugins

@@ -1,0 +1,11 @@
+aioredis
+
+[docs]
+sphinx
+sphinx_rtd_theme
+sphinx_autodoc_typehints
+
+[test]
+pytest
+pytest-asyncio!=0.11
+coverage

@@ -1,0 +1,30 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+flake8 = "*"
+pytest-cov = "*"
+autopep8 = "*"
+codacy-coverage = "*"
+pytest-mock = "*"
+setuptools = "*"
+wheel = "*"
+setuptools-scm = "*"
+
+[packages]
+simpy = "*"
+codecov = "*"
+pygame = "==2.0.0.dev8"
+esper = "*"
+pyglet = "*"
+collision = "*"
+pep8 = "*"
+networkx = "*"
+dependency-injector = "*"
+numpy = "*"
+
+[requires]
+python_version = "3.8.2"

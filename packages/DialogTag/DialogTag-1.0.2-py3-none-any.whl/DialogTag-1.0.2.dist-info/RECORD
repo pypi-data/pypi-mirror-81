@@ -1,0 +1,10 @@
+dialog_tag/DialogTag.py,sha256=DMRRFT7wF8yLyoH6yjFn_i8NSv82uJRs8xrxEZ57TH4,2586
+dialog_tag/__init__.py,sha256=JqmBIiZnO_c1ce6zv6JZzf01tRk6jFq-SGGuvkL_r1U,21
+dialog_tag/config.py,sha256=iIsnM-L6YAkjVFJfnEIaP-rDi8ahkEuqXisU6LorI0g,853
+dialog_tag/get_weights.py,sha256=h_uqxyanr-RAmukKVs1fAqAcXHF5Xaa9GxBn3S7CQAM,1982
+dialog_tag/label_mapping.py,sha256=5F0eVi8h0pfz9vA9wSDqetEX9Lm2C-t8DkhyCyQZ6wE,847
+DialogTag-1.0.2.dist-info/LICENSE,sha256=ou1tnSObWah77ystySbYuo5G02w5borNRQEiBrvY9W0,1071
+DialogTag-1.0.2.dist-info/METADATA,sha256=VwC6M03IW1373SZ8qG9C2W9vhjGsvx3i_ZmGzDIal4w,6277
+DialogTag-1.0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+DialogTag-1.0.2.dist-info/top_level.txt,sha256=OpbpZ5T7x1k__j4qqwxJZcmWkU8ytb9QXFmi338ENgE,11
+DialogTag-1.0.2.dist-info/RECORD,,

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: enbisysavm
+Version: 1.0.1
+Summary: ENBISYS AVM API
+Home-page: https://avm.enbisys.com
+Author: UNKNOWN
+Author-email: avm@enbisys.com
+License: UNKNOWN
+Keywords: OpenAPI,OpenAPI-Generator,ENBISYS AVM API
+Platform: UNKNOWN
+Requires-Dist: urllib3 (>=1.15)
+Requires-Dist: six (>=1.10)
+Requires-Dist: certifi
+Requires-Dist: python-dateutil
+
+API for ENBISYS AVM-platform  # noqa: E501
+
+

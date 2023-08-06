@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+bin/ru-proverbs
+bin/ru-proverbs.py
+ru_proverbs/__init__.py
+ru_proverbs/__main__.py
+ru_proverbs/generator.py
+ru_proverbs.egg-info/PKG-INFO
+ru_proverbs.egg-info/SOURCES.txt
+ru_proverbs.egg-info/dependency_links.txt
+ru_proverbs.egg-info/requires.txt
+ru_proverbs.egg-info/top_level.txt

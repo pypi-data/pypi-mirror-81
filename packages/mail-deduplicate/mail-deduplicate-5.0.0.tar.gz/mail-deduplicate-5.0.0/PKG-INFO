@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: mail-deduplicate
+Version: 5.0.0
+Summary: Deduplicate mails from mbox files and maildir folders.
+Home-page: https://github.com/kdeldycke/mail-deduplicate
+License: GPL-2.0-or-later
+Keywords: CLI,mail,email,maildir,mbox,deduplication,dedupe,cleanup,mailbox
+Author: Kevin Deldycke
+Author-email: kevin@deldycke.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Communications :: Email
+Classifier: Topic :: Utilities
+Provides-Extra: docs
+Requires-Dist: boltons (>=20.2.1,<21.0.0)
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: click-log (>=0.3.2,<0.4.0)
+Requires-Dist: sphinx (>=3.2.1,<4.0.0); extra == "docs"
+Requires-Dist: sphinx_rtd_theme (>=0.5.0,<0.6.0); extra == "docs"
+Requires-Dist: tabulate (>=0.8.7,<0.9.0)
+Project-URL: Documentation, https://maildir-deduplicate.readthedocs.io
+Project-URL: Funding, https://github.com/sponsors/kdeldycke
+Project-URL: Repository, https://github.com/kdeldycke/mail-deduplicate
+Description-Content-Type: text/x-rst
+
+Mail Deduplicate
+================
+
+Command-line tool to deduplicate mails from a set of mbox files and/or maildir
+folders.
+
+Stable release: |release| |versions| |license| |dependencies|
+
+Development: |build| |docs| |coverage| |quality|
+
+.. |release| image:: https://img.shields.io/pypi/v/mail-deduplicate.svg
+    :target: https://pypi.python.org/pypi/mail-deduplicate
+    :alt: Last release
+.. |versions| image:: https://img.shields.io/pypi/pyversions/mail-deduplicate.svg
+    :target: https://pypi.python.org/pypi/mail-deduplicate
+    :alt: Python versions
+.. |license| image:: https://img.shields.io/pypi/l/mail-deduplicate.svg
+    :target: https://www.gnu.org/licenses/gpl-2.0.html
+    :alt: Software license
+.. |dependencies| image:: https://requires.io/github/kdeldycke/mail-deduplicate/requirements.svg?branch=main
+    :target: https://requires.io/github/kdeldycke/mail-deduplicate/requirements/?branch=main
+    :alt: Requirements freshness
+.. |build| image:: https://travis-ci.org/kdeldycke/mail-deduplicate.svg?branch=develop
+    :target: https://travis-ci.org/kdeldycke/mail-deduplicate
+    :alt: Unit-tests status
+.. |docs| image:: https://readthedocs.org/projects/maildir-deduplicate/badge/?version=develop
+    :target: https://maildir-deduplicate.readthedocs.io/en/develop/
+    :alt: Documentation Status
+.. |coverage| image:: https://codecov.io/gh/kdeldycke/mail-deduplicate/branch/develop/graph/badge.svg
+    :target: https://codecov.io/github/kdeldycke/mail-deduplicate?branch=develop
+    :alt: Coverage Status
+.. |quality| image:: https://scrutinizer-ci.com/g/kdeldycke/mail-deduplicate/badges/quality-score.png?b=develop
+    :target: https://scrutinizer-ci.com/g/kdeldycke/mail-deduplicate/?branch=develop
+    :alt: Code Quality
+
+
+Features
+--------
+
+* Duplicate detection based on cherry-picked mail headers.
+* Source mails from multiple mbox files and/or maildir folders.
+* Multiple removal strategies based on size, timestamp or file path.
+* Dry-run mode.
+* Protection against false-positives by checking for size and content
+  differences.
+
+
+Installation
+------------
+
+This package is `available on PyPi
+<https://pypi.python.org/pypi/mail-deduplicate>`_, so you can install the
+latest stable release and its dependencies with a simple ``pip`` call:
+
+.. code-block:: shell-session
+
+    $ pip install mail-deduplicate
+
+
+Documentation
+-------------
+
+Docs are `hosted on Read the Docs
+<https://maildir-deduplicate.readthedocs.io>`_.
+

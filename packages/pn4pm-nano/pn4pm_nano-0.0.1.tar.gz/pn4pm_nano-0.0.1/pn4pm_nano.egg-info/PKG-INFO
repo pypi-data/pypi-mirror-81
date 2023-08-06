@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: pn4pm-nano
+Version: 0.0.1
+Summary: A small package for handling process models given as lists with their own row number and the row number of previous activityReturning a Petri Net for Process Mining / Conformance Checks
+Home-page: https://github.com/DaMuBo/pn4pm
+Author: Daniel Muller
+Author-email: daniel.mueller@damu-analytics.com
+License: UNKNOWN
+Description: # Welcome to Petrinets 4 Process Mining
+        ### handling Process Lists with a simple small package V0.0.1
+        
+        # Content:
+        - Author Information
+        - Description
+        - Classes
+        - Objects
+        - Other Stuff
+        
+        # Author Information
+        - Name: Daniel Muller
+        - E-Mail: daniel.mueller@damu-analytics.com
+        - Website: http://damu-analytics.de
+        
+        # Description
+        
+        # Classes
+        
+        # Functions
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

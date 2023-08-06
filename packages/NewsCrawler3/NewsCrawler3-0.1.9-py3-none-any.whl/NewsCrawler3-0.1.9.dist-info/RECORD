@@ -1,0 +1,10 @@
+newscrawler/__init__.py,sha256=At0NR6kKRIHPP-WxbtApappZMMvgSV8BrXxQAfpOHr4,202
+newscrawler/__version__.py,sha256=-Km1pP1udfT9xuvfqguzAmlNnm83VGcuoB-HPqLmQoM,382
+newscrawler/crawler.py,sha256=NpqDG-1IyeCU_H_fUlmv2on5up6P-hSHy86PsRpz4ts,5589
+newscrawler/extract_rss.py,sha256=t5rpDHNqzOwr1Rf8EU_qKBgfLttDfCxjG2BbuXUTrik,4451
+newscrawler/utils.py,sha256=vpil3bLtLFkaeOSNp8muZ2w4TPPxt9tTlR0HHAIDzXU,954
+NewsCrawler3-0.1.9.dist-info/LICENSE,sha256=6mRzMqDNpKxJOPg1ovcXjyf_noofcVElR8nAxNwl6Fo,547
+NewsCrawler3-0.1.9.dist-info/METADATA,sha256=6BcDfitDlp_LN0OQl-rni4lojg1dJpVvFG87R7yRBCU,3840
+NewsCrawler3-0.1.9.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+NewsCrawler3-0.1.9.dist-info/top_level.txt,sha256=DnYRFGvIZO5q587f6HqGgl9KXDDwnPQVzRXIjOUDcT8,12
+NewsCrawler3-0.1.9.dist-info/RECORD,,

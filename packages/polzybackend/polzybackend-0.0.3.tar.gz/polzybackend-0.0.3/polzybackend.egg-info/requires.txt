@@ -1,0 +1,5 @@
+Flask
+SQLAlchemy
+Werkzeug
+Flask-SQLAlchemy
+Jinja2

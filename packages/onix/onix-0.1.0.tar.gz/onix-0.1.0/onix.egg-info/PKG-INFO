@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: onix
+Version: 0.1.0
+Summary: Actually a snek!
+Home-page: https://github.com/vinayak-mehta/onix
+Author: Vinayak Mehta
+Author-email: vmehta94@gmail.com
+License: Apache 2.0
+Description: # onix
+        
+        Actually a snek!
+        
+        ## Usage
+        
+        ```
+        $ onix
+        ```
+        
+        ## Versioning
+        
+        `onix` uses [Calendar Versioning](https://calver.org/). For the available versions, see the tags on the GitHub repository.
+        
+        ## License
+        
+        This project is licensed under the Apache License, see the [LICENSE](https://github.com/vinayak-mehta/onix/blob/master/LICENSE) file for details.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev

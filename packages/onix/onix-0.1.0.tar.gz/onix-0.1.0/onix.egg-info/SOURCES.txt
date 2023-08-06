@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+onix/__init__.py
+onix/__version__.py
+onix/cli.py
+onix.egg-info/PKG-INFO
+onix.egg-info/SOURCES.txt
+onix.egg-info/dependency_links.txt
+onix.egg-info/entry_points.txt
+onix.egg-info/requires.txt
+onix.egg-info/top_level.txt

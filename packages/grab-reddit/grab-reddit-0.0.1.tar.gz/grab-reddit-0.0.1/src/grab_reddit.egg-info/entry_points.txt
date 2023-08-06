@@ -1,0 +1,3 @@
+[console_scripts]
+grab-reddit = src.grab:__main__
+

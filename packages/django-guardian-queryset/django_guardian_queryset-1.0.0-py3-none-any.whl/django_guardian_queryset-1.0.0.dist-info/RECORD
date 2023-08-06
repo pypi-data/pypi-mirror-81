@@ -1,0 +1,15 @@
+guardian_queryset/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+guardian_queryset/admin.py,sha256=0BjxXzKbVAgPNn5ZajnReTMhNFvRDniAG4iOZhg6ijY,1404
+guardian_queryset/apps.py,sha256=LJzcI_GKs-5QMRILnAAne3G-Za4nWPVhQBgSkDax2L8,108
+guardian_queryset/manager.py,sha256=C_6Ru3Cl-yrelw1qndkT9_EOMutB7bE7WNlYonot6hw,212
+guardian_queryset/models.py,sha256=YS-u_jPToVfPP8EN0BMiVg_xe8TT68mkf66OdtoX7Fo,5169
+guardian_queryset/permissions.py,sha256=p28B3tbQxNOp4mpVuBHvhmBYTMlaWeRlsebs-EkqXyU,723
+guardian_queryset/queryset.py,sha256=gSCYMPSPdngmEHtgs-AEEDakCESeM0C5tTcQd8zgu8A,4936
+guardian_queryset/serializers.py,sha256=adxuxjH8lqvygGRBt-46PYsuBUUG8_LiJZKuzgbNYN4,3299
+guardian_queryset/utils.py,sha256=78ItdxzDS7tdcl03TVY5k2kfb_EOWcKzdrNK89Oleag,3180
+guardian_queryset/views.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+guardian_queryset/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_guardian_queryset-1.0.0.dist-info/METADATA,sha256=00zwey5TA8BzChS3tS1puZqcAIj9xE5u8Sm3Ul3s8dY,1248
+django_guardian_queryset-1.0.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+django_guardian_queryset-1.0.0.dist-info/top_level.txt,sha256=NjaBZgufhN3vJtpGD1J6zws9bX4lOVZiS5hoi2q_1T0,18
+django_guardian_queryset-1.0.0.dist-info/RECORD,,

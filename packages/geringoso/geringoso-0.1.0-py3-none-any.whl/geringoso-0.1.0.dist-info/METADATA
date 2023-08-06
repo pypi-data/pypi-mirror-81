@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: geringoso
+Version: 0.1.0
+Summary: A Spanish to Geringoso library and filter
+Home-page: https://github.com/chipaca/geringoso
+Author: John Lenton
+Author-email: jlenton@gmail.com
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Natural Language :: Spanish
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Text Processing :: Filters
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: syltippy
+
+# geringoso
+A Spanish to Geringoso library and filter
+
+

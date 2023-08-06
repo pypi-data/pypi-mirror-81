@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: alectio-kms
+Version: 0.7.0
+Summary: A CLI interface to get AlectioSDK token
+Home-page: https://github.com/
+Author: Devi Prasad Tripathy
+Author-email: devi.tripathy@alectio.com
+License: BSD
+Description: A CLI interface to get AlectioSDK token
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Provides-Extra: yaml
+Provides-Extra: toml
+Provides-Extra: xml
+Provides-Extra: tests

@@ -1,0 +1,3 @@
+[console_scripts]
+alectio-kms = alectiokmscli:main
+

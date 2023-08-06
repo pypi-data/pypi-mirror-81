@@ -1,0 +1,10 @@
+setup.py
+alectio_kms.egg-info/PKG-INFO
+alectio_kms.egg-info/SOURCES.txt
+alectio_kms.egg-info/dependency_links.txt
+alectio_kms.egg-info/entry_points.txt
+alectio_kms.egg-info/not-zip-safe
+alectio_kms.egg-info/requires.txt
+alectio_kms.egg-info/top_level.txt
+alectiokmscli/__init__.py
+alectiokmscli/alectio_auth.py

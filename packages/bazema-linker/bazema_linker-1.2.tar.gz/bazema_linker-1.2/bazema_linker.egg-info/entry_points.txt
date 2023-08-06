@@ -1,0 +1,3 @@
+[console_scripts]
+bazema_linker = bazema_linker.__main__:main
+

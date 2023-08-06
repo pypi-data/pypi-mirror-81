@@ -1,0 +1,8 @@
+README.md
+setup.py
+Botlabs.py.egg-info/PKG-INFO
+Botlabs.py.egg-info/SOURCES.txt
+Botlabs.py.egg-info/dependency_links.txt
+Botlabs.py.egg-info/top_level.txt
+botlabspy/API.py
+botlabspy/__init__.py

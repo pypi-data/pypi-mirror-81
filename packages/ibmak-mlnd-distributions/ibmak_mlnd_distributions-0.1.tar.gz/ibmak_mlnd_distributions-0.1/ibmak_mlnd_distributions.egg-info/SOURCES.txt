@@ -1,0 +1,10 @@
+setup.py
+ibmak_mlnd_distributions/Binomialdistribution.py
+ibmak_mlnd_distributions/Gaussiandistribution.py
+ibmak_mlnd_distributions/Generaldistribution.py
+ibmak_mlnd_distributions/__init__.py
+ibmak_mlnd_distributions.egg-info/PKG-INFO
+ibmak_mlnd_distributions.egg-info/SOURCES.txt
+ibmak_mlnd_distributions.egg-info/dependency_links.txt
+ibmak_mlnd_distributions.egg-info/not-zip-safe
+ibmak_mlnd_distributions.egg-info/top_level.txt

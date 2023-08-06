@@ -1,0 +1,12 @@
+proshade/__init__.py,sha256=sF0iq11oIHE5zDg9FeouY8bkPAf_-g7CvD2oC8H9zv8,85029
+proshade/_proshade.so,sha256=ltofa_u8_7XDYiI-WRvgW7DAccMIX-16YLquLyDeYNU,859884
+proshade/.dylibs/libfftw3.3.dylib,sha256=loidt7Nye0-wImsqiwQcGvu7QS09dqQX607MSk-1tNM,1007052
+proshade/.dylibs/libproshade.dylib,sha256=BAY6iwPXqR4LQ5TVqIj4xDdASmqYzrIlTLvK8RKt_Ew,3944232
+proshade-0.7.4.4.data/scripts/libproshade.dylib,sha256=LpnQNpwBkcu3HwuLD2JxzvU6INN_rMJ8Jg-WyTF4Or8,3944232
+proshade-0.7.4.4.data/scripts/proshade,sha256=nnYndWWRg0gpbGaxo6pcvTWW20miYvU38vnnqzotH-s,3944368
+proshade-0.7.4.4.data/scripts/ProSHADE.hpp,sha256=QhC5fvDimEetwjhpB-pNWNyfdw1teA1bdn6B9hRb7b4,10525
+proshade-0.7.4.4.dist-info/LICENSE.txt,sha256=dt5zOhJaKlWgytjlQAQTAV1ZMYSB3E33P3J0FjXlgFo,1918
+proshade-0.7.4.4.dist-info/METADATA,sha256=J62he2JfSU4qu7eX3cZv3hm9p61egFRYPd1qBMjydL0,139252
+proshade-0.7.4.4.dist-info/RECORD,,
+proshade-0.7.4.4.dist-info/top_level.txt,sha256=h7uZ3pTx8Ge5HRXjiTLCRKjXtZyDBiMzUMmx3puSO1g,9
+proshade-0.7.4.4.dist-info/WHEEL,sha256=Y7qxvq9JDKbea1TgaFtmY0jSHttuOqrnAAF3i7BDa6U,110

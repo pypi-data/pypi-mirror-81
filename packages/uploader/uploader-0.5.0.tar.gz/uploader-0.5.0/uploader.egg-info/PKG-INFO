@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: uploader
+Version: 0.5.0
+Summary: SSH upload administration tool
+Home-page: https://github.com/winmain/uploader
+Author: Denis Denisenko
+Author-email: d.winmain@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: upload ssh
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Topic :: System :: Systems Administration

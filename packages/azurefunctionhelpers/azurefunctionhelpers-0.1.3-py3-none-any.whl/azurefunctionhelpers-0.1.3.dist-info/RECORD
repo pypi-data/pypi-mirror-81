@@ -1,0 +1,6 @@
+logging/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+logging/elastic_apm.py,sha256=sKUjgb4lwTbM2DB8AF3dBhMr9Z5TodN6KUi9pGN8H0E,1271
+azurefunctionhelpers-0.1.3.dist-info/METADATA,sha256=xTzx3xARH2cKxxaRwhuOtXO052U5xiaFVpqcA2xRbC4,337
+azurefunctionhelpers-0.1.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+azurefunctionhelpers-0.1.3.dist-info/top_level.txt,sha256=FIW2azcr5UzjdGze4ZuTamcDal2-CqKXgyxDBgqvAUY,8
+azurefunctionhelpers-0.1.3.dist-info/RECORD,,

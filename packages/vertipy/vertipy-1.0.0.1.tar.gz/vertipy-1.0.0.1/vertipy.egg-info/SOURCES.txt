@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+vertipy/__init__.py
+vertipy/convertible.py
+vertipy/datos_grid.py
+vertipy/ploteos.py
+vertipy.egg-info/PKG-INFO
+vertipy.egg-info/SOURCES.txt
+vertipy.egg-info/dependency_links.txt
+vertipy.egg-info/requires.txt
+vertipy.egg-info/top_level.txt

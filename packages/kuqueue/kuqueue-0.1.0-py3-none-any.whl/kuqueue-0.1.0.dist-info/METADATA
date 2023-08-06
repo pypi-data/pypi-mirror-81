@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: kuqueue
+Version: 0.1.0
+Summary: An easy pythonic redis-based MQ
+License: MIT
+Author: Yehonatan Zecharia
+Author-email: yonti95@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pyrsmq (>=0.4.3,<0.5.0)
+Requires-Dist: redis (>=3.5.3,<4.0.0)

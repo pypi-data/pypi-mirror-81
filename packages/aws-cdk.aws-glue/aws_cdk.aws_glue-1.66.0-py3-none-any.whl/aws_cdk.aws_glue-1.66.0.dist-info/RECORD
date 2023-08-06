@@ -1,0 +1,8 @@
+aws_cdk/aws_glue/__init__.py,sha256=FUtBDYsxq0HNOn1sUy6qVoGbd10RPdpTcZSzI_TTZec,390301
+aws_cdk/aws_glue/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_glue/_jsii/__init__.py,sha256=3UxXTtNt6n93oUEI-NDDK74YZSiRiDboPQRTQjIvhDM,451
+aws_cdk/aws_glue/_jsii/aws-glue@1.66.0.jsii.tgz,sha256=cHvivTee8f4txptQFRrI15yDPc-vci1hTCB3tAsutCw,167896
+aws_cdk.aws_glue-1.66.0.dist-info/METADATA,sha256=bKIhcLSwL64Acd5O4b8cXSKzl7Lnhe4yvjQH0Wc0dIg,12030
+aws_cdk.aws_glue-1.66.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+aws_cdk.aws_glue-1.66.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_glue-1.66.0.dist-info/RECORD,,

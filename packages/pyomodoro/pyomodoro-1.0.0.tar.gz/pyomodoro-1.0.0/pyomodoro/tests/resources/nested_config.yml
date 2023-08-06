@@ -1,0 +1,4 @@
+config_file: '~/.pyomodoro2'
+pomodoro_length: '65'
+short_break_length: '35'
+long_break_length: '44'

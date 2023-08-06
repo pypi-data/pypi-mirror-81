@@ -1,0 +1,4 @@
+Click==7.1.2
+plyer==1.4.3
+PyYAML==5.3.1
+python-i18n[YAML]==0.3.9

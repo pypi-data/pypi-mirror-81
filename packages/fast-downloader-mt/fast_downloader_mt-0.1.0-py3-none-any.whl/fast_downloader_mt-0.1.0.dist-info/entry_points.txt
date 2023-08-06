@@ -1,0 +1,3 @@
+[console_scripts]
+fdl=fast_downloader_mt.main:fast_downloader
+

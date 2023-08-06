@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-26 21:54+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: apps.py:7
+msgid "Wagtail Person"
+msgstr "Wagtail Personne"
+
+#: blocks.py:24
+msgid "Header level"
+msgstr "Niveau d'en-tête"
+
+#: blocks.py:27
+msgid "Text"
+msgstr "Texte"
+
+#: blocks.py:33
+msgid "Header"
+msgstr "En-tête"
+
+#: blocks.py:39
+msgid "Description"
+msgstr "Description"
+
+#: blocks.py:42 models.py:52
+msgid "URL"
+msgstr "URL"
+
+#: blocks.py:61
+msgid "Link"
+msgstr "Lien"
+
+#: blocks.py:67 models.py:131
+#, fuzzy
+#| msgid "Person page"
+msgid "Person or author page"
+msgstr "Page de personne"
+
+#: blocks.py:74 models.py:44 models.py:121
+msgid "Person"
+msgstr "Personne"
+
+#: models.py:48
+msgid "Label"
+msgstr "Label"
+
+#: models.py:62
+msgid "Person's extrernal link"
+msgstr "Lien externe d'une personne"
+
+#: models.py:63
+msgid "Person's extrernal links"
+msgstr "Liens externes d'une personne"
+
+#: models.py:77
+msgid "Picture"
+msgstr "Photo"
+
+#: models.py:80
+msgid "Name"
+msgstr "Nom"
+
+#: models.py:85
+msgid "Introduction"
+msgstr "Introduction"
+
+#: models.py:88
+msgid "Shown on the short descriptions"
+msgstr "Montré sur les descriptions courtes"
+
+#: models.py:92
+msgid "Abstract"
+msgstr "Résumé"
+
+#: models.py:101
+msgid "link"
+msgstr "lien"
+
+#: models.py:105
+msgid "Person or author"
+msgstr "Personne ou auteur"
+
+#: models.py:106 wagtail_hooks.py:15
+msgid "Persons or authors"
+msgstr "Personnes ou auteurs"
+
+#: models.py:132
+msgid "Person or author pages"
+msgstr "Pages de personne ou auteur"
+
+#: models.py:143
+msgid "Intro"
+msgstr "Intro"
+
+#: models.py:153
+msgid "Persons or authors Index Page"
+msgstr "Page d'index des personnes ou auteurs"
+
+#: models.py:154
+msgid "Persons or authors Index Pages"
+msgstr "Pages d'index des personnes ou auteurs"

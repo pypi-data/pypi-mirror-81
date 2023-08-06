@@ -1,0 +1,4 @@
+requests
+defusedxml
+xmltodict
+flatten-dict

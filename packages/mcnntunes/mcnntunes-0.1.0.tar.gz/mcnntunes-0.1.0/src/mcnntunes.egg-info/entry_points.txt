@@ -1,0 +1,5 @@
+[console_scripts]
+mcnntemplate = mcnntunes.scripts.mcnntemplate:main
+mcnntunes = mcnntunes.scripts.mcnntunes:main
+mcnntunes-buildruns = mcnntunes.scripts.mcnntunes_buildruns:main
+

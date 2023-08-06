@@ -1,0 +1,1 @@
+https://pypi.texta.ee/texta-tools/texta-tools-0.1.3.tar.gz

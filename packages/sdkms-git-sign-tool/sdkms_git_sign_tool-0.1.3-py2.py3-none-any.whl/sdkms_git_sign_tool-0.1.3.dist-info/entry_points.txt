@@ -1,0 +1,3 @@
+[console_scripts]
+sdkms-git-sign-tool = sdkms_git_sign_tool.__main__:main
+

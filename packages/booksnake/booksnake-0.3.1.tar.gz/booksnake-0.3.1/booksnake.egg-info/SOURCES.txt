@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+booksnake/__init__.py
+booksnake/sending.py
+booksnake.egg-info/PKG-INFO
+booksnake.egg-info/SOURCES.txt
+booksnake.egg-info/dependency_links.txt
+booksnake.egg-info/requires.txt
+booksnake.egg-info/top_level.txt
+booksnake/version/__init__.py
+scripts/booksnake

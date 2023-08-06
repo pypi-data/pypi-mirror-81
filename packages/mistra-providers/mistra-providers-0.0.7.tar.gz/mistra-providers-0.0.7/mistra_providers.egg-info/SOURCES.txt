@@ -1,0 +1,10 @@
+README.md
+setup.py
+mistra/providers/historical/preprocessing/__init__.py
+mistra/providers/historical/raw/filesystem/__init__.py
+mistra/providers/historical/raw/truefx/__init__.py
+mistra_providers.egg-info/PKG-INFO
+mistra_providers.egg-info/SOURCES.txt
+mistra_providers.egg-info/dependency_links.txt
+mistra_providers.egg-info/requires.txt
+mistra_providers.egg-info/top_level.txt

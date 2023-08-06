@@ -1,0 +1,15 @@
+idom_jupyter/__init__.py,sha256=6116u6qPLyrqfbkizY5H1mo0bph3QVosfDe4NhxdaMI,1195
+idom_jupyter/_version.py,sha256=xsDeOQ2H3qVnDJf4vIHTgDEg1jilJCvXm55nX4AisXk,422
+idom_jupyter/widget.py,sha256=_hVPficyuSJKzXlFEBOLBqOZohnahJ_1aheonOuYmOc,4032
+idom_jupyter/static/extension.js,sha256=g_IPhkdgpzc-qpTkSnCxMheBD9ppoz7SNAlUFphoBrU,3335
+idom_jupyter/static/index.js,sha256=t06-XTUKwYj043CaulJ3h4cjqts5bZpXUcVgsfYF8Qs,1696921
+idom_jupyter/static/index.js.map,sha256=Tim025JAk4X4hgPEFXoT_Z7Kg3pjR1aKCMKWud1aSkg,2028509
+idom_jupyter-0.1.0.data/data/etc/jupyter/nbconfig/notebook.d/idom-client-jupyter.json,sha256=0iTUXB-26e5CXl-fcTI6UGKtowdCEmuFNMgbTxJAkTs,73
+idom_jupyter-0.1.0.data/data/share/jupyter/nbextensions/idom-client-jupyter/extension.js,sha256=g_IPhkdgpzc-qpTkSnCxMheBD9ppoz7SNAlUFphoBrU,3335
+idom_jupyter-0.1.0.data/data/share/jupyter/nbextensions/idom-client-jupyter/index.js,sha256=t06-XTUKwYj043CaulJ3h4cjqts5bZpXUcVgsfYF8Qs,1696921
+idom_jupyter-0.1.0.data/data/share/jupyter/nbextensions/idom-client-jupyter/index.js.map,sha256=Tim025JAk4X4hgPEFXoT_Z7Kg3pjR1aKCMKWud1aSkg,2028509
+idom_jupyter-0.1.0.dist-info/LICENSE,sha256=lNjf3G34uYsu0EsuIe_S_y0eJoHOZcKbw-tmKyhiEos,1083
+idom_jupyter-0.1.0.dist-info/METADATA,sha256=yVl_tgsAuixeRfLh2IEcOW4hXHCNpCpj2wOusi-yRCI,735
+idom_jupyter-0.1.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+idom_jupyter-0.1.0.dist-info/top_level.txt,sha256=cXWL2azPtD3ZyFnyneNfrahWt4mRCe2uK1F2H26YJbA,13
+idom_jupyter-0.1.0.dist-info/RECORD,,

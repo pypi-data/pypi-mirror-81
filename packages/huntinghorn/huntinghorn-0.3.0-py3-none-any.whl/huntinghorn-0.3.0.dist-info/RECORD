@@ -1,0 +1,10 @@
+huntinghorn/__init__.py,sha256=8aIyUcIdsdeL-eoAW_sLrD-XU2RNiLy03Beh30YdmUE,1525
+huntinghorn/constants.py,sha256=jguQ6uXYEl7zBVaqg_55qPITZnn4djGodqvCU3IfqyY,642
+huntinghorn/data/horns.json,sha256=KW5DuiTVJoF3TgitotXCDJVT4mR3Rjt_P_Ga8d872gw,1540
+huntinghorn/data/melodies.json,sha256=-K2BBxVkjhWGbFiPfL67jC-CL_JkfnIvxaum-cPp0Xk,2652
+huntinghorn/prompt.py,sha256=WCgtpS1EILT41lVSq5OtJezdLnXR2GoTMgm4I1Vnolc,1024
+huntinghorn/utils.py,sha256=BpyJWbIG5WT6KDaKwYNYGH6dkwuy2WyMCBFC8r4Zh0s,2150
+huntinghorn-0.3.0.dist-info/entry_points.txt,sha256=6PXE0576t6p6BFzouZei7_NJmbrhnaMCcHUp5qWt_eA,41
+huntinghorn-0.3.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+huntinghorn-0.3.0.dist-info/METADATA,sha256=X2AcsxCskU9NKsKQartEOnRRuAniKFkkPB7BPeJQmDc,569
+huntinghorn-0.3.0.dist-info/RECORD,,

@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: titan-moon
+Version: 0.2.0
+Summary: Python package to get Titan orbital parameters
+Home-page: http://github.com/seignovert/python-titan-moon
+Author: Benoit Seignovert
+Author-email: support.git@seignovert.fr
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6

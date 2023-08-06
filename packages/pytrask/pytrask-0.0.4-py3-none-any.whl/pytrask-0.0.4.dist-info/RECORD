@@ -1,0 +1,10 @@
+pytrask/__init__.py,sha256=DSw7_z2dywlP9X3PdqVAICfxNR-4qRWdAaBAlmgsm0Q,108
+pytrask/__main__.py,sha256=gAo_dYx7nvSl3aMb9-FGfiuIgcH178tfMt425Q7oRR4,1489
+pytrask/pytraskgui.py,sha256=CSzgoMuSm3dpBKEbBeL8fAPSzbqCSLStrZsP5FUz82A,5281
+pytrask/trasker.py,sha256=AJV5ZWQUzbIogwgVSD3X2oIDxpRkyi4GJ7fHHJbz-Ts,10336
+pytrask/templates/ui.html,sha256=E8MhpQ5auYdpDiLXvNb9MapK1fmDWUxmBjrja_TBq6k,6809
+pytrask-0.0.4.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+pytrask-0.0.4.dist-info/METADATA,sha256=ks_IFA-1kxah-TfqUBxm4GqM9PneBVxq5d9ZfTQYKOQ,3285
+pytrask-0.0.4.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+pytrask-0.0.4.dist-info/top_level.txt,sha256=vSM9OJqQvZjSKDKWnunI00SxVWsuYW4lf0yFJWj-jkM,8
+pytrask-0.0.4.dist-info/RECORD,,

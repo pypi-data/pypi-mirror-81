@@ -1,0 +1,15 @@
+absl-py
+flax
+jax>=0.1.76
+jaxlib
+ml_collections
+numpy==1.18.5
+tensorflow
+tensorflow_datasets
+
+[:python_version < "3.7"]
+dataclasses
+
+[test]
+dm-sonnet
+pytest

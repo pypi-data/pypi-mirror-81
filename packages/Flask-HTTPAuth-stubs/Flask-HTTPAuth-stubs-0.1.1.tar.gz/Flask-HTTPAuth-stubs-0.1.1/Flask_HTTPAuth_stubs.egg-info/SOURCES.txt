@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+Flask_HTTPAuth_stubs.egg-info/PKG-INFO
+Flask_HTTPAuth_stubs.egg-info/SOURCES.txt
+Flask_HTTPAuth_stubs.egg-info/dependency_links.txt
+Flask_HTTPAuth_stubs.egg-info/requires.txt
+Flask_HTTPAuth_stubs.egg-info/top_level.txt
+flask-httpauth-stubs/__init__.pyi

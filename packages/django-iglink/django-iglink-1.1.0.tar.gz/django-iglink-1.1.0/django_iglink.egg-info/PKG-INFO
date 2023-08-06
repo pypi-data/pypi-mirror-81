@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: django-iglink
+Version: 1.1.0
+Summary: Django Instagram API. Use your Instagram data anywhere.  Includes cache feature in the case of Exceptions.
+Home-page: https://github.com/forafekt/django-iglink
+Author: Jonny Doyle
+Author-email: jonathan.d@programmer.net
+License: MIT
+Project-URL: Bug Tracker, https://github.com/forafekt/django-iglink/issues
+Project-URL: Documentation, https://github.com/forafekt/django-iglink/tree/master/djangular_serve/docs
+Project-URL: Source Code, https://github.com/forafekt/django-iglink
+Description: # DJANGO-IGLINK
+Keywords: django angular ig instagram http api rest django-rest-framework json cache
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

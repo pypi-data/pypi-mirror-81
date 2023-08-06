@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/emailed_before.egg-info/PKG-INFO
+src/emailed_before.egg-info/SOURCES.txt
+src/emailed_before.egg-info/dependency_links.txt
+src/emailed_before.egg-info/top_level.txt
+src/emailedbefore/__init__.py
+src/emailedbefore/py.typed
+src/emailedbefore/sent_emails.py

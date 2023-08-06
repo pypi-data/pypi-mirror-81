@@ -1,0 +1,7 @@
+ifra_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ifra_sdk/client.py,sha256=2aUdJYndVPFMR7Lr6tuXNZIOOepcLlGlwvvZm1jcpQs,1544
+ifra_sdk/resource_monitoring.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ifra_sdk-1.0.5.dist-info/METADATA,sha256=Y0jMFkmDLip0mC6DKN1tKIPEDAe-KR0QZEksy8-Yb_Y,389
+ifra_sdk-1.0.5.dist-info/WHEEL,sha256=CbUdLTqD3-4zWemf83rgR_2_MC4TeXw9qXwrXte5w4w,92
+ifra_sdk-1.0.5.dist-info/top_level.txt,sha256=_lhOKiYpw9_GH7hjxyxLSjE_oRb1tSROMD-SSqIbNFY,9
+ifra_sdk-1.0.5.dist-info/RECORD,,

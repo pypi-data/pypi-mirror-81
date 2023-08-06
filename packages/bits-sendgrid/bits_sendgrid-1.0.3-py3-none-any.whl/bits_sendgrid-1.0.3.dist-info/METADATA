@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: bits-sendgrid
+Version: 1.0.3
+Summary: BITS SendGrid
+Home-page: UNKNOWN
+Author: Lukas Karlsson
+Author-email: karlsson@broadinstitute.org
+License: Apache Software License
+Platform: UNKNOWN
+Requires-Dist: sendgrid
+
+UNKNOWN
+
+

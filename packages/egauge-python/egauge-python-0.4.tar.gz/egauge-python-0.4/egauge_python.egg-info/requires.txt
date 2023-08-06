@@ -1,0 +1,6 @@
+crcmod
+intelhex
+pexpect
+pyside2
+requests
+wheel

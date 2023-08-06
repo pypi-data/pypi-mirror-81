@@ -1,0 +1,12 @@
+README.md
+setup.py
+bin/ffr
+ffr/__init__.py
+ffr/filter.py
+ffr/login.py
+ffr/main.py
+ffr.egg-info/PKG-INFO
+ffr.egg-info/SOURCES.txt
+ffr.egg-info/dependency_links.txt
+ffr.egg-info/requires.txt
+ffr.egg-info/top_level.txt

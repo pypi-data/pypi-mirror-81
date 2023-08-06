@@ -1,0 +1,17 @@
+MANIFEST.in
+readme.md
+setup.py
+ddsf/__init__.py
+ddsf/academicTitle.py
+ddsf/ddsf.py
+ddsf/orgUnit.py
+ddsf/person.py
+ddsf/resource.py
+ddsf/room.py
+ddsf/roomType.py
+ddsf/user.py
+ddsf.egg-info/PKG-INFO
+ddsf.egg-info/SOURCES.txt
+ddsf.egg-info/dependency_links.txt
+ddsf.egg-info/requires.txt
+ddsf.egg-info/top_level.txt

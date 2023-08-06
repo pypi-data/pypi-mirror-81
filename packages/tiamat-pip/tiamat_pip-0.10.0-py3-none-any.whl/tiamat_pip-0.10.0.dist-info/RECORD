@@ -1,0 +1,17 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/integration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/integration/conftest.py,sha256=BnGuoYg3DYHVPj9zRm9c7qzHKPaqYtBpJzKedwT4oxU,3914
+tests/integration/black/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/integration/black/test_pip_install.py,sha256=Bma5XuxUXq2kF1CawA85U7kyz65AEQlBjvwBv2BqW3w,953
+tiamatpip/__init__.py,sha256=v4zmKjsKOPZbp6BrWoz7iK4ST0sdZdUh9bQSJmluZ5o,23
+tiamatpip/cli.py,sha256=mwpjP4NUU5doCMLbg_mlpgj7pyYqkw1cJfX_9aa64gc,4572
+tiamatpip/configure.py,sha256=YzzV2Ez8XVEEOpcyXpnncwOeV18KASPCWdepyUpmR0c,1506
+tiamatpip/utils.py,sha256=T4i75D4dIOT9cV_STytvgavSuV1SdptJ2VIBO329Png,2684
+tiamatpip/hooks/__init__.py,sha256=rh3j9wnhDk401bR_VAM3J860xR_AKVynLDnZYbJywvk,396
+tiamatpip/hooks/hook-tiamatpip.cli.py,sha256=k2BkEtlcii-7tj1ZO3b8PrECF4sL3QHPEYnwekDc2e0,1475
+tiamat_pip-0.10.0.dist-info/LICENSE,sha256=uQXaS_RcL--dluuiT20z3s_IxrKh5So1dEkUtwh0pC8,652
+tiamat_pip-0.10.0.dist-info/METADATA,sha256=pYmP0friLQsUIgRP_T6zRQvmmUPQEt2FSdiMgBsmvsU,1118
+tiamat_pip-0.10.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+tiamat_pip-0.10.0.dist-info/entry_points.txt,sha256=ULu-_xObYi4-YKlvxp7vAufmbfAIExn-l7Mm7d0J_rk,59
+tiamat_pip-0.10.0.dist-info/top_level.txt,sha256=vBi_sh3VJEtvp9bY0MKhYFhoJMPnrqfzHPpZVC1H134,16
+tiamat_pip-0.10.0.dist-info/RECORD,,

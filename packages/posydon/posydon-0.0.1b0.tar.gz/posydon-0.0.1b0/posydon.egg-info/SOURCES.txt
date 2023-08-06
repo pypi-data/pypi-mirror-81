@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+posydon/__init__.py
+posydon/_version.py
+posydon.egg-info/PKG-INFO
+posydon.egg-info/SOURCES.txt
+posydon.egg-info/dependency_links.txt
+posydon.egg-info/requires.txt
+posydon.egg-info/top_level.txt
+posydon/mymodule/__init__.py
+posydon/mymodule/mymodule.py

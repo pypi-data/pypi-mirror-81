@@ -1,0 +1,12 @@
+numpy>=1.16
+
+[doc]
+matplotlib
+ipython
+sphinx
+numpydoc
+sphinx_rtd_theme
+sphinxcontrib_programoutput
+
+[ml]
+theano

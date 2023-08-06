@@ -1,0 +1,10 @@
+curibio.sdk-0.6.0-py3.7-nspkg.pth,sha256=JLSrfX25zh3iqoZDRaxD-l3njwJZyRe9EcM2CX4BUh4,544
+curibio/sdk/__init__.py,sha256=NABm3jcWCeurndqc_-N483LcOtUJUNRePBWZUrJa90c,2034
+curibio/sdk/constants.py,sha256=rVUgJqv8SZm-_cK1_6yhAVmvRNKZsn3elzaWSAntLAY,2751
+curibio/sdk/plate_recording.py,sha256=S20-Vo7caQX3MDIe4BM7hXDmp5rZ4iIQpBEC-_v2m9E,28754
+curibio.sdk-0.6.0.dist-info/LICENSE,sha256=dRvw8RqoD0To6-52uMxrdIxe6mgSUiLVSaENxvdHY8M,1065
+curibio.sdk-0.6.0.dist-info/METADATA,sha256=myw2xJgIr535dX63ZlncdvC28T38OnyFTWKK3r-vH2k,1141
+curibio.sdk-0.6.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+curibio.sdk-0.6.0.dist-info/namespace_packages.txt,sha256=2S3sL--yFEruNQm_N5uXN1SrTfRtrTCoOTOsR2TUnQk,8
+curibio.sdk-0.6.0.dist-info/top_level.txt,sha256=2S3sL--yFEruNQm_N5uXN1SrTfRtrTCoOTOsR2TUnQk,8
+curibio.sdk-0.6.0.dist-info/RECORD,,

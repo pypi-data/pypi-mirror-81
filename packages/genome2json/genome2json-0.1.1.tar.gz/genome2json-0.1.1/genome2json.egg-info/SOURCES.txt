@@ -1,0 +1,14 @@
+README.md
+setup.py
+g2j/__init__.py
+g2j/classes.py
+g2j/fasta.py
+g2j/genbank.py
+g2j/gff3.py
+g2j/grouping.py
+g2j/main.py
+genome2json.egg-info/PKG-INFO
+genome2json.egg-info/SOURCES.txt
+genome2json.egg-info/dependency_links.txt
+genome2json.egg-info/entry_points.txt
+genome2json.egg-info/top_level.txt

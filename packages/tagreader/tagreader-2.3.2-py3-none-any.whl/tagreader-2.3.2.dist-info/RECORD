@@ -1,0 +1,12 @@
+tagreader/__init__.py,sha256=TZoVRWyvBJ8z1DgVzpG4UsmgOiQeeqvkDWr7kEpr_VM,447
+tagreader/cache.py,sha256=WOKCHHTzfJDTMcN7LaSyHpjz9SGXlLujb591657UdCA,6307
+tagreader/clients.py,sha256=ers6H_V6oiKP0Bu2H8bwx4VZ7mF8WldRDB6MZdIefJY,15966
+tagreader/odbc_handlers.py,sha256=bfgAg-KMXRSo6EtnVNVBQ2DTEXq1tkqcUpzURUA71wE,21457
+tagreader/utils.py,sha256=E7I3dco6xwBjxXo9LeAjFbekNF-INzUD2r9SbbYXU7c,4541
+tagreader/version.py,sha256=ichFDIIqrISSd6Q1AuxN4fML5sjCGH3JMDXjLTVdZFM,120
+tagreader/web_handlers.py,sha256=AdSvLBkGotSHUd4FFwfv0BQZTc6UX0LCrXQIFK-RRNg,25851
+tagreader-2.3.2.dist-info/LICENSE,sha256=C8-mfyFKIJJkAyNOK5qS-PRIFIJPwoRQk7MbjrXrqhs,1085
+tagreader-2.3.2.dist-info/METADATA,sha256=6TiZtI7YIrlpR0Z7rM04kWXUp-C8e8cqKvGNfYkJY0M,2653
+tagreader-2.3.2.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+tagreader-2.3.2.dist-info/top_level.txt,sha256=5aQ-IdOgWYku_qWnUp2AvFFfMmWYZCmSkay6gfUGfgc,10
+tagreader-2.3.2.dist-info/RECORD,,

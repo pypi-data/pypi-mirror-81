@@ -1,0 +1,6 @@
+setup.py
+pyteller.egg-info/PKG-INFO
+pyteller.egg-info/SOURCES.txt
+pyteller.egg-info/dependency_links.txt
+pyteller.egg-info/not-zip-safe
+pyteller.egg-info/top_level.txt

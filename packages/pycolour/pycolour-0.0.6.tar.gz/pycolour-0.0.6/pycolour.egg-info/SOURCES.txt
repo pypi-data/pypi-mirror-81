@@ -1,0 +1,8 @@
+README.md
+setup.py
+pycolour/__init__.py
+pycolour/pycolour.py
+pycolour.egg-info/PKG-INFO
+pycolour.egg-info/SOURCES.txt
+pycolour.egg-info/dependency_links.txt
+pycolour.egg-info/top_level.txt

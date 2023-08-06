@@ -1,0 +1,6 @@
+[console_scripts]
+maestral_qt = maestral_qt.cli:main
+
+[maestral_gui]
+maestral_qt = maestral_qt.main:run
+

@@ -1,0 +1,8 @@
+README.md
+setup.py
+proto-template/__init__.py
+proto-template/dummy.py
+proto_template.egg-info/PKG-INFO
+proto_template.egg-info/SOURCES.txt
+proto_template.egg-info/dependency_links.txt
+proto_template.egg-info/top_level.txt

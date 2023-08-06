@@ -1,0 +1,3 @@
+torch
+zouqi==1.0.4
+pyyaml

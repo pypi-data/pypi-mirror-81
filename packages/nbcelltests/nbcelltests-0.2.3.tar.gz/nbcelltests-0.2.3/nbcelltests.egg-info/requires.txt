@@ -1,0 +1,35 @@
+flake8
+nbconvert
+nbformat>=4.0.0
+nbval>=0.9.1
+notebook
+parameterized
+pytest>=4.4.0
+pytest-cov
+pytest-html>=1.20.0
+
+[:python_version < "3"]
+backports.tempfile
+
+[dev]
+flake8
+nbconvert
+nbformat>=4.0.0
+nbval>=0.9.1
+notebook
+parameterized
+pytest>=4.4.0
+pytest-cov
+pytest-html>=1.20.0
+autopep8
+beautifulsoup4
+bump2version
+mock
+pytest-xdist
+
+[dev:python_version < "3"]
+backports.tempfile
+jupyterlab
+
+[dev:python_version > "3"]
+jupyterlab>=1.0.0

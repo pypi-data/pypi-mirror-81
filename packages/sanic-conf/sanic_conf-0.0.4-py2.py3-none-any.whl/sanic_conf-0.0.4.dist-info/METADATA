@@ -1,0 +1,95 @@
+Metadata-Version: 2.1
+Name: sanic-conf
+Version: 0.0.4
+Summary: Django-like settings for Sanic
+Home-page: https://github.com/dldevinc/sanic-conf
+Author: Mihail Mishakin
+Author-email: x896321475@gmail.com
+Maintainer: Mihail Mishakin
+Maintainer-email: x896321475@gmail.com
+License: BSD license
+Platform: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: lazy-object-proxy
+
+# sanic-conf
+Django-like settings for Sanic
+
+[![PyPI](https://img.shields.io/pypi/v/sanic-conf.svg)](https://pypi.org/project/sanic-conf/)
+[![Build Status](https://travis-ci.org/dldevinc/sanic-conf.svg?branch=master)](https://travis-ci.org/dldevinc/sanic-conf)
+
+## Quick Start
+
+Installation
+```
+pip install sanic-conf
+```
+
+Create `settings.py` file
+```
+sanic
+├─ app.py
+└─ settings.py
+```
+
+Fill out the project settings
+```
+# settings.py
+
+PROXIES_COUNT = 1
+REAL_IP_HEADER = 'X-Real-IP'
+```
+
+Apply to Sanic config
+```python
+import os
+from sanic import Sanic
+from sanic_conf import settings
+
+app = Sanic(__name__, load_env=False)
+
+# settings
+os.environ.setdefault('SANIC_SETTINGS_MODULE', 'settings')
+app.config.update_config(settings)
+```
+
+## Environment variables 
+
+Note that you can use [django-environ](https://github.com/joke2k/django-environ)
+with Sanic.
+
+```
+pip install django-environ
+```
+
+```
+# settings.py
+
+import environ
+env = environ.Env(
+    DEBUG=(bool, False)
+)
+
+# reading .env file
+environ.Env.read_env()
+
+# False if not in os.environ
+DEBUG = env('DEBUG')
+
+PROXIES_COUNT = 1
+REAL_IP_HEADER = 'X-Real-IP'
+```
+
+

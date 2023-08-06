@@ -1,0 +1,7 @@
+'''clangTooling static libraries.'''
+
+import pathlib
+
+
+def libary_dir() -> str:
+    return str(pathlib.Path(__file__).parent)

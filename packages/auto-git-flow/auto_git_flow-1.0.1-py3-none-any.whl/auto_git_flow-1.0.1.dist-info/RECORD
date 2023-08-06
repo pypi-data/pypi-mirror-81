@@ -1,0 +1,10 @@
+auto_git_flow/__init__.py,sha256=JOl41NviMN-qDV0Z8ZPmhNIxvgyauGGJHdB4A-8MhqM,93
+auto_git_flow/_version.py,sha256=lTMv8NEcgUDb34PeAV303hh9IwNYbfnouCwGYEav06g,18450
+auto_git_flow/gfhs.py,sha256=4JZLusNRwCJxHM-0rZ1nUWPjQGX5lXY6J7c1bwciX4w,853
+auto_git_flow/gfrs.py,sha256=EK1ocFZOItwdGgZytMcrI-E-b6CucwwxiJGL2uCNUxA,1289
+auto_git_flow/utils.py,sha256=JtTRKW-bgI6QxeRwPles6Qv3Y-QtreqI8HoFeidBUfQ,1241
+auto_git_flow-1.0.1.dist-info/METADATA,sha256=M-JdqmS9czyFn0QP_CK2FwmmtZHxSL69bMilRqpWWew,1892
+auto_git_flow-1.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+auto_git_flow-1.0.1.dist-info/entry_points.txt,sha256=r5YEbwMrdhBZPEREaBOrW2scGtLRfPZLpmQ6jOfL_Ks,81
+auto_git_flow-1.0.1.dist-info/top_level.txt,sha256=ZftXgH16nvoKoNrE4dzx2Ryf7oZnjNINCR3v5dMBCr8,14
+auto_git_flow-1.0.1.dist-info/RECORD,,

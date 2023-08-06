@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: senzwifi
+Version: 0.0.1
+Summary: Python module for working with the senz wifi climate devices 
+Home-page: https://github.com/sockless-coding/python-senz-wifi-module
+Author: sockless-coding
+License: MIT
+Description: # python-senz-wifi-module
+        Python module for working with the senz wifi climate devices
+Keywords: home automation senz climate
+Platform: UNKNOWN
+Classifier: Topic :: Home Automation
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Description-Content-Type: text/markdown

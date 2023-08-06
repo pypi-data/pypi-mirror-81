@@ -1,0 +1,3 @@
+[console_scripts]
+senzwifi = senzwifi.__main__:main
+

@@ -1,0 +1,13 @@
+README.md
+setup.py
+senzwifi/__init__.py
+senzwifi/__main__.py
+senzwifi/session.py
+senzwifi/urls.py
+senzwifi.egg-info/PKG-INFO
+senzwifi.egg-info/SOURCES.txt
+senzwifi.egg-info/dependency_links.txt
+senzwifi.egg-info/entry_points.txt
+senzwifi.egg-info/not-zip-safe
+senzwifi.egg-info/requires.txt
+senzwifi.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+opencv-python>=4.1.1
+affine==2.3.0
+numpy==1.19.1
+image-fragment==0.2.2

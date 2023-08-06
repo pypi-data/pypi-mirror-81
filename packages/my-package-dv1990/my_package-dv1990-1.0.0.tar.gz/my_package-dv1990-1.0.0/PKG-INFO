@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: my_package-dv1990
+Version: 1.0.0
+Summary: A package
+Home-page: https://github.com/sample/sampleproject
+Author: Divya Viswanathan
+Author-email: divyaviswanathan.pn@gmail.com
+License: UNKNOWN
+Description: # python-scripts
+        # Example Package
+        
+        This is a simple example package
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

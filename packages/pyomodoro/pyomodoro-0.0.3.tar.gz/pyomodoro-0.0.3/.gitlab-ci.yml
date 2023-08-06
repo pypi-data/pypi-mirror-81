@@ -1,0 +1,72 @@
+stages:
+  - test
+  - build
+  - deploy
+
+include:
+  - template: Dependency-Scanning.gitlab-ci.yml
+  - template: Security/License-Scanning.gitlab-ci.yml
+  - template: Security/SAST.gitlab-ci.yml
+  - template: Secret-Detection.gitlab-ci.yml
+
+variables:
+  PYTHON_LATEST_TAG: '3.8'
+  SAST_BANDIT_EXCLUDED_PATHS: '*/tests/*'
+
+.test:
+  stage: 'test'
+  before_script:
+    - pip install tox
+
+flake8:
+  extends: '.test'
+  image: python:$PYTHON_LATEST_TAG
+  script:
+    - tox -e flake8
+
+py37:
+  extends: '.test'
+  image: python:3.7
+  script:
+    - tox -e py
+
+py38:
+  extends: '.test'
+  image: python:3.8
+  script:
+    - tox -e py
+
+build:
+  stage: build
+  only:
+    - tags
+  image: python
+  script:
+    - python setup.py sdist bdist_wheel
+  artifacts:
+    paths:
+      - dist/
+
+GitLab PyPi:
+  stage: deploy
+  only:
+    - tags
+  image: python:$PYTHON_LATEST_TAG
+  variables:
+    TWINE_USERNAME: gitlab-ci-token
+    TWINE_PASSWORD: ${CI_JOB_TOKEN}
+  script:
+    - pip install twine
+    - python -m twine upload --repository-url https://gitlab.com/api/v4/projects/${CI_PROJECT_ID}/packages/pypi dist/*
+
+PyPI:
+  stage: deploy
+  only:
+    - tags
+  image: python:$PYTHON_LATEST_TAG
+  variables:
+    TWINE_USERNAME: __token__
+    TWINE_PASSWORD: ${PYPI_TOKEN}
+  script:
+    - pip install twine
+    - python -m twine upload dist/*

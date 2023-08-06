@@ -1,0 +1,4 @@
+pomodoro_length: '15'
+short_break_length: '2'
+long_break_length: '3'
+language: 'es_ES'

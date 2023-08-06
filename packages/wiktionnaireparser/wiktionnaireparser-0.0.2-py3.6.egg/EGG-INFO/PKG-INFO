@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: wiktionnaireparser
+Version: 0.0.2
+Summary: A library for parsing the french wiktionnary
+Home-page: https://github.com/Surkal/WiktionnaireParser
+Author: Surkal
+License: UNKNOWN
+Description: # WiktionnaireParser
+        
+        A library for parsing the [french wiktionary](https://fr.wiktionary.org).
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Topic :: Text Processing
+Classifier: Natural Language :: English
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

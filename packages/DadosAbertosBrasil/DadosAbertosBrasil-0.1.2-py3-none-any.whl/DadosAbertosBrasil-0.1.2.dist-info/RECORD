@@ -1,0 +1,13 @@
+DadosAbertosBrasil/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+DadosAbertosBrasil/_utils.py,sha256=imYQ6MwB9Kt5sv5z0Fwb-7Xv3DgQ_qohKwRxaRQuCrM,1527
+DadosAbertosBrasil/camara.py,sha256=RYASEabSDzv7TYuNXDPl8dN-IDe-c0NUlsly49iaNi8,11469
+DadosAbertosBrasil/favoritos.py,sha256=Q88ASX3W3ci1jUmDaLBmCS-NIwcA3kN-1O50_Ux1kC0,4886
+DadosAbertosBrasil/ibge.py,sha256=qDDBMNUvouEvaGX32vw0r1a-HM-e2VxbW2f9Ca3Ztek,9640
+DadosAbertosBrasil/ipea.py,sha256=H5XyMNjsubqnhKsxhklDCMrN_FBdDfVb33dJW0oQshM,2148
+DadosAbertosBrasil/senado.py,sha256=CqBYVALsqBMDHRV1NhN6PahOyf-wXEy8aVjmAgHnrlc,3526
+DadosAbertosBrasil/tse.py,sha256=55MglaD5y8iWPLCUsMNXvPSLnoucCy69b5rSwJcJOOk,7661
+DadosAbertosBrasil-0.1.2.dist-info/LICENSE.txt,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+DadosAbertosBrasil-0.1.2.dist-info/METADATA,sha256=iAwyiDvmGILduXnjjeryTFDZq50oejPYJNg86laLpBw,2936
+DadosAbertosBrasil-0.1.2.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+DadosAbertosBrasil-0.1.2.dist-info/top_level.txt,sha256=gmJHo5WSlmCU17lYKuUY-RDZ5Dh3-Abc3nH2vTGEmLA,19
+DadosAbertosBrasil-0.1.2.dist-info/RECORD,,

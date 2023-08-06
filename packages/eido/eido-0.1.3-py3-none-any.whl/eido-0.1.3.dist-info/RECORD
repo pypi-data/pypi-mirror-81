@@ -1,0 +1,12 @@
+eido/__init__.py,sha256=leEY2tPRKt9xxahR3VKHMJRRQ1Eivb3_nawKID7vC6c,248
+eido/__main__.py,sha256=CATTgJdrx5u14VPKhHYNjudUEsuPugRd8vryHjlAMSk,189
+eido/_version.py,sha256=XEqb2aiIn8fzGE68Mph4ck1FtQqsR_am0wRWvrYPffQ,22
+eido/const.py,sha256=SM-0r6julje8bj5oJMNQibS23PS__LFFAkLeSIHt-Jc,917
+eido/eido.py,sha256=UC9Kn8vPN5S_m-RyyrqUDa39lNQ5TEzpCTL4-RosQe4,13955
+eido/exceptions.py,sha256=xui-wL-XCRk190Nq5M114xbLd82hodYiRzNcPj-bn2o,613
+eido-0.1.3.dist-info/LICENSE.txt,sha256=oB6ZGDa4kcznznJKJsLLFFcOZyi8Y6e2Jv0rJozgp-I,1269
+eido-0.1.3.dist-info/METADATA,sha256=fCmvnXGhrWVqoZVTZmSHS1OmTRoDPmry9wkIqaHHFs0,1330
+eido-0.1.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+eido-0.1.3.dist-info/entry_points.txt,sha256=zbpF7RcJCOaWYIchxJGtFbQamg8thrG8XPAu3q9R-Vo,45
+eido-0.1.3.dist-info/top_level.txt,sha256=oltuMelApqcnJZ09Rrg3lF7kmTkmU5bcA6oRvXhNu6A,5
+eido-0.1.3.dist-info/RECORD,,

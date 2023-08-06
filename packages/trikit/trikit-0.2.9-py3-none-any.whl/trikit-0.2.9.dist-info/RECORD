@@ -1,0 +1,11 @@
+trikit/__init__.py,sha256=WqgXqkD7UslI4Ict2T9LnYGiJS2ed2HraKnf-aQHx60,1532
+trikit/triangle.py,sha256=H-pdDY2V2qMAgHf2nD8tHrwZSFUb1OLItTu2tp0n66k,37173
+trikit/utils.py,sha256=UWlFa29N5NFhGhVGNnladC4WWpNlMwPMKAgcWHxuAuo,7506
+trikit/chainladder/__init__.py,sha256=FpqZXlHgYyP7j-pQr33FE5qtcKY09ngN2sw51PehgYw,19138
+trikit/chainladder/bootstrap.py,sha256=b137wqGp9ox48gHturYISPN4MhsliSIWzv1NyC23C98,61156
+trikit/datasets/__init__.py,sha256=PtArgWBeXJGfhxE3md8ALkwETOpn0iIHxFZr5vnOISA,739
+trikit-0.2.9.dist-info/LICENSE,sha256=HpZtJXxSRRjd5zFXUXx5KfP0M7myL66cKoFzLClJlJk,1079
+trikit-0.2.9.dist-info/METADATA,sha256=Nf2G6qdeOqdZwHCYst4ODsdweSf37O_WwVigLUlxPWw,23854
+trikit-0.2.9.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+trikit-0.2.9.dist-info/top_level.txt,sha256=nD_k-qkfqYRtNZ8YIgSTDaDvD8Z7BVGquyPJ4q-e1mQ,7
+trikit-0.2.9.dist-info/RECORD,,

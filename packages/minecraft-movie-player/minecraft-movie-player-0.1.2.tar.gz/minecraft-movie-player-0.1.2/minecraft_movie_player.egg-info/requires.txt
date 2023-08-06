@@ -1,0 +1,4 @@
+kdtree>=0.16
+nbtlib>=1.8.1
+opencv-python>=4.4.0.42
+pydub>=0.24.1

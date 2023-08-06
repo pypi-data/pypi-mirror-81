@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: blue_interface
+Version: 0.0
+Summary: Python API for controlling the Blue robot arm
+Home-page: http://github.com/berkeleyopenarms/blue_interface
+Author: Rachel Thomasson, Brent Yi, Philipp Wu, Greg Balke
+Author-email: brentyi@berkeley.edu
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN

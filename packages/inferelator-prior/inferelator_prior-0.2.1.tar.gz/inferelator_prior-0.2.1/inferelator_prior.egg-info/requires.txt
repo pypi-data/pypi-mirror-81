@@ -1,0 +1,7 @@
+numpy
+pandas
+HTSeq
+pybedtools
+scipy
+pathos
+sklearn

@@ -1,0 +1,12 @@
+odsclient/__init__.py,sha256=vFZVTWSuQjfDmuZzEXgjk62fjQXE6_rcrdMemLztvu4,687
+odsclient/_version.py,sha256=ZtRaRrJaP_2c-O8UTt3c4tQEKyjs8h9BTCw1ekRE1ko,116
+odsclient/core.py,sha256=jxmwB9iOuDrHMm4CrLUfqlQ_jXHHgMCmlPYczlseWCk,30194
+odsclient/keyring_cmds.py,sha256=_6dKKGOVeqVD0qXyJImSSGrmgxTSMH6Ms9TkJXhUhDo,8304
+odsclient/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odsclient/shortcuts.py,sha256=cAX7zyrfBcVPt_d8BTNucAM53y4qNf5QUBjuIMmmUrM,14702
+odsclient-0.7.0.dist-info/LICENSE,sha256=6tdSfVYHypW5C-EDKKr5o89mLCKLlgJ80Y1mwWW7f30,1514
+odsclient-0.7.0.dist-info/METADATA,sha256=dlty38I35bz8HizzWYQSBNND-QKtAkeBdeMa3t1MdPo,2285
+odsclient-0.7.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+odsclient-0.7.0.dist-info/entry_points.txt,sha256=MWEdZD2LdEwUjTULVcSDeJ1v798YfiwejOqsAhYlsGg,60
+odsclient-0.7.0.dist-info/top_level.txt,sha256=OCj3OcCGRKAQJ34_yck78rDh1uhdtmkjWFqxJMJ38Cs,10
+odsclient-0.7.0.dist-info/RECORD,,

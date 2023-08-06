@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pyminer-algorithms-document-server
+Version: 0.0.3
+Summary: A small documentation server for PyMiner
+Home-page: https://gitee.com/py2cn/pyminer-algorithms-document-server
+Author: panhaoyu
+Author-email: panhaoyu.china@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: flask
+Requires-Dist: markdown
+
+# PyMiner Documentation Server
+
+This is a simple documentation server, mainly for PyMiner.
+
+# PyMiner文档服务器
+
+这是一个简单的文档服务器，使用传统的后端渲染技术，主要采用了以下框架：
+
+1. 服务器：`flask`
+1. Markdown：`markdown`
+1. 样式预处理器：`sass`
+
+目前非常不完善，只是一个临时的小服务器，欢迎各位一起完善。
+
+# 致谢
+
+感谢nwljy提供的初版代码！
+
+

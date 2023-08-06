@@ -1,0 +1,11 @@
+pyminer_algorithms_document_server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyminer_algorithms_document_server/renderer.py,sha256=0MX1BBtf_2j0bYZYWKqi2BrHYzWTq8v89Pbk2DTP6nQ,154
+pyminer_algorithms_document_server/server.py,sha256=SuFs_rv4jrGfaRa3ZkYWBwO53yEkB85UZd8rfXv2JRU,2899
+pyminer_algorithms_document_server/static/main.css,sha256=3xMDWa6pXEvzscn3DK_VSqf2qf6vci60qVZkT60gX5Y,883
+pyminer_algorithms_document_server/static/main.css.map,sha256=dafkDjOJOYJYT2Wjz8aPl-Af5UquTlXz6IL6n4RwwXU,300
+pyminer_algorithms_document_server/templates/content.html,sha256=G_OK7971MMegUuzLxhBhiBJb13zli4kHUaykOsZrpGc,1364
+pyminer_algorithms_document_server-0.0.3.dist-info/LICENSE,sha256=c57v6085PUYII35aIxoMerkfAbZpEoA7LFgOjgtWM0Y,1094
+pyminer_algorithms_document_server-0.0.3.dist-info/METADATA,sha256=rbc_goz8qb4qL91ViwCaQ20DBpdd5SvnOFYLmN7JzVU,988
+pyminer_algorithms_document_server-0.0.3.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+pyminer_algorithms_document_server-0.0.3.dist-info/top_level.txt,sha256=-m9LLZkCAQ2Cs9XkDEhLv90qeFsnyVEKqfl3lITmPdI,35
+pyminer_algorithms_document_server-0.0.3.dist-info/RECORD,,

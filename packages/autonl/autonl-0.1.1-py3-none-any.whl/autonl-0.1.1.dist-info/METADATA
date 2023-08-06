@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: autonl
+Version: 0.1.1
+Summary: Manage newline at end of file
+Home-page: https://github.com/yukihira1992/autonl
+Author: Takayuki Hirayama
+Author-email: th.windbell+github@gmail.com
+License: MIT
+Keywords: newline,text,EOF,automation,format
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: Filters
+Requires-Python: >=3.5
+Description-Content-Type: text/x-rst
+
+======
+autonl
+======
+
+.. image:: https://img.shields.io/pypi/v/autonl.svg
+    :target: https://pypi.org/project/autonl/
+    :alt: PyPI Version
+
+.. image:: https://github.com/yukihira1992/autonl/workflows/Test%20package/badge.svg
+    :target: https://github.com/yukihira1992/autonl/actions
+    :alt: Build status
+
+
+autonl automatically formats newline at end of file.
+
+
+Installation
+============
+
+Installing from PyPI::
+
+    pip install --upgrade autonl
+
+
+Usage
+=====
+
+Formatting newline at end of file::
+
+    autonl <filename>
+
+autonl CHANGELOG
+================
+
+0.1.1 (2020-10-03)
+******************
+
+* Support format multiple files
+
+
+0.1.0 (2020-10-02)
+******************
+
+* Format single file
+
+

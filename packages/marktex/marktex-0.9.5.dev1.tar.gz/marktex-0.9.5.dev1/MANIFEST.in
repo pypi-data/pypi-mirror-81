@@ -1,0 +1,2 @@
+include marktex/markenv.tex
+recursive-include marktex/example *.md *.png *.tex *.pdf

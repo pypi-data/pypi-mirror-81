@@ -1,0 +1,8 @@
+README.md
+setup.py
+git_record_svtter.egg-info/PKG-INFO
+git_record_svtter.egg-info/SOURCES.txt
+git_record_svtter.egg-info/dependency_links.txt
+git_record_svtter.egg-info/entry_points.txt
+git_record_svtter.egg-info/requires.txt
+git_record_svtter.egg-info/top_level.txt

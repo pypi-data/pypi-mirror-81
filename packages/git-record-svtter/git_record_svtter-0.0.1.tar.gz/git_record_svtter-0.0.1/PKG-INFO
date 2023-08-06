@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: git_record_svtter
+Version: 0.0.1
+Summary: A tools to record temporal code
+Home-page: UNKNOWN
+Author: svtter
+Author-email: svtter@qq.com
+License: UNKNOWN
+Description: # Git record
+        
+        Use git branch to record temporal code.
+        
+        
+        ## Install
+        
+        `python setup.py install` or `pip install -e .`
+        
+        
+        ## Usage
+        
+        ``` python
+        from git_record.git_record import GitHandle
+        
+        gh = GitHandle()
+        gh.create_new_branch()
+        
+        ```
+        
+        This scripts will create a branch named `current date`.
+        
+        
+        ## ..MORE?
+        
+        1. Folk this repo.
+        2. `pip install -e .`
+        3. run `python example/ex1.py`
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

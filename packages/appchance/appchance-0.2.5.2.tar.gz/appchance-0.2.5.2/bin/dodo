@@ -1,0 +1,13 @@
+#! /usr/bin/env python3
+
+import sys
+import importlib
+from doit.doit_cmd import DoitMain
+from doit.cmd_base import ModuleTaskLoader
+
+if __name__ == "__main__":
+    sys.exit(
+        DoitMain(
+            ModuleTaskLoader(
+                importlib.import_module(f'appchance.dodos.tasks.django'))
+        ).run(sys.argv[1:]))

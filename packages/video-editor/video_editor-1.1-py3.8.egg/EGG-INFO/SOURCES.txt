@@ -1,0 +1,8 @@
+README.md
+setup.py
+video-editor/video-cut
+video_editor.egg-info/PKG-INFO
+video_editor.egg-info/SOURCES.txt
+video_editor.egg-info/dependency_links.txt
+video_editor.egg-info/requires.txt
+video_editor.egg-info/top_level.txt

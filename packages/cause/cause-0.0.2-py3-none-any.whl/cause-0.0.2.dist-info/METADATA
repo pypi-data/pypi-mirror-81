@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: cause
+Version: 0.0.2
+Summary: Causal Inference Library
+Home-page: https://github.com/doriang102/cause
+Author: Dorian Goldman
+Author-email: doriang102@gmail.com
+License: Apache-2.0
+Keywords: causal tree cause distributed
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+
+# cause
+Causal Inference Library
+
+

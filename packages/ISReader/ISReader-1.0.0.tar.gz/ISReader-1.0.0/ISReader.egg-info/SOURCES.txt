@@ -1,0 +1,10 @@
+README.md
+setup.py
+ISReader/Reader.py
+ISReader/__init__.py
+ISReader/configutil.py
+ISReader/version.py
+ISReader.egg-info/PKG-INFO
+ISReader.egg-info/SOURCES.txt
+ISReader.egg-info/dependency_links.txt
+ISReader.egg-info/top_level.txt

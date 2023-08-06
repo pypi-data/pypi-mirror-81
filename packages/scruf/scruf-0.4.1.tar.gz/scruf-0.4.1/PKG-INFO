@@ -1,0 +1,91 @@
+Metadata-Version: 1.2
+Name: scruf
+Version: 0.4.1
+Summary: Functional testing for command line applications
+Home-page: https://gitlab.com/matthewhughes/scruf
+Author: Matthew Hughes
+License: GNU GPLv3
+Description: =====
+        Scruf
+        =====
+        
+        .. image:: https://gitlab.com/matthewhughes/scruf/badges/master/pipeline.svg
+            :target: https://gitlab.com/matthewhughes/scruf/commits/master
+            :alt: pipeline status
+        
+        .. image:: https://gitlab.com/matthewhughes/scruf/badges/master/coverage.svg
+           :target: https://gitlab.com/matthewhughes/scruf/commits/master
+           :alt: coverage report
+        
+        .. image:: https://img.shields.io/pypi/v/scruf
+           :target: https://pypi.org/project/scruf
+           :alt: PyPI
+        
+        Scruf is a functional testing framework for command line applications. It is
+        heavily inspired by cram_. This is currently early in development and while I
+        aim to maintain the current interface breaking changes may occur.
+        
+        ::
+        
+           usage: scruf [-h] [--no-cleanup] [-s SHELL] [-i INDENT] [-e ENV_FILE]
+                        FILE [FILE ...]
+        
+           positional arguments:
+             FILE                  File(s) to be tested
+        
+           optional arguments:
+             -h, --help            show this help message and exit
+             --no-cleanup          Avoid cleaning up temporary test directory
+             -s SHELL, --shell SHELL
+                                   Path to shell to be used to run tests with. Default is
+                                   '/bin/sh'
+             -i INDENT, --indent INDENT
+                                   String to be used for detecting indentation when
+                                   parsing tests. Default is 4 spaces, use a literal '\t'
+                                   to denote a tab character
+             -e ENV_FILE, --env-file ENV_FILE
+                                   Name of config file to read environment variables from
+             --version             show program's version number and exit
+             --strict              Whether tests should be run in strict mode. In this
+                                   mode a test that does not check each line of output is
+                                   considered to have failed
+        
+        
+        Example test::
+        
+           # in my_test.scf
+           # the following line is a test description
+           Verify 'cat' reads file contents
+           # Run some commands to setup environment
+           [SETUP]$ echo 'some text' > test.txt
+           [SETUP]$ echo '1234' >> test.txt
+           # The command to test (note indentation)
+               $ cat test.txt
+               some text
+               [RE] ^\d+$
+        
+        Running::
+        
+           scruf my_test.scf
+           # Testing: my_test.scf
+           1..1
+           ok 1 - Verify 'cat' reads file contents
+        
+        There are more examples under the ``examples/`` directory in the source repo
+        and in the `documentation <https://matthewhughes.gitlab.io/scruf/>`_.
+        
+        .. _cram: https://bitheap.org/cram/
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Testing
+Requires-Python: >=3.6

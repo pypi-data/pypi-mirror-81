@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: ophpy
+Version: 0.0.2
+Summary: Open source project about Computer Generated Hologram
+Home-page: https://github.com/robin9804/openholo_py
+Author: YoungRok Kim
+Author-email: faller825@khu.ac.kr
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: pillow
+Requires-Dist: plyfile
+Requires-Dist: numba
+
+# openholo_py
+
+OpenHolo is an open source library which contains algorithms and their software implementation for generation of holograms to be applied in various fields. The goal behind the library development is facilitating production of digital holographic contents and expanding the area of their application. The developed by us open source library is a tool for computer generation of holograms, simulations and signal processing at various formats of 3D input data and properties of the 3D displays. Based on this, we want to lay the foundation for commercializing digital holographic service in various fields. The OpenHolo library has been developed in conjunction with the following development environment and provides Q & A, Open Source Software, Target Platform and BSD License.
+
+For more information about Openholo, see the openholo homepage (http://openholo.org/about)
+
+

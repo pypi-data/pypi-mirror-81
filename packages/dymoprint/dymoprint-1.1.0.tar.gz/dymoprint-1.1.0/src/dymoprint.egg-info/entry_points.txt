@@ -1,0 +1,3 @@
+[console_scripts]
+dymoprint = dymoprint.__main__:main_with_debug
+

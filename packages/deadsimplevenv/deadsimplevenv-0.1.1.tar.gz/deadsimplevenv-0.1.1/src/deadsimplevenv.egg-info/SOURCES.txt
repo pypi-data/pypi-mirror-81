@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+src/deadsimplevenv/__init__.py
+src/deadsimplevenv.egg-info/PKG-INFO
+src/deadsimplevenv.egg-info/SOURCES.txt
+src/deadsimplevenv.egg-info/dependency_links.txt
+src/deadsimplevenv.egg-info/entry_points.txt
+src/deadsimplevenv.egg-info/requires.txt
+src/deadsimplevenv.egg-info/top_level.txt

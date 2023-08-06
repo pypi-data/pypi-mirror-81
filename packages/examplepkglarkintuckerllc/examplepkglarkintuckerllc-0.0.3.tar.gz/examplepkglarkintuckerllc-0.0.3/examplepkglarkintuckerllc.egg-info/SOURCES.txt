@@ -1,0 +1,10 @@
+README.md
+setup.py
+examplepkglarkintuckerllc/__init__.py
+examplepkglarkintuckerllc/__main__.py
+examplepkglarkintuckerllc/example_module.py
+examplepkglarkintuckerllc.egg-info/PKG-INFO
+examplepkglarkintuckerllc.egg-info/SOURCES.txt
+examplepkglarkintuckerllc.egg-info/dependency_links.txt
+examplepkglarkintuckerllc.egg-info/requires.txt
+examplepkglarkintuckerllc.egg-info/top_level.txt

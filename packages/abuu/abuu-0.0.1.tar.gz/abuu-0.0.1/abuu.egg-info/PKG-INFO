@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: abuu
+Version: 0.0.1
+Summary: ABUU - Another Bunch of Usefull Utils
+Home-page: https://github.com/yashshah1/abuu
+Author: Yash Shah
+Author-email: yashshah1234@gmail.com
+License: MIT
+Description: <h1> ABUU - <u>A</u>nother <u>B</u>unch of <u>U</u>se<s>less</s>full <u>U</u>tils</h1>
+        
+        Just a collection of utils I've used time and again in different python projects put together.
+        
+        Main aim of this repo and package is to allow me to use it across multiple projects without having to copy paste code.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown

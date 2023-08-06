@@ -1,0 +1,11 @@
+subcaretin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+subcaretin/filtros.py,sha256=8OSeGq9aB3KggBAiXV3UxCfGLp2WVk0jD10qBUNFh7c,2614
+subcaretin/guess.py,sha256=5uQ0g3npN1mJIw__BjuCKXenWwXfQNf-Lojhs1oZj_o,3364
+subcaretin/mejor_sub.py,sha256=XNvSEjYA3UCWp10syON2snhWvcyaFGN5NB5-oPhNnj8,736
+subcaretin/providers.py,sha256=-xG3jI6AM2yGi3JNSN3qqg_KXUEFF-lTaFH5LABf9Qs,3128
+subcaretin-0.3.3.data/scripts/subcaretin,sha256=DA0KbF_t0_p0XuHeTvov03Oo4gC-F9ss5s3Mii8sQ7U,6617
+subcaretin-0.3.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+subcaretin-0.3.3.dist-info/METADATA,sha256=_SdK6Ts0JscyYmu3107b1v7Bg0Kp9jtvzrQ0t-4YFAg,5913
+subcaretin-0.3.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+subcaretin-0.3.3.dist-info/top_level.txt,sha256=zzSAbIU_a0JFfhFOqxSDngxIaUUePkNNUEl5UVKXSqs,11
+subcaretin-0.3.3.dist-info/RECORD,,

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: Chessnut4jschultz38
+Version: 0.3.4
+Summary: A basic chess model to imports/export FEN & finds moves. Made to fix an issue with parent repo.
+Home-page: https://github.com/jschultz38/Chessnut
+Author: Jarrett S
+Author-email: jschultz38@gatech.edu
+License: UNLICENSE
+Keywords: chess
+Platform: UNKNOWN
+
+A simple chess model in pure Python
+
+

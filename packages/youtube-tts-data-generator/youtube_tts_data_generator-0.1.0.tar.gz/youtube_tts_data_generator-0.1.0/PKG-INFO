@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: youtube_tts_data_generator
+Version: 0.1.0
+Summary: A python library that generates speech data with transcriptions by collecting data from YouTube.
+Home-page: http://github.com/thehetpandya/youtube_tts_data_generator
+Author: Het Pandya
+Author-email: hetpandya6797@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

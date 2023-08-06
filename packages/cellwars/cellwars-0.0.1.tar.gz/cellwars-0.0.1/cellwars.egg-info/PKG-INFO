@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cellwars
+Version: 0.0.1
+Summary: The official Python Bot SDK for https://cellwars.io/
+Home-page: http://github.com/mfontanini/cellwars-python
+Author: Matias Fontanini
+Author-email: matias.fontanini@gmail.com
+License: MIT
+Description: # cellwars
+        
+        This is the official Python Bot SDK for [cellwars](https://cellwars.io)
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

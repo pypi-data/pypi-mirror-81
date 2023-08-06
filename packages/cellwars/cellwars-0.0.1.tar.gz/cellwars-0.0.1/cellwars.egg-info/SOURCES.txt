@@ -1,0 +1,8 @@
+README.md
+cellwars.py
+setup.py
+cellwars.egg-info/PKG-INFO
+cellwars.egg-info/SOURCES.txt
+cellwars.egg-info/dependency_links.txt
+cellwars.egg-info/not-zip-safe
+cellwars.egg-info/top_level.txt

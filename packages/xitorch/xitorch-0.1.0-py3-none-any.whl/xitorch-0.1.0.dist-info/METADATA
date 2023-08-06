@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: xitorch
+Version: 0.1.0
+Summary: Pytorch-based linear algebra library for large matrix
+Home-page: https://github.com/mfkasim91/xitorch
+Author: mfkasim91
+Author-email: firman.kasim@gmail.com
+License: MIT
+Keywords: project library linear-algebra autograd
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Requires-Dist: numpy (>=1.8.2)
+Requires-Dist: scipy (>=1.1.0)
+Requires-Dist: matplotlib (>=1.5.3)
+Requires-Dist: torch (>=1.5)
+
+UNKNOWN
+
+

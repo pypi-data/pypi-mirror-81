@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ISReader
+Version: 1.0.0
+Summary: Read data from the Initial State IoT platform
+Home-page: https://www.initialstate.com
+Author: Initial State Technologies
+Author-email: support@initialstate.com
+License: MIT
+Keywords: logger,logstream,initial state
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+
+UNKNOWN
+
+

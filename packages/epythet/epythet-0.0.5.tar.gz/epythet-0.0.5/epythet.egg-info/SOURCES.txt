@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+epythet.egg-info/PKG-INFO
+epythet.egg-info/SOURCES.txt
+epythet.egg-info/dependency_links.txt
+epythet.egg-info/top_level.txt
+epythet/docs_gen/_static/docsrc/Makefile
+epythet/docs_gen/_static/docsrc/conf.py
+epythet/docs_gen/_static/docsrc/make.bat

@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: cased-django
+Version: 0.6.0
+Summary: Django integration for Cased
+Home-page: https://github.com/cased/cased-django
+Author: Cased
+Author-email: support@cased.com
+License: Apache
+Project-URL: Bug Tracker, https://github.com/cased/cased-django/issues
+Project-URL: Source Code, https://github.com/cased/cased-django
+Description: Django integration for Cased
+Keywords: cased api
+Platform: UNKNOWN
+Requires-Python: >3.5

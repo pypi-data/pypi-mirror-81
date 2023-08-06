@@ -1,0 +1,16 @@
+README.md
+setup.py
+ckanext/__init__.py
+ckanext/archiveview/__init__.py
+ckanext/archiveview/archive_util.py
+ckanext/archiveview/plugin.py
+ckanext/archiveview/logic/__init__.py
+ckanext/archiveview/logic/action.py
+ckanext/archiveview/tests/__init__.py
+ckanext/archiveview/tests/archive_util_tests.py
+ckanext_archiveview.egg-info/PKG-INFO
+ckanext_archiveview.egg-info/SOURCES.txt
+ckanext_archiveview.egg-info/dependency_links.txt
+ckanext_archiveview.egg-info/entry_points.txt
+ckanext_archiveview.egg-info/namespace_packages.txt
+ckanext_archiveview.egg-info/top_level.txt

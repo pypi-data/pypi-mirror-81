@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+sphinx_exercise/__init__.py
+sphinx_exercise/directive.py
+sphinx_exercise/local_nodes.py
+sphinx_exercise.egg-info/PKG-INFO
+sphinx_exercise.egg-info/SOURCES.txt
+sphinx_exercise.egg-info/dependency_links.txt
+sphinx_exercise.egg-info/requires.txt
+sphinx_exercise.egg-info/top_level.txt
+sphinx_exercise/_static/exercise.css

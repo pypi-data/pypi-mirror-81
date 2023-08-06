@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: aws-coco
+Version: 0.1.1
+Summary: A utility for managing AWS Console Sessions with Firefox Containers
+License: MIT
+Author: Joe Snell
+Author-email: joepsnell@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: boto3 (>=1.15.10,<2.0.0)
+Requires-Dist: requests (>=2.24.0,<3.0.0)
+Project-URL: issues, https://github.com/wulfmann/aws-coco/issues

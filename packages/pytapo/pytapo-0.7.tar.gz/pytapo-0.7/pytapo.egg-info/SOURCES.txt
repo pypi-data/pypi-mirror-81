@@ -1,0 +1,9 @@
+README.md
+setup.py
+pytapo/ERROR_CODES.py
+pytapo/__init__.py
+pytapo.egg-info/PKG-INFO
+pytapo.egg-info/SOURCES.txt
+pytapo.egg-info/dependency_links.txt
+pytapo.egg-info/requires.txt
+pytapo.egg-info/top_level.txt

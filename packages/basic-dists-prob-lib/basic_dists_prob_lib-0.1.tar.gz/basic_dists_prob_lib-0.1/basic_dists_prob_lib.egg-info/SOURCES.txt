@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+basic_dists_prob_lib/Binomialdistribution.py
+basic_dists_prob_lib/Gaussiandistribution.py
+basic_dists_prob_lib/Generaldistribution.py
+basic_dists_prob_lib/__init__.py
+basic_dists_prob_lib.egg-info/PKG-INFO
+basic_dists_prob_lib.egg-info/SOURCES.txt
+basic_dists_prob_lib.egg-info/dependency_links.txt
+basic_dists_prob_lib.egg-info/not-zip-safe
+basic_dists_prob_lib.egg-info/top_level.txt

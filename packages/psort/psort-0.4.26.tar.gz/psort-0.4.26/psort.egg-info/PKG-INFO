@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: psort
+Version: 0.4.26
+Summary: Graphical application for identifying simple and complex purkinje spikes
+Home-page: https://github.com/esedaghatnejad/psort
+Author: Ehsan Sedaghat-Nejad
+Author-email: esedagh1@jhu.edu
+License: GPL
+Description: # psort
+        purkinjeSort
+        
+        ## Packaging branch
+        This branch was created by Kyle Poe to begin the process of turning this project into a Python package.
+        
+Platform: UNKNOWN
+Requires-Python: >=3.7

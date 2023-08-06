@@ -1,0 +1,9 @@
+LICENSE,sha256=yaQGCC33ZTDHD2KWux3B_xkkwW6yr7qOCmd1V0LAuJc,1068
+drf_react_template/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drf_react_template/mixins.py,sha256=z3G7sYgcYLWCpZTJlmkfGIfcKp1DeviLPjxC7oOy5D8,1150
+drf_react_template/renderers.py,sha256=tymZWSW1Gabo6xQCYS3tlD4_JZvcKbK6KjnJ7-VYsSA,1242
+drf_react_template/schema_form_encoder.py,sha256=gm1rkf_E5zt53hU-pYCbrpR7Y5xbsE3OFmLB4rAz0JU,11311
+drf_react_template_framework-0.0.1.dist-info/LICENSE,sha256=yaQGCC33ZTDHD2KWux3B_xkkwW6yr7qOCmd1V0LAuJc,1068
+drf_react_template_framework-0.0.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+drf_react_template_framework-0.0.1.dist-info/METADATA,sha256=mbiMICih0Mujni53d_0uISX60WGlaCk2nIJ2cZYCJO0,8126
+drf_react_template_framework-0.0.1.dist-info/RECORD,,

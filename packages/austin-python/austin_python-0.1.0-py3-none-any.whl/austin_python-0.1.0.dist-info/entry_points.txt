@@ -1,0 +1,4 @@
+[console_scripts]
+austin2pprof=austin.format.pprof.__main__:main
+austin2speedscope=austin.format.speedscope:main
+

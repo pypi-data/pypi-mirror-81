@@ -1,0 +1,6 @@
+[can.interface]
+tinymovr_test = tinymovr.bus:Test
+
+[console_scripts]
+tinymovr = tinymovr.shell:spawn_shell
+

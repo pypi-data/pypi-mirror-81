@@ -1,0 +1,3 @@
+[console_scripts]
+k3project-generator = k3project_generator.main.generate_project:main
+

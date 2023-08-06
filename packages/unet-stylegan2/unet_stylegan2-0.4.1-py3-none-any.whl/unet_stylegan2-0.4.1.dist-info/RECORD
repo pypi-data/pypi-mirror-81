@@ -1,0 +1,8 @@
+unet_stylegan2/__init__.py,sha256=t6zOhabsg7xdpXsp2Fnf6sBbq-GMjQokDTY-7UTFgd0,74
+unet_stylegan2/unet_stylegan2.py,sha256=bt9vgnCNp3t9gYtW0fjSkSjAq8wzktnXObFarZ47MMA,37176
+unet_stylegan2-0.4.1.data/scripts/unet_stylegan2,sha256=FSCb4VUeYVwK9rhLcNTklLSq4BI7ojvQBLt0JBWlMjc,2471
+unet_stylegan2-0.4.1.dist-info/LICENSE,sha256=As9u198X-U-vph5noInuUfqsAG2zX_oXPHDmdjwlPPY,1066
+unet_stylegan2-0.4.1.dist-info/METADATA,sha256=6qV_j-PMk57xCobSmnAC0qvo7ShTsJMhBuOuhi66pRs,799
+unet_stylegan2-0.4.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+unet_stylegan2-0.4.1.dist-info/top_level.txt,sha256=Gb6k7mlF6Bz5UU6mZ3eTvd9JkyytHCLSXTjPRjyrnIg,15
+unet_stylegan2-0.4.1.dist-info/RECORD,,

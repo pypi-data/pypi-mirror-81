@@ -1,0 +1,9 @@
+README.md
+setup.py
+pymultigo/__init__.py
+pymultigo/main.py
+pymultigo.egg-info/PKG-INFO
+pymultigo.egg-info/SOURCES.txt
+pymultigo.egg-info/dependency_links.txt
+pymultigo.egg-info/requires.txt
+pymultigo.egg-info/top_level.txt

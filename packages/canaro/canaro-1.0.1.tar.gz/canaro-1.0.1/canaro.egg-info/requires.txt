@@ -1,0 +1,4 @@
+tensorflow
+
+[canaro]
+canaro>=1.0.0

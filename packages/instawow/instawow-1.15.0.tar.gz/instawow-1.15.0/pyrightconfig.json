@@ -1,0 +1,15 @@
+{
+  "include": ["instawow"],
+  "typeshedPath": "./.py-types/typeshed",
+  "stubPath": "./.py-types/stubs",
+  "typeCheckingMode": "strict",
+  "useLibraryCodeForTypes": true,
+  "reportMissingTypeStubs": "information",
+  "reportImportCycles": false,
+  "reportPrivateUsage": "warning",
+  "reportIncompatibleMethodOverride": "warning",
+  "reportUnknownArgumentType": "warning",
+  "reportUnknownMemberType": "warning",
+  "reportCallInDefaultInitializer": false,
+  "reportImplicitStringConcatenation": false
+}

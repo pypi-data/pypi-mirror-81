@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+arcface/ArcFace.py
+arcface/__init__.py
+arcface.egg-info/PKG-INFO
+arcface.egg-info/SOURCES.txt
+arcface.egg-info/dependency_links.txt
+arcface.egg-info/requires.txt
+arcface.egg-info/top_level.txt
+arcface/lib/__init__.py
+arcface/lib/layers.py
+arcface/lib/models.py
+arcface/lib/utils.py

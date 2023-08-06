@@ -1,0 +1,8 @@
+:root {
+    --main-bg: #313151;
+    --hl-bg: #37B8FF;
+    --main-txt: #f8f8f2;
+}
+
+/* minified syntax css */
+.cm-s-pyiron.CodeMirror{background:var(--main-bg);color:var(--main-txt)}.cm-s-pyiron div.CodeMirror-selected{background:rgba(0,0,0,0.2)}.cm-s-pyiron .CodeMirror-line::selection,.cm-s-pyiron .CodeMirror-line>span::selection,.cm-s-pyiron .CodeMirror-line>span>span::selection{background:rgba(0,0,0,.2)}.cm-s-pyiron .CodeMirror-line::-moz-selection,.cm-s-pyiron .CodeMirror-line>span::-moz-selection,.cm-s-pyiron .CodeMirror-line>span>span::-moz-selection{background:rgba(0,0,0,.2)}.cm-s-pyiron .CodeMirror-gutters{background:#272822;border-right:0}.cm-s-pyiron .CodeMirror-guttermarker{color:white}.cm-s-pyiron .CodeMirror-guttermarker-subtle{color:#d0d0d0}.cm-s-pyiron .CodeMirror-linenumber{color:#d0d0d0}.cm-s-pyiron .CodeMirror-cursor{border-left:1px solid #f8f8f0}.cm-s-pyiron span.cm-comment{color:var(--hl-bg)}.cm-s-pyiron span.cm-atom{color:#ae81ff}.cm-s-pyiron span.cm-number{color:#ae81ff}.cm-s-pyiron span.cm-property,.cm-s-pyiron span.cm-attribute{color:#ffd900}.cm-s-pyiron span.cm-keyword{color:#ff73a6}.cm-s-pyiron span.cm-string{color:#e6db74}.cm-s-pyiron span.cm-variable{color:#f8f8f2}.cm-s-pyiron span.cm-variable-2{color:#9effff}.cm-s-pyiron span.cm-variable-3{color:#66d9ef}.cm-s-pyiron span.cm-def{color:#fd971f}.cm-s-pyiron span.cm-bracket{color:#f8f8f2}.cm-s-pyiron span.cm-tag{color:#f92672}.cm-s-pyiron span.cm-header{color:#ae81ff}.cm-s-pyiron span.cm-link{color:#ae81ff}.cm-s-pyiron span.cm-error{background:#f92672;color:#f8f8f0}.cm-s-pyiron .CodeMirror-activeline-background{background:#373831}.cm-s-pyiron .CodeMirror-matchingbracket{text-decoration:underline;color:white !important}

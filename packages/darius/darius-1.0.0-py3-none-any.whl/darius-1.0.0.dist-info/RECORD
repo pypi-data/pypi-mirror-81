@@ -1,0 +1,17 @@
+darius/__init__.py,sha256=rlHpp5Tu7TplUH9d6fZWo9eAL_aEiFVW3Oo0u4iGMoI,81
+darius/Parsing/__init__.py,sha256=5GaL_OY064ubPersVileDDQemraUPJlNe9vf6v4Uijo,62
+darius/Parsing/http.py,sha256=2knkMMlxtkhjswB4XH4L5XeBRWhQi6PyopccfsR9K8E,5872
+darius/Parsing/websocket.py,sha256=O-0pFtn9gYeGNCRlNWe91x5KtKiNfZHd71pB_ANDBfs,3088
+darius/client_side/__init__.py,sha256=1J4K_rnW4-He1jnhbVu3nGytuR3zfOv8IoiadfZ2NcI,110
+darius/client_side/c_types.py,sha256=LC-TQNFWRYATEMgwgqh5gKRo5iiJWcvM6Tu5GodW6uo,15025
+darius/client_side/cscript.py,sha256=CPrkhZiZNsKI8Xc2HHYA1uB6mNyau5ZgDtX4YnWuWQU,1739
+darius/client_side/status.py,sha256=1amcYrPbUmZoPcyJzdD-jmFkTNe3Qs3NCtuh_ktiRwM,19984
+darius/server/__init__.py,sha256=THh4LcYkTLRZ31y-juT3piQqBjXmGpfFtpxQ_wB8fhc,74
+darius/server/cache.py,sha256=_5oa2as1RsP-cYx7mMHOoDQRDtZYaxY5qi8URLWKKyQ,3665
+darius/server/routes.py,sha256=vk1urYrVv3oMHnpHj6L11fwk_lomUpMVfDeottYLG5Q,3738
+darius/server/server.py,sha256=Go_aTMu8BtRE08MrZZfd6SRQdj0nqY9hofg9EOx-xwg,20293
+darius-1.0.0.dist-info/LICENCE,sha256=xSGCCwqvH5ySE5L3ADztA285bFsUgIcz2nfypaMBVXM,1101
+darius-1.0.0.dist-info/METADATA,sha256=cF4A2Vf0_MVfjW1cGmmOId_y5mXVD0jjTgFXSTye-ew,2228
+darius-1.0.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+darius-1.0.0.dist-info/top_level.txt,sha256=skKAyMt8u4PTu6gLvys4hZldPSAbOComtc4QAkDOAG8,7
+darius-1.0.0.dist-info/RECORD,,

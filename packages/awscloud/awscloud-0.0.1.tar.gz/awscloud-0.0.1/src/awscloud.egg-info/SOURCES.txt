@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/awscloud.py
+src/awscloud.egg-info/PKG-INFO
+src/awscloud.egg-info/SOURCES.txt
+src/awscloud.egg-info/dependency_links.txt
+src/awscloud.egg-info/requires.txt
+src/awscloud.egg-info/top_level.txt

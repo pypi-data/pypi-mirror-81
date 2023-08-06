@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+bits/__init__.py
+bits/sendgrid/__init__.py
+bits_sendgrid.egg-info/PKG-INFO
+bits_sendgrid.egg-info/SOURCES.txt
+bits_sendgrid.egg-info/dependency_links.txt
+bits_sendgrid.egg-info/not-zip-safe
+bits_sendgrid.egg-info/requires.txt
+bits_sendgrid.egg-info/top_level.txt

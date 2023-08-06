@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+r_functions.py
+setup.py
+r_functions.egg-info/PKG-INFO
+r_functions.egg-info/SOURCES.txt
+r_functions.egg-info/dependency_links.txt
+r_functions.egg-info/top_level.txt
+r_functions.egg-info/zip-safe
+test/test.R
+test/test_r.py
+test/test_r_async.py

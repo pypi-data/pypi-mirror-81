@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cloudshell-f5
+Version: 1.1.1
+Summary: UNKNOWN
+Home-page: https://github.com/QualiSystems/cloudshell-f5
+Author: Quali
+Author-email: info@quali.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: cloudshell-networking-devices (<2.9,>=2.8)
+Requires-Dist: cloudshell-cli (<3.4,>=3.3)
+Requires-Dist: cloudshell-snmp (<3.4,>=3.3)
+
+UNKNOWN
+
+

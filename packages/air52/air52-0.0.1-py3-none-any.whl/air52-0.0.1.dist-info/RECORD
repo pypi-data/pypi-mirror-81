@@ -1,0 +1,9 @@
+air/__init__.py,sha256=Bj9d8X68phvv4fUDm_MuM8oBShSSsxOyAOcuxqEoQqk,60
+air/io.py,sha256=gWTCx9WFUFCqJQLpmVDeErJw8bglgcRcT7g3TtWMK3Q,3300
+air/types.py,sha256=wJyStchZrcqDvY2kn26C-DDtL9rm4BAP3EoVuuEXKbg,994
+air/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+air/tests/test_io.py,sha256=ldEcs4SuuLQq76SgzTAR6YpPNPn0J1weMmCjG0YScnY,607
+air52-0.0.1.dist-info/LICENSE,sha256=7hCF3E1hsK9NGo4ZavBD6CIYQcPelpI2cZpQuTEMriw,1063
+air52-0.0.1.dist-info/WHEEL,sha256=CqyTrkghQBNsEzLD3HbCSEIJ_fY58-XpoU29dUzwHSk,81
+air52-0.0.1.dist-info/METADATA,sha256=42If2yuI8Bfbsb1EshkFSqXz4yab4ZBXryWQ4hiJLGo,436
+air52-0.0.1.dist-info/RECORD,,

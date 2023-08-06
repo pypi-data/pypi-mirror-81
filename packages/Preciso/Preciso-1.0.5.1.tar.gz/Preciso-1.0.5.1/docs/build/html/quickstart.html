@@ -1,0 +1,460 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Getting started &mdash; PreciSo  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/style.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Tutorial" href="tutorial.html" />
+    <link rel="prev" title="About" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1.2
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Documentation contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Getting started</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#contents-of-this-guide">Contents of this guide</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#overview">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-use-preciso-online-no-installation">How to use PreciSo online (no installation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#installation-local-user">Installation (local user)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#install-with-anaconda-all-os">Install with Anaconda (all OS)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#installing-preciso-for-developers">Installing PreciSo for developers</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#on-linux-macos-using-miniconda">On Linux/MacOS, using Miniconda</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#manual-installation-on-linux-mac-os">Manual installation on Linux/Mac OS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#on-windows-using-anaconda">On Windows (using Anaconda)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial.html">Tutorial</a></li>
+<li class="toctree-l1"><a class="reference internal" href="preciso.html">Python API</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">PreciSo</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Getting started</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/quickstart.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="getting-started">
+<h1>Getting started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="contents-of-this-guide">
+<h2>Contents of this guide<a class="headerlink" href="#contents-of-this-guide" title="Permalink to this headline">¶</a></h2>
+<p>In this page, you will learn more about :</p>
+<ul class="simple">
+<li><p>What PreciSo does, how it works ?</p></li>
+<li><p>How to use it without installing it on your computer (online user)</p></li>
+<li><p>How to use it in your projects (local user)</p></li>
+<li><p>How to modify or extend its capabilities (i.e. for developers)</p></li>
+</ul>
+</div>
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<p>Preciso is a Python wrapper to the initial C++ project. It is designed to be <strong>lightweight</strong> and <strong>convenient</strong>, for both new and more experienced users.</p>
+<p>Below is an example use case for PreciSo :</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">preciso</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="kn">as</span> <span class="nn">plt</span>
+
+<span class="c1"># a configuration file specific to your material</span>
+<span class="n">config_filename</span> <span class="o">=</span> <span class="s2">&quot;path/to/configuration_file.txt&quot;</span>
+
+<span class="c1"># communication with PreciSo&#39;s C++ engine is transparent :</span>
+<span class="n">results</span> <span class="o">=</span> <span class="n">preciso</span><span class="o">.</span><span class="n">runSimulation</span><span class="p">(</span><span class="n">config_filename</span><span class="p">)</span>
+
+<span class="c1"># results are available in the form of pandas DataFrames</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">results</span><span class="o">.</span><span class="n">precipitation</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">loglog</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;t[s]&quot;</span><span class="p">],</span>
+           <span class="n">df</span><span class="p">[</span><span class="s2">&quot;rmean_beta&#39;[m]&quot;</span><span class="p">],</span>
+           <span class="n">label</span><span class="o">=</span><span class="s2">&quot;$R_{mean} (m)$&quot;</span><span class="p">)</span>
+<span class="c1"># *A beautiful figure appears*</span>
+</pre></div>
+</div>
+<p>With its <strong>concise</strong> <strong>high-level</strong> syntax, the Python wrapper allows to <strong>focus on physics</strong> (the parameters, the configuration file) instead of coding.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>PreciSo is available as a <em>Python package</em>. To use it, you will need <strong>Python 3</strong>, and a few other packages PreciSo is built on.
+If you have never heard of Python before, and don’t need to add new features PreciSo, the online version will be the best option.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you have any issue installing PreciSo, or if this documentation is somehow inaccurate, feel free to submit a ticket to the project’s <a class="reference external" href="https://framagit.org/arnall/preciso/issues">Gitlab issue tracker</a>.</p>
+</div>
+</div>
+<div class="section" id="how-to-use-preciso-online-no-installation">
+<h2>How to use PreciSo online (no installation)<a class="headerlink" href="#how-to-use-preciso-online-no-installation" title="Permalink to this headline">¶</a></h2>
+<p>To use PreciSo online, we recommended using Google Colab, Repl.it, CodeOcean, MyBinder, or any equivalent. Below is a step-by-step guide to using Google Colab.</p>
+<p><em>Guide to use Colab</em></p>
+<p>For other platforms, all you need is to find how to <a class="reference external" href="https://docs.repl.it/repls/packages">install custom python packages</a> from the PyPi repo. From a <a class="reference external" href="https://repl.it/">Repl</a>, it’s as simple as clicking the “Packages” button, typing “Preciso” and clicking “add”.
+The difference between Repl and Colab is that Repls are basically code snippets, whilst Colab is an interactive platform, and is much better at results visualization.</p>
+</div>
+<div class="section" id="installation-local-user">
+<h2>Installation (local user)<a class="headerlink" href="#installation-local-user" title="Permalink to this headline">¶</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>PreciSo supports Python 3 only. The current recommended version is 3.7.</p>
+</div>
+<p>In order to run PreciSo on your computer, you will need to :</p>
+<ul class="simple">
+<li><p>Get Python</p></li>
+<li><p>Install the PreciSo package.</p></li>
+</ul>
+<p>For experienced users who have Python installed, installing PreciSo is as simple as <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">preciso</span></code>. <strong>If you are not sure if you already have Python or how to install PreciSo, continue reading.</strong></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p><strong>Installing Python</strong> the first time can be <strong>tedious</strong>, especially on Windows, and take a lot of disk space. If you only need very occasional use of PreciSo, you may want to use PreciSo online (see above).</p>
+</div>
+<p>The main barrier in installing Python is the possible existance of multiple instances of Python on your machine.
+If you already have one Python executable (possibly installed by another software) and install another one, it is likely that PreciSo will not be installed in the correct location, and it won’t work.</p>
+<p>To avoid that, the recommended way is to use <strong>virtual environments</strong>. If you never used Python before, you can do it easily by installing Anaconda as described below.</p>
+<p>Advanced users may prefer using miniconda (lightweight version of Anaconda), virtualenv or pipenv to create an environment in which they will install PreciSo and its dependencies. The step-by-step procedure is described in the <strong>Installing PreciSo for developers</strong> section below.</p>
+<div class="section" id="install-with-anaconda-all-os">
+<h3>Install with Anaconda (all OS)<a class="headerlink" href="#install-with-anaconda-all-os" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Install a full Anaconda distribution, following the <a class="reference external" href="https://docs.anaconda.com/anaconda/install/">official documentation</a>.</p></li>
+<li><p>Open Anaconda, and launch Jupyter.</p></li>
+<li><p>Go to the directory of your choice, and create a new Python3 notebook.</p></li>
+<li><p>In the top cell, type <code class="docutils literal notranslate"><span class="pre">!</span> <span class="pre">pip</span> <span class="pre">install</span> <span class="pre">preciso</span></code>. Run the cell (Shift+Enter), and wait for the installation to finish.</p></li>
+<li><p>In a new cell, type <code class="docutils literal notranslate"><span class="pre">import</span> <span class="pre">preciso</span></code>. This command should not fail.</p></li>
+<li><p>Then, type <code class="docutils literal notranslate"><span class="pre">preciso.runSimulation(&quot;</span> <span class="pre">&quot;,</span> <span class="pre">debug=True)</span></code>. The output should report an error, and contain “Welcome to PreciSo v3.0”. This means the C++ engine of PreciSo was correctly started, and the installation was fully successful. If you don’t get this output, feel free to contact us for help.</p></li>
+</ol>
+</div>
+</div>
+<div class="section" id="installing-preciso-for-developers">
+<h2>Installing PreciSo for developers<a class="headerlink" href="#installing-preciso-for-developers" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="on-linux-macos-using-miniconda">
+<h3>On Linux/MacOS, using Miniconda<a class="headerlink" href="#on-linux-macos-using-miniconda" title="Permalink to this headline">¶</a></h3>
+<p>Miniconda is a distribution that includes <code class="docutils literal notranslate"><span class="pre">conda</span></code>, the package manager that will help you make a clean install of Python and PreciSo on any platform, with no root permissions. The famous Anaconda distribution is similar to Miniconda, but it includes a huge number of additional packages you don’t need for using PreciSo.</p>
+<ol class="arabic simple">
+<li><p>To get Python and Miniconda, follow the <strong>instructions</strong> from the official documentation of <a class="reference external" href="https://docs.conda.io/en/latest/miniconda.html">Miniconda</a> <strong>and</strong> <a class="reference external" href="https://conda.io/projects/conda/en/latest/user-guide/install/index.html">conda</a>.</p></li>
+</ol>
+<p>On MacOS and Linux, it should be :</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -O ~/miniconda.sh
+bash ~/miniconda.sh -b -p <span class="nv">$HOME</span>/miniconda
+</pre></div>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>Once conda is installed, create an environment that lists all Preciso’s dependencies. For that, we’ll use a file to specify the packages we want to install, that contains :</p></li>
+</ol>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">name</span><span class="p">:</span> <span class="n">python</span><span class="o">-</span><span class="n">preciso</span>
+<span class="n">channels</span><span class="p">:</span>
+  <span class="o">-</span> <span class="n">anaconda</span>
+<span class="n">dependencies</span><span class="p">:</span>
+  <span class="o">-</span> <span class="n">python</span><span class="o">=</span><span class="mf">3.7</span>
+  <span class="o">-</span> <span class="n">numpy</span>
+  <span class="o">-</span> <span class="n">pandas</span>
+  <span class="o">-</span> <span class="n">matplotlib</span>
+  <span class="o">-</span> <span class="n">scipy</span>
+  <span class="o">-</span> <span class="n">jinja2</span>
+  <span class="o">-</span> <span class="n">git</span>
+  <span class="o">-</span> <span class="n">jupyter</span>
+  <span class="o">-</span> <span class="n">seaborn</span>
+</pre></div>
+</div>
+<p>This file can be <strong>downloaded</strong> <a class="reference external" href="https://framagit.org/arnall/preciso/raw/master/environment.yml?inline=false">here</a>.</p>
+<ol class="arabic simple" start="3">
+<li><p>Then, run one line at a time :</p></li>
+</ol>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span># the first time you use conda
+
+# On macOS / Linux :
+$HOME/miniconda/bin/conda init
+
+# If conda is not found, you&#39;ll have to Google for a solution for your specific case/platform, or ask for help
+
+# create an environment from the file you downloaded
+conda env create -f environment.yml
+
+# activate the environment everytime you want to use it.
+# On Linux/MacOS can set an alias in your ~.bashrc or ~.bash_profile file for this one.
+conda activate python-preciso
+
+# Download the last version of Preciso
+git clone https://framagit.org/arnall/preciso.git
+
+# Install preciso in developer mode (-e)
+cd preciso
+pip install -e .
+</pre></div>
+</div>
+<ol class="arabic simple" start="4">
+<li><p>Check that the installation was successful. The following command should issue no error when ran in a <strong>new</strong> terminal.</p></li>
+</ol>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">python3</span> <span class="o">-</span><span class="n">c</span> <span class="s1">&#39;import preciso; print(&quot;Preciso was successfully installed !&quot;)&#39;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="manual-installation-on-linux-mac-os">
+<h3>Manual installation on Linux/Mac OS<a class="headerlink" href="#manual-installation-on-linux-mac-os" title="Permalink to this headline">¶</a></h3>
+<p>If you already have a full Python installed and ready-to-go, and have git, you can follow these instructions.</p>
+<p>Downlaod PreciSo package:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">framagit</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">arnall</span><span class="o">/</span><span class="n">preciso</span><span class="o">.</span><span class="n">git</span> <span class="n">preciso</span>
+</pre></div>
+</div>
+<p>Upgrade pip:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">python3</span> <span class="o">-</span><span class="n">m</span> <span class="n">pip</span> <span class="n">install</span> <span class="o">--</span><span class="n">user</span> <span class="o">--</span><span class="n">upgrade</span> <span class="n">pip</span>
+</pre></div>
+</div>
+<p>In Jupyter, open a new terminal and enter the preciso folder:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="n">preciso</span>
+</pre></div>
+</div>
+<p>Install preciso package:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">e</span> <span class="o">.</span>
+</pre></div>
+</div>
+<p>Check all requirements:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">r</span> <span class="n">requirements</span><span class="o">.</span><span class="n">txt</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="on-windows-using-anaconda">
+<h3>On Windows (using Anaconda)<a class="headerlink" href="#on-windows-using-anaconda" title="Permalink to this headline">¶</a></h3>
+<p>To install Python requirements :</p>
+<ol class="arabic simple">
+<li><p>Install a full Anaconda distribution, following its official documentation.</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Alternatively, you can install miniconda by downloading the installer <a class="reference external" href="https://conda.io/miniconda.html">here</a>. Then from a terminal, do :</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>start /wait <span class="s2">&quot;&quot;</span> Miniconda3-latest-Windows-x86_64.exe /InstallationType<span class="o">=</span>JustMe /RegisterPython<span class="o">=</span><span class="m">0</span> /S /D<span class="o">=</span>%UserProfile%<span class="se">\m</span>iniconda
+</pre></div>
+</div>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>Download the <a class="reference external" href="https://framagit.org/arnall/preciso/raw/master/environment.yml?inline=false">environment file</a>.</p></li>
+<li><p>From Anaconda, <a class="reference external" href="https://docs.anaconda.com/anaconda/navigator/tutorials/manage-environments/#importing-an-environment">import an environment</a> and <strong>activate it</strong>.</p></li>
+</ol>
+<p><strong>For the installation of Preciso :</strong></p>
+<ol class="arabic simple" start="4">
+<li><p>Open an Anaconda prompt, Jupyter terminal or jupyter notebook. Make sure you access your python-preciso environment by typing <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">env</span> <span class="pre">list</span></code>. It should display something like :</p></li>
+</ol>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># conda environments:</span>
+<span class="c1">#</span>
+base                      /home/aallera/miniconda
+python-preciso         *  /home/aallera/miniconda/envs/python-preciso
+</pre></div>
+</div>
+<p>Check the position of the <code class="docutils literal notranslate"><span class="pre">*</span></code> character, which means that <code class="docutils literal notranslate"><span class="pre">python-preciso</span></code> is the activated environment.</p>
+<ol class="arabic simple" start="5">
+<li><p>Create a folder and extract the archive found <a class="reference external" href="https://framagit.org/arnall/preciso/-/archive/master/preciso-master.zip">here</a> (you’ll have to manually fetch new versions to get updates and bug fixes !)</p></li>
+</ol>
+<p>or</p>
+<ol class="arabic" start="5">
+<li><p>Get preciso source code with</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">framagit</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">arnall</span><span class="o">/</span><span class="n">preciso</span><span class="o">.</span><span class="n">git</span>
+</pre></div>
+</div>
+</li>
+</ol>
+<p>It will create a “preciso” folder in the current directory, that will contain the last version of the code.
+Updates can be done from this “preciso” directory with <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">pull</span></code>.</p>
+<ol class="arabic" start="6">
+<li><p>Go to the folder that contains preciso’s <code class="docutils literal notranslate"><span class="pre">setup.py</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="n">preciso</span>
+</pre></div>
+</div>
+</li>
+</ol>
+<p>Then install preciso with pip (if error, try <code class="docutils literal notranslate"><span class="pre">pip3</span></code> instead):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">e</span> <span class="o">.</span>
+</pre></div>
+</div>
+<p>If executed from a Jupyter notebook, do instead</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>!pip install -e .
+</pre></div>
+</div>
+<p>Relaunch Jupiter Notebook and check that preciso is importable from anywhere:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">preciso</span><span class="p">;</span> <span class="n">preciso</span><span class="o">.</span><span class="n">runSimulation</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="n">temp</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="tutorial.html" class="btn btn-neutral float-right" title="Tutorial" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="About" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Michel Perez, Thibaut Chaise, Arnaud Allera
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

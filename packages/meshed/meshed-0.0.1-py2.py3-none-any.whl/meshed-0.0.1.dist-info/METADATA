@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: meshed
+Version: 0.0.1
+Summary: Tools that enable operations on graphs where grapsh are represented by an adjacency Mapping.
+Home-page: https://github.com/i2mint/meshed
+License: UNKNOWN
+Author: OtoSense
+Classifier: License :: OSI Approved :: MIT License

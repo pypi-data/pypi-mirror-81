@@ -1,0 +1,10 @@
+aiohttp>=3.6.0
+
+[dev]
+flake8~=3.8
+black==19.10b0
+pre-commit~=2.6.0
+pytest>=3.6.3
+pytest-cov
+pytest-asyncio
+tox

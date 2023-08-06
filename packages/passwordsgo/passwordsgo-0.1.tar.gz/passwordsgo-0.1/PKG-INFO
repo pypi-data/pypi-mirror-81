@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: passwordsgo
+Version: 0.1
+Summary: store passwords safely with ease.
+Home-page: https://github.com/anish-m-code/PyPass
+Author: Anish M
+Author-email: aneesh25861@gmail.com
+License: GPLv3
+Download-URL: https://github.com/Anish-M-code/PyPass/archive/v3.02.tar.gz
+Description: A simple Experimental Password Management tool done as student Project.
+Keywords: Student Project,cryptography,Password Manager
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6

@@ -1,0 +1,10 @@
+csvmedkit/__init__.py,sha256=T3GhaYJYvrfuPIWiEXjqSadEdaPHSeoIpYwiEZdxQy0,128
+csvmedkit/cli.py,sha256=BUuhdn4JyXSRy4VDbUSooxG3W4__s9MqWayU1xnKbng,442
+csvmedkit/csvmedkit.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+csvmedkit-0.0.0.1.dist-info/AUTHORS.rst,sha256=qL0toQiAwA25UokNuF4ILuN-LUoM1h22EbTllPGWgqk,157
+csvmedkit-0.0.0.1.dist-info/LICENSE,sha256=AZi1TRpmUB3jr92G3FYced5N9K1UAM8kquVsrixbL_Y,1069
+csvmedkit-0.0.0.1.dist-info/METADATA,sha256=PvXoUCH-7xbkhAaUcNHRz5yH9I_TlTD6yoWdNjOOB0M,1702
+csvmedkit-0.0.0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+csvmedkit-0.0.0.1.dist-info/entry_points.txt,sha256=GGX-CZYljBZNfG-2aarpU2Rwzi7VxJFvVB1hMsKeEzU,50
+csvmedkit-0.0.0.1.dist-info/top_level.txt,sha256=gIqoFF4ogfPUqYin29RQ9qY_ubMLpG7DPz4Ct2Q-Cj8,10
+csvmedkit-0.0.0.1.dist-info/RECORD,,

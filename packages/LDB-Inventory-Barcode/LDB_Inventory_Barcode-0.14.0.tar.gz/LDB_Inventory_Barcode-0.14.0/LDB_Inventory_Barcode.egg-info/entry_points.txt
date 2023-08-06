@@ -1,0 +1,3 @@
+[console_scripts]
+python-barcode = ldb.inventory.barcode.pybarcode:main
+

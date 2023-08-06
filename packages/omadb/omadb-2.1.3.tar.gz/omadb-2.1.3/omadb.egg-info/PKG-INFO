@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: omadb
+Version: 2.1.3
+Summary: Client to the OMA browser, using the REST API.
+Home-page: https://github.com/DessimozLab/pyomadb
+Author: Alex Warwick Vesztrocy
+Author-email: alex@warwickvesztrocy.co.uk
+License: LGPLv3
+Description: Client to the OMA browser, using the REST API.
+         Documentation available `here <https://dessimozlab.github.io/pyomadb/build/html/>`_.
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Provides-Extra: dendropy
+Provides-Extra: ete3
+Provides-Extra: goea
+Provides-Extra: hog_analysis

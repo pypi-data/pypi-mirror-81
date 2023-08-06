@@ -1,0 +1,10 @@
+mecabwrap/__init__.py,sha256=OciNI9rcxP_9-dUxIuGH38Wgkef2UG94xAtUh6mmFEY,140
+mecabwrap/api.py,sha256=_STKiQpsPL0In9X53Yj4df7wptTc_zQr8S9MAHe4KGo,3991
+mecabwrap/config.py,sha256=M4SRgK73v7CC-kd5RPM3lQz3sGj9zFKvEVsaSrT_Kqw,436
+mecabwrap/domecab.py,sha256=8E5K-yYrzY8T9jsdj6mteFdNuuLED52fmjTebkx9dBs,10836
+mecabwrap/utils.py,sha256=2ntxC4qiPewejFKSgsKdcQytpyVCI7vj48U0-dV9vAo,6411
+mecabwrap-0.3.0.dist-info/LICENSE.txt,sha256=gBKuM0_gHAPgXiVvkzUer3VQK98M7stNNwdaCucuP5g,1071
+mecabwrap-0.3.0.dist-info/METADATA,sha256=f5Q9DLXb2J5COEgQB3HaGvTeXXH_MTypC151k58SxWA,770
+mecabwrap-0.3.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+mecabwrap-0.3.0.dist-info/top_level.txt,sha256=lE8oHitoyDfY9NyOh-Kcfac-UQC2Nwk11xLDdSDkAFg,10
+mecabwrap-0.3.0.dist-info/RECORD,,

@@ -1,0 +1,15 @@
+formulator/__init__.py,sha256=osMaA6WI6mCxuZbUSRWcMFbrwFTP1zmdiXZyhLckJ9I,419
+formulator/__main__.py,sha256=IrQhiCXR5h7nnpU0EUaWEF3HnH4TAJpernjsRcUodUk,694
+formulator/conf.py,sha256=qzKyBW6NFMs_bKWnWqgeYAUO4SGg_z0C1K6aNhVjxOs,110
+formulator/enforcer.py,sha256=YG8m1VjAYROhp09zL9FGmhSbVm49uvca9oEEeHr4i5c,2125
+formulator/ferry.py,sha256=Lx4wiobulynyJpSKFyql2kkg-vguO8PUmmPEElLRuEI,451
+formulator/meta.py,sha256=J1SKx_rXjJSGQAOWTZPWo_wTIDul1_CYljEuovmWFyA,1247
+formulator/nodes.py,sha256=D4OH8x1f5i23gArXLgcPlf0o8TM05saa6r5kvLudkeI,479
+formulator/terrors.py,sha256=hLPGmumyMutF7E-IsLci-jtB2zvPGCRMIOI2cvq09ZA,457
+formulator/validation.py,sha256=lgCjQCoK9CuyzL_0eG4OQX4jTSVHZZV-CXdKdV5hP4E,3919
+formulator-0.1.0.dist-info/DESCRIPTION.rst,sha256=CAaWaK75FP0DUt82bOV6VUMprcnnpSlxhBUmOAs4qS4,72
+formulator-0.1.0.dist-info/METADATA,sha256=eKVgjlaln2PomQVyvZ280_yvBsanuuwbWo3A8DeRP8s,476
+formulator-0.1.0.dist-info/RECORD,,
+formulator-0.1.0.dist-info/WHEEL,sha256=Vlaj2XNMTTJ893zWX-JvKeZUIs7q5E7d7Gise2Vouzc,97
+formulator-0.1.0.dist-info/metadata.json,sha256=I-_pc9Gl4KciT8TaAwej3at1aDWHL-LeNVRTAA8e-Ho,568
+formulator-0.1.0.dist-info/top_level.txt,sha256=BktoqvwrEKnjWwhS76_sZxfh6lRZl327pILMVQLZV-c,11

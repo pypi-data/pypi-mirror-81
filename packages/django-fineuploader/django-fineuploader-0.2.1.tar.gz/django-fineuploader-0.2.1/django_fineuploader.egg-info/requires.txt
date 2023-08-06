@@ -1,0 +1,4 @@
+django-appconf
+django-positions
+django-attachments
+pathlib

@@ -1,0 +1,11 @@
+[aiida.calculations]
+phonopy.phonopy = aiida_phonopy.calcs.phonopy:PhonopyCalculation
+
+[aiida.parsers]
+phonopy = aiida_phonopy.parsers.phonopy:PhonopyParser
+
+[aiida.workflows]
+phonopy.iter_ha = aiida_phonopy.workflows.iter_ha:IterHarmonicApprox
+phonopy.phono3py = aiida_phonopy.workflows.phono3py:Phono3pyWorkChain
+phonopy.phonopy = aiida_phonopy.workflows.phonopy:PhonopyWorkChain
+

@@ -1,0 +1,11 @@
+kpireport_prometheus/__init__.py,sha256=Dbxq1MeJtuCtZ_xFoMxzOUm7tvy2Tg41VOxnWP_aZgo,157
+kpireport_prometheus/alert_summary.py,sha256=1_0WbF_uiNZ6seO1mK2KpwpdsA1Kk-Wh44qLUo04gnA,6823
+kpireport_prometheus/datasource.py,sha256=fHIdgGDpjDqzrnmXYu_h2R3ffdadH8Fn0h7M-kDpiA0,3405
+kpireport_prometheus/templates/prometheus_alert_summary.html,sha256=px7EQDjrao6e73tqDEeeXIz31efzgw7c0N12sUeF4Lg,1341
+kpireport_prometheus/templates/prometheus_alert_summary.md,sha256=We-dGaOFAfZKrp2cAz7_Ortb8aQN4iJrZag84uFOWTY,147
+kpireport_prometheus/templates/prometheus_alert_summary.slack,sha256=lA62cE6Ow_rSgCiNhDsTnSQJtrEpMrMqTZlwSU0tZdA,146
+kpireport_prometheus-0.0.1.dist-info/METADATA,sha256=MEPROGhPxP_5noNt0p_174DtSDOMkr_bhZSsQ-nGyLw,271
+kpireport_prometheus-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+kpireport_prometheus-0.0.1.dist-info/entry_points.txt,sha256=6zSqtUeiJXFJhEUFi05ZPJ2r273r1n0GY-19cZwWfk4,168
+kpireport_prometheus-0.0.1.dist-info/top_level.txt,sha256=7ICZozBP4I42d0SxuFMO1oY7gGM3iHud8IX7KY_IuJI,21
+kpireport_prometheus-0.0.1.dist-info/RECORD,,

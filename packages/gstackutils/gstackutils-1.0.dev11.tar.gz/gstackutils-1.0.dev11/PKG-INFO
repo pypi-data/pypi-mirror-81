@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: gstackutils
+Version: 1.0.dev11
+Summary: gstack - Docker Utilities
+Home-page: https://github.com/galaktika-solutions/gstackutils
+Author: Richard Bann
+Author-email: richardbann@gmail.com
+License: MIT
+Description: 
+        # gstackutils
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 1 - Planning
+Description-Content-Type: text/markdown
+Provides-Extra: dev

@@ -1,0 +1,16 @@
+affine
+cfgrib
+eccodes
+geopandas
+h5py
+netcdf4
+numpy
+pandas
+pydap
+python-dateutil
+rasterio
+xarray
+
+[pygrib]
+pyproj
+pygrib

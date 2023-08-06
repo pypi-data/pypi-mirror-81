@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: picsellia_training
+Version: 0.0.1
+Summary: Python SDK raining module for Picsell.ia
+Home-page: https://github.com/pypa/sampleproject
+Author: Pierre-Nicolas Tiffreau CTO @ Picsell.ia
+Author-email: pierre-nicolas@picsellia.com
+License: UNKNOWN
+Description: # sdkV2
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

@@ -1,0 +1,6 @@
+README.md
+setup.py
+picsellia_training.egg-info/PKG-INFO
+picsellia_training.egg-info/SOURCES.txt
+picsellia_training.egg-info/dependency_links.txt
+picsellia_training.egg-info/top_level.txt

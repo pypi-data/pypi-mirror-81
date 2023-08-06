@@ -1,0 +1,11 @@
+py1password/__init__.py,sha256=ClEHw_J1wxSUn8yjb60yrbDulD6EqxeLNl-gsAG4ee8,119
+py1password/_version.py,sha256=XJdPFV7n9Mst97tSY5kr5CYKwa6Vt7G_RrEDmBjtQjc,495
+py1password/command_line.py,sha256=jU6qkiX-pLyqhJyUXLbIaBYIpk2zFj8Wu87livLxk30,3520
+py1password/op.py,sha256=fjkGAwu6-jVFL06TNRMrCDemjJlaG8QCZe_18at6GVU,4134
+py1password/opssh.py,sha256=2XT5EmIohbj2R0TXaoC7hQoh-Tni88bSW3k8D0SuyIM,9714
+py1password-0.1.dist-info/LICENSE,sha256=is3BkW7bko3HI1x85_l29XiR6RD3xpB5KukLs5_ytbg,1071
+py1password-0.1.dist-info/METADATA,sha256=ECV5ssIiZWXDdPhR6NqQqGJm59FtnD9N_bChI7PJOD8,239
+py1password-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+py1password-0.1.dist-info/entry_points.txt,sha256=Q4FYY5hbWcSykBAKT4LVIg93SLMy7iOAZ5Si8jQ1dJA,170
+py1password-0.1.dist-info/top_level.txt,sha256=b6RVpZYDjoneQWdHaHO2kUGbtgB1xZr_UutZq1UWFeQ,12
+py1password-0.1.dist-info/RECORD,,

@@ -1,0 +1,5 @@
+[console_scripts]
+op-askpass = py1password.command_line:askpass
+op-getkey = py1password.command_line:download_key
+op-unlock = py1password.command_line:add_keys_to_agent
+

@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: tracktoberfest
+Version: 0.1.0
+Summary: Hacktoberfest participation tracker
+Home-page: https://github.com/godaddy/tracktoberfest/
+License: MIT
+Keywords: hacktoberfest
+Author: Joey Wilhelm
+Author-email: tarkatronic@gmail.com
+Maintainer: Joey Wilhelm
+Maintainer-email: tarkatronic@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Typing :: Typed
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: colorama (>=0.4.3,<0.5.0)
+Requires-Dist: httpx (>=0.15.5,<0.16.0)
+Requires-Dist: iso8601 (>=0.1.13,<0.2.0)
+Project-URL: Repository, https://github.com/godaddy/tracktoberfest/
+Description-Content-Type: text/markdown
+
+# tracktoberfest
+
+Retrieve Hacktoberfest contributions for a list of GitHub usernames.
+
+Their "validity" is calculated based on the rules enumerated in the Digital
+Ocean blog post: <https://hacktoberfest.digitalocean.com/hacktoberfest-update>
+
+Example:
+
+```console
+> tracktoberfest tarkatronic
+Retrieving contributions for tarkatronic...
+tarkatronic
+    Counted! - https://github.com/godaddy/tartufo/pull/111
+    Counted! - https://github.com/godaddy/tartufo/pull/109
+    Counted! - https://github.com/godaddy/tartufo/pull/103
+```
+
+## Installation
+
+```console
+> pip install tracktoberfest
+```
+

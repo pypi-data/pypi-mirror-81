@@ -1,0 +1,12 @@
+README.md
+requirements.txt
+setup.py
+src/ocr4all/__init__.py
+src/ocr4all/colors.py
+src/ocr4all/files.py
+src/ocr4all/optional.py
+src/ocr4all_pylib.egg-info/PKG-INFO
+src/ocr4all_pylib.egg-info/SOURCES.txt
+src/ocr4all_pylib.egg-info/dependency_links.txt
+src/ocr4all_pylib.egg-info/requires.txt
+src/ocr4all_pylib.egg-info/top_level.txt

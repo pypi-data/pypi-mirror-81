@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: collegroup-rh
+Version: 1.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/collegroup/RH
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: MIT
+Download-URL: https://github.com/Jamonek/Robinhood/tarball/v1.0.1
+Keywords: Robinhood trade API
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 2.7
+Requires-Dist: requests (<=2.18.4,>=2.13.0)
+Requires-Dist: six (<=1.11.0,>=1.10.0)
+
+UNKNOWN
+
+

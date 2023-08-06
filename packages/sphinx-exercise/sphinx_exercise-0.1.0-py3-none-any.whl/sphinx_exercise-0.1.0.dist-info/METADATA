@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: sphinx-exercise
+Version: 0.1.0
+Summary: A Sphinx extension for producing exercises and solutions.
+Home-page: https://github.com/executablebooks/sphinx-exercise
+Author: QuantEcon
+Author-email: admin@quantecon.org
+License: BSD
+Download-URL: https://github.com/executablebooks/sphinx-exercise/archive/v0.1.0.tar.gz
+Project-URL: Source, https://github.com/executablebooks/sphinx-exercise
+Project-URL: Tracker, https://github.com/executablebooks/sphinx-exercise/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Sphinx :: Extension
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python
+Classifier: Topic :: Documentation :: Sphinx
+Classifier: Topic :: Documentation
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: docutils (>=0.15)
+Requires-Dist: sphinx
+Requires-Dist: sphinx-book-theme
+Provides-Extra: all
+Requires-Dist: pytest (<4,>=3.6) ; extra == 'all'
+Requires-Dist: flake8 (<3.8.0,>=3.7.0) ; extra == 'all'
+Requires-Dist: beautifulsoup4 ; extra == 'all'
+Requires-Dist: pre-commit (==1.17.0) ; extra == 'all'
+Requires-Dist: sphinx (>=3.0) ; extra == 'all'
+Requires-Dist: pytest-cov ; extra == 'all'
+Requires-Dist: coverage ; extra == 'all'
+Requires-Dist: sphinx-book-theme ; extra == 'all'
+Requires-Dist: black ; extra == 'all'
+Requires-Dist: pytest-regressions ; extra == 'all'
+Requires-Dist: myst-nb ; extra == 'all'
+Provides-Extra: code_style
+Requires-Dist: flake8 (<3.8.0,>=3.7.0) ; extra == 'code_style'
+Requires-Dist: black ; extra == 'code_style'
+Requires-Dist: pre-commit (==1.17.0) ; extra == 'code_style'
+Provides-Extra: rtd
+Requires-Dist: sphinx (>=3.0) ; extra == 'rtd'
+Requires-Dist: sphinx-book-theme ; extra == 'rtd'
+Requires-Dist: myst-nb ; extra == 'rtd'
+Provides-Extra: testing
+Requires-Dist: coverage ; extra == 'testing'
+Requires-Dist: pytest (<4,>=3.6) ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+Requires-Dist: pytest-regressions ; extra == 'testing'
+Requires-Dist: beautifulsoup4 ; extra == 'testing'
+Requires-Dist: myst-nb ; extra == 'testing'
+
+
+This package contains a [Sphinx](http://www.sphinx-doc.org/en/master/) extension
+for producing exercise and solution directives.
+
+This project is maintained and supported by [najuzilu](https://github.com/najuzilu).
+
+

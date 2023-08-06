@@ -1,0 +1,11 @@
+
+[:python_version < "3.8"]
+importlib-metadata>=1.7.0
+
+[dev]
+mypy<1,>=0.782
+flake8<4,>=3.8.3
+pytest<7,>=6.0.1
+
+[test]
+pytest<7,>=6.0.1

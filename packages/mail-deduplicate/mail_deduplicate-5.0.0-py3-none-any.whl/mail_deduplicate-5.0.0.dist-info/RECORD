@@ -1,0 +1,15 @@
+mail_deduplicate/__init__.py,sha256=cKI8_dmrfRf3894dHtItLAi3VGvE_KQWQo4h4YlJJD8,5406
+mail_deduplicate/cli.py,sha256=G4xXXBFtaW-fr-6cKkSKK7GvUso9X6CU7PlpUVz7kWA,9343
+mail_deduplicate/deduplicate.py,sha256=hEyAc_n5g0u2YtvoBfppmKqTVj9wbWMQ286357uLz9A,21516
+mail_deduplicate/mail.py,sha256=NgdxuUGiwIvBm78ZkwpRAqjEhGs8Izt_WqP6zVlnenM,11490
+mail_deduplicate/mailbox.py,sha256=Dz6sFCZDiKJhWsW8hwtE_Bz7BaA66sPey_Psgj052RI,5073
+mail_deduplicate/tests/__init__.py,sha256=cN8LUN-YQmBQjRbdAIebC3xio-WNshOyRrsJ62Xppso,819
+mail_deduplicate/tests/conftest.py,sha256=xcR1A48tr4BzApRZR9-C4r58mkMHZBFe4f5PjABH3Jc,6575
+mail_deduplicate/tests/test_cli.py,sha256=4UCJUSLQn26cfwx4EsGdWWsnS5EPTVxuN4DIn9adf7w,2647
+mail_deduplicate/tests/test_deduplicate.py,sha256=mo3v7gic7Upsa5qQdAfWcA62cq4qgU3g9jjn9e5KLBo,8502
+mail_deduplicate/tests/test_mail.py,sha256=4tVpL38lXmUerw0XuV9tDGPAaRaqvnDcS8E89x3bhjc,1900
+mail_deduplicate/tests/test_mailbox.py,sha256=T3pck3KhvhKWcgReKXiBzq5DTERC61olc0_hFBvv-yo,1357
+mail_deduplicate-5.0.0.dist-info/entry_points.txt,sha256=a8mvBNO_hkuTWUPeu9vi5drDahOyihuyBjbWY24PHiA,54
+mail_deduplicate-5.0.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+mail_deduplicate-5.0.0.dist-info/METADATA,sha256=MyttSksyLzLRn0ALLVd0e19jrzCVaq72WF1X6VyQUSU,4115
+mail_deduplicate-5.0.0.dist-info/RECORD,,

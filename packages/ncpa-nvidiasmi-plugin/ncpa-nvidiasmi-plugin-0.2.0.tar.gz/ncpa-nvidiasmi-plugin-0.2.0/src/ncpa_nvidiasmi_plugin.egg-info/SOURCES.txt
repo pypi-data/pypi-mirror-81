@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/check_nvidiasmi.py
+src/ncpa_nvidiasmi_plugin.egg-info/PKG-INFO
+src/ncpa_nvidiasmi_plugin.egg-info/SOURCES.txt
+src/ncpa_nvidiasmi_plugin.egg-info/dependency_links.txt
+src/ncpa_nvidiasmi_plugin.egg-info/requires.txt
+src/ncpa_nvidiasmi_plugin.egg-info/top_level.txt
+src/ncpa_nvidiasmi_plugin.egg-info/zip-safe

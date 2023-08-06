@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: eqo
+Version: 0.3
+Summary: Manage connections to FPGAs running EQO
+Home-page: UNKNOWN
+Author: Sascha Mücke
+Author-email: sascha.muecke@tu-dortmund.de
+License: GNU GPLv3
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: bitarray
+Requires-Dist: numpy
+Requires-Dist: tqdm
+
+UNKNOWN
+
+

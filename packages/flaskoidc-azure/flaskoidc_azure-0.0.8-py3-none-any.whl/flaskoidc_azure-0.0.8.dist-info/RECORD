@@ -1,0 +1,8 @@
+flaskoidc_azure/__init__.py,sha256=vrrzzH-MUHHXwkpMIYbP9AdmLxaHpVjwFHcOBHu6VXM,4739
+flaskoidc_azure/auth_azure.py,sha256=dqCb69dRWZk9wsihMawxc3uHHCMmntD98K6_8QXYCOQ,1723
+flaskoidc_azure/config.py,sha256=Pt_MZLVae2gElY5O9fTXRCIQSi6DkWotEBDSnPYbFHo,2699
+flaskoidc_azure-0.0.8.dist-info/LICENSE,sha256=zPwBe1WGhv-LEYNUOP3Il_SHdk9YZL0YxaJC8ADtBpc,11344
+flaskoidc_azure-0.0.8.dist-info/METADATA,sha256=MPeYP_WIf6OnS5Cnf49JBEOkHumPFEm49wnjwZWWdic,402
+flaskoidc_azure-0.0.8.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+flaskoidc_azure-0.0.8.dist-info/top_level.txt,sha256=O4CZ7FmzA6R371er5OKBtXtSAweX5USjKqApP39ZOqo,16
+flaskoidc_azure-0.0.8.dist-info/RECORD,,

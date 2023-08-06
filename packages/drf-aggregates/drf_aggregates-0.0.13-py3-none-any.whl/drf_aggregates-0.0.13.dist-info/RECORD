@@ -1,0 +1,8 @@
+drf_aggregates/__init__.py,sha256=CXXr0QlP4y-EAVfWq4m1iPyOX0h7SscVWlL2pidZjks,110
+drf_aggregates/aggregates.py,sha256=3TTglk7I4GOgDUw3E8q1g2g5nxrg4NYmgKH0sGncMW0,806
+drf_aggregates/exceptions.py,sha256=mFukAAYiibOIhPCVhSa23TMSoXjKNcz8hHD_V0NNKUc,387
+drf_aggregates/renderers.py,sha256=PJCpCu6t-aHEHljOE7egQNjhppAgoDg3P3wjuOW5_KM,6775
+drf_aggregates-0.0.13.dist-info/METADATA,sha256=oN03Ir5-0jhM_hGO71_eBTsA_OKgboVG3WO_PRmO63w,3603
+drf_aggregates-0.0.13.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+drf_aggregates-0.0.13.dist-info/top_level.txt,sha256=KOd8sYuxtREfAtMf-G2_DWEMuQS-cH7xCHiw6zQZcxc,15
+drf_aggregates-0.0.13.dist-info/RECORD,,

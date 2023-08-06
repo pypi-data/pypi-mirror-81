@@ -1,0 +1,12 @@
+sentinel_to_zarr/__init__.py,sha256=QCj6ENqQL2utU9IcuR7vK2PQSPBXfHDtO2qPbOllpMU,277
+sentinel_to_zarr/_version.py,sha256=o-w_w3iehV-rY-aw72py6brMzCo9y_-BbAXFl9VEJgo,139
+sentinel_to_zarr/napari_sentinel_to_zarr.py,sha256=MArYE7LyIG4wroUfCzMLM0ICpptl6V8unQaCLEDcShQ,12545
+sentinel_to_zarr/sentinel_to_zarr.py,sha256=MU0R3XKF6w-D4U-2_uzuw2jUK8G4kgrxCmmyQsumilg,18331
+sentinel_to_zarr/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sentinel_to_zarr/_tests/test_sentinel_to_zarr.py,sha256=eotik39_lrmbmI5TDuy0F6MWPTfqSRjG0mjCH2KAhvs,1666
+napari_sentinel_to_zarr-0.0.4.dist-info/LICENSE,sha256=uaf5CbqjD3soM8LMUUcY-7-rSb29K9B4m78wFtqylOQ,1085
+napari_sentinel_to_zarr-0.0.4.dist-info/METADATA,sha256=SPycw736x_MG5SE8QJiWuO7_vL2Q7EstCJevj8ho7bI,5532
+napari_sentinel_to_zarr-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+napari_sentinel_to_zarr-0.0.4.dist-info/entry_points.txt,sha256=T-r--7U8UwMYUitj9anhrM_r-YeWydOEHMFp2g-uurY,161
+napari_sentinel_to_zarr-0.0.4.dist-info/top_level.txt,sha256=CzWiMvMid6DnTLI6bss3mH_aXvFwpH3XlulCij-XZAA,17
+napari_sentinel_to_zarr-0.0.4.dist-info/RECORD,,

@@ -1,0 +1,14 @@
+README.md
+setup.py
+slimHTTP/__init__.py
+slimHTTP/core.py
+slimHTTP.egg-info/PKG-INFO
+slimHTTP.egg-info/SOURCES.txt
+slimHTTP.egg-info/dependency_links.txt
+slimHTTP.egg-info/top_level.txt
+slimHTTP/examples/REST_api.py
+slimHTTP/examples/discord_bot_and_web.py
+slimHTTP/examples/http_server.py
+slimHTTP/examples/http_websocket.py
+slimHTTP/examples/https_server.py
+test/testing.py

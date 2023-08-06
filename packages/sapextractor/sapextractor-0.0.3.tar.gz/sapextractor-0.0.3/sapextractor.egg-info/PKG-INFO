@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: sapextractor
+Version: 0.0.3
+Summary: SAP Extractor
+Home-page: http://www.pm4py.org
+Author: PADS
+Author-email: alessandro.berti89@gmail.com
+License: GPL 3.0
+Description: # sap-extractor
+Platform: UNKNOWN

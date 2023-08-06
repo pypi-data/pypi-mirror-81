@@ -1,0 +1,3 @@
+[console_scripts]
+ccsdoc = ccsdoc.scripts.cli:cli
+

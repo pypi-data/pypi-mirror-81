@@ -1,0 +1,15 @@
+ccsdoc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ccsdoc/command.py,sha256=Jfg6sKKz5IOIKOVEHw86pHZJ0lw4hEqYENJdRfEyzGk,1482
+ccsdoc/parameter.py,sha256=8oXWAOshpz7viug6JgMrGgPbzghPYotR4HRjeUhfekw,2497
+ccsdoc/parser.py,sha256=Be0O47t_uRdtixgpSYibslvZJ0OkxerYHd5qw0xwSAE,4018
+ccsdoc/text.py,sha256=b6PusuL95DH9RaxvJaeCHgyJJoa2zrZUoJKGwkr6dK4,5439
+ccsdoc/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ccsdoc/scripts/cli.py,sha256=ygAu7DiQ4nAU2-RDj8hYDKqtskszFN1URcHbQPGnMgA,526
+ccsdoc/scripts/convert.py,sha256=6XjB0OmwH0Omps4nY0X_3uoBv9rV0f9NEVVwN0vmOjg,3676
+ccsdoc/scripts/parse.py,sha256=8OkbUkd3tBre97PGsPMm_1mhx_MjMA1S3YD-jl7ioGU,3349
+ccsdoc-0.0.8.dist-info/LICENSE,sha256=G4tHEsG0g_gcJkDiOhLfBftH8_64uVy3Q4KkJJRhobQ,1516
+ccsdoc-0.0.8.dist-info/METADATA,sha256=g33H3ox3-7MJ8_zi9-d2E4vYat8cAP7FaWoqb6tEM-8,2612
+ccsdoc-0.0.8.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+ccsdoc-0.0.8.dist-info/entry_points.txt,sha256=91vL6d51DyvVwKI88aj9YnfkEFHXkDe4gKpq63SJyO4,51
+ccsdoc-0.0.8.dist-info/top_level.txt,sha256=8ACvXdi2ZYzeSJJ9wXmRL_VgUpPdcqsUcaPPriIYMxY,7
+ccsdoc-0.0.8.dist-info/RECORD,,

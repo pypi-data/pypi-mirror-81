@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: mcnntunes
+Version: 0.0.1b1
+Summary: MC Neural Network Tunes
+Home-page: https://github.com/N3PDF/mcnntunes
+Author: M. Lazzarin, S. Alioli, S. Carrazza
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: cma
+Requires-Dist: hyperopt
+Requires-Dist: jinja2
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: pymongo
+Requires-Dist: pyyaml
+Requires-Dist: seaborn
+Requires-Dist: tensorflow
+
+# MC Neural Network Tunes
+
+![Tests](https://github.com/scarrazza/mcnntune/workflows/Tests/badge.svg)
+
+
+## Documentation
+
+MCNNTUNES documentation is available at [mcnntunes.readthedocs.io](https://mcnntunes.readthedocs.io).
+
+- [Installation](https://mcnntunes.readthedocs.io/en/stable/installation.html)
+- [Documentation](https://mcnntunes.readthedocs.io/)
+
+## Citation policy
+
+If you use the package please cite the following references:
+- https://arxiv.org/abs/20xx.xxxxxx
+- https://doi.org/xx.xxxxx/zenodo.xxxx
+
+

@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: happyboss
+Version: 0.1.0
+Summary: 
+Author: NaveenKumarReddy8
+Author-email: mr.naveen8@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: PyAutogui (>=0.9.50,<0.10.0)

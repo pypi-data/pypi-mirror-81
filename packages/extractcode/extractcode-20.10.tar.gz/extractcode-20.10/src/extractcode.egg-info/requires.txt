@@ -1,0 +1,11 @@
+commoncode>=20.10
+plugincode>=20.09
+typecode>=20.10
+typecode-libmagic>=5.39.1.1
+patch>=1.15
+extractcode-7z>=16.5
+extractcode-libarchive>=3.4.3
+
+[testing]
+pytest>=6
+pytest-xdist>=2

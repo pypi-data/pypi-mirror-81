@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: Aerospace-Toolbox
+Version: 0.0.1
+Summary: Aerospace Toolbox - A Python Package For Aeronautical & Astronautical Engineers
+Home-page: https://github.com/ahkhodabakhsh/Aerospace-Toolbox
+Author: A. H. Khodabakhsh
+Author-email: a.h.khodabakhsh@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/ahkhodabakhsh/Aerospace-Toolbox/archive/v0.0.1.tar.gz
+Keywords: Aerospace,Flight Dynamics,Aerodynamics,Coordiante Transformation
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+
+UNKNOWN
+
+

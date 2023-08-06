@@ -1,0 +1,13 @@
+README.md
+setup.py
+Finit_Automaton.egg-info/PKG-INFO
+Finit_Automaton.egg-info/SOURCES.txt
+Finit_Automaton.egg-info/dependency_links.txt
+Finit_Automaton.egg-info/top_level.txt
+mypackage/StateFa.py
+mypackage/__init__.py
+mypackage/dfa.py
+mypackage/fa.py
+mypackage/fa_interface.py
+mypackage/nfa.py
+test/testdfa.py

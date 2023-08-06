@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+bigzenodo/__init__.py
+bigzenodo/main.py
+bigzenodo/upload.py
+bigzenodo.egg-info/PKG-INFO
+bigzenodo.egg-info/SOURCES.txt
+bigzenodo.egg-info/dependency_links.txt
+bigzenodo.egg-info/entry_points.txt
+bigzenodo.egg-info/not-zip-safe
+bigzenodo.egg-info/requires.txt
+bigzenodo.egg-info/top_level.txt

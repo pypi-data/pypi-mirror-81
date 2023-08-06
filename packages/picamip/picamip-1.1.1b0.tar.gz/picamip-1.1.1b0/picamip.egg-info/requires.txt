@@ -1,0 +1,8 @@
+flask
+picamera
+
+[test]
+coverage
+mypy
+pre-commit
+pytest

@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: jisx0402
+Version: 0.1.0
+Summary: 
+Author: kitagawa-hr
+Author-email: kitagawa@cancerscan.jp
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pydantic (>=1.6.1,<2.0.0)

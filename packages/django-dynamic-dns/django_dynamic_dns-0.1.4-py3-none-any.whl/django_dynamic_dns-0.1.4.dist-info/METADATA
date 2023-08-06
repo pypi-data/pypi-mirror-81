@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: django-dynamic-dns
+Version: 0.1.4
+Summary: Machines on dynamic IPs can call this service at regular intervals (e.g. via cron) and when the server notices an address change it makes the relevant API call to update the DNS provider. Alternatively a simple DNS server is included which can be run instead of using an external DNS provider.
+Home-page: https://github.com/damianmoore/django-dynamic-dns
+Author: Damian Moore
+Author-email: django-dynamic-dns@epixstudios.co.uk
+License: BSD
+Download-URL: https://github.com/damianmoore/django-dynamic-dns/archive/0.1.4.zip
+Keywords: django dynamic dns server ip domain service
+Platform: UNKNOWN
+
+UNKNOWN
+
+

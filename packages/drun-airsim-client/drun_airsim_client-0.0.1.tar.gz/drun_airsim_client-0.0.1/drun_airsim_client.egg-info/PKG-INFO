@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: drun-airsim-client
+Version: 0.0.1
+Summary: Custom AirSim client for the DRUN project
+Home-page: https://github.com/braind3d/DRUN/tree/master/drun_airsim_client
+Author: Angel Penchev (FAnton)
+Author-email: angel.penchev.tsb@gmail.com
+License: UNKNOWN
+Description: # DRUN AirSim Client
+        Custom AirSim client for the DRUN project.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

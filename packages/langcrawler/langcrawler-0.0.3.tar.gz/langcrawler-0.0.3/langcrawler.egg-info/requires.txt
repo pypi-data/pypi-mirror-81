@@ -1,0 +1,15 @@
+black
+colorama
+coverage
+coveralls
+hypothesis
+flake8
+mypy
+pre-commit
+psycopg2-binary
+pytest
+redis
+requests
+setuptools
+twine
+wheel

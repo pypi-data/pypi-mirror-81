@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: meshed
+Version: 0.0.2
+Summary: Tools that enable operations on graphs where grapsh are represented by an adjacency Mapping.
+Home-page: https://github.com/i2mint/meshed
+Author: OtoSense
+Author-email: None

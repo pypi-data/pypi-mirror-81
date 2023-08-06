@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: mb-drf-extensions
+Version: 0.1.0
+Summary: Mind Bricks Django Rest Framework Extensions
+Home-page: https://www.mind-bricks.com
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Framework :: Django
+Requires-Dist: bson (>=0.5.0)
+Requires-Dist: django (>=1.11.0)
+Requires-Dist: django-filter (>=2.4.0)
+Requires-Dist: djangorestframework (>=3.7.0)
+Requires-Dist: requests (>=2.0.0)
+Requires-Dist: requests-mock (>=1.8.0)
+
+Mind Bricks Django Rest Framework Extensions
+================================================
+
+**mb-drf-extensions** provides a unified tools and interfaces for Mind Bricks micro services.
+
+

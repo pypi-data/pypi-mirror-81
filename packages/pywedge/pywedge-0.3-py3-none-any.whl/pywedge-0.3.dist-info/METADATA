@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: pywedge
+Version: 0.3
+Summary: Cleans raw data, runs baseline models
+Home-page: https://github.com/taknev83/pywedge/blob/main/pywedge.py
+Author: Venkatesh rengarajan Muthu
+Author-email: taknev83@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: jupyter
+Requires-Dist: xgboost
+Requires-Dist: catboost (>=0.24)
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: imbalanced-learn
+
+# pywedge
+Cleans raw data, runs baseline models. 
+
+Cleans the raw dataframe to fed into ML models. Following data pre_processing will be carried out,
+1) segregating numeric & categorical columns
+2) missing values imputation for numeric & categorical columns
+3) standardization
+4) feature importance
+5) SMOTE
+6) baseline model
+
+Pre_process_data()
+Inputs: 
+1) train = train dataframe
+2) test = stand out test dataframe (without target column)
+3) c = any redundant column to be removed (like ID column etc., at present supports a single column removal, subsequent version will provision multiple column removal requirements)
+4) y = target column name as a string 
+5) type = Classification / Regression
+
+Returns:
+1) new_X (cleaned feature columns in dataframe)
+2) new_y (cleaned target column in dataframe)  
+3) new_test (cleaned stand out test dataset)
+
+baseline_model()
+- For classification - classification_summary() 
+- For Regression - Regression_summary()
+
+Inputs:
+1) new_x
+2) new_y
+
+Returns:
+Various baseline model metrics 
+
+THIS IS IN BETA VERSION 
+
+

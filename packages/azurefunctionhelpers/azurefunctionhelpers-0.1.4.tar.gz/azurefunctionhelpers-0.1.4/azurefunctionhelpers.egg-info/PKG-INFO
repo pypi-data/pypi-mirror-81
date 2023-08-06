@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: azurefunctionhelpers
+Version: 0.1.4
+Summary: Library of helpers for use with Azure Functions
+Home-page: https://github.com/AirWalk-Digital/azure_function_helpers
+Author: AirWalk Consulting
+Author-email: info@airwalkconsulting.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

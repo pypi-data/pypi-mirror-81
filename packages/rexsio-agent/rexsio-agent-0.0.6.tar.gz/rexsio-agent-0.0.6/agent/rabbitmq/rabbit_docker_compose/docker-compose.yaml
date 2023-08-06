@@ -1,0 +1,19 @@
+version: "3.5"
+
+networks:
+  agent-network:
+    name: agent-network
+
+services:
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "15672:15672"
+      - "15671:15671"
+      - "5672:5672"
+      - "5671:5671"
+    environment:
+      - RABBITMQ_DEFAULT_USER=rexsio
+      - RABBITMQ_DEFAULT_PASS=${RABBITMQ_PASS:-rexsio}
+    networks:
+      - agent-network

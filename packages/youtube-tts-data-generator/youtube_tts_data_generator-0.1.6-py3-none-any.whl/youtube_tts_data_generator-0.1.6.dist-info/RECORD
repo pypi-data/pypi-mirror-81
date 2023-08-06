@@ -1,0 +1,10 @@
+youtube_tts_data_generator/__init__.py,sha256=gzi0hzoEYyGEmu9LR8ckyn4WMkId5GSOtFnaNRjnNAs,62
+youtube_tts_data_generator/audio.py,sha256=6kaYoa4PWJfm2nhoGkCbVh5LjrNJ0rN3kcGswbWe4XU,4626
+youtube_tts_data_generator/number_cleaner.py,sha256=DWSzJuCi6RvqRm9_7y3dmcohkpYGEK5FtPDehIYBHvg,4360
+youtube_tts_data_generator/text_cleaner.py,sha256=P77nHq96_ohwVBqEcR8Q5661ScUi5fwa3Sqk7x2aN9I,1606
+youtube_tts_data_generator/youtube_tts_data_generator.py,sha256=rBxtqjFALhs-f_ki69L7Ia88bR8Oyz_r0Z51qPy_lN0,20245
+youtube_tts_data_generator-0.1.6.dist-info/LICENSE,sha256=opvMLNAilOGig2QIMPKj22Cr8ZBAbK8Eor69XGfThCY,1067
+youtube_tts_data_generator-0.1.6.dist-info/METADATA,sha256=HQ8UIT3gfKNo7tgxtsLgk0W4L0wKU6G43s5UQc_qA1c,6851
+youtube_tts_data_generator-0.1.6.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+youtube_tts_data_generator-0.1.6.dist-info/top_level.txt,sha256=_yY3IVZ2GRo4QToibDzeFXaoONWeHg2PeU_G6C5fMLc,27
+youtube_tts_data_generator-0.1.6.dist-info/RECORD,,

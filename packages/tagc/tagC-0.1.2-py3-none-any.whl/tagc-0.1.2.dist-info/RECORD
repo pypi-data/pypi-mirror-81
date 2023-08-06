@@ -1,0 +1,16 @@
+tagc/__init__.py,sha256=QTYqXqSTHFRkM9TEgpDFcHvwLbvqHDqvqfQ9EiXkcAM,23
+tagc/__main__.py,sha256=Vj0-8o8jZNnLt86ZyUzX687jCuDg7IxBzvJTxzJtYhs,582
+tagc/data_utils.py,sha256=f3Y3CbAc4GR1tezhqUpA9LqkKhOsQx43cBJKkgC9YAE,6811
+tagc/dataset.py,sha256=l7ZtmEUsW18qLI6kxSY77EQY4TcrJc2zB0bxu_AI3I8,3819
+tagc/domain.py,sha256=9hIBMJlzpai71sEa7vMTjb_LNI6NSk40i6agYFtCxTc,3473
+tagc/io_utils.py,sha256=u3NaVoVo8GnVoi4--jnOBfwXSzoZbqcC3iOEFkFq_UY,2699
+tagc/mask_explain.py,sha256=mPbY9kIAydB39drT724EotHffivxqQ1wYTen8OnMeYs,4967
+tagc/model.py,sha256=kfS-SuqGuke51qXk3r2bkgms3lL349qMnETL3hJHisw,6499
+tagc/review.py,sha256=eyQbdjfYSAPBxNL8aCQZiJHvwrhfmEqag4TwBBZQa40,2770
+tagc/train.py,sha256=-oBMlMaBN-OGmwpWd86dT9dB1TpWlVQ1ZYXglPNxyVQ,2881
+tagc/validation.py,sha256=SRnsxTFuKdoaV9MWLq9TDpAeq66CPvK4lMoPhDKS14Q,4769
+tagc/web.py,sha256=ykO_TQAsXLrqqG2HDSWE_xMg7CYknA5yAveo2UncQrk,6537
+tagc/web_utils.py,sha256=Vkdui4hRN1jcw53Ksb4ZtLUo0i74FWSUnp4ncVFouz8,1588
+tagc-0.1.2.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+tagc-0.1.2.dist-info/METADATA,sha256=vTWiURvO_Mujls_Sxbont6ONivmExwoW4d_aGT9UT7Y,697
+tagc-0.1.2.dist-info/RECORD,,

@@ -1,0 +1,10 @@
+nanopub/__init__.py,sha256=DdtaA7jcR5TGOnN8spYo6vHFPJnOIp9iNYjOOUODlaI,63
+nanopub/_version.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+nanopub/definitions.py,sha256=LjzGMFWWjI7kGCqWnRq70ucgFgt7QUmyYEOgXiC1jow,167
+nanopub/java_wrapper.py,sha256=VPK7_6DFeDAGZhh14lbZLaV2BDi01GmwBcC9l8_RtB0,1133
+nanopub/nanopub.py,sha256=KIGTqpTL1rLPSDznHdHf2VPu04BCIu-mSv4vjfoLIV0,15654
+nanopub-0.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+nanopub-0.1.1.dist-info/METADATA,sha256=7IV3UiN_-HmwF2bK-sy6mycvaLJA2odYYG0J4btCFCk,1389
+nanopub-0.1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+nanopub-0.1.1.dist-info/top_level.txt,sha256=VTVakeDEpIn2iT1-3p_Tie9Z9eENzG8Q25KpBtkKR4A,8
+nanopub-0.1.1.dist-info/RECORD,,

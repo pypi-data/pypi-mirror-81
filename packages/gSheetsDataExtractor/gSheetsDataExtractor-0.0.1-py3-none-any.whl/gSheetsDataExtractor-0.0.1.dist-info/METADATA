@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: gSheetsDataExtractor
+Version: 0.0.1
+Summary: Google sheets Data Extractor
+Home-page: https://github.com/dhanush5120/
+Author: Sai Dhanush
+Author-email: dhanushsai5553@gmail.com
+License: MIT
+Keywords: dataExtractor
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown 
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+
+# gSheetsDataExtractor
+
+Extracts data from google sheets and plots a chart with the values on the sheet. This library also gives the user an option to select the columns for x-axis and y-axis
+
+## Installation
+
+Use `pip` to install the package
+
+#### Python Version support
+This package runs aunder python 3.6 and above versions
+
+```
+    $ pip install gSheetsDataExtractor
+```
+
+## Quickstart
+
+Sign into the `Google Drive` with the your Google account
+Open the spreadsheet you want to access and get the `SpreadSheet ID` from the link
+
+### Example
+> https://docs.google.com/spreadsheets/d/`1SrZfvr2ee54r7HR1jGtAE9zHIj_Y-UzK9ok8bdwkpqc`/edit#gid=0
+The highlighted part in the above link will be the SpreadSheet ID
+
+import the library and provide the input to the spreadSheetId and spreadSheetName:
+ - spreadSheetName can be any string without `space`
+
+```
+    >>> import gSheetsDataExtractor as de
+    >>> spreadSheetId = input()
+    >>> spreadSheetName = input()
+```
+
+For extracting the data and for plotting the chart with the values on the sheet, call the function extractData with googleSheetId and spreadSheetName as shown below:
+
+```
+	>>> de.extractData(spreadSheetId, spreadSheetName)
+```
+This prints the column names of the spreadsheet and gives the user to select the columns for x-axis and y-axis and plots the graph with the column names given by user.
+
+
+## License
+
+
+This package is distributed under the `MIT license`.
+
+
+

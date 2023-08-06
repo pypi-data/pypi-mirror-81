@@ -1,0 +1,15 @@
+UEManifestReader/__init__.py,sha256=P_JLsCLJa_eRRW5HanmcPobHE6FRDKurGSp0QaRmkAI,5282
+UEManifestReader/converter.py,sha256=fAy20ROiR9DqLM1HxMVf4kkb8HIaV7heoZLon74qmwo,1910
+UEManifestReader/enums.py,sha256=NA5yOPyIJW7HhzC_y93eahH5YR4H8bfNGNXrgk6avSc,5045
+UEManifestReader/classes/FChunkDataList.py,sha256=OhyOOYulN8ogt-5MK6q2_HttaR-AXFbc07wEQyCcImI,2541
+UEManifestReader/classes/FCustomFields.py,sha256=wmj_wCSPYGBKphj4WrQedPwKTJ3Qu9xXK7AugeRwBkw,902
+UEManifestReader/classes/FFileManifestList.py,sha256=4XxyYJM0W9o2q6hAFXG3KLH9twI29Q2gdwTQLOtgJqk,3395
+UEManifestReader/classes/FManifestData.py,sha256=jPDPoPs7KYJozLmxMk2rVd_3h5Xmcc4gahz_1Rzj230,2677
+UEManifestReader/classes/FManifestHeader.py,sha256=Pz4NqDosMF50XKrOi9CiZSyfNGdVmkOVmLlVp1LkyiY,2364
+UEManifestReader/classes/FManifestMeta.py,sha256=8vaHe09iNRmwwUBf2hfOs7jEP-3LOD47T97GW60WmMk,4194
+UEManifestReader/classes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+UEManifestReader/classes/stream_reader.py,sha256=T1dKqdGzE8C2h9OxsMk3Fs5ogNdKNPCOI8fSJhngJ0A,2368
+UEManifestReader-0.0.1.dist-info/METADATA,sha256=ilzQ8gZbxF4k_AettcXM305-PCjwccPzqXuYahaoX2s,301
+UEManifestReader-0.0.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+UEManifestReader-0.0.1.dist-info/top_level.txt,sha256=BQewYnvEcVR-yayRdvABl6Dnl7XejlU_VJd2dI-RnDc,17
+UEManifestReader-0.0.1.dist-info/RECORD,,

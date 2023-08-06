@@ -1,0 +1,12 @@
+aiofile>=3.1.0
+unimatrix
+
+[all]
+gcloud-aio-storage>=5.6.0
+gcloud-rest-storage>=5.6.0
+
+[azure]
+
+[gcp]
+gcloud-aio-storage>=5.6.0
+gcloud-rest-storage>=5.6.0

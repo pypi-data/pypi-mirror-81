@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: oilduction
+Version: 0.1.0
+Summary: Python package for Petroleum Engineers
+Home-page: https://github.com/mmmahhhhe/oilduction
+Author: MaHe
+Author-email: 1692303843@qq.com
+License: UNKNOWN
+Description: # petroleum package readme
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8

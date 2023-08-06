@@ -1,0 +1,10 @@
+setup.py
+oilduction.egg-info/PKG-INFO
+oilduction.egg-info/SOURCES.txt
+oilduction.egg-info/dependency_links.txt
+oilduction.egg-info/not-zip-safe
+oilduction.egg-info/requires.txt
+oilduction.egg-info/top_level.txt
+production/__init__.py
+tests/__init__.py
+tests/q.py

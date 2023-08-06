@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: PyQtMessageBar
+Version: 0.3.1
+Summary: Subclass of Qt's QStatusBar that adds a message buffer, wait queue, and user interaction.
+Home-page: https://github.com/eruber/PyQtMessageBar
+Author: E.R. Uber
+Author-email: eruber@gmail.com
+License: GPLv3
+Download-URL: https://github.com/eruber/PyQtMessageBar/archive/v0.3.0.tar.gz
+Description: PyQtMessageBar is a PyQT Custom Widget that subclasses QStatusBar
+        to provide a message buffer plus numerous other features including
+        keyboard interaction allowing the user to scroll forward and backward 
+        through all statusbar messages in the message buffer.
+        
+        For more details, please go to the `project home page <https://github.com/eruber/PyQtMessageBar>`_ or 
+        to the `project's User Manual <https://eruber.github.io/PyQtMessageBar/build/html/index.html>`_.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires: PyQt5
+Requires-Python: >=3.7.1
+Description-Content-Type: text/plain

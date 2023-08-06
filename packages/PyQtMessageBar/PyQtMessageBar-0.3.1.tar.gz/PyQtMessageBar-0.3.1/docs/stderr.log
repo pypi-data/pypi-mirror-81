@@ -1,0 +1,2 @@
+c:\python38\lib\site-packages\ReText\window.py:387: RuntimeWarning: invalid tag character found
+  warnings.warn(str(e), RuntimeWarning)

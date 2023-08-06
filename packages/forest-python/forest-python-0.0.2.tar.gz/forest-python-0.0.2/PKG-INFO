@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: forest-python
+Version: 0.0.2
+Summary: The Forest Project in Python
+Home-page: https://github.com/shunsvineyard/forest-python
+Author: Shun Huang
+Author-email: shunsvineyard@protonmail.com
+License: MIT
+Description: ##########################
+        Build the Forest in Python
+        ##########################
+        
+        The Forest Project is a tree data structure library for fun.
+        
+Keywords: tree data-structures
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst

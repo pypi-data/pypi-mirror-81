@@ -1,0 +1,3 @@
+[console_scripts]
+forest-cli = pyforest.bin.forest_cli:main
+

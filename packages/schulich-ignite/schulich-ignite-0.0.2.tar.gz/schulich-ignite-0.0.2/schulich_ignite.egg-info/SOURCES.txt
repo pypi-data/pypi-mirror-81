@@ -1,0 +1,10 @@
+README.md
+setup.py
+schulich_ignite.egg-info/PKG-INFO
+schulich_ignite.egg-info/SOURCES.txt
+schulich_ignite.egg-info/dependency_links.txt
+schulich_ignite.egg-info/requires.txt
+schulich_ignite.egg-info/top_level.txt
+spark/__init__.py
+spark/functions.py
+spark/wrappers.py

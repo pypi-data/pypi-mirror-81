@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: schulich-ignite
+Version: 0.0.2
+Summary: Spark library for Shulich Ignite sessions
+Home-page: https://github.com/Schulich-Ignite/spark
+Author: Radu Schirliu, Alan Alcocer-Iturriza, Garth Slaney
+Author-email: info@shulichignite.com
+License: UNKNOWN
+Description: # spark
+        Library used for the sessions
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown

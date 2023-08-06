@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: lib_ddos_simulator
+Version: 0.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/agorbenko/lib_ddos_simulator.git
+Author: Justin Furuness and Anna Gorbenko
+Author-email: jfuruness@gmail.com, agorbenko97@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/agorbenko/lib_ddos.git
+Description: UNKNOWN
+Keywords: Furuness,Gorbenko,DDOS,DOS,Simulation,Sieve,Protag,KPO,DOSE,Distributed Denial of Service,Denial of Service
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3

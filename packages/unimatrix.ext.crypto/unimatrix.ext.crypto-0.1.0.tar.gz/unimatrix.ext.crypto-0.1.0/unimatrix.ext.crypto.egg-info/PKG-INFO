@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: unimatrix.ext.crypto
+Version: 0.1.0
+Summary: Enter a description for this Unimatrix package
+Home-page: https://gitlab.com/unimatrixone/libraries/python-unimatrix
+Author: Cochise Ruhulessin
+Author-email: cochise.ruhulessin@wizardsofindustry.com
+License: UNKNOWN
+Description: # Unimatrix Crypto
+        
+        A Python library that provides abstraction around various primitives
+        for cryptographic operations.
+        
+        Supported cryptographic implementations are:
+        
+        - RSA PKCS1.5/SHA256
+        
+        
+        Supported key providers are:
+        
+        - Local
+        - Google Cloud KMS
+        
+        
+        ## Installation
+        
+        ```
+        pip install unimatrix.ext.crypto
+        ```
+        
+        ## Usage
+        
+        When using `unimatrix.ext.crypto` with Google Cloud KMS, the
+        `GOOGLE_APPLICATION_CREDENTIALS` environment variable needs
+        to be provided, pointing to your service account JSON
+        credentials.
+        
+        ```
+        import os
+        
+        from unimatrix.ext.crypto.lib.google import Signer
+        
+        
+        signer = Signer(resource_id="your/kms/key/resource/id")
+        some_data_to_sign = os.urandom(256)
+        sig = signer.sign(some_data_to_sign)
+        
+        print(sig.verify(signer.public, some_data_to_sign))
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+Provides-Extra: all
+Provides-Extra: gcp

@@ -1,0 +1,12 @@
+cryptography>=3.1.1
+unimatrix>=0.1.17
+
+[all]
+google-cloud-kms>=2.0.0
+gcloud-aio-kms>=3.3.0
+gcloud-rest-kms>=3.3.0
+
+[gcp]
+google-cloud-kms>=2.0.0
+gcloud-aio-kms>=3.3.0
+gcloud-rest-kms>=3.3.0

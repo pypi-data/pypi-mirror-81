@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+django_fancybox.egg-info/PKG-INFO
+django_fancybox.egg-info/SOURCES.txt
+django_fancybox.egg-info/dependency_links.txt
+django_fancybox.egg-info/not-zip-safe
+django_fancybox.egg-info/top_level.txt
+fancybox/__init__.py
+fancybox/models.py
+fancybox/static/fancybox/css/jquery.fancybox.min.css
+fancybox/static/fancybox/js/jquery.fancybox.min.js
+fancybox/templates/fancybox/base.html
+fancybox/templates/fancybox/fancybox_css.html
+fancybox/templates/fancybox/fancybox_js.html

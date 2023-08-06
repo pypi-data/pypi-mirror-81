@@ -1,0 +1,7 @@
+pyramid
+PyJWT
+
+[testing]
+WebTest
+pytest
+pytest-freezegun

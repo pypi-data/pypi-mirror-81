@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tfseg
+Version: 1.0.0
+Summary: NLP tool
+Home-page: https://github.com/deepdialog/tfseg
+Author: deepdialog
+Author-email: thebotbot@sina.com
+License: Private
+Keywords: nlp,tensorflow,chinese segmentation,segmentation,segment
+Platform: any
+Requires-Dist: tensorflow
+Requires-Dist: tensorflow-hub
+
+NLP tool, SEG, POS
+
+

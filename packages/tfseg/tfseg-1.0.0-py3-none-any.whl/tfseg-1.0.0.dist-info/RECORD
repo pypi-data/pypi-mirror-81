@@ -1,0 +1,11 @@
+tfseg/__init__.py,sha256=EW1iJP5TaVmvZj2d3JS6HHA3AmFgJYJzKWeNd_2JaKQ,206
+tfseg/model.py,sha256=BOBgouPqeiUhle5k4jui3ox3oWuOGG1LMMHP8eX0uts,1222
+tfseg/posseg.py,sha256=lnyZPL1ZdyVjj10y80jcEEnXsn2IlrCtWOCWe-qMfVU,281
+tfseg/test_cut.py,sha256=W4nmioKvW8Zq4_IQbD-daDNlgNFClHUvHt5FeiciALI,708
+tfseg/chn_seg_albert/saved_model.pb,sha256=rgxR6sVS0riZ-4CGfDd6dHtPFoLCDsgxnqqjSxG3jcg,11564813
+tfseg/chn_seg_albert/variables/variables.data-00000-of-00001,sha256=3Yo5XD7IscXXSqJ11-t7-lWwBNKNZ_ds0BnzPSKQGRk,19124859
+tfseg/chn_seg_albert/variables/variables.index,sha256=-f_IznAmfiXejhuY1TWjT6P4YMY5gpjONeUmmga6YQk,2273
+tfseg-1.0.0.dist-info/METADATA,sha256=ZbhlX5R4qO1-kSZOx7Oeo2eEzf04t8G1Ddo33wlylcI,342
+tfseg-1.0.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+tfseg-1.0.0.dist-info/top_level.txt,sha256=dayUO7-SAxGox6LP7dI780l02Fhe6YQvqYnxVo21zdM,6
+tfseg-1.0.0.dist-info/RECORD,,

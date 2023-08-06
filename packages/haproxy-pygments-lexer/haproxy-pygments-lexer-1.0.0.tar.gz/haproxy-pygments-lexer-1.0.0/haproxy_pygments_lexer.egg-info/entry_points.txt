@@ -1,0 +1,4 @@
+
+  [pygments.lexers]
+  haproxylexer = haproxylexer.lexer:HAProxyLexer
+  

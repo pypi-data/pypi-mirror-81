@@ -1,0 +1,6 @@
+build
+centralized_pre_commit_conf
+dist
+htmlcov
+tests
+venv

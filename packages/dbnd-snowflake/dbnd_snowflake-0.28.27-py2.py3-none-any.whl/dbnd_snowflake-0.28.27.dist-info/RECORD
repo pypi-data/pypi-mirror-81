@@ -1,0 +1,9 @@
+dbnd_snowflake/__init__.py,sha256=khoftiI4QLoxqUu23gz5kSqCgjb5_pVwhgnEd9qEK0U,215
+dbnd_snowflake/airflow_operators.py,sha256=Tzv9_8q5wqA-DTt6mjz6vXsqB5RO-tNt2MeBw_KVNFc,5849
+dbnd_snowflake/snowflake_resources.py,sha256=oSxymlkAF77PbbiEmolr2Sh9B_TcEimT5AJEqi6-9jA,5097
+dbnd_snowflake/snowflake_values.py,sha256=hd295CM4y4T0CaFKKWoCsEf9TKE6qlY6fC5EyWInNlE,6440
+dbnd_snowflake-0.28.27.dist-info/LICENSE,sha256=ohztaRaSch6kGv7onwox0KiF7AnFC9cyN7KzEJt5b1U,11347
+dbnd_snowflake-0.28.27.dist-info/METADATA,sha256=L9ApIr2ViLmPboVya2Ip6NIuxQxuWWpfhLsC39l6dYI,1766
+dbnd_snowflake-0.28.27.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+dbnd_snowflake-0.28.27.dist-info/top_level.txt,sha256=CoR5sMw1mjLbUviKvHsy8ZMfpvX-O2DNNyKv435fGGY,15
+dbnd_snowflake-0.28.27.dist-info/RECORD,,

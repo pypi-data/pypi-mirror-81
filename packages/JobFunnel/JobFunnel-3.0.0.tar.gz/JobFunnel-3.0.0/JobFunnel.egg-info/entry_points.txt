@@ -1,0 +1,3 @@
+[console_scripts]
+funnel = jobfunnel.__main__:main
+

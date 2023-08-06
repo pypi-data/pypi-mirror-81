@@ -1,0 +1,7 @@
+click
+pandas>=1.0
+
+[test]
+mypy
+pytest
+pytest-cov

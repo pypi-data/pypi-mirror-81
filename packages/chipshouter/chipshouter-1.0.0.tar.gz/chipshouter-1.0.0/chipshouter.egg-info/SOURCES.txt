@@ -1,0 +1,15 @@
+README.md
+setup.py
+chipshouter/__init__.py
+chipshouter/chipshouter.py
+chipshouter/com_tools.py
+chipshouter.egg-info/PKG-INFO
+chipshouter.egg-info/SOURCES.txt
+chipshouter.egg-info/dependency_links.txt
+chipshouter.egg-info/requires.txt
+chipshouter.egg-info/top_level.txt
+chipshouter/console/__init__.py
+chipshouter/console/console.py
+chipshouter/console/download.py
+chipshouter/console/serial_interface.py
+scripts/shouter-console.py

@@ -1,0 +1,15 @@
+drode/__init__.py,sha256=zajijkrRabOWapePmo2K6-S69F48PYnDzo1Z5kRTtp8,1630
+drode/cli.py,sha256=CqrtlZ5YnjonokWmNXTf9d52-K2EL-4nHMemK6VWsqE,1991
+drode/configuration.py,sha256=zt7MLhQi0yqcLXlekFEGGfhp4ViGkSfTYLfZH9jCIFs,4364
+drode/manager.py,sha256=KcZyEjqyyjJIw6z5jCa-q1EJ6mOMiOFKIWHkl_-RpMs,10582
+drode/version.py,sha256=RsZjRjMprNcDm97wqRRSk6rTLgTX8N0GyicZyZ8OsBQ,22
+tests/unit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/unit/test_cli.py,sha256=LaXq94M5x_6r0IFlLr7wmWiXu3acr2ydhRK0CD5kkNw,3550
+tests/unit/test_configuration.py,sha256=2GhAmqETLaCgt2mMewuQ8TrQTMyK2r1D0ZP6J5ZRqSM,5744
+tests/unit/test_init.py,sha256=khTiKu9VA4smoqdZEz8lbRRaJefIbeitz8PwyYUGfVE,3661
+tests/unit/test_manager.py,sha256=Yz6oqLSGpuV11oH9cqKEFRt_C5XOp_M-BNfZtzNBw4E,24075
+drode-1.0.0.dist-info/METADATA,sha256=oCpL9XaDF3E-930vLVFeWMx1LasKxqRQ77nRdrN4Fr8,5383
+drode-1.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+drode-1.0.0.dist-info/entry_points.txt,sha256=B_s_2A7eoGnq9nCCwf0TwlcloBfYUYtAGJ2ZWzqCWW8,38
+drode-1.0.0.dist-info/top_level.txt,sha256=6HDrppkZSWd3oTc0RLKha80TVrmq-7RCMHEFHKBIgro,12
+drode-1.0.0.dist-info/RECORD,,

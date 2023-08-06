@@ -1,0 +1,17 @@
+minionize/__init__.py,sha256=L8SrzNWhGtsocFZ-tVpkIBZQHEFKyH0qLUv7kVI3Cb0,6941
+minionize/cli.py,sha256=aZeTC3k7t2cWyNNykkSNL5xdk4Qx7XKMVV1LDw54OOE,6586
+minionize/env.py,sha256=meu_hPOmWAkFZDPIak8SX1iktgLbS7wOjYCpXUtL2nk,549
+minionize/execo.py,sha256=hTu6vRNwCODASoR8Gx6IgR0YpKXBR0a99l31Gn8vsLo,764
+minionize/google.py,sha256=cudPJ9HFJGY8Hk5b7t1xp2XRrE9IL2lapYwx25PLU_4,3116
+minionize/pulsar.py,sha256=VHVpSekQmLuhnFJEU6nJgQ7K7hxHgBEipHC0F6XZhpY,2147
+minionize/reporter/__init__.py,sha256=VttC-hp-tnNohHK5vLYaxq6Le1ycCnZWDg1FUuU7hvA,5527
+minionize/tests/functionnal/pulsar/publish.py,sha256=0ftY-HCh3G5s4V4mennlbb-VO6RlkpNybk0gISNgQ0M,207
+minionize/tests/unit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+minionize/tests/unit/test_cli.py,sha256=4TrllBNyv2G4VX6wKNcaw0VvcPOYGFfjzPvuxVz6OAM,667
+minionize/tests/unit/test_minionize.py,sha256=geJ12GfMK6UeSeBjyoRkG2oHzSZrGip7HUxkq-34BF8,2840
+minionize/types.py,sha256=yi8XpRE0RmsOqZ2Gd7p65pmgzBwIfc2uL4JcaLq_sNs,67
+minionize-0.1.22.dist-info/entry_points.txt,sha256=AonNv2Kq6VSJZZrddM0wuMqJdT47qfgzAgbi0j6lfSU,82
+minionize-0.1.22.dist-info/LICENSE,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+minionize-0.1.22.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+minionize-0.1.22.dist-info/METADATA,sha256=VEsfW1ILxCFCUI3f7VjJVps3VnAjZHYbfl4yDRIQ-Eg,8661
+minionize-0.1.22.dist-info/RECORD,,

@@ -1,0 +1,6 @@
+bin
+docsrc
+notebooks
+scripts
+solana
+spl

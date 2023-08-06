@@ -1,0 +1,1 @@
+The "otree-core" package is obsolete. You should install "otree" instead.

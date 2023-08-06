@@ -1,0 +1,8 @@
+README.md
+setup.py
+cobertura_parser/__init__.py
+cobertura_parser.egg-info/PKG-INFO
+cobertura_parser.egg-info/SOURCES.txt
+cobertura_parser.egg-info/dependency_links.txt
+cobertura_parser.egg-info/requires.txt
+cobertura_parser.egg-info/top_level.txt

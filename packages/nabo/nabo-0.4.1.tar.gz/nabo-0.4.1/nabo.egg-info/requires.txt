@@ -1,0 +1,15 @@
+h5py
+numpy
+tqdm
+pandas
+statsmodels
+sklearn
+numba
+networkx
+fa2
+AgglomCluster
+matplotlib
+seaborn
+natsort
+scipy
+umap-learn

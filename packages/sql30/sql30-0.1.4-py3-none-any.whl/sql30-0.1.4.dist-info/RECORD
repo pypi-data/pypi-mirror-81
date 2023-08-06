@@ -1,0 +1,14 @@
+sql30/__init__.py,sha256=QdhL6nNstfDN6zRagvnjgSMK2GoIk9Wj9iGWJebhLGs,20
+sql30/db.py,sha256=YA3AvPDyA1H9XU_l0yNOoMD0uy0B7ANFs5oC4dBmm6E,8401
+sql30/tests/__init_.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sql30/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sql30/tests/reviews.py,sha256=Sp_fY-Blt5DMMwhx7ACGhsrUBWfQG2fQgps21FSzJxM,2985
+sql30/tests/sanity.py,sha256=fUgLTukk6p-yx262-9rMczEZNcqXeGl41cIVUq2L2ek,3414
+sql30/tests/scale_cube.py,sha256=5lp_BiGKuGZGx1hn_EpEY2ZdZGcWjJAfLHzMuYVmClY,1828
+sql30/tests/scale_square.py,sha256=NeJmqvAXaJHdtqA4qzwLEpLSD5N-2i41Vb_NDaGDCrc,2601
+sql30/tests/test_context.py,sha256=oXhXFfMPYCJ3ekO2Lcfjqep0d1m_D5EoezoSP_mEGCo,2194
+sql30-0.1.4.dist-info/LICENSE,sha256=2lxEBmXav6ZiCsk4hnPqdJoP6MW8rAhbVTv8XsJxecw,1470
+sql30-0.1.4.dist-info/METADATA,sha256=_lX6BLW4vY2xdcOt1lM6jCVvhil8FkujcmG-NUjndiI,6968
+sql30-0.1.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sql30-0.1.4.dist-info/top_level.txt,sha256=NjMWnjCTZn5nzDcpjYI4VzX_irC86PNaDRHwL69gh90,6
+sql30-0.1.4.dist-info/RECORD,,

@@ -1,0 +1,11 @@
+abraia/__init__.py,sha256=MfOuJzh3Q3K-8y2Ycd5aB0BzDTY7RPLEdrID86zHnhc,139
+abraia/abraia.py,sha256=cnnXnXZAzD0uchYDusLTEArtQfTNAKL6MquUR-j5GdE,2098
+abraia/client.py,sha256=4znuOdOA-eipSuj0bb66J3GqmGB-Aia_xwdVyD7H1U0,4424
+abraia/config.py,sha256=BkmiRNbEQ5c0ghwxXGvA6NzTkww5BYpyy0QLgBsZWa4,1602
+abraia-0.6.data/scripts/abraia,sha256=GpYmtneeA_inVzBVPlHC82SUpoXcInKjZRiisfsmq88,8255
+abraia-0.6.data/scripts/abraia.bat,sha256=HNHeOb7g_mF71oWQSUHqPd_UbZckeg7H-D7eNmqF_pc,81
+abraia-0.6.dist-info/LICENSE,sha256=DtYfrcBXSPpOCr6__KobWH-efO9JCX4cZu07NwGmw4I,1072
+abraia-0.6.dist-info/METADATA,sha256=JAAmORO3CKBkE5SCFZ8nUNWxB8ktAnKU5SqoMEb2d54,5470
+abraia-0.6.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+abraia-0.6.dist-info/top_level.txt,sha256=fKlMObLKke9SAbV1mtb_W2GXZ5GRy8b6YTC6mz0KwZ8,7
+abraia-0.6.dist-info/RECORD,,

@@ -1,0 +1,13 @@
+bioconda2biocontainer/__init__.py,sha256=eyz2-u0efrAar5vN8_HREmqYBpAhzsA47-NTf2wTwi4,339
+bioconda2biocontainer/biocontainer.py,sha256=Ul5-j3haIlY53PxiCHAVdKyunY_IQ8r64aEaIlkMOhI,2638
+bioconda2biocontainer/entry_point.py,sha256=7814upTZpQ5OQWIWVfM9zDBX_oVfQl7hd3tsB2nANlI,4153
+bioconda2biocontainer/entry_point_search.py,sha256=YH4U_p9w66SbR15mCsw8qXjZ8KubdZgLZ9IyFiIJKzg,1608
+bioconda2biocontainer/entry_point_update_cwl_docker.py,sha256=paOlBowikBkdjAJVkPcJXEQP7lJwOWWCL-wa2PMqvlc,1004
+bioconda2biocontainer/update_cwl_docker_image.py,sha256=wP7ICkpBYtiJibFwAsK6aYpptRbZAWwcJhmlibCkif4,3285
+bioconda2biocontainer-0.0.6.data/data/README.md,sha256=kcrIB1i6mdI5CFsbT5QvnuP4YXTvPNAI-9dN6ODVsOg,16641
+bioconda2biocontainer-0.0.6.dist-info/LICENSE,sha256=4dXeufGUNb6WU0Ayv3MCzp5gQhR-25Fpoif0ClmlJBM,961
+bioconda2biocontainer-0.0.6.dist-info/METADATA,sha256=XJr-F7GHnWGRWhxcmB9k74tQS91ZkT3Ew9HzmtT_7ok,17879
+bioconda2biocontainer-0.0.6.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+bioconda2biocontainer-0.0.6.dist-info/entry_points.txt,sha256=rRM4yqYb1779NRv3TrOjBoZXQp2cMH4GVxpVdJU1eoE,229
+bioconda2biocontainer-0.0.6.dist-info/top_level.txt,sha256=NKl5ZhP7yQ0FSpw6Sthgi890fnwzOCfnjm3AG9DJiW4,22
+bioconda2biocontainer-0.0.6.dist-info/RECORD,,

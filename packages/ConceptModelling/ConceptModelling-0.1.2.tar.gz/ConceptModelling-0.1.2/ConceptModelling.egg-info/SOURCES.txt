@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+ConceptModelling/__init__.py
+ConceptModelling/text_preprocessing.py
+ConceptModelling/thumbs_up_down.py
+ConceptModelling.egg-info/PKG-INFO
+ConceptModelling.egg-info/SOURCES.txt
+ConceptModelling.egg-info/dependency_links.txt
+ConceptModelling.egg-info/not-zip-safe
+ConceptModelling.egg-info/top_level.txt
+ConceptModelling/data/ar.affective.words.json
+ConceptModelling/data/en.affective.words.json
+ConceptModelling/data/es.affective.words.json
+ConceptModelling/tests/test_thumbs_up_down.py

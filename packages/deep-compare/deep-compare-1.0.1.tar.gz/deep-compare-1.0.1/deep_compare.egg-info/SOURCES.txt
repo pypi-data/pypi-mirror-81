@@ -1,0 +1,8 @@
+README.md
+setup.py
+deep_compare/__init__.py
+deep_compare/compare_variables.py
+deep_compare.egg-info/PKG-INFO
+deep_compare.egg-info/SOURCES.txt
+deep_compare.egg-info/dependency_links.txt
+deep_compare.egg-info/top_level.txt

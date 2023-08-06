@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+sopel_adminlist/__init__.py
+sopel_adminlist/adminlist/__init__.py
+sopel_plugins.adminlist.egg-info/PKG-INFO
+sopel_plugins.adminlist.egg-info/SOURCES.txt
+sopel_plugins.adminlist.egg-info/dependency_links.txt
+sopel_plugins.adminlist.egg-info/entry_points.txt
+sopel_plugins.adminlist.egg-info/requires.txt
+sopel_plugins.adminlist.egg-info/top_level.txt

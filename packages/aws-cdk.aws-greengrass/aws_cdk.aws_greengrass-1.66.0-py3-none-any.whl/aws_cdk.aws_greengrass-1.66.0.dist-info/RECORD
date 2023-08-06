@@ -1,0 +1,8 @@
+aws_cdk/aws_greengrass/__init__.py,sha256=I-B_PHTH8rPRpwRA4Hls8yKMB0yyVzuTMoHoz76YYg0,310431
+aws_cdk/aws_greengrass/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_greengrass/_jsii/__init__.py,sha256=_MrZMpYXGb257WmZU_50l7TiKRUB6VrlBn_FwX9SVCA,390
+aws_cdk/aws_greengrass/_jsii/aws-greengrass@1.66.0.jsii.tgz,sha256=7a71y1pxvVqtpj6lro_YnOrYK0o19rDxSJ_jwD3bOO0,96996
+aws_cdk.aws_greengrass-1.66.0.dist-info/METADATA,sha256=SdY8L60P5ZiHiBOlicLzL1eB-49HveQ5m2WnheKApIE,1665
+aws_cdk.aws_greengrass-1.66.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+aws_cdk.aws_greengrass-1.66.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_greengrass-1.66.0.dist-info/RECORD,,

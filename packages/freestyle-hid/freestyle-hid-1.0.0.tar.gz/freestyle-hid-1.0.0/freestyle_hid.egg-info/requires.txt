@@ -1,0 +1,13 @@
+construct
+
+[dev]
+mypy
+pre-commit
+setuptools_scm
+
+[hidapi]
+hidapi
+
+[tools]
+click
+click_log

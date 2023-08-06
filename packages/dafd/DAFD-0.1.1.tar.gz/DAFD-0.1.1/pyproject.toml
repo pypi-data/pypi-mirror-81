@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "DAFD"
+version = "0.1.1"
+description = "Python package for the library for DAFD."
+authors = ["Radhakrishna Sanka <rkrishnasanka@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+keras = "^2.4.3"
+tensorflow = "^2.3.0"
+scikit-learn = "^0.23.2"
+matplotlib = "^3.3.1"
+pandas = "^1.1.2"
+tqdm = "^4.48.2"
+
+
+[tool.poetry.dev-dependencies]
+black = {version = "^20.8b1", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0a5"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.dephell.main]
+from = {format = "poetry", path = "pyproject.toml"}
+to = {format = "setuppy", path = "setup.py"}

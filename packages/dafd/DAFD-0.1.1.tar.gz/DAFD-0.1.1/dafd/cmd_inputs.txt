@@ -1,0 +1,5 @@
+CONSTRAINTS
+regime=1:1
+DESIRED_VALS
+generation_rate=150
+droplet_size=150

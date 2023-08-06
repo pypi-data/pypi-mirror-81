@@ -1,0 +1,3 @@
+[console_scripts]
+drugwars = drugwars.__main__:main
+

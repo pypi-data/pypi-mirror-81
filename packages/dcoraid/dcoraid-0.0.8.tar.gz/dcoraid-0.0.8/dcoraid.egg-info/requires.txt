@@ -1,0 +1,5 @@
+appdirs
+dclab>=0.28.0
+pyqt5
+requests
+requests_toolbelt

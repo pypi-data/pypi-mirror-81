@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: wpdatautil
+Version: 0.0.0
+Summary: Utility functions for data processing
+Home-page: UNKNOWN
+Author: Data Util
+Author-email: user@users.nomail.github.com
+License: UNKNOWN
+Description: # wpdatautil
+        **wpdatautil** is a Python 3.8 package with specific reusable utility functions for data processing.
+Keywords: utilities
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

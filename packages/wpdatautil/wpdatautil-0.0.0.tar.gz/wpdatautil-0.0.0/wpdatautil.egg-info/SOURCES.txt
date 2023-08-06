@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+wpdatautil/__init__.py
+wpdatautil.egg-info/PKG-INFO
+wpdatautil.egg-info/SOURCES.txt
+wpdatautil.egg-info/dependency_links.txt
+wpdatautil.egg-info/top_level.txt

@@ -1,0 +1,124 @@
+#!python
+
+import os
+import re
+import time
+import json
+import socket
+import hashlib
+import getpass as gp
+import datetime as dt
+import argparse as ap
+import subprocess as sp
+import collections as col
+
+def main():
+    parser = ap.ArgumentParser()
+    parser.add_argument('-o', '--output-file',
+        help='Output provenance file')
+    parser.add_argument('-m', '--mask',
+        help='Comma separated list of environment variables to mask out')
+    parser.add_argument('command', nargs=ap.REMAINDER)
+    args = parser.parse_args()
+
+    if args.mask:
+        args.mask = args.mask.split(',')
+    else:
+        args.mask = list()
+    exe = which(args.command[0])
+    if exe is None:
+        exe = os.path.realpath(args.command[0])
+    cwd = os.getcwd()
+    start = time.time()
+    proc = sp.Popen(args.command)
+    while True:
+        proc.poll()
+        if proc.returncode is not None:
+            break
+    end = time.time()
+    P = {
+        'basename': os.path.basename(exe),
+        'dirname': os.path.dirname(exe),
+        'sha512': sha512file(exe),
+        'bytes': os.path.getsize(exe),
+        'command': args.command,
+        'command_str': sp.list2cmdline(args.command),
+        'pid': proc.pid,
+        'returncode': proc.returncode,
+        'start': start,
+        'start_date': dt.datetime.fromtimestamp(start).strftime('%Y-%m-%d'), 
+        'start_time': dt.datetime.fromtimestamp(start).strftime('%H:%M:%S'),
+        'end': end,
+        'end_date': dt.datetime.fromtimestamp(end).strftime('%Y-%m-%d'),
+        'end_time': dt.datetime.fromtimestamp(end).strftime('%H:%M:%S'),
+        'username': gp.getuser(),
+        'mtime': dt.datetime.fromtimestamp(os.path.getmtime(exe)).isoformat(),
+        'cwd': cwd,
+        'os': getOS(),
+        'cpu': getcpu(),
+        'hostname': socket.gethostname(),
+        'dist': getDistro(),
+        'elapsed': end-start,
+        'env': getenv(mask=args.mask)
+    }
+    if not args.output_file:
+        print(json.dumps(P, indent=2))
+    else:
+        args.output_file = os.path.expanduser(args.output_file)
+        with open(args.output_file, 'w') as fo:
+            fo.write(json.dumps(P, indent=2))
+
+def getDistro():
+    output = sp.check_output(['cat', '/etc/system-release']).strip()
+    return output.decode()
+
+def getOS():
+    output = sp.check_output(['uname', '-a']).strip()
+    return output.decode()
+
+def which(x):
+    for p in os.environ.get('PATH').split(os.pathsep):
+        p = os.path.join(p, x)
+        if os.path.exists(p):
+            return os.path.abspath(p)
+    return None
+
+def getcpu():
+    info = dict()
+    output = sp.check_output(['lscpu']).decode('utf-8').strip()
+    for line in output.split(os.linesep):
+        match = re.match('(.*):\s+(.*)', line)
+        if not match:
+            raise CPUInfoError('failed to parse line from lscpu output: "{0}"'.format(line))
+        k,v = match.groups()
+        info[k] = v
+    return info
+
+class CPUInfoError(Exception):
+    pass
+
+def sha512file(f):
+    f = os.path.expanduser(f)
+    with open(f, 'rb') as fo:
+        return hashlib.sha512(fo.read()).hexdigest()
+
+def getenv(mask=None, mask_file='~/.config/selfie/ignore'):
+    if not mask:
+        mask = list()
+    mask_file = os.path.expanduser(mask_file)
+    if os.path.exists(mask_file):
+        with open(mask_file) as fo:
+            mask.extend(fo.read().splitlines())
+    environ = dict()
+    for k,v in os.environ.items():
+        for pattern in mask:
+            if re.match(pattern, k):
+                v = '********'
+        environ[k] = v
+    return environ
+
+class CommandNotFound(Exception):
+    pass
+
+if __name__ == '__main__':
+    main()

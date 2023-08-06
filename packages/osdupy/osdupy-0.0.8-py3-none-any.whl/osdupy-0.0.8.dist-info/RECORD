@@ -1,0 +1,11 @@
+osdu/__init__.py,sha256=yQRt92Yxp3-b6ekEbH5LQIwI07bMok3Y1MRBRPVOdKA,20
+osdu/base.py,sha256=FMWoLo3j5il_zjf1aDJPosr_gWgWKqak2tyKBHrPfEI,391
+osdu/client.py,sha256=XBcAXZT3KiEUpYTHGFrrMjL8xmA-dVI7YUvxOVO963I,2467
+osdu/delivery.py,sha256=H6t1adJcSsqw91xf_56ij4mxPfijL7ztQQrEGH9yB6E,617
+osdu/search.py,sha256=d7DQzEWUjSOhylaCzAXYQizWXQpCRn8OpWspx6Pe8QY,3646
+osdu/storage.py,sha256=irINKZQ16z7LMmXWL4MtCV2HM2FxYe8yladLnySLCFQ,2402
+osdupy-0.0.8.dist-info/LICENSE,sha256=qan9ZNoTpQAAhjnHyzBh2PsT3-ncASf-2BuIa5gZP5U,1081
+osdupy-0.0.8.dist-info/METADATA,sha256=BLy4r2z8ZF7XADvr-OODPs9utxs5uC3RDBJahbxujpg,3043
+osdupy-0.0.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+osdupy-0.0.8.dist-info/top_level.txt,sha256=RvRYgIkQ5UrjT7vSYgjTWTiPaC9f8cysn6kPYH4Ll4c,5
+osdupy-0.0.8.dist-info/RECORD,,

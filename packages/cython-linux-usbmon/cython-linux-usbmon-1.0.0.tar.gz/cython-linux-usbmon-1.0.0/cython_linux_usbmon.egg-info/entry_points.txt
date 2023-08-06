@@ -1,0 +1,3 @@
+[console_scripts]
+cython-usbmon-capture = linux_usbmon.capture:main
+

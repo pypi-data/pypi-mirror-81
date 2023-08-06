@@ -1,0 +1,8 @@
+click
+usbmon-tools>=2.dev
+
+[dev]
+cython
+mypy
+pre-commit
+setuptools_scm

@@ -1,0 +1,11 @@
+geometry_tools/__init__.py,sha256=M6JMiqRmJJh_YGsimH3321KDr0CKiOKZzlwOI4AOKiQ,47
+geometry_tools/geometry_tools.py,sha256=ysDUS6KwZTjOiSUeCuyZrqRPRf9QvBLXqJwWRylvM0E,3250
+neuromorpho-0.0.1b0.data/scripts/neuromorpho,sha256=hdrelFq_aDRBMlSjiUD4O8kRjbXuDOB5eYjYRzrOmiE,11
+neuromorpho-0.0.1b0.dist-info/DESCRIPTION.rst,sha256=TsQgsBsvxkxVQEOLT2MwKpypc7hKBJrZ6MXgAI8fhbs,283
+neuromorpho-0.0.1b0.dist-info/METADATA,sha256=of0l58-ZsG0jIgdwJrYj44AqSG40wkWsN95-zMLeUXU,691
+neuromorpho-0.0.1b0.dist-info/RECORD,,
+neuromorpho-0.0.1b0.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+neuromorpho-0.0.1b0.dist-info/metadata.json,sha256=ykNt3cKSH7N6OHGbaR1aOnmouQHU84nQLBbIgdtbSS0,562
+neuromorpho-0.0.1b0.dist-info/top_level.txt,sha256=9yhaUNZZoId5sRzLwkujp1_u2ZgKTjmixQ7HgVAlUF8,28
+rest_wrapper/__init__.py,sha256=yXUIYaCFHxfDvhQ84asaiRa28TBpc5o1FtsPGCilIHM,45
+rest_wrapper/rest_wrapper.py,sha256=gGhjLyzzKGyzPNs6ExJ-yceHa28a2IsVfWoCluUGbv0,8731

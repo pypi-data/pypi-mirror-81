@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        ckandf=ckandf.cli:retrieve_dataset
+    

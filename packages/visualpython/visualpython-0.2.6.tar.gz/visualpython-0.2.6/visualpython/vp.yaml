@@ -1,0 +1,85 @@
+Type: Jupyter Notebook Extension
+Name: VisualPython
+Description: VisualPython(비주얼 파이썬) 데모버전.
+Link: README.md
+Icon: resource/logo.png
+Main: src/main.js
+Compatibility: 4.x, 5.x, 6.x
+# Parameters:
+# - name: vp.number_sections
+#   description: Automatically number notebook's sections
+#   input_type: checkbox
+#   default: true
+# - name: vp.threshold
+#   description: Maximum level of nested sections to display on the tables of contents
+#   input_type: number
+#   min: -1
+#   step: 1
+#   default: 4
+# - name: vp.title_sidebar
+#   description: Default title used for ToC sidebar/window (can also be set per-notebook)
+#   default: 'Contents'
+# - name: vp.toc_window_display
+#   description: Display toc window/sidebar at startup
+#   input_type: checkbox
+#   default: false
+# - name: vp.sideBar
+#   description: Display Table of Contents as a sidebar (otherwise as a floating window)
+#   input_type: checkbox
+#   default: true
+# - name: vp.markTocItemOnScroll
+#   description: Mark toc item of header in viewport when scrolling
+#   input_type: checkbox
+#   default: true
+# - name: vp.widenNotebook
+#   description: Widen the display area to fit the browser window (may be useful with sidebar option)
+#   input_type: checkbox
+#   default: true
+# - name: vp.navigate_menu
+#   description: Display Table of Contents as a navigation menu
+#   input_type: checkbox
+#   default: true
+# - name: vp.moveMenuLeft
+#   description: Move notebook's title and menu on the left instead of being centered -- This provides a better look when the toc/sidebar is present
+#   input_type: checkbox
+#   default: true
+# - name: vp.collapse_to_match_collapsible_headings
+#   input_type: checkbox
+#   default: false
+#   description: |
+#     Collapse/uncollapse ToC sections when the collapsible_headings nbextension
+#     is used to collapse/uncollapse sections in the notebook. For the inverse
+#     behaviour, see collapsible_headings' configuration
+
+# - name: vp.colors.hover_highlight
+#   input_type: color
+#   description: Hover color in toc
+#   default: "#DAA520"
+# - name: vp.colors.on_scroll
+#   input_type: color
+#   description: Color of highlight mark on scrolling
+#   default: '#2447f0'
+# - name: vp.colors.selected_highlight
+#   input_type: color
+#   description: Color of sections with selected elements
+#   default: "#FFD700"
+# - name: vp.colors.running_highlight
+#   input_type: color
+#   description: Color of sections with running cells
+#   default: "#FF0000"
+# - name: vp.colors.wrapper_background
+#   input_type: color
+#   description: Color of wrapper window background
+#   default: "#FFFFFF"
+# - name: vp.colors.sidebar_border
+#   input_type: color
+#   description: Color of sidebar border
+#   default: "#EEEEEE"
+# - name: vp.colors.navigate_text
+#   input_type: color
+#   description: Color of navigate text
+#   default: "#333333"
+# - name: vp.colors.navigate_num
+#   input_type: color
+#   description: Color of navigate number
+#   default: "#000000"

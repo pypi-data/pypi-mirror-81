@@ -1,0 +1,15 @@
+flask
+flask-sqlalchemy
+flask-migrate
+flask-jwt-extended
+flask-mail
+flask-apispec
+flask-marshmallow
+flask-shell-ipython
+marshmallow-sqlalchemy
+python-dotenv
+celery
+redis
+gunicorn
+astor
+zemfrog

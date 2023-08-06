@@ -1,0 +1,11 @@
+kpireport_jenkins/__init__.py,sha256=RyLtCXftlnOWkkfHtJJYqbbfU9l1GvG89XDMv9kroBA,145
+kpireport_jenkins/build_summary.py,sha256=io8s26W1tbL1TALB0RV5ax0k2jva2LrI70BzQiSaK8Y,3523
+kpireport_jenkins/datasource.py,sha256=9-YkhRQHm9vglOVDImCl9QFwk3Q9jLpASw6ZADy_KJ4,3182
+kpireport_jenkins/templates/jenkins_build_summary.html,sha256=qoHs95TzIhpUE8MzHS8RdkLS_MRtcgcMc31SG6vE7X4,1690
+kpireport_jenkins/templates/jenkins_build_summary.md,sha256=bvMSZMBzXKfHHDKKKZLTfIf6cf2LEKhFeXbCY051l1g,137
+kpireport_jenkins/templates/jenkins_build_summary.slack,sha256=i6WE8wthbgPwTA4E-72sME5EeXIgfilzVB6VlcTj_C8,494
+kpireport_jenkins-0.0.1.dist-info/METADATA,sha256=dHf_7vab-21VWORMfd-9cntueS-400gceRSeX23F0Ms,274
+kpireport_jenkins-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+kpireport_jenkins-0.0.1.dist-info/entry_points.txt,sha256=hKcHQTv1KZ08LoJ3mnjKOwhyaAgzL_Rs4pxMiF-uJDI,150
+kpireport_jenkins-0.0.1.dist-info/top_level.txt,sha256=5MrW1H9ozkb6WsK75mLD5AeHHD6F6WVOBYRLUwZaoGM,18
+kpireport_jenkins-0.0.1.dist-info/RECORD,,

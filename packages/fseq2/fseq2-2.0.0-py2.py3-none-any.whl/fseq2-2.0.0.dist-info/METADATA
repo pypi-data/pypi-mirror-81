@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: fseq2
+Version: 2.0.0
+Summary: A feature density estimator for high-throughput sequence tags.
+Home-page: https://github.com/Boyle-Lab/F-Seq2
+Author: Nanxiang Zhao (Samuel)
+Author-email: samzhao@umich.edu
+License: GNU General Public License v3
+Keywords: fseq2
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Requires-Dist: numpy
+Requires-Dist: scipy (>=0.13)
+Requires-Dist: pandas (>=0.24)
+Requires-Dist: statsmodels
+Requires-Dist: KDEpy
+Requires-Dist: pybedtools
+Requires-Dist: pyBigWig
+Requires-Dist: h5py
+Requires-Dist: matplotlib
+
+UNKNOWN
+
+

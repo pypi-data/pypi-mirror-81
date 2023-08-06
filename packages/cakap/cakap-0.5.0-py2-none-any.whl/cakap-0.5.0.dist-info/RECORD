@@ -1,0 +1,9 @@
+cakap/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cakap/base.py,sha256=_0HwxvV_sPPtzKENRIUrIlWiU-LJMfeND__LIMdmhiw,5584
+cakap/decorators.py,sha256=ani9vx76K1w1y9k_5Ozfhh72p3dhHlXFD4vhjJAWTj0,2435
+cakap/filters.py,sha256=PYJwdNkqKUekIIGwYa0RPbmctNzV70Db47HZ-Iv1mMo,1953
+cakap/utils.py,sha256=RPbnEWNEkOqQIDFRlwpes0D8tS9_0XC4cKUDf__Us9U,1498
+cakap-0.5.0.dist-info/METADATA,sha256=fk1VyVr3viTtob4S-GdotMe86m9m70VuJeWWG39ETPY,771
+cakap-0.5.0.dist-info/WHEEL,sha256=DgcoKJDfsYFbFLUrngH-aDjJZvn8UqGD3gZyEvGv0dg,92
+cakap-0.5.0.dist-info/top_level.txt,sha256=qTHb0CM-B_X22UZuX3i9vWmQ1YeNw3209DlMRVzEtcU,6
+cakap-0.5.0.dist-info/RECORD,,

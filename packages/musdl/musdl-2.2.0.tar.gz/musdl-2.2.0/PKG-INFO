@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: musdl
+Version: 2.2.0
+Summary: Pure Python score downloader for Musescore.
+Home-page: https://github.com/ongyx/musdl
+Author: Ong Yong Xin
+Author-email: ongyongxin2020+github@gmail.com

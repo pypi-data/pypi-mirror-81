@@ -1,0 +1,14 @@
+mautrix>=0.7.9,<0.8
+aiohttp>=3,<4
+SQLAlchemy>=1,<2
+alembic>=1,<2
+commonmark>=0.9,<1
+ruamel.yaml>=0.15.35,<0.17
+attrs>=18.1.0
+bcrypt>=3,<4
+packaging>=10
+
+click>=7,<8
+colorama>=0.4,<0.5
+PyInquirer>=1,<2
+jinja2>=2,<3

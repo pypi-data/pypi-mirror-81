@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ifra-sdk
+Version: 1.0.6
+Summary: Client library of Python, connect to IFRA IIoT Platform.
+Home-page: https://github.com/ifraiot/ifra-python-sdk
+Author: IFRA IIoT
+Author-email: support@ifrasoft.com
+License: UNKNOWN
+Keywords: ifra,iot,mqtt
+Platform: UNKNOWN
+Requires-Dist: paho-mqtt (==1.2.3)
+Requires-Dist: requests
+Requires-Dist: kpn-senml (==1.0.1)
+
+UNKNOWN
+
+

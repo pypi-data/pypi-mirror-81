@@ -1,0 +1,4 @@
+cm_psc_pkg_allongoldberg.egg-info/PKG-INFO
+cm_psc_pkg_allongoldberg.egg-info/SOURCES.txt
+cm_psc_pkg_allongoldberg.egg-info/dependency_links.txt
+cm_psc_pkg_allongoldberg.egg-info/top_level.txt

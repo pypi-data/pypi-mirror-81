@@ -1,0 +1,5 @@
+beautifulsoup4
+pandas
+p_tqdm
+my_fake_useragent
+requests

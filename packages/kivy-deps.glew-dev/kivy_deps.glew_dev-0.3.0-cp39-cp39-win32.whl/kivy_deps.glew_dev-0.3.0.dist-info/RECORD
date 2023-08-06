@@ -1,0 +1,11 @@
+kivy_deps.glew_dev-0.3.0.data/data/include/GL/eglew.h,sha256=_AAwSWL_AsVaF7ZpcDSaPhiMK02-qmAeh8mliQiQwiE,124180
+kivy_deps.glew_dev-0.3.0.data/data/include/GL/glew.h,sha256=eRWta1QaySyDEqHYTaIMwxODIaCwl1rJWcFYkd8gjwM,1333506
+kivy_deps.glew_dev-0.3.0.data/data/include/GL/glxew.h,sha256=nkFu1Sjs94Eq_dwfdSPEcslqAe2Ea8Po6g8f0Ky__nA,77226
+kivy_deps.glew_dev-0.3.0.data/data/include/GL/wglew.h,sha256=WREiAIGp-mhGfhvO_GPqfJRbc8sYuDVQmpo4W5i3UE4,65582
+kivy_deps.glew_dev-0.3.0.data/data/libs/glew32.lib,sha256=kV__QWXCInIIMvtJzZOj8XHjNUmRWwT6ChEMb42CsJc,769106
+kivy_deps.glew_dev-0.3.0.data/purelib/kivy_deps/__init__.py,sha256=h-QyvMVzDNpT3jyVskcSbUVFXxGCRxieFPrvTveZG9k,64
+kivy_deps.glew_dev-0.3.0.data/purelib/kivy_deps/glew_dev/__init__.py,sha256=oU0kFhTFg4O6qOZ4GYRNRMJRYqFa_SnIah_y0KsINzQ,142
+kivy_deps.glew_dev-0.3.0.dist-info/METADATA,sha256=FHOQbQUbF9ALAQFflydleJi0ZPkfwLxeLUEA4TjUgig,237
+kivy_deps.glew_dev-0.3.0.dist-info/WHEEL,sha256=lcspivZQS1dFTcDXXp8y2E13an7N4W7xLvllc3Am81g,101
+kivy_deps.glew_dev-0.3.0.dist-info/top_level.txt,sha256=YMwhIe4C46UWpn5ggwslPdp7LkNw5RbCnvMcqI6e78Q,10
+kivy_deps.glew_dev-0.3.0.dist-info/RECORD,,

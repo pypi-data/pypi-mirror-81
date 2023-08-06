@@ -1,0 +1,10 @@
+asyncpokepy/__init__.py,sha256=MFxxh11-W9p6Zd4kl3VgoOrb6R4ACJxiw5cro1a8HwM,1347
+asyncpokepy/ahttp.py,sha256=aon0aHY-iwGFDZglKr--JcwFP3vbxeKm8oeVNDsj6fY,2711
+asyncpokepy/client.py,sha256=RtiQUF6-fR6d7nErs3IkdHKQmfiaB7CS6_bMw6JXwL4,2191
+asyncpokepy/exceptions.py,sha256=MMFYYSHYPXtjswTxuhrTt9Qot4aP3cT5gVyhIprpkdU,3591
+asyncpokepy/objects.py,sha256=F988zJ5m617G1q660P2_MVONPQs1oKWLGl_dbbuqxLw,1253
+asyncpokepy-0.1.3.dist-info/LICENSE,sha256=v5RT_rPH2h0XWjO7-lVJSgQSxokgRbrj4ienbx8_8gE,1076
+asyncpokepy-0.1.3.dist-info/METADATA,sha256=yaSPNTUfeEMKl8X-ngaHM1y-pEruPWs6tcqJnmd4SW8,2508
+asyncpokepy-0.1.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+asyncpokepy-0.1.3.dist-info/top_level.txt,sha256=ERGuaQf-ehDJrsaQKVCGCu0dNKaTYy2F_Yekw3JmTW8,12
+asyncpokepy-0.1.3.dist-info/RECORD,,

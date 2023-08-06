@@ -1,0 +1,11 @@
+arcface/ArcFace.py,sha256=Gosi_bHSB4hqtE6WeSTmGWMBKJN49cWmbHAGbvorPOA,3305
+arcface/__init__.py,sha256=8-2jeyl6DH8hWHarB_YokzlCGqFgUyRFXkSNIOcR_so,80
+arcface/lib/__init__.py,sha256=jO4obMLmAQ903DDLnfCLQaKi3_pkVeERllqTK4p-PA4,126
+arcface/lib/layers.py,sha256=0NLC0KufOb5eYPRbElj18HahXBb1xhDtClBBXO_dioo,3036
+arcface/lib/models.py,sha256=1OFVXvH_yYQMJrn6VxzysjvqSA9Wkq0XrpbmIUCc8Fw,4264
+arcface/lib/utils.py,sha256=41Wg6WLyHHvMKLBYB0vDFIenOvF9pO1C5X6yPqx5184,2436
+arcface-0.0.2.dist-info/LICENSE,sha256=b8nnCcy_4Nd_v_okJ6mDKCvi64jkexzbSfIag7TR5mU,13827
+arcface-0.0.2.dist-info/METADATA,sha256=-bQOtbyp8NcwrfA9gBBEsqXnsK3RKHKRT_mQkEyvz40,2963
+arcface-0.0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+arcface-0.0.2.dist-info/top_level.txt,sha256=2h4NG_kERRqJLZSzkcPCHzUbmiiHDCf37Pn-Bl_oAMY,8
+arcface-0.0.2.dist-info/RECORD,,

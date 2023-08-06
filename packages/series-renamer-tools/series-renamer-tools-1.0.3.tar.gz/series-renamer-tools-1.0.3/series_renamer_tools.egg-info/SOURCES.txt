@@ -1,0 +1,10 @@
+README.md
+setup.py
+series_renamer_tools.egg-info/PKG-INFO
+series_renamer_tools.egg-info/SOURCES.txt
+series_renamer_tools.egg-info/dependency_links.txt
+series_renamer_tools.egg-info/entry_points.txt
+series_renamer_tools.egg-info/requires.txt
+series_renamer_tools.egg-info/top_level.txt
+src/__init__.py
+src/main.py

@@ -1,0 +1,6 @@
+addendum
+duplex
+embeddings
+indexer
+storage
+web

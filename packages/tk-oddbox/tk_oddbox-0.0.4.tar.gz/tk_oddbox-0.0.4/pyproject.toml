@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "tk_oddbox"
+version = "0.0.4"
+description = "Odd tkinter utilities, including image menu button"
+authors = ["Andrew Allaire <andrew.allaire@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.5"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

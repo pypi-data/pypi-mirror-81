@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: search-repo
+Version: 0.2.2
+Summary: Search for a github repo
+Home-page: https://github.com/Tadaboody/search_repo
+License: MIT
+Author: Tomer Keren
+Author-email: tomer.keren.dev@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: aiohttp (>=3.6.2,<4.0.0)
+Project-URL: Repository, https://github.com/Tadaboody/search_repo
+Description-Content-Type: text/markdown
+
+# Search Repo 
+## Finds the most relevant repo in the command line
+[![PyPI version](https://badge.fury.io/py/search-repo.svg)](https://badge.fury.io/py/search-repo) [![Downloads](https://pepy.tech/badge/search-repo)](https://pepy.tech/project/search-repo) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+---
+
+### Installation 
+```sh
+pip install search_repo
+```
+
+### Usage
+```bash
+# Returns the link to clone the repo
+$ search_repo cppcoro
+git@github.com:lewissbaker/cppcoro
+
+# Easily used with git clone!
+$ git clone $(search_repo cppcoro)
+```
+

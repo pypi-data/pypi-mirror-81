@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: quadratum
+Version: 0.2.1
+Summary: Additional torchvision image transforms for practical usage.
+Home-page: https://github.com/theeluwin/pytorch-quadratum
+Author: Jamie Seol
+Author-email: theeluwin@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: setuptools
+Requires-Dist: numpy
+Requires-Dist: scikit-image
+Requires-Dist: opencv-python
+Requires-Dist: torch
+Requires-Dist: torchvision
+
+UNKNOWN
+
+

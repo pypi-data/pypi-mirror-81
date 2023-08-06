@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: gsheets-plot
+Version: 0.2.1
+Summary: Plot data from Google Sheets
+Home-page: https://github.com/akhipachi/gsheets_plot
+Author: Akhilesh Pachipulusu
+Author-email: p.akhilesh99@gmail.com
+License: MIT
+Description: Fetch Google sheets and plot the required columns
+Keywords: google sheets plot
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3.7

@@ -1,0 +1,17 @@
+README.md
+setup.py
+spacyEntityLinker/DatabaseConnection.py
+spacyEntityLinker/EntityCandidates.py
+spacyEntityLinker/EntityClassifier.py
+spacyEntityLinker/EntityCollection.py
+spacyEntityLinker/EntityElement.py
+spacyEntityLinker/EntityLinker.py
+spacyEntityLinker/TermCandidate.py
+spacyEntityLinker/TermCandidateExtractor.py
+spacyEntityLinker/__init__.py
+spacyEntityLinker/__main__.py
+spacy_entity_linker.egg-info/PKG-INFO
+spacy_entity_linker.egg-info/SOURCES.txt
+spacy_entity_linker.egg-info/dependency_links.txt
+spacy_entity_linker.egg-info/top_level.txt
+spacy_entity_linker.egg-info/zip-safe

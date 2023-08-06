@@ -1,0 +1,9 @@
+README.md
+setup.py
+seqalign/__init__.py
+seqalign/seqalign.py
+seqalign.egg-info/PKG-INFO
+seqalign.egg-info/SOURCES.txt
+seqalign.egg-info/dependency_links.txt
+seqalign.egg-info/requires.txt
+seqalign.egg-info/top_level.txt

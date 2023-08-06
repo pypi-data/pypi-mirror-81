@@ -1,0 +1,8 @@
+ray<1.0.0,>=0.8
+typer
+
+[:python_version < "3.7"]
+dataclasses<0.7,>=0.6
+
+[:python_version < "3.8"]
+importlib_metadata>=0.20

@@ -1,0 +1,9 @@
+ipmi/__init__.py,sha256=TfDEIMj8LsT9wyZq8oDwoBYU4h-1ydO343ivMbLlU6Y,78
+ipmi/ipmi.py,sha256=3-wu-C6NJzb-rEG6F0U7pae01VaxPIj2r7E_y6VwwUM,4562
+ipmi/ipmicli.py,sha256=0GI30DPANV6JSopoXvs9ZT14UueAbh79T0lazGyPD34,5984
+ipmitools-0.4.dist-info/LICENSE,sha256=H7Go8y8lqc0GohKpTBYOo1_q8ILu1dwHS6Kl6vYBBl8,11309
+ipmitools-0.4.dist-info/METADATA,sha256=qIJ0p2vYYybGIlPQEu886RwSTWdZSbpFBUFCay8QTSE,351
+ipmitools-0.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+ipmitools-0.4.dist-info/entry_points.txt,sha256=Z3bnoe0d0r4lE9HmYPRR8oeKRRxXe3JrHiSH6z0ySy8,51
+ipmitools-0.4.dist-info/top_level.txt,sha256=hhRPWRZCYVCPzO17un6d9V7C--hESuhINEWHicdewO4,5
+ipmitools-0.4.dist-info/RECORD,,

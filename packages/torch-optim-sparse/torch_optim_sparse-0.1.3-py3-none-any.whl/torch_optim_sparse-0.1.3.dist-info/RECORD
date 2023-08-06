@@ -1,0 +1,9 @@
+torch_optim_sparse/__init__.py,sha256=TqLD_TOlaUmvEwrpsRrrLcq5atPcEQJgyGPzWlxEVjE,1609
+torch_optim_sparse/sparser_adam.py,sha256=hFtQUEG8S-UjZT-2JgFG4M6CYMCc07M6X0ka388Wnmo,4839
+torch_optim_sparse/sparser_adamw.py,sha256=lajEmRj-5ZrGf2bxXOzx9ysmRic6-BKYni4Hkixit_0,4927
+torch_optim_sparse/sparser_sgd.py,sha256=KpS-kgObjJCBZCnwj1dv6bNJhr687QHLq9UIJ64uriA,2337
+torch_optim_sparse/sparser_sgdw.py,sha256=Cbz1wu_eRWPivvfZpHycU1VgUBcOgACgynKN845DErw,2279
+torch_optim_sparse-0.1.3.dist-info/LICENSE.md,sha256=SOClzQNYXSZPgt-DsQ2DLdLjFGxtG3g84m9df_qtHCM,1061
+torch_optim_sparse-0.1.3.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+torch_optim_sparse-0.1.3.dist-info/METADATA,sha256=ub9DXVJdGz229cxTL9majoxkGAgI4cm8Yt0MaRkq4d4,395
+torch_optim_sparse-0.1.3.dist-info/RECORD,,

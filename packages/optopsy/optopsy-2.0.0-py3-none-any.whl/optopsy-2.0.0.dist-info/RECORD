@@ -1,0 +1,11 @@
+optopsy/__init__.py,sha256=mXb4sq5Y0rn9MvZGzFG-xNHtsX7K-azBxFNmG3co7mI,51
+optopsy/checks.py,sha256=9J9atv44sSOrpEuq1v9bpo_TsTe_IIepNE6Kjo-3qh8,2272
+optopsy/core.py,sha256=NuWKQsstBc_hr26rDg49iiEKfK4bP2P1NLsmdncKWjI,4607
+optopsy/datafeeds.py,sha256=URpZIM0LOB9BL8NPBujHvJS2F4iqdljzpafm0rN57kc,3148
+optopsy/definitions.py,sha256=oHKZyN-yGkc70omwyFiwedqqY2BXGnj4WrkXGMjm8iE,2537
+optopsy/strategies.py,sha256=q_t7pIUW8yIWAGszzPPe73LBUHiD3nd1BmMjo8bvtNo,4268
+optopsy-2.0.0.dist-info/LICENSE,sha256=N0P3pKtRMvfb64jmgJdlerg3TnS0a2QC776AzPsbZIg,35128
+optopsy-2.0.0.dist-info/METADATA,sha256=0IGFvIL73gIjwHoGkWgAPUojFQvGvWoYzr2VqFrlWDc,13614
+optopsy-2.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+optopsy-2.0.0.dist-info/top_level.txt,sha256=oLmLYQldjOXuXCP0Tzi7HFJmG8SyKNZ169Nz5B5fBAQ,8
+optopsy-2.0.0.dist-info/RECORD,,

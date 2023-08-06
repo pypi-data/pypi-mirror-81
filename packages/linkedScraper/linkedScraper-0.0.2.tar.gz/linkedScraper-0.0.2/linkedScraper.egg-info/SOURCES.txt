@@ -1,0 +1,10 @@
+README.md
+setup.py
+linkedScraper/__init__.py
+linkedScraper/chromedriver
+linkedScraper/scraper.py
+linkedScraper.egg-info/PKG-INFO
+linkedScraper.egg-info/SOURCES.txt
+linkedScraper.egg-info/dependency_links.txt
+linkedScraper.egg-info/requires.txt
+linkedScraper.egg-info/top_level.txt

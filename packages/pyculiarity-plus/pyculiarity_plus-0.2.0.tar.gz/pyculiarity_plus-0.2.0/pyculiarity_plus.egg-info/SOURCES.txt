@@ -1,0 +1,14 @@
+setup.py
+pyculiarity_plus/__init__.py
+pyculiarity_plus/detect_anoms.py
+pyculiarity_plus/detect_ts.py
+pyculiarity_plus.egg-info/PKG-INFO
+pyculiarity_plus.egg-info/SOURCES.txt
+pyculiarity_plus.egg-info/dependency_links.txt
+pyculiarity_plus.egg-info/requires.txt
+pyculiarity_plus.egg-info/top_level.txt
+pyculiarity_plus/seasonal/__init__.py
+pyculiarity_plus/seasonal/periodogram.py
+pyculiarity_plus/seasonal/seasonal.py
+pyculiarity_plus/seasonal/trend.py
+pyculiarity_plus/seasonal/version.py

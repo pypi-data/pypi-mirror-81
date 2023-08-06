@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: crawler_toolz
+Version: 0.2.2.1
+Summary: Proxy rotation with PostgreSQL
+Home-page: https://github.com/goldcvt/crawler_tools
+Author: Leo
+Author-email: thegoldcat5@gmail.com
+License: GNU General Public License v3.0
+Download-URL: https://github.com/goldcvt/archive/crawler_tools/v_0.2.2.1.tar.gz
+Description: UNKNOWN
+Keywords: scraping,web-scraping,PostgreSQL
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.6

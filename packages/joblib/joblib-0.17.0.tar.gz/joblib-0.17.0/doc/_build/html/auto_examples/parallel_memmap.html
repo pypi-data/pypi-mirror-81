@@ -1,0 +1,312 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NumPy memmap in joblib.Parallel &#8212; joblib 0.16.0 documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/gallery.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/gallery-binder.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/gallery-dataframe.css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Improving I/O using compressors" href="compressors_comparison.html" />
+    <link rel="prev" title="Serialization of un-picklable objects" href="serialization_and_wrappers.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="sphx-glr-download-link-note admonition note">
+<p class="admonition-title">Note</p>
+<p>Click <a class="reference internal" href="#sphx-glr-download-auto-examples-parallel-memmap-py"><span class="std std-ref">here</span></a>     to download the full example code</p>
+</div>
+<div class="sphx-glr-example-title section" id="numpy-memmap-in-joblib-parallel">
+<span id="sphx-glr-auto-examples-parallel-memmap-py"></span><h1>NumPy memmap in joblib.Parallel<a class="headerlink" href="#numpy-memmap-in-joblib-parallel" title="Permalink to this headline">¶</a></h1>
+<p>This example illustrates some features enabled by using a memory map
+(<a class="reference external" href="https://numpy.org/doc/stable/reference/generated/numpy.memmap.html#numpy.memmap" title="(in NumPy v1.19)"><code class="xref py py-class docutils literal notranslate"><span class="pre">numpy.memmap</span></code></a>) within <a class="reference internal" href="../generated/joblib.Parallel.html#joblib.Parallel" title="joblib.Parallel"><code class="xref py py-class docutils literal notranslate"><span class="pre">joblib.Parallel</span></code></a>. First, we show that
+dumping a huge data array ahead of passing it to <a class="reference internal" href="../generated/joblib.Parallel.html#joblib.Parallel" title="joblib.Parallel"><code class="xref py py-class docutils literal notranslate"><span class="pre">joblib.Parallel</span></code></a>
+speeds up computation. Then, we show the possibility to provide write access to
+original data.</p>
+<div class="section" id="speed-up-processing-of-a-large-data-array">
+<h2>Speed up processing of a large data array<a class="headerlink" href="#speed-up-processing-of-a-large-data-array" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>We create a large data array for which the average is computed for several
+slices.</p>
+</div></blockquote>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+
+<a href="https://numpy.org/doc/stable/reference/generated/numpy.memmap.html#numpy.memmap" title="numpy.memmap" class="sphx-glr-backref-module-numpy sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">data</span></a> <span class="o">=</span> <a href="https://numpy.org/doc/stable/reference/random/generated/numpy.random.random.html#numpy.random.random" title="numpy.random.random" class="sphx-glr-backref-module-numpy-random sphx-glr-backref-type-py-function"><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">random</span></a><span class="p">((</span><span class="nb">int</span><span class="p">(</span><span class="mf">1e7</span><span class="p">),))</span>
+<a href="https://docs.python.org/3/library/functions.html#int" title="builtins.int" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">window_size</span></a> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="mf">5e5</span><span class="p">)</span>
+<a href="https://docs.python.org/3/library/stdtypes.html#list" title="builtins.list" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">slices</span></a> <span class="o">=</span> <span class="p">[</span><span class="nb">slice</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">start</span> <span class="o">+</span> <a href="https://docs.python.org/3/library/functions.html#int" title="builtins.int" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">window_size</span></a><span class="p">)</span>
+          <span class="k">for</span> <span class="n">start</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <a href="https://docs.python.org/3/library/functions.html#int" title="builtins.int" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">data</span><span class="o">.</span><span class="n">size</span></a> <span class="o">-</span> <a href="https://docs.python.org/3/library/functions.html#int" title="builtins.int" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">window_size</span></a><span class="p">,</span> <span class="nb">int</span><span class="p">(</span><span class="mf">1e5</span><span class="p">))]</span>
+</pre></div>
+</div>
+<p>The <code class="docutils literal notranslate"><span class="pre">slow_mean</span></code> function introduces a <a class="reference external" href="https://docs.python.org/3/library/time.html#time.sleep" title="(in Python v3.8)"><code class="xref py py-func docutils literal notranslate"><span class="pre">time.sleep()</span></code></a> call to simulate a
+more expensive computation cost for which parallel computing is beneficial.
+Parallel may not be beneficial for very fast operation, due to extra overhead
+(workers creations, communication, etc.).</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">time</span>
+
+
+<span class="k">def</span> <span class="nf">slow_mean</span><span class="p">(</span><a href="https://numpy.org/doc/stable/reference/generated/numpy.memmap.html#numpy.memmap" title="numpy.memmap" class="sphx-glr-backref-module-numpy sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">data</span></a><span class="p">,</span> <span class="n">sl</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Simulate a time consuming processing.&quot;&quot;&quot;</span>
+    <a href="https://docs.python.org/3/library/time.html#time.sleep" title="time.sleep" class="sphx-glr-backref-module-time sphx-glr-backref-type-py-function"><span class="n">time</span><span class="o">.</span><span class="n">sleep</span></a><span class="p">(</span><span class="mf">0.01</span><span class="p">)</span>
+    <span class="k">return</span> <a href="https://numpy.org/doc/stable/reference/generated/numpy.memmap.html#numpy.memmap" title="numpy.memmap" class="sphx-glr-backref-module-numpy sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">data</span></a><span class="p">[</span><span class="n">sl</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>First, we will evaluate the sequential computing on our problem.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><a href="https://docs.python.org/3/library/functions.html#float" title="builtins.float" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">tic</span></a> <span class="o">=</span> <a href="https://docs.python.org/3/library/time.html#time.time" title="time.time" class="sphx-glr-backref-module-time sphx-glr-backref-type-py-function"><span class="n">time</span><span class="o">.</span><span class="n">time</span></a><span class="p">()</span>
+<a href="https://docs.python.org/3/library/stdtypes.html#list" title="builtins.list" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">results</span></a> <span class="o">=</span> <span class="p">[</span><span class="n">slow_mean</span><span class="p">(</span><a href="https://numpy.org/doc/stable/reference/generated/numpy.memmap.html#numpy.memmap" title="numpy.memmap" class="sphx-glr-backref-module-numpy sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">data</span></a><span class="p">,</span> <span class="n">sl</span><span class="p">)</span> <span class="k">for</span> <span class="n">sl</span> <span class="ow">in</span> <a href="https://docs.python.org/3/library/stdtypes.html#list" title="builtins.list" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">slices</span></a><span class="p">]</span>
+<a href="https://docs.python.org/3/library/functions.html#float" title="builtins.float" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">toc</span></a> <span class="o">=</span> <a href="https://docs.python.org/3/library/time.html#time.time" title="time.time" class="sphx-glr-backref-module-time sphx-glr-backref-type-py-function"><span class="n">time</span><span class="o">.</span><span class="n">time</span></a><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">Elapsed time computing the average of couple of slices </span><span class="si">{:.2f}</span><span class="s1"> s&#39;</span>
+      <span class="o">.</span><span class="n">format</span><span class="p">(</span><a href="https://docs.python.org/3/library/functions.html#float" title="builtins.float" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">toc</span></a> <span class="o">-</span> <a href="https://docs.python.org/3/library/functions.html#float" title="builtins.float" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">tic</span></a><span class="p">))</span>
+</pre></div>
+</div>
+<p class="sphx-glr-script-out">Out:</p>
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>Elapsed time computing the average of couple of slices 1.09 s
+</pre></div>
+</div>
+<p><a class="reference internal" href="../generated/joblib.Parallel.html#joblib.Parallel" title="joblib.Parallel"><code class="xref py py-class docutils literal notranslate"><span class="pre">joblib.Parallel</span></code></a> is used to compute in parallel the average of all
+slices using 2 workers.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">joblib</span> <span class="kn">import</span> <a href="../generated/joblib.Parallel.html#joblib.Parallel" title="joblib.Parallel" class="sphx-glr-backref-module-joblib sphx-glr-backref-type-py-class"><span class="n">Parallel</span></a><span class="p">,</span> <a href="../parallel.html#joblib.delayed" title="joblib.delayed" class="sphx-glr-backref-module-joblib sphx-glr-backref-type-py-function"><span class="n">delayed</span></a>
+
+
+<a href="https://docs.python.org/3/library/functions.html#float" title="builtins.float" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">tic</span></a> <span class="o">=</span> <a href="https://docs.python.org/3/library/time.html#time.time" title="time.time" class="sphx-glr-backref-module-time sphx-glr-backref-type-py-function"><span class="n">time</span><span class="o">.</span><span class="n">time</span></a><span class="p">()</span>
+<a href="https://docs.python.org/3/library/stdtypes.html#list" title="builtins.list" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">results</span></a> <span class="o">=</span> <a href="../generated/joblib.Parallel.html#joblib.Parallel" title="joblib.Parallel" class="sphx-glr-backref-module-joblib sphx-glr-backref-type-py-class"><span class="n">Parallel</span></a><span class="p">(</span><span class="n">n_jobs</span><span class="o">=</span><span class="mi">2</span><span class="p">)(</span><a href="../parallel.html#joblib.delayed" title="joblib.delayed" class="sphx-glr-backref-module-joblib sphx-glr-backref-type-py-function"><span class="n">delayed</span></a><span class="p">(</span><span class="n">slow_mean</span><span class="p">)(</span><a href="https://numpy.org/doc/stable/reference/generated/numpy.memmap.html#numpy.memmap" title="numpy.memmap" class="sphx-glr-backref-module-numpy sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">data</span></a><span class="p">,</span> <span class="n">sl</span><span class="p">)</span> <span class="k">for</span> <span class="n">sl</span> <span class="ow">in</span> <a href="https://docs.python.org/3/library/stdtypes.html#list" title="builtins.list" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">slices</span></a><span class="p">)</span>
+<a href="https://docs.python.org/3/library/functions.html#float" title="builtins.float" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">toc</span></a> <span class="o">=</span> <a href="https://docs.python.org/3/library/time.html#time.time" title="time.time" class="sphx-glr-backref-module-time sphx-glr-backref-type-py-function"><span class="n">time</span><span class="o">.</span><span class="n">time</span></a><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">Elapsed time computing the average of couple of slices </span><span class="si">{:.2f}</span><span class="s1"> s&#39;</span>
+      <span class="o">.</span><span class="n">format</span><span class="p">(</span><a href="https://docs.python.org/3/library/functions.html#float" title="builtins.float" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">toc</span></a> <span class="o">-</span> <a href="https://docs.python.org/3/library/functions.html#float" title="builtins.float" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">tic</span></a><span class="p">))</span>
+</pre></div>
+</div>
+<p class="sphx-glr-script-out">Out:</p>
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>Elapsed time computing the average of couple of slices 0.88 s
+</pre></div>
+</div>
+<p>Parallel processing is already faster than the sequential processing. It is
+also possible to remove a bit of overhead by dumping the <code class="docutils literal notranslate"><span class="pre">data</span></code> array to a
+memmap and pass the memmap to <a class="reference internal" href="../generated/joblib.Parallel.html#joblib.Parallel" title="joblib.Parallel"><code class="xref py py-class docutils literal notranslate"><span class="pre">joblib.Parallel</span></code></a>.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">from</span> <span class="nn">joblib</span> <span class="kn">import</span> <a href="../generated/joblib.dump.html#joblib.dump" title="joblib.dump" class="sphx-glr-backref-module-joblib sphx-glr-backref-type-py-function"><span class="n">dump</span></a><span class="p">,</span> <a href="../generated/joblib.load.html#joblib.load" title="joblib.load" class="sphx-glr-backref-module-joblib sphx-glr-backref-type-py-function"><span class="n">load</span></a>
+
+<a href="https://docs.python.org/3/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">folder</span></a> <span class="o">=</span> <span class="s1">&#39;./joblib_memmap&#39;</span>
+<span class="k">try</span><span class="p">:</span>
+    <a href="https://docs.python.org/3/library/os.html#os.mkdir" title="os.mkdir" class="sphx-glr-backref-module-os sphx-glr-backref-type-py-function"><span class="n">os</span><span class="o">.</span><span class="n">mkdir</span></a><span class="p">(</span><a href="https://docs.python.org/3/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">folder</span></a><span class="p">)</span>
+<span class="k">except</span> <span class="ne">FileExistsError</span><span class="p">:</span>
+    <span class="k">pass</span>
+
+<a href="https://docs.python.org/3/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">data_filename_memmap</span></a> <span class="o">=</span> <a href="https://docs.python.org/3/library/os.path.html#os.path.join" title="os.path.join" class="sphx-glr-backref-module-os-path sphx-glr-backref-type-py-function"><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span></a><span class="p">(</span><a href="https://docs.python.org/3/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">folder</span></a><span class="p">,</span> <span class="s1">&#39;data_memmap&#39;</span><span class="p">)</span>
+<a href="../generated/joblib.dump.html#joblib.dump" title="joblib.dump" class="sphx-glr-backref-module-joblib sphx-glr-backref-type-py-function"><span class="n">dump</span></a><span class="p">(</span><a href="https://numpy.org/doc/stable/reference/generated/numpy.memmap.html#numpy.memmap" title="numpy.memmap" class="sphx-glr-backref-module-numpy sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">data</span></a><span class="p">,</span> <a href="https://docs.python.org/3/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">data_filename_memmap</span></a><span class="p">)</span>
+<a href="https://numpy.org/doc/stable/reference/generated/numpy.memmap.html#numpy.memmap" title="numpy.memmap" class="sphx-glr-backref-module-numpy sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">data</span></a> <span class="o">=</span> <a href="../generated/joblib.load.html#joblib.load" title="joblib.load" class="sphx-glr-backref-module-joblib sphx-glr-backref-type-py-function"><span class="n">load</span></a><span class="p">(</span><a href="https://docs.python.org/3/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">data_filename_memmap</span></a><span class="p">,</span> <span class="n">mmap_mode</span><span class="o">=</span><span class="s1">&#39;r&#39;</span><span class="p">)</span>
+
+<a href="https://docs.python.org/3/library/functions.html#float" title="builtins.float" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">tic</span></a> <span class="o">=</span> <a href="https://docs.python.org/3/library/time.html#time.time" title="time.time" class="sphx-glr-backref-module-time sphx-glr-backref-type-py-function"><span class="n">time</span><span class="o">.</span><span class="n">time</span></a><span class="p">()</span>
+<a href="https://docs.python.org/3/library/stdtypes.html#list" title="builtins.list" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">results</span></a> <span class="o">=</span> <a href="../generated/joblib.Parallel.html#joblib.Parallel" title="joblib.Parallel" class="sphx-glr-backref-module-joblib sphx-glr-backref-type-py-class"><span class="n">Parallel</span></a><span class="p">(</span><span class="n">n_jobs</span><span class="o">=</span><span class="mi">2</span><span class="p">)(</span><a href="../parallel.html#joblib.delayed" title="joblib.delayed" class="sphx-glr-backref-module-joblib sphx-glr-backref-type-py-function"><span class="n">delayed</span></a><span class="p">(</span><span class="n">slow_mean</span><span class="p">)(</span><a href="https://numpy.org/doc/stable/reference/generated/numpy.memmap.html#numpy.memmap" title="numpy.memmap" class="sphx-glr-backref-module-numpy sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">data</span></a><span class="p">,</span> <span class="n">sl</span><span class="p">)</span> <span class="k">for</span> <span class="n">sl</span> <span class="ow">in</span> <a href="https://docs.python.org/3/library/stdtypes.html#list" title="builtins.list" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">slices</span></a><span class="p">)</span>
+<a href="https://docs.python.org/3/library/functions.html#float" title="builtins.float" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">toc</span></a> <span class="o">=</span> <a href="https://docs.python.org/3/library/time.html#time.time" title="time.time" class="sphx-glr-backref-module-time sphx-glr-backref-type-py-function"><span class="n">time</span><span class="o">.</span><span class="n">time</span></a><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">Elapsed time computing the average of couple of slices </span><span class="si">{:.2f}</span><span class="s1"> s</span><span class="se">\n</span><span class="s1">&#39;</span>
+      <span class="o">.</span><span class="n">format</span><span class="p">(</span><a href="https://docs.python.org/3/library/functions.html#float" title="builtins.float" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">toc</span></a> <span class="o">-</span> <a href="https://docs.python.org/3/library/functions.html#float" title="builtins.float" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">tic</span></a><span class="p">))</span>
+</pre></div>
+</div>
+<p class="sphx-glr-script-out">Out:</p>
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>Elapsed time computing the average of couple of slices 0.66 s
+</pre></div>
+</div>
+<p>Therefore, dumping large <code class="docutils literal notranslate"><span class="pre">data</span></code> array ahead of calling
+<a class="reference internal" href="../generated/joblib.Parallel.html#joblib.Parallel" title="joblib.Parallel"><code class="xref py py-class docutils literal notranslate"><span class="pre">joblib.Parallel</span></code></a> can speed up the processing by removing some
+overhead.</p>
+</div>
+<div class="section" id="writable-memmap-for-shared-memory-joblib-parallel">
+<h2>Writable memmap for shared memory <a class="reference internal" href="../generated/joblib.Parallel.html#joblib.Parallel" title="joblib.Parallel"><code class="xref py py-class docutils literal notranslate"><span class="pre">joblib.Parallel</span></code></a><a class="headerlink" href="#writable-memmap-for-shared-memory-joblib-parallel" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p><code class="docutils literal notranslate"><span class="pre">slow_mean_write_output</span></code> will compute the mean for some given slices as in
+the previous example. However, the resulting mean will be directly written on
+the output array.</p>
+</div></blockquote>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">slow_mean_write_output</span><span class="p">(</span><a href="https://numpy.org/doc/stable/reference/generated/numpy.memmap.html#numpy.memmap" title="numpy.memmap" class="sphx-glr-backref-module-numpy sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">data</span></a><span class="p">,</span> <span class="n">sl</span><span class="p">,</span> <a href="https://numpy.org/doc/stable/reference/generated/numpy.memmap.html#numpy.memmap" title="numpy.memmap" class="sphx-glr-backref-module-numpy sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">output</span></a><span class="p">,</span> <span class="n">idx</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Simulate a time consuming processing.&quot;&quot;&quot;</span>
+    <a href="https://docs.python.org/3/library/time.html#time.sleep" title="time.sleep" class="sphx-glr-backref-module-time sphx-glr-backref-type-py-function"><span class="n">time</span><span class="o">.</span><span class="n">sleep</span></a><span class="p">(</span><span class="mf">0.005</span><span class="p">)</span>
+    <span class="n">res_</span> <span class="o">=</span> <a href="https://numpy.org/doc/stable/reference/generated/numpy.memmap.html#numpy.memmap" title="numpy.memmap" class="sphx-glr-backref-module-numpy sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">data</span></a><span class="p">[</span><span class="n">sl</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;[Worker </span><span class="si">%d</span><span class="s2">] Mean for slice </span><span class="si">%d</span><span class="s2"> is </span><span class="si">%f</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="p">(</span><a href="https://docs.python.org/3/library/os.html#os.getpid" title="os.getpid" class="sphx-glr-backref-module-os sphx-glr-backref-type-py-function"><span class="n">os</span><span class="o">.</span><span class="n">getpid</span></a><span class="p">(),</span> <span class="n">idx</span><span class="p">,</span> <span class="n">res_</span><span class="p">))</span>
+    <a href="https://numpy.org/doc/stable/reference/generated/numpy.memmap.html#numpy.memmap" title="numpy.memmap" class="sphx-glr-backref-module-numpy sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">output</span></a><span class="p">[</span><span class="n">idx</span><span class="p">]</span> <span class="o">=</span> <span class="n">res_</span>
+</pre></div>
+</div>
+<p>Prepare the folder where the memmap will be dumped.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><a href="https://docs.python.org/3/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">output_filename_memmap</span></a> <span class="o">=</span> <a href="https://docs.python.org/3/library/os.path.html#os.path.join" title="os.path.join" class="sphx-glr-backref-module-os-path sphx-glr-backref-type-py-function"><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span></a><span class="p">(</span><a href="https://docs.python.org/3/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">folder</span></a><span class="p">,</span> <span class="s1">&#39;output_memmap&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Pre-allocate a writable shared memory map as a container for the results of
+the parallel computation.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><a href="https://numpy.org/doc/stable/reference/generated/numpy.memmap.html#numpy.memmap" title="numpy.memmap" class="sphx-glr-backref-module-numpy sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">output</span></a> <span class="o">=</span> <a href="https://numpy.org/doc/stable/reference/generated/numpy.memmap.html#numpy.memmap" title="numpy.memmap" class="sphx-glr-backref-module-numpy sphx-glr-backref-type-py-class"><span class="n">np</span><span class="o">.</span><span class="n">memmap</span></a><span class="p">(</span><a href="https://docs.python.org/3/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">output_filename_memmap</span></a><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><a href="https://numpy.org/doc/stable/reference/generated/numpy.dtype.html#numpy.dtype" title="numpy.dtype" class="sphx-glr-backref-module-numpy sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">data</span><span class="o">.</span><span class="n">dtype</span></a><span class="p">,</span>
+                   <span class="n">shape</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><a href="https://docs.python.org/3/library/stdtypes.html#list" title="builtins.list" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">slices</span></a><span class="p">),</span> <span class="n">mode</span><span class="o">=</span><span class="s1">&#39;w+&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">data</span></code> is replaced by its memory mapped version. Note that the buffer has
+already been dumped in the previous section.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><a href="https://numpy.org/doc/stable/reference/generated/numpy.memmap.html#numpy.memmap" title="numpy.memmap" class="sphx-glr-backref-module-numpy sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">data</span></a> <span class="o">=</span> <a href="../generated/joblib.load.html#joblib.load" title="joblib.load" class="sphx-glr-backref-module-joblib sphx-glr-backref-type-py-function"><span class="n">load</span></a><span class="p">(</span><a href="https://docs.python.org/3/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">data_filename_memmap</span></a><span class="p">,</span> <span class="n">mmap_mode</span><span class="o">=</span><span class="s1">&#39;r&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Fork the worker processes to perform computation concurrently</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><a href="../generated/joblib.Parallel.html#joblib.Parallel" title="joblib.Parallel" class="sphx-glr-backref-module-joblib sphx-glr-backref-type-py-class"><span class="n">Parallel</span></a><span class="p">(</span><span class="n">n_jobs</span><span class="o">=</span><span class="mi">2</span><span class="p">)(</span><a href="../parallel.html#joblib.delayed" title="joblib.delayed" class="sphx-glr-backref-module-joblib sphx-glr-backref-type-py-function"><span class="n">delayed</span></a><span class="p">(</span><span class="n">slow_mean_write_output</span><span class="p">)(</span><a href="https://numpy.org/doc/stable/reference/generated/numpy.memmap.html#numpy.memmap" title="numpy.memmap" class="sphx-glr-backref-module-numpy sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">data</span></a><span class="p">,</span> <span class="n">sl</span><span class="p">,</span> <a href="https://numpy.org/doc/stable/reference/generated/numpy.memmap.html#numpy.memmap" title="numpy.memmap" class="sphx-glr-backref-module-numpy sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">output</span></a><span class="p">,</span> <span class="n">idx</span><span class="p">)</span>
+                   <span class="k">for</span> <span class="n">idx</span><span class="p">,</span> <span class="n">sl</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><a href="https://docs.python.org/3/library/stdtypes.html#list" title="builtins.list" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">slices</span></a><span class="p">))</span>
+</pre></div>
+</div>
+<p class="sphx-glr-script-out">Out:</p>
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>[None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+</pre></div>
+</div>
+<p>Compare the results from the output buffer with the expected results</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Expected means computed in the parent process:</span><span class="se">\n</span><span class="s2"> </span><span class="si">{}</span><span class="s2">&quot;</span>
+      <span class="o">.</span><span class="n">format</span><span class="p">(</span><a href="https://numpy.org/doc/stable/reference/generated/numpy.array.html#numpy.array" title="numpy.array" class="sphx-glr-backref-module-numpy sphx-glr-backref-type-py-function"><span class="n">np</span><span class="o">.</span><span class="n">array</span></a><span class="p">(</span><a href="https://docs.python.org/3/library/stdtypes.html#list" title="builtins.list" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">results</span></a><span class="p">)))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Actual means computed by the worker processes:</span><span class="se">\n</span><span class="s2"> </span><span class="si">{}</span><span class="s2">&quot;</span>
+      <span class="o">.</span><span class="n">format</span><span class="p">(</span><a href="https://numpy.org/doc/stable/reference/generated/numpy.memmap.html#numpy.memmap" title="numpy.memmap" class="sphx-glr-backref-module-numpy sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">output</span></a><span class="p">))</span>
+</pre></div>
+</div>
+<p class="sphx-glr-script-out">Out:</p>
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>Expected means computed in the parent process:
+ [0.50075894 0.50068495 0.50064327 0.50044217 0.50038146 0.50019771
+ 0.49972935 0.49936545 0.49933908 0.499139   0.49912131 0.49956501
+ 0.49999776 0.49969998 0.49964402 0.49957265 0.49938828 0.49926568
+ 0.49939077 0.4996239  0.49996623 0.49983847 0.49953889 0.49971531
+ 0.49942849 0.49918081 0.49933006 0.49950281 0.49934353 0.49916575
+ 0.49951624 0.49965896 0.49955591 0.49944006 0.49958473 0.49937647
+ 0.49965629 0.49987511 0.49993857 0.50027265 0.50042428 0.50005855
+ 0.49992284 0.50027257 0.50031321 0.49999397 0.50015633 0.50049359
+ 0.50031371 0.49997376 0.50022598 0.50037709 0.50013133 0.50001533
+ 0.500182   0.50005378 0.49974391 0.49991468 0.50033042 0.50023438
+ 0.50047554 0.50060105 0.50065203 0.50058473 0.50072945 0.50062456
+ 0.50068697 0.50046269 0.50006888 0.50002303 0.49997364 0.49952566
+ 0.49938348 0.49947952 0.49965773 0.49981717 0.50003219 0.50040037
+ 0.50042859 0.50028228 0.49996501 0.50013959 0.49982921 0.49970856
+ 0.49938837 0.49950157 0.49966769 0.49990983 0.50009548 0.50008982
+ 0.50003805 0.49992255 0.50006548 0.49955756 0.49993132]
+
+Actual means computed by the worker processes:
+ [0.50075894 0.50068495 0.50064327 0.50044217 0.50038146 0.50019771
+ 0.49972935 0.49936545 0.49933908 0.499139   0.49912131 0.49956501
+ 0.49999776 0.49969998 0.49964402 0.49957265 0.49938828 0.49926568
+ 0.49939077 0.4996239  0.49996623 0.49983847 0.49953889 0.49971531
+ 0.49942849 0.49918081 0.49933006 0.49950281 0.49934353 0.49916575
+ 0.49951624 0.49965896 0.49955591 0.49944006 0.49958473 0.49937647
+ 0.49965629 0.49987511 0.49993857 0.50027265 0.50042428 0.50005855
+ 0.49992284 0.50027257 0.50031321 0.49999397 0.50015633 0.50049359
+ 0.50031371 0.49997376 0.50022598 0.50037709 0.50013133 0.50001533
+ 0.500182   0.50005378 0.49974391 0.49991468 0.50033042 0.50023438
+ 0.50047554 0.50060105 0.50065203 0.50058473 0.50072945 0.50062456
+ 0.50068697 0.50046269 0.50006888 0.50002303 0.49997364 0.49952566
+ 0.49938348 0.49947952 0.49965773 0.49981717 0.50003219 0.50040037
+ 0.50042859 0.50028228 0.49996501 0.50013959 0.49982921 0.49970856
+ 0.49938837 0.49950157 0.49966769 0.49990983 0.50009548 0.50008982
+ 0.50003805 0.49992255 0.50006548 0.49955756 0.49993132]
+</pre></div>
+</div>
+</div>
+<div class="section" id="clean-up-the-memmap">
+<h2>Clean-up the memmap<a class="headerlink" href="#clean-up-the-memmap" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>Remove the different memmap that we created. It might fail in Windows due
+to file permissions.</p>
+</div></blockquote>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">shutil</span>
+
+<span class="k">try</span><span class="p">:</span>
+    <a href="https://docs.python.org/3/library/shutil.html#shutil.rmtree" title="shutil.rmtree" class="sphx-glr-backref-module-shutil sphx-glr-backref-type-py-function"><span class="n">shutil</span><span class="o">.</span><span class="n">rmtree</span></a><span class="p">(</span><a href="https://docs.python.org/3/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">folder</span></a><span class="p">)</span>
+<span class="k">except</span><span class="p">:</span>  <span class="c1"># noqa</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Could not clean-up automatically.&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 0 minutes  3.430 seconds)</p>
+<div class="sphx-glr-footer class sphx-glr-footer-example docutils container" id="sphx-glr-download-auto-examples-parallel-memmap-py">
+<div class="sphx-glr-download sphx-glr-download-python docutils container">
+<p><a class="reference download internal" download="" href="../_downloads/eeebf825310c36181bb48faf49b207dd/parallel_memmap.py"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Python</span> <span class="pre">source</span> <span class="pre">code:</span> <span class="pre">parallel_memmap.py</span></code></a></p>
+</div>
+<div class="sphx-glr-download sphx-glr-download-jupyter docutils container">
+<p><a class="reference download internal" download="" href="../_downloads/a0562d33325f994d06f0e84c36489eb6/parallel_memmap.ipynb"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Jupyter</span> <span class="pre">notebook:</span> <span class="pre">parallel_memmap.ipynb</span></code></a></p>
+</div>
+</div>
+<p class="sphx-glr-signature"><a class="reference external" href="https://sphinx-gallery.github.io">Gallery generated by Sphinx-Gallery</a></p>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="../index.html">
+    <img class="logo" src="../_static/joblib_logo.svg" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../why.html">Why joblib: project goals</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../installing.html">Installing joblib</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../memory.html">On demand recomputing: the <cite>Memory</cite> class</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../parallel.html">Embarrassingly parallel for loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../persistence.html">Persistence</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Examples</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="index.html#id1">General examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#parallel-examples">Parallel examples</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../developing.html">Development</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../generated/joblib.Memory.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">joblib</span></code>.Memory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../generated/joblib.Parallel.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">joblib</span></code>.Parallel</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../generated/joblib.dump.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">joblib</span></code>.dump</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../generated/joblib.load.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">joblib</span></code>.load</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../generated/joblib.hash.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">joblib</span></code>.hash</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../generated/joblib.register_compressor.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">joblib</span></code>.register_compressor</a></li>
+</ul>
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2008-2018, Joblib developers.
+      
+      |
+      <a href="../_sources/auto_examples/parallel_memmap.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

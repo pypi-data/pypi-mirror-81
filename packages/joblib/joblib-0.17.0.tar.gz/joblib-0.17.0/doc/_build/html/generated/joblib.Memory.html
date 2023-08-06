@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>joblib.Memory &#8212; joblib 0.16.0 documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/gallery.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/gallery-binder.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/gallery-dataframe.css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="joblib.Parallel" href="joblib.Parallel.html" />
+    <link rel="prev" title="Development" href="../developing.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="joblib-memory">
+<h1><a class="reference internal" href="../index.html#module-joblib" title="joblib"><code class="xref py py-mod docutils literal notranslate"><span class="pre">joblib</span></code></a>.Memory<a class="headerlink" href="#joblib-memory" title="Permalink to this headline">¶</a></h1>
+<dl class="py class">
+<dt id="joblib.Memory">
+<em class="property">class </em><code class="sig-prename descclassname">joblib.</code><code class="sig-name descname">Memory</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">location</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">backend</span><span class="o">=</span><span class="default_value">'local'</span></em>, <em class="sig-param"><span class="n">cachedir</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">mmap_mode</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">compress</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">verbose</span><span class="o">=</span><span class="default_value">1</span></em>, <em class="sig-param"><span class="n">bytes_limit</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">backend_options</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#joblib.Memory" title="Permalink to this definition">¶</a></dt>
+<dd><p>A context object for caching a function’s return value each time it
+is called with the same input arguments.</p>
+<p>All values are cached on the filesystem, in a deep directory
+structure.</p>
+<p>Read more in the <a class="reference internal" href="../memory.html#memory"><span class="std std-ref">User Guide</span></a>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>location: str or None</strong></dt><dd><p>The path of the base directory to use as a data store
+or None. If None is given, no caching is done and
+the Memory object is completely transparent. This option
+replaces cachedir since version 0.12.</p>
+</dd>
+<dt><strong>backend: str, optional</strong></dt><dd><p>Type of store backend for reading/writing cache files.
+Default: ‘local’.
+The ‘local’ backend is using regular filesystem operations to
+manipulate data (open, mv, etc) in the backend.</p>
+</dd>
+<dt><strong>cachedir: str or None, optional</strong></dt><dd></dd>
+<dt><strong>mmap_mode: {None, ‘r+’, ‘r’, ‘w+’, ‘c’}, optional</strong></dt><dd><p>The memmapping mode used when loading from cache
+numpy arrays. See numpy.load for the meaning of the
+arguments.</p>
+</dd>
+<dt><strong>compress: boolean, or integer, optional</strong></dt><dd><p>Whether to zip the stored data on disk. If an integer is
+given, it should be between 1 and 9, and sets the amount
+of compression. Note that compressed arrays cannot be
+read by memmapping.</p>
+</dd>
+<dt><strong>verbose: int, optional</strong></dt><dd><p>Verbosity flag, controls the debug messages that are issued
+as functions are evaluated.</p>
+</dd>
+<dt><strong>bytes_limit: int, optional</strong></dt><dd><p>Limit in bytes of the size of the cache.</p>
+</dd>
+<dt><strong>backend_options: dict, optional</strong></dt><dd><p>Contains a dictionnary of named parameters used to configure
+the store backend.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl class="py method">
+<dt id="joblib.Memory.__init__">
+<code class="sig-name descname">__init__</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">location</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">backend</span><span class="o">=</span><span class="default_value">'local'</span></em>, <em class="sig-param"><span class="n">cachedir</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">mmap_mode</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">compress</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">verbose</span><span class="o">=</span><span class="default_value">1</span></em>, <em class="sig-param"><span class="n">bytes_limit</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">backend_options</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#joblib.Memory.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>depth: int, optional</strong></dt><dd><p>The depth of objects printed.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<p class="rubric">Methods</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#joblib.Memory.__init__" title="joblib.Memory.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>([location, backend, cachedir, …])</p></td>
+<td><p><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p></p></dd>
+</dl>
+</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">cache</span></code>([func, ignore, verbose, mmap_mode])</p></td>
+<td><p>Decorates the given function func to only compute its return value for input arguments not cached on disk.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear</span></code>([warn])</p></td>
+<td><p>Erase the complete cache directory.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">debug</span></code>(msg)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">eval</span></code>(func, *args, **kwargs)</p></td>
+<td><p>Eval function func with arguments <cite>*args</cite> and <cite>**kwargs</cite>, in the context of the memory.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">format</span></code>(obj[, indent])</p></td>
+<td><p>Return the formatted representation of the object.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">reduce_size</span></code>()</p></td>
+<td><p>Remove cache elements to make cache size fit in <code class="docutils literal notranslate"><span class="pre">bytes_limit</span></code>.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">warn</span></code>(msg)</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<div class="section" id="examples-using-joblib-memory">
+<h2>Examples using <code class="docutils literal notranslate"><span class="pre">joblib.Memory</span></code><a class="headerlink" href="#examples-using-joblib-memory" title="Permalink to this headline">¶</a></h2>
+<div class="sphx-glr-thumbcontainer" tooltip="This example illustrates how to cache intermediate computing results using joblib.Memory within..."><div class="figure align-default" id="id1">
+<img alt="Checkpoint using joblib.Memory and joblib.Parallel" src="../_images/sphx_glr_nested_parallel_memory_thumb.png" />
+<p class="caption"><span class="caption-text"><a class="reference internal" href="../auto_examples/nested_parallel_memory.html#sphx-glr-auto-examples-nested-parallel-memory-py"><span class="std std-ref">Checkpoint using joblib.Memory and joblib.Parallel</span></a></span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+</div>
+</div><div class="sphx-glr-thumbcontainer" tooltip="This example illustrates the usage of joblib.Memory with both functions and methods."><div class="figure align-default" id="id2">
+<img alt="How to use joblib.Memory" src="../_images/sphx_glr_memory_basic_usage_thumb.png" />
+<p class="caption"><span class="caption-text"><a class="reference internal" href="../auto_examples/memory_basic_usage.html#sphx-glr-auto-examples-memory-basic-usage-py"><span class="std std-ref">How to use joblib.Memory</span></a></span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+</div>
+</div><div class="clearer"></div></div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="../index.html">
+    <img class="logo" src="../_static/joblib_logo.svg" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../why.html">Why joblib: project goals</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../installing.html">Installing joblib</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../memory.html">On demand recomputing: the <cite>Memory</cite> class</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../parallel.html">Embarrassingly parallel for loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../persistence.html">Persistence</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../auto_examples/index.html">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing.html">Development</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#"><code class="xref py py-mod docutils literal notranslate"><span class="pre">joblib</span></code>.Memory</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#examples-using-joblib-memory">Examples using <code class="docutils literal notranslate"><span class="pre">joblib.Memory</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="joblib.Parallel.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">joblib</span></code>.Parallel</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="joblib.dump.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">joblib</span></code>.dump</a></li>
+<li class="toctree-l1"><a class="reference internal" href="joblib.load.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">joblib</span></code>.load</a></li>
+<li class="toctree-l1"><a class="reference internal" href="joblib.hash.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">joblib</span></code>.hash</a></li>
+<li class="toctree-l1"><a class="reference internal" href="joblib.register_compressor.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">joblib</span></code>.register_compressor</a></li>
+</ul>
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2008-2018, Joblib developers.
+      
+      |
+      <a href="../_sources/generated/joblib.Memory.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

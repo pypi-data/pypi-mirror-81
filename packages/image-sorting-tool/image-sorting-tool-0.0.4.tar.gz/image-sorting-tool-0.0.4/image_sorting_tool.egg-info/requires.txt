@@ -1,0 +1,7 @@
+Pillow>=6.0.0
+python-dateutil>=2.8.0
+
+[dev]
+pytest>=6.0.0
+pylint>=2.0.0
+tox>=3.0.0

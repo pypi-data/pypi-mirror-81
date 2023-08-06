@@ -1,0 +1,9 @@
+gsheet_image_generator/__init__.py,sha256=6Y0-eux3lKpeWz3gintCnht24wb82kRoLW1raFomeRE,305
+gsheet_image_generator/__main__.py,sha256=p7MRQ66i7nMYqXsaGrAsUUI2JHahP1bKPyv5CvPtoTA,89
+gsheet_image_generator/gsheet_image.py,sha256=by_GvZFgzI1yKsETml3AyKSDTIONydu7PR3SRUhU3fs,1418
+gsheet_image_generator/gsheet_image_generator.py,sha256=ZD2hPpKFJVgNnhJEAMUeFF5fWSf2hWTII0B4bKYVUts,6828
+gsheet_image_generator-1.0.0.dist-info/LICENSE,sha256=6uRjHAiYZmCSzkbaIIIjRYkzybw4OcmOXg9PGfohbwI,1097
+gsheet_image_generator-1.0.0.dist-info/METADATA,sha256=udRfkSMQc1wPU9iRpdMxOO_zF7Qs6U0wdGVZa9YTgdY,6118
+gsheet_image_generator-1.0.0.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+gsheet_image_generator-1.0.0.dist-info/top_level.txt,sha256=DYnnJPv27cXk2qqcRXdVCAUA7VloIudChDvEQqCwd00,23
+gsheet_image_generator-1.0.0.dist-info/RECORD,,

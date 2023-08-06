@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        strong=strong.scripts.strong:main
+    

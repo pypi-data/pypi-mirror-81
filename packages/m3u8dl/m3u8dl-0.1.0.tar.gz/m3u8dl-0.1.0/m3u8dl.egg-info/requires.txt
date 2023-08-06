@@ -1,0 +1,6 @@
+hyper==0.7.0
+PyInstaller==3.6
+requests==2.24.0
+Cython~=0.29.21
+progress~=1.5
+setuptools~=49.6.0

@@ -1,0 +1,3 @@
+[console_scripts]
+twistream = twistream.cli.cli:twistream
+

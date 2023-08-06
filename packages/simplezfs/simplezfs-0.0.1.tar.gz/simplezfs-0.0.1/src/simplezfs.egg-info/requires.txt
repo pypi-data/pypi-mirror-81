@@ -1,0 +1,11 @@
+
+[docs]
+Sphinx>=2.0
+sphinx-autodoc-typehints
+sphinx-rtd-theme
+
+[tests]
+flake8
+mypy
+pytest
+pytest-cov

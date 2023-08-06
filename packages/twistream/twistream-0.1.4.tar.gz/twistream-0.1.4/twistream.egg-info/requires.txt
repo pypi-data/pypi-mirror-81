@@ -1,0 +1,9 @@
+black
+click
+mypy
+pymongo
+pytest
+pyyaml
+sqlalchemy
+sqlalchemy-stubs
+tweepy

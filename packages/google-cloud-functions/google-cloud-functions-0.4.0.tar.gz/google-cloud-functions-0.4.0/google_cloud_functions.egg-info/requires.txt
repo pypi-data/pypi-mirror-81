@@ -1,0 +1,4 @@
+google-api-core[grpc]<2.0.0dev,>=1.21.0
+libcst>=0.2.5
+proto-plus>=1.10.0
+grpc-google-iam-v1

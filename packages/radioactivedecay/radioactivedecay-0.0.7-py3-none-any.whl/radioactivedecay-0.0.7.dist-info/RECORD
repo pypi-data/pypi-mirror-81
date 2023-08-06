@@ -1,0 +1,15 @@
+radioactivedecay/__init__.py,sha256=E7RtbQrUCE44Cw4nIcTt-W4UqOEh4dYXt3G0-mhcGlg,377
+radioactivedecay/decaydata.py,sha256=m_EKkjgP9uQu3Fi3_ttcLag_f0LSASx0FyC1vczvtuc,4359
+radioactivedecay/decayfunctions.py,sha256=APAimJzamTuVM1ykWW9r7kh7t_p4HNU0xUf-yMMGXgE,18358
+radioactivedecay/icrp107/__init__.py,sha256=-JIt3g1eBf4bVQNNQd4JBeQNA7o0LK0W9tYKKX_r5s8,22
+radioactivedecay/icrp107/c.npz,sha256=xyD8euRmQqAQRXsE40i35W-qeWKjuEjP0lIst5duq3Y,36493
+radioactivedecay/icrp107/cinverse.npz,sha256=nXymx-PekwXD2exE-mjbv4VV5t97tG56MnVMmBeyHpA,33851
+radioactivedecay/icrp107/radionuclides_decay_consts.npz,sha256=w7Am1WWS5aU4WgYjgmg6dfG-vyVtSB8umMgOsjVmm0Q,12651
+tests/__init__.py,sha256=-JIt3g1eBf4bVQNNQd4JBeQNA7o0LK0W9tYKKX_r5s8,22
+tests/test_decaydata.py,sha256=CCyssfe8jVPZkpBKmIQOdJo6-BOlWnahL7ywbpc4QfM,1849
+tests/test_decayfunctions.py,sha256=EagKW0YWf48S5cI6VvlziP4AzRa_biEubh9ce4SDAbc,19329
+radioactivedecay-0.0.7.dist-info/LICENSE,sha256=K0xXMuistYu_9ViBiK2beCFrPT1NoRnQFFjRgeFd2F0,2653
+radioactivedecay-0.0.7.dist-info/METADATA,sha256=Z_VqbmlaB1saONOtlHM4rbL_-04adbiloOjRE950xt0,8195
+radioactivedecay-0.0.7.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+radioactivedecay-0.0.7.dist-info/top_level.txt,sha256=zOoMH3nb97r1OHUcmtvzP2dbg9olk9MDaFdY-m8fZps,23
+radioactivedecay-0.0.7.dist-info/RECORD,,

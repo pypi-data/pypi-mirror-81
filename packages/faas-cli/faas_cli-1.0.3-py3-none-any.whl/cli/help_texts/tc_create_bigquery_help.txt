@@ -1,0 +1,11 @@
+/033[37m*******************************************************************
+target_connection create bigquery sub-command
+----------
+Creates Google BigQuery Target Connection.
+    usage:
+    /033[32mfaascli target_connection create bigquery --name <Target Connection name>
+    --dataset <BigQuery dataset name>
+    --storage <Google Cloud Storage bucket name>
+    --credentials <Path to JSON file with service account credentials>/033[37m
+*******************************************************************/033[0m
+

@@ -1,0 +1,8 @@
+climacell/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+climacell/api.py,sha256=FmhphQBpkQvH3tXYedL8tDblixuuOd0nnvT3L4r42PY,6851
+climacell/config.py,sha256=XED-oDn21XavaiCqcplW4ne42nHIGr7UfluJg21Xuyg,698
+climacell/exceptions.py,sha256=ibXjvTrg6X46axnrSLRqpPWJ3Fb1xd6svCCFJ5DAcig,627
+climacell/locator.py,sha256=1AqjJjSpanZDtidlKKpsU1c9qbyM_t8N1o-8GkPXHL0,839
+climacell-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+climacell-0.1.0.dist-info/METADATA,sha256=sGjUPkPGAk9-n-mE3fWd_vMM6OrIGWBDE2LK633BCZA,587
+climacell-0.1.0.dist-info/RECORD,,

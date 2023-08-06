@@ -1,0 +1,12 @@
+annlib.cpython-37m-darwin.so,sha256=sWvlYZdQ5Rbwt1sXGwgtsh0bcu_CDgjGWKuX-LJWNqI,142280
+pyann/__about__.py,sha256=lCeBfTqplU6K7Dj3cyIXXKkdFx9Ui9jAE0K0MqQ4Y-g,82
+pyann/__init__.py,sha256=HDgMLbeoc5ydYnyAMXgfPlIOGoEVOPmKO1hAWUrqpB8,96
+pyann/nn2.py,sha256=LEH93Kv0-3MAg5cffXgyEQkDyI-6idVSuHigF_pSHEI,7707
+pyann/annlib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyann/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyann/tests/test_nn2.py,sha256=XSPgL5OSfR5-8qJKLDg4YJVoxIJMhqAbyJmd9LLN6Rk,9868
+pyann-0.0.1.dist-info/LICENSE,sha256=xAkmYmV-CgQ0d35hJX4cXYfam9wr2Bjb9ye8hQ80jM4,1190
+pyann-0.0.1.dist-info/METADATA,sha256=sPhLEFONSVCjqlo-iz8WCFuFDQvXbED9geljAZbXPT0,2552
+pyann-0.0.1.dist-info/WHEEL,sha256=etIfAQP-wOX9eHeqbdvekTtExUkAXmL-xLraUojHrYU,111
+pyann-0.0.1.dist-info/top_level.txt,sha256=_uhTpUT8jBTBcUW8wEuAzHKoAyDdNHEgbyV14wR8JnY,13
+pyann-0.0.1.dist-info/RECORD,,

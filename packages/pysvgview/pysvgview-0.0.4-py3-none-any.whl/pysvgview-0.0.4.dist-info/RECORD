@@ -1,0 +1,15 @@
+pysvgview/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysvgview/configs.py,sha256=lx31zhvPR-yhF1dIf0dbABeLu1QIxXg4YJqCrWD201I,274
+pysvgview/main.py,sha256=uK5SLbIgzK29CV8SaWJtcq1QJTpRWYoi7mhcMJYVXlI,583
+pysvgview/static.py,sha256=NtdcqdHLM0JSmw74YMNCz9q_-fciWQXTz8yhFq845ls,149
+pysvgview/svg_view.py,sha256=0kD7Cj77cp0jX6bBa_NaEqaMO5Zlz3-_ye96OJGldZU,9153
+pysvgview/version.py,sha256=xaicLy_Vgl-SjlU0FLg3OO79hP7CBOsX3nEoN0SXU28,83
+pysvgview/endpoints/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysvgview/endpoints/group_default.py,sha256=EnAlCHO-vRxOTQ1o1fUiioZEexNGaco2OlBk6tUI3VM,848
+pysvgview/endpoints/main.py,sha256=aK3BUjDLrDcK18Fm-9MkL6zW-Z-hXrlid5njcfAAlFw,531
+pysvgview-0.0.4.dist-info/LICENSE,sha256=iwFQQUu2nh_gHEI7WRLvLBV7tl-cWaV5-HRFz4nZ6B0,1069
+pysvgview-0.0.4.dist-info/METADATA,sha256=s1pMtGdTaCrzIqn5nhU86k7Ij99CvTWQppla8PztvhA,1321
+pysvgview-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pysvgview-0.0.4.dist-info/entry_points.txt,sha256=BwqDJS7dyLcKK_WtLF1wJxHd8fBC0wAsKLcmiOLGyB0,51
+pysvgview-0.0.4.dist-info/top_level.txt,sha256=G7ScVmUsyMMnbZiKgv9NtMgfan-BPPxbfsDKnJLinrc,10
+pysvgview-0.0.4.dist-info/RECORD,,

@@ -1,0 +1,9 @@
+bjsfm/__init__.py,sha256=1SDX0R8zk3v6n-NnffkHw1cO1XdDIzdqJSK0apmU2RI,349
+bjsfm/fourier_series.py,sha256=xsno2l5Q27buPLAI1zNFeOXmXuC01E8RIDGwSuGRLhU,1820
+bjsfm/lekhnitskii.py,sha256=SIXqYEp8k2MWgQ312F4t_0z3FDutjsTbj2Y3l1uuhoo,31447
+bjsfm/plotting.py,sha256=b_hjzllkFTlqN9F4nPynwyYrp3IzEnWwX7VCG12MopI,1961
+bjsfm-0.0.2.dist-info/LICENSE,sha256=JwXem284fdKexd3pHNkIXKBmw-DTXiuv0rnvgAqdQ_E,1074
+bjsfm-0.0.2.dist-info/METADATA,sha256=fPN1eSLU0NCPrd-Xa6Ou2vb9KGRZS2Od_QopnajEpeE,1768
+bjsfm-0.0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+bjsfm-0.0.2.dist-info/top_level.txt,sha256=tnM1QPuCe087k6OPiZagOYCntKpPbPEPmkuIHU78H2g,6
+bjsfm-0.0.2.dist-info/RECORD,,

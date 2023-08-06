@@ -1,0 +1,11 @@
+paramiko>=1.15.1
+lxml>=3.3.0
+ncclient>=0.6.6
+cisco-gnmi
+
+[dev]
+coverage
+restview
+Sphinx
+sphinxcontrib-napoleon
+sphinx-rtd-theme

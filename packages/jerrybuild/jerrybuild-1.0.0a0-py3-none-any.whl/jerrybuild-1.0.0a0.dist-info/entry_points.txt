@@ -1,0 +1,3 @@
+[console_scripts]
+jerrybuild = jerrybuild.main:main
+

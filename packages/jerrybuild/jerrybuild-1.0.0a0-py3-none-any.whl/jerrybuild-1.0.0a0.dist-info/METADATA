@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: jerrybuild
+Version: 1.0.0a0
+Summary: A lightweight build / CI (Continuous Integration) server.
+Home-page: https://github.com/fboender/jerrybuild
+Author: Ferry Boender
+Author-email: ferry.boender@gmail.com
+License: UNKNOWN
+Keywords: security report reporting alert alerting scan intrusion detection
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Requires-Python: >=3
+
+UNKNOWN
+
+

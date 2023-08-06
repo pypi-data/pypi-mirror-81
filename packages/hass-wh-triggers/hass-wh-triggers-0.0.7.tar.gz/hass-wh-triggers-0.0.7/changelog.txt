@@ -1,0 +1,37 @@
+Version 0.0.7 (2020-10-08)
+- Fix Firefox reloading issue (Issue #28)
+
+Version 0.0.6 (2020-09-11)
+- Add reverse proxy support (Issue #10)
+
+Version 0.0.5 (2020-02-24)
+- Reload when the app gets focus and show refresh-hint when lost (Issue #25)
+- Add custom modals (Issue #26)
+- Added button to append random string to Webhook URI (Issue #27)
+- Allow to export and import triggers as JSON (Issue #27)
+- Allow to export and import users as JSON
+- Allow to export and import FIDO2 authenticators as JSON
+- Cosmetic changes
+
+Version 0.0.4 (2020-02-21)
+- Ensure unassigned users can't fire triggers (Issue #24)
+
+Version 0.0.3 (2020-02-20)
+- Hide TOTP input on loginsite if TOTP is globally disabled (Issue #21)
+- Fix progressive web app functionality
+- Allow assigning triggers to users (Issue #13)
+- Allow users to change their password (Issue #22)
+- Add optional geolocation requirement for triggers (Issue #20)
+- Allow to purge the banlist
+- Allow to disable triggers (Issue #15)
+
+Version 0.0.2 (2020-02-16)
+- Re-enabled autocomplete
+- Disabled auto-capitalize at registration form
+- Use proper logging
+- Reject requests where supplied hostname does not match ORIGIN
+- Add progressive web app functionality
+- Send HUP to Gunicorn master process on saving settings (if Gunicorn is detected) (Issue #19)
+
+Version 0.0.1 (2020-02-08)
+- Initial release

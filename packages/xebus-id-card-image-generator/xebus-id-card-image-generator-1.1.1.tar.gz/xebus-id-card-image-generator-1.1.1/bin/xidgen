@@ -1,0 +1,222 @@
+#!/usr/bin/env python
+#
+# Copyright (C) 2020 Majormode.  All rights reserved.
+#
+# This software is the confidential and proprietary information of
+# Majormode or one of its subsidiaries.  You shall not disclose this
+# confidential information and shall use it only in accordance with the
+# terms of the license agreement or other applicable agreement you
+# entered into with Majormode.
+#
+# MAJORMODE MAKES NO REPRESENTATIONS OR WARRANTIES ABOUT THE SUITABILITY
+# OF THE SOFTWARE, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
+# TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+# PURPOSE, OR NON-INFRINGEMENT.  MAJORMODE SHALL NOT BE LIABLE FOR ANY
+# LOSSES OR DAMAGES SUFFERED BY LICENSEE AS A RESULT OF USING, MODIFYING
+# OR DISTRIBUTING THIS SOFTWARE OR ITS DERIVATIVES.
+
+import argparse
+import logging
+import os
+import sys
+
+from PIL import Image
+from majormode.perseus.utils import cast
+
+from majormode.xebus.tools import xid_generator
+
+DEFAULT_CSV_DELIMITER_CHARACTER = ','
+DEFAULT_CSV_ESCAPE_CHARACTER = None
+DEFAULT_CSV_QUOTE_CHARACTER = '"'
+
+DEFAULT_FONT_NAME = 'Calibri Bold'
+
+LOGGING_FORMATTER = logging.Formatter("%(asctime)s [%(levelname)s] %(message)s")
+
+# Logging levels supported by the application.
+LOGGING_LEVELS = (
+    logging.CRITICAL,
+    logging.ERROR,
+    logging.WARNING,
+    logging.INFO,
+    logging.DEBUG
+)
+
+
+def get_console_handler(logging_formatter=LOGGING_FORMATTER):
+    """
+    Return a logging handler that sends logging output to the system's
+    standard output.
+
+
+    :param logging_formatter: An object `Formatter` to set for this handler.
+
+
+    :return: An instance of the `StreamHandler` class.
+    """
+    console_handler = logging.StreamHandler(sys.stdout)
+    console_handler.setFormatter(logging_formatter)
+    return console_handler
+
+
+def main():
+    arguments = parse_arguments()
+    setup_logger(logging_level=LOGGING_LEVELS[arguments.logging_level])
+
+    csv_file_path_name = os.path.abspath(os.path.expanduser(arguments.csv_file_path_name))
+    id_cards = xid_generator.read_id_cards_info_csv_file(
+        csv_file_path_name,
+        card_type=cast.string_to_enum(arguments.card_type, xid_generator.IdCardInfo.CARD_TYPE),
+        delimiter_character=arguments.delimiter_character,
+        escape_character=arguments.escape_character,
+        quote_character=arguments.quote_character)
+
+    card_image_size = xid_generator.calculate_card_image_size(arguments.image_size)
+
+    header_image_file_path_name = os.path.abspath(os.path.expanduser(arguments.header_image_file_path_name))
+    header_image = Image.open(header_image_file_path_name)
+
+    for id_card in id_cards:
+        id_card_image = xid_generator.generate_id_card_image(id_card, card_image_size, header_image, DEFAULT_FONT_NAME)
+        id_card_image_file_name = xid_generator.build_card_image_file_name(id_card)
+        id_card_image.save(f'{id_card_image_file_name}.jpg', quality=100)
+
+
+def parse_arguments():
+    """
+    Convert argument strings to objects and assign them as attributes of
+    the namespace.
+
+
+    @return: an instance `Namespace` corresponding to the populated
+        namespace.
+    """
+    parser = argparse.ArgumentParser(description='Biometric Passport Photo Magick')
+
+    # Generate the string representations of the possible ID card types.
+    card_types_str = ', '.join([
+        str(card_type)
+        for card_type in xid_generator.IdCardInfo.CARD_TYPE
+    ])
+
+    parser.add_argument(
+        '-c', '--card-type',
+        dest='card_type',
+        metavar='TYPE',
+        required=False,
+        help=f"specify the type of ID cards to generate ({card_types_str})")
+
+    parser.add_argument(
+        '-f', '--csv-file',
+        dest='csv_file_path_name',
+        metavar='FILE',
+        required=True,
+        help="specify the absolute path and name of the CSV file containing the "
+             "information of ID cards to generate")
+
+    parser.add_argument(
+        '-d', '--delimiter',
+        dest='delimiter_character',
+        metavar='CHAR',
+        required=False,
+        default=',',
+        help="specify the character used to separate each field (default to "
+             f"character [{DEFAULT_CSV_DELIMITER_CHARACTER}])")
+
+    parser.add_argument(
+        '-q', '--quotechar',
+        dest='quote_character',
+        metavar='CHAR',
+        required=False,
+        default='"',
+        help="specify the character used to surround fields that contain the "
+             f"delimiter character (default to character [{DEFAULT_CSV_QUOTE_CHARACTER}]).")
+
+    parser.add_argument(
+        '-e', '--escapechar',
+        dest='escape_character',
+        metavar='CHAR',
+        required=False,
+        help="specify the character used to escape the delimiter character, in case "  
+             f"quotes aren't used (default to character [{DEFAULT_CSV_ESCAPE_CHARACTER}]).")
+
+    parser.add_argument(
+        '-s', '--size',
+        dest='image_size',
+        metavar='GEOMETRY',
+        required=False,
+        default='540x860',
+        help="specify the width and/or height in pixels of the image to build, with "
+             "the ratio of a CR80 standard credit card size ID-1 in portrait mode "
+             "(54mm x 85.6mm)")
+
+    parser.add_argument(
+        '-p', '--padding',
+        dest='padding',
+        metavar='SIZE',
+        required=False,
+        type=int,
+        default=20,
+        help="specify the space in pixels or percentage to generate around the ID "
+             "card")
+
+    parser.add_argument(
+        '--header-file',
+        dest='header_image_file_path_name',
+        metavar='FILE',
+        required=True,
+        help="specify the absolute path name of the header image file")
+
+    parser.add_argument(
+        '--font-name',
+        metavar='NAME',
+        required=False,
+        default=DEFAULT_FONT_NAME,
+        help="specify the name of the font to display the full name of each ID card")
+
+    parser.add_argument(
+        '--debug',
+        dest='logging_level',
+        metavar='LEVEL',
+        required=False,
+        default=0,
+        type=int,
+        help=f"specify the logging level (value between 0 and {len(LOGGING_LEVELS) - 1}, from critical to debug)")
+
+    return parser.parse_args()
+
+
+def setup_logger(
+        logging_formatter=LOGGING_FORMATTER,
+        logging_level=logging.INFO,
+        logger_name=None):
+    """
+    Setup a logging handler that sends logging output to the system's
+    standard output.
+
+
+    :param logging_formatter: An object `Formatter` to set for this handler.
+
+    :param logger_name: Name of the logger to add the logging handler to.
+        If `logger_name` is `None`, the function attaches the logging
+        handler to the root logger of the hierarchy.
+
+    :param logging_level: The threshold for the logger to `level`.  Logging
+        messages which are less severe than `level` will be ignored;
+        logging messages which have severity level or higher will be
+        emitted by whichever handler or handlers service this logger,
+        unless a handler’s level has been set to a higher severity level
+        than `level`.
+
+
+    :return: An object `Logger`.
+    """
+    logger = logging.getLogger(logger_name)
+    logger.setLevel(logging_level)
+    logger.addHandler(get_console_handler(logging_formatter=logging_formatter))
+    logger.propagate = False
+    return logger
+
+
+if __name__ == '__main__':
+    main()

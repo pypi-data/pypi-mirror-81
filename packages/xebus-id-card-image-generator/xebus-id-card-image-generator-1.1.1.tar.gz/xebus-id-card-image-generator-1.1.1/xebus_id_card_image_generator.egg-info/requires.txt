@@ -1,0 +1,8 @@
+pillow
+perseus-core-library
+wheel
+setuptools
+twine
+pipfile
+qrcode
+unidecode

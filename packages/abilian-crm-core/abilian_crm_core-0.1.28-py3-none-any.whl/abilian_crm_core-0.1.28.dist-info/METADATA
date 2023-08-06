@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: abilian-crm-core
+Version: 0.1.28
+Summary: Core framework for CRM applications
+Home-page: https://github.com/abilian/abilian-crm-core
+License: LGPL
+Author: Stefane Fermigier
+Requires-Python: >3.6.1,<4
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Flask
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 (LGPLv2)
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: abilian-core (<0.11)
+Requires-Dist: more-itertools (<6)
+Requires-Dist: numpy
+Requires-Dist: openpyxl (>=2.3.3)
+Requires-Dist: pandas
+Requires-Dist: phonenumbers (>=7.1.0)
+Requires-Dist: werkzeug (<1)

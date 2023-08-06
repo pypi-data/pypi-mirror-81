@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: alchemy-xiao-mcg
+Version: 0.1.7
+Summary: A set of wrapped classes based on Pytorch-lightning for fast development of deep learning projects.
+Home-page: https://pableetox@dev.azure.com/pableetox/Prototypes/_git/alchemy
+Author: Xiao Li
+Author-email: xili11@microsoft.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.5

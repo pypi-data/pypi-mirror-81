@@ -1,0 +1,13 @@
+html_test_report/__init__.py,sha256=GULfn5p0d-5iDIrwuA0fBf0cqo_k_SWlJ1n_-WwjP5Q,90
+html_test_report/color_text.py,sha256=5-BUN7DaHGXgA7bj7c8L0AqeGypYeEa_AS-HARf7xng,663
+html_test_report/django.py,sha256=CFACTwX7uyQMuQA5LOIGiB1zRnVzawZ9SP6IhH8qJ0I,1732
+html_test_report/html_test.py,sha256=SQE7zds09XOsfrwYNjkuKWvEyGWxw8CsZhDKTmfQtyA,207
+html_test_report/nose_plugin.py,sha256=siEUTnHEF3h9hm1fPIHIukmyIZeSV9cCIx72QwIISUc,1515
+html_test_report/runner.py,sha256=lzBcszPWma8rxQa4_JLUCq4lEXhwk08NH3meNLzgCGw,18168
+html_test_report/templates/test-case.html,sha256=ZNrXSAqUtLDAv66RRrns2emYzImOHvs8Jcc50fssnoQ,17789
+html_test_report-1.0.0.dist-info/LICENSE,sha256=DTWKZnC2dy6GheIqRhXJFSm5fqM_mS20ap4btnA-DwI,1068
+html_test_report-1.0.0.dist-info/METADATA,sha256=lr7cga1SE0fsjMLCW7zk2ksgIalGRrX-d3vVLfGJrJc,1277
+html_test_report-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+html_test_report-1.0.0.dist-info/entry_points.txt,sha256=_UOPBdb6JxIHVJEyeW3n97p9jGp07Owrny-38uP_xDM,144
+html_test_report-1.0.0.dist-info/top_level.txt,sha256=xk1AERaZ8OH9-iZpqOFK71lFEdZ_jVkgLhA05U9Z1MI,17
+html_test_report-1.0.0.dist-info/RECORD,,

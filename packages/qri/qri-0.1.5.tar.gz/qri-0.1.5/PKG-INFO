@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: qri
+Version: 0.1.5
+Summary: qri python client
+Home-page: https://github.com/qri-io/qri-python
+Author: Dustin Long
+Author-email: dustmop@qri.io
+License: UNKNOWN
+Description: # qri-python
+        
+        ```
+         ██████╗ ██████╗ ██╗
+        ██╔═══██╗██╔══██╗██║
+        ██║   ██║██████╔╝██║
+        ██║▄▄ ██║██╔══██╗██║
+        ╚██████╔╝██║  ██║██║
+         ╚══▀▀═╝ ╚═╝  ╚═╝╚═╝
+        ```
+        
+        Python client for qri ("query")
+        
+        
+        # Installation
+        
+        ```
+        pip install qri
+        ```
+        
+        # About
+        
+        Python wrapper to enable usage of [qri](https://qri.io/), the dataset toolchain. Can
+        either use a locally installed qri command-line program to work with your local repository,
+        or can directly get datasets from the [Qri Cloud](https://qri.cloud).
+        
+        Dataset objects returned by this library have the components that exist in the
+        [standard qri model](https://qri.io/docs/dataset-components/overview). The body is returned
+        as a Pandas DataFrame in order to easily integrate with other data science systems, like
+        Jupyter Notebook.
+        
+        # Usage
+        
+        The following examples assume you have the latest release of the qri command-line client
+        installed. You can get this from https://github.com/qri-io/qri/releases
+        
+        ```
+        import qri
+        ```
+        
+        ```
+        # Pull a dataset from cloud and add it to your repository
+        $ qri.pull("b5/world_bank_population")
+        ```
+        > Fetching from registry...
+        >
+        > "Added b5/world_bank_population: ..."
+        
+        ```
+        # List datasets in your repository
+        $ qri.list()
+        ```
+        > [Dataset("b5/world_bank_population")]
+        
+        ```
+        # Get that single dataset as a variable
+        $ d = qri.get("b5/world_bank_population")
+        ```
+        
+        ```
+        # Look at metadata description
+        $ d.meta.description
+        ```
+        > ( 1 ) United Nations Population Division. World Population Prospects: 2017 Revision...
+        
+        ```
+        # Get the dataset body as a pandas DataFrame
+        $ d.body
+        ```
+        > `.   country_name  country_code   indicator_name    ...`
+        >
+        > `0   Afghanistan   AFG            Population, total ...`
+        > 
+        > `...`
+        
+        TODO: Save changes
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

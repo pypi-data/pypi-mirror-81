@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: jirafrog
+Version: 0.2.2
+Summary: Extremely basic curses-based Jira UI
+Home-page: https://github.com/amagee/jirafrog
+Author: Andrew Magee
+Author-email: amagee@gmail.com

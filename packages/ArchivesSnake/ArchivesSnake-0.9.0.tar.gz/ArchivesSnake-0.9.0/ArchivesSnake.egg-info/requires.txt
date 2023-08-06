@@ -1,0 +1,7 @@
+attrs
+boltons
+pyyaml
+rapidfuzz
+requests
+structlog
+more_itertools

@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: remanu
+Version: 0.1
+Summary: fenics-based fem solver for nuclear magnetic resonance PDEs
+Home-page: https://github.com/miguel-valdez/remanu
+Author: Miguel A. Valdez G.
+Author-email: miguel.valdesg@gmail.com
+License: UNKNOWN
+Description-Content-Type: text
+Description: # remanu
+        fenics-based fem solver for nuclear magnetic resonance PDEs
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6

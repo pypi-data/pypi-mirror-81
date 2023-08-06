@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: coronaVisual
+Version: 0.4
+Summary: Visualizing the Corona-Virus world data throughout time.
+Home-page: https://github.com/yanivmm/coronaVisual
+Author: Yaniv Maimon
+Author-email: yanivmaimon18@gmail.com
+License: MIT
+Download-URL: https://github.com/yanivmm/coronaVisual/archive/v_04.tar.gz
+Description: UNKNOWN
+Keywords: vizualization,data,coronavirus,COVID-19,Timeline,Corona,pandemic
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7

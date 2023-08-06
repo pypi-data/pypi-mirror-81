@@ -1,0 +1,14 @@
+README.md
+setup.py
+drugwars/__init__.py
+drugwars/__main__.py
+drugwars/classes.py
+drugwars/events.py
+drugwars/helpers.py
+drugwars.egg-info/PKG-INFO
+drugwars.egg-info/SOURCES.txt
+drugwars.egg-info/dependency_links.txt
+drugwars.egg-info/entry_points.txt
+drugwars.egg-info/requires.txt
+drugwars.egg-info/top_level.txt
+drugwars.egg-info/zip-safe

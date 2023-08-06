@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: plotg
+Version: 0.0.1
+Summary: A very basic gsheets ploting library
+Home-page: UNKNOWN
+Author: Ruchit Sherathiya
+Author-email: ruchitsherathiya007@gmail.com
+License: MIT
+Description: This is a library which allows user to read data from google sheets and also allows users to plot the graph for the selected inputs from the google sheets.
+        
+        Change Log
+        ===========
+         
+        0.0.1 (09-10-2020)
+        ------------------
+        
+        - First Release
+Keywords: gsheets
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

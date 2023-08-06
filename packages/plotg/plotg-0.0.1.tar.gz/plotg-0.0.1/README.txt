@@ -1,0 +1,1 @@
+This is a library which allows user to read data from google sheets and also allows users to plot the graph for the selected inputs from the google sheets.

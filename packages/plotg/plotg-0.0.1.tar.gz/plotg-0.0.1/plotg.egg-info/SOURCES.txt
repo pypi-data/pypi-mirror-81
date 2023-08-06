@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+plotg/__init__.py
+plotg/credentials.json
+plotg.egg-info/PKG-INFO
+plotg.egg-info/SOURCES.txt
+plotg.egg-info/dependency_links.txt
+plotg.egg-info/requires.txt
+plotg.egg-info/top_level.txt

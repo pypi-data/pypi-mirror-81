@@ -1,0 +1,17 @@
+click>=7.0
+colorama>=0.4
+GitPython>=2.0
+gym[atari]>=0.11.0
+numpy>=1.15.0
+opencv-python>=3.4
+pandas>=0.25
+torch>=1.2
+
+[bullet]
+pybullet>=2.4
+
+[horovod]
+horovod>=0.16
+
+[rlpy]
+rlpy3>=2.0.0b1

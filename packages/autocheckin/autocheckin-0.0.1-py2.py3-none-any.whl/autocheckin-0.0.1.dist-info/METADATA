@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: autocheckin
+Version: 0.0.1
+Summary: Auto check in.
+Home-page: https://github.com/LoveNishimiyaShouko/autocheckin
+Author: LoveNishimiyaShouko
+Author-email: LoveNishimiyaShouko@LoveNishimiyaShouko.com
+License: GNU Affero General Public License v3.0
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.0.0
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+Auto check in.
+
+

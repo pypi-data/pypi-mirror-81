@@ -1,0 +1,4 @@
+Jinja2>=2.10
+PyYAML>=3.10
+packaging>=16.5
+pymod2pkg!=0.8.0,>=0.7.0

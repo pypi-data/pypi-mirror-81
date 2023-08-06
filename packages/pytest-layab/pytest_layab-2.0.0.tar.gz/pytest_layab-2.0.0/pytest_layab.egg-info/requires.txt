@@ -1,0 +1,4 @@
+
+[testing]
+pytest-flask==1.*
+pytest-cov==2.*

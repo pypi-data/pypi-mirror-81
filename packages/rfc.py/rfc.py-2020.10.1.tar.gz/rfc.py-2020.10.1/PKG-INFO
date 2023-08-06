@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: rfc.py
+Version: 2020.10.1
+Summary: A simple python client that offers users the ability to search for, read and bookmark RFC's from the Internet Engineering Task Force whilst offline.
+License: MIT
+Author: danielmichaels
+Author-email: dans.address@outlook.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: peewee (>=3.13.3,<4.0.0)
+Requires-Dist: requests (>=2.24.0,<3.0.0)

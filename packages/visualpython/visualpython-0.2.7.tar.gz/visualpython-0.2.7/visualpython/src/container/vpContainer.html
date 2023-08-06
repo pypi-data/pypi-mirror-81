@@ -1,0 +1,66 @@
+<div id="vp_header">
+    <span class="vp-header vp-multilang" data-caption-id="main_ContainerTitle">Visual Python 0.2.7</span>
+    <button class="vp-btn vp-thin vp-float-right" type="button" id="vp_openWorkflow">
+        <span>Workflow</span>
+    </button>
+    <button class="vp-btn vp-thin vp-float-right" type="button" id="vp_openVPNote">
+        <span>vpNote</span>
+    </button>
+    <button class="vp-btn vp-thin vp-float-right" type="button" id="vp_openAPIBlock">
+        <span>API Block</span>
+    </button>
+    <button class="vp-btn vp-thin vp-float-right" type="button" id="vp_openAPIList">
+        <span>API List</span>
+    </button>
+</div>
+<div class="vp-main-container">
+    <div class="vp-body-container">
+        <!-- <div class="vp-body-page" id="vp_modeSelector" style="min-height: 100px; display: none;">
+            <button class="vp-btn vp-huge-btn" type="button" id="vp_apiMode">
+                <span>API List</span>
+            </button>
+            <button class="vp-btn vp-huge-btn" type="button" id="vp_startNodeEditMode">
+                <span>API Block</span>
+            </button>
+        </div> -->
+        <div class="vp-body-page" id="vp_APIBrowser">
+
+        </div>
+        <div class="vp-body-page" id="vp_nodeEditPalette" style="display: none;">
+
+        </div>
+        <div class="vp-body-page" id="vp_optionBook" style="display: none;">
+            <div class="vp-option-green-room" id="vp_optionGreenRoom"></div>
+        </div>
+        <div class="vp-body-page" id="vp_optionBookControl" style="display: none;">
+            <button class="vp-btn" type="button" id="vp_addOnCell">
+                <span>Add Cell</span>
+            </button>
+            <button class="vp-btn" type="button" id="vp_runCell">
+                <span>Run Cell</span>
+            </button>
+            <button class="vp-btn" type="button" id="vp_closeOption">
+                <span>Close</span>
+            </button>
+            <button class="vp-btn" type="button" id="vp_saveOption">
+                <span>Save on Note</span>
+            </button>
+        </div>
+    </div>
+    <div class="vp-note-container">
+        <button class="vp-btn vp-small" id="vp_newNote" type="button">
+            <span>New</span>
+        </button>
+        <button class="vp-btn vp-small" id="vp_openNote" type="button">
+            <span>Open</span>
+        </button>
+        <button class="vp-btn vp-small" id="vp_saveNote" type="button">
+            <span>Save</span>
+        </button>
+        <button class="vp-btn vp-small" id="vp_closeNote" type="button">
+            <span>Close</span>
+        </button>
+        <hr style="margin-top: 2px; margin-bottom: 7px;"/>
+        <input type="hidden" id="noteFilePath"/>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+setup.py
+Project0/__init__.py
+Project0/main.py
+Project0.egg-info/PKG-INFO
+Project0.egg-info/SOURCES.txt
+Project0.egg-info/dependency_links.txt
+Project0.egg-info/entry_points.txt
+Project0.egg-info/not-zip-safe
+Project0.egg-info/requires.txt
+Project0.egg-info/top_level.txt

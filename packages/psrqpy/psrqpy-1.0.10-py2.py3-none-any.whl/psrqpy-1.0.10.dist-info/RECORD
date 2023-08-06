@@ -1,0 +1,10 @@
+psrqpy/__init__.py,sha256=yMGjlwQO67vAbm8m1kSnubdEoSFZF0mkPMqMFFo6PNs,874
+psrqpy/config.py,sha256=AJfmSjKW01FP3v9MaUDqFNmNE92dN8N8flJH5uyyi8w,20785
+psrqpy/pulsar.py,sha256=q_HksXlz1eI6MIRSuwZ4-XOqEGLsCVJE3udEoShx-xU,9077
+psrqpy/search.py,sha256=fSz76jBsojhJvNuA-tfTR1aEwT2vxl9tb9itegjF-gM,116750
+psrqpy/utils.py,sha256=KxOxALCF8d3DdQBMwm5XKvVSoRgm07a6GVD3tBPuqWk,46203
+psrqpy-1.0.10.dist-info/LICENSE,sha256=B29-ijHmU3rt1-NGPxpqFuI9h0D14odWnNDr7RkGdz4,1068
+psrqpy-1.0.10.dist-info/METADATA,sha256=2UVXaAQ3KUcOgBw8rphD5aggF57WrV5lTa6a-oyTgBs,9605
+psrqpy-1.0.10.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+psrqpy-1.0.10.dist-info/top_level.txt,sha256=cXfJzu98gyKQroOwsJDgl8_bwn1EOxkWRLXW8Q4DiE4,7
+psrqpy-1.0.10.dist-info/RECORD,,

@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: adspawner
+Version: 0.3.4
+Summary: AdSpawner: A custom spawner for Jupyterhub.
+Home-page: UNKNOWN
+Author: Original: Srujan
+Author-email: UNKNOWN
+License: ISC
+Description: Fetch usergroups from AD.
+Keywords: Interactive,Interpreter,Shell,Web
+Platform: Linux
+Platform: Mac OS X
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3

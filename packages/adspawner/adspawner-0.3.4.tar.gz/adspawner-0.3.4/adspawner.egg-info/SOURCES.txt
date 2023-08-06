@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+adspawner/__init__.py
+adspawner/_version.py
+adspawner/adspawner.py
+adspawner.egg-info/PKG-INFO
+adspawner.egg-info/SOURCES.txt
+adspawner.egg-info/dependency_links.txt
+adspawner.egg-info/top_level.txt

@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: autolib-volatile_int
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://gitee.com/volatile-int/stm32-f103-auto-lib
+Author: Ziyang Wang
+Author-email: pyprinceyang@163.com
+License: UNKNOWN
+Description: # autolib -- stm32 driver library automatic generator
+        
+        stm32是一款功能强大的单片机，但是由于配置使用复杂，在科创比赛中的应用被大大限制。autolib是一个精简的python脚本，可以根据用户需求自动生成所需的库函数。
+        
+        # 优点
+        
+        autolib产生的库函数完全基于寄存器，无论是使用hal库还是标准库的用户都可以轻松的把autolib融入在工程中
+        
+        autolib是一个精简的python脚本，可以在任何安装有python的电脑上运行，而无关操作系统环境，无需编译。
+        
+        autolib通过pypi发布，可以通过pip安装，只要有一台连接互联网的电脑就可以很方便的下载，在陌生的环境中也可以很容易的使用。
+        
+        # 有stm32cubeMX，为什么需要autolib？
+        
+        stm32CubeMX需要java环境，经常因为jre版本问题出错。
+        
+        stm32CubeMX操作更加复杂精细，因此不容易上手。例如时钟树的配置这些大学生科创很少用到的功能不会出现在autolib中，操作简单不易出错。
+        
+        stm32CubeMX需要安装，对硬盘空间和网络带宽都有要求，而autolib可以在任何具有python环境的电脑上运行，安装只需要pip，代码量少。
+        
+        autolib源码简单完全开源，使用者可以很容易进行修改。
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown

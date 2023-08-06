@@ -1,0 +1,7 @@
+pynrds.py
+setup.py
+pynrds.egg-info/PKG-INFO
+pynrds.egg-info/SOURCES.txt
+pynrds.egg-info/dependency_links.txt
+pynrds.egg-info/entry_points.txt
+pynrds.egg-info/top_level.txt

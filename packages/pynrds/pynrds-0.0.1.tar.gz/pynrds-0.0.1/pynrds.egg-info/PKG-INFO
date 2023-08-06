@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: pynrds
+Version: 0.0.1
+Summary: A Complete Python Wrapper for the NAR NRDS API Service
+Home-page: https://github.com/mansard/pynrds
+Author: Jeremey Bingham
+Author-email: info@mansard.net
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 1 - Planning
+Requires-Python: >=3.7

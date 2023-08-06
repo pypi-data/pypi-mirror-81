@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+expression/src/__init__.py
+expression/src/condition.py
+expression/src/enclosure.py
+expression/src/evaluate.py
+expression/src/expression.py
+expression/src/handler.py
+python_expression.egg-info/PKG-INFO
+python_expression.egg-info/SOURCES.txt
+python_expression.egg-info/dependency_links.txt
+python_expression.egg-info/not-zip-safe
+python_expression.egg-info/top_level.txt

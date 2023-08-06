@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: wte
+Version: 0.1.1
+Summary: Convert content from the web to ebooks
+Home-page: https://github.com/webalorn/web-to-ebook
+Author: webalorn
+Author-email: webalorn@gmail.com
+License: UNKNOWN
+Project-URL: Documentation, https://github.com/webalorn/web-to-ebook/blob/main/README.md
+Project-URL: Source, https://github.com/webalorn/web-to-ebook
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: requests (>=2.24)
+Requires-Dist: lxml (>=4.5)
+Requires-Dist: pyquery (>=1.4)
+Requires-Dist: ebooklib (>=0.17)
+
+# Web to ebook
+
+WTE (web-to-ebook) helps you to convert content from some websites into an ebook (epub format) that you can read offline or on an ebook reader. It currently supports downloading any story from wattpad.
+
+## Install
+
+```bash
+python3 -m pip install --upgrade wte
+```
+
+### Manually
+
+You can also install `wte` manually, but is it not recomended. Clone the repository and intall or upgrade the dependencies. Start the programme using the `__main__.py` file :
+
+```bash
+git clone https://github.com/webalorn/web-to-ebook
+python3 -m pip install --upgrade requests lxml pyquery ebooklib
+
+cd web-to-ebook
+python3 . # Starts __main__.py. Use this instead of 'wte'
+```
+
+## Usage
+
+```bash
+wte [url_of_the_page] # Simple usage
+wte [url_of_the_page] --quiet -o [output.epub] # More options
+wte -h # Show the help and all the options
+```
+
+### Currently supported
+
+- [Wattpad](https://www.wattpad.com/) : Converts a whole book
+
+

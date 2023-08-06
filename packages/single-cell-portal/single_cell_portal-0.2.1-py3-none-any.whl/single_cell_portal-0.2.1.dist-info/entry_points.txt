@@ -1,0 +1,3 @@
+[console_scripts]
+manage-study = scripts.manage_study:main
+

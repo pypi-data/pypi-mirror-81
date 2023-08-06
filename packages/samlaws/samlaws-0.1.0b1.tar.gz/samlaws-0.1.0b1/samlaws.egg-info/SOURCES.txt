@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+samlaws.egg-info/PKG-INFO
+samlaws.egg-info/SOURCES.txt
+samlaws.egg-info/dependency_links.txt
+samlaws.egg-info/requires.txt
+samlaws.egg-info/top_level.txt

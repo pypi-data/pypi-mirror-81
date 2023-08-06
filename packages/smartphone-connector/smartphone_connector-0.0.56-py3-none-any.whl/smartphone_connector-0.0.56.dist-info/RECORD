@@ -1,0 +1,11 @@
+smartphone_connector/__init__.py,sha256=rugTDI7U29ReRh3RJeDhKyLXd7RnSpXWLATXtTlaU7U,41890
+smartphone_connector/dictx.py,sha256=J6-nPhimbjgi8dZzIJfQeS3vrpwySzlgf2U-3ChqIJo,1029
+smartphone_connector/helpers.py,sha256=H9txrdpGzPCKyjH3PMzjdgG-It_LtUn8aiHmP3x8wZw,2668
+smartphone_connector/timings.py,sha256=TiZse1WRo3DMC01H7NfFlg4J57Ld_n7GYY5VBP3vuSw,837
+smartphone_connector/types.py,sha256=oraXrNDkvHC8l5c8jn5XJu3Uj3zxvf9r9sv_YtHgKR0,9586
+smartphone_connector/whatever_types.py,sha256=GHMzCaEzGiavnVji3MvmnHMRy-kFhXVxH154iLbT7IU,7802
+smartphone_connector-0.0.56.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+smartphone_connector-0.0.56.dist-info/METADATA,sha256=Lf-ekCiFl4n6ep0uRF3L-mIl30SLsXqm-o0VeuToLZc,11734
+smartphone_connector-0.0.56.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+smartphone_connector-0.0.56.dist-info/top_level.txt,sha256=6acgk2wmEeu80tTZIEPtl_0MO0Hq4svdzTOqTKwpN2Y,21
+smartphone_connector-0.0.56.dist-info/RECORD,,

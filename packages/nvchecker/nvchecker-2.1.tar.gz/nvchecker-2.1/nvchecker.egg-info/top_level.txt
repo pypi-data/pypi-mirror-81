@@ -1,0 +1,6 @@
+_static
+_templates
+docs
+nvchecker
+nvchecker_source
+scripts

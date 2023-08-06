@@ -1,0 +1,9 @@
+setuptools
+toml
+structlog
+appdirs
+tornado>=6
+pycurl
+
+[vercmp]
+pyalpm

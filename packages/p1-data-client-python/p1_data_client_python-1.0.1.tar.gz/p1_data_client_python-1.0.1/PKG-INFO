@@ -1,0 +1,21 @@
+Metadata-Version: 1.2
+Name: p1_data_client_python
+Version: 1.0.1
+Summary: Package for P1 Data API access
+Home-page: https://github.com/ParticleDev/p1_data_client_python
+Author: GP Saggese, Paul Smith
+Author-email: gp@particle.one, paul@particle.one
+Maintainer: 
+Maintainer-email: 
+License: MIT
+Project-URL: Site, https://particle.one/
+Project-URL: API registration, https://particle.one/api
+Description: UNKNOWN
+Keywords: p1_data_client_python,API,data,financial,economic,particle,particleone,particle.one
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >= 3.7

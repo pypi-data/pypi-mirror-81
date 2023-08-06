@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: beerhawk_behavioural_clusters
+Version: 0.0.2
+Summary: Gaussian distributions
+Home-page: UNKNOWN
+Author: Shashi Bhushan Singh
+Author-email: shashi.bhushansingh@ab-inbev.com
+License: UNKNOWN
+Description: This is a distribution class for calculating and visualizing a probaility distribution.
+        
+        It consist of two functions for now which are 
+        
+        
+        ### Installation
+        
+        pip install beerhawk_behavioural_clusters
+        
+        
+        ### Example
+        
+        from beerhawk_behavioural_clusters import raw_orders
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

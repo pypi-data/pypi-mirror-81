@@ -1,0 +1,6 @@
+requests
+jsonnet
+bs4
+lxml
+sphinx_rtd_theme
+sphinx-markdown-builder

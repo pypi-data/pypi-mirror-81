@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: whichtok
+Version: 0.0.1
+Summary: Library for TikTok graph analysis
+Home-page: https://github.com/sarahlc888/whichtok
+Author: Sarah Chen
+Author-email: sarahlc888@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# whichtok
+by Sarah Chen
+
+## Why Whichtok?
+Whichtok constructs graphs out of TikTok content. 
+
+## Getting Started
+Dependencies:
+```
+pip install TikTokApi
+```
+Whichtok uses [`TikTok-Api`](https://davidteather.github.io/TikTok-Api/) to scrape video and user data from TikTok
+
+

@@ -1,0 +1,16 @@
+[
+  "tests/test_airy.py::test_airy_backward_even",
+  "tests/test_airy.py::test_airy_backward_uneven",
+  "tests/test_airy.py::test_airy_forward_even",
+  "tests/test_airy.py::test_airy_forward_uneven",
+  "tests/test_arrays.py::test_airy_backward_even",
+  "tests/test_arrays.py::test_airy_backward_uneven",
+  "tests/test_arrays.py::test_airy_forward",
+  "tests/test_arrays.py::test_airy_forward_even",
+  "tests/test_arrays.py::test_airy_forward_uneven",
+  "tests/test_arrays.py::test_different_size",
+  "tests/test_arrays.py::test_not_monotonous",
+  "tests/test_arrays.py::test_outside_range_tf",
+  "tests/test_arrays.py::test_outside_range_ti",
+  "tests/test_arrays.py::test_too_small"
+]

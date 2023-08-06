@@ -1,0 +1,3 @@
+include pyoscode/*.hpp
+include include/*.hpp
+graft include/*

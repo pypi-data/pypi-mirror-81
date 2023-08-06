@@ -1,0 +1,5 @@
+requests
+argparse
+
+[:platform_system == "Darwin"]
+appscript

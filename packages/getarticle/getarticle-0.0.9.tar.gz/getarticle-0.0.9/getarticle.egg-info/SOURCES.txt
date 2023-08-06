@@ -1,0 +1,12 @@
+README.md
+setup.py
+getarticle/__init__.py
+getarticle/cli.py
+getarticle/getarticle.py
+getarticle.egg-info/PKG-INFO
+getarticle.egg-info/SOURCES.txt
+getarticle.egg-info/dependency_links.txt
+getarticle.egg-info/entry_points.txt
+getarticle.egg-info/not-zip-safe
+getarticle.egg-info/requires.txt
+getarticle.egg-info/top_level.txt

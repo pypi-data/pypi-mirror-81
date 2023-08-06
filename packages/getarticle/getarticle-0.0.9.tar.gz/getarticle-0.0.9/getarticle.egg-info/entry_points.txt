@@ -1,0 +1,3 @@
+[console_scripts]
+getarticle = getarticle.cli:entry_point
+

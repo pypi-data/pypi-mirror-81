@@ -1,0 +1,17 @@
+aqt/__init__.py,sha256=7HRV0JeS4DqbsidXEljFBnSyun-EdljwuEoo4KlgMhI,1504
+aqt/__main__.py,sha256=Har5P2Aokvil4T2S282F58kQDX6NWgBg3o__pz_ffiM,1263
+aqt/archives.py,sha256=vCsskSbF12DhnTIT6ofj-OCiKVKohXxoqLT0gpaPGfI,14055
+aqt/cli.py,sha256=SL_9aw_S6PxabvhugHd61l4AhoR9EwF3MOSYk81AIPA,16723
+aqt/combinations.json,sha256=yUNeWb4O42GNcbcPSkYLDK6MfY3lVMg2fr1sDgPIRFo,10188
+aqt/helper.py,sha256=LgvUaMzANkbhQa0cHMy7TK0hoIXNnpVGqHlrvLeqxX8,2252
+aqt/installer.py,sha256=OQliO3aDXPObcgWGs0wec8YoafjDT84PqdDgdfpSIIU,7182
+aqt/logging.ini,sha256=Tf49Rqcv2SQpqmcfQ3vPhTdflUY4ZvB0RKBfOQM_02A,699
+aqt/qtpatch.py,sha256=4TPrMl5RA48d2EpaTsZn--eTBETkO1ZwrRXpFPr7Dw8,2325
+aqt/settings.ini,sha256=R4wtuINGLDX3h79IQMs8uGUryNLBQJJ2nmocoILT--s,156
+aqt/settings.py,sha256=ehTaqbzcUqA8UEvqYotibdvMG-Ig2QVFB1_1cwrLPtM,3639
+aqtinstall-0.9.7.dist-info/LICENSE,sha256=qY98SCWuh2Y2u3vMjKZwbGhfr0XmifbFSOovsq1K7Ds,1136
+aqtinstall-0.9.7.dist-info/METADATA,sha256=_ZN9C_k0sir3rbPWoXjiiGtNJfb_VmksCCRFdzdGwLM,25388
+aqtinstall-0.9.7.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+aqtinstall-0.9.7.dist-info/entry_points.txt,sha256=lzQVJn6HL4fr6prEoLBxyDRlwJDA3xkBBJ14bwmCoEw,43
+aqtinstall-0.9.7.dist-info/top_level.txt,sha256=4ZbCrra52FYe2xDXU7vB2Svv_pFdR-swV4VwN5Hhl-4,4
+aqtinstall-0.9.7.dist-info/RECORD,,

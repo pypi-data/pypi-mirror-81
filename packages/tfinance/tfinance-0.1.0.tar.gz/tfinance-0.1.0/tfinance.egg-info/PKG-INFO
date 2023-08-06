@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: tfinance
+Version: 0.1.0
+Summary: A Simple Tehran Stock Exchange Scraping & OSINT tool
+Home-page: https://github.com/sadeg/tfinance
+Author: Sadiq Rahmati
+Author-email: sadeg.r@protonmail.com
+License: GPL3
+Description: # tfinance
+        A Simple Tehran Stock Exchange Scraping &amp; OSINT tool written in Python that doesn't use tsetmc's API, Collects and Creates a tidy and well formatted local database.
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

@@ -1,0 +1,11 @@
+README.md
+setup.py
+tfinance/__init__.py
+tfinance/ticker.py
+tfinance/tse.py
+tfinance/tse_scrapper.py
+tfinance.egg-info/PKG-INFO
+tfinance.egg-info/SOURCES.txt
+tfinance.egg-info/dependency_links.txt
+tfinance.egg-info/requires.txt
+tfinance.egg-info/top_level.txt

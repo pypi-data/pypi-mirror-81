@@ -1,0 +1,6 @@
+graphviz>=0.14.1
+numpy
+torch
+tensorflow
+IPython
+matplotlib

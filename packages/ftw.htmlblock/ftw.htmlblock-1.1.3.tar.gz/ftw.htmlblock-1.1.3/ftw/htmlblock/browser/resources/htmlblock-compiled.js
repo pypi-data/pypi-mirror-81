@@ -1,0 +1,1 @@
+!function(){function n(n){n.find("iframe").length&&n.addClass(e)}var e="has-iframe";$(function(){$.each($(".sl-block"),function(e,c){n($(c))})}),$(document).on("blockReplaced",function(e,c){n(c.element)})}(),define("iframe_check",function(){}),require(["iframe_check"],function(n){}),define("main",function(){});

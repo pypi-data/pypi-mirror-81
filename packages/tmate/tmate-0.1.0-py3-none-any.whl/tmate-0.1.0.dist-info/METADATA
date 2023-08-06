@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: tmate
+Version: 0.1.0
+Summary: tmate implemented by python.
+Home-page: https://github.com/drunkdream/pytmate
+Author: drunkdream
+Author-email: drunkdream@qq.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: asyncssh
+Requires-Dist: msgpack
+
+UNKNOWN
+
+

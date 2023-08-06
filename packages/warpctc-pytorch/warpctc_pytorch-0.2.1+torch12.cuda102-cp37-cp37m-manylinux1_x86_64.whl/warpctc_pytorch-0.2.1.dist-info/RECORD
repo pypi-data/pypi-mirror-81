@@ -1,0 +1,7 @@
+warpctc_pytorch/__init__.py,sha256=Fcq6ri2LvolBAFvSWacur5ebrr4OTDfLQ1GeoWQSq1o,3600
+warpctc_pytorch/_warp_ctc.cpython-37m-x86_64-linux-gnu.so,sha256=5Wjt0-wVDQwpc-QJeLD8AdUmsmLzxVML91dQoHp7QqU,4441544
+warpctc_pytorch/lib/libwarpctc.so,sha256=keow_qcrIJIyXwTNfA03uk4XbEEmu2O-GJO5XwyMQnE,5008856
+warpctc_pytorch-0.2.1.dist-info/METADATA,sha256=3-RKSA5duuomqNLc34H5qYup175Hkl41yns8uMIcF9c,439
+warpctc_pytorch-0.2.1.dist-info/WHEEL,sha256=rjs0dbLt66v8mjOfCbR-uj5Usgl2OLAlmRdCEyNo0L4,104
+warpctc_pytorch-0.2.1.dist-info/top_level.txt,sha256=28bWaeLdptcbGWLFe4lvddeLQ2S4QuIbSrrKLOkjjdM,16
+warpctc_pytorch-0.2.1.dist-info/RECORD,,

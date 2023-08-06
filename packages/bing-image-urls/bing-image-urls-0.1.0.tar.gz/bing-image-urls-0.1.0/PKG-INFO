@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: bing-image-urls
+Version: 0.1.0
+Summary: fetch bing image urls based on keywords
+Author: ffreemt
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: httpx (>=0.15.5,<0.16.0)

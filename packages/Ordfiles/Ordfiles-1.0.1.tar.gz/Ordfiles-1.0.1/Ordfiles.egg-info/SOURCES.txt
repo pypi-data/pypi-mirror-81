@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+Ordfiles/arrange.py
+Ordfiles.egg-info/PKG-INFO
+Ordfiles.egg-info/SOURCES.txt
+Ordfiles.egg-info/dependency_links.txt
+Ordfiles.egg-info/entry_points.txt
+Ordfiles.egg-info/requires.txt
+Ordfiles.egg-info/top_level.txt

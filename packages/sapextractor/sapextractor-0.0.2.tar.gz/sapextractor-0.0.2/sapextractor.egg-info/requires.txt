@@ -1,0 +1,4 @@
+pm4py
+pm4pymdl
+stringdist
+cx_Oracle

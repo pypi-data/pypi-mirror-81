@@ -1,0 +1,16 @@
+clearable_widget/__init__.py,sha256=9GsCkT828IUVF--T_9xHBPIcaDpTaHtJeXHmWu57eWA,84
+clearable_widget/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clearable_widget/widgets.py,sha256=HPeCYg-Dl1w8qnSgOagChblp3tihnkogWY9wMkws5NQ,1119
+clearable_widget/static/clearable_widget/css/clearable.css,sha256=XOCOU51qebMlWxSZRJIL2SI45erbY5HGTzYNo6xvgGA,496
+clearable_widget/static/clearable_widget/css/clearable.min.css,sha256=T0wAiVD_9itVjHtLMBXzo4EnymLZi14AnUPiRNgAL8c,415
+clearable_widget/static/clearable_widget/js/clearable.js,sha256=8605t4LAiLyYczVWX6VksYUl8P535l0I367aYQIRnT4,647
+clearable_widget/static/clearable_widget/js/clearable.min.js,sha256=uBTYQN8m4hkMBjaNcr2TVt8WExrwdJJE9j-iQo1myxc,395
+clearable_widget/templates/clearable_widget/clearable_widget_css.html,sha256=0YPA8XsMZXmvxFlb482ET7LBTuP_qZA776fDEDtevRQ,135
+clearable_widget/templates/clearable_widget/clearable_widget_js.html,sha256=kVaCFhYuT3reZ9YQZUMdnzdHmIyKn7uKZ91HtyabGtg,264
+clearable_widget/templates/clearable_widget/input.html,sha256=cMdWB-d3kVidXuRnYDfvXGauJ4AvpqzXL6E47BCIUpM,87
+clearable_widget/templates/clearable_widget/input.jinja,sha256=cMdWB-d3kVidXuRnYDfvXGauJ4AvpqzXL6E47BCIUpM,87
+django_clearable_widget-0.1.7.dist-info/LICENSE,sha256=obyS9L7bLDqLVb688MLXd1ihohpuWeyZ4AIaQb6lx38,1522
+django_clearable_widget-0.1.7.dist-info/METADATA,sha256=fD7OkPQehI300YunUQOUBagGtKl4uM1bp_aelOe2etQ,3294
+django_clearable_widget-0.1.7.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+django_clearable_widget-0.1.7.dist-info/top_level.txt,sha256=8c-FPFBZHyVO601lFM0G-GyEUsSqRu-ZDl53WSvqcZY,17
+django_clearable_widget-0.1.7.dist-info/RECORD,,

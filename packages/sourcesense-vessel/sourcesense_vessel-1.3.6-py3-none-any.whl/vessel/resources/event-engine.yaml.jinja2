@@ -1,0 +1,77 @@
+apiVersion: v1
+kind: List
+metadata:
+  resourceVersion: ""
+  selfLink: ""
+items:
+- apiVersion: v1
+  kind: Secret
+  metadata:
+    name: vault-secret
+  type: Opaque
+  stringData:
+    HOST: "http://vault.vault:8200"
+    USER: "sourcesense"
+    PWD: "{{ vault_password }}"
+- apiVersion: v1
+  kind: Service
+  metadata:
+    labels:
+      app: {{ name }}-event-engine
+    name: {{ name }}-event-engine
+  spec:
+    ports:
+    - name: 8080-tcp
+      port: 8080
+      protocol: TCP
+      targetPort: 8080
+    selector:
+      app: {{ name }}-event-engine
+    sessionAffinity: None
+    type: ClusterIP
+- apiVersion: apps/v1
+  kind: Deployment
+  metadata:
+    name: {{ name }}-event-engine
+  spec:
+    selector:
+      matchLabels:
+        app: {{ name }}-event-engine
+    replicas: 1
+    template:
+      metadata:
+        labels:
+          app: {{ name }}-event-engine
+      spec:
+        containers:
+        - name: {{ name }}-event-engine
+          image: docker-registry.oc.corp.sourcesense.com/daas/workstation-event-engine:{{ tag }}
+          env:
+          - name: CLUSTER_TOKEN
+            value: {{ token }}
+          - name: REDIS_URI
+            value: redis://redis-master
+          - name: REDIS_PASSWORD
+            valueFrom:
+              secretKeyRef:
+                name: redis
+                key: redis-password
+          - name: BEAT_OUTPUT
+            value: filebeat.daas.svc:9000
+          - name: VAULT_HOST
+            valueFrom:
+              secretKeyRef:
+                name: vault-secret
+                key: HOST
+          - name: VAULT_USER
+            valueFrom:
+              secretKeyRef:
+                name: vault-secret
+                key: USER
+          - name: VAULT_PWD
+            valueFrom:
+              secretKeyRef:
+                name: vault-secret
+                key: PWD
+        imagePullSecrets:
+        - name: sourcesense-registry

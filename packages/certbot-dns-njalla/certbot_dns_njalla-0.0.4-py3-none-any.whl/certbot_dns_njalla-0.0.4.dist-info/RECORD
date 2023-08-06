@@ -1,0 +1,9 @@
+certbot_dns_njalla/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+certbot_dns_njalla/dns_njalla.py,sha256=5oTnOPfKkEKp9_PaG5AArAPrVJowxhUI9VUvVj5Sabc,3328
+certbot_dns_njalla/dns_njalla_test.py,sha256=V2nttTdJ91CWJRFr8pOxVHdARWnpgz4EBVhwKNsba2w,1951
+certbot_dns_njalla-0.0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+certbot_dns_njalla-0.0.4.dist-info/METADATA,sha256=93h1GZuJsSuP8dSyPtBGmYrlC5ChEUcbrwjf37BwYTY,2463
+certbot_dns_njalla-0.0.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+certbot_dns_njalla-0.0.4.dist-info/entry_points.txt,sha256=QfxUt_jDBRPtzPYnZdV-8ZXpX8UGlg9iKHLUXRV_9TY,76
+certbot_dns_njalla-0.0.4.dist-info/top_level.txt,sha256=GamTdyzCSPRRhRoou0IlRbPqkvzh3rljEbP-5xxf08E,19
+certbot_dns_njalla-0.0.4.dist-info/RECORD,,

@@ -1,0 +1,7 @@
+flask
+lxml
+pathlib
+tabulate
+sqlalchemy
+setuptools
+Flask_SQLAlchemy

@@ -1,0 +1,9 @@
+cookiecutter
+django
+doit
+ipython
+
+[dodos]
+cookiecutter
+django
+doit

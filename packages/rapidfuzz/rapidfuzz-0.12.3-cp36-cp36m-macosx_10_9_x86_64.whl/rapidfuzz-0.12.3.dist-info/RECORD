@@ -1,0 +1,10 @@
+rapidfuzz/__init__.py,sha256=bSYkYIkRaFXAL9h-4Y0YuIdfZDEuWAcbCUu5k21nR4s,166
+rapidfuzz/fuzz.cpython-36m-darwin.so,sha256=TPArd7aImXkQPPOKs9We5zXZ6dSx36Mr7uBo3K3GpP4,576136
+rapidfuzz/levenshtein.cpython-36m-darwin.so,sha256=JoHSuRdxPCAw3ercClmDNVHEf25LZd9n-WBe9_Y0kVc,100648
+rapidfuzz/process.py,sha256=ZCixPHH6Bh2AEOKNC9lCeaCV-2Ks5X_3b8DrN-XJQAk,7535
+rapidfuzz/utils.cpython-36m-darwin.so,sha256=cFyixBqsD2GFZe9NEvOpjK5PRR6NLu3Hq8xVeuY6suk,26492
+rapidfuzz-0.12.3.dist-info/LICENSE,sha256=B7k0BI6XLQ4j3OOdUbQD3nu6KmYOCcOP9WXyWTM60kY,1082
+rapidfuzz-0.12.3.dist-info/METADATA,sha256=OgXW2XIiI-9v-IFL7PG4prSpGA-T2h9j2065Js33v9o,5999
+rapidfuzz-0.12.3.dist-info/WHEEL,sha256=qDU9vkT0HYrDFbbK1y5h1LOv2WPLB5v9Y7007MOuefg,110
+rapidfuzz-0.12.3.dist-info/top_level.txt,sha256=Oxm3Kk-v28hdkOkW3AVE1EMl8Ml5FPFl32w6V65shvg,10
+rapidfuzz-0.12.3.dist-info/RECORD,,

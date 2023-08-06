@@ -1,0 +1,14 @@
+pandas>=1.0.5
+cobra>=0.20.0
+cameo>=0.11.15
+optlang>=1.4.6
+numpy
+pyfiglet
+
+[development]
+black
+bump2version
+isort
+tox
+pytest>=6.1
+pytest-cov>=2.8.1

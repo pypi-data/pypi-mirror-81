@@ -1,0 +1,3 @@
+[console_scripts]
+wte = wte.main:main
+

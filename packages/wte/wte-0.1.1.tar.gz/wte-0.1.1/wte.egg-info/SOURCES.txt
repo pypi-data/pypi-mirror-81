@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+readme.md
+setup.py
+wte/__init__.py
+wte/main.py
+wte.egg-info/PKG-INFO
+wte.egg-info/SOURCES.txt
+wte.egg-info/dependency_links.txt
+wte.egg-info/entry_points.txt
+wte.egg-info/requires.txt
+wte.egg-info/top_level.txt
+wte/src/__init__.py
+wte/src/ebook.py
+wte/src/util.py
+wte/src/wattpad.py

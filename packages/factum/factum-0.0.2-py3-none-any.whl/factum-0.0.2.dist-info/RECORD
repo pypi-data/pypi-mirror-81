@@ -1,0 +1,15 @@
+factum/example/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+factum/example/dag/__init__.py,sha256=1nLN01HzWmTh4qigYW86LRqaUUoPy-xVQwg0yRjuYR0,32
+factum/example/dag/nested.py,sha256=yoXboVn92g1oVsM3XgBXyG3JdLJGNWtVbxOD_hMDlcM,342
+factum/example/dag/basic_1/__init__.py,sha256=sy_z_X3nYpVASt_5No0-2VN1ZQawapa689rn65sKumQ,92
+factum/example/dag/basic_1/detail_1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+factum/example/dag/basic_1/detail_2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+factum/example/dag/basic_2/__init__.py,sha256=ZRK7qVqXNnuUmocYexnXPGrKyhDYJc3QJUaq1si0sVw,173
+factum/example/dag/basic_2/detail_1/__init__.py,sha256=S3XUAFIhEb_yKugoVQsVkkSBLOBnpHIG_Eg0t3HtDdg,361
+factum/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+factum/lib/objects.py,sha256=zxcJ6u5WFRLNI6O_aJTAH9VKEu0TZBPPTEl7HEfKDY4,18722
+factum-0.0.2.dist-info/LICENSE,sha256=9Ofzc7m5lpUDN-jUGkopOcLZC3cl6brz1QhKInF60yg,7169
+factum-0.0.2.dist-info/METADATA,sha256=VMw-GjIHIE2g0mLXc2S4rJpg16x4b4rkp85zBMu_gdM,2528
+factum-0.0.2.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+factum-0.0.2.dist-info/top_level.txt,sha256=WUPyQgz18fOLrW_2JWFt7_TfiO26dAPeCxXmG-6GSnM,7
+factum-0.0.2.dist-info/RECORD,,

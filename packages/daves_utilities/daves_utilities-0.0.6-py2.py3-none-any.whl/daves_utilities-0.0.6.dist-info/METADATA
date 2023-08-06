@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: daves_utilities
+Version: 0.0.6
+Summary: Daves utilities is a collection of useful python functions which I would like to provide to anybody who is insterested in using them.
+Home-page: https://github.com/kuchedav/daves_utilities
+License: UNKNOWN
+Author: David Kuchelmeister
+Author-email: kuchelmeister.david@gmail.com
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+
+# daves_utilities
+
+## description
+Daves utilities is a collection of function which I repeatedly needed but did not find implemented for python.
+
+## installation
+`pip install daves_utilities`
+
+## functions
+- for_long  
+  adds some useful functionalities for long running loops
+  - Save progress and return calculation where you left off
+  - Input multiple list to iterate over permutation of all input lists
+  - Loading bar
+- fun_save  
+  Saves the output of any function to a pickle file.
+  If the function is run again it will check the input parameters against the saved files. If the input-function combination is found again it will read the pickle file instead of rerunning the function.  
+  - This function either saves the last run or every run ever completed.
+- is_equal  
+  Compare two arbitrary python objects. The function will check recursively in any iterable object.
+  - Advantage to a comparison with `X is Y` is that the object does not need to be saved on the same Memory location.
+- print_structure
+  Print the structure of any iterable python object.
+

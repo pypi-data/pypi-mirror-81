@@ -1,0 +1,87 @@
+## Pythematics
+>Pythematics is a zero-dependency math library for Python that aims to extend some Mathematical fields that are seemingly abandoned by other libraries while offering a fully Pythonic experience.
+
+The main **field** that this library aims to enhance to Python is **Polynomials** in a way that allows for super-complicated and high degree equations to be solved giving all **Real** and **Complex Solutions** as well as combining it with fields such as Linear Algebra and allowing for Matrix-Polynomial Manipulation methods like finding Eigenvalues and Eigenvectors.
+
+**Pythematics** can also be used as an ordinary math module since it contains various sub-packages for computations in Trigonometry, Number Theory and other fields such as Random Number Generation or Calculus
+
+The thing that makes this library unique is the ability to Interact will Polynomials at the following format:
+
+```python
+import pythematics.polynomials as pl
+
+x = pl.x
+
+side_1 = x*(3*x**2 + 5*x**4 - x**5) # The first side of our equation
+side_2 = x**2 * (x+1) # The second side
+final_polynomial = side_1 - side_2 # Bring Everything to one side
+roots = final_polynomial.roots(iterations=50) # Find the roots of the resulting Polynomial
+for root in roots:
+    print(f'{root} : {final_polynomial.getFunction()(root)}')
+```
+
+And the system will then find all the roots of the reduced Polynomial Complex and Real
+
+```python
+(5.07012959493235-3.189748897278739e-31j) : (4.575895218295045e-12+1.0966369421494688e-27j)
+(-8.873587068586144e-08-1.5544092660081612e-08j) : (-7.63243719853339e-15-2.7586379192868285e-15j)
+(-0.223346113995466-0.6883968692907642j) : (-5.551115123125783e-17+0j)
+(-0.22334611399546603+0.6883968692907642j) : (-5.551115123125783e-17+0j)
+(0.3765626330585808-5.3106647549566e-139j) : -2.946986968335106e-139j
+(8.873587068586141e-08+1.554409266008162e-08j) : (-7.632434660972042e-15-2.758636465569371e-15j)
+```
+
+In the **Left** Side are the solutions to the equation while on the **right** are these values substituted into the equation, and the numbers you see here are some number raise to a high negative power like `e-139` which is almost an infinitesimal value very close to **zero**
+
+**Multivariable** polynomials can also be used to perform calculations
+
+```python
+import pythematics.polynomials as pl
+
+x = pl.symbol('x') # X symbol
+y = pl.symbol('y') # Y Symbol
+for p in range(6):
+    print((x+y)**p)
+```
+The above, will generate the binomial theorem up to the 6th power and produce the **following**
+
+```python
+1 # 0th Power
+Multivariable Polynomial : (y) + (x) # 1st Power
+Multivariable Polynomial : 2*(x*y) + (x^2) + (y^2) #2nd Power
+Multivariable Polynomial : (y^3) + 3*(x*y^2) + 3*(x^2*y) + (x^3) # 3rd Power
+Multivariable Polynomial : 4*(x^3*y) + (x^4) + 6*(x^2*y^2) + 4*(x*y^3) + (y^4) #4th
+Multivariable Polynomial : (y^5) + 5*(x*y^4) + 10*(x^2*y^3) + 10*(x^3*y^2) + 5*(x^4*y) + (x^5)
+```
+
+
+**Linear Algebra** is another huge part of this module which was, in fact the Inspiration for it's creation
+
+Here is an example of solving a **Linear System** of equations of Dimensions **3x3**
+
+```python
+A = Matrix([ #The Matrix
+    [1,2,3], 
+    [4,7,8],
+    [5,10,11]
+])
+
+unknowns = ('x','y','z') # Our Varaibles
+Output = Vector([10,15,25]) # Our Target Output
+
+print(A.solve(Output,unknowns)) # Using Cramer's rule of the determinants
+print(A.solve(Output,unknowns,useRef=True)) # Using Row Reduction
+```
+
+And as expected the results are identical dispite a small floating point error
+
+```python
+{'x': -8.75, 'y': 0.0, 'z': 6.25}
+{'x': -8.749999999999993, 'y': -6.217248937900877e-15, 'z': 6.250000000000002}
+```
+
+if you seem interested in this library you can find more on [Github](https://github.com/Greece4ever/pythematics)
+
+
+
+

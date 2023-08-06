@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: pepper_polish
+Version: 0.1.0
+Summary: RNN based standalone assembly polisher.
+Home-page: https://github.com/kishwarshafin/pepper
+Author: Kishwar Shafin
+Author-email: kishwar.shafin@gmail.com
+License: UNKNOWN
+Description: # Markdown supported!
+        
+        * Cheer
+        * Celebrate
+        
+Platform: UNKNOWN
+Requires-Python: >=3.5.*

@@ -1,0 +1,8 @@
+[console_scripts]
+pepper = pepper.pepper:main
+pepper_hp = pepper_hp.pepper_hp:main
+pepper_hp_train = pepper_hp.pepper_hp_train:main
+pepper_snp = pepper_snp.pepper_snp:main
+pepper_snp_train = pepper_snp.pepper_snp_train:main
+pepper_train = pepper.pepper_train:main
+

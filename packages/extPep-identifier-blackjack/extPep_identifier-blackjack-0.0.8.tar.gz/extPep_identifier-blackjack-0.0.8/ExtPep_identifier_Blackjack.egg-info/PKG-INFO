@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: extPep-identifier-blackjack
+Version: 0.0.8
+Summary: Extended peptides identification given mass-spec search result and custom proteomic database
+Home-page: http://git.pepchem.org/gaolab/api_ribo_ext 
+Author: Xinhao Shao
+Author-email: 
+License: UNKNOWN
+Description: # ExtPep_identifier
+        _Xinhao Shao @Collage of Pharmacy, University of Illinois at Chicago_<br/>
+        ## Purpose of the script
+        ExtPep_identifier allows researchers to efficiently identify potential extended peptides given mass-spec search results
+        and custom database. The extended peptides can be identified after mapping all of the identified peptides to a custom extended
+        database, followed by a standard non-extended database.
+        ## Usage
+        **1. Package installation**<br/>
+        Install the package by running:<br/>
+        _pip install -i https://test.pypi.org/simple/ extPep-identifier-blackjack==0.0.8(or current version)_<br/><br/>
+        **2. Import the package**<br/>
+        _import ExtPep_identifier_<br/><br/>
+        **3. Prepare for a few parameters before calling main function**<br/>
+        \# a list of identified peptides strings, ex. ['PEPTIDE','TIDEPEP']<br/>
+        _peptide_list=your_peptide_getter_function(search_result_file)_ <br/><br/>
+        \# a dictionary structure with identified peptide with key, the number of times such peptide being identified as value, ex. {'PEPTIDE':4,'TIDEPEP':5}<br/>
+        _psm_dictionary = your_psm_getter_function(search_result_file)_ <br/><br/>
+        \# a dictionary structure with protein ID as key, it's extended sequence as value, ex. {'P1':'PEPTIDEPEP'}<br/>
+        _merged_protein_dictionary = your_fasta_reader(custom_ext_database_file_path)_<br/><br/>
+        \# a dictionary structure with protein ID as key, it's original sequence as value, ex. {'P1':'PEPTIDEP'}<br/>
+        _original_protein_dictionary = your_fasta_reader(original_db_file_path)_<br/><br/>
+        **4. Calling main function**<br/>
+        _ext_pep_list, ext_psm_list, ext_protein_set 
+        = ExtPep_identifier.\_\_main\_\_(peptide_list,psm_dictionary,merged_protein_dictionary,original_protein_dictionary)_
+        
+        
+        
+        
+        ## How to cite:
+        _Kyle Mangano, Tanja Florin, Xinhao Shao, Dorota Klepacki, Irina Chelysheva, Zoya Ignatova, Yu Gao, Alexander Mankin,  View ORCID ProfileNora VÃ¡zquez-Laslop
+        "Genome-wide effects of the antimicrobial peptide apidaecin on translation termination", accepted by eLife_
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

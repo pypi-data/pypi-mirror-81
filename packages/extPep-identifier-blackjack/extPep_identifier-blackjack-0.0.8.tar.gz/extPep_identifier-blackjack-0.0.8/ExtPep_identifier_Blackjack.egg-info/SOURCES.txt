@@ -1,0 +1,15 @@
+README.md
+setup.py
+ExtPep_identifier/__init__.py
+ExtPep_identifier/aho_corasick.py
+ExtPep_identifier/api_final.py
+ExtPep_identifier/calculations_and_plot.py
+ExtPep_identifier/sequence_process.py
+ExtPep_identifier_Blackjack.egg-info/PKG-INFO
+ExtPep_identifier_Blackjack.egg-info/SOURCES.txt
+ExtPep_identifier_Blackjack.egg-info/dependency_links.txt
+ExtPep_identifier_Blackjack.egg-info/top_level.txt
+extPep_identifier_blackjack.egg-info/PKG-INFO
+extPep_identifier_blackjack.egg-info/SOURCES.txt
+extPep_identifier_blackjack.egg-info/dependency_links.txt
+extPep_identifier_blackjack.egg-info/top_level.txt

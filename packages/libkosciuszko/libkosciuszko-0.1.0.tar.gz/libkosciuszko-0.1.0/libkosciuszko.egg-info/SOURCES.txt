@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+libkosciuszko.egg-info/PKG-INFO
+libkosciuszko.egg-info/SOURCES.txt
+libkosciuszko.egg-info/dependency_links.txt
+libkosciuszko.egg-info/top_level.txt
+src/__init__.py

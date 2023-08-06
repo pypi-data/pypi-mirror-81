@@ -1,0 +1,10 @@
+README.md
+gh_pr_update_description.py
+pyproject.toml
+setup.py
+gh_pr_update_description.egg-info/PKG-INFO
+gh_pr_update_description.egg-info/SOURCES.txt
+gh_pr_update_description.egg-info/dependency_links.txt
+gh_pr_update_description.egg-info/entry_points.txt
+gh_pr_update_description.egg-info/requires.txt
+gh_pr_update_description.egg-info/top_level.txt

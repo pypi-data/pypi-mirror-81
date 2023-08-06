@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: npVCC2016
+Version: 1.0.2
+Summary: npVCC2016: Python loader of npVCC2016 speech corpus
+Home-page: https://github.com/tarepan/npVCC2016
+Author: Tarepan
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+Requires-Dist: torchaudio
+Requires-Dist: pytorch-lightning
+
+# `npVCC2016` - Python loader of npVCC2016Corpus
+
+`npVCC2016` is a Python loader set for [npVCC2016 non-parallel speech corpus](https://github.com/tarepan/npVCC2016Corpus).  
+For machine learning, corpus/dataset is indispensable - but troublesome - part.  
+We need portable & flexible loader for streamline development.  
+`npVCC2016` is the one!!  
+
+## Demo
+
+Python/PyTorch  
+
+```bash
+pip install npVCC2016
+```
+
+```python
+from npVCC2016.PyTorch.dataset.waveform import NpVCC2016
+
+dataset = NpVCC2016(".", True, True)
+
+for datum in dataset:
+    print("Yeah, data is acquired only two line of code!!")
+    print(datum)
+``` 
+
+`npVCC2016` transparently download corpus, structure the data and provide standarized datasets.  
+What you have to do is only importing it!  
+
+

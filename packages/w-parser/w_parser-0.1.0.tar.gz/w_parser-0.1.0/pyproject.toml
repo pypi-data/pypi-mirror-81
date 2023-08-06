@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "w_parser"
+version = "0.1.0"
+description = "Parser for job search sites"
+authors = ["dayonizeus <dayonizeus@gmail.com>"]
+license = "MIT"
+homepage = "https://github.com/dayonizeus/parsers"
+documentation = "https://github.com/dayonizeus/parsers/blob/master/README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.24.0"
+beautifulsoup4 = "^4.9.3"
+lxml = "^4.5.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pytest-cov = "^2.10.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

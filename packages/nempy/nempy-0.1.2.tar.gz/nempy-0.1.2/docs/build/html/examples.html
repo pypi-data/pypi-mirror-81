@@ -1,0 +1,2154 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Examples &mdash; nempy 0.0.1 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="markets module" href="markets.html" />
+    <link rel="prev" title="Introduction" href="intro.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> nempy
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Examples</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#bid-stack-equivalent-market">Bid stack equivalent market</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#unit-loss-factors-capacities-and-ramp-rates">Unit loss factors, capacities and ramp rates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#interconnector-with-losses">Interconnector with losses</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#dynamic-non-linear-interconnector-losses">Dynamic non-linear interconnector losses</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#simple-fcas-markets">Simple FCAS markets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#simple-recreation-of-historical-dispatch">Simple recreation of historical dispatch</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#detailed-recreation-of-historical-dispatch">Detailed recreation of historical dispatch</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#time-sequential-recreation-of-historical-dispatch">Time sequential recreation of historical dispatch</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="markets.html">markets module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="historical.html">historical_inputs modules</a></li>
+<li class="toctree-l1"><a class="reference internal" href="time_sequential.html">time_sequential modules</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">nempy</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Examples</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/examples.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="examples">
+<h1>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="bid-stack-equivalent-market">
+<h2>Bid stack equivalent market<a class="headerlink" href="#bid-stack-equivalent-market" title="Permalink to this headline">¶</a></h2>
+<p>This example implements a one region market that mirrors the ‘bid stack’ model of an electricity market. Under the
+bid stack model, generators are dispatched according to their bid prices, from cheapest to most expensive, until all
+demand is satisfied. No loss factors, ramping constraints or other factors are considered.</p>
+<div class="highlight-python notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">from</span> <span class="nn">nempy</span> <span class="kn">import</span> <span class="n">markets</span>
+
+<span class="c1"># Volume of each bid, number of bands must equal number of bands in price_bids.</span>
+<span class="n">volume_bids</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">&#39;unit&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;B&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;1&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">20.0</span><span class="p">,</span> <span class="mf">50.0</span><span class="p">],</span>  <span class="c1"># MW</span>
+    <span class="s1">&#39;2&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">20.0</span><span class="p">,</span> <span class="mf">30.0</span><span class="p">],</span>  <span class="c1"># MW</span>
+    <span class="s1">&#39;3&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">5.0</span><span class="p">,</span> <span class="mf">10.0</span><span class="p">]</span>  <span class="c1"># More bid bands could be added.</span>
+<span class="p">})</span>
+
+<span class="c1"># Price of each bid, bids must be monotonically increasing.</span>
+<span class="n">price_bids</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">&#39;unit&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;B&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;1&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">50.0</span><span class="p">,</span> <span class="mf">50.0</span><span class="p">],</span>  <span class="c1"># $/MW</span>
+    <span class="s1">&#39;2&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">60.0</span><span class="p">,</span> <span class="mf">55.0</span><span class="p">],</span>  <span class="c1"># $/MW</span>
+    <span class="s1">&#39;3&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">100.0</span><span class="p">,</span> <span class="mf">80.0</span><span class="p">]</span>  <span class="c1"># . . .</span>
+<span class="p">})</span>
+
+<span class="c1"># Other unit properties</span>
+<span class="n">unit_info</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">&#39;unit&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;B&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;region&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;NSW&#39;</span><span class="p">,</span> <span class="s1">&#39;NSW&#39;</span><span class="p">],</span>  <span class="c1"># MW</span>
+<span class="p">})</span>
+
+<span class="c1"># The demand in the region\s being dispatched</span>
+<span class="n">demand</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">&#39;region&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;NSW&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;demand&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">120.0</span><span class="p">]</span>  <span class="c1"># MW</span>
+<span class="p">})</span>
+
+<span class="c1"># Create the market model</span>
+<span class="n">market</span> <span class="o">=</span> <span class="n">markets</span><span class="o">.</span><span class="n">SpotMarket</span><span class="p">(</span><span class="n">unit_info</span><span class="o">=</span><span class="n">unit_info</span><span class="p">,</span> <span class="n">market_regions</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;NSW&#39;</span><span class="p">])</span>
+<span class="n">market</span><span class="o">.</span><span class="n">set_unit_volume_bids</span><span class="p">(</span><span class="n">volume_bids</span><span class="p">)</span>
+<span class="n">market</span><span class="o">.</span><span class="n">set_unit_price_bids</span><span class="p">(</span><span class="n">price_bids</span><span class="p">)</span>
+<span class="n">market</span><span class="o">.</span><span class="n">set_demand_constraints</span><span class="p">(</span><span class="n">demand</span><span class="p">)</span>
+
+<span class="c1"># Calculate dispatch and pricing</span>
+<span class="n">market</span><span class="o">.</span><span class="n">dispatch</span><span class="p">()</span>
+
+<span class="c1"># Return the total dispatch of each unit in MW.</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">market</span><span class="o">.</span><span class="n">get_unit_dispatch</span><span class="p">())</span>
+<span class="c1">#   unit service  dispatch</span>
+<span class="c1"># 0    A  energy      40.0</span>
+<span class="c1"># 1    B  energy      80.0</span>
+
+<span class="c1"># Return the price of energy in each region.</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">market</span><span class="o">.</span><span class="n">get_energy_prices</span><span class="p">())</span>
+<span class="c1">#   region  price</span>
+<span class="c1"># 0    NSW   60.0</span>
+</pre></div>
+</td></tr></table></div>
+</div>
+<div class="section" id="unit-loss-factors-capacities-and-ramp-rates">
+<h2>Unit loss factors, capacities and ramp rates<a class="headerlink" href="#unit-loss-factors-capacities-and-ramp-rates" title="Permalink to this headline">¶</a></h2>
+<p>In this example units are given loss factors, capacity values and ramp rates.</p>
+<div class="highlight-python notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">from</span> <span class="nn">nempy</span> <span class="kn">import</span> <span class="n">markets</span>
+
+<span class="c1"># Volume of each bid, number of bands must equal number of bands in price_bids.</span>
+<span class="n">volume_bids</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">&#39;unit&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;B&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;1&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">20.0</span><span class="p">,</span> <span class="mf">50.0</span><span class="p">],</span>  <span class="c1"># MW</span>
+    <span class="s1">&#39;2&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">20.0</span><span class="p">,</span> <span class="mf">30.0</span><span class="p">],</span>  <span class="c1"># MW</span>
+    <span class="s1">&#39;3&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">5.0</span><span class="p">,</span> <span class="mf">10.0</span><span class="p">]</span>  <span class="c1"># More bid bands could be added.</span>
+<span class="p">})</span>
+
+<span class="c1"># Price of each bid, bids must be monotonically increasing.</span>
+<span class="n">price_bids</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">&#39;unit&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;B&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;1&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">50.0</span><span class="p">,</span> <span class="mf">50.0</span><span class="p">],</span>  <span class="c1"># $/MW</span>
+    <span class="s1">&#39;2&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">60.0</span><span class="p">,</span> <span class="mf">55.0</span><span class="p">],</span>  <span class="c1"># $/MW</span>
+    <span class="s1">&#39;3&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">100.0</span><span class="p">,</span> <span class="mf">80.0</span><span class="p">]</span>  <span class="c1"># . . .</span>
+<span class="p">})</span>
+
+<span class="c1"># Factors limiting unit output.</span>
+<span class="n">unit_limits</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">&#39;unit&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;B&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;initial_output&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">55.0</span><span class="p">,</span> <span class="mf">90.0</span><span class="p">],</span>  <span class="c1"># MW</span>
+    <span class="s1">&#39;capacity&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">55.0</span><span class="p">,</span> <span class="mf">90.0</span><span class="p">],</span>  <span class="c1"># MW</span>
+    <span class="s1">&#39;ramp_up_rate&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">1000.0</span><span class="p">,</span> <span class="mf">1500.0</span><span class="p">],</span>  <span class="c1"># MW/h</span>
+    <span class="s1">&#39;ramp_down_rate&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">1000.0</span><span class="p">,</span> <span class="mf">1500.0</span><span class="p">]</span>  <span class="c1"># MW/h</span>
+<span class="p">})</span>
+
+<span class="c1"># Other unit properties including loss factors.</span>
+<span class="n">unit_info</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">&#39;unit&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;B&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;region&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;NSW&#39;</span><span class="p">,</span> <span class="s1">&#39;NSW&#39;</span><span class="p">],</span>  <span class="c1"># MW</span>
+    <span class="s1">&#39;loss_factor&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">0.9</span><span class="p">,</span> <span class="mf">0.95</span><span class="p">]</span>
+<span class="p">})</span>
+
+<span class="c1"># The demand in the region\s being dispatched.</span>
+<span class="n">demand</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">&#39;region&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;NSW&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;demand&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">100.0</span><span class="p">]</span>  <span class="c1"># MW</span>
+<span class="p">})</span>
+
+<span class="c1"># Create the market model</span>
+<span class="n">market</span> <span class="o">=</span> <span class="n">markets</span><span class="o">.</span><span class="n">SpotMarket</span><span class="p">(</span><span class="n">unit_info</span><span class="o">=</span><span class="n">unit_info</span><span class="p">,</span>
+                            <span class="n">market_regions</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;NSW&#39;</span><span class="p">])</span>
+<span class="n">market</span><span class="o">.</span><span class="n">set_unit_volume_bids</span><span class="p">(</span><span class="n">volume_bids</span><span class="p">)</span>
+<span class="n">market</span><span class="o">.</span><span class="n">set_unit_price_bids</span><span class="p">(</span><span class="n">price_bids</span><span class="p">)</span>
+<span class="n">market</span><span class="o">.</span><span class="n">set_unit_bid_capacity_constraints</span><span class="p">(</span>
+    <span class="n">unit_limits</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="p">[</span><span class="s1">&#39;unit&#39;</span><span class="p">,</span> <span class="s1">&#39;capacity&#39;</span><span class="p">]])</span>
+<span class="n">market</span><span class="o">.</span><span class="n">set_unit_ramp_up_constraints</span><span class="p">(</span>
+    <span class="n">unit_limits</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="p">[</span><span class="s1">&#39;unit&#39;</span><span class="p">,</span> <span class="s1">&#39;initial_output&#39;</span><span class="p">,</span> <span class="s1">&#39;ramp_up_rate&#39;</span><span class="p">]])</span>
+<span class="n">market</span><span class="o">.</span><span class="n">set_unit_ramp_down_constraints</span><span class="p">(</span>
+    <span class="n">unit_limits</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="p">[</span><span class="s1">&#39;unit&#39;</span><span class="p">,</span> <span class="s1">&#39;initial_output&#39;</span><span class="p">,</span> <span class="s1">&#39;ramp_down_rate&#39;</span><span class="p">]])</span>
+<span class="n">market</span><span class="o">.</span><span class="n">set_demand_constraints</span><span class="p">(</span><span class="n">demand</span><span class="p">)</span>
+
+<span class="c1"># Calculate dispatch and pricing</span>
+<span class="n">market</span><span class="o">.</span><span class="n">dispatch</span><span class="p">()</span>
+
+<span class="c1"># Return the total dispatch of each unit in MW.</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">market</span><span class="o">.</span><span class="n">get_unit_dispatch</span><span class="p">())</span>
+<span class="c1">#   unit service  dispatch</span>
+<span class="c1"># 0    A  energy      20.0</span>
+<span class="c1"># 1    B  energy      80.0</span>
+
+<span class="c1"># Return the price of energy in each region.</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">market</span><span class="o">.</span><span class="n">get_energy_prices</span><span class="p">())</span>
+<span class="c1">#   region  price</span>
+<span class="c1"># 0    NSW   57.89</span>
+</pre></div>
+</td></tr></table></div>
+</div>
+<div class="section" id="interconnector-with-losses">
+<h2>Interconnector with losses<a class="headerlink" href="#interconnector-with-losses" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">from</span> <span class="nn">nempy</span> <span class="kn">import</span> <span class="n">markets</span>
+
+<span class="c1"># The only generator is located in NSW.</span>
+<span class="n">unit_info</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">&#39;unit&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;A&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;region&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;NSW&#39;</span><span class="p">]</span>  <span class="c1"># MW</span>
+<span class="p">})</span>
+
+<span class="c1"># Create a market instance.</span>
+<span class="n">market</span> <span class="o">=</span> <span class="n">markets</span><span class="o">.</span><span class="n">SpotMarket</span><span class="p">(</span><span class="n">unit_info</span><span class="o">=</span><span class="n">unit_info</span><span class="p">,</span> <span class="n">market_regions</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;NSW&#39;</span><span class="p">,</span> <span class="s1">&#39;VIC&#39;</span><span class="p">])</span>
+
+<span class="c1"># Volume of each bids.</span>
+<span class="n">volume_bids</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">&#39;unit&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;A&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;1&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">100.0</span><span class="p">]</span>  <span class="c1"># MW</span>
+<span class="p">})</span>
+
+<span class="n">market</span><span class="o">.</span><span class="n">set_unit_volume_bids</span><span class="p">(</span><span class="n">volume_bids</span><span class="p">)</span>
+
+<span class="c1"># Price of each bid.</span>
+<span class="n">price_bids</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">&#39;unit&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;A&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;1&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">50.0</span><span class="p">]</span>  <span class="c1"># $/MW</span>
+<span class="p">})</span>
+
+<span class="n">market</span><span class="o">.</span><span class="n">set_unit_price_bids</span><span class="p">(</span><span class="n">price_bids</span><span class="p">)</span>
+
+<span class="c1"># NSW has no demand but VIC has 90 MW.</span>
+<span class="n">demand</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">&#39;region&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;NSW&#39;</span><span class="p">,</span> <span class="s1">&#39;VIC&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;demand&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">0.0</span><span class="p">,</span> <span class="mf">90.0</span><span class="p">]</span>  <span class="c1"># MW</span>
+<span class="p">})</span>
+
+<span class="n">market</span><span class="o">.</span><span class="n">set_demand_constraints</span><span class="p">(</span><span class="n">demand</span><span class="p">)</span>
+
+<span class="c1"># There is one interconnector between NSW and VIC. Its nominal direction is towards VIC.</span>
+<span class="n">interconnectors</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">&#39;interconnector&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;little_link&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;to_region&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;VIC&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;from_region&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;NSW&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;max&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">100.0</span><span class="p">],</span>
+    <span class="s1">&#39;min&#39;</span><span class="p">:</span> <span class="p">[</span><span class="o">-</span><span class="mf">120.0</span><span class="p">]</span>
+<span class="p">})</span>
+
+<span class="n">market</span><span class="o">.</span><span class="n">set_interconnectors</span><span class="p">(</span><span class="n">interconnectors</span><span class="p">)</span>
+
+
+<span class="c1"># The interconnector loss function. In this case losses are always 5 % of line flow.</span>
+<span class="k">def</span> <span class="nf">constant_losses</span><span class="p">(</span><span class="n">flow</span><span class="p">):</span>
+    <span class="k">return</span> <span class="nb">abs</span><span class="p">(</span><span class="n">flow</span><span class="p">)</span> <span class="o">*</span> <span class="mf">0.05</span>
+
+
+<span class="c1"># The loss function on a per interconnector basis. Also details how the losses should be proportioned to the</span>
+<span class="c1"># connected regions.</span>
+<span class="n">loss_functions</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">&#39;interconnector&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;little_link&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;from_region_loss_share&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">0.5</span><span class="p">],</span>  <span class="c1"># losses are shared equally.</span>
+    <span class="s1">&#39;loss_function&#39;</span><span class="p">:</span> <span class="p">[</span><span class="n">constant_losses</span><span class="p">]</span>
+<span class="p">})</span>
+
+<span class="c1"># The points to linearly interpolate the loss function between. In this example the loss function is linear so only</span>
+<span class="c1"># three points are needed, but if a non linear loss function was used then more points would be better.</span>
+<span class="n">interpolation_break_points</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">&#39;interconnector&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;little_link&#39;</span><span class="p">,</span> <span class="s1">&#39;little_link&#39;</span><span class="p">,</span> <span class="s1">&#39;little_link&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;loss_segment&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span>
+    <span class="s1">&#39;break_point&#39;</span><span class="p">:</span> <span class="p">[</span><span class="o">-</span><span class="mf">120.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mi">100</span><span class="p">]</span>
+<span class="p">})</span>
+
+<span class="n">market</span><span class="o">.</span><span class="n">set_interconnector_losses</span><span class="p">(</span><span class="n">loss_functions</span><span class="p">,</span> <span class="n">interpolation_break_points</span><span class="p">)</span>
+
+<span class="c1"># Calculate dispatch.</span>
+<span class="n">market</span><span class="o">.</span><span class="n">dispatch</span><span class="p">()</span>
+
+<span class="c1"># Return the total dispatch of each unit in MW.</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">market</span><span class="o">.</span><span class="n">get_unit_dispatch</span><span class="p">())</span>
+<span class="c1">#   unit service   dispatch</span>
+<span class="c1"># 0    A  energy  94.615385</span>
+
+<span class="c1"># Return interconnector flow and losses.</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">market</span><span class="o">.</span><span class="n">get_interconnector_flows</span><span class="p">())</span>
+<span class="c1">#   interconnector       flow    losses</span>
+<span class="c1"># 0    little_link  92.307692  4.615385</span>
+
+<span class="c1"># Return the price of energy in each region.</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">market</span><span class="o">.</span><span class="n">get_energy_prices</span><span class="p">())</span>
+<span class="c1">#   region      price</span>
+<span class="c1"># 0    NSW  50.000000</span>
+<span class="c1"># 1    VIC  52.564103</span>
+</pre></div>
+</td></tr></table></div>
+</div>
+<div class="section" id="dynamic-non-linear-interconnector-losses">
+<h2>Dynamic non-linear interconnector losses<a class="headerlink" href="#dynamic-non-linear-interconnector-losses" title="Permalink to this headline">¶</a></h2>
+<p>Implements creating loss functions as described in
+<a class="reference download internal" download="" href="_downloads/11cad7154321d1791d22c3cecaf495ba/Marginal Loss Factors for the 2020-21 Financial year.pdf"><code class="xref download docutils literal notranslate"><span class="pre">Marginal</span> <span class="pre">Loss</span> <span class="pre">Factors</span> <span class="pre">documentation</span> <span class="pre">section</span> <span class="pre">3</span> <span class="pre">to</span> <span class="pre">5</span></code></a>.</p>
+<div class="highlight-python notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15
+ 16
+ 17
+ 18
+ 19
+ 20
+ 21
+ 22
+ 23
+ 24
+ 25
+ 26
+ 27
+ 28
+ 29
+ 30
+ 31
+ 32
+ 33
+ 34
+ 35
+ 36
+ 37
+ 38
+ 39
+ 40
+ 41
+ 42
+ 43
+ 44
+ 45
+ 46
+ 47
+ 48
+ 49
+ 50
+ 51
+ 52
+ 53
+ 54
+ 55
+ 56
+ 57
+ 58
+ 59
+ 60
+ 61
+ 62
+ 63
+ 64
+ 65
+ 66
+ 67
+ 68
+ 69
+ 70
+ 71
+ 72
+ 73
+ 74
+ 75
+ 76
+ 77
+ 78
+ 79
+ 80
+ 81
+ 82
+ 83
+ 84
+ 85
+ 86
+ 87
+ 88
+ 89
+ 90
+ 91
+ 92
+ 93
+ 94
+ 95
+ 96
+ 97
+ 98
+ 99
+100</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">from</span> <span class="nn">nempy</span> <span class="kn">import</span> <span class="n">markets</span>
+<span class="kn">from</span> <span class="nn">nempy.historical_inputs</span> <span class="kn">import</span> <span class="n">interconnectors</span> <span class="k">as</span> <span class="n">interconnector_inputs</span>
+
+
+<span class="c1"># The only generator is located in NSW.</span>
+<span class="n">unit_info</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">&#39;unit&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;A&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;region&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;NSW&#39;</span><span class="p">]</span>  <span class="c1"># MW</span>
+<span class="p">})</span>
+
+<span class="c1"># Create a market instance.</span>
+<span class="n">market</span> <span class="o">=</span> <span class="n">markets</span><span class="o">.</span><span class="n">SpotMarket</span><span class="p">(</span><span class="n">unit_info</span><span class="o">=</span><span class="n">unit_info</span><span class="p">,</span>
+                            <span class="n">market_regions</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;NSW&#39;</span><span class="p">,</span> <span class="s1">&#39;VIC&#39;</span><span class="p">])</span>
+
+<span class="c1"># Volume of each bids.</span>
+<span class="n">volume_bids</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">&#39;unit&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;A&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;1&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">1000.0</span><span class="p">]</span>  <span class="c1"># MW</span>
+<span class="p">})</span>
+
+<span class="n">market</span><span class="o">.</span><span class="n">set_unit_volume_bids</span><span class="p">(</span><span class="n">volume_bids</span><span class="p">)</span>
+
+<span class="c1"># Price of each bid.</span>
+<span class="n">price_bids</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">&#39;unit&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;A&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;1&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">50.0</span><span class="p">]</span>  <span class="c1"># $/MW</span>
+<span class="p">})</span>
+
+<span class="n">market</span><span class="o">.</span><span class="n">set_unit_price_bids</span><span class="p">(</span><span class="n">price_bids</span><span class="p">)</span>
+
+<span class="c1"># NSW has no demand but VIC has 800 MW.</span>
+<span class="n">demand</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">&#39;region&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;NSW&#39;</span><span class="p">,</span> <span class="s1">&#39;VIC&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;demand&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">0.0</span><span class="p">,</span> <span class="mf">800.0</span><span class="p">],</span>  <span class="c1"># MW</span>
+    <span class="s1">&#39;loss_function_demand&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">0.0</span><span class="p">,</span> <span class="mf">800.0</span><span class="p">]</span>  <span class="c1"># MW</span>
+<span class="p">})</span>
+
+<span class="n">market</span><span class="o">.</span><span class="n">set_demand_constraints</span><span class="p">(</span><span class="n">demand</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="p">[</span><span class="s1">&#39;region&#39;</span><span class="p">,</span> <span class="s1">&#39;demand&#39;</span><span class="p">]])</span>
+
+<span class="c1"># There is one interconnector between NSW and VIC.</span>
+<span class="c1"># Its nominal direction is towards VIC.</span>
+<span class="n">interconnectors</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">&#39;interconnector&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;VIC1-NSW1&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;to_region&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;VIC&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;from_region&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;NSW&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;max&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">1000.0</span><span class="p">],</span>
+    <span class="s1">&#39;min&#39;</span><span class="p">:</span> <span class="p">[</span><span class="o">-</span><span class="mf">1200.0</span><span class="p">]</span>
+<span class="p">})</span>
+
+<span class="n">market</span><span class="o">.</span><span class="n">set_interconnectors</span><span class="p">(</span><span class="n">interconnectors</span><span class="p">)</span>
+
+<span class="c1"># Create a demand dependent loss function.</span>
+<span class="c1"># Specify the demand dependency</span>
+<span class="n">demand_coefficients</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">&#39;interconnector&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;VIC1-NSW1&#39;</span><span class="p">,</span> <span class="s1">&#39;VIC1-NSW1&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;region&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;NSW1&#39;</span><span class="p">,</span> <span class="s1">&#39;VIC1&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;demand_coefficient&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">0.000021734</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.000031523</span><span class="p">]})</span>
+
+<span class="c1"># Specify the loss function constant and flow coefficient.</span>
+<span class="n">interconnector_coefficients</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">&#39;interconnector&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;VIC1-NSW1&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;loss_constant&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">1.0657</span><span class="p">],</span>
+    <span class="s1">&#39;flow_coefficient&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">0.00017027</span><span class="p">],</span>
+    <span class="s1">&#39;from_region_loss_share&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">0.5</span><span class="p">]})</span>
+
+<span class="c1"># Create loss functions on per interconnector basis.</span>
+<span class="n">loss_functions</span> <span class="o">=</span> <span class="n">interconnector_inputs</span><span class="o">.</span><span class="n">_create_loss_functions</span><span class="p">(</span>
+    <span class="n">interconnector_coefficients</span><span class="p">,</span> <span class="n">demand_coefficients</span><span class="p">,</span>
+    <span class="n">demand</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="p">[</span><span class="s1">&#39;region&#39;</span><span class="p">,</span> <span class="s1">&#39;loss_function_demand&#39;</span><span class="p">]])</span>
+
+<span class="c1"># The points to linearly interpolate the loss function between.</span>
+<span class="n">interpolation_break_points</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">&#39;interconnector&#39;</span><span class="p">:</span> <span class="s1">&#39;VIC1-NSW1&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;loss_segment&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">12</span><span class="p">],</span>
+    <span class="s1">&#39;break_point&#39;</span><span class="p">:</span> <span class="p">[</span><span class="o">-</span><span class="mf">1200.0</span><span class="p">,</span> <span class="o">-</span><span class="mf">1000.0</span><span class="p">,</span> <span class="o">-</span><span class="mf">800.0</span><span class="p">,</span> <span class="o">-</span><span class="mf">600.0</span><span class="p">,</span> <span class="o">-</span><span class="mf">400.0</span><span class="p">,</span> <span class="o">-</span><span class="mf">200.0</span><span class="p">,</span>
+                    <span class="mf">0.0</span><span class="p">,</span> <span class="mf">200.0</span><span class="p">,</span> <span class="mf">400.0</span><span class="p">,</span> <span class="mf">600.0</span><span class="p">,</span> <span class="mf">800.0</span><span class="p">,</span> <span class="mi">1000</span><span class="p">]</span>
+<span class="p">})</span>
+
+<span class="n">market</span><span class="o">.</span><span class="n">set_interconnector_losses</span><span class="p">(</span><span class="n">loss_functions</span><span class="p">,</span>
+                                 <span class="n">interpolation_break_points</span><span class="p">)</span>
+
+<span class="c1"># Calculate dispatch.</span>
+<span class="n">market</span><span class="o">.</span><span class="n">dispatch</span><span class="p">()</span>
+
+<span class="c1"># Return the total dispatch of each unit in MW.</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">market</span><span class="o">.</span><span class="n">get_unit_dispatch</span><span class="p">())</span>
+<span class="c1">#   unit service    dispatch</span>
+<span class="c1"># 0    A  energy  920.205473</span>
+
+<span class="c1"># Return interconnector flow and losses.</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">market</span><span class="o">.</span><span class="n">get_interconnector_flows</span><span class="p">())</span>
+<span class="c1">#   interconnector        flow      losses</span>
+<span class="c1"># 0      VIC1-NSW1  860.102737  120.205473</span>
+
+<span class="c1"># Return the price of energy in each region.</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">market</span><span class="o">.</span><span class="n">get_energy_prices</span><span class="p">())</span>
+<span class="c1">#   region      price</span>
+<span class="c1"># 0    NSW  50.000000</span>
+<span class="c1"># 1    VIC  62.292869</span>
+</pre></div>
+</td></tr></table></div>
+</div>
+<div class="section" id="simple-fcas-markets">
+<h2>Simple FCAS markets<a class="headerlink" href="#simple-fcas-markets" title="Permalink to this headline">¶</a></h2>
+<p>Implements a market for energy, regulation raise and contingency 6 sec raise, with
+co-optimisation constraints as described in section 6.2 and 6.3 of
+<a class="reference download internal" download="" href="_downloads/e3c8a21d3084db332a30bd0d564e93c3/FCAS Model in NEMDE.pdf"><code class="xref download docutils literal notranslate"><span class="pre">FCAS</span> <span class="pre">Model</span> <span class="pre">in</span> <span class="pre">NEMDE</span></code></a>.</p>
+<div class="highlight-python notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15
+ 16
+ 17
+ 18
+ 19
+ 20
+ 21
+ 22
+ 23
+ 24
+ 25
+ 26
+ 27
+ 28
+ 29
+ 30
+ 31
+ 32
+ 33
+ 34
+ 35
+ 36
+ 37
+ 38
+ 39
+ 40
+ 41
+ 42
+ 43
+ 44
+ 45
+ 46
+ 47
+ 48
+ 49
+ 50
+ 51
+ 52
+ 53
+ 54
+ 55
+ 56
+ 57
+ 58
+ 59
+ 60
+ 61
+ 62
+ 63
+ 64
+ 65
+ 66
+ 67
+ 68
+ 69
+ 70
+ 71
+ 72
+ 73
+ 74
+ 75
+ 76
+ 77
+ 78
+ 79
+ 80
+ 81
+ 82
+ 83
+ 84
+ 85
+ 86
+ 87
+ 88
+ 89
+ 90
+ 91
+ 92
+ 93
+ 94
+ 95
+ 96
+ 97
+ 98
+ 99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">from</span> <span class="nn">nempy</span> <span class="kn">import</span> <span class="n">markets</span>
+
+
+<span class="c1"># Set options so you see all DataFrame columns in print outs.</span>
+<span class="n">pd</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">width</span> <span class="o">=</span> <span class="mi">0</span>
+
+<span class="c1"># Volume of each bid.</span>
+<span class="n">volume_bids</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">&#39;unit&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;B&#39;</span><span class="p">,</span> <span class="s1">&#39;B&#39;</span><span class="p">,</span> <span class="s1">&#39;B&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;service&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;energy&#39;</span><span class="p">,</span> <span class="s1">&#39;raise_6s&#39;</span><span class="p">,</span> <span class="s1">&#39;energy&#39;</span><span class="p">,</span>
+                <span class="s1">&#39;raise_6s&#39;</span><span class="p">,</span> <span class="s1">&#39;raise_reg&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;1&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">100.0</span><span class="p">,</span> <span class="mf">10.0</span><span class="p">,</span> <span class="mf">110.0</span><span class="p">,</span> <span class="mf">15.0</span><span class="p">,</span> <span class="mf">15.0</span><span class="p">],</span>  <span class="c1"># MW</span>
+<span class="p">})</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">volume_bids</span><span class="p">)</span>
+<span class="c1">#   unit    service      1</span>
+<span class="c1"># 0    A     energy  100.0</span>
+<span class="c1"># 1    A   raise_6s   10.0</span>
+<span class="c1"># 2    B     energy  110.0</span>
+<span class="c1"># 3    B   raise_6s   15.0</span>
+<span class="c1"># 4    B  raise_reg   15.0</span>
+
+<span class="c1"># Price of each bid.</span>
+<span class="n">price_bids</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">&#39;unit&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;B&#39;</span><span class="p">,</span> <span class="s1">&#39;B&#39;</span><span class="p">,</span> <span class="s1">&#39;B&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;service&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;energy&#39;</span><span class="p">,</span> <span class="s1">&#39;raise_6s&#39;</span><span class="p">,</span> <span class="s1">&#39;energy&#39;</span><span class="p">,</span>
+                <span class="s1">&#39;raise_6s&#39;</span><span class="p">,</span> <span class="s1">&#39;raise_reg&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;1&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">50.0</span><span class="p">,</span> <span class="mf">35.0</span><span class="p">,</span> <span class="mf">60.0</span><span class="p">,</span> <span class="mf">20.0</span><span class="p">,</span> <span class="mf">30.0</span><span class="p">],</span>  <span class="c1"># $/MW</span>
+<span class="p">})</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">price_bids</span><span class="p">)</span>
+<span class="c1">#   unit    service     1</span>
+<span class="c1"># 0    A     energy  50.0</span>
+<span class="c1"># 1    A   raise_6s  35.0</span>
+<span class="c1"># 2    B     energy  60.0</span>
+<span class="c1"># 3    B   raise_6s  20.0</span>
+<span class="c1"># 4    B  raise_reg  30.0</span>
+
+<span class="c1"># Participant defined operational constraints on FCAS enablement.</span>
+<span class="n">fcas_trapeziums</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">&#39;unit&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;B&#39;</span><span class="p">,</span> <span class="s1">&#39;B&#39;</span><span class="p">,</span> <span class="s1">&#39;A&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;service&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;raise_reg&#39;</span><span class="p">,</span> <span class="s1">&#39;raise_6s&#39;</span><span class="p">,</span> <span class="s1">&#39;raise_6s&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;max_availability&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">15.0</span><span class="p">,</span> <span class="mf">15.0</span><span class="p">,</span> <span class="mf">10.0</span><span class="p">],</span>
+    <span class="s1">&#39;enablement_min&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">50.0</span><span class="p">,</span> <span class="mf">50.0</span><span class="p">,</span> <span class="mf">70.0</span><span class="p">],</span>
+    <span class="s1">&#39;low_break_point&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">65.0</span><span class="p">,</span> <span class="mf">65.0</span><span class="p">,</span> <span class="mf">80.0</span><span class="p">],</span>
+    <span class="s1">&#39;high_break_point&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">95.0</span><span class="p">,</span> <span class="mf">95.0</span><span class="p">,</span> <span class="mf">100.0</span><span class="p">],</span>
+    <span class="s1">&#39;enablement_max&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">110.0</span><span class="p">,</span> <span class="mf">110.0</span><span class="p">,</span> <span class="mf">110.0</span><span class="p">]</span>
+<span class="p">})</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">fcas_trapeziums</span><span class="p">)</span>
+<span class="c1">#   unit    service  max_availability  enablement_min  low_break_point  high_break_point  enablement_max</span>
+<span class="c1"># 0    B  raise_reg              15.0            50.0             65.0              95.0           110.0</span>
+<span class="c1"># 1    B   raise_6s              15.0            50.0             65.0              95.0           110.0</span>
+<span class="c1"># 2    A   raise_6s              10.0            70.0             80.0             100.0           110.0</span>
+
+<span class="c1"># Unit locations.</span>
+<span class="n">unit_info</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">&#39;unit&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;B&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;region&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;NSW&#39;</span><span class="p">,</span> <span class="s1">&#39;NSW&#39;</span><span class="p">]</span>
+<span class="p">})</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">unit_info</span><span class="p">)</span>
+<span class="c1">#   unit region</span>
+<span class="c1"># 0    A    NSW</span>
+<span class="c1"># 1    B    NSW</span>
+
+<span class="c1"># The demand in the region\s being dispatched.</span>
+<span class="n">demand</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">&#39;region&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;NSW&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;demand&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">195.0</span><span class="p">]</span>  <span class="c1"># MW</span>
+<span class="p">})</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">demand</span><span class="p">)</span>
+<span class="c1">#   region  demand</span>
+<span class="c1"># 0    NSW   195.0</span>
+
+<span class="c1"># FCAS requirement in the region\s being dispatched.</span>
+<span class="n">fcas_requirements</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">&#39;set&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;nsw_regulation_requirement&#39;</span><span class="p">,</span> <span class="s1">&#39;nsw_raise_6s_requirement&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;region&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;NSW&#39;</span><span class="p">,</span> <span class="s1">&#39;NSW&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;service&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;raise_reg&#39;</span><span class="p">,</span> <span class="s1">&#39;raise_6s&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;volume&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">10.0</span><span class="p">,</span> <span class="mf">10.0</span><span class="p">]</span>  <span class="c1"># MW</span>
+<span class="p">})</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">fcas_requirements</span><span class="p">)</span>
+<span class="c1">#                           set region    service  volume</span>
+<span class="c1"># 0  nsw_regulation_requirement    NSW  raise_reg    10.0</span>
+<span class="c1"># 1    nsw_raise_6s_requirement    NSW   raise_6s    10.0</span>
+
+<span class="c1"># Create the market model with unit service bids.</span>
+<span class="n">market</span> <span class="o">=</span> <span class="n">markets</span><span class="o">.</span><span class="n">SpotMarket</span><span class="p">(</span><span class="n">unit_info</span><span class="o">=</span><span class="n">unit_info</span><span class="p">,</span>
+                            <span class="n">market_regions</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;NSW&#39;</span><span class="p">])</span>
+<span class="n">market</span><span class="o">.</span><span class="n">set_unit_volume_bids</span><span class="p">(</span><span class="n">volume_bids</span><span class="p">)</span>
+<span class="n">market</span><span class="o">.</span><span class="n">set_unit_price_bids</span><span class="p">(</span><span class="n">price_bids</span><span class="p">)</span>
+
+<span class="c1"># Create constraints that enforce the top of the FCAS trapezium.</span>
+<span class="n">fcas_availability</span> <span class="o">=</span> <span class="n">fcas_trapeziums</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="p">[</span><span class="s1">&#39;unit&#39;</span><span class="p">,</span> <span class="s1">&#39;service&#39;</span><span class="p">,</span> <span class="s1">&#39;max_availability&#39;</span><span class="p">]]</span>
+<span class="n">market</span><span class="o">.</span><span class="n">set_fcas_max_availability</span><span class="p">(</span><span class="n">fcas_availability</span><span class="p">)</span>
+
+<span class="c1"># Create constraints that enforce the lower and upper slope of the FCAS regulation</span>
+<span class="c1"># service trapeziums.</span>
+<span class="n">regulation_trapeziums</span> <span class="o">=</span> <span class="n">fcas_trapeziums</span><span class="p">[</span><span class="n">fcas_trapeziums</span><span class="p">[</span><span class="s1">&#39;service&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;raise_reg&#39;</span><span class="p">]</span>
+<span class="n">market</span><span class="o">.</span><span class="n">set_energy_and_regulation_capacity_constraints</span><span class="p">(</span><span class="n">regulation_trapeziums</span><span class="p">)</span>
+
+<span class="c1"># Create constraints that enforce the lower and upper slope of the FCAS contingency</span>
+<span class="c1"># trapezium. These constrains also scale slopes of the trapezium to ensure the</span>
+<span class="c1"># co-dispatch of contingency and regulation services is technically feasible.</span>
+<span class="n">contingency_trapeziums</span> <span class="o">=</span> <span class="n">fcas_trapeziums</span><span class="p">[</span><span class="n">fcas_trapeziums</span><span class="p">[</span><span class="s1">&#39;service&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;raise_6s&#39;</span><span class="p">]</span>
+<span class="n">market</span><span class="o">.</span><span class="n">set_joint_capacity_constraints</span><span class="p">(</span><span class="n">contingency_trapeziums</span><span class="p">)</span>
+
+<span class="c1"># Set the demand for energy.</span>
+<span class="n">market</span><span class="o">.</span><span class="n">set_demand_constraints</span><span class="p">(</span><span class="n">demand</span><span class="p">)</span>
+
+<span class="c1"># Set the required volume of FCAS services.</span>
+<span class="n">market</span><span class="o">.</span><span class="n">set_fcas_requirements_constraints</span><span class="p">(</span><span class="n">fcas_requirements</span><span class="p">)</span>
+
+<span class="c1"># Calculate dispatch and pricing</span>
+<span class="n">market</span><span class="o">.</span><span class="n">dispatch</span><span class="p">()</span>
+
+<span class="c1"># Return the total dispatch of each unit in MW.</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">market</span><span class="o">.</span><span class="n">get_unit_dispatch</span><span class="p">())</span>
+<span class="c1">#   unit    service  dispatch</span>
+<span class="c1"># 0    A     energy     100.0</span>
+<span class="c1"># 1    A   raise_6s       5.0</span>
+<span class="c1"># 2    B     energy      95.0</span>
+<span class="c1"># 3    B   raise_6s       5.0</span>
+<span class="c1"># 4    B  raise_reg      10.0</span>
+
+<span class="c1"># Return the price of energy.</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">market</span><span class="o">.</span><span class="n">get_energy_prices</span><span class="p">())</span>
+<span class="c1">#   region  price</span>
+<span class="c1"># 0    NSW   75.0</span>
+
+<span class="c1"># Note:</span>
+<span class="c1">#  A marginal unit of energy would have to come from unit B, as unit A is fully</span>
+<span class="c1">#  dispatch, this would cost 60 $/MW/h. However, to turn unit B up, you would</span>
+<span class="c1">#  need it to dispatch less raise_6s, this would cost - 20 $/MW/h, and the</span>
+<span class="c1">#  extra FCAS would have to come from unit A, this would cost 35 $/MW/h.</span>
+<span class="c1">#  Therefore the marginal cost of energy is 60 - 20 + 35 = 75 $/MW/h</span>
+
+<span class="c1"># Return the price of regulation FCAS.</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">market</span><span class="o">.</span><span class="n">get_fcas_prices</span><span class="p">())</span>
+<span class="c1">#   region    service  price</span>
+<span class="c1"># 0    NSW   raise_6s   35.0</span>
+<span class="c1"># 1    NSW  raise_reg   45.0</span>
+
+<span class="c1"># Note:</span>
+<span class="c1"># A marginal unit of raise_reg would have to come from unit B as it is the only</span>
+<span class="c1"># provider, this would cost 30 $/MW/h. It would also require unit B to provide</span>
+<span class="c1"># less raise_6s, this would cost -20 $/MW/h, extra raise_6s would then be</span>
+<span class="c1"># required from unit A costing 35 $/MW/h. This gives a total marginal cost of</span>
+<span class="c1"># 30 - 20 + 35 = 45 $/MW/h.</span>
+<span class="c1">#</span>
+<span class="c1"># A marginal unit of raise_6s would be provided by unit A at a cost of 35$/MW/h/.</span>
+</pre></div>
+</td></tr></table></div>
+</div>
+<div class="section" id="simple-recreation-of-historical-dispatch">
+<h2>Simple recreation of historical dispatch<a class="headerlink" href="#simple-recreation-of-historical-dispatch" title="Permalink to this headline">¶</a></h2>
+<p>Demonstrates using nempy to recreate historical dispatch intervals by implementing a simple energy market with unit bids,
+unit maximum capacity constraints and interconnector models, all sourced from historical data published by AEMO.</p>
+<div class="highlight-python notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15
+ 16
+ 17
+ 18
+ 19
+ 20
+ 21
+ 22
+ 23
+ 24
+ 25
+ 26
+ 27
+ 28
+ 29
+ 30
+ 31
+ 32
+ 33
+ 34
+ 35
+ 36
+ 37
+ 38
+ 39
+ 40
+ 41
+ 42
+ 43
+ 44
+ 45
+ 46
+ 47
+ 48
+ 49
+ 50
+ 51
+ 52
+ 53
+ 54
+ 55
+ 56
+ 57
+ 58
+ 59
+ 60
+ 61
+ 62
+ 63
+ 64
+ 65
+ 66
+ 67
+ 68
+ 69
+ 70
+ 71
+ 72
+ 73
+ 74
+ 75
+ 76
+ 77
+ 78
+ 79
+ 80
+ 81
+ 82
+ 83
+ 84
+ 85
+ 86
+ 87
+ 88
+ 89
+ 90
+ 91
+ 92
+ 93
+ 94
+ 95
+ 96
+ 97
+ 98
+ 99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1"># Notice: this script downloads large volumes of historical market data from AEMO&#39;s nemweb portal.</span>
+
+<span class="kn">import</span> <span class="nn">sqlite3</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">from</span> <span class="nn">nempy</span> <span class="kn">import</span> <span class="n">markets</span>
+<span class="kn">from</span> <span class="nn">nempy.historical_inputs</span> <span class="kn">import</span> <span class="n">loaders</span><span class="p">,</span> <span class="n">mms_db</span><span class="p">,</span> \
+    <span class="n">xml_cache</span><span class="p">,</span> <span class="n">units</span><span class="p">,</span> <span class="n">demand</span><span class="p">,</span> <span class="n">interconnectors</span>
+
+<span class="n">con</span> <span class="o">=</span> <span class="n">sqlite3</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="s1">&#39;market_management_system.db&#39;</span><span class="p">)</span>
+<span class="n">mms_db_manager</span> <span class="o">=</span> <span class="n">mms_db</span><span class="o">.</span><span class="n">DBManager</span><span class="p">(</span><span class="n">connection</span><span class="o">=</span><span class="n">con</span><span class="p">)</span>
+
+<span class="n">xml_cache_manager</span> <span class="o">=</span> <span class="n">xml_cache</span><span class="o">.</span><span class="n">XMLCacheManager</span><span class="p">(</span><span class="s1">&#39;cache_directory&#39;</span><span class="p">)</span>
+
+<span class="c1"># The second time this example is run on a machine this flag can</span>
+<span class="c1"># be set to false to save downloading the data again.</span>
+<span class="n">down_load_inputs</span> <span class="o">=</span> <span class="kc">True</span>
+
+<span class="k">if</span> <span class="n">down_load_inputs</span><span class="p">:</span>
+    <span class="c1"># This requires approximately 5 GB of storage.</span>
+    <span class="n">mms_db_manager</span><span class="o">.</span><span class="n">populate</span><span class="p">(</span><span class="n">start_year</span><span class="o">=</span><span class="mi">2019</span><span class="p">,</span> <span class="n">start_month</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+                            <span class="n">end_year</span><span class="o">=</span><span class="mi">2019</span><span class="p">,</span> <span class="n">end_month</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+
+    <span class="c1"># This requires approximately 60 GB of storage.</span>
+    <span class="n">xml_cache_manager</span><span class="o">.</span><span class="n">populate</span><span class="p">(</span><span class="n">start_year</span><span class="o">=</span><span class="mi">2019</span><span class="p">,</span> <span class="n">start_month</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+                               <span class="n">end_year</span><span class="o">=</span><span class="mi">2019</span><span class="p">,</span> <span class="n">end_month</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+
+<span class="n">raw_inputs_loader</span> <span class="o">=</span> <span class="n">loaders</span><span class="o">.</span><span class="n">RawInputsLoader</span><span class="p">(</span>
+    <span class="n">nemde_xml_cache_manager</span><span class="o">=</span><span class="n">xml_cache_manager</span><span class="p">,</span>
+    <span class="n">market_management_system_database</span><span class="o">=</span><span class="n">mms_db_manager</span><span class="p">)</span>
+
+<span class="c1"># A list of intervals we want to recreate historical dispatch for.</span>
+<span class="n">dispatch_intervals</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;2019/01/01 12:00:00&#39;</span><span class="p">,</span>
+                      <span class="s1">&#39;2019/01/01 12:05:00&#39;</span><span class="p">,</span>
+                      <span class="s1">&#39;2019/01/01 12:10:00&#39;</span><span class="p">,</span>
+                      <span class="s1">&#39;2019/01/01 12:15:00&#39;</span><span class="p">,</span>
+                      <span class="s1">&#39;2019/01/01 12:20:00&#39;</span><span class="p">,</span>
+                      <span class="s1">&#39;2019/01/01 12:25:00&#39;</span><span class="p">,</span>
+                      <span class="s1">&#39;2019/01/01 12:30:00&#39;</span><span class="p">]</span>
+
+<span class="c1"># List for saving outputs to.</span>
+<span class="n">outputs</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="c1"># Create and dispatch the spot market for each dispatch interval.</span>
+<span class="k">for</span> <span class="n">interval</span> <span class="ow">in</span> <span class="n">dispatch_intervals</span><span class="p">:</span>
+    <span class="n">raw_inputs_loader</span><span class="o">.</span><span class="n">set_interval</span><span class="p">(</span><span class="n">interval</span><span class="p">)</span>
+    <span class="n">unit_inputs</span> <span class="o">=</span> <span class="n">units</span><span class="o">.</span><span class="n">UnitData</span><span class="p">(</span><span class="n">raw_inputs_loader</span><span class="p">)</span>
+    <span class="n">demand_inputs</span> <span class="o">=</span> <span class="n">demand</span><span class="o">.</span><span class="n">DemandData</span><span class="p">(</span><span class="n">raw_inputs_loader</span><span class="p">)</span>
+    <span class="n">interconnector_inputs</span> <span class="o">=</span> \
+        <span class="n">interconnectors</span><span class="o">.</span><span class="n">InterconnectorData</span><span class="p">(</span><span class="n">raw_inputs_loader</span><span class="p">)</span>
+
+    <span class="n">unit_info</span> <span class="o">=</span> <span class="n">unit_inputs</span><span class="o">.</span><span class="n">get_unit_info</span><span class="p">()</span>
+    <span class="n">market</span> <span class="o">=</span> <span class="n">markets</span><span class="o">.</span><span class="n">SpotMarket</span><span class="p">(</span><span class="n">market_regions</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;QLD1&#39;</span><span class="p">,</span> <span class="s1">&#39;NSW1&#39;</span><span class="p">,</span> <span class="s1">&#39;VIC1&#39;</span><span class="p">,</span>
+                                                <span class="s1">&#39;SA1&#39;</span><span class="p">,</span> <span class="s1">&#39;TAS1&#39;</span><span class="p">],</span>
+                                <span class="n">unit_info</span><span class="o">=</span><span class="n">unit_info</span><span class="p">)</span>
+
+    <span class="n">volume_bids</span><span class="p">,</span> <span class="n">price_bids</span> <span class="o">=</span> <span class="n">unit_inputs</span><span class="o">.</span><span class="n">get_processed_bids</span><span class="p">()</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">set_unit_volume_bids</span><span class="p">(</span><span class="n">volume_bids</span><span class="p">)</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">set_unit_price_bids</span><span class="p">(</span><span class="n">price_bids</span><span class="p">)</span>
+
+    <span class="n">unit_bid_limit</span> <span class="o">=</span> <span class="n">unit_inputs</span><span class="o">.</span><span class="n">get_unit_bid_availability</span><span class="p">()</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">set_unit_bid_capacity_constraints</span><span class="p">(</span><span class="n">unit_bid_limit</span><span class="p">)</span>
+
+    <span class="n">unit_uigf_limit</span> <span class="o">=</span> <span class="n">unit_inputs</span><span class="o">.</span><span class="n">get_unit_uigf_limits</span><span class="p">()</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">set_unconstrained_intermitent_generation_forecast_constraint</span><span class="p">(</span>
+        <span class="n">unit_uigf_limit</span><span class="p">)</span>
+
+    <span class="n">regional_demand</span> <span class="o">=</span> <span class="n">demand_inputs</span><span class="o">.</span><span class="n">get_operational_demand</span><span class="p">()</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">set_demand_constraints</span><span class="p">(</span><span class="n">regional_demand</span><span class="p">)</span>
+
+    <span class="n">interconnectors_definitions</span> <span class="o">=</span> \
+        <span class="n">interconnector_inputs</span><span class="o">.</span><span class="n">get_interconnector_definitions</span><span class="p">()</span>
+    <span class="n">loss_functions</span><span class="p">,</span> <span class="n">interpolation_break_points</span> <span class="o">=</span> \
+        <span class="n">interconnector_inputs</span><span class="o">.</span><span class="n">get_interconnector_loss_model</span><span class="p">()</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">set_interconnectors</span><span class="p">(</span><span class="n">interconnectors_definitions</span><span class="p">)</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">set_interconnector_losses</span><span class="p">(</span><span class="n">loss_functions</span><span class="p">,</span>
+                                     <span class="n">interpolation_break_points</span><span class="p">)</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">dispatch</span><span class="p">()</span>
+
+    <span class="c1"># Save prices from this interval</span>
+    <span class="n">prices</span> <span class="o">=</span> <span class="n">market</span><span class="o">.</span><span class="n">get_energy_prices</span><span class="p">()</span>
+    <span class="n">prices</span><span class="p">[</span><span class="s1">&#39;time&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">interval</span>
+    <span class="n">outputs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">prices</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="p">[</span><span class="s1">&#39;time&#39;</span><span class="p">,</span> <span class="s1">&#39;region&#39;</span><span class="p">,</span> <span class="s1">&#39;price&#39;</span><span class="p">]])</span>
+
+<span class="n">con</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">(</span><span class="n">outputs</span><span class="p">))</span>
+<span class="c1">#                   time region      price</span>
+<span class="c1"># 0  2019/01/01 12:00:00   NSW1  91.857666</span>
+<span class="c1"># 1  2019/01/01 12:00:00   QLD1  76.180429</span>
+<span class="c1"># 2  2019/01/01 12:00:00    SA1  85.126914</span>
+<span class="c1"># 3  2019/01/01 12:00:00   TAS1  85.948523</span>
+<span class="c1"># 4  2019/01/01 12:00:00   VIC1  83.250703</span>
+<span class="c1"># 0  2019/01/01 12:05:00   NSW1  88.357224</span>
+<span class="c1"># 1  2019/01/01 12:05:00   QLD1  72.255334</span>
+<span class="c1"># 2  2019/01/01 12:05:00    SA1  82.417720</span>
+<span class="c1"># 3  2019/01/01 12:05:00   TAS1  83.451561</span>
+<span class="c1"># 4  2019/01/01 12:05:00   VIC1  80.621103</span>
+<span class="c1"># 0  2019/01/01 12:10:00   NSW1  91.857666</span>
+<span class="c1"># 1  2019/01/01 12:10:00   QLD1  75.665675</span>
+<span class="c1"># 2  2019/01/01 12:10:00    SA1  85.680310</span>
+<span class="c1"># 3  2019/01/01 12:10:00   TAS1  86.715499</span>
+<span class="c1"># 4  2019/01/01 12:10:00   VIC1  83.774337</span>
+<span class="c1"># 0  2019/01/01 12:15:00   NSW1  88.343034</span>
+<span class="c1"># 1  2019/01/01 12:15:00   QLD1  71.746786</span>
+<span class="c1"># 2  2019/01/01 12:15:00    SA1  82.379539</span>
+<span class="c1"># 3  2019/01/01 12:15:00   TAS1  83.451561</span>
+<span class="c1"># 4  2019/01/01 12:15:00   VIC1  80.621103</span>
+<span class="c1"># 0  2019/01/01 12:20:00   NSW1  91.864122</span>
+<span class="c1"># 1  2019/01/01 12:20:00   QLD1  75.052319</span>
+<span class="c1"># 2  2019/01/01 12:20:00    SA1  85.722028</span>
+<span class="c1"># 3  2019/01/01 12:20:00   TAS1  86.576848</span>
+<span class="c1"># 4  2019/01/01 12:20:00   VIC1  83.859306</span>
+<span class="c1"># 0  2019/01/01 12:25:00   NSW1  91.864122</span>
+<span class="c1"># 1  2019/01/01 12:25:00   QLD1  75.696247</span>
+<span class="c1"># 2  2019/01/01 12:25:00    SA1  85.746024</span>
+<span class="c1"># 3  2019/01/01 12:25:00   TAS1  86.613642</span>
+<span class="c1"># 4  2019/01/01 12:25:00   VIC1  83.894945</span>
+<span class="c1"># 0  2019/01/01 12:30:00   NSW1  91.870167</span>
+<span class="c1"># 1  2019/01/01 12:30:00   QLD1  75.188735</span>
+<span class="c1"># 2  2019/01/01 12:30:00    SA1  85.694071</span>
+<span class="c1"># 3  2019/01/01 12:30:00   TAS1  86.560602</span>
+<span class="c1"># 4  2019/01/01 12:30:00   VIC1  83.843570</span>
+</pre></div>
+</td></tr></table></div>
+</div>
+<div class="section" id="detailed-recreation-of-historical-dispatch">
+<h2>Detailed recreation of historical dispatch<a class="headerlink" href="#detailed-recreation-of-historical-dispatch" title="Permalink to this headline">¶</a></h2>
+<p>Demonstrates using nempy to recreate historical dispatch intervals by implementing a simple energy market using all the
+features of the nempy market model, all inputs sourced from historical data published by AEMO. Note each interval is
+dispatched as a standalone simulation and the results from one dispatch interval are not carried over to be the initial
+conditions of the next interval, rather the historical initial conditions are always used.</p>
+<div class="highlight-python notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15
+ 16
+ 17
+ 18
+ 19
+ 20
+ 21
+ 22
+ 23
+ 24
+ 25
+ 26
+ 27
+ 28
+ 29
+ 30
+ 31
+ 32
+ 33
+ 34
+ 35
+ 36
+ 37
+ 38
+ 39
+ 40
+ 41
+ 42
+ 43
+ 44
+ 45
+ 46
+ 47
+ 48
+ 49
+ 50
+ 51
+ 52
+ 53
+ 54
+ 55
+ 56
+ 57
+ 58
+ 59
+ 60
+ 61
+ 62
+ 63
+ 64
+ 65
+ 66
+ 67
+ 68
+ 69
+ 70
+ 71
+ 72
+ 73
+ 74
+ 75
+ 76
+ 77
+ 78
+ 79
+ 80
+ 81
+ 82
+ 83
+ 84
+ 85
+ 86
+ 87
+ 88
+ 89
+ 90
+ 91
+ 92
+ 93
+ 94
+ 95
+ 96
+ 97
+ 98
+ 99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1"># Notice: this script downloads large volumes of historical market data from AEMO&#39;s nemweb portal.</span>
+
+<span class="kn">import</span> <span class="nn">sqlite3</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">from</span> <span class="nn">nempy</span> <span class="kn">import</span> <span class="n">markets</span>
+<span class="kn">from</span> <span class="nn">nempy.historical_inputs</span> <span class="kn">import</span> <span class="n">loaders</span><span class="p">,</span> <span class="n">mms_db</span><span class="p">,</span> \
+    <span class="n">xml_cache</span><span class="p">,</span> <span class="n">units</span><span class="p">,</span> <span class="n">demand</span><span class="p">,</span> <span class="n">interconnectors</span><span class="p">,</span> \
+    <span class="n">constraints</span>
+
+<span class="n">con</span> <span class="o">=</span> <span class="n">sqlite3</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="s1">&#39;market_management_system.db&#39;</span><span class="p">)</span>
+<span class="n">mms_db_manager</span> <span class="o">=</span> <span class="n">mms_db</span><span class="o">.</span><span class="n">DBManager</span><span class="p">(</span><span class="n">connection</span><span class="o">=</span><span class="n">con</span><span class="p">)</span>
+
+<span class="n">xml_cache_manager</span> <span class="o">=</span> <span class="n">xml_cache</span><span class="o">.</span><span class="n">XMLCacheManager</span><span class="p">(</span><span class="s1">&#39;cache_directory&#39;</span><span class="p">)</span>
+
+<span class="c1"># The second time this example is run on a machine this flag can</span>
+<span class="c1"># be set to false to save downloading the data again.</span>
+<span class="n">down_load_inputs</span> <span class="o">=</span> <span class="kc">True</span>
+
+<span class="k">if</span> <span class="n">down_load_inputs</span><span class="p">:</span>
+    <span class="c1"># This requires approximately 5 GB of storage.</span>
+    <span class="n">mms_db_manager</span><span class="o">.</span><span class="n">populate</span><span class="p">(</span><span class="n">start_year</span><span class="o">=</span><span class="mi">2019</span><span class="p">,</span> <span class="n">start_month</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+                            <span class="n">end_year</span><span class="o">=</span><span class="mi">2019</span><span class="p">,</span> <span class="n">end_month</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+
+    <span class="c1"># This requires approximately 60 GB of storage.</span>
+    <span class="n">xml_cache_manager</span><span class="o">.</span><span class="n">populate</span><span class="p">(</span><span class="n">start_year</span><span class="o">=</span><span class="mi">2019</span><span class="p">,</span> <span class="n">start_month</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+                               <span class="n">end_year</span><span class="o">=</span><span class="mi">2019</span><span class="p">,</span> <span class="n">end_month</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+
+<span class="n">raw_inputs_loader</span> <span class="o">=</span> <span class="n">loaders</span><span class="o">.</span><span class="n">RawInputsLoader</span><span class="p">(</span>
+    <span class="n">nemde_xml_cache_manager</span><span class="o">=</span><span class="n">xml_cache_manager</span><span class="p">,</span>
+    <span class="n">market_management_system_database</span><span class="o">=</span><span class="n">mms_db_manager</span><span class="p">)</span>
+
+<span class="c1"># A list of intervals we want to recreate historical dispatch for.</span>
+<span class="n">dispatch_intervals</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;2019/01/01 12:00:00&#39;</span><span class="p">,</span>
+                      <span class="s1">&#39;2019/01/01 12:05:00&#39;</span><span class="p">,</span>
+                      <span class="s1">&#39;2019/01/01 12:10:00&#39;</span><span class="p">,</span>
+                      <span class="s1">&#39;2019/01/01 12:15:00&#39;</span><span class="p">,</span>
+                      <span class="s1">&#39;2019/01/01 12:20:00&#39;</span><span class="p">,</span>
+                      <span class="s1">&#39;2019/01/01 12:25:00&#39;</span><span class="p">,</span>
+                      <span class="s1">&#39;2019/01/01 12:30:00&#39;</span><span class="p">]</span>
+
+<span class="c1"># List for saving outputs to.</span>
+<span class="n">outputs</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="c1"># Create and dispatch the spot market for each dispatch interval.</span>
+<span class="k">for</span> <span class="n">interval</span> <span class="ow">in</span> <span class="n">dispatch_intervals</span><span class="p">:</span>
+    <span class="n">raw_inputs_loader</span><span class="o">.</span><span class="n">set_interval</span><span class="p">(</span><span class="n">interval</span><span class="p">)</span>
+    <span class="n">unit_inputs</span> <span class="o">=</span> <span class="n">units</span><span class="o">.</span><span class="n">UnitData</span><span class="p">(</span><span class="n">raw_inputs_loader</span><span class="p">)</span>
+    <span class="n">interconnector_inputs</span> <span class="o">=</span> <span class="n">interconnectors</span><span class="o">.</span><span class="n">InterconnectorData</span><span class="p">(</span><span class="n">raw_inputs_loader</span><span class="p">)</span>
+    <span class="n">constraint_inputs</span> <span class="o">=</span> <span class="n">constraints</span><span class="o">.</span><span class="n">ConstraintData</span><span class="p">(</span><span class="n">raw_inputs_loader</span><span class="p">)</span>
+    <span class="n">demand_inputs</span> <span class="o">=</span> <span class="n">demand</span><span class="o">.</span><span class="n">DemandData</span><span class="p">(</span><span class="n">raw_inputs_loader</span><span class="p">)</span>
+
+    <span class="n">unit_info</span> <span class="o">=</span> <span class="n">unit_inputs</span><span class="o">.</span><span class="n">get_unit_info</span><span class="p">()</span>
+    <span class="n">market</span> <span class="o">=</span> <span class="n">markets</span><span class="o">.</span><span class="n">SpotMarket</span><span class="p">(</span><span class="n">market_regions</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;QLD1&#39;</span><span class="p">,</span> <span class="s1">&#39;NSW1&#39;</span><span class="p">,</span> <span class="s1">&#39;VIC1&#39;</span><span class="p">,</span>
+                                                <span class="s1">&#39;SA1&#39;</span><span class="p">,</span> <span class="s1">&#39;TAS1&#39;</span><span class="p">],</span>
+                                <span class="n">unit_info</span><span class="o">=</span><span class="n">unit_info</span><span class="p">)</span>
+
+    <span class="c1"># Set bids</span>
+    <span class="n">volume_bids</span><span class="p">,</span> <span class="n">price_bids</span> <span class="o">=</span> <span class="n">unit_inputs</span><span class="o">.</span><span class="n">get_processed_bids</span><span class="p">()</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">set_unit_volume_bids</span><span class="p">(</span><span class="n">volume_bids</span><span class="p">)</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">set_unit_price_bids</span><span class="p">(</span><span class="n">price_bids</span><span class="p">)</span>
+
+    <span class="c1"># Set bid in capacity limits</span>
+    <span class="n">unit_bid_limit</span> <span class="o">=</span> <span class="n">unit_inputs</span><span class="o">.</span><span class="n">get_unit_bid_availability</span><span class="p">()</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">set_unit_bid_capacity_constraints</span><span class="p">(</span><span class="n">unit_bid_limit</span><span class="p">)</span>
+    <span class="n">cost</span> <span class="o">=</span> <span class="n">constraint_inputs</span><span class="o">.</span><span class="n">get_constraint_violation_prices</span><span class="p">()[</span><span class="s1">&#39;unit_capacity&#39;</span><span class="p">]</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">make_constraints_elastic</span><span class="p">(</span><span class="s1">&#39;unit_bid_capacity&#39;</span><span class="p">,</span> <span class="n">violation_cost</span><span class="o">=</span><span class="n">cost</span><span class="p">)</span>
+
+    <span class="c1"># Set limits provided by the unconstrained intermittent generation</span>
+    <span class="c1"># forecasts. Primarily for wind and solar.</span>
+    <span class="n">unit_uigf_limit</span> <span class="o">=</span> <span class="n">unit_inputs</span><span class="o">.</span><span class="n">get_unit_uigf_limits</span><span class="p">()</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">set_unconstrained_intermitent_generation_forecast_constraint</span><span class="p">(</span>
+        <span class="n">unit_uigf_limit</span><span class="p">)</span>
+    <span class="n">cost</span> <span class="o">=</span> <span class="n">constraint_inputs</span><span class="o">.</span><span class="n">get_constraint_violation_prices</span><span class="p">()[</span><span class="s1">&#39;uigf&#39;</span><span class="p">]</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">make_constraints_elastic</span><span class="p">(</span><span class="s1">&#39;uigf_capacity&#39;</span><span class="p">,</span> <span class="n">violation_cost</span><span class="o">=</span><span class="n">cost</span><span class="p">)</span>
+
+    <span class="c1"># Set unit ramp rates.</span>
+    <span class="n">ramp_rates</span> <span class="o">=</span> <span class="n">unit_inputs</span><span class="o">.</span><span class="n">get_ramp_rates_used_for_energy_dispatch</span><span class="p">()</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">set_unit_ramp_up_constraints</span><span class="p">(</span>
+        <span class="n">ramp_rates</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="p">[</span><span class="s1">&#39;unit&#39;</span><span class="p">,</span> <span class="s1">&#39;initial_output&#39;</span><span class="p">,</span> <span class="s1">&#39;ramp_up_rate&#39;</span><span class="p">]])</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">set_unit_ramp_down_constraints</span><span class="p">(</span>
+        <span class="n">ramp_rates</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="p">[</span><span class="s1">&#39;unit&#39;</span><span class="p">,</span> <span class="s1">&#39;initial_output&#39;</span><span class="p">,</span> <span class="s1">&#39;ramp_down_rate&#39;</span><span class="p">]])</span>
+    <span class="n">cost</span> <span class="o">=</span> <span class="n">constraint_inputs</span><span class="o">.</span><span class="n">get_constraint_violation_prices</span><span class="p">()[</span><span class="s1">&#39;ramp_rate&#39;</span><span class="p">]</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">make_constraints_elastic</span><span class="p">(</span><span class="s1">&#39;ramp_up&#39;</span><span class="p">,</span> <span class="n">violation_cost</span><span class="o">=</span><span class="n">cost</span><span class="p">)</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">make_constraints_elastic</span><span class="p">(</span><span class="s1">&#39;ramp_down&#39;</span><span class="p">,</span> <span class="n">violation_cost</span><span class="o">=</span><span class="n">cost</span><span class="p">)</span>
+
+    <span class="c1"># Set unit FCAS trapezium constraints.</span>
+    <span class="n">unit_inputs</span><span class="o">.</span><span class="n">add_fcas_trapezium_constraints</span><span class="p">()</span>
+    <span class="n">cost</span> <span class="o">=</span> <span class="n">constraint_inputs</span><span class="o">.</span><span class="n">get_constraint_violation_prices</span><span class="p">()[</span><span class="s1">&#39;fcas_max_avail&#39;</span><span class="p">]</span>
+    <span class="n">fcas_availability</span> <span class="o">=</span> <span class="n">unit_inputs</span><span class="o">.</span><span class="n">get_fcas_max_availability</span><span class="p">()</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">set_fcas_max_availability</span><span class="p">(</span><span class="n">fcas_availability</span><span class="p">)</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">make_constraints_elastic</span><span class="p">(</span><span class="s1">&#39;fcas_max_availability&#39;</span><span class="p">,</span> <span class="n">cost</span><span class="p">)</span>
+    <span class="n">cost</span> <span class="o">=</span> <span class="n">constraint_inputs</span><span class="o">.</span><span class="n">get_constraint_violation_prices</span><span class="p">()[</span><span class="s1">&#39;fcas_profile&#39;</span><span class="p">]</span>
+    <span class="n">regulation_trapeziums</span> <span class="o">=</span> <span class="n">unit_inputs</span><span class="o">.</span><span class="n">get_fcas_regulation_trapeziums</span><span class="p">()</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">set_energy_and_regulation_capacity_constraints</span><span class="p">(</span><span class="n">regulation_trapeziums</span><span class="p">)</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">make_constraints_elastic</span><span class="p">(</span><span class="s1">&#39;energy_and_regulation_capacity&#39;</span><span class="p">,</span> <span class="n">cost</span><span class="p">)</span>
+    <span class="n">scada_ramp_down_rates</span> <span class="o">=</span> <span class="n">unit_inputs</span><span class="o">.</span><span class="n">get_scada_ramp_down_rates_of_lower_reg_units</span><span class="p">()</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">set_joint_ramping_constraints_lower_reg</span><span class="p">(</span><span class="n">scada_ramp_down_rates</span><span class="p">)</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">make_constraints_elastic</span><span class="p">(</span><span class="s1">&#39;joint_ramping_lower_reg&#39;</span><span class="p">,</span> <span class="n">cost</span><span class="p">)</span>
+    <span class="n">scada_ramp_up_rates</span> <span class="o">=</span> <span class="n">unit_inputs</span><span class="o">.</span><span class="n">get_scada_ramp_up_rates_of_raise_reg_units</span><span class="p">()</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">set_joint_ramping_constraints_raise_reg</span><span class="p">(</span><span class="n">scada_ramp_up_rates</span><span class="p">)</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">make_constraints_elastic</span><span class="p">(</span><span class="s1">&#39;joint_ramping_raise_reg&#39;</span><span class="p">,</span> <span class="n">cost</span><span class="p">)</span>
+    <span class="n">contingency_trapeziums</span> <span class="o">=</span> <span class="n">unit_inputs</span><span class="o">.</span><span class="n">get_contingency_services</span><span class="p">()</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">set_joint_capacity_constraints</span><span class="p">(</span><span class="n">contingency_trapeziums</span><span class="p">)</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">make_constraints_elastic</span><span class="p">(</span><span class="s1">&#39;joint_capacity&#39;</span><span class="p">,</span> <span class="n">cost</span><span class="p">)</span>
+
+    <span class="c1"># Set interconnector definitions, limits and loss models.</span>
+    <span class="n">interconnectors_definitions</span> <span class="o">=</span> \
+        <span class="n">interconnector_inputs</span><span class="o">.</span><span class="n">get_interconnector_definitions</span><span class="p">()</span>
+    <span class="n">loss_functions</span><span class="p">,</span> <span class="n">interpolation_break_points</span> <span class="o">=</span> \
+        <span class="n">interconnector_inputs</span><span class="o">.</span><span class="n">get_interconnector_loss_model</span><span class="p">()</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">set_interconnectors</span><span class="p">(</span><span class="n">interconnectors_definitions</span><span class="p">)</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">set_interconnector_losses</span><span class="p">(</span><span class="n">loss_functions</span><span class="p">,</span>
+                                     <span class="n">interpolation_break_points</span><span class="p">)</span>
+
+    <span class="c1"># Add generic constraints and FCAS market constraints.</span>
+    <span class="n">fcas_requirements</span> <span class="o">=</span> <span class="n">constraint_inputs</span><span class="o">.</span><span class="n">get_fcas_requirements</span><span class="p">()</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">set_fcas_requirements_constraints</span><span class="p">(</span><span class="n">fcas_requirements</span><span class="p">)</span>
+    <span class="n">violation_costs</span> <span class="o">=</span> <span class="n">constraint_inputs</span><span class="o">.</span><span class="n">get_violation_costs</span><span class="p">()</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">make_constraints_elastic</span><span class="p">(</span><span class="s1">&#39;fcas&#39;</span><span class="p">,</span> <span class="n">violation_cost</span><span class="o">=</span><span class="n">violation_costs</span><span class="p">)</span>
+    <span class="n">generic_rhs</span> <span class="o">=</span> <span class="n">constraint_inputs</span><span class="o">.</span><span class="n">get_rhs_and_type_excluding_regional_fcas_constraints</span><span class="p">()</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">set_generic_constraints</span><span class="p">(</span><span class="n">generic_rhs</span><span class="p">)</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">make_constraints_elastic</span><span class="p">(</span><span class="s1">&#39;generic&#39;</span><span class="p">,</span> <span class="n">violation_cost</span><span class="o">=</span><span class="n">violation_costs</span><span class="p">)</span>
+    <span class="n">unit_generic_lhs</span> <span class="o">=</span> <span class="n">constraint_inputs</span><span class="o">.</span><span class="n">get_unit_lhs</span><span class="p">()</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">link_units_to_generic_constraints</span><span class="p">(</span><span class="n">unit_generic_lhs</span><span class="p">)</span>
+    <span class="n">interconnector_generic_lhs</span> <span class="o">=</span> <span class="n">constraint_inputs</span><span class="o">.</span><span class="n">get_interconnector_lhs</span><span class="p">()</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">link_interconnectors_to_generic_constraints</span><span class="p">(</span>
+        <span class="n">interconnector_generic_lhs</span><span class="p">)</span>
+
+    <span class="c1"># Set the operational demand to be met by dispatch.</span>
+    <span class="n">regional_demand</span> <span class="o">=</span> <span class="n">demand_inputs</span><span class="o">.</span><span class="n">get_operational_demand</span><span class="p">()</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">set_demand_constraints</span><span class="p">(</span><span class="n">regional_demand</span><span class="p">)</span>
+    
+    <span class="c1"># Get unit dispatch without fast start constraints and use it to</span>
+    <span class="c1"># make fast start unit commitment decisions.</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">dispatch</span><span class="p">()</span>
+    <span class="n">dispatch</span> <span class="o">=</span> <span class="n">market</span><span class="o">.</span><span class="n">get_unit_dispatch</span><span class="p">()</span>
+    <span class="n">fast_start_profiles</span> <span class="o">=</span> <span class="n">unit_inputs</span><span class="o">.</span><span class="n">get_fast_start_profiles_for_dispatch</span><span class="p">(</span><span class="n">dispatch</span><span class="p">)</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">set_fast_start_constraints</span><span class="p">(</span><span class="n">fast_start_profiles</span><span class="p">)</span>
+    <span class="k">if</span> <span class="s1">&#39;fast_start&#39;</span> <span class="ow">in</span> <span class="n">market</span><span class="o">.</span><span class="n">get_constraint_set_names</span><span class="p">():</span>
+        <span class="n">cost</span> <span class="o">=</span> <span class="n">constraint_inputs</span><span class="o">.</span><span class="n">get_constraint_violation_prices</span><span class="p">()[</span><span class="s1">&#39;fast_start&#39;</span><span class="p">]</span>
+        <span class="n">market</span><span class="o">.</span><span class="n">make_constraints_elastic</span><span class="p">(</span><span class="s1">&#39;fast_start&#39;</span><span class="p">,</span> <span class="n">violation_cost</span><span class="o">=</span><span class="n">cost</span><span class="p">)</span>
+
+    <span class="c1"># If AEMO historical used the over constrained dispatch rerun</span>
+    <span class="c1"># process then allow it to be used in dispatch. This is needed</span>
+    <span class="c1"># because sometimes the conditions for over constrained dispatch</span>
+    <span class="c1"># are present but the rerun process isn&#39;t used.</span>
+    <span class="k">if</span> <span class="n">constraint_inputs</span><span class="o">.</span><span class="n">is_over_constrained_dispatch_rerun</span><span class="p">():</span>
+        <span class="n">market</span><span class="o">.</span><span class="n">dispatch</span><span class="p">(</span><span class="n">allow_over_constrained_dispatch_re_run</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+                        <span class="n">energy_market_floor_price</span><span class="o">=-</span><span class="mf">1000.0</span><span class="p">,</span>
+                        <span class="n">energy_market_ceiling_price</span><span class="o">=</span><span class="mf">14500.0</span><span class="p">,</span>
+                        <span class="n">fcas_market_ceiling_price</span><span class="o">=</span><span class="mf">1000.0</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="c1"># The market price ceiling and floor are not needed here</span>
+        <span class="c1"># because they are only used for the over constrained</span>
+        <span class="c1"># dispatch rerun process.</span>
+        <span class="n">market</span><span class="o">.</span><span class="n">dispatch</span><span class="p">(</span><span class="n">allow_over_constrained_dispatch_re_run</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+    <span class="c1"># Save prices from this interval</span>
+    <span class="n">prices</span> <span class="o">=</span> <span class="n">market</span><span class="o">.</span><span class="n">get_energy_prices</span><span class="p">()</span>
+    <span class="n">prices</span><span class="p">[</span><span class="s1">&#39;time&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">interval</span>
+    <span class="n">outputs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">prices</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="p">[</span><span class="s1">&#39;time&#39;</span><span class="p">,</span> <span class="s1">&#39;region&#39;</span><span class="p">,</span> <span class="s1">&#39;price&#39;</span><span class="p">]])</span>
+
+<span class="n">con</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">(</span><span class="n">outputs</span><span class="p">))</span>
+<span class="c1">#                   time region      price</span>
+<span class="c1"># 0  2019/01/01 12:00:00   NSW1  91.870167</span>
+<span class="c1"># 1  2019/01/01 12:00:00   QLD1  76.190796</span>
+<span class="c1"># 2  2019/01/01 12:00:00    SA1  86.899534</span>
+<span class="c1"># 3  2019/01/01 12:00:00   TAS1  89.805037</span>
+<span class="c1"># 4  2019/01/01 12:00:00   VIC1  84.984255</span>
+<span class="c1"># 0  2019/01/01 12:05:00   NSW1  91.870496</span>
+<span class="c1"># 1  2019/01/01 12:05:00   QLD1  64.991736</span>
+<span class="c1"># 2  2019/01/01 12:05:00    SA1  87.462599</span>
+<span class="c1"># 3  2019/01/01 12:05:00   TAS1  90.178036</span>
+<span class="c1"># 4  2019/01/01 12:05:00   VIC1  85.556009</span>
+<span class="c1"># 0  2019/01/01 12:10:00   NSW1  91.870496</span>
+<span class="c1"># 1  2019/01/01 12:10:00   QLD1  64.991736</span>
+<span class="c1"># 2  2019/01/01 12:10:00    SA1  86.868556</span>
+<span class="c1"># 3  2019/01/01 12:10:00   TAS1  89.983716</span>
+<span class="c1"># 4  2019/01/01 12:10:00   VIC1  84.936150</span>
+<span class="c1"># 0  2019/01/01 12:15:00   NSW1  91.870496</span>
+<span class="c1"># 1  2019/01/01 12:15:00   QLD1  64.776456</span>
+<span class="c1"># 2  2019/01/01 12:15:00    SA1  86.844540</span>
+<span class="c1"># 3  2019/01/01 12:15:00   TAS1  89.582288</span>
+<span class="c1"># 4  2019/01/01 12:15:00   VIC1  84.990796</span>
+<span class="c1"># 0  2019/01/01 12:20:00   NSW1  91.870496</span>
+<span class="c1"># 1  2019/01/01 12:20:00   QLD1  64.776456</span>
+<span class="c1"># 2  2019/01/01 12:20:00    SA1  87.496112</span>
+<span class="c1"># 3  2019/01/01 12:20:00   TAS1  90.291144</span>
+<span class="c1"># 4  2019/01/01 12:20:00   VIC1  85.594840</span>
+<span class="c1"># 0  2019/01/01 12:25:00   NSW1  91.870167</span>
+<span class="c1"># 1  2019/01/01 12:25:00   QLD1  64.991736</span>
+<span class="c1"># 2  2019/01/01 12:25:00    SA1  87.519993</span>
+<span class="c1"># 3  2019/01/01 12:25:00   TAS1  90.488064</span>
+<span class="c1"># 4  2019/01/01 12:25:00   VIC1  85.630617</span>
+<span class="c1"># 0  2019/01/01 12:30:00   NSW1  91.870496</span>
+<span class="c1"># 1  2019/01/01 12:30:00   QLD1  64.991736</span>
+<span class="c1"># 2  2019/01/01 12:30:00    SA1  87.462000</span>
+<span class="c1"># 3  2019/01/01 12:30:00   TAS1  90.196284</span>
+<span class="c1"># 4  2019/01/01 12:30:00   VIC1  85.573321</span>
+</pre></div>
+</td></tr></table></div>
+</div>
+<div class="section" id="time-sequential-recreation-of-historical-dispatch">
+<h2>Time sequential recreation of historical dispatch<a class="headerlink" href="#time-sequential-recreation-of-historical-dispatch" title="Permalink to this headline">¶</a></h2>
+<p>Demonstrates using nempy to recreate historical dispatch in a dynamic or time sequential manner, this means the outputs
+of one interval become the initial conditions for the next dispatch interval. Note, currently there is not the infrastructure
+in place to include features such as generic constraints in the time sequential model as the rhs values of many constraints
+would need to be re-calculated based on the dynamic system state. Similarly, using historical bids in this example is
+some what problematic as participants also dynamically change their bids based on market conditions. However, for sake
+of demonstrating how nempy can be used to create time sequential models, historical bids are used in this example.</p>
+<div class="highlight-python notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15
+ 16
+ 17
+ 18
+ 19
+ 20
+ 21
+ 22
+ 23
+ 24
+ 25
+ 26
+ 27
+ 28
+ 29
+ 30
+ 31
+ 32
+ 33
+ 34
+ 35
+ 36
+ 37
+ 38
+ 39
+ 40
+ 41
+ 42
+ 43
+ 44
+ 45
+ 46
+ 47
+ 48
+ 49
+ 50
+ 51
+ 52
+ 53
+ 54
+ 55
+ 56
+ 57
+ 58
+ 59
+ 60
+ 61
+ 62
+ 63
+ 64
+ 65
+ 66
+ 67
+ 68
+ 69
+ 70
+ 71
+ 72
+ 73
+ 74
+ 75
+ 76
+ 77
+ 78
+ 79
+ 80
+ 81
+ 82
+ 83
+ 84
+ 85
+ 86
+ 87
+ 88
+ 89
+ 90
+ 91
+ 92
+ 93
+ 94
+ 95
+ 96
+ 97
+ 98
+ 99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="c1"># Notice: this script downloads large volumes of historical market data from AEMO&#39;s nemweb portal.</span>
+
+<span class="kn">import</span> <span class="nn">sqlite3</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">from</span> <span class="nn">nempy</span> <span class="kn">import</span> <span class="n">markets</span><span class="p">,</span> <span class="n">time_sequential</span>
+<span class="kn">from</span> <span class="nn">nempy.historical_inputs</span> <span class="kn">import</span> <span class="n">loaders</span><span class="p">,</span> <span class="n">mms_db</span><span class="p">,</span> \
+    <span class="n">xml_cache</span><span class="p">,</span> <span class="n">units</span><span class="p">,</span> <span class="n">demand</span><span class="p">,</span> <span class="n">interconnectors</span><span class="p">,</span> <span class="n">constraints</span>
+
+<span class="n">con</span> <span class="o">=</span> <span class="n">sqlite3</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="s1">&#39;market_management_system.db&#39;</span><span class="p">)</span>
+<span class="n">mms_db_manager</span> <span class="o">=</span> <span class="n">mms_db</span><span class="o">.</span><span class="n">DBManager</span><span class="p">(</span><span class="n">connection</span><span class="o">=</span><span class="n">con</span><span class="p">)</span>
+
+<span class="n">xml_cache_manager</span> <span class="o">=</span> <span class="n">xml_cache</span><span class="o">.</span><span class="n">XMLCacheManager</span><span class="p">(</span><span class="s1">&#39;cache_directory&#39;</span><span class="p">)</span>
+
+<span class="c1"># The second time this example is run on a machine this flag can</span>
+<span class="c1"># be set to false to save downloading the data again.</span>
+<span class="n">down_load_inputs</span> <span class="o">=</span> <span class="kc">False</span>
+
+<span class="k">if</span> <span class="n">down_load_inputs</span><span class="p">:</span>
+    <span class="c1"># This requires approximately 5 GB of storage.</span>
+    <span class="n">mms_db_manager</span><span class="o">.</span><span class="n">populate</span><span class="p">(</span><span class="n">start_year</span><span class="o">=</span><span class="mi">2019</span><span class="p">,</span> <span class="n">start_month</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+                            <span class="n">end_year</span><span class="o">=</span><span class="mi">2019</span><span class="p">,</span> <span class="n">end_month</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+
+    <span class="c1"># This requires approximately 60 GB of storage.</span>
+    <span class="n">xml_cache_manager</span><span class="o">.</span><span class="n">populate</span><span class="p">(</span><span class="n">start_year</span><span class="o">=</span><span class="mi">2019</span><span class="p">,</span> <span class="n">start_month</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+                               <span class="n">end_year</span><span class="o">=</span><span class="mi">2019</span><span class="p">,</span> <span class="n">end_month</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+
+<span class="n">raw_inputs_loader</span> <span class="o">=</span> <span class="n">loaders</span><span class="o">.</span><span class="n">RawInputsLoader</span><span class="p">(</span>
+    <span class="n">nemde_xml_cache_manager</span><span class="o">=</span><span class="n">xml_cache_manager</span><span class="p">,</span>
+    <span class="n">market_management_system_database</span><span class="o">=</span><span class="n">mms_db_manager</span><span class="p">)</span>
+
+<span class="c1"># A list of intervals we want to recreate historical dispatch for.</span>
+<span class="n">dispatch_intervals</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;2019/01/01 12:00:00&#39;</span><span class="p">,</span>
+                      <span class="s1">&#39;2019/01/01 12:05:00&#39;</span><span class="p">,</span>
+                      <span class="s1">&#39;2019/01/01 12:10:00&#39;</span><span class="p">,</span>
+                      <span class="s1">&#39;2019/01/01 12:15:00&#39;</span><span class="p">,</span>
+                      <span class="s1">&#39;2019/01/01 12:20:00&#39;</span><span class="p">,</span>
+                      <span class="s1">&#39;2019/01/01 12:25:00&#39;</span><span class="p">,</span>
+                      <span class="s1">&#39;2019/01/01 12:30:00&#39;</span><span class="p">]</span>
+
+<span class="c1"># List for saving outputs to.</span>
+<span class="n">outputs</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="n">unit_dispatch</span> <span class="o">=</span> <span class="kc">None</span>
+
+<span class="c1"># Create and dispatch the spot market for each dispatch interval.</span>
+<span class="k">for</span> <span class="n">interval</span> <span class="ow">in</span> <span class="n">dispatch_intervals</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">interval</span><span class="p">)</span>
+    <span class="n">raw_inputs_loader</span><span class="o">.</span><span class="n">set_interval</span><span class="p">(</span><span class="n">interval</span><span class="p">)</span>
+    <span class="n">unit_inputs</span> <span class="o">=</span> <span class="n">units</span><span class="o">.</span><span class="n">UnitData</span><span class="p">(</span><span class="n">raw_inputs_loader</span><span class="p">)</span>
+    <span class="n">demand_inputs</span> <span class="o">=</span> <span class="n">demand</span><span class="o">.</span><span class="n">DemandData</span><span class="p">(</span><span class="n">raw_inputs_loader</span><span class="p">)</span>
+    <span class="n">interconnector_inputs</span> <span class="o">=</span> \
+        <span class="n">interconnectors</span><span class="o">.</span><span class="n">InterconnectorData</span><span class="p">(</span><span class="n">raw_inputs_loader</span><span class="p">)</span>
+    <span class="n">constraint_inputs</span> <span class="o">=</span> \
+        <span class="n">constraints</span><span class="o">.</span><span class="n">ConstraintData</span><span class="p">(</span><span class="n">raw_inputs_loader</span><span class="p">)</span>
+
+    <span class="n">unit_info</span> <span class="o">=</span> <span class="n">unit_inputs</span><span class="o">.</span><span class="n">get_unit_info</span><span class="p">()</span>
+    <span class="n">market</span> <span class="o">=</span> <span class="n">markets</span><span class="o">.</span><span class="n">SpotMarket</span><span class="p">(</span><span class="n">market_regions</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;QLD1&#39;</span><span class="p">,</span> <span class="s1">&#39;NSW1&#39;</span><span class="p">,</span> <span class="s1">&#39;VIC1&#39;</span><span class="p">,</span>
+                                                <span class="s1">&#39;SA1&#39;</span><span class="p">,</span> <span class="s1">&#39;TAS1&#39;</span><span class="p">],</span>
+                                <span class="n">unit_info</span><span class="o">=</span><span class="n">unit_info</span><span class="p">)</span>
+
+    <span class="n">volume_bids</span><span class="p">,</span> <span class="n">price_bids</span> <span class="o">=</span> <span class="n">unit_inputs</span><span class="o">.</span><span class="n">get_processed_bids</span><span class="p">()</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">set_unit_volume_bids</span><span class="p">(</span><span class="n">volume_bids</span><span class="p">)</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">set_unit_price_bids</span><span class="p">(</span><span class="n">price_bids</span><span class="p">)</span>
+
+    <span class="n">violation_cost</span> <span class="o">=</span> \
+        <span class="n">constraint_inputs</span><span class="o">.</span><span class="n">get_constraint_violation_prices</span><span class="p">()[</span><span class="s1">&#39;unit_capacity&#39;</span><span class="p">]</span>
+    <span class="n">unit_bid_limit</span> <span class="o">=</span> <span class="n">unit_inputs</span><span class="o">.</span><span class="n">get_unit_bid_availability</span><span class="p">()</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">set_unit_bid_capacity_constraints</span><span class="p">(</span><span class="n">unit_bid_limit</span><span class="p">)</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">make_constraints_elastic</span><span class="p">(</span><span class="s1">&#39;unit_bid_capacity&#39;</span><span class="p">,</span> <span class="n">violation_cost</span><span class="p">)</span>
+
+    <span class="n">unit_uigf_limit</span> <span class="o">=</span> <span class="n">unit_inputs</span><span class="o">.</span><span class="n">get_unit_uigf_limits</span><span class="p">()</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">set_unconstrained_intermitent_generation_forecast_constraint</span><span class="p">(</span>
+        <span class="n">unit_uigf_limit</span><span class="p">)</span>
+
+    <span class="n">ramp_rates</span> <span class="o">=</span> <span class="n">unit_inputs</span><span class="o">.</span><span class="n">get_as_bid_ramp_rates</span><span class="p">()</span>
+
+    <span class="c1"># This is the part that makes it time sequential.</span>
+    <span class="k">if</span> <span class="n">unit_dispatch</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="c1"># For the first dispatch interval we use historical values</span>
+        <span class="c1"># as initial conditions.</span>
+        <span class="n">historical_dispatch</span> <span class="o">=</span> <span class="n">unit_inputs</span><span class="o">.</span><span class="n">get_initial_unit_output</span><span class="p">()</span>
+        <span class="n">ramp_rates</span> <span class="o">=</span> <span class="n">time_sequential</span><span class="o">.</span><span class="n">create_seed_ramp_rate_parameters</span><span class="p">(</span>
+            <span class="n">historical_dispatch</span><span class="p">,</span> <span class="n">ramp_rates</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="c1"># For subsequent dispatch intervals we use the output levels</span>
+        <span class="c1"># determined by the last dispatch as the new initial conditions</span>
+        <span class="n">ramp_rates</span> <span class="o">=</span> <span class="n">time_sequential</span><span class="o">.</span><span class="n">construct_ramp_rate_parameters</span><span class="p">(</span>
+            <span class="n">unit_dispatch</span><span class="p">,</span> <span class="n">ramp_rates</span><span class="p">)</span>
+
+    <span class="n">violation_cost</span> <span class="o">=</span> \
+        <span class="n">constraint_inputs</span><span class="o">.</span><span class="n">get_constraint_violation_prices</span><span class="p">()[</span><span class="s1">&#39;ramp_rate&#39;</span><span class="p">]</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">set_unit_ramp_up_constraints</span><span class="p">(</span>
+        <span class="n">ramp_rates</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="p">[</span><span class="s1">&#39;unit&#39;</span><span class="p">,</span> <span class="s1">&#39;initial_output&#39;</span><span class="p">,</span> <span class="s1">&#39;ramp_up_rate&#39;</span><span class="p">]])</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">make_constraints_elastic</span><span class="p">(</span><span class="s1">&#39;ramp_up&#39;</span><span class="p">,</span> <span class="n">violation_cost</span><span class="p">)</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">set_unit_ramp_down_constraints</span><span class="p">(</span>
+        <span class="n">ramp_rates</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="p">[</span><span class="s1">&#39;unit&#39;</span><span class="p">,</span> <span class="s1">&#39;initial_output&#39;</span><span class="p">,</span> <span class="s1">&#39;ramp_down_rate&#39;</span><span class="p">]])</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">make_constraints_elastic</span><span class="p">(</span><span class="s1">&#39;ramp_down&#39;</span><span class="p">,</span> <span class="n">violation_cost</span><span class="p">)</span>
+
+    <span class="n">regional_demand</span> <span class="o">=</span> <span class="n">demand_inputs</span><span class="o">.</span><span class="n">get_operational_demand</span><span class="p">()</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">set_demand_constraints</span><span class="p">(</span><span class="n">regional_demand</span><span class="p">)</span>
+
+    <span class="n">interconnectors_definitions</span> <span class="o">=</span> \
+        <span class="n">interconnector_inputs</span><span class="o">.</span><span class="n">get_interconnector_definitions</span><span class="p">()</span>
+    <span class="n">loss_functions</span><span class="p">,</span> <span class="n">interpolation_break_points</span> <span class="o">=</span> \
+        <span class="n">interconnector_inputs</span><span class="o">.</span><span class="n">get_interconnector_loss_model</span><span class="p">()</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">set_interconnectors</span><span class="p">(</span><span class="n">interconnectors_definitions</span><span class="p">)</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">set_interconnector_losses</span><span class="p">(</span><span class="n">loss_functions</span><span class="p">,</span>
+                                     <span class="n">interpolation_break_points</span><span class="p">)</span>
+    <span class="n">market</span><span class="o">.</span><span class="n">dispatch</span><span class="p">()</span>
+
+    <span class="c1"># Save prices from this interval</span>
+    <span class="n">prices</span> <span class="o">=</span> <span class="n">market</span><span class="o">.</span><span class="n">get_energy_prices</span><span class="p">()</span>
+    <span class="n">prices</span><span class="p">[</span><span class="s1">&#39;time&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">interval</span>
+    <span class="n">outputs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">prices</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="p">[</span><span class="s1">&#39;time&#39;</span><span class="p">,</span> <span class="s1">&#39;region&#39;</span><span class="p">,</span> <span class="s1">&#39;price&#39;</span><span class="p">]])</span>
+
+    <span class="n">unit_dispatch</span> <span class="o">=</span> <span class="n">market</span><span class="o">.</span><span class="n">get_unit_dispatch</span><span class="p">()</span>
+
+<span class="n">con</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">(</span><span class="n">outputs</span><span class="p">))</span>
+<span class="c1">#                   time region      price</span>
+<span class="c1"># 0  2019/01/01 12:00:00   NSW1  91.857666</span>
+<span class="c1"># 1  2019/01/01 12:00:00   QLD1  76.180429</span>
+<span class="c1"># 2  2019/01/01 12:00:00    SA1  85.126914</span>
+<span class="c1"># 3  2019/01/01 12:00:00   TAS1  85.948523</span>
+<span class="c1"># 4  2019/01/01 12:00:00   VIC1  83.250703</span>
+<span class="c1"># 0  2019/01/01 12:05:00   NSW1  88.357224</span>
+<span class="c1"># 1  2019/01/01 12:05:00   QLD1  72.255334</span>
+<span class="c1"># 2  2019/01/01 12:05:00    SA1  82.417720</span>
+<span class="c1"># 3  2019/01/01 12:05:00   TAS1  83.451561</span>
+<span class="c1"># 4  2019/01/01 12:05:00   VIC1  80.621103</span>
+<span class="c1"># 0  2019/01/01 12:10:00   NSW1  91.857666</span>
+<span class="c1"># 1  2019/01/01 12:10:00   QLD1  75.665675</span>
+<span class="c1"># 2  2019/01/01 12:10:00    SA1  85.680310</span>
+<span class="c1"># 3  2019/01/01 12:10:00   TAS1  86.715499</span>
+<span class="c1"># 4  2019/01/01 12:10:00   VIC1  83.774337</span>
+<span class="c1"># 0  2019/01/01 12:15:00   NSW1  88.343034</span>
+<span class="c1"># 1  2019/01/01 12:15:00   QLD1  71.746786</span>
+<span class="c1"># 2  2019/01/01 12:15:00    SA1  82.379539</span>
+<span class="c1"># 3  2019/01/01 12:15:00   TAS1  83.451561</span>
+<span class="c1"># 4  2019/01/01 12:15:00   VIC1  80.621103</span>
+<span class="c1"># 0  2019/01/01 12:20:00   NSW1  91.864122</span>
+<span class="c1"># 1  2019/01/01 12:20:00   QLD1  75.052319</span>
+<span class="c1"># 2  2019/01/01 12:20:00    SA1  85.722028</span>
+<span class="c1"># 3  2019/01/01 12:20:00   TAS1  86.576848</span>
+<span class="c1"># 4  2019/01/01 12:20:00   VIC1  83.859306</span>
+<span class="c1"># 0  2019/01/01 12:25:00   NSW1  91.864122</span>
+<span class="c1"># 1  2019/01/01 12:25:00   QLD1  75.696247</span>
+<span class="c1"># 2  2019/01/01 12:25:00    SA1  85.746024</span>
+<span class="c1"># 3  2019/01/01 12:25:00   TAS1  86.613642</span>
+<span class="c1"># 4  2019/01/01 12:25:00   VIC1  83.894945</span>
+<span class="c1"># 0  2019/01/01 12:30:00   NSW1  91.870167</span>
+<span class="c1"># 1  2019/01/01 12:30:00   QLD1  75.188735</span>
+<span class="c1"># 2  2019/01/01 12:30:00    SA1  85.694071</span>
+<span class="c1"># 3  2019/01/01 12:30:00   TAS1  86.560602</span>
+<span class="c1"># 4  2019/01/01 12:30:00   VIC1  83.843570</span>
+</pre></div>
+</td></tr></table></div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="markets.html" class="btn btn-neutral float-right" title="markets module" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="intro.html" class="btn btn-neutral float-left" title="Introduction" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, Nick Gorman
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

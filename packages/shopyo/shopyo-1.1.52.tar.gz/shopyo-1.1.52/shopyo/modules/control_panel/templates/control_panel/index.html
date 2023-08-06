@@ -1,0 +1,31 @@
+{% extends "base/main_base.html" %}
+
+{% set active_page ='control panel' %}
+
+{% block pagehead %}
+<title></title>
+<style>
+
+</style>
+{% endblock %}
+
+{% block content %}
+  {% include 'control_panel/nav.html' %}
+
+  <br>
+
+    {% for info in all_info %}
+        {% if all_info[info]['type'] == 'show'%}
+        <a href="{{all_info[info]['url_prefix']}}">
+          <div class="card card-menu">
+            <div class="card-body text-center">
+              <i class="card-menu-icon {{all_info[info]['fa-icon']}}"></i>
+            </div>
+            <div class="card-footer">
+              {{all_info[info]['name']}}
+            </div>
+          </div>
+        </a>
+        {% endif %}
+    {% endfor %}
+ {% endblock %}

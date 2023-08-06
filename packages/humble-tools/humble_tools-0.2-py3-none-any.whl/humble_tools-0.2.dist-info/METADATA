@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: humble-tools
+Version: 0.2
+Summary: Humble Tools
+Home-page: UNKNOWN
+Author: Roland von Ohlen
+Author-email: work@rvo.name
+License: proprietary
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Requires-Dist: click (==7.1.2)
+Requires-Dist: inotify (==0.2.10)
+Provides-Extra: develop
+Requires-Dist: pylint (==2.3.1) ; extra == 'develop'
+Requires-Dist: pytest (==4.4.1) ; extra == 'develop'
+Requires-Dist: pytest-cov (==2.7.1) ; extra == 'develop'
+Requires-Dist: pytest-mock (==1.10.4) ; extra == 'develop'
+Requires-Dist: pytest-freezegun (==0.3.0.post1) ; extra == 'develop'
+Requires-Dist: git-pylint-commit-hook (==2.5.1) ; extra == 'develop'
+Requires-Dist: setuptools-scm (==3.2.0) ; extra == 'develop'
+
+UNKNOWN
+
+

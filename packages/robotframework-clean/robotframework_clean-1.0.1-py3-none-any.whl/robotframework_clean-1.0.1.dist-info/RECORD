@@ -1,0 +1,9 @@
+robotclean/__init__.py,sha256=tqjNM0bEYMZ41x3Y7gzvHwZw-05U16uSGWeMKdHbZJ4,1449
+robotclean/__main__.py,sha256=_smAJT1u45oiBrPRn7rB-t3lToqMvkz0TkIQJFLLp0U,39
+robotclean/__version__.py,sha256=dHuoY6voK7np1A7oRzw1xyBy7CK9_KBAc4FCKW29uRQ,21
+robotclean/code_formatters.py,sha256=-7I6JOZ_ODeqlZ2igH3K0HlVH8l2tf979qTcGySqoNo,9089
+robotframework_clean-1.0.1.dist-info/METADATA,sha256=EIPJB5eKv6t0pJ6ZrVJ6nynYw1iR78ugFCc0Ic928X4,2725
+robotframework_clean-1.0.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+robotframework_clean-1.0.1.dist-info/entry_points.txt,sha256=pEc4wynaEh-gZxkf_jNVPIHnreg_dvST-Slazfi0UDM,46
+robotframework_clean-1.0.1.dist-info/top_level.txt,sha256=kiF8q7iAugN8hghBMLTkqhA6LZVG7ELW71vbfwuzb7M,11
+robotframework_clean-1.0.1.dist-info/RECORD,,

@@ -1,0 +1,4 @@
+[console_scripts]
+ideuy_download = ideuy.console.download:run
+ideuy_filter = ideuy.console.filter:run
+

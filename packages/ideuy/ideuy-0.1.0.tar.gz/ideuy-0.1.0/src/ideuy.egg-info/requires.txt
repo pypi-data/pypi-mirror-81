@@ -1,0 +1,9 @@
+requests
+tqdm
+fiona
+shapely
+pyproj
+
+[testing]
+pytest
+pytest-cov

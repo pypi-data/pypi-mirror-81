@@ -1,0 +1,11 @@
+stacksort/__init__.py,sha256=mbLEb0aGYpraB8LuQvm0iW-Ce3MjwSdB5By-YcwMJ3k,798
+stacksort/_meta/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stacksort/_meta/compile.py,sha256=DArmZoCfTjIP9zVNN5KA97CmmBuLIBEjJSBNX70pxjg,13281
+stacksort/_meta/injector.py,sha256=0BygQfnP_qXOVyROmor7vH8lGaNlBaU1V2-JC5SMB38,2361
+stacksort/_meta/stackoverflow/__init__.py,sha256=vByYVE0fXYs2IIQ2HgOS0a4uqoz_neU5ET4Gocwj-Cw,73
+stacksort/_meta/stackoverflow/find.py,sha256=r8PaqnKhDvtb5fFi9pawslf6jsqya2mZxatByi-x0a8,2297
+stacksort-0.1.0.dist-info/LICENSE,sha256=dKaEd7lCPJxsaZDnVY5Tl8-fJYzn2sptHKDbljd4VLs,1070
+stacksort-0.1.0.dist-info/METADATA,sha256=yEpqDc3y_SxlQDO4nvPpsL_LRd0GwhW_8W96p6kCiF8,7466
+stacksort-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+stacksort-0.1.0.dist-info/top_level.txt,sha256=-zNZOfjvaLPi4me5JzJp8aaZHTb00plYXbJffH34svE,10
+stacksort-0.1.0.dist-info/RECORD,,

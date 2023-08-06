@@ -1,0 +1,9 @@
+License,sha256=8sSj1LapvhobAhMNP_Vo_DoRngRhWVg8AXye3AnXpU4,1064
+README.md,sha256=cdO1BFumRtk1InOECQ-rie1M5D--kyaaqwzuhVhPlKw,5126
+ckanclient/__init__.py,sha256=QNVT26D_6hFnXd-jGC_UqfPJIPwKb8lzF3JHq-IW7EM,6336
+ckanclient/auth.py,sha256=ELNse63LnSxJtdkJYxe-22pkozyWrMB-F3vuq03XThk,2311
+ckanclient/text.py,sha256=P2mfsNZg5Dw74Tr2-j6cdnD0xhAGSvHhjtwFC86-HNc,305
+ckanclient/upload.py,sha256=OqGISkcuE8BHWMrQljv36nN9ce4hBcCNjRDCfBhrnJ4,1285
+ckan_client-0.1.0.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+ckan_client-0.1.0.dist-info/METADATA,sha256=uq5umWpQc0ctPAwhJS_-PlSEZZ7W1UDQUzrqzf9jIeI,5865
+ckan_client-0.1.0.dist-info/RECORD,,

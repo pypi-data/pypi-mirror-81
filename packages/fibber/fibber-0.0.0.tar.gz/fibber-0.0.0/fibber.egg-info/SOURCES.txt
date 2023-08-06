@@ -1,0 +1,6 @@
+setup.py
+fibber.egg-info/PKG-INFO
+fibber.egg-info/SOURCES.txt
+fibber.egg-info/dependency_links.txt
+fibber.egg-info/not-zip-safe
+fibber.egg-info/top_level.txt

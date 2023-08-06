@@ -1,0 +1,9 @@
+README.md
+setup.py
+dfa/__init__.py
+dfa_wrapper.egg-info/PKG-INFO
+dfa_wrapper.egg-info/SOURCES.txt
+dfa_wrapper.egg-info/dependency_links.txt
+dfa_wrapper.egg-info/not-zip-safe
+dfa_wrapper.egg-info/requires.txt
+dfa_wrapper.egg-info/top_level.txt

@@ -1,0 +1,9 @@
+README.rst
+setup.py
+chesstutor/__init__.py
+chesstutor/__main__.py
+chesstutor_Ceasar.egg-info/PKG-INFO
+chesstutor_Ceasar.egg-info/SOURCES.txt
+chesstutor_Ceasar.egg-info/dependency_links.txt
+chesstutor_Ceasar.egg-info/requires.txt
+chesstutor_Ceasar.egg-info/top_level.txt

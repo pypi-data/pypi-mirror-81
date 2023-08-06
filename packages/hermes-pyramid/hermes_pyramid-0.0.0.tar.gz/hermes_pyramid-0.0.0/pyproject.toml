@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "hermes_pyramid"
+version = "0.0.0"
+description = "Web based reporting api"
+authors = ["Daniel Edgecombe <edgy.edgemond@gmail.com>"]
+license = "Apache-2.0"
+repository="https://github.com/EdgyEdgemond/hermes/"
+homepage="https://github.com/EdgyEdgemond/hermes/"
+readme = "README.md"
+
+packages = [
+    {include = "hermes"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+pyramid_chameleon = "*"
+chameleon = "~3.7.0"
+pyramid = "*"
+web_error = "*"
+
+[tool.poetry.dev-dependencies]
+
+changelog-gen = "~0.7.0"
+flake8 = "^3.7"
+flake8-commas = "^2.0"
+flake8-isort = "^2.7"
+flake8-quotes = "^2.1"
+isort = "^4.3"
+pytest = "^5.2"
+pytest-asyncio = "*"
+pytest-cov = "^2.8"
+pytest-git = "^1.7.0"
+pytest-random-order = "^1.0"
+
+[tool.poetry.plugins."paste.app_factory"]
+main = "hermes.server:main"
+
+[build-system]
+requires = ["poetry<1.0"]
+build-backend = "poetry.masonry.api"

@@ -1,0 +1,9 @@
+authventure/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+authventure/simpler_authenticator.py,sha256=10Hr8SUl3O7vjR1bfLJHMl7EMJUIpgGaNhuCm99vI28,587
+authventure/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+authventure/tests/test_simpler_authenticator.py,sha256=tAITURee9QKXrRuqq7071OSAIh9RyohL6HtWYtArubI,1682
+authventure-1.0.0.dist-info/LICENSE,sha256=X-3WInNeZtHr9mR6LL6OUioa54yXskOvvuAXmX0yqFQ,1052
+authventure-1.0.0.dist-info/METADATA,sha256=VCm4gamXzPx6sWLQkYchOcXoCz_-x7lUEQz0hb3JBEw,943
+authventure-1.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+authventure-1.0.0.dist-info/top_level.txt,sha256=FgYHYxtqEvlcd2Me46X6A63u4EFemETTZZ__PBXW-Z8,12
+authventure-1.0.0.dist-info/RECORD,,

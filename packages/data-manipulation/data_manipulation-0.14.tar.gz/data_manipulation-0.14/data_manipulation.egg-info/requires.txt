@@ -1,0 +1,6 @@
+numpy
+pandas
+IPython
+requests
+beautifulsoup4
+psycopg2

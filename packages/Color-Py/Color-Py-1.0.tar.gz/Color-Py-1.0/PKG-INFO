@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: Color-Py
+Version: 1.0
+Summary: Color handling library written in Python.
+Home-page: https://github.com/IceCruelStuff/Color-Py
+Author: IceCruelStuff
+Author-email: UNKNOWN
+License: Apache-2.0 License
+Description: UNKNOWN
+Keywords: Color handling library written in Python.
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries

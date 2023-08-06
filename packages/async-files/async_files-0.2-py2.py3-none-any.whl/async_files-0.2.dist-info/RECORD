@@ -1,0 +1,15 @@
+async_files/__init__.py,sha256=222UiyMAhCrN4VlHFhM77YAKXktbpAMM6yokDwwOp-I,27
+async_files/fileio.py,sha256=4IbPghs5gKyMwRBRbNI82oVxBxMhVUSD9dlsoQvVE8A,1176
+async_files/fileobj.py,sha256=09pGlv-JY-I_kMiL-ckVGqQyZ9PHBR-OlH8Xd5anbBU,3409
+async_files/gzip.py,sha256=VNOMQ75ueR9JENl8cNdwTWOvOKYXChRGmeXI__OV-AE,368
+async_files/tempfile.py,sha256=bHMMTj3q5bPZB3u9nqxxRIJvZWuLP21dn7RZXSILYUE,784
+async_files/utils.py,sha256=wY3FznBQHd2gpC_sMv0iPYiYnm6XTYBtD61U4gKUktw,368
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/basic_example.py,sha256=zujG52-ytswEjG4khkX7rCxw9VREreI-Ftyq0xZ_49A,333
+examples/tempfile_example.py,sha256=reYh7J_4GHPUrej_a-mw2pRhK0olK6xlU8bybrVDqDU,308
+examples/utils.py,sha256=psvmc5kT03irKeQqkvPUs0E7K8kbh2vw21L-oDV0-44,553
+async_files-0.2.dist-info/LICENSE,sha256=GJKZee6pZU8wj3OXHM9dJPpJCFbv9EEo9jpzh7vSW0Y,1069
+async_files-0.2.dist-info/METADATA,sha256=Mdl4bFS_aNHi3AciepxJZ3LK7gQVO04e6IwvIra-imE,2814
+async_files-0.2.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+async_files-0.2.dist-info/top_level.txt,sha256=LmEraSrxI0mcuf0vF7sK2ra3uXjmvrnDQZAmRGrkqtU,21
+async_files-0.2.dist-info/RECORD,,

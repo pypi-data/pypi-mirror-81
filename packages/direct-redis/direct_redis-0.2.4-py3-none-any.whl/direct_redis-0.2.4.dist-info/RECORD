@@ -1,0 +1,8 @@
+direct_redis/__init__.py,sha256=_VLiHr_RvhnjSzdxDyxVXdChEEZukKue2IVrjMPGHdU,37
+direct_redis/direct_redis.py,sha256=q0RibZnCg3I9eG1BqYGQw6kUaZLjuL88imtk6saAEAw,3651
+direct_redis/functions.py,sha256=GMM43DOzTl5TOSPL_YfeWHtdjBtfW8JGEekQBtX2v5I,2060
+direct_redis-0.2.4.dist-info/LICENSE,sha256=12B0_kyKQuHTPbeLvn2QfvHlNMxjxsTS-jDwdQ76JgA,1070
+direct_redis-0.2.4.dist-info/METADATA,sha256=-mZaVt-WlxBopIapiGDwXfzPuTtxPzh27zCarJ0qSxk,3491
+direct_redis-0.2.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+direct_redis-0.2.4.dist-info/top_level.txt,sha256=Jd4Wp0ehbJcjC8lN5cYkNcvzMQHMw2LqNgb9ndCpxrA,13
+direct_redis-0.2.4.dist-info/RECORD,,

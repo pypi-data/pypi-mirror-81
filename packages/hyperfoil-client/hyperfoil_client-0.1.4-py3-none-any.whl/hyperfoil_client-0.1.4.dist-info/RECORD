@@ -1,0 +1,17 @@
+hyperfoil/__init__.py,sha256=qx3kVfivZZJNfsbdOiy1Vz-hjkZj_FQ4jTeIZuFm7nQ,59
+hyperfoil/client.py,sha256=V92mrfWokKIVA8YGxEheQD2VA-qnNzYq0JUXE6Jy6Wc,2492
+hyperfoil/clients.py,sha256=sgE4VQULlSUXVqiyJluIhKiSiBQNMufmw7ikrN-GM50,5245
+hyperfoil/defaults.py,sha256=szNqiVjsfQwPjSI9QW9cFX6by3F1u06vRAUoxc7oi0I,2903
+hyperfoil/errors.py,sha256=WeoKDVu2UxHVybfWgc07Tj8i7rJ5041tc_6OB4BIHHg,191
+hyperfoil/resources.py,sha256=PwJgTJtbBSUBGbe02lVKDI_ACCCzNHo19BkBUneBi18,1817
+hyperfoil/utils.py,sha256=t3GtGVLXcGZSgGA0bCY5nJYLJLB4nT1IfhxXRp3oCzM,263
+hyperfoil/factories/__init__.py,sha256=A4n3g_TWbzVMebfsiczb_3MVjvTMcHJHOpfOBit5WEs,80
+hyperfoil/factories/benchmark.py,sha256=kaLlWhwo6kobSJE53V1k2QSuuK09JNnFbX8Brf3X9qQ,1302
+hyperfoil/factories/benchmark_factory.py,sha256=pcPoEEhAA29oPmxGL8j-vyO_09MVc4uBIOhOXiUZeGA,720
+hyperfoil/factories/hyperfoil_factory.py,sha256=MceBj-55nrP7cfkxUWzP73B2kxRcS8EZHTogYyaE_9o,1505
+tests/factories/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/factories/hyperfoil_factory_test.py,sha256=5YqdiBodhsH5HiDukEVL7UWjy0v5kY42XskYatbPwd8,633
+hyperfoil_client-0.1.4.dist-info/METADATA,sha256=IsY9dwZtv5kgUmBZmkTj5dJelce5JVRHS9D1LS0U1TM,1734
+hyperfoil_client-0.1.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+hyperfoil_client-0.1.4.dist-info/top_level.txt,sha256=wK3DywU1TR_Zo3aR1t0OaF223HHej3g4OOJPlLGjrL0,16
+hyperfoil_client-0.1.4.dist-info/RECORD,,

@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: SimpleCovidAPI
+Version: 0.2
+Summary: A client library for the SimpleCovidAPI to get covid19 data.
+Home-page: https://github.com/gadhagod/SimpleCovidAPI
+Author: GadhaGod
+Author-email: gadhaguy13@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# SimpleCovidAPI
+A client library for the SimpleCovidAPI that retrieves COVID-19 data.
+
+### Installation
+
+    pip3 install SimpleCovidAPI  # for python 3
+    pip install SimpleCovidAPI  # for python 2
+
+### Usage
+
+    from SimpleCovidAPI import sca
+
+    print('Cases: ' + str(sca.cases()))
+    print('Deaths: ' + str(sca.deaths()))
+    print('Recoveries: ' + str(sca.recoveries()))
+
+### Docs
+Full documentation availabe <a href="https://gadhagod.github.io/SimpleCovidAPI">here</a>.
+
+

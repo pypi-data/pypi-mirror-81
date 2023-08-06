@@ -1,0 +1,14 @@
+flask
+flask-cors
+gitpython
+marshmallow
+pyyaml
+requests
+sqlalchemy
+sqlparse
+
+[mysql]
+PyMySQL
+
+[pg]
+psycopg2

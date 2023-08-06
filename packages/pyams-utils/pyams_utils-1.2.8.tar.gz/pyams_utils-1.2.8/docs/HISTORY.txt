@@ -1,0 +1,75 @@
+
+Changelog
+=========
+
+1.2.8
+-----
+ - updated doctests
+
+1.2.7
+-----
+ - updated doctests
+
+1.2.6
+-----
+ - updated doctests
+
+1.2.5
+-----
+ - updated doctests
+
+1.2.4
+-----
+ - added distribution check
+
+1.2.3
+-----
+ - small refactoring to add "get_timestamp" function to "pyams_utils.date" module
+ - small updates in "url" and "zodb" modules
+ - added venusian decorators testing helpers
+ - completed doctests
+
+1.2.2
+-----
+ - Pylint upgrade
+
+1.2.1
+-----
+ - updated doctest
+
+1.2.0
+-----
+ - added Fanstatic resource type to define link "data" attributes, with new doctests
+ - added new "data" function to format data attributes
+ - Pylint code cleanup
+
+1.1.4
+-----
+ - updated doctests
+ - when registering a class adapter, automatically make this class implement the adapter
+   "provided" interface
+ - added testing helpers
+
+1.1.3
+-----
+ - added doctests
+
+1.1.2
+-----
+ - renamed arguments and variables to avoid shadowing arguments names
+ - updated private Gitlab integration
+
+1.1.1
+-----
+ - added synonyms to "adapter_config" arguments names ('required' and 'adapts' for 'context', and
+   'provided' for 'provides')
+
+1.1.0
+-----
+ - corrected "timestamp" TALES extension
+ - added generic *IDataManager* interface definition to PyAMS_utils, so it can be used in any
+   package without using PyAMS_form
+
+1.0.0
+-----
+ - initial release

@@ -1,0 +1,273 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-03 20:14+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#, python-format
+msgid "%(count)d survey was successfully marked as published."
+msgid_plural "%(count)d surveys were successfully marked as published"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Mark selected surveys as published"
+msgstr ""
+
+msgid "Anonymous"
+msgstr ""
+
+msgid "user"
+msgstr ""
+
+msgid "Export to CSV"
+msgstr ""
+
+msgid "with"
+msgstr ""
+
+#, python-format
+msgid "%(min_cardinality)d respondants or more"
+msgid_plural "%(min_cardinality)d respondant or more"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "excluding"
+msgstr ""
+
+msgid "and"
+msgstr ""
+
+msgid "or"
+msgstr ""
+
+msgid "Repartition of answers"
+msgstr ""
+
+msgid "Left blank"
+msgstr ""
+
+msgid "for the question"
+msgstr ""
+
+msgid "No answers for this question."
+msgstr ""
+
+msgid "Participant"
+msgstr ""
+
+msgid "left"
+msgstr ""
+
+msgid "in relation with the question"
+msgstr ""
+
+msgid "right"
+msgstr ""
+
+msgid "Cannot generate PDF, we need 'xelatex' to be installed."
+msgstr ""
+
+msgid "We could not render a chart because the type"
+msgstr ""
+
+msgid "is not a standard type nor the path to an importable valid Question2Tex child class. Choose between 'raw', 'sankey', 'pie', 'cloud', 'square', 'polar' or 'package.path.MyQuestion2TexCustomClass'"
+msgstr ""
+
+msgid "No questions to display in this survey."
+msgstr ""
+
+msgid "Cannot export multiple PDF, choose only one."
+msgstr ""
+
+#, python-format
+msgid "Error during PDF generation: %s"
+msgstr ""
+
+msgid "Export to PDF"
+msgstr ""
+
+msgid "Question"
+msgstr ""
+
+msgid "Response"
+msgstr ""
+
+msgid "Creation date"
+msgstr ""
+
+msgid "Update date"
+msgstr ""
+
+msgid "Content"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Survey"
+msgstr ""
+
+msgid "Display order"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "category"
+msgstr ""
+
+msgid "categories"
+msgstr ""
+
+msgid ""
+"The choices field is only used if the question type\n"
+"if the question type is 'radio', 'select', or\n"
+"'select multiple' provide a comma-separated list of\n"
+"options for this question ."
+msgstr ""
+
+msgid "text (multiple line)"
+msgstr ""
+
+msgid "short text (one line)"
+msgstr ""
+
+msgid "radio"
+msgstr ""
+
+msgid "select"
+msgstr ""
+
+msgid "Select Multiple"
+msgstr ""
+
+msgid "Select Image"
+msgstr ""
+
+msgid "integer"
+msgstr ""
+
+msgid "float"
+msgstr ""
+
+msgid "date"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "Order"
+msgstr ""
+
+msgid "Required"
+msgstr ""
+
+msgid "Category"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Choices"
+msgstr ""
+
+msgid "question"
+msgstr ""
+
+msgid "questions"
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "Interview unique identifier"
+msgstr ""
+
+msgid "Set of answers to surveys"
+msgstr ""
+
+msgid "Sets of answers to surveys"
+msgstr ""
+
+msgid "By question"
+msgstr ""
+
+msgid "By category"
+msgstr ""
+
+msgid "All in one page"
+msgstr ""
+
+msgid "Users can see it and answer it"
+msgstr ""
+
+msgid "Only authenticated users can see it and answer it"
+msgstr ""
+
+msgid "Users can edit their answers afterwards"
+msgstr ""
+
+msgid "Display method"
+msgstr ""
+
+msgid "Template"
+msgstr ""
+
+msgid "Publication date"
+msgstr ""
+
+msgid "Expiration date"
+msgstr ""
+
+msgid "survey"
+msgstr ""
+
+msgid "surveys"
+msgstr ""
+
+msgid "Survey completed"
+msgstr ""
+
+msgid "Sorry! Your already replied to our survey"
+msgstr ""
+
+msgid "Back to survey list"
+msgstr ""
+
+msgid "Survey submitted"
+msgstr ""
+
+msgid "Thanks! Your answers have been saved"
+msgstr ""
+
+msgid "You can always come back and change them."
+msgstr ""
+
+msgid "Welcome to the Django Survey app"
+msgstr ""
+
+msgid "Take the Survey"
+msgstr ""
+
+msgid "Answer this part"
+msgstr ""
+
+msgid "Questions"
+msgstr ""
+
+msgid "I'm done!"
+msgstr ""

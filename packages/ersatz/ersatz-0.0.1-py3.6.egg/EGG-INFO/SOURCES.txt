@@ -1,0 +1,8 @@
+README.md
+ersatz.py
+setup.py
+ersatz.egg-info/PKG-INFO
+ersatz.egg-info/SOURCES.txt
+ersatz.egg-info/dependency_links.txt
+ersatz.egg-info/entry_points.txt
+ersatz.egg-info/top_level.txt

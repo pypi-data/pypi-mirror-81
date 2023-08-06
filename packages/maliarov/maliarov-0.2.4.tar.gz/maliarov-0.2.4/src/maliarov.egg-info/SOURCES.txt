@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/maliarov.py
+src/maliarov.egg-info/PKG-INFO
+src/maliarov.egg-info/SOURCES.txt
+src/maliarov.egg-info/dependency_links.txt
+src/maliarov.egg-info/requires.txt
+src/maliarov.egg-info/top_level.txt

@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pytaon
+Version: 0.0.1b0
+Summary: Physics module for the Pyxel engine.
+Home-page: https://github.com/fisjogos-fga/pytaon
+License: UNKNOWN
+Author: Fábio Macêdo Mendes
+Author-email: fabiomacedomendes@gmail.com
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: pyxel >= 1.4.0

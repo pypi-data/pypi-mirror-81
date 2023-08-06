@@ -1,0 +1,4 @@
+[gui_scripts]
+Markdown-Toolbox = src.__init__:main
+MarkdownToolbox = src.__init__:main
+

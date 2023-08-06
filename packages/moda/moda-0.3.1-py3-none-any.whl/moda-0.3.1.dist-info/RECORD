@@ -1,0 +1,16 @@
+moda/dataprep/__init__.py,sha256=XMGNrurvDr5kTCH6y3JdWX0XGEV094USBZtw0R1GFwI,107
+moda/dataprep/create_dataset.py,sha256=6sjqiuYvc5Wewml5lghXXLVE4Qkbg4k1p7RbGle1G-M,1796
+moda/dataprep/data_reader.py,sha256=P_fm5dylb4wIjllnzz9iY4ZpseZaLCbGSbK3CJQEqnA,1153
+moda/dataprep/utils.py,sha256=0QGgvSkCWdO3ebl3n2Hd9HIBWLXACKTaoutmFgAF2bI,3011
+moda/evaluators/__init__.py,sha256=tkNmakVQCEHZFdU228R__5kFch34X3GAbvYgfsx93i4,372
+moda/evaluators/eval.py,sha256=v_180UCLLpd8-AcSNBMH3DJJPkfUjT2ccQ4eRaWa6aM,8220
+moda/evaluators/eval_all_models.py,sha256=BrXqQbV32ekl6LkIasM2VpRkV_bDRjzGCHzhTS16Svg,14403
+moda/evaluators/metrics.py,sha256=jo8lzIEc-31h2jK3W7skbw0cSflEc-OR13e1SY7hn9w,11336
+moda/models/__init__.py,sha256=D6rKBFdMGTv8OGfNGzmfF2YlUWPc0z9MpiYi_qDY9EA,400
+moda/models/trend_detector.py,sha256=H1QxpbmJja3TmNV-UCqhZp9sI-MQyOpVwKp-iObM6_A,6018
+moda-0.3.1.dist-info/DESCRIPTION.rst,sha256=AkVjXpw9JVoIJ8jqjJci25uzukNRL_MfYz8uoMF8qiw,38
+moda-0.3.1.dist-info/METADATA,sha256=iSd-K-IdNafrmn3mE7yPz0sxIPtTKRKIM2nn3f5dIOU,582
+moda-0.3.1.dist-info/RECORD,,
+moda-0.3.1.dist-info/WHEEL,sha256=Vlaj2XNMTTJ893zWX-JvKeZUIs7q5E7d7Gise2Vouzc,97
+moda-0.3.1.dist-info/metadata.json,sha256=opKlR82Hxmr1XM-5nE5AL1yanYv5593QEAfMB7zBQZQ,663
+moda-0.3.1.dist-info/top_level.txt,sha256=Hmz2YpFrTTwW9R_638wd5QDbM8cH3mTatdF7IQZpx3M,5

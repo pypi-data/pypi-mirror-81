@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+example/example.ipynb
+example/reservoir_properties_list.csv
+example/testGppeval.py
+gppeval/__init__.py
+gppeval.egg-info/PKG-INFO
+gppeval.egg-info/SOURCES.txt
+gppeval.egg-info/dependency_links.txt
+gppeval.egg-info/not-zip-safe
+gppeval.egg-info/requires.txt
+gppeval.egg-info/top_level.txt

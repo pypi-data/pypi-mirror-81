@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: pydantic-distiller
+Version: 0.1.0b8
+Summary: HTML/JSON documents parser into Pydantic models
+Home-page: https://github.com/tinkoffjournal/distiller
+Author: Arseny Gabdullin
+Author-email: a.gabdullin@tinkoff.ru

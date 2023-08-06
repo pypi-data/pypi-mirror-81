@@ -1,0 +1,6 @@
+[console_scripts]
+maestral_cocoa = maestral_cocoa.cli:main
+
+[maestral_gui]
+maestral_cocoa = maestral_cocoa.main:run
+

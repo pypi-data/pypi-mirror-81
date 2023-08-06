@@ -1,0 +1,1 @@
+This project generates a strong random password.

@@ -1,0 +1,21 @@
+[INSTRUMENT] :
+  type = ALMA
+  pixscale =0.2
+
+[PSF] :
+  type = gaussian
+  fwhm         = 1.4 "
+  pa           = 87.4 °
+  ba           = 0.711
+
+[LSF] :
+  type = Gaussian
+  fwhm = -57672563.2637  Hz
+
+ 
+
+cube_xy_step   = 0.2 "
+cube_z_step    = -57672563.2637 Hz
+
+ 
+cube z_step_kms = -71.513228615 km/s  at 2.41938020618e+11 Hz

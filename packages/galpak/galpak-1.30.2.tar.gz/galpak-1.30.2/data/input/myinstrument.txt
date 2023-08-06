@@ -1,0 +1,12 @@
+[INSTRUMENT] :
+type = Generic
+pixscale = 0.1 “
+
+[PSF] :
+type = gaussian
+fwhm = 0.30 “
+pa = 0 °
+ba = 1
+[LSF] :
+type = Gaussian
+fwhm = 7.9 Angstrom

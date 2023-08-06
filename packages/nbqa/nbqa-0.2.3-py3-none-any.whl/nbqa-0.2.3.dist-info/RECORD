@@ -1,0 +1,16 @@
+nbqa/__init__.py,sha256=fOSqpLuilZQ3GKmXnFSJ94cE2dG4u-otNHbs4BkqeQk,138
+nbqa/__main__.py,sha256=JrR0REGzesyZdWOETHKwHTsBUyIjtKz7lEMxhosa5kI,15167
+nbqa/cmdline.py,sha256=8KmaXhxi0KJQMkkUh97D_EaKPy-d7jMIxTjQV26MRxw,4621
+nbqa/config.py,sha256=bokqKj5Qvvs6MekcjzOWwkqAtnEBrpF9nmVqm96MUpI,3421
+nbqa/config_parser.py,sha256=7EcJGy_nKY-8eFl0WLpeISssgzAv3yPCQbDMqH_HJo8,3581
+nbqa/find_root.py,sha256=ZOu5TXEdu1-tySYPCUjicVHE58cS9VFriuVXyyeCQxQ,1933
+nbqa/notebook_info.py,sha256=CA0lVtPzRMw6UPBvmyzgtjXlfZ98QV5n7YjxdBgY8QM,2457
+nbqa/replace_source.py,sha256=nQvyqdwkc3Jh1Gys9uLGkzzmilQmw-DrsoyXWrkZInE,2749
+nbqa/save_source.py,sha256=T3VbRuIEozzr7ULoZPpHZZcf0K9cIaTP1vA8nb3Nyns,5895
+nbqa/toml_parser.py,sha256=TFSgp9TqQiD-rYA0Y-69QOwBnrUSZw9d5ltT6H0rD3k,1140
+nbqa-0.2.3.dist-info/LICENSE,sha256=oUqo3xOw58Zq6fqwR0L49EeTw6OwOgtD_5eAEqEpE9c,1071
+nbqa-0.2.3.dist-info/METADATA,sha256=cFTuOkfI0wURAvOFj3xga1uBg8oXECnq1YpgG5Tp5AA,8153
+nbqa-0.2.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+nbqa-0.2.3.dist-info/entry_points.txt,sha256=0d8RFAu3QBScAAWQnewEm2TC3_da77yfxX79LbDRSI4,45
+nbqa-0.2.3.dist-info/top_level.txt,sha256=8xXeXsVSaE-CJM2QfVpJMJcQkYauTk5cu-p3d9g_jIo,5
+nbqa-0.2.3.dist-info/RECORD,,

@@ -1,0 +1,4 @@
+mdtraj
+cython
+configargparser
+scipy

@@ -1,0 +1,25 @@
+.documentation-sidebar {
+    /* We hide the scroll bar as it blocks the close! */
+    overflow: hidden;
+    margin-left: 2.5px;
+}
+
+.documentation-sidebar-function-title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.documentation-sidebar-function-list {
+    margin-top: 0;
+    list-style: none;
+    padding-left: 0;
+}
+
+.documentation-sidebar-function-list-element {
+    font-size: 14px;
+}
+
+/* So the user knows functions are  clickable! */
+.documentation-sidebar-function-list-element:hover {
+    text-decoration: underline;
+}

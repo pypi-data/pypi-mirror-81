@@ -1,0 +1,10 @@
+metadata_filter/__init__.py,sha256=aJ5GqlIZ8dWNzLyb92C8TuG1FeQe-CIMBdmrwByP9-o,44
+metadata_filter/filters.py,sha256=A2QC22pPqi3STY2MSGrwJVXVFC824AIlreiHEpkP_AI,1252
+metadata_filter/rules.py,sha256=aJMciT2C38jpAF2Yj8vY4sWL4ggo1oCZqioLphqRVSI,8297
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_spotify.py,sha256=tHFtYvb4NdBw8pWkGAsFgnzHNXfSfa2v4q3vSpjitmY,3863
+metadata_filter-0.1.0.dist-info/LICENSE,sha256=q6xJxcRq9p9QIbTFRc3BEvxd5P-Wohp2yyAZurNOkXk,1295
+metadata_filter-0.1.0.dist-info/METADATA,sha256=VFdiikOZ1xYcPu_GOEtw7ys9khmr0ggE-YquL9pqEwY,1096
+metadata_filter-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+metadata_filter-0.1.0.dist-info/top_level.txt,sha256=pJZS8GZgCnFz4AAwpZxkZAJhX-BRFsVEkVe4jPOPpMI,22
+metadata_filter-0.1.0.dist-info/RECORD,,

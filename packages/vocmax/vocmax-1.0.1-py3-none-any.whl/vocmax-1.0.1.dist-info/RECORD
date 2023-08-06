@@ -1,0 +1,12 @@
+vocmax/ASHRAE2017_temperature_data.csv,sha256=ov6y-xup9hYX7b7SKVgXdpLSR2LcrbAAQPLU_tkYhhA,312401
+vocmax/__init__.py,sha256=X2xY7QKLGmvleVehz446P1uDeIXjLmJA7lixBPkVoss,88
+vocmax/bifacial.py,sha256=q4i46cOl3psyJKnqQEaVJxaNibpf554Rb6bXULetbRI,5998
+vocmax/main.py,sha256=hwGQOXlIBku_fpFRN1I3Wy_I6VEKt4YU8ixncV_G4FM,92991
+vocmax/mins01_nsrdb_ashrae_comparison.pkl,sha256=M6aqrQnaQGX9shrIhJsgsksTeQfA08OY6UbdbpZwLhs,455427
+vocmax/nsrdb.py,sha256=SHMSvetNLEAwkp2aonMsIDM_5zpvnJ7h3WX8hFCYF7M,14904
+vocmax/nsrdb_ashrae_comparison.pkl,sha256=MCVTtwy-Lq0rLAhmugZ80wLADwNg7PtyRwAVWgZ1zN8,195579
+vocmax-1.0.1.dist-info/LICENSE,sha256=lHC_jJJqJBf2sxQtBn9KRtlMzjlbFiNnQMzonZqxC7E,2444
+vocmax-1.0.1.dist-info/METADATA,sha256=_a9XZ5DlRs30l6mcyrXqnfuKZ1nT0pS5y4y2eN2fGF4,20408
+vocmax-1.0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+vocmax-1.0.1.dist-info/top_level.txt,sha256=UBnelQBqQrNK5siLf6-8SG-xfXs0weFHpvlpgyVGDmk,7
+vocmax-1.0.1.dist-info/RECORD,,

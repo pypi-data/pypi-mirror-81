@@ -1,0 +1,12 @@
+pizza_box/__init__.py,sha256=JOl41NviMN-qDV0Z8ZPmhNIxvgyauGGJHdB4A-8MhqM,93
+pizza_box/_version.py,sha256=T_QFssAHxxpa8QKbRihquEhpML24ycZfgXBoK_LEUps,497
+pizza_box/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pizza_box/tests/conftest.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pizza_box/tests/test_examples.py,sha256=Hm1x01HZ9BiYYw4dS44uo0o_ku16oFRwSMjIh8_Uu-s,99
+pizza_box-0.0.0.dist-info/AUTHORS.rst,sha256=wEr3_gLSBU_QuWYwoqyJqOQJhZ8jxsvnRtkikrnWaUk,166
+pizza_box-0.0.0.dist-info/LICENSE,sha256=QXCj41Zt60EKC8lpv8EhaZsLPlM3Aeu_oS2rf7onejM,1538
+pizza_box-0.0.0.dist-info/METADATA,sha256=Y1nfsgg675RFxCKe_mof-gD8ao3-fWrsrCVTraAA3VU,796
+pizza_box-0.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pizza_box-0.0.0.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+pizza_box-0.0.0.dist-info/top_level.txt,sha256=Z5IpXbT8YOG7Mk96HtV2LBLGl7i4mxuUwak9YXVkTTA,10
+pizza_box-0.0.0.dist-info/RECORD,,

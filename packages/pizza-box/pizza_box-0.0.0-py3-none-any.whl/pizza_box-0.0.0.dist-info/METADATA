@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pizza-box
+Version: 0.0.0
+Summary: Ophyd classes for pizza-box hardware
+Home-page: https://github.com/NSLS-II/pizza-box
+Author: Brookhaven National Laboratory
+Author-email: 
+License: BSD-3-Clause
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Ophyd classes for pizza-box hardware
+
+[![Build Status](https://travis-ci.com/NSLS-II/pizza-box.svg?branch=main)](https://travis-ci.com/NSLS-II/pizza-box)
+[![PyPI package](https://img.shields.io/pypi/v/pizza-box.svg)](https://pypi.python.org/pypi/pizza-box)
+
+
+* Free software: 3-clause BSD license
+* Documentation: https://NSLS-II.github.io/pizza-box.
+
+

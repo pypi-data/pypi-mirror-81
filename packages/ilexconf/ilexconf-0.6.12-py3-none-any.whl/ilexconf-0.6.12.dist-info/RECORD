@@ -1,0 +1,12 @@
+ilexconf/__init__.py,sha256=o8b5XH7HCiU-ad2LdIUozRlapwsVmIPW_ae-ZrjLk8o,104
+ilexconf/adapters.py,sha256=MsJ0NwlzkfnZD1iCZ-XhHW4_16T0viKzGf5hCoKWDZk,2016
+ilexconf/config.py,sha256=4B3AIX62s1s7CK75VnojOY3Le2X9_yTuCweVQppVGAo,4614
+ilexconf/helpers.py,sha256=qvXvvw97L7IuDupQbB1TNCxO6dWKTW8yKMO1S33nhQU,425
+ilexconf/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ilexconf/tests/debug.py,sha256=Rp95iVYZhU8t_f8VnFWiznwwjHnQW31pdcyWZnYWe5Y,268
+ilexconf/tests/files/settings.json,sha256=nSPAV2WTtEs_a7NZSZy8zrWczUnmBEZ8sKkeZvUsFwI,119
+ilexconf/tests/test_constructor.py,sha256=_4TPvG0pR67rYxDUO-mIJ-fDy2R9MohhkUvvYRO9rhE,1668
+ilexconf/tests/test_quick_start.py,sha256=FHJFK9szq8UUftGqNbYxCqH-tWb6X14_ugm6fgk2HEs,4114
+ilexconf-0.6.12.dist-info/WHEEL,sha256=1Wv1-j00YAJKW7-71pMbcybYgVOmSGd4AVtGoeL4spQ,86
+ilexconf-0.6.12.dist-info/METADATA,sha256=0LdNt6HJmw3OGdcN01d_f50Q2wH_JEqFMVEhkR2ZFDk,11292
+ilexconf-0.6.12.dist-info/RECORD,,

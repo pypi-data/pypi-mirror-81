@@ -1,0 +1,13 @@
+README.md
+setup.py
+benparse/__init__.py
+benparse/dump.py
+benparse/load.py
+benparse/py.typed
+benparse/typing.py
+benparse.egg-info/PKG-INFO
+benparse.egg-info/SOURCES.txt
+benparse.egg-info/dependency_links.txt
+benparse.egg-info/not-zip-safe
+benparse.egg-info/requires.txt
+benparse.egg-info/top_level.txt

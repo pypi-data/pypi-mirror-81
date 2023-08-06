@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: Optimizers
+Version: v1.0
+Summary: A collection of examples for learning mathematical modelling
+Home-page: https://github.com/davidswlai/
+Author: David S.W. Lai
+Author-email: davidswlai@outlook.com
+License: GNU General Public License v3.0
+Download-URL: https://github.com/davidswlai/Optimizers/archive/v1.0.tar.gz
+Description: UNKNOWN
+Keywords: Optimizers,Logistics,Routing,Scheduling
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8

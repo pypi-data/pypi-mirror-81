@@ -1,0 +1,11 @@
+README.md
+setup.py
+mistex/__init__.py
+mistex/__main__.py
+mistex/footnotes.py
+mistex/latex_renderer.py
+mistex.egg-info/PKG-INFO
+mistex.egg-info/SOURCES.txt
+mistex.egg-info/dependency_links.txt
+mistex.egg-info/requires.txt
+mistex.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+[console_scripts]
+gfhs = auto_git_flow.gfhs:main
+gfrs = auto_git_flow.gfrs:main
+

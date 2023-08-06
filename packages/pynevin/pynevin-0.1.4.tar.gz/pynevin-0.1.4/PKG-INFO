@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pynevin
+Version: 0.1.4
+Summary: Describe your package in one sentence
+Home-page: https://github.com/iDuckDark/PyNevin
+Author: Nevin
+Author-email: pynevin@idarkduck.com
+License: Apache License 2.0
+Description: # PyNevin
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

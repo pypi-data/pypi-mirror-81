@@ -1,0 +1,149 @@
+﻿Story,Sprint,Assigned,Priority,Points,Actual time,State
+mitosheet.sheet call with no params,MyBinder,,Medium,1 (4 hours),,complete
+mitosheet.sheet with a single data frame,MyBinder,Aaron Diamond-Reivich,High,3 (16 hours),12 hours,complete
+import csv to empty dataframe,,,Medium,1 (4 hours),,Sprint
+Creating new Column,MyBinder,Nate Rush,Medium,2 (8 hours),,complete
+Editing a column,MyBinder,Nate Rush,High,3 (16 hours),12 hours (to implement),complete
+Formula bar,MyBinder,Aaron Diamond-Reivich,Low,1 (4 hours),,complete
+Logging infrastructure,MyBinder,Nate Rush,High,2 (8 hours),4 hours,complete
+Logging dashboard,MyBinder,Jake DR,Low,2 (8 hours),,complete
+Manual testing,MyBinder,,High,2 (8 hours),".5 hrs to set up infrastructure
+? to write tests",complete
+Determine Automatic testing Infrastructure,MyBinder,Nate Rush,Medium,2 (8 hours),2 hours,complete
+MyBinder deployment,MyBinder,Nate Rush,Low,2 (8 hours),,complete
+Investigate Automatic Widget Testing,Sprint 2 Formulas,Aaron Diamond-Reivich,High,2 (8 hours),10 hours,complete
+Add Widget Interaction Tests,Sprint 2 Formulas,,Low,3 (16 hours),,Sprint
+Fuzz Test the Backend,,,Low,3 (16 hours),,backlog
+Investigate Formula Parser Implementations,Sprint 2 Formulas,Nate Rush,High,3 (16 hours),8 Hours,complete
+Implement the Formula Parser,Sprint 2 Formulas,Nate Rush,High,3 (16 hours),8 hours,complete
+Implement formulas,Sprint 2 Formulas,"Nate Rush, Aaron Diamond-Reivich",Medium,3 (16 hours),,complete
+Implement operators,Sprint 2 Formulas,Nate Rush,Medium,2 (8 hours),2 hours,complete
+Implement Export to CSV,,,Low,1 (4 hours),,Sprint
+Implement Automatic Testing for Version Compatability,,,,,,
+Reevaluate deployment mechanisms,Sprint 2 Formulas,Nate Rush,High,3 (16 hours),4 hours,complete
+Implement deployment mechanism,Sprint 2 Formulas,"Aaron Diamond-Reivich, Nate Rush",High,?,,complete
+Implement Mixpanel Dashboards,Sprint 2 Formulas,Jake DR,Low,2 (8 hours),,complete
+,,,,,,
+Jake's Logging Additions,Sprint 2 Formulas,"Jake DR, Nate Rush",,1 (4 hours),,complete
+"Update UI ",Sprint 2 Formulas,Aaron Diamond-Reivich,High,1 (4 hours),1 hour,complete
+Make basic formula parsing more robust,Sprint 2 Formulas,Nate Rush,High,1 (4 hours),.5 hours,complete
+"Create marketing goals ",Sprint 3 Wild,Jake DR,High,1 (4 hours),1 hour (we did as a group),complete
+Users should have accounts on JupyterHub,Sprint 3 Wild,"Nate Rush, Aaron Diamond-Reivich",Low,1 (4 hours),0-1? This was part of other stories.,complete
+JupyterHub instance should be hosted at a subdomain of tryMito,Sprint 3 Wild,"Nate Rush, Aaron Diamond-Reivich",Medium,2 (8 hours),1 hr (not including logs),complete
+Create Marketing Plan,Sprint 3 Wild,Jake DR,Medium,2 (8 hours),10 hours,complete
+"Spreadsheet formulas should persist throughout the same analysis. ",Sprint 3 Wild,Nate Rush,Low,3 (16 hours),6 hours,complete
+"Send visual update to the waiting list ",Sprint 3 Wild,,Low,2 (8 hours),,Sprint
+"Add error messages for all errors we currently support. ",Sprint 3 Wild,,Medium,1 (4 hours),3 hours,complete
+"Test run referal link ",Sprint 3 Wild,,Medium,1 (4 hours),3 hours,complete
+Export CSV,Sprint 3 Wild,Nate Rush,Low,.5 (2 hours),15 minutes,complete
+Import CSV,,,Low,3 (16 hours),,Sprint
+Make flow report in Mixpanel,Sprint 2 Formulas,Jake DR,,,,complete
+Formula composition tests,Sprint 3 Wild,Nate Rush,Low,3 (16 hours),3 hours,complete
+Update sheet data through grid-api in the proper way,,,,,,backlog
+Create a Github Action for linting mito,Sprint 2 Formulas,,,,,Sprint
+Support named dataframes other than df,Sprint 3 Wild,Nate Rush,Low,1 (4 hours),10 minutes,complete
+Support for non-alphabetic column names,Sprint 3 Wild,Nate Rush,Low,1 (4 hours),2.5 hours,complete
+mitosheet.sheet call with no params,,,Medium,2 (8 hours),,Sprint
+"Error message popup looks nicer + tells you more. ",Sprint 3 Wild,Nate Rush,High,2 (8 hours),~2 hours,complete
+Do a data analysis on the Mito Survey results,Sprint 3 Wild,,Low,2 (8 hours),,in progress
+Analysis redesign ideation,,,Low,2 (8 hours),,Sprint
+Written documentation for all the formulas.,Sprint 3 Wild,Nate Rush,Medium,3 (16 hours),2 hours,complete
+Update Mito Survey,Sprint 3 Wild,Jake DR,Medium,1 (4 hours),1.5 hours,complete
+Turn analysis into function,Sprint 3 Wild,Nate Rush,High,2 (8 hours),30 minutes,complete
+Create launch strategy,Sprint 3 Wild,"Nate Rush, Aaron Diamond-Reivich, Jake DR",High,2 (8 hours),12,complete
+Formula syntax placeholder Ideation,,,High,2 (8 hours),,Sprint
+Create new user testing plan,Sprint 3 Wild,Jake DR,High,3 (16 hours),4,complete
+Investigate backups,,,Low,2 (8 hours),,Sprint
+Formula syntax placeholder Implementation,,,Low,1 (4 hours),,Sprint
+Implement backups,,,Low,2 (8 hours),,Sprint
+Use logs to figure out what functions we should include,Sprint 3 Wild,,Medium,1 (4 hours),,Sprint
+Cell selection via clicking technical exploration,Sprint 3 Wild,Aaron Diamond-Reivich,High,2 (8 hours),2.5 hours,complete
+Cell selection via clicking implementation,Sprint 3 Wild,Aaron Diamond-Reivich,Low,1 (4 hours),16 hours,complete
+"Write the first Mito technical blog post ",Sprint 3 Wild,Nate Rush,Low,1 (4 hours),4.5 hours,in progress
+Create admin-manual for TheLittlestJupyterHub,Sprint 3 Wild,Nate Rush,High,3 (16 hours),8 hours,complete
+"Fix formula parser to handle edge cases ",Sprint 3 Wild,Nate Rush,Low,1 (4 hours),.5 hours,complete
+Update Formula Bar CSS,Sprint 3 Wild,Aaron Diamond-Reivich,High,.5 (2 hours),1 hour,complete
+CSS + placement of toolbar,Sprint 3 Wild,Aaron Diamond-Reivich,High,.5 (2 hours),4 hours (webpack issues + start & stop due to storage being full),complete
+Add Mito Logo to sheet,Sprint 3 Wild,,Low,.5 (2 hours),,Sprint
+AWS Class,Sprint 3 Wild,,Medium,2 (8 hours),,in progress
+Manual test suite of Mito in a variety of situations (in workbooks).,Sprint 3 Wild,Nate Rush,Low,2 (8 hours),1.5 hours,in progress
+In-app help + documentation.,Sprint 3 Wild,Nate Rush,Medium,2 (8 hours),4 hours,complete
+Investigate and multiple-use bug,Sprint 3 Wild,,High,3 (16 hours),2 hours,complete
+Add ability to pass file name to sheet function,,,Low,2 (8 hours),,backlog
+Add logging on buttons,,,Low,.5 (2 hours),,backlog
+Send server logs to segment,,,Low,2 (8 hours),,backlog
+Popup documentation when writing formulas,,,Low,2 (8 hours),,backlog
+Auto-suggest formulas/columns when typing,,,Low,2 (8 hours),,backlog
+Standarize error conditions on sheet functions,,,Low,3 (16 hours),,backlog
+"Create checklist of what we need to do before live link ",,,Low,,,backlog
+Ideation on column identifier,,,Low,1 (4 hours),,backlog
+Investigate CSS issue with webpack,,,High,2 (8 hours),,backlog
+Fuzzy matching ideation,,,Low,2 (8 hours),,backlog
+Display current address next to formula bar,,,Low,.5 (2 hours),,backlog
+Redesign toolbar buttons,Go 4 Launch,Aaron Diamond-Reivich,Low,1 (4 hours),2 hours,complete
+Add basic examples to documentation,Go 4 Launch,,Low,2 (8 hours),,Sprint
+Make formula bar longer,Go 4 Launch,,Low,.5 (2 hours),,Sprint
+Error cleanup + UX improvements,Go 4 Launch,Aaron Diamond-Reivich,Low,1 (4 hours),.25 hours,in progress
+Documentation UX cleanup,Go 4 Launch,,Low,1 (4 hours),,Sprint
+Standardize function names,Go 4 Launch,,Low,.5 (2 hours),,Sprint
+Support colon syntax,Go 4 Launch,,Low,1 (4 hours),,Sprint
+Make cell editor display current formula when you start re-editing,,,Low,1 (4 hours),,backlog
+Ideation on detecting unmatched parens,,,High,1 (4 hours),,backlog
+"Implement unmatched parens ",,,Low,2 (8 hours),,backlog
+Design sprint on the cell editor,Go 4 Launch,Nate Rush,High,2 (8 hours),2 hours (first time),in progress
+Implement newly designed cell editor,Go 4 Launch,,Low,3 (16 hours),,Sprint
+Add round functions,,,Low,1 (4 hours),,backlog
+Design sprint on date usage,,,High,2 (8 hours),,backlog
+Implement date usage specification,,,Low,2 (8 hours),,backlog
+Add more functions,,,Low,2 (8 hours),,backlog
+Allow mulitple sheets to be passed to mitosheet.sheet call,,,High,2 (8 hours),,backlog
+Ideation on matching across mulitple sheets,,,High,2 (8 hours),,backlog
+Implement cross-sheet matching in specification,,,Low,3 (16 hours),,backlog
+Implement find and replace,,,Low,3 (16 hours),,backlog
+Implement filter,,,Low,3 (16 hours),,backlog
+Ideation on handling programming models introduced by filter,,,High,3 (16 hours),,backlog
+Make Data Aggregation and Analyses google sheet,,,Medium,2 (8 hours),,backlog
+Build mixpanel to pipeline google sheet integration,,,Low,1 (4 hours),,backlog
+schedule onboarding calls,,,High,2 (8 hours),,backlog
+Set-up 5 welcome calls for the week,,,High,2 (8 hours),,backlog
+provide visual update to waiting list,,,High,2 (8 hours),,backlog
+Pre-write 7 tweets for the week,,,High,1 (4 hours),,backlog
+Post in 2 forums each day,,,High,2 (8 hours),,backlog
+Make linkedIN posts and DM people,,,Low,1 (4 hours),,backlog
+Make sure logs are getting our desired info,,,High,2 (8 hours),,backlog
+Create the notebooks and materials for onboarding plans,Go 4 Launch,,,,,Sprint
+Finalize Drip Sequence Plan,Go 4 Launch,,High,,,Sprint
+Schedule onboarding calls,Go 4 Launch,,,,,Sprint
+Develop hypothesis that we have about user's behavior and see if we can answer them given existing data infrastructure,Go 4 Launch,,Medium,2 (8 hours),,Sprint
+Create plan for group testing sessions,Go 4 Launch,Nate Rush,High,.5 (2 hours),30 minutes,complete
+Conduct group testing sessions,Go 4 Launch,,Low,1 (4 hours),,Sprint
+Create plan for battle day,Go 4 Launch,Nate Rush,High,.5 (2 hours),1.5 hour,complete
+Conduct battle day,Go 4 Launch,,Low,2 (8 hours),,Sprint
+"Deploy servers ",Go 4 Launch,,High,1 (4 hours),,Sprint
+Server backups,Go 4 Launch,Nate Rush,High,2 (8 hours),30 minutes (so far),in progress
+Create user metrics and marketing metrics google sheet,Go 4 Launch,,High,1 (4 hours),,Sprint
+"Create user data policy ",Go 4 Launch,,Low,1 (4 hours),,Sprint
+Make a mito customer service email account,Go 4 Launch,,Medium,.5 (2 hours),,Sprint
+Welcome Calls,Go 4 Launch,,High,,,Sprint
+Life cycle ideation,Go 4 Launch,Nate Rush,High,2 (8 hours),,in progress
+Implement new lifecycle,Go 4 Launch,,Low,3 (16 hours),,Sprint
+Forum Posts,Go 4 Launch,,High,1 (4 hours),,Sprint
+Linkedin Posts/Messaging,Go 4 Launch,,High,,,Sprint
+Make mockup of current app,Go 4 Launch,Nate Rush,High,1 (4 hours),.5 hours,complete
+Make mito sheet match UI current mockup,Go 4 Launch,,Low,1 (4 hours),,Sprint
+Weekly Waiting List update,Go 4 Launch,,High,,,Sprint
+Standardize Function Names,Go 4 Launch,,Low,.5 (2 hours),,Sprint
+Finalize initial list of people to onboard,Go 4 Launch,,High,.5 (2 hours),,Sprint
+Define release process for app,Go 4 Launch,Nate Rush,High,1 (4 hours),1 hour,complete
+Update user testing plan for welcome calls,Go 4 Launch,,High,1 (4 hours),,Sprint
+Setup Marketing email infrastructure,Go 4 Launch,Nate Rush,High,2 (8 hours),,in progress
+Implement the software scheduler,Go 4 Launch,,Medium,1 (4 hours),,Sprint
+Figure out user data policy,,,,,,Sprint
+Add linting to GitHub,"Go 4 Launch, Sprint 3 Wild",Aaron Diamond-Reivich,,.5 (2 hours),2.5 hours,complete
+Update Error Screen to detect A1 formatting and provide correct Syntax,Sprint 3 Wild,Nate Rush,High,1 (4 hours),30 minutes,complete
+Repeat analysis button,Sprint 3 Wild,Nate Rush,High,1 (4 hours),2 hours,complete
+,,,,,,
+Type handling in sheet functions ideation,Go 4 Launch,,High,2 (8 hours),,Sprint
+Column header cap. bug,Go 4 Launch,Nate Rush,Low,.5 (2 hours),20 minutes,in progress
+Investor updates?,Go 4 Launch,,,,,backlog
+Fix bug in export with column indexes being included,Go 4 Launch,,,,,backlog

@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: django-dramatiq-email
+Version: 1.0.0
+Summary: A Django email backend using Dramatiq to send emails using background workers
+Home-page: https://github.com/sendcloud/django-dramatiq-email
+License: MIT
+Author: Tim Drijvers
+Author-email: tim@sendcloud.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: django (<3.0)
+Requires-Dist: django_dramatiq (>=0.9.1,<0.10.0)
+Requires-Dist: dramatiq (>=1.8.1,<2.0.0)
+Requires-Dist: pika (>=1.1.0,<2.0.0)
+Project-URL: Repository, https://github.com/sendcloud/django-dramatiq-email

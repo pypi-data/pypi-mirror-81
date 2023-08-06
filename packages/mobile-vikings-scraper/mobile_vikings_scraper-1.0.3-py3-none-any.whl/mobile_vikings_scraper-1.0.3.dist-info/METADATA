@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: mobile-vikings-scraper
+Version: 1.0.3
+Summary: Scraper for Mobile Vikings in Poland
+Home-page: https://github.com/TheLastGimbus/mobile-vikings-scraper
+Author: TheLastGimbus
+Author-email: mateusz.soszynski@tuta.io
+License: Apache
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: Topic :: Internet :: WWW/HTTP
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+
+# Mobile Vikings scraper
+
+### This library is a web-scraper to get data about your account on Mobile Vikings (in Poland)
+
+Usage is super simple:
+
+```python
+import mobilevikings_scraper
+
+# Get a dict with all the data
+stuff = mobilevikings_scraper.scrape('your_login_email', 'password')
+
+# You can play around with what you will find in this dict:
+gb = float(stuff['services'][0]['pointer_description'][:-2])
+print(f'You have {gb} GB of internet left')
+
+if gb > 100:
+    print('Niiiiice')
+elif gb < 1:
+    print('WHAAAT!!!')
+```
+
+
+
+

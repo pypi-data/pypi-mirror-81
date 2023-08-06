@@ -1,0 +1,11 @@
+text2digits/__init__.py,sha256=W7JYl94U9MQI1WUxKu64TF0uxj-N-Lioizq35hlUsLI,43
+text2digits/rules.py,sha256=QTE8bLD2K1VS2Ar_x7SHxyOoOh-9E2GUDU4qhN872Tc,7207
+text2digits/text2digits.py,sha256=zMR8A7orvrzddBBNi0HcCXDYH4WcCYkQjzXnMPQ1vao,6179
+text2digits/text_processing_helpers.py,sha256=UbdguGIwBDlYDsNvC_0MWnD407AW3ISuJoWIujThmkM,2430
+text2digits/tokens_basic.py,sha256=FXSQmAjpmXykcqHNCTAHJXvgwwNlsInR-xjHFJAFi_Q,5738
+text2digits/tokens_rules.py,sha256=fWOUJXWbuxQ5P8O5vE0qEX5coSY-w4iIG3UxAI90VxA,2482
+text2digits_custom-0.0.9.dist-info/LICENSE,sha256=vd_Jy2uFuEYfl67fANdnanM83AHZP50bq4EjHc5PCho,1069
+text2digits_custom-0.0.9.dist-info/METADATA,sha256=laKcO9i9uGczHPYAmFzHJiyu5nw4Sddj5ao1IkZNoVY,2556
+text2digits_custom-0.0.9.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+text2digits_custom-0.0.9.dist-info/top_level.txt,sha256=nbOz1TyWvlHkQLZXgVbzsp8fBlSl2oxTcsnAXmU2kLo,12
+text2digits_custom-0.0.9.dist-info/RECORD,,

@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: UniMator
+Version: 0.0.1
+Summary: use import unimate to import
+Home-page: UNKNOWN
+Author: WebSoft-tech
+Author-email: 
+License: UNKNOWN
+Description: This is a unicode animator still in development, please read instructons.
+        
+        instructions
+        ==============
+        refresh() refreshes the screen
+        
+        create.obj.humanoid.child.child1(time till next frame) this will give an already made humanoid 
+        
+        create.animation.rain1(amount of time you want it to stay) gives a made animation
+        
+        list of the animations:
+        	-rain1
+        	-rain2
+        	-wind1
+        	-road1
+        	
+        create.make.humanoid.child_pack.childP1(head, body, legs, time till next frame)
+        
+        create.obj.custLayer(layer)
+        
+        packages needed
+        ==================
+        pip install os
+        
+        pip install time
+        
+        
+        release updates
+        ================
+        none right now
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Requires-Python: >=3.6
+Description-Content-Type: text/plain

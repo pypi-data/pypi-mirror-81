@@ -1,0 +1,8 @@
+LICENSE.txt
+MANIFEST.in
+setup.py
+r0ping/__init__.py
+r0ping.egg-info/PKG-INFO
+r0ping.egg-info/SOURCES.txt
+r0ping.egg-info/dependency_links.txt
+r0ping.egg-info/top_level.txt

@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: djangobible
+Version: 0.0.1
+Summary: django-bible lets you easily associate Django models with Bible Scripture references and search accordingly.
+Home-page: https://github.com/avendesora/django-bible
+License: UNKNOWN
+Author: Nathan Patton
+Author-email: npatton@gmail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: Django>=3.1.1
+Requires-Dist: pythonbible>=0.0.2
+Requires-Dist: pytest>=6.0.2 ; extra == "test"
+Requires-Dist: pytest-cov>=2.10.1 ; extra == "test"
+Provides-Extra: test
+
+# django-bible
+
+## Installation
+
+```shell script
+pip install djangobible
+```
+
+## Features
+
+coming soon...

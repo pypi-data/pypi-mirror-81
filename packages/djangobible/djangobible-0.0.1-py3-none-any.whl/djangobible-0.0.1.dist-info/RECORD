@@ -1,0 +1,7 @@
+djangobible/__init__.py,sha256=9_ah26FYTE6Ymkt379AIyZdhYaKRBwdypsXNlSLF4yM,214
+djangobible/models.py,sha256=Uem6EaDN_QLoeveopwfGJlhfn19kjlL4V0U1IK8srk4,636
+djangobible/data/verse_ids.txt,sha256=1C_EoyBebs_GpQaJ_bHUFutjapnRDHBhHHI9JWEyuvk,302995
+djangobible-0.0.1.dist-info/LICENSE,sha256=-wYMucoVWThISsSvFSvSV2tvgMozWtBuLy-gG1ztGIw,1091
+djangobible-0.0.1.dist-info/WHEEL,sha256=CqyTrkghQBNsEzLD3HbCSEIJ_fY58-XpoU29dUzwHSk,81
+djangobible-0.0.1.dist-info/METADATA,sha256=NjM2UG-2H69u9GzL5EMwoS9za9fDbArTTdDQ6YgaxC0,702
+djangobible-0.0.1.dist-info/RECORD,,

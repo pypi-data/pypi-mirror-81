@@ -1,0 +1,7 @@
+prompt_toolkit<4.0,>=2.0
+
+[test]
+pytest
+pytest-pycodestyle
+pytest-cov
+coveralls

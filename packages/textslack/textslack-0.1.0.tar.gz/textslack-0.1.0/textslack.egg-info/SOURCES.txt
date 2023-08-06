@@ -1,0 +1,9 @@
+README.md
+setup.py
+textslack/__init__.py
+textslack/textslack.py
+textslack.egg-info/PKG-INFO
+textslack.egg-info/SOURCES.txt
+textslack.egg-info/dependency_links.txt
+textslack.egg-info/requires.txt
+textslack.egg-info/top_level.txt

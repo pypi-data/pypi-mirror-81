@@ -1,0 +1,17 @@
+HISTORY.md
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+setup.py
+b_cf_outputs/__init__.py
+b_cf_outputs/cf_outputs.py
+b_cf_outputs/cf_stacks.py
+b_cf_outputs.egg-info/PKG-INFO
+b_cf_outputs.egg-info/SOURCES.txt
+b_cf_outputs.egg-info/dependency_links.txt
+b_cf_outputs.egg-info/requires.txt
+b_cf_outputs.egg-info/top_level.txt
+b_cf_outputs_test/mocks/__init__.py
+b_cf_outputs_test/mocks/boto_session_mock.py
+b_cf_outputs_test/mocks/cloud_formation_mock.py

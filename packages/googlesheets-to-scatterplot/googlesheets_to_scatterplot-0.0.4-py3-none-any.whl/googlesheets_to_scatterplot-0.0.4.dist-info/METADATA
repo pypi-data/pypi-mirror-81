@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: googlesheets-to-scatterplot
+Version: 0.0.4
+Summary: We can create plots directly from Google Sheets
+Home-page: https://github.com/vatanpatel/googlesheets_to_scatterplot
+Author: Vatan Patel
+Author-email: i12vatanp@iimidr.ac.in
+License: MIT
+Keywords: googlesheets
+Platform: UNKNOWN
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: markdown
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: gspread
+Requires-Dist: oauth2client
+
+UNKNOWN
+
+

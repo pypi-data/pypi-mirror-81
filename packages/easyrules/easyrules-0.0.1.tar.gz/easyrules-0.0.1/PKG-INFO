@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: easyrules
+Version: 0.0.1
+Summary: A simple rules engine
+Home-page: https://github.com/wffzxyl/easyrules
+Author: wffzxyl
+Author-email: wffzxyl@gmail.com
+License: MIT
+Description: A simplest rules engine
+Keywords: python rules engine
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

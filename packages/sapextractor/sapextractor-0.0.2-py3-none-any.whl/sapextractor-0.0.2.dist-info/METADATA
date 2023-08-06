@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sapextractor
+Version: 0.0.2
+Summary: SAP Extractor
+Home-page: http://www.pm4py.org
+Author: PADS
+Author-email: alessandro.berti89@gmail.com
+License: GPL 3.0
+Platform: UNKNOWN
+Requires-Dist: pm4py
+Requires-Dist: pm4pymdl
+Requires-Dist: stringdist
+Requires-Dist: cx-Oracle
+
+# sap-extractor
+
+

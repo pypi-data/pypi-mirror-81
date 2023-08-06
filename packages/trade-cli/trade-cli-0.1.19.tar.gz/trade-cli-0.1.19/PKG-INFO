@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: trade-cli
+Version: 0.1.19
+Summary: 
+Author: Matyi
+Author-email: mmatyi@caesar.elte.hu
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: click (>=7.1,<8.0)
+Requires-Dist: pick (>=0.6.7,<0.7.0)
+Requires-Dist: requests (>=2.23,<3.0)
+Requires-Dist: tabulate (>=0.8.7,<0.9.0)
+Requires-Dist: tqdm (>=4.46,<5.0)
+Requires-Dist: windows-curses (>=2.1,<3.0)

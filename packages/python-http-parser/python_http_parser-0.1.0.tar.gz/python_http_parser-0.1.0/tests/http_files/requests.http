@@ -1,0 +1,23 @@
+====<Nr. 1>====
+GET /index.html HTTP/1.1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+accept-encoding: gzip, deflate, br
+accept-language: en-US,en;q=0.9
+cache-control: no-cache
+pragma: no-cache
+sec-fetch-dest: document
+sec-fetch-mode: navigate
+sec-fetch-site: none
+sec-fetch-user: ?1
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+
+====<Nr. 2>====
+GET /index.html HTTP/1.1
+aCCEPT: text/html,application/xml;q=0.9,application/signed-exchange;v=b3;q=0.9
+aCcEpT-eNcOdInG: gzip, deflate, br
+ACCEPT-language: en-US,en;q=0.9
+Cache-Control: no-cache
+PrAgMa: no-cache
+upgrade-insecure-requests: 0
+USER-AGENT: CURL/1.30

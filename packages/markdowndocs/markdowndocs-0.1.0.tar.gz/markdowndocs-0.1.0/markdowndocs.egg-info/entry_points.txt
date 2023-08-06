@@ -1,0 +1,3 @@
+[console_scripts]
+markdowndocs = markdowndocs.cli:main
+

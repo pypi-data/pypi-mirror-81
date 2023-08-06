@@ -1,0 +1,13 @@
+statefun_tasks/__init__.py,sha256=AG2eZho7wha6tCuUmXvisYbZX2CA-Zo1V_9HSomM8J8,222
+statefun_tasks/_context.py,sha256=Dr_-Y7xB8xhqS5Pj8Jd8sreGHGc8OJ7PwAD5rn_4Yi0,2620
+statefun_tasks/_flink_tasks.py,sha256=FggqSMHq7wgIJjnV4y_AKX7OTOUSDxUN7jSQIJecBsA,11790
+statefun_tasks/_pipeline.py,sha256=61R9cvRqGGHu3s5PTvtb96oVzxfYhOLZfKhC5eEjz2g,9880
+statefun_tasks/_serialisation.py,sha256=X-8dO6Z6RBkgvhZTwOqeqKa0XxXYIuuIBiQVcapOjXY,2695
+statefun_tasks/_types.py,sha256=OG6ZZWdW7DvaNQmwJ5x7o4rpIHxaHscRuSyC66UosLQ,1860
+statefun_tasks/_utils.py,sha256=Nf4y7uN3mCdQVqtue2tXd1WcOHbLPAQuTd8hoNaEvG4,634
+statefun_tasks/messages_pb2.py,sha256=XYUhmptr5ctY9mPw_Qpitd5QF6g5gv4UofVNxjWo4tg,12790
+statefun_tasks-0.3.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+statefun_tasks-0.3.0.dist-info/METADATA,sha256=8iIBMJyfS7PTiN9bN3140viY4TPzwr1tkVp3nF7ZBIo,5742
+statefun_tasks-0.3.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+statefun_tasks-0.3.0.dist-info/top_level.txt,sha256=5w738mGUiBPzsJ_Y2SmKQMLx58UmfJS4uUFPq0qZ7uU,15
+statefun_tasks-0.3.0.dist-info/RECORD,,

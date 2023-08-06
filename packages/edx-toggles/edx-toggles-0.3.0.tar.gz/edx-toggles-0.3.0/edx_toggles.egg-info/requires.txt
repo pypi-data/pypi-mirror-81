@@ -1,0 +1,3 @@
+code-annotations
+Django>=2.2
+django-waffle==0.12.0

@@ -1,0 +1,14 @@
+aiohttp
+asyncio
+beautifulsoup4
+pydantic
+typer
+
+[dev]
+black
+coverage
+flake8
+ipdb
+pipenv
+pre-commit
+pytest

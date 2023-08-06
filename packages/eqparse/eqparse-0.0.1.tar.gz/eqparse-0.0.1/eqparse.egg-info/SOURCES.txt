@@ -1,0 +1,42 @@
+README.md
+setup.py
+eqparse/__init__.py
+eqparse/loadsim.py
+eqparse/plot.py
+eqparse.egg-info/PKG-INFO
+eqparse.egg-info/SOURCES.txt
+eqparse.egg-info/dependency_links.txt
+eqparse.egg-info/top_level.txt
+eqparse/hsr/__init__.py
+eqparse/hsr/hsr.py
+eqparse/hsr/plot.py
+eqparse/hsr/unit_dict.py
+eqparse/inp/__init__.py
+eqparse/inp/inp.py
+eqparse/sim/__init__.py
+eqparse/sim/batch.py
+eqparse/sim/plot.py
+eqparse/sim/sim.py
+eqparse/spaceloads/__init__.py
+eqparse/spaceloads/spaceloads.py
+eqparse/useful scripts/__init__.py
+eqparse/useful scripts/airside_reorder.py
+eqparse/useful scripts/cond_uncond_zone_areas.py
+eqparse/useful scripts/copy_floor.py
+eqparse/useful scripts/daysched_export.py
+eqparse/useful scripts/objects.py
+eqparse/useful scripts/plenums_to_end_of_sys.py
+eqparse/useful scripts/plnmht.py
+eqparse/useful scripts/polygon_areas.py
+eqparse/useful scripts/reportblocks.py
+eqparse/useful scripts/schedules.py
+eqparse/useful scripts/space_zone_renamer.py
+eqparse/useful scripts/sync_sys_zn_assign.py
+eqparse/useful scripts/walls by facade.py
+eqparse/useful scripts/win_array.py
+eqparse/useful scripts/window_sync.py
+eqparse/useful scripts/windowmultiplier.py
+eqparse/useful scripts/xl_inp_sync.py
+eqparse/useful scripts/zone_cond_unc.py
+eqparse/useful scripts/zone_descriptions.py
+eqparse/useful scripts/zone_reassign.py

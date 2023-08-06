@@ -1,0 +1,3 @@
+[console_scripts]
+onedrive = onedriveignore.one_drive_ignore:main
+

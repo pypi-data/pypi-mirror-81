@@ -1,0 +1,9 @@
+README.md
+setup.py
+onedrive_ignore.egg-info/PKG-INFO
+onedrive_ignore.egg-info/SOURCES.txt
+onedrive_ignore.egg-info/dependency_links.txt
+onedrive_ignore.egg-info/entry_points.txt
+onedrive_ignore.egg-info/top_level.txt
+onedriveignore/__init__.py
+onedriveignore/one_drive_ignore.py

@@ -1,0 +1,9 @@
+dill
+flake8
+gitpython
+pandas
+pyyaml
+xlrd
+
+[pdf]
+pymupdf

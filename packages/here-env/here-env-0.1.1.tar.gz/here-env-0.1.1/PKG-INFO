@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: here-env
+Version: 0.1.1
+Summary: Small helper to create and active virtuel environments.
+License: MIT
+Author: Simon Westphahl
+Author-email: simon@westphahl.net
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=7.1.2,<8.0.0)

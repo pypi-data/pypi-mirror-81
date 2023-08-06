@@ -1,0 +1,7 @@
+README.md
+setup.py
+example-pkg-gu511-zl324/__init__.py
+example_pkg_gu511_zl324.egg-info/PKG-INFO
+example_pkg_gu511_zl324.egg-info/SOURCES.txt
+example_pkg_gu511_zl324.egg-info/dependency_links.txt
+example_pkg_gu511_zl324.egg-info/top_level.txt

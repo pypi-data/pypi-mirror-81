@@ -1,0 +1,8 @@
+README.md
+setup.py
+kakaomail/__init__.py
+kakaomail.egg-info/PKG-INFO
+kakaomail.egg-info/SOURCES.txt
+kakaomail.egg-info/dependency_links.txt
+kakaomail.egg-info/requires.txt
+kakaomail.egg-info/top_level.txt

@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+./bcra/estadisticas.py
+pybcra.egg-info/PKG-INFO
+pybcra.egg-info/SOURCES.txt
+pybcra.egg-info/dependency_links.txt
+pybcra.egg-info/requires.txt
+pybcra.egg-info/top_level.txt

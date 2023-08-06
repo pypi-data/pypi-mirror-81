@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+chemosanitizer/__init__.py
+chemosanitizer/chemosanitizer.py
+chemosanitizer/fragment.py
+chemosanitizer.egg-info/PKG-INFO
+chemosanitizer.egg-info/SOURCES.txt
+chemosanitizer.egg-info/dependency_links.txt
+chemosanitizer.egg-info/requires.txt
+chemosanitizer.egg-info/top_level.txt

@@ -1,0 +1,5 @@
+django-cursor-pagination
+pulpcore<3.9,>=3.6
+mongoengine
+semantic_version
+jsonschema>=3.0

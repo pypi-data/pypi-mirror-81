@@ -1,0 +1,8 @@
+README.md
+setup.py
+jaypdf2text/__init__.py
+jaypdf2text/pdf2text.py
+jaypdf2text.egg-info/PKG-INFO
+jaypdf2text.egg-info/SOURCES.txt
+jaypdf2text.egg-info/dependency_links.txt
+jaypdf2text.egg-info/top_level.txt

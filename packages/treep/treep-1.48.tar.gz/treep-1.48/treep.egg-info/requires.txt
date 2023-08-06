@@ -1,0 +1,6 @@
+argcomplete
+colorama
+future
+gitpython
+lightargs
+pyyaml

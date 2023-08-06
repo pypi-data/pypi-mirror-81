@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: LDB_Inventory_Barcode
+Version: 0.14.1
+Summary: Create standard barcodes with Python. No external modules needed. (optional Pillow support included).
+Home-page: https://www.eldebe.org/ldb/inventory/barcode/
+Author: Alex Orange
+Author-email: alex@eldebe.org
+License: LICENSE
+Description: ldb.inventory.barcode
+        =====================
+        
+        
+        This code originates from python-barcode
+        (https://github.com/WhyNotHugo/python-barcode). What follows (aside from the
+        Licence section) is from their readme.
+        
+        **python-barcode** provides a simple way to create barcodes in Python.
+        
+        There are no external dependencies when generating SVG files.
+        Pillow is required for generating images (e.g.: PNGs).
+        
+        Support Python 3.6 to 3.9.
+        
+        .. image:: example-ean13.png
+          :target: https://github.com/WhyNotHugo/python-barcode
+          :alt: python-barcode
+        
+        Documentation
+        -------------
+        
+        Full documentation is published at http://python-barcode.rtfd.io/
+        
+        Licence
+        -------
+        
+        LDB Inventory Barcode (this code) is licensed under AGPLv3.
+        
+        python-barcode (the code this code is derived from) is licensed under the MIT
+        licence. See MIT-LICENCE for details.
+        
+        If you want MIT licensed code please go to python-barcode and take their code.
+        Any difference between this code and theirs is under the AGPLv3.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: images
+Provides-Extra: pdf

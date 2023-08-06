@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: gsheetplot
+Version: 1.1
+Summary: Helps in Visualising Google Sheet Data
+Home-page: https://github.com/ChaitanyaUndavalli/GSheetPlot
+Author: Undavalli Lalkrishnachaitanya
+Author-email: undavalli.14@gmail.com
+License: MIT
+Description: Python Package Used to plot Bar Graph based on the data in Google Sheet
+Keywords: Python-Data-Visualization Bar-Graph Python-Package Google-Sheet-Visualisation Matplotlib
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7

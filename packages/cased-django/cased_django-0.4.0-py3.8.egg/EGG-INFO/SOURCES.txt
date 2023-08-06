@@ -1,0 +1,13 @@
+README.md
+setup.py
+cased_django/__init__.py
+cased_django/cased_model_event.py
+cased_django/client.py
+cased_django/conf.py
+cased_django/event_manager.py
+cased_django/middleware.py
+cased_django.egg-info/PKG-INFO
+cased_django.egg-info/SOURCES.txt
+cased_django.egg-info/dependency_links.txt
+cased_django.egg-info/not-zip-safe
+cased_django.egg-info/top_level.txt

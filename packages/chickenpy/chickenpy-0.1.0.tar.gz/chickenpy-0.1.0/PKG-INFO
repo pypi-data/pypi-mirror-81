@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: chickenpy
+Version: 0.1.0
+Summary: A Python implementation of the Chicken esoteric programming language
+Home-page: https://github.com/kosayoda/chickenpy
+License: MIT
+Author: kosayoda
+Author-email: kieransiek@protonmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: click (>=7.1,<8.0)
+Project-URL: Repository, https://github.com/kosayoda/chickenpy

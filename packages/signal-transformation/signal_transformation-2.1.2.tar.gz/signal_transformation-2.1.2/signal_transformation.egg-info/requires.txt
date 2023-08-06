@@ -1,0 +1,7 @@
+tensorflow==2.2.1
+numpy
+pydub
+pylint
+librosa
+ffmpeg
+webrtcvad

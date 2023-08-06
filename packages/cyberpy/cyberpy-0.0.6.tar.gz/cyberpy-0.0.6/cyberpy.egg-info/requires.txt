@@ -1,0 +1,5 @@
+ecdsa
+bech32
+hdwallets
+mnemonic
+typing-extensions

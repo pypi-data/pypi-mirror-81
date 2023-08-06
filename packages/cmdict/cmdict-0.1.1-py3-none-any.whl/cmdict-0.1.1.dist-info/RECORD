@@ -1,0 +1,12 @@
+cmdict/__init__.py,sha256=GtyBM7X0NTSYWRFoSLN_tiGjB3VwwOXUiLtwAPErF-Q,82
+cmdict/ecdict_connector.py,sha256=DZ1vbbT9kdu8sn0fxk0B6kNG-NxEDQpjqwYI1iqRjPY,2594
+cmdict/history.py,sha256=GSHc2DEOcwOmLdOA6DlN6uvawbTdVOP1BvhxwdD2-mY,1355
+cmdict/pdf_tools.py,sha256=I68UOpAoltR9CIPbOFfU7SHSWYxS9jX-oyFRPkpbn9Q,4330
+cmdict/run_script.py,sha256=Pn5ePtHNrl9MIRjhpBYGNpqdP2lbxG9zse78AWdMc70,5689
+cmdict/txt_tools.py,sha256=CQnRZu8zx8iwOv4Lf5i-Os2umgTS5gGssSDZhe7iNYg,463
+cmdict/utils.py,sha256=uG7TSla0ME22XAZuFu4Z1Py3QzqizNM14cYh30EsCu8,384
+cmdict-0.1.1.dist-info/entry_points.txt,sha256=4GwVQtZz7rtIniDuNnQcUREsGB4WJaihoj7uSC1i6hY,81
+cmdict-0.1.1.dist-info/LICENSE,sha256=ylQ4Q4780RKO7x-grwLVUnZ7wK2Vai1ajZSQgVkT9wc,1065
+cmdict-0.1.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+cmdict-0.1.1.dist-info/METADATA,sha256=LR24iVQXKn9lof0GuObQZeP8JXRSuXJYFi8BQK2f8l8,706
+cmdict-0.1.1.dist-info/RECORD,,

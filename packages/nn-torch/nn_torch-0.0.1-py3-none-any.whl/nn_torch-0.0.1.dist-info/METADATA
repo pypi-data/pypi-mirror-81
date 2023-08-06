@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: nn-torch
+Version: 0.0.1
+Summary: neural networks implemented by pytorch
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Keywords: pip,pytorch,neural network,deep learning
+Platform: any
+Requires-Dist: torch
+
+UNKNOWN
+
+

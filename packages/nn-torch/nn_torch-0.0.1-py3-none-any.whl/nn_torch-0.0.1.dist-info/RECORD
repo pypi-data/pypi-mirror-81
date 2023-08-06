@@ -1,0 +1,12 @@
+nn_torch/__init__.py,sha256=lVL4VPz3c4kWCgjPtL4uuQLNmgwK92q1ffAsv5El02k,25
+nn_torch/cv/__init__.py,sha256=lVL4VPz3c4kWCgjPtL4uuQLNmgwK92q1ffAsv5El02k,25
+nn_torch/cv/fpn.py,sha256=5vDeVKzR18azcgHsrTVJ6YDde7z2T2F-K4k61WvaglE,1877
+nn_torch/cv/fpnbody.py,sha256=VqoYxI28uc8uibs_xsQ1g3pdzBb71eNvwlR-pd5rJB0,1477
+nn_torch/cv/mobilenet.py,sha256=QqY2yk9WQ7ksOgLzyxtp9dhZ6HZHorScHabC1Ku6yw4,7097
+nn_torch/cv/resnet.py,sha256=ea9Y5mhOc-3KeqLEUynGa4qDrmkbMee3mu_qrrkRbnA,2940
+test/__init__.py,sha256=lVL4VPz3c4kWCgjPtL4uuQLNmgwK92q1ffAsv5El02k,25
+test/test_fpn.py,sha256=8i-GNf61xqRxuWzypXCRQfyM2dUNo4fznzMzeNKn0uQ,923
+nn_torch-0.0.1.dist-info/METADATA,sha256=eyqAZ2yI9zPCgMGkuB6VQLMcMQX5JCMTbY1FudGFeN8,271
+nn_torch-0.0.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+nn_torch-0.0.1.dist-info/top_level.txt,sha256=Wsq6K610TIyMY8Gl1y8-Gt67OB2FRxpAgga9-F4Nuz4,14
+nn_torch-0.0.1.dist-info/RECORD,,

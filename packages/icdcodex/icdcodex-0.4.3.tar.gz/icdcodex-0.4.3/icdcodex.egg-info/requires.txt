@@ -1,0 +1,7 @@
+networkx
+node2vec
+untangle
+sklearn
+pandas
+requests
+importlib-resources

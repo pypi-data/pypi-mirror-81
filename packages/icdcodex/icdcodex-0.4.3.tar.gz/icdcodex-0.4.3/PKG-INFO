@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: icdcodex
+Version: 0.4.3
+Summary: graphical and continuous representations of ICD-9 and ICD-10 codes
+Home-page: https://github.com/icd-codex/icd-codex
+Author: Jeremy Fisher
+Author-email: jeremy@adamsfisher.me
+License: MIT license
+Description: [![PyPI version fury.io](https://badge.fury.io/py/icdcodex.svg)](https://pypi.python.org/pypi/icdcodex/)
+        [![Documentation Status](https://readthedocs.org/projects/icd-codex/badge/?version=latest)](http://icd-codex.readthedocs.io/?badge=latest)
+        [![icd-codex](https://circleci.com/gh/icd-codex/icd-codex.svg?style=shield)](https://circleci.com/gh/icd-codex/icd-codex)
+        
+        ```{admonition} Experimental 
+        This is experimental software and a stable API is not expected until version 1.0
+        ```
+        ## What is it?
+        A python library for providing vector representation of ICD-9 and ICD-10 codes. Because it takes advantage of the hierarchical nature of ICD codes, it also provides these hierarchies in a [`networkx`](https://networkx.github.io) format.
+        
+        ## Motivation
+        `icdcodex` was the first prize winner in the Data Driven Healthcare Track of John Hopkins' [MedHacks 2020](https://medhacks2020.devpost.com). It was hacked together to address the problem of [ICD](https://en.wikipedia.org/wiki/ICD-10) miscodes, which is a major issue for health insurance in the United States. Indeed, while ICD coding is tedious and labour intensive, it is not obvious how to automate because the output space is enourmous. For example, ICD-10 CM (clinical modification) has over 70,000 codes and growing.
+        
+        There are [many strategies](https://maxhalford.github.io/blog/target-encoding/) for target encoding that address these issues. `icdcodex` has two features that make ICD classification more amenable to modeling:
+        - Access to a `networkx` tree representation of the ICD-9 and ICD-10 hierarchies
+        - Vector embeddings of ICD codes using the [node2vec](https://arxiv.org/abs/1607.00653) algorithm (including pre-computed embeddings and an interface to create new embeddings)
+        
+        ## Example Code
+        ```python
+        from icdcodex import icd2vec, hierarchy
+        embedder = icd2vec.Icd2Vec(num_embedding_dimensions=64)
+        embedder.fit(*hierarchy.icd9())
+        X = get_patient_covariates()
+        y = embedder.to_vec(["001.0"])  # Cholera due to vibrio cholerae
+        ```
+        In this case, `y` is a 64-dimensional vector close to other `Infectious And Parasitic Diseases` codes. 
+        
+        ## Related Work
+        - node2vec [Paper](https://cs.stanford.edu/people/jure/pubs/node2vec-kdd16.pdf), [Website](https://snap.stanford.edu/node2vec/), [Code](https://github.com/snap-stanford/snap/tree/master/examples/node2vec), [Alternate Code](https://github.com/eliorc/node2vec)
+        - Learning Low-Dimensional Representations of Medical Concepts: [Paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5001761/), [Code](https://github.com/clinicalml/embeddings)
+        
+        ## The Hackathon Team
+        - Jeremy Fisher (Maintainer)
+        - Alhusain Abdalla
+        - Natasha Nehra
+        - Tejas Patel
+        - Hamrish Saravanakumar
+        
+        ## Documentation
+        
+        See the full documentation: [https://icd-codex.readthedocs.io/en/latest/](https://icd-codex.readthedocs.io/en/latest/)
+        
+        ## Contributions
+        
+        [Contributions are always welcome!](https://icd-codex.readthedocs.io/en/latest/contributing.html)
+        
+        
+        # History
+        
+        ## 0.4.3 (2020-10-04)
+        - Fix issue where hierarchy jsons were not being shipped with the pypi distribution
+        
+        ## 0.4.2 (2020-10-03)
+        - Add support for python <= 3.8 in the `hierarchy` module by using the `importlib.resources` backport
+        
+        ## 0.4.1 (2020-09-11)
+        - Update PyPI metadata
+        
+        ## 0.4.0 (2020-09-11)
+        - ICD-10-CM (2019 to 2020) codes are now fully present (whereas hackathon version missed certain codes)
+        - Versions of the ICD 9 and ICD-10-CM hierarchies are now cached to the `data` module
+        - Changed the hierarchy API: `hierarchy.icd9hierarchy()` is now `hierarchy.icd9()`. Ditto for ICD-10-CM.
+        
+        ## 0.3.0 (2020-09-05)
+        - Finesse API, now consistent between documentation and implementation
+        
+        ## 0.1.0 (2020-09-04)
+        - First release on PyPI, testing the waters during hackathon
+        
+Keywords: icdcodex
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown

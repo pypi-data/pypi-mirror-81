@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+signalfeed/__init__.py
+signalfeed/exceptions.py
+signalfeed.egg-info/PKG-INFO
+signalfeed.egg-info/SOURCES.txt
+signalfeed.egg-info/dependency_links.txt
+signalfeed.egg-info/top_level.txt

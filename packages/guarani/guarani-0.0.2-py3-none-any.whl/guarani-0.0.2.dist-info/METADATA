@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: guarani
+Version: 0.0.2
+Summary: Modern web protocols for authentication, authorization and identity in Python.
+Home-page: https://github.com/revensky/guarani
+License: MIT
+Keywords: JOSE,JWS,JWE,JWK,JWT
+Author: Eduardo Ribeiro Rezende
+Author-email: eduardorbr7@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: cryptography (>=3.1.1,<4.0.0)
+Project-URL: Repository, https://github.com/revensky/guarani.git
+Description-Content-Type: text/markdown
+
+# Project Guarani
+
+This library provides an implementation for authentication and authorization
+of web applications. It provides support for JWTs, OAuth 2.1 and OpenID Connect.
+
+For more details on each feature, please visit the respective documentation.
+
+Any doubts and suggestions can be sent to my [email](mailto:eduardorbr7@gmail.com).
+Just prepend the title with `#Guarani#`, and I will try my best to answer.
+
+# License
+
+This project is licensed under the MIT License.
+For more details, please refer to the `LICENSE` file.
+

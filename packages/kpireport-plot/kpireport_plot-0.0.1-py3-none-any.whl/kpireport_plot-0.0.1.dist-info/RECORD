@@ -1,0 +1,13 @@
+kpireport_plot/__init__.py,sha256=9jBQKbAYlnVoWfPomATCYrrBDZSnTyf2hEJJFmkiqKQ,93
+kpireport_plot/plot.py,sha256=YkkewjSuYXIytBV-czVWrFRhbcn8ti8Yx3WCZNSsS_Q,9370
+kpireport_plot/single_stat.py,sha256=hKsy9Cz8QiYWiM6IXJ_zLkH-4TYXUxzFJcxXu5GSaZc,2933
+kpireport_plot/templates/plot.html,sha256=2gOeX9eZcHIQY_5j6Hfizg5RI6kP5Jx9q4fsY37JXUY,19
+kpireport_plot/templates/plot.md,sha256=2gOeX9eZcHIQY_5j6Hfizg5RI6kP5Jx9q4fsY37JXUY,19
+kpireport_plot/templates/single_stat.html,sha256=XFgSn_kx-19ROSRuPpIdfiPXB2AuIPqytH4r4psubgQ,457
+kpireport_plot/templates/single_stat.md,sha256=t4a5E4kGNIJCybPYJySiuJ0_d3-H8ORgpOJYM0TMABY,98
+kpireport_plot/templates/single_stat.slack,sha256=ctYJPt9mI4PFaGkeG1AaIrufkfEqeT7x-odAZaxCWQQ,206
+kpireport_plot-0.0.1.dist-info/METADATA,sha256=Im78RwWEnGxYoN4O_D3SHhskanZV-IU3BoQ3Z8PoBlw,267
+kpireport_plot-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+kpireport_plot-0.0.1.dist-info/entry_points.txt,sha256=zmkhqXQ6hLmsqawJOLpqgEY43uVUpai_tEA2NhRAXoc,85
+kpireport_plot-0.0.1.dist-info/top_level.txt,sha256=nhEkKxYBsxV69LWkKwPJumdJ2Yqz_o5tMVaW0YftzVo,15
+kpireport_plot-0.0.1.dist-info/RECORD,,

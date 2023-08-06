@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: betsi-ml
+Version: 0.0.3
+Summary: Behaviour Extraction for Time-Series Investigation
+Home-page: https://gitlab.com/deepchaos/betsi
+Author: 
+Author-email: 
+License: LICENSE
+Keywords: machine learning, time series, feature extraction
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: tensorflow (>=2.0)
+
+UNKNOWN
+
+

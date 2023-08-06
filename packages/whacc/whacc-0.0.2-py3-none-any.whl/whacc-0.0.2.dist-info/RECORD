@@ -1,0 +1,11 @@
+whacc/__init__.py,sha256=nCessKfzGzoHQqa3STbPSjoNBTOkfl99BRAaiWLNxgc,86
+whacc/demo.py,sha256=lJ0P1gVj5Yo69XauOmy1s96acAyWbGHWOKLJ58ivYuU,484
+whacc/evaluation.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whacc/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whacc/lib/image_tools.py,sha256=KCc_ax_32i3oHtqdD_Tr7FIsyxPREop9b8egKp1EMJ4,6531
+whacc/lib/models.py,sha256=Rayk8lYvE0QCw_qFRVuPxvQ_UBfGMJ-6VbBM67kqkVI,2276
+whacc-0.0.2.dist-info/LICENSE,sha256=_iTmWaL1ZYcjijb_cmz40BnkKENxS_WNRyOxA15Iywg,1071
+whacc-0.0.2.dist-info/METADATA,sha256=8v26jKLG54qsahFXvb8e4ixKAkeFqcMMSqzNUp4YBzo,2485
+whacc-0.0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+whacc-0.0.2.dist-info/top_level.txt,sha256=Qk8CvicrxeBkSMLOP5WLtiw8_pv7YZCjCWi4fRNJiFM,6
+whacc-0.0.2.dist-info/RECORD,,

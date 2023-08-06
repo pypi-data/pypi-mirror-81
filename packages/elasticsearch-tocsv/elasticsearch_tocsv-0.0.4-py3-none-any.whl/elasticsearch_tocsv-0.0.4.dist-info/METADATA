@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: elasticsearch-tocsv
+Version: 0.0.4
+Summary: Simple python tool to extract massive amounts of documents from Elasticsearch into a csv file exploiting multiprocessing and leveraging the underneath elasticsearch-py package
+Home-page: https://github.com/fabiopipitone/elasticsearch-tocsv
+Author: Fabio Pipitone
+Author-email: fabio.pipitone93@gmail.com
+License: GPLv2
+Keywords: elasticsearch,export,csv,report,kibana,elasticsearch-py
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8, <4
+Description-Content-Type: text/x-rst
+Requires-Dist: requests (>==2.22.0)
+Requires-Dist: elasticsearch (>=7.9.1)
+Requires-Dist: tqdm (>=4.49.0)
+Requires-Dist: pandas (>=1.1.2)
+Requires-Dist: pytz (>=2020.1)
+
+Python Elasticsearch-to-CSV Export Tool
+=======================================
+
+Simple Python tool to easily extract a massive amount of Elasticsearch documents into a csv file, exploiting multiprocessing features and leveraging the underneath elasticsearch-py package.
+
+Requirements
+------------
+
+In order to install and use the elasticsearch-tocsv tool, you need to install the following packages first:
+
+  * `elasticsearch-py <https://pypi.org/project/elasticsearch>`_
+  * `requests <https://pypi.org/project/requests/>`_
+  * `pandas <https://pypi.org/project/pandas/>`_
+  * `pytz <https://pypi.org/project/pytz/>`_
+  * `tqdm <https://pypi.org/project/tqdm/>`_ (unless you want to disable the loading progress bars)
+
+
+Installation
+------------
+
+Install the ``elasticsearch-tocsv`` package with:
+
+    $ pip3 install elasticsearch-tocsv
+
+

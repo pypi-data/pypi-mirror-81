@@ -1,0 +1,3 @@
+[console_scripts]
+fvid = fvid.fvid:main
+

@@ -1,0 +1,10 @@
+basacommons/Database.py,sha256=lRX5pjwfkFWrVby7pgnguQGHVXRnMKVactCmm-swtf4,3661
+basacommons/SingletonMeta.py,sha256=eQjnmNf-DkKkETFsHI_5NT4BrQQUldussrCg1vFpnaE,251
+basacommons/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+basacommons/alerts.py,sha256=rjI2Sxk3JM4vsEDALVCuHGmu5HEkzRDBuU-zWVrLQs4,1079
+basacommons/configloader.py,sha256=NYVu4vxxFRwjVJ1996gCYMczbXo5riFxFUZLh3boGxE,2457
+basacommons-0.0.3.dist-info/LICENSE,sha256=SKoxDvJrW3vO0NRQBgITOxGkq0AsdtojeDt-jjXWrEc,1085
+basacommons-0.0.3.dist-info/METADATA,sha256=wluoacHKfEraPmX4n3xNxGbMIky7b1CiA5me45yyY6s,285
+basacommons-0.0.3.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+basacommons-0.0.3.dist-info/top_level.txt,sha256=MqwcDe3kQZ3KNioT27cwtGQSFMMPwas2G0wAIFF6fzQ,12
+basacommons-0.0.3.dist-info/RECORD,,

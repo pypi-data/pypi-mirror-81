@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: treeschema
+Version: 1.0.0
+Summary: A python client that simplifies interactions with the Tree Schema REST API.
+Home-page: https://github.com/tree-schema/tree-schema-python
+Author: Tree Schema
+Author-email: info@treeschema.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/tree-schema/tree-schema-python/issues
+Project-URL: Source, https://github.com/tree-schema/tree-schema-python
+Project-URL: Documentation, https://developer.treeschema.com/python-client
+Description: UNKNOWN
+Keywords: data lineage,metadata
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Provides-Extra: test

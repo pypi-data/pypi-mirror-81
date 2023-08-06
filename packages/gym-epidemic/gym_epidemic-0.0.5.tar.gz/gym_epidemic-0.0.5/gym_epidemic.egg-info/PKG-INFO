@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: gym-epidemic
+Version: 0.0.5
+Summary: An OpenAI Gym to benchmark AI Reinforcement Learning algorithms in epidemic control problems
+Home-page: https://github.com/boettiger-lab/gym_epidemic
+Author: Marcus Lapeyrolerie
+Author-email: marcuslapeyrolerie@me.com
+License: BSD-3
+Download-URL: https://github.com/boettiger-lab/gym_epidemic/releases/tag/v0.0.5
+Description: UNKNOWN
+Keywords: Reinforcement Learning,Epidemic Control,Epidemics,COVID-19,AI,stable-baselines,OpenAI Gym,Artificial Intelligence,Epidemiology
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8

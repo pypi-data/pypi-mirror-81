@@ -1,0 +1,63 @@
+define ([
+    'require'
+
+    , './functionList/NpArangePageRender'
+    , './functionList/NpArrayPageRender'
+    , './functionList/NpReshapePageRender'
+    , './functionList/NpZerosOnesEmptyPageRender'
+    , './functionList/NpEyePageRender'
+    , './functionList/NpIdentityPageRender'
+    , './functionList/NpDiagPageRender'
+    , './functionList/NpLinalgInvPageRender'
+    , './functionList/NpFullPageRender'
+    , './functionList/NpFlattenPageRender'
+    , './functionList/NpFlipPageRender'
+    , './functionList/NpTPageRender'
+    , './functionList/NpTransposePageRender'
+    , './functionList/NpSwapaxesCodeRender'
+    , './functionList/NpDotPageRender'
+    , './functionList/NpSumPageRender'
+    , './functionList/NpConcatenatePageRender'
+    , './functionList/NpDiffPageRender'
+    , './functionList/NpCopyPageRender'
+    , './functionList/NpLinspacePageRender'
+    , './functionList/NpRavelPageRender'
+    , './functionList/NpSplitPageRender'
+    , './functionList/NpDsplitHsplitVsplitPageRender'
+    , './functionList/NpStackPageRender'
+    , './functionList/NpDstackHstackVstackPageRender'
+
+    , './operationList/NumpyIndexingPageRender'
+    
+    , './statisticsList/NpMeanVarStdMaxMinMedianPercentilePageRender'
+    , './universalFunctionList/UnaryArimethicPageRender'
+    , './universalFunctionList/BinaryArimethicPageRender'
+    , './universalFunctionList/BinaryComparatorPageRender'
+    , './universalFunctionList/UnaryLogicalPageRender'
+], function( requirejs, 
+        
+        NpArangePageRender, NpArrayPageRender, NpReshapePageRender, NpZerosOnesEmptyPageRender, NpEyePageRender, 
+        NpIdentityPageRender, NpDiagPageRender, NpLinalgInvPageRender, NpFullPageRender, NpFlattenPageRender, NpFlipPageRender, NpTPageRender,
+        NpTransposePageRender, NpSwapaxesCodeRender, NpDotPageRender, NpSumPageRender, NpConcatenatePageRender, NpDiffPageRender, NpCopyPageRender, NpLinspacePageRender,
+        NpRavelPageRender, NpSplitPageRender, NpDsplitHsplitVsplitPageRender, NpStackPageRender, NpDstackHstackVstackPageRender,
+
+
+        NumpyIndexingPageRender,
+        
+        NpMeanVarStdMaxMinMedianPercentilePageRender,
+        UnaryArimethicPageRender, BinaryArimethicPageRender, BinaryComparatorPageRender, UnaryLogicalPageRender
+ ) {
+    return {
+        
+        NpArangePageRender, NpArrayPageRender, NpReshapePageRender, NpZerosOnesEmptyPageRender, NpEyePageRender, 
+        NpIdentityPageRender, NpDiagPageRender, NpLinalgInvPageRender, NpFullPageRender, NpFlattenPageRender, NpFlipPageRender, NpTPageRender,
+        NpTransposePageRender, NpSwapaxesCodeRender, NpDotPageRender, NpSumPageRender, NpConcatenatePageRender, NpDiffPageRender, NpCopyPageRender, NpLinspacePageRender,
+        NpRavelPageRender, NpSplitPageRender, NpDsplitHsplitVsplitPageRender, NpStackPageRender, NpDstackHstackVstackPageRender,
+  
+
+        NumpyIndexingPageRender,
+
+        NpMeanVarStdMaxMinMedianPercentilePageRender,
+        UnaryArimethicPageRender, BinaryArimethicPageRender, BinaryComparatorPageRender, UnaryLogicalPageRender
+    }
+});

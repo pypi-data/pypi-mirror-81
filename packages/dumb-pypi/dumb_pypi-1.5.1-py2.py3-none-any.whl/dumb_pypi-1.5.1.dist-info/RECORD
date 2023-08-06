@@ -1,0 +1,11 @@
+dumb_pypi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dumb_pypi/main.py,sha256=U7VHjC9KsSUXbT__KK5vXDZ4skACoMYMp5XJSAKYnus,11896
+dumb_pypi/templates/index.html,sha256=6Gm0MiUSruCFXmzDfQHiVAJZjwwCDxGatG4ZPaiJNKM,6451
+dumb_pypi/templates/package.html,sha256=NE5gqZh-3zIf05LJ9liCLBeFj7jpjyP_l0nyeiGgCsU,779
+dumb_pypi/templates/simple.html,sha256=SSi9fXJXlcLeyoBB_Lvbr6t-uEzu-Au_MtdVce42u5M,404
+dumb_pypi-1.5.1.dist-info/LICENSE,sha256=JQH_EHGi3jwJR2XQi2p70PEeFm-L9VkBx7c1ti5FC5o,557
+dumb_pypi-1.5.1.dist-info/METADATA,sha256=0d5hjAysnD2usRE6HhTW84qxGak8ftH2iq1B84JXzhY,7354
+dumb_pypi-1.5.1.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+dumb_pypi-1.5.1.dist-info/entry_points.txt,sha256=4nnXWfB6yqMY8HTDXRcxwm1IUGKao73qg0edK3-Ch9A,51
+dumb_pypi-1.5.1.dist-info/top_level.txt,sha256=4jXp_wjWlvvLgfDlESt7zfiSMKkwkkZzkaOnXITJjLc,10
+dumb_pypi-1.5.1.dist-info/RECORD,,

@@ -1,0 +1,10 @@
+memecrypt/__init__.py,sha256=GVKTnkk4DCjD2GAF-K5zz2SixhI81_-gVLnX5L95CAo,44
+memecrypt/__main__.py,sha256=Yj4cFPav1U_5U0xZjRrDn1AmF3ZNXpBz8LYEhI6SrHc,170
+memecrypt/memecrypt.py,sha256=Ho56dKUpa6n5aWS81u5kqJ-KEHs_dVaa0L1QqDTkYPs,11403
+memecrypt/terminal_colors.py,sha256=F0_5vdzUdYktlSgj3o1JXT-m71MoofGfI1GIBWwIj3k,1314
+memecrypt/utilities.py,sha256=fAeBH11kCEgo0cAryvQETjf1V0J8ov5lyc9jPa1PJJ4,1457
+memecrypt-1.5.0.dist-info/entry_points.txt,sha256=zmOZPqAtfvhl_tH0-iOMe-yVrsctbNeb1ni-yV7GdFs,44
+memecrypt-1.5.0.dist-info/LICENSE,sha256=mR_HrphtHjbdKvktcNW0H9q94gx_HdwIlVsaxywvao4,1071
+memecrypt-1.5.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+memecrypt-1.5.0.dist-info/METADATA,sha256=tBif5xDflVN0CE0LDWfmcTTZFC-B6uRjFMCytsv3I5A,5850
+memecrypt-1.5.0.dist-info/RECORD,,

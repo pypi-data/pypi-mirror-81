@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: plot-gsheets
+Version: 0.3
+Summary: plot gsheets by specifying columns
+Home-page: UNKNOWN
+Author: Ayush Saini
+Author-email: saini712@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: google-api-python-client
+Requires-Dist: google-auth-httplib2
+Requires-Dist: google-auth-oauthlib
+Requires-Dist: matplotlib
+
+UNKNOWN
+
+

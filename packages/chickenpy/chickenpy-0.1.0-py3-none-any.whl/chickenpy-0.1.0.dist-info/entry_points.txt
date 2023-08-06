@@ -1,0 +1,3 @@
+[console_scripts]
+chickenpy=chickenpy.__main__:main
+

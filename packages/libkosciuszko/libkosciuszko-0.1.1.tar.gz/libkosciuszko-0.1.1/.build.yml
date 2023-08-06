@@ -1,0 +1,17 @@
+image: debian/stable
+packages:
+  - python3
+  - python3-pip
+  - squashfs-tools
+  - zstd
+tasks:
+  - test_list: |
+      gpg --generate-key --batch /home/build/libkosciuszko/test/example.gpg
+      python3 -m pip install --user /home/build/libkosciuszko
+      python3 /home/build/libkosciuszko/test/new.py
+      python3 /home/build/libkosciuszko/test/list.py
+  - test_addfile: |
+      gpg --generate-key --batch /home/build/libkosciuszko/test/example.gpg
+      python3 -m pip install --user /home/build/libkosciuszko
+      python3 /home/build/libkosciuszko/test/new.py
+      python3 /home/build/libkosciuszko/test/addfile.py

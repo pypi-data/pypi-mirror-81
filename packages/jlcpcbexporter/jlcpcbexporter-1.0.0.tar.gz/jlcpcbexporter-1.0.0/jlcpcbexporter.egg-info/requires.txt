@@ -1,0 +1,6 @@
+click
+
+[dev]
+mypy
+pre-commit
+setuptools_scm

@@ -1,0 +1,17 @@
+chime.py,sha256=_21Lx8ceX24CoUzGsFFHWP9iSr5y_08EhdGlcOvaj_I,6088
+themes/chime/error.wav,sha256=170J1GSL0Vq5EiKkBYA_dzP6R0Rr_7Qhie99TF4Y4TI,197056
+themes/chime/info.wav,sha256=Yos5p3SI2Ok0hKXRJBCxCBU3olgCZzoMEmc6TmsEqxs,207875
+themes/chime/success.wav,sha256=hGwUT2F3WEuB0BtMvQI9ZaPJK06gSgwFMUifY-5qdg4,249620
+themes/chime/warning.wav,sha256=Boh2cEQ5ZL2t_NnkJIXgvkzMCYQXOnIo-WSKrigH6n8,138298
+themes/mario/error.wav,sha256=gyWoKlNAqvUQwoVgJs_6aRlW-kQRP4xbWPuaW8Vcp-w,144296
+themes/mario/info.wav,sha256=I8EDvMiLHf_fNk-gGBYKeNZqk47BilLHXT59NaFrh6E,18570
+themes/mario/success.wav,sha256=IQSsTk_u6rWlS_L5m4FhFuupwhK6wsavOYmYGp0COPU,21972
+themes/mario/warning.wav,sha256=ANcpDhJMOmBEk8PifTxjJBe8x_g68LxmHKNxwN7OHZk,23316
+themes/zelda/error.wav,sha256=tmml80DSxYCYSckHbA_C3rN1JGXAnc04m6pwFMGYTbk,49298
+themes/zelda/info.wav,sha256=PJY31uPuZYEKxAOijeKRXbb3vVOv2E_3-iXgplYut2Y,18872
+themes/zelda/success.wav,sha256=w4F8W74fMEIkoMk28-gHLdlzKcM24z3-lqiR2HNKDoI,83590
+themes/zelda/warning.wav,sha256=WM3NCK-Vi3DAGXzdwg7z4jv28w0zNiUhz1m4ldrHbDE,7030
+chime-0.1.3.dist-info/LICENSE,sha256=XGk0GpyPbvKbrRsYTBs_LhHQVAN8aBpnpLJlsGgVepo,1068
+chime-0.1.3.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+chime-0.1.3.dist-info/METADATA,sha256=MukDXrG6gh8yIMhTnHZqN2hJYQZ3EYXqZo6e5eibE9s,5597
+chime-0.1.3.dist-info/RECORD,,

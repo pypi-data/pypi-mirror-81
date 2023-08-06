@@ -1,0 +1,12 @@
+click
+tabulate
+rich<=7.1.0
+pycountry
+pytz
+simple-term-menu
+
+[dev]
+pytest<=4.*
+black<=20.8b1
+pre-commit
+mypy

@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: timezones-cli
+Version: 0.1.0
+Summary: Get local datetime from multiple timezones!
+Home-page: https://github.com/yankeexe/timezones-cli
+Author: Yankee Maharjan
+License: MIT
+Description: # Timezone CLI
+        
+        > Get local datetime from multiple timezones.
+        
+        - [Timezone CLI](#timezone-cli)
+          - [Usage](#usage)
+            - [Search for local date time](#search-for-local-date-time)
+            - [Add timezones](#add-timezones)
+            - [Remove timezones](#remove-timezones)
+            - [Show local datetime of all saved timezones](#show-local-datetime-of-all-saved-timezones)
+            - [Select a single timezone from defaults](#select-a-single-timezone-from-defaults)
+          - [Contributing](#contributing)
+        
+        ## Usage
+        
+        ### Search for local date time
+        
+        ```bash
+        $ tz search "us"
+        ```
+        
+        ---
+        
+        ### Add timezones
+        
+        Timezones added to the config file are treated as the default timezones which is triggered by the `tz show` command.
+        
+        > file is stored at ~/.tz-cli
+        
+        ```bash
+        $ tz add "Asia/Kathmandu"
+        ```
+        
+        ---
+        
+        ### Remove timezones
+        
+        There are two ways for removing timezones from the config file. Using the `--interactive` mode and passing the the `--name` flag.
+        
+        ```bash
+        $ tz remove -i
+        
+        $ tz remove --name "Asia/Kathmandu"
+        ```
+        
+        ---
+        
+        ### Show local datetime of all saved timezones
+        
+        ```bash
+        $ tz show
+        ```
+        
+        ---
+        
+        ### Select a single timezone from defaults
+        
+        ```bash
+        $ tz select
+        ```
+        
+        ---
+        
+        ## Contributing
+        
+        For guidance on setting up a development environment and how to make a contribution to `timezones-cli`, see the [contributing guidelines](https://github.com/yankeexe/timezones-cli/blob/master/CONTRIBUTING.md).
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Provides-Extra: dev

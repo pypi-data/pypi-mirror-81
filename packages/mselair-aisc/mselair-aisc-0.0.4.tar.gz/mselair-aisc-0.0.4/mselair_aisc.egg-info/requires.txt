@@ -1,0 +1,11 @@
+numpy
+pandas
+scipy
+matplotlib
+scikit-learn
+pytz
+tqdm
+pymef
+pyedflib
+mef_tools
+h5py

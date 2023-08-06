@@ -1,0 +1,13 @@
+mypy_boto3_timestream_write/__init__.py,sha256=BhWL7qORejhfhxStENzG_c_UtoRQzTdwQaITr3vhB9U,530
+mypy_boto3_timestream_write/__init__.pyi,sha256=mNpF7plVjwlBV6rotA8b94Wnu3U8Uf1Dl98HKVjyTS8,529
+mypy_boto3_timestream_write/__main__.py,sha256=Z0pTLUotszfTnw1AKynZIC3rJDzMKiSk31FWGP63Vy4,411
+mypy_boto3_timestream_write/client.py,sha256=4wTfd6CxeXofa5-DewuZ0Be9K5gyLHStsJz9xmopKjE,7526
+mypy_boto3_timestream_write/client.pyi,sha256=Y8wp38MyPhixXCO2RNvNaJhJaoIAvZDLyXYamWvAg4c,7505
+mypy_boto3_timestream_write/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_timestream_write/type_defs.py,sha256=J8jROil7srjQcdNDPadhqTpuNZlTn5RrW0aou-mtHPs,3975
+mypy_boto3_timestream_write/type_defs.pyi,sha256=ZnRD4lc14K8_eLpHmS6TCZ_dxabYSeG0vSPzw2AJRBU,3972
+mypy_boto3_timestream_write/version.py,sha256=F1CwS5frEsfRYjwHBMd4pw3GO5dzDHTKy-0blId-B8c,57
+mypy_boto3_timestream_write-1.15.12.0.dist-info/METADATA,sha256=SMtjac3Y62GzbiXLfwtP7P5M8AUkjnUoilbMe_PEGLw,6450
+mypy_boto3_timestream_write-1.15.12.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+mypy_boto3_timestream_write-1.15.12.0.dist-info/top_level.txt,sha256=g0nGBj3bO-9Vwwsr8V_FiQKyD6j_DiiQwWVAEYq4lR8,28
+mypy_boto3_timestream_write-1.15.12.0.dist-info/RECORD,,

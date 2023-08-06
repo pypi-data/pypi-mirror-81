@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: include-beer-DHT11
+Version: 1.0.2
+Summary: DHT11 sensor usage
+Home-page: https://github.com/mbhein/include-beer-DHT11
+Author: Matthew Hein
+Author-email: matthew.hein@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: adafruit-circuitpython-dht
+
+# include-beer-DHT11
+Python package for DHT11 temperature and humidity sensor
+
+# Contributing/developing package
+
+# Developing package on Mac
+Run pip3 install -r requirements.txt
+
+

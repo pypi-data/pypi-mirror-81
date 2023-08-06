@@ -1,0 +1,3 @@
+[console_scripts]
+calc=python_lifecycle_training.calculator.cli:main
+

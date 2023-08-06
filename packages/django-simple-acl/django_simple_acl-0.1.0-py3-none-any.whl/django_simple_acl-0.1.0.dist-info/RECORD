@@ -1,0 +1,10 @@
+simpleacls/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simpleacls/acls.py,sha256=ONh0EBIhZaZzFHjDoT5-y75VsojzpEmFiq4UCfzUblc,3368
+simpleacls/apps.py,sha256=C52QU3GMs99WqABBilC8xkUnuEfVpwM6eWnV3xMjJds,386
+simpleacls/exceptions.py,sha256=yNss9CuhLnGqA8GVLxeY2HsIGv9DU19z7YiD34u_RbM,1090
+simpleacls/testutils.py,sha256=_HIDwlvR3A3cEvpwL2zVfZTFAbORVCgf41cflaRkwfE,168
+django_simple_acl-0.1.0.dist-info/LICENSE,sha256=nrtUiN0snQJMtwBUX43AJHklIiHwubCtvtkD4Vb1ir4,1072
+django_simple_acl-0.1.0.dist-info/METADATA,sha256=AqpAN8e4SjeQUlqWuavXXnE_sj2xMIG_gYLLRznnLxI,6103
+django_simple_acl-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+django_simple_acl-0.1.0.dist-info/top_level.txt,sha256=M575KdI_HeTmRRUZSKSAwZ1eYGM5mVN1YTxDuvAU0c8,11
+django_simple_acl-0.1.0.dist-info/RECORD,,

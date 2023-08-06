@@ -1,0 +1,6 @@
+[console_scripts]
+fastread = cloudtrace.read.reader:main
+fasttrace = cloudtrace.trace.fasttrace:main
+pickup = cloudtrace.pickup:main
+scampertrace = cloudtrace.trace.scampertrace:main
+

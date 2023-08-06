@@ -1,0 +1,14 @@
+edumated/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edumated/__version__.py,sha256=uThUjPPu17d2IUwHyAlWVIL98jVyopZPJ80FNtVICgc,89
+edumated/calendar.py,sha256=dZo9qGBGR55zgZGsLVs855dXEEScrMpZiPnhvTFNQ1s,1691
+edumated/edumate.py,sha256=IM7MUuzC-G2oKf6gjDbHoVY3_lYKSF6qYplMzDo2Klk,1131
+edumated/edumated.py,sha256=TZTJp_gsJEAz7P6Au0MBGhL0ZUNjz_9f8UBKUaLyWyc,647
+edumated/fetch.py,sha256=xa26ri5azLpU59XzQ3DPVeOrODwiA7GM5LMQkAO4960,7782
+edumated/googcal.py,sha256=tnPtij-OS0Kw3AgKTi3THtY8ejnkFXlGL0dOk4Qyz-4,4764
+edumated/util.py,sha256=8GdnKseiaVI9gl4J6sX7KEJzXstEEAuMtv7Ied9UNyg,3416
+edumated-0.4.2.dist-info/LICENSE,sha256=f5BQ2iaB36HuoBvwI24kC75bLxGTSNdOlUXp2M-mM8Q,1067
+edumated-0.4.2.dist-info/METADATA,sha256=2kg5EFL3VKB9fnEt4gob9oa5a9UnGFxX32kDzNuW4JU,1491
+edumated-0.4.2.dist-info/WHEEL,sha256=nvhOrkn7_9sGzJjxuUFjoJ6OkO7SJJqHSjq9VNu0Elc,92
+edumated-0.4.2.dist-info/entry_points.txt,sha256=LaLGP4rMEQ6bseUxO3ysaSGyUFP9tkfRseutMPojpjM,52
+edumated-0.4.2.dist-info/top_level.txt,sha256=YBTzQkrMIQlKq-rNAqfGTEhJJiEZLsASbTBks7GUK1o,9
+edumated-0.4.2.dist-info/RECORD,,

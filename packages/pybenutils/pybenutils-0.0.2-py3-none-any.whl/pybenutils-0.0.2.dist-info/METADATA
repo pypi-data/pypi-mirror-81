@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pybenutils
+Version: 0.0.2
+Summary: PyBEN Utilities repo
+Home-page: https://github.com/DarkFlameBEN/pybenutils.git
+Author: Ben Moskovitch
+Author-email: "Ben Moskovitch" <darkflameben@gmail.com>
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >3
+Requires-Dist: requests
+Requires-Dist: setuptools
+Requires-Dist: boto3
+Requires-Dist: psutil
+Requires-Dist: selenium
+Requires-Dist: multiprocess
+Requires-Dist: pynput
+Requires-Dist: boto
+Requires-Dist: pytest
+Requires-Dist: pytest-pep8
+Requires-Dist: pywin32 ; sys_platform == "win32"
+
+PyBEN Utilities repo
+
+

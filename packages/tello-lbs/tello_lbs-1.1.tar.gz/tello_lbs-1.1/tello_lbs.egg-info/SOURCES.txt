@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+tello_lbs/tello_lbs.py
+tello_lbs.egg-info/PKG-INFO
+tello_lbs.egg-info/SOURCES.txt
+tello_lbs.egg-info/dependency_links.txt
+tello_lbs.egg-info/not-zip-safe
+tello_lbs.egg-info/top_level.txt

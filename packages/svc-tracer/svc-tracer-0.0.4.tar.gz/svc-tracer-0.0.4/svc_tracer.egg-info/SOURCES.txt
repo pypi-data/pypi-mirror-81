@@ -1,0 +1,15 @@
+README.md
+setup.py
+svc-tracer
+svc_tracer/__init__.py
+svc_tracer/printer.py
+svc_tracer/sniffer.py
+svc_tracer/thrift_idl.py
+svc_tracer/thrift_parser.py
+svc_tracer/thrift_struct.py
+svc_tracer/tracer.py
+svc_tracer.egg-info/PKG-INFO
+svc_tracer.egg-info/SOURCES.txt
+svc_tracer.egg-info/dependency_links.txt
+svc_tracer.egg-info/requires.txt
+svc_tracer.egg-info/top_level.txt

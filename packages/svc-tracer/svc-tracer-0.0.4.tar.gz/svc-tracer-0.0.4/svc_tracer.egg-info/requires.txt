@@ -1,0 +1,6 @@
+six
+ply
+ptsd
+scapy
+thrift
+pprintpp

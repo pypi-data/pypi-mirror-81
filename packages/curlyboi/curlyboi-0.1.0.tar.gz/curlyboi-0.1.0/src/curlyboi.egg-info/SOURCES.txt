@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+src/curlyboi/__init__.py
+src/curlyboi/__version__.py
+src/curlyboi/cli.py
+src/curlyboi.egg-info/PKG-INFO
+src/curlyboi.egg-info/SOURCES.txt
+src/curlyboi.egg-info/dependency_links.txt
+src/curlyboi.egg-info/entry_points.txt
+src/curlyboi.egg-info/requires.txt
+src/curlyboi.egg-info/top_level.txt

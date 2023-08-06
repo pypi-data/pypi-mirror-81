@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: curlyboi
+Version: 0.1.0
+Summary: Actually a snek!
+Home-page: https://github.com/vinayak-mehta/curlyboi
+Author: Vinayak Mehta
+Author-email: vmehta94@gmail.com
+License: Apache 2.0
+Description: # curlyboi
+        
+        Actually a snek!
+        
+        ## Build
+        
+        ```
+        $ g++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --include` example.cpp -o _curlyboi.`python3-config --extension-suffix`
+        ```
+        
+        ## Install
+        
+        You can clone the repo and then install `curlyboi` using `pip`:
+        
+        ```
+        $ pip install .
+        ```
+        
+        ## Usage
+        
+        ```
+        $ curlyboi
+        ```
+        
+        ## Versioning
+        
+        `curlyboi` uses [Semantic Versioning](https://semver.org/). For the available versions, see the tags on the GitHub repository.
+        
+        ## License
+        
+        This project is licensed under the Apache License, see the [LICENSE](https://github.com/vinayak-mehta/curlyboi/blob/master/LICENSE) file for details.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev

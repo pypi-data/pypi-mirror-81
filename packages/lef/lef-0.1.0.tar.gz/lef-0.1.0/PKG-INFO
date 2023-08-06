@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: lef
+Version: 0.1.0
+Summary: Framework for creating AWS Lambda Extensions
+Home-page: https://github.com/lambda-extensions/python-extension-framework
+License: MIT
+Keywords: AWS,AWS Lambda,Lambda Extensions,Framework,Extension Framework
+Author: Joe Snell
+Author-email: joepsnell@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: requests (>=2.24.0,<3.0.0)
+Project-URL: Documentation, https://github.com/lambda-extensions/python-extension-framework
+Project-URL: Repository, https://github.com/lambda-extensions/python-extension-framework
+Description-Content-Type: text/markdown
+
+# Python Extension Framework
+
+This is a framework for building [AWS Lambda Extensions](https://aws.amazon.com/blogs/compute/introducing-aws-lambda-extensions-in-preview/).
+
+## Quickstart
+
+```bash
+$ pip install lef
+```
+
+To get started you can use the default `Extension` class, or extend it.
+
+Example:
+
+```python
+from lef import Extension
+
+def handler(event):
+    print(event)
+
+extension = Extension()
+extension.register([EventType.INVOKE], handler)
+```
+

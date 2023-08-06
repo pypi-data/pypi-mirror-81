@@ -1,0 +1,69 @@
+[bob.cli]
+binseg = bob.ip.binseg.script.binseg:binseg
+
+[bob.ip.binseg.cli]
+analyze = bob.ip.binseg.script.analyze:analyze
+compare = bob.ip.binseg.script.compare:compare
+config = bob.ip.binseg.script.config:config
+dataset = bob.ip.binseg.script.dataset:dataset
+evaluate = bob.ip.binseg.script.evaluate:evaluate
+experiment = bob.ip.binseg.script.experiment:experiment
+predict = bob.ip.binseg.script.predict:predict
+significance = bob.ip.binseg.script.significance:significance
+train = bob.ip.binseg.script.train:train
+
+[bob.ip.binseg.config]
+chasedb1 = bob.ip.binseg.configs.datasets.chasedb1.first_annotator
+chasedb1-2nd = bob.ip.binseg.configs.datasets.chasedb1.second_annotator
+chasedb1-covd = bob.ip.binseg.configs.datasets.chasedb1.covd
+chasedb1-mtest = bob.ip.binseg.configs.datasets.chasedb1.mtest
+chasedb1-ssl = bob.ip.binseg.configs.datasets.chasedb1.ssl
+chasedb1-xtest = bob.ip.binseg.configs.datasets.chasedb1.xtest
+csv-dataset-example = bob.ip.binseg.configs.datasets.csv
+drionsdb = bob.ip.binseg.configs.datasets.drionsdb.expert1
+drionsdb-2nd = bob.ip.binseg.configs.datasets.drionsdb.expert2
+drishtigs1-cup = bob.ip.binseg.configs.datasets.drishtigs1.cup_all
+drishtigs1-cup-any = bob.ip.binseg.configs.datasets.drishtigs1.cup_any
+drishtigs1-disc = bob.ip.binseg.configs.datasets.drishtigs1.disc_all
+drishtigs1-disc-any = bob.ip.binseg.configs.datasets.drishtigs1.disc_any
+driu = bob.ip.binseg.configs.models.driu
+driu-bn = bob.ip.binseg.configs.models.driu_bn
+driu-bn-ssl = bob.ip.binseg.configs.models.driu_bn_ssl
+driu-od = bob.ip.binseg.configs.models.driu_od
+driu-ssl = bob.ip.binseg.configs.models.driu_ssl
+drive = bob.ip.binseg.configs.datasets.drive.default
+drive-2nd = bob.ip.binseg.configs.datasets.drive.second_annotator
+drive-covd = bob.ip.binseg.configs.datasets.drive.covd
+drive-mtest = bob.ip.binseg.configs.datasets.drive.mtest
+drive-ssl = bob.ip.binseg.configs.datasets.drive.ssl
+drive-xtest = bob.ip.binseg.configs.datasets.drive.xtest
+hed = bob.ip.binseg.configs.models.hed
+hrf = bob.ip.binseg.configs.datasets.hrf.default
+hrf-covd = bob.ip.binseg.configs.datasets.hrf.covd
+hrf-highres = bob.ip.binseg.configs.datasets.hrf.default_fullres
+hrf-mtest = bob.ip.binseg.configs.datasets.hrf.mtest
+hrf-ssl = bob.ip.binseg.configs.datasets.hrf.ssl
+hrf-xtest = bob.ip.binseg.configs.datasets.hrf.xtest
+iostar-disc = bob.ip.binseg.configs.datasets.iostar.optic_disc
+iostar-vessel = bob.ip.binseg.configs.datasets.iostar.vessel
+iostar-vessel-covd = bob.ip.binseg.configs.datasets.iostar.covd
+iostar-vessel-mtest = bob.ip.binseg.configs.datasets.iostar.vessel_mtest
+iostar-vessel-ssl = bob.ip.binseg.configs.datasets.iostar.ssl
+iostar-vessel-xtest = bob.ip.binseg.configs.datasets.iostar.vessel_xtest
+m2unet = bob.ip.binseg.configs.models.m2unet
+m2unet-ssl = bob.ip.binseg.configs.models.m2unet_ssl
+refuge-cup = bob.ip.binseg.configs.datasets.refuge.cup
+refuge-disc = bob.ip.binseg.configs.datasets.refuge.disc
+resunet = bob.ip.binseg.configs.models.resunet
+rimoner3-cup = bob.ip.binseg.configs.datasets.rimoner3.cup_exp1
+rimoner3-cup-2nd = bob.ip.binseg.configs.datasets.rimoner3.cup_exp2
+rimoner3-disc = bob.ip.binseg.configs.datasets.rimoner3.disc_exp1
+rimoner3-disc-2nd = bob.ip.binseg.configs.datasets.rimoner3.disc_exp2
+stare = bob.ip.binseg.configs.datasets.stare.ah
+stare-2nd = bob.ip.binseg.configs.datasets.stare.vk
+stare-covd = bob.ip.binseg.configs.datasets.stare.covd
+stare-mtest = bob.ip.binseg.configs.datasets.stare.mtest
+stare-ssl = bob.ip.binseg.configs.datasets.stare.ssl
+stare-xtest = bob.ip.binseg.configs.datasets.stare.xtest
+unet = bob.ip.binseg.configs.models.unet
+

@@ -1,0 +1,17 @@
+.gitignore
+.htoolsrc
+MANIFEST.in
+Makefile
+README.md
+setup.py
+.github/workflows/python-publish.yml
+src/humble_tools/__init__.py
+src/humble_tools/cli.py
+src/humble_tools.egg-info/PKG-INFO
+src/humble_tools.egg-info/SOURCES.txt
+src/humble_tools.egg-info/dependency_links.txt
+src/humble_tools.egg-info/entry_points.txt
+src/humble_tools.egg-info/requires.txt
+src/humble_tools.egg-info/top_level.txt
+src/humble_tools.egg-info/zip-safe
+src/humble_tools_make/__init__.py

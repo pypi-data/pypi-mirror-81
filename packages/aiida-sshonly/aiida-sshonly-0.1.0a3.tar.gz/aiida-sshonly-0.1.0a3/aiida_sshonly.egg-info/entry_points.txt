@@ -1,0 +1,3 @@
+[aiida.transports]
+ssh_only = aiida_sshonly.transports.sshonly:SshOnlyTransport
+

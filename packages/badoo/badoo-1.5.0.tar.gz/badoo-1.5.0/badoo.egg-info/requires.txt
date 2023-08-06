@@ -1,0 +1,5 @@
+Click>=7.0
+selenium
+BeautifulSoup4
+lxml
+Pillow

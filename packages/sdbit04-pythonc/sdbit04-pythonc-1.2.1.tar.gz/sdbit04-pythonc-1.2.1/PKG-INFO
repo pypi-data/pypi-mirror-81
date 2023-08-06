@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: sdbit04-pythonc
+Version: 1.2.1
+Summary: this give a command pythonc to compile any python module
+Home-page: https://github.com/
+Author: swapankumarDas
+License: MIT
+Description: # pythonc
+        
+        On installation, this will provide a command : pythonc, which take a path for python module to be compiled.
+        
+        Usage: #> pythonc /path/of/python/module.py
+        
+        It includes python3 and an entrypoint for python compiler() method along with some modification to make it easy use like javac.
+        
+        I have also uploaded an alpine(ubuntu) image along with this package. 
+        To get the image from docker-hub use follwing command:
+        #> docker run -it sdbit04/python-with-compiler
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown

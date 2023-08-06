@@ -1,0 +1,9 @@
+numpy
+scipy
+matplotlib
+PyAudio
+pynput
+samplerate
+requests
+beautifulsoup4
+python-rtmidi

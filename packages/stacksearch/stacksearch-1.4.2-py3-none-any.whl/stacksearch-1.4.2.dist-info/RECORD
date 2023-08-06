@@ -1,0 +1,11 @@
+stacksearch/Search.py,sha256=8CzqCV-ocRx_bY-WSWRQnIgGNaGzMDTAea5GtPyIy4o,8395
+stacksearch/__init__.py,sha256=VS92yuRvVm334d6jzTsrSvneql6VekSOQSN44WDlC4s,365
+stacksearch/__main__.py,sha256=jdBnQ5KOOzambvXxyyxxuiB9xVVPzJPjDQfp2TXbUl8,6513
+stacksearch/errors.py,sha256=hGg0tSPykNIxNkI8wc4ULrCrnoHqYcbYagPwTc0p2K4,383
+stacksearch/txt_req.json,sha256=2JQKn66-xfvv9r0chaF5CXra8gZroXCw568w9qn-m38,54
+stacksearch-1.4.2.dist-info/LICENSE,sha256=dbt1VHhq8p14TyM5kaltGPDQ4x6RU1z7ehqQKP8gl98,1067
+stacksearch-1.4.2.dist-info/METADATA,sha256=mFod3aEtgnma3c9cePf2y8htYovzQWrJnvsoS4lO4fk,7560
+stacksearch-1.4.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+stacksearch-1.4.2.dist-info/entry_points.txt,sha256=oPVARoJZvrVztBwAMAzB4G3XGbFEQ_nPp-PxT93LbIA,63
+stacksearch-1.4.2.dist-info/top_level.txt,sha256=n2N7csn7_eSwuA4nMAkAdBRXan95_Nwz_PBEBF6Rs8Q,12
+stacksearch-1.4.2.dist-info/RECORD,,

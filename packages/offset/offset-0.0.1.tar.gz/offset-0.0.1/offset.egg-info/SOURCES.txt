@@ -1,0 +1,10 @@
+README.md
+setup.py
+bin/offset
+offset/__init__.py
+offset/offset.py
+offset/test_offset.py
+offset.egg-info/PKG-INFO
+offset.egg-info/SOURCES.txt
+offset.egg-info/dependency_links.txt
+offset.egg-info/top_level.txt

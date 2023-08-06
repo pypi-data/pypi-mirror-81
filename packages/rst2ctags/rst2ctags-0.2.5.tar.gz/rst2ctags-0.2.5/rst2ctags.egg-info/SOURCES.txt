@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+rst2ctags.py
+setup.py
+rst2ctags.egg-info/PKG-INFO
+rst2ctags.egg-info/SOURCES.txt
+rst2ctags.egg-info/dependency_links.txt
+rst2ctags.egg-info/entry_points.txt
+rst2ctags.egg-info/top_level.txt
+rst2ctags.egg-info/zip-safe

@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: industrialucn
+Version: 0.1.7.2
+Summary: Generic tool for numerical experiments
+Home-page: https://industrial.ucn.cl
+Author: Hernan Caceres
+Author-email: idustrial@ucn.cl
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: Free for non-commercial use
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# IndustrialUCN
+
+IndustrialUCN is an open-source effort from the Industrial Engineering Community at Universidad CatÃ³lica del Norte, 
+Chile ([industrial.ucn.cl](https://industrial.ucn.cl)). This package is intended for students
+and researchers of our field.
+
+

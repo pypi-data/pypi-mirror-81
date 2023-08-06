@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: flexs
+Version: 0.2.0
+Summary: FLEXS: an open simulation environment for developing and comparing model-guided biological sequence design algorithms.
+Home-page: https://github.com/samsinai/FLSD-Sandbox
+Author: 
+Author-email: 
+License: Apache
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+Requires-Dist: cma
+Requires-Dist: editdistance
+Requires-Dist: numpy (>=1.16)
+Requires-Dist: pandas (>=0.23)
+Requires-Dist: torch (>=0.4)
+Requires-Dist: scikit-learn (>=0.20)
+Requires-Dist: tape-proteins
+Requires-Dist: tensorflow (>=2)
+Requires-Dist: tf-agents (>=0.3)
+
+UNKNOWN
+
+

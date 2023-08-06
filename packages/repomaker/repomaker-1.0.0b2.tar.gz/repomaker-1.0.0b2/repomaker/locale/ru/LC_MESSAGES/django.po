@@ -1,0 +1,726 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# Arthur <un-logic@ya.ru>, 2019.
+# Tiller Luna <t.luna@protonmail.com>, 2020.
+# Golubev Alexander <fatzer2@gmail.com>, 2020.
+# Andrey <andrey@mailbox.org>, 2020.
+# Nikita Epifanov <nikgreens@protonmail.com>, 2020.
+# Dmitry Mikhirev <mikhirev@gmail.com>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-01 20:54+0000\n"
+"PO-Revision-Date: 2020-09-11 09:36+0000\n"
+"Last-Translator: Nikita Epifanov <nikgreens@protonmail.com>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/f-droid/repomaker/ru/>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.3-dev\n"
+
+#, python-format
+msgid "This file is not an update for %s"
+msgstr "Этот файл не является обновлением для %s"
+
+msgid "This APK already exists in the current repo."
+msgstr "Этот APK уже существует в текущем репозитории."
+
+msgid "Invalid APK signature"
+msgstr "Недействительная подпись APK"
+
+msgid "Invalid APK."
+msgstr "Некорректный APK."
+
+msgid "Unsupported File Type"
+msgstr "Неподдерживаемый тип файла"
+
+msgid "This file is of a different type than the other versions of this app."
+msgstr "Этот файл отличается от других версий этого приложения."
+
+msgid "APK"
+msgstr "APK"
+
+msgid "Book"
+msgstr "Книга"
+
+msgid "Document"
+msgstr "Документ"
+
+msgid "Image"
+msgstr "Изображение"
+
+msgid "Audio"
+msgstr "Аудио"
+
+msgid "Video"
+msgstr "Видео"
+
+msgid "Other"
+msgstr "Другое"
+
+msgid "This app does already exist in your repository."
+msgstr "Это приложение уже существует в вашем репозитории."
+
+msgid "This app does not have any working versions available."
+msgstr "У этого приложения нет доступных рабочих версий."
+
+msgid "Phone"
+msgstr "Телефон"
+
+msgid "7'' Tablet"
+msgstr "7'' планшет"
+
+msgid "10'' Tablet"
+msgstr "10'' планшет"
+
+msgid "TV"
+msgstr "ТВ"
+
+msgid "Wearable"
+msgstr "Часы"
+
+msgid "US Standard"
+msgstr "Стандарт США"
+
+msgid "Amazon S3 Storage"
+msgstr "Хранилище Amazon S3"
+
+msgid "Enter a valid user name consisting of letters, numbers, underscores or hyphens."
+msgstr "Введите действительное имя пользователя, состоящее из букв, цифр, подчеркиваний или дефиса."
+
+msgid "Enter a valid hostname."
+msgstr "Введите действительное имя хоста."
+
+msgid "Enter a valid path."
+msgstr "Введите допустимый путь."
+
+msgid "SSH Storage"
+msgstr "Хранилище SSH"
+
+msgid "Git Storage"
+msgstr "Хранилище Git"
+
+msgid "Default Storage"
+msgstr "Хранилище по умолчанию"
+
+msgid "American English"
+msgstr "Американский английский"
+
+msgid "Change E-mail"
+msgstr "Изменить email"
+
+msgid "Sign Out"
+msgstr "Выйти"
+
+msgid "Sign In"
+msgstr "Войти"
+
+msgid "Sign Up"
+msgstr "Зарегистрироваться"
+
+msgid "Distribute apps."
+msgstr "Распределите приложения."
+
+msgid "Spread the love."
+msgstr "Распространять любовь."
+
+msgid "Repomaker is a free web app built for creating collections of apps, music, books, videos and pictures to share with your peers. It uses F-Droid as the mobile distribution platform. Available on Android only."
+msgstr "Repomaker — это бесплатное веб-приложение для создания коллекций приложений, музыки, книг, видео и картинок для совместного использования с коллегами. Оно использует F-Droid в качестве мобильной платформы распространения. Доступно только на Android."
+
+msgid "Login"
+msgstr "Вход"
+
+msgid "Forgot Password"
+msgstr "Забыли пароль"
+
+msgid "Or login with"
+msgstr "Или войти при помощи"
+
+msgid "Logout"
+msgstr "Выйти"
+
+msgid "See you later"
+msgstr "Увидимся"
+
+msgid "Your security is important to us. Please confirm that you want to logout."
+msgstr "Ваша безопасность важна для нас. Подтвердите, что вы хотите выйти."
+
+msgid "logout"
+msgstr "выход"
+
+msgid "submit"
+msgstr "отправить"
+
+msgid "We have sent you an email with a link to reset your password."
+msgstr "Мы отправили вам email со ссылкой для сброса пароля."
+
+msgid "Signup"
+msgstr "Регистрация"
+
+msgid "Delete App Version"
+msgstr "Удалить версию приложения"
+
+#, python-format
+msgid "Are you sure you want to delete this version <strong>%(version)s</strong> (%(code)s) from your app <strong>%(app)s</strong>?"
+msgstr "Вы действительно хотите удалить эту версию <strong>%(version)s</strong> (%(code)s) из вашего приложения <strong>%(app)s</strong>?"
+
+msgid "Confirm"
+msgstr "Подтвердить"
+
+msgid "Delete App"
+msgstr "Удалить приложение"
+
+#, python-format
+msgid "Are you sure you want to delete your app <strong>%(object)s</strong>?"
+msgstr "Вы действительно хотите удалить приложение <strong>%(object)s</strong>?"
+
+#, python-format
+msgid "Edit %(app)s"
+msgstr "Изменить %(app)s"
+
+msgid "Remove App"
+msgstr "Удалить приложение"
+
+msgid "Done"
+msgstr "Готово"
+
+msgid "By"
+msgstr "От"
+
+msgid "Summary Override (40 characters)"
+msgstr "Сводка (40 символов)"
+
+msgid "Short Summary (40 characters)"
+msgstr "Короткая сводка (40 символов)"
+
+msgid "Category"
+msgstr "Категория"
+
+msgid "Choose Category"
+msgstr "Выберите категорию"
+
+msgid "Description Override"
+msgstr "Описание"
+
+msgid "Description"
+msgstr "Описание"
+
+msgid "Screenshots"
+msgstr "Скриншоты"
+
+msgid "Add files"
+msgstr "Добавить файлы"
+
+msgid "Drag and drop screenshots"
+msgstr "Перетаскивание скриншотов"
+
+msgid "or"
+msgstr "или"
+
+msgid "browse to upload"
+msgstr "загрузить"
+
+msgid "Feature Graphic"
+msgstr "Графический объект"
+
+msgid "Drag and drop a feature graphic"
+msgstr "Перетаскивание графического объекта"
+
+msgid "Drag and drop .apk files"
+msgstr "Перетаскивание файлов .apk"
+
+msgid "Back"
+msgstr "Назад"
+
+msgid "Editing Disabled"
+msgstr "Редактирование отключено"
+
+msgid "This app gets updated automatically from the remote repo. If you want to edit it yourself, you need to disable automatic updates first. Please note that without automatic updates, you will need to add new versions manually."
+msgstr "Это приложение обновляется автоматически из удаленного репозитория. Если вы хотите изменить его самостоятельно, то отключите автоматическое обновление. Обратите внимание, что без автоматического обновления, вам нужно будет добавлять новые версии вручную."
+
+msgid "Disable Automatic Updates"
+msgstr "Отключить автоматические обновления"
+
+msgid "Delete Feature Graphic"
+msgstr "Удалить Графическое оформление"
+
+#, python-format
+msgid "Are you sure you want to delete the feature graphic from your app <strong>%(app)s</strong>?"
+msgstr "Вы действительно хотите удалить графический объект из своего приложения <strong>%(app)s</strong>?"
+
+#, python-format
+msgid "Languages (%(count)s)"
+msgstr "Языки (%(count)s)"
+
+msgid "Edit"
+msgstr "Изменить"
+
+msgid "Add Translation"
+msgstr "Добавить перевод"
+
+#, python-format
+msgid "By %(author)s"
+msgstr "По %(author)s"
+
+#, python-format
+msgid "Updated %(time)s ago"
+msgstr "Обновлено %(time)s назад"
+
+#, python-format
+msgid "This app gets automatically updated from the remote repo \"%(repo_name)s\"."
+msgstr "Это приложение автоматически обновляется с удаленного репозитория \"%(repo_name)s\"."
+
+msgid "version history"
+msgstr "история версий"
+
+#, python-format
+msgid "Version %(version)s (%(code)s)"
+msgstr "Версия %(version)s (%(code)s)"
+
+#, python-format
+msgid "Released %(date)s"
+msgstr "Выпущена %(date)s"
+
+msgid "APK is still downloading..."
+msgstr "APK загружается..."
+
+msgid "This app has no APK files."
+msgstr "Это приложение не имеет файлов APK."
+
+msgid "If you added this app from a remote repo, try deleting it and adding it again."
+msgstr "Если это приложение из стороннего репозитория, попробуйте удалить его и снова добавить."
+
+msgid "Previous"
+msgstr "Назад"
+
+msgid "Next"
+msgstr "Дальше"
+
+msgid "Add"
+msgstr "Добавить"
+
+msgid "There are currently no screenshots shown because this gives the repo owner the ability to track you."
+msgstr "Сейчас скриншоты не видны, потому что это позволит владельцу репозитория отследить вас."
+
+msgid "show screenshots"
+msgstr "показать скриншоты"
+
+msgid "Delete Screenshot"
+msgstr "Удалить скриншот"
+
+#, python-format
+msgid "Are you sure you want to delete this screenshot from your app <strong>%(app)s</strong>?"
+msgstr "Уверены, что хотите удалить скриншот вашего приложения <strong>%(app)s</strong>?"
+
+msgid "Language Code"
+msgstr "Код языка"
+
+#, python-format
+msgid "Hello, %(user)s"
+msgstr "Здравствуйте, %(user)s"
+
+msgid "Please Wait!"
+msgstr "Пожалуйста, подождите."
+
+msgid "Background Operation in Progress"
+msgstr "Выполняется фоновая операция"
+
+msgid "Repomaker might be updating or publishing your repo. Or it might be updating a remote repo. Depending on the type and size of the background operation, this might take awhile."
+msgstr "Возможно, Repomaker обновляет или публикует Ваш репозиторий. Или, возможно, обновляет удалённый репозиторий. Это может занять некоторое время, в зависимости от вида и объёма фоновой операции."
+
+msgid "Try Again"
+msgstr "Попробуйте снова"
+
+msgid "The button won't work for you. Please press F5 to try again."
+msgstr "Вам недоступна эта кнопка. Пожалуйста, нажмите F5, чтобы попробовать снова."
+
+msgid "Error"
+msgstr "Ошибка"
+
+msgid "My Repos"
+msgstr "Мои репозитории"
+
+#, python-format
+msgid "Published %(time_ago)s"
+msgstr "Опубликовано %(time_ago)s"
+
+#, python-format
+msgid "Created %(time_ago)s"
+msgstr "Создан %(time_ago)s"
+
+msgid "Make a collection of apps to share"
+msgstr "Создайте коллекцию приложений, которыми вы хотите поделиться"
+
+msgid "Create Repo"
+msgstr "Создать репозиторий"
+
+msgid "New Repo"
+msgstr "Новый репозиторий"
+
+msgid "Create"
+msgstr "Создать"
+
+msgid "Delete Repo"
+msgstr "Удалить репозиторий"
+
+#, python-format
+msgid "Are you sure you want to delete the repo <strong>%(repo)s</strong>?"
+msgstr "Вы действительно хотите удалить репозиторий <strong>%(repo)s</strong>?"
+
+msgid "This will also delete all apps and other files from your repo. You will not be able to get them back, users of your repo will not be able to use it anymore and not receive updates for the apps they received from you. There is no way to recover this repo!"
+msgstr "Все приложения и прочие файлы также будут удалены из вашего репозитория. Вы не сможете их вернуть, пользователи вашего репозитория больше не смогут его использовать, в том числе для обновления приложений, полученных от вас. Восстановление этого репозитория будет невозможно!"
+
+msgid "Please only proceed if you know what you are doing!"
+msgstr "Продолжайте только в том случае, если вы знаете, что делаете."
+
+msgid "Yes, I want to delete the repo"
+msgstr "Да, я хочу удалить репозиторий"
+
+msgid "Edit Repo"
+msgstr "Изменить Репозиторий"
+
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+msgid "Content"
+msgstr "Содержание"
+
+msgid "Share"
+msgstr "Поделиться"
+
+msgid "Info"
+msgstr "Сведения"
+
+msgid "Search for apps in your repository"
+msgstr "Поиск приложений в Вашем репозитории"
+
+msgid "add from gallery"
+msgstr "добавить из галереи"
+
+#, python-format
+msgid "Alternatively, drag and drop or %(label_start)schoose files%(label_end)s"
+msgstr "Также можно перетащить или %(label_start)sвыбрать файлы%(label_end)s"
+
+msgid "Accepted files include Android apps, documents, eBooks, audio and video."
+msgstr "Допускаются файлы приложений Android, документы, электронные книги, аудио и видео."
+
+msgid "Your search did not return any results."
+msgstr "По Вашему запросу ничего не найдено."
+
+msgid "Name"
+msgstr "Имя"
+
+msgid "Storage"
+msgstr "Хранилище"
+
+msgid "Add Storage"
+msgstr "Добавить хранилище"
+
+msgid "Fingerprint"
+msgstr "Отпечаток"
+
+msgid "Remove Repo"
+msgstr "Удалить репозиторий"
+
+msgid "Add storage to publish"
+msgstr "Подготовить хранилище для публикации"
+
+msgid "Your repo will be automatically published when you add storage. Repomaker does not publically promote your stuff. Only people who receive the direct link to your repo will be able to see it."
+msgstr "После добавления хранилища репозиторий будет опубликован автоматически. Repomaker не распространяет свободно Ваших данных. Их увидят только те, кто получил прямую ссылку на Ваш репозиторий."
+
+msgid "add storage"
+msgstr "добавьте хранилище"
+
+#, python-format
+msgid "You have  <span>%(app_count)s app</span> in your repo. Share it!"
+msgid_plural "You have  <span>%(app_count)s apps</span> in your repo. Share it!"
+msgstr[0] "У Вас в репозитории <span>%(app_count)s app</span> приложение. Поделитесь им!"
+msgstr[1] "У Вас в репозитории <span>%(app_count)s app</span> приложения. Поделитесь им!"
+msgstr[2] "У Вас в репозитории <span>%(app_count)s app</span> приложений. Поделитесь им!"
+
+msgid "view repo"
+msgstr "показать репозиторий"
+
+msgid "share public link"
+msgstr "опубликовать ссылку"
+
+msgid "copy link"
+msgstr "скопировать ссылку"
+
+msgid "add to an android phone"
+msgstr "добавить на аппарат с Android"
+
+msgid "To install these apps on your Android phone, add them to F-Droid."
+msgstr "Для того, чтобы установить эти приложения на свой аппарат Android, добавьте их в F-Droid."
+
+msgid "F-Droid ensures access to secure app updates."
+msgstr "F-Droid позволяет безопасно получать обновления приложения."
+
+msgid "Scan QR"
+msgstr "Сканировать код QR"
+
+#, python-format
+msgid "Check out this F-Droid repo: %(name)s"
+msgstr "Проверьте этот репозиторий F-Droid: %(name)s"
+
+msgid "Browse Gallery"
+msgstr "Просмотреть Галерею"
+
+msgid "Search"
+msgstr "Поиск"
+
+#, python-format
+msgid "Category (%(count)s)"
+msgstr "Категория (%(count)s)"
+
+msgid "All"
+msgstr "Все"
+
+#, python-format
+msgid "Source (%(count)s)"
+msgstr "Источник (%(count)s)"
+
+msgid "Add a repo"
+msgstr "Добавить репозиторий"
+
+msgid "Clear filters"
+msgstr "Сбросить фильтры"
+
+#, python-format
+msgid "No apps found that match '%(search_term)s'. Please try a different search or remove other filter criteria."
+msgstr "По запросу '%(search_term)s' приложений не найдено. Попробуйте другой запрос или откажитесь от одного критериев фильтра."
+
+msgid "There are no apps in this repo."
+msgstr "Этот репозиторий пуст."
+
+msgid "There are no apps available in the repos."
+msgstr "Все репозитории пусты."
+
+msgid "If you just added a repo, wait for the apps to download and try again later."
+msgstr "Если Вы только что добавили репозиторий, дождитесь загрузки приложений и попробуйте снова."
+
+msgid "This repo has no apps in the selected category. Try clearing it or select a different repo."
+msgstr "В выбранных категориях этого репозитория приложений нет. Попробуйте её убрать или выберите другой репозиторий."
+
+msgid "There are no apps available in the selected category. Try clearing it."
+msgstr "В выбранных категориях нет приложений. Попробуйте их убрать."
+
+msgid "Delete Storage"
+msgstr "Удалить хранилище"
+
+#, python-format
+msgid "Are you sure you want to remove the storage at <strong>%(object)s</strong> from your repo?"
+msgstr "Вы уверены, что хотите удалить хранилище в <strong>%(object)s</strong> из своего репозитория?"
+
+msgid "This will not remove the content from that storage but will stop to publish future versions of your repo to it."
+msgstr "Эта операция не удалит содержимое из данного хранилища, вместо этого прекратится публикация новых версий Вашего репозитория."
+
+msgid "Enable Storage"
+msgstr "Включить хранилище"
+
+msgid "Disable Storage"
+msgstr "Отключить хранилище"
+
+msgid "Repo Address"
+msgstr "Адрес репозитория"
+
+msgid "Edit Storage"
+msgstr "Изменить хранилище"
+
+msgid "Please make sure to add this public SSH key to your Git account for the upload to work. There are instructions for <a href=\"https://docs.gitlab.com/ee/gitlab-basics/create-your-ssh-keys.html#how-to-create-your-ssh-keys\">Gitlab</a> and <a href=\"https://developer.github.com/v3/guides/managing-deploy-keys/#deploy-keys\">GitHub</a>."
+msgstr "Чтобы выгрузка заработала, не забудьте добавить данный открытый ключ SSH в свою учётную запись Git. Вот инструкции для <a href=\"https://docs.gitlab.com/ee/gitlab-basics/create-your-ssh-keys.html#how-to-create-your-ssh-keys\">Gitlab</a> и <a href=\"https://developer.github.com/v3/guides/managing-deploy-keys/#deploy-keys\">GitHub</a>."
+
+msgid "Also, please make sure that the master branch of your repository is <b>not protected</b> from force pushing."
+msgstr "Также убедитесь, что основная ветвь вашего репозитория <b>не защищена</b> от force pushing."
+
+msgid "Git Repository SSH Address"
+msgstr "Адрес SSH репозитория Git"
+
+msgid "Region"
+msgstr "Регион"
+
+msgid "Bucket"
+msgstr "Корзина"
+
+msgid "Access Key ID"
+msgstr "ID ключа доступа"
+
+msgid "Please make sure to add this public SSH key to your SSH server's <tt> <a href=\"https://en.wikibooks.org/wiki/OpenSSH/Client_Configuration_Files#.7E.2F.ssh.2Fauthorized_keys\">~/.ssh/authorized_keys</a> </tt> file,\tif you have not done so already."
+msgstr "Пожалуйста, убедитесь в том, что этот открытый ключ SSH добавлен в файл <tt> <a href=\"https://en.wikibooks.org/wiki/OpenSSH/Client_Configuration_Files#.7E.2F.ssh.2Fauthorized_keys\">~/.ssh/authorized_keys</a> </tt> Вашего сервера SSH."
+
+msgid "Security Warning: This gives repomaker write access to that storage. Please limit this user's access as much as possible."
+msgstr "Предупреждение по безопасности: Это даёт repomaker доступ на запись в данное хранилище. По возможности ограничьте права доступа этого пользователя."
+
+msgid "Username"
+msgstr "Имя пользователя"
+
+msgid "Host"
+msgstr "Адрес IP"
+
+msgid "Path"
+msgstr "Путь"
+
+msgid "Your local default SSH key will be used to connect to the storage."
+msgstr "Для подключения к хранилищу будет использован Ваш ключ SSH по-умолчанию."
+
+msgid "Please make sure to authorize this public SSH key for your remote storage, if you have not done so already."
+msgstr "Убедитесь в том, что данный открытый ключ SSH авторизован на Вашем удалённом хранилище, если нет, то исправьте это."
+
+msgid "Activate this storage only once you have added the SSH key."
+msgstr "Активируйте это хранилище только после добавления ключа SSH."
+
+msgid "If this storage is experiencing problems, please check that the SSH key works properly."
+msgstr "Если у Вас проблемы с хранилищем, пожалуйста, убедитесь, что ключ SSH подходит."
+
+#, python-format
+msgid "Update %(storage_name)s"
+msgstr "Обновить %(storage_name)s"
+
+#, python-format
+msgid "Setup %(storage_name)s"
+msgstr "Настроить %(storage_name)s"
+
+msgid "cancel"
+msgstr "отмена"
+
+msgid "save"
+msgstr "сохранить"
+
+msgid "Here's how to copy the SSH Address from GitLab:"
+msgstr "Вот так можно скопировать адрес SSH с GitLab:"
+
+msgid "Setup a place to store your repo"
+msgstr "Укажите место хранения своего репозитория"
+
+msgid "Git"
+msgstr "Git"
+
+msgid "Easy, free, requires an account"
+msgstr "Просто, бесплатно, требуется учётная запись"
+
+msgid "Git is a popular tool to version control things. You can securely publish repos to GitLab, GitHub or any other Git service. Git services use SSH to securely copy files from your computer to remote computers."
+msgstr "Git — распространённый инструментарий для контроля версий. Можно безопасно публиковать свои репозитории на GitLab'е, GitHub'е и любых других сервисах поддерживающих Git. Для безопасного копирования файлов с Вашего компьютера на удалённые такие сервисы применяют SSH."
+
+msgid "Setup"
+msgstr "Настройка"
+
+msgid "GitLab"
+msgstr "GitLab"
+
+msgid "GitHub"
+msgstr "GitHub"
+
+msgid "SSH"
+msgstr "SSH"
+
+msgid "Requires a personal web server or host that supports SSH"
+msgstr "Требуется собственный веб-сервер или хост, поддерживающий SSH"
+
+msgid "SSH is a technology that can be used to copy files securely to remote computers. When using Git as storage, the files will also be copied via SSH. But the pure SSH option directly copies the files without using any other technology."
+msgstr "SSH — это технология, которую можно использовать для безопасного копирования файлов на удалённые компьютеры. При использовании Git в качестве хранилища файлы также копируются с помощью SSH. Но в варианте с «чистым SSH» файлы будут копироваться напрямую, без применения других технологий."
+
+msgid "Amazon S3"
+msgstr "Amazon S3"
+
+msgid "Requires an Amazon account, Pricing varies"
+msgstr "Требуется учётная запись Amazon, цены различные"
+
+msgid "Amazon S3 is a web service offered by Amazon Web Services. Amazon S3 provides storages through web service interfaces. Pricing varies. Visit the Amazon S3 website for details."
+msgstr "Amazon S3 — веб-сервис, предлагаемый Amazon Web Services. Amazon S3 предлагает хранилища при помощи веб-услуг. Цены различные. Подробности на сайте Amazon S3."
+
+#, python-format
+msgid "Version %(version)s (%(date)s)"
+msgstr "Версия %(version)s (%(date)s)"
+
+msgid "Added"
+msgstr "Добавлено"
+
+msgid "There was an error creating the repository. Please try again!"
+msgstr "При создании репозитория возникла ошибка. Попробуйте снова!"
+
+msgid "Enter email"
+msgstr "Введите адрес e-mail"
+
+msgid "Enter your email address and we'll send a link to reset it. If you did not sign up with an email, we cannot help you securely reset your password."
+msgstr "Введите свой адрес e-mail и мы вышлем ссылку для сброса. Если Вы регистрируетесь без указания e-mail, мы не сможем безопасно сбросить Ваш пароль."
+
+msgid "This is not a valid language code."
+msgstr "Неправильный код языка."
+
+msgid "This language already exists. Please choose another one!"
+msgstr "Такой язык уже есть. Пожалуйста, выберите другой!"
+
+msgid "Enter SSH URL"
+msgstr "Введите адрес SSH"
+
+msgid "Raw Git URL"
+msgstr "Исходный адрес Git"
+
+msgid "This is the location where the uploaded files can be accessed from in raw form. Leave empty for GitHub or GitLab.com repositories."
+msgstr "Это то место, откуда выгруженные файлы будут доступны в изначальном виде. Не заполняйте для репозиториев на GitHub или GitLab.com."
+
+msgid "This URL must start with 'git@'."
+msgstr "Адрес должен начинаться с \"git@\"."
+
+msgid "This URL must end with '.git'."
+msgstr "Адрес должен оканчиваться на \".git\"."
+
+msgid "This URL is invalid. Please copy the exact SSH URL of your git repository."
+msgstr "Неправильный адрес. Пожалуйста, точно скопируйте адрес SSH своего репозитория git."
+
+msgid "Please add a valid URLfor the raw content of this git repository."
+msgstr "Пожалуйста, добавьте правильную ссылку на изначальное содержимое данного репозитория git."
+
+msgid "Repository URL"
+msgstr "URL репозитория"
+
+msgid "Please use a URL with a fingerprint at the end, so we can validate the authenticity of the repository."
+msgstr "Пожалуйста, используйте URL с отпечатком на конце, чтобы мы смогли проверить подлинность репозитория."
+
+msgid "Please don't add one of your own repositories here."
+msgstr "Пожалуйста, не добавляйте сюда свои репозитории."
+
+#, python-format
+msgid "Could not validate repository: %s"
+msgstr "Не удалось проверить репозиторий: %s"
+
+msgid "Describe the repo"
+msgstr "Опишите репозиторий"
+
+msgid "Bucket Name"
+msgstr "Имя корзины"
+
+msgid "Secret Access Key"
+msgstr "Секретный ключ доступа"
+
+msgid "Other regions are currently not supported."
+msgstr "Другие регионы пока не поддерживаются."
+
+msgid "Language"
+msgstr "Язык"
+
+msgid "Select Screenshot for upload"
+msgstr "Выберите снимок экрана для загрузки"
+
+msgid "Use local default SSH Key"
+msgstr "Использовать локальный ключ SSH по умолчанию"
+
+msgid "User Name"
+msgstr "Имя пользователя"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "This is the location where the uploaded files can be accessed from."
+msgstr "Отсюда можно получить доступ к выгруженным файлам."
+
+msgid "Primary Storage"
+msgstr "Основное хранилище"
+
+msgid "Make this storage the primary storage of the repository."
+msgstr "Сделать это хранилище основным для этого репозитория."

@@ -1,0 +1,719 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Nathan Follens <nthn@unseen.is>, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-01 20:54+0000\n"
+"PO-Revision-Date: 2019-02-10 12:09+0000\n"
+"Last-Translator: Nathan Follens <nthn@unseen.is>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/f-droid/repomaker/nl/>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.5-dev\n"
+
+#, python-format
+msgid "This file is not an update for %s"
+msgstr "Dit bestand is geen update voor %s"
+
+msgid "This APK already exists in the current repo."
+msgstr "Dit APK bestaat al in de huidige bron."
+
+msgid "Invalid APK signature"
+msgstr "Ongeldige APK-handtekening"
+
+msgid "Invalid APK."
+msgstr "Ongeldige APK."
+
+msgid "Unsupported File Type"
+msgstr "Niet-ondersteund bestandstype"
+
+msgid "This file is of a different type than the other versions of this app."
+msgstr "Dit bestand heeft een ander type dan de andere versies van deze app."
+
+msgid "APK"
+msgstr "APK"
+
+msgid "Book"
+msgstr "Boek"
+
+msgid "Document"
+msgstr "Document"
+
+msgid "Image"
+msgstr "Afbeelding"
+
+msgid "Audio"
+msgstr "Audio"
+
+msgid "Video"
+msgstr "Video"
+
+msgid "Other"
+msgstr "Andere"
+
+msgid "This app does already exist in your repository."
+msgstr "Deze app bestaat al in je bron."
+
+msgid "This app does not have any working versions available."
+msgstr "Deze app heeft geen werkende versies beschikbaar."
+
+msgid "Phone"
+msgstr "Telefoon"
+
+msgid "7'' Tablet"
+msgstr "7\" tablet"
+
+msgid "10'' Tablet"
+msgstr "10\" tablet"
+
+msgid "TV"
+msgstr "Tv"
+
+msgid "Wearable"
+msgstr "Wearable"
+
+msgid "US Standard"
+msgstr "US-standaard"
+
+msgid "Amazon S3 Storage"
+msgstr "Amazon S3-opslag"
+
+msgid "Enter a valid user name consisting of letters, numbers, underscores or hyphens."
+msgstr "Vul een geldige gebruikersnaam in bestaande uit letters, cijfers, underscores of koppeltekens."
+
+msgid "Enter a valid hostname."
+msgstr "Vul een geldige hostnaam in."
+
+msgid "Enter a valid path."
+msgstr "Vul een geldig pad in."
+
+msgid "SSH Storage"
+msgstr "SSH-opslag"
+
+msgid "Git Storage"
+msgstr "Git-opslag"
+
+msgid "Default Storage"
+msgstr "Standaardopslag"
+
+msgid "American English"
+msgstr "Amerikaans Engels"
+
+msgid "Change E-mail"
+msgstr "E-mailadres wijzigen"
+
+msgid "Sign Out"
+msgstr "Uitloggen"
+
+msgid "Sign In"
+msgstr "Inloggen"
+
+msgid "Sign Up"
+msgstr "Registreren"
+
+msgid "Distribute apps."
+msgstr "Distribueer apps."
+
+msgid "Spread the love."
+msgstr "Verspreid de liefde."
+
+msgid "Repomaker is a free web app built for creating collections of apps, music, books, videos and pictures to share with your peers. It uses F-Droid as the mobile distribution platform. Available on Android only."
+msgstr "Repomaker is een gratis webapp ontworpen voor het creëren van collecties van apps, muziek, boeken, video’s en afbeeldingen om te delen met je peers. Het gebruikt F-Droid als het mobiele distributieplatform. Alleen beschikbaar op Android."
+
+msgid "Login"
+msgstr "Inloggen"
+
+msgid "Forgot Password"
+msgstr "Wachtwoord vergeten"
+
+msgid "Or login with"
+msgstr "Of log in met"
+
+msgid "Logout"
+msgstr "Log uit"
+
+msgid "See you later"
+msgstr "Tot ziens"
+
+msgid "Your security is important to us. Please confirm that you want to logout."
+msgstr "Je veiligheid is belangrijk voor ons. Bevestig alsjeblieft dat je wilt uitloggen."
+
+msgid "logout"
+msgstr "log uit"
+
+msgid "submit"
+msgstr "bevestigen"
+
+msgid "We have sent you an email with a link to reset your password."
+msgstr "We hebben je een e-mail gestuurd met een link om je wachtwoord opnieuw in te stellen."
+
+msgid "Signup"
+msgstr "Registratie"
+
+msgid "Delete App Version"
+msgstr "Appversie verwijderen"
+
+#, python-format
+msgid "Are you sure you want to delete this version <strong>%(version)s</strong> (%(code)s) from your app <strong>%(app)s</strong>?"
+msgstr "Weet je zeker dat je de versie <strong>%(version)s</strong> (%(code)s) van je app <strong>%(app)s</strong> wilt verwijderen?"
+
+msgid "Confirm"
+msgstr "Bevestigen"
+
+msgid "Delete App"
+msgstr "App verwijderen"
+
+#, python-format
+msgid "Are you sure you want to delete your app <strong>%(object)s</strong>?"
+msgstr "Weet je zeker dat je de app <strong>%(object)s</strong> wilt verwijderen?"
+
+#, python-format
+msgid "Edit %(app)s"
+msgstr "Bewerk %(app)s"
+
+msgid "Remove App"
+msgstr "App verwijderen"
+
+msgid "Done"
+msgstr "Klaar"
+
+msgid "By"
+msgstr "Door"
+
+msgid "Summary Override (40 characters)"
+msgstr "Samenvatting Overschrijven (40 tekens)"
+
+msgid "Short Summary (40 characters)"
+msgstr "Korte Samenvatting (40 tekens)"
+
+msgid "Category"
+msgstr "Categorie"
+
+msgid "Choose Category"
+msgstr "Kies categorie"
+
+msgid "Description Override"
+msgstr "Beschrijving Overschrijven (40 tekens)"
+
+msgid "Description"
+msgstr "Beschrijving"
+
+msgid "Screenshots"
+msgstr "Schermafdrukken"
+
+msgid "Add files"
+msgstr "Bestanden toevoegen"
+
+msgid "Drag and drop screenshots"
+msgstr "Versleep schermafdrukken naar hier"
+
+msgid "or"
+msgstr "of"
+
+msgid "browse to upload"
+msgstr "blader om te uploaden"
+
+msgid "Feature Graphic"
+msgstr "Functieafbeelding"
+
+msgid "Drag and drop a feature graphic"
+msgstr "Functieafbeelding slepen en neer zetten"
+
+msgid "Drag and drop .apk files"
+msgstr ".apk-bestanden slepen en neer zetten"
+
+msgid "Back"
+msgstr "Terug"
+
+msgid "Editing Disabled"
+msgstr "Bewerken uitgeschakeld"
+
+msgid "This app gets updated automatically from the remote repo. If you want to edit it yourself, you need to disable automatic updates first. Please note that without automatic updates, you will need to add new versions manually."
+msgstr "Deze app wordt automatisch geüpdatet van de externe bron. Als je deze zelf wil bewerken, moet je eerst automatische updates uitzetten. Wees ervan bewust dat zonder automatische updates, je nieuwe versies handmatig moet toevoegen."
+
+msgid "Disable Automatic Updates"
+msgstr "Zet automatische updates uit"
+
+msgid "Delete Feature Graphic"
+msgstr "Beschrijvende afbeelding verwijderen"
+
+#, python-format
+msgid "Are you sure you want to delete the feature graphic from your app <strong>%(app)s</strong>?"
+msgstr "Weet je zeker dat je de beschrijvende afbeelding uit je app <strong>%(app)s</strong> wilt verwijderen?"
+
+#, python-format
+msgid "Languages (%(count)s)"
+msgstr "Talen (%(count)s1)"
+
+msgid "Edit"
+msgstr "Bewerken"
+
+msgid "Add Translation"
+msgstr "Vertaling toevoegen"
+
+#, python-format
+msgid "By %(author)s"
+msgstr "Door %(author)s"
+
+#, python-format
+msgid "Updated %(time)s ago"
+msgstr "%(time)s geleden bijgewerkt"
+
+#, python-format
+msgid "This app gets automatically updated from the remote repo \"%(repo_name)s\"."
+msgstr "Deze app wordt automatisch bijgewerkt van de externe pakketbron ‘%(repo_name)s’."
+
+msgid "version history"
+msgstr "versiegeschiedenis"
+
+#, python-format
+msgid "Version %(version)s (%(code)s)"
+msgstr "Versie %(version)s (%(code)s)"
+
+#, python-format
+msgid "Released %(date)s"
+msgstr "Uitgebracht op %(date)s"
+
+msgid "APK is still downloading..."
+msgstr "APK wordt nog steeds gedownload..."
+
+msgid "This app has no APK files."
+msgstr "Deze app heeft geen APK-bestanden."
+
+msgid "If you added this app from a remote repo, try deleting it and adding it again."
+msgstr "Als u deze app hebt toegevoegd vanaf een externe pakketbron, probeer deze dan te verwijderen en opnieuw toe te voegen."
+
+msgid "Previous"
+msgstr "Vorige"
+
+msgid "Next"
+msgstr "Volgende"
+
+msgid "Add"
+msgstr "Toevoegen"
+
+msgid "There are currently no screenshots shown because this gives the repo owner the ability to track you."
+msgstr "Er worden momenteel geen schermafdrukken weergegeven omdat het de eigenaar van de pakketbron de mogelijkheid geeft om u te tracken."
+
+msgid "show screenshots"
+msgstr "toon schermafdrukken"
+
+msgid "Delete Screenshot"
+msgstr "Schermafdruk verwijderen"
+
+#, python-format
+msgid "Are you sure you want to delete this screenshot from your app <strong>%(app)s</strong>?"
+msgstr "Weet je zeker dat je deze schermafdruk van je app <strong>%(app)s</strong> wilt verwijderen?"
+
+msgid "Language Code"
+msgstr "Taalcode"
+
+#, python-format
+msgid "Hello, %(user)s"
+msgstr "Hallo, %(user)s"
+
+msgid "Please Wait!"
+msgstr "Even geduld!"
+
+msgid "Background Operation in Progress"
+msgstr "Achtergrondbewerking in uitvoering"
+
+msgid "Repomaker might be updating or publishing your repo. Or it might be updating a remote repo. Depending on the type and size of the background operation, this might take awhile."
+msgstr "Repomaker is mogelijk bezig met je pakketbron bij te werken of te publiceren, of het kan een externe pakketbron aan het bijwerken zijn. Afhankelijk van het type en de grootte van de achtergrondoperatie, kan dit even duren."
+
+msgid "Try Again"
+msgstr "Opnieuw proberen"
+
+msgid "The button won't work for you. Please press F5 to try again."
+msgstr "Deze knop werkt niet voor jou. Druk op F5 om het opnieuw te proberen."
+
+msgid "Error"
+msgstr "Fout"
+
+msgid "My Repos"
+msgstr "Mijn bronnen"
+
+#, python-format
+msgid "Published %(time_ago)s"
+msgstr "%(time_ago)s gepubliceerd"
+
+#, python-format
+msgid "Created %(time_ago)s"
+msgstr "%(time_ago)s aangemaakt"
+
+msgid "Make a collection of apps to share"
+msgstr "Maak een verzameling apps om te delen"
+
+msgid "Create Repo"
+msgstr "Bron aanmaken"
+
+msgid "New Repo"
+msgstr "Nieuwe bron"
+
+msgid "Create"
+msgstr "Maak"
+
+msgid "Delete Repo"
+msgstr "Bron verwijderen"
+
+#, python-format
+msgid "Are you sure you want to delete the repo <strong>%(repo)s</strong>?"
+msgstr "Weet je zeker dat je de bron <strong>%(repo)s</strong> wilt verwijderen?"
+
+msgid "This will also delete all apps and other files from your repo. You will not be able to get them back, users of your repo will not be able to use it anymore and not receive updates for the apps they received from you. There is no way to recover this repo!"
+msgstr "Dit zal alle apps en andere bestanden van je bron verwijderen. Je zult ze niet terug kunnen krijgen, gebruikers van je bron kunnen je bron niet meer gebruiken en zullen geen updates meer krijgen van de apps die ze van jou hebben ontvangen. Er is geen manier om deze bron te herstellen!"
+
+msgid "Please only proceed if you know what you are doing!"
+msgstr "Ga alleen verder als je weet wat je aan het doen bent!"
+
+msgid "Yes, I want to delete the repo"
+msgstr "Ja, ik wil deze bron verwijderen"
+
+msgid "Edit Repo"
+msgstr "Bron bewerken"
+
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+msgid "Content"
+msgstr "Inhoud"
+
+msgid "Share"
+msgstr "Delen"
+
+msgid "Info"
+msgstr "Informatie"
+
+msgid "Search for apps in your repository"
+msgstr "Zoek naar apps in je bron"
+
+msgid "add from gallery"
+msgstr "toevoegen vanuit galerij"
+
+#, python-format
+msgid "Alternatively, drag and drop or %(label_start)schoose files%(label_end)s"
+msgstr "Je kunt ook slepen en neerzetten gebruiken of %(label_start)sbestanden kiezen%(label_end)s"
+
+msgid "Accepted files include Android apps, documents, eBooks, audio and video."
+msgstr "Aanvaarde bestanden zijn onder andere Android-apps, documenten, eBooks, audio en video."
+
+msgid "Your search did not return any results."
+msgstr "Je zoekopdracht heeft geen resultaten opgeleverd."
+
+msgid "Name"
+msgstr "Naam"
+
+msgid "Storage"
+msgstr "Opslag"
+
+msgid "Add Storage"
+msgstr "Opslag toevoegen"
+
+msgid "Fingerprint"
+msgstr "Vingerafdruk"
+
+msgid "Remove Repo"
+msgstr "Bron verwijderen"
+
+msgid "Add storage to publish"
+msgstr "Opslag toevoegen ter publicatie"
+
+msgid "Your repo will be automatically published when you add storage. Repomaker does not publically promote your stuff. Only people who receive the direct link to your repo will be able to see it."
+msgstr "Je bron zal automatisch gepubliceerd worden wanneer je opslag toevoegt. Repomaker promoot uw spullen niet automatisch publiekelijk. Alleen mensen die de directe link naar je bron ontvangen, zullen je bron kunnen zien."
+
+msgid "add storage"
+msgstr "opslag toevoegen"
+
+#, python-format
+msgid "You have  <span>%(app_count)s app</span> in your repo. Share it!"
+msgid_plural "You have  <span>%(app_count)s apps</span> in your repo. Share it!"
+msgstr[0] "Je hebt <span>%(app_count)s app</span> in je pakketbron. Deel hem!"
+msgstr[1] "Je hebt <span>%(app_count)s apps</span> in je pakketbron. Deel ze!"
+
+msgid "view repo"
+msgstr "bron bekijken"
+
+msgid "share public link"
+msgstr "publieke link delen"
+
+msgid "copy link"
+msgstr "link kopiëren"
+
+msgid "add to an android phone"
+msgstr "toevoegen aan een Android-telefoon"
+
+msgid "To install these apps on your Android phone, add them to F-Droid."
+msgstr "Om deze apps op je Android-telefoon te installeeren, voeg je ze toe aan F-Droid."
+
+msgid "F-Droid ensures access to secure app updates."
+msgstr "F-Droid zorgt voor veilige toegang tot app-updates."
+
+msgid "Scan QR"
+msgstr "QR-code scannen"
+
+#, python-format
+msgid "Check out this F-Droid repo: %(name)s"
+msgstr "Bekijk deze F-Droid-bron: %(name)s"
+
+msgid "Browse Gallery"
+msgstr "Blader door de galerij"
+
+msgid "Search"
+msgstr "Zoeken"
+
+#, python-format
+msgid "Category (%(count)s)"
+msgstr "Categorie (%(count)s)"
+
+msgid "All"
+msgstr "Alles"
+
+#, python-format
+msgid "Source (%(count)s)"
+msgstr "Bron (%(count)s)"
+
+msgid "Add a repo"
+msgstr "Een bron toevoegen"
+
+msgid "Clear filters"
+msgstr "Filters wissen"
+
+#, python-format
+msgid "No apps found that match '%(search_term)s'. Please try a different search or remove other filter criteria."
+msgstr "Geen apps gevonden die overeenkomen met ‘%(search_term)s’. Probeer een andere zoekopdracht of verwijder andere filtercriteria."
+
+msgid "There are no apps in this repo."
+msgstr "Er zijn geen apps in deze pakketbron."
+
+msgid "There are no apps available in the repos."
+msgstr "Er zijn geen apps beschikbaar in de pakketbronnen."
+
+msgid "If you just added a repo, wait for the apps to download and try again later."
+msgstr "Als je een pakketbron net hebt toegevoegd, wacht dan even tot de apps zijn gedownload, en probeer het later opnieuw."
+
+msgid "This repo has no apps in the selected category. Try clearing it or select a different repo."
+msgstr "Deze pakketbron heeft geen apps in de geselecteerde categorie. Probeer ze te wissen of selecteer een andere pakketbron."
+
+msgid "There are no apps available in the selected category. Try clearing it."
+msgstr "Er zijn geen apps beschikbaar in de geselecteerde categorie. Probeer ze te wissen."
+
+msgid "Delete Storage"
+msgstr "Opslag verwijderen"
+
+#, python-format
+msgid "Are you sure you want to remove the storage at <strong>%(object)s</strong> from your repo?"
+msgstr "Weet je zeker dat je de opslag op <strong>%(object)s</strong> uit je pakketbron wilt verwijderen?"
+
+msgid "This will not remove the content from that storage but will stop to publish future versions of your repo to it."
+msgstr "Dit zal de inhoud van die opslag niet verwijderen, maar zorgt er wel voor dat toekomstige versie van je pakketbron er niet naar gestuurd worden."
+
+msgid "Enable Storage"
+msgstr "Opslag inschakelen"
+
+msgid "Disable Storage"
+msgstr "Opslag uitschakelen"
+
+msgid "Repo Address"
+msgstr "Pakketbronadres"
+
+msgid "Edit Storage"
+msgstr "Opslag bewerken"
+
+msgid "Please make sure to add this public SSH key to your Git account for the upload to work. There are instructions for <a href=\"https://docs.gitlab.com/ee/gitlab-basics/create-your-ssh-keys.html#how-to-create-your-ssh-keys\">Gitlab</a> and <a href=\"https://developer.github.com/v3/guides/managing-deploy-keys/#deploy-keys\">GitHub</a>."
+msgstr "Zorg dat je deze publieke SSH-sleutel toevoegt aan je Git-account opdat de upload kan werken. Er zijn instructies beschikbaar voor <a href=\"https://docs.gitlab.com/ee/gitlab-basics/create-your-ssh-keys.html#how-to-create-your-ssh-keys\">Gitlab</a> en <a href=\"https://developer.github.com/v3/guides/managing-deploy-keys/#deploy-keys\">GitHub</a>."
+
+msgid "Also, please make sure that the master branch of your repository is <b>not protected</b> from force pushing."
+msgstr "Zorg er ook voor dat de master-tak van je pakketbron <b>niet beschermd</b> is tegen gedwongen pushes."
+
+msgid "Git Repository SSH Address"
+msgstr "SSH-adres van Git-pakketbron"
+
+msgid "Region"
+msgstr "Regio"
+
+msgid "Bucket"
+msgstr "Bucket"
+
+msgid "Access Key ID"
+msgstr "Toegangssleutel-ID"
+
+msgid "Please make sure to add this public SSH key to your SSH server's <tt> <a href=\"https://en.wikibooks.org/wiki/OpenSSH/Client_Configuration_Files#.7E.2F.ssh.2Fauthorized_keys\">~/.ssh/authorized_keys</a> </tt> file,\tif you have not done so already."
+msgstr "Zorg dat je deze publieke SSH-sleutel toevoegt aan het bestand <tt> <a href=\"https://en.wikibooks.org/wiki/OpenSSH/Client_Configuration_Files#.7E.2F.ssh.2Fauthorized_keys\">~/.ssh/authorized_keys</a> </tt> van je SSH-server,\tals je dit nog niet gedaan had."
+
+msgid "Security Warning: This gives repomaker write access to that storage. Please limit this user's access as much as possible."
+msgstr "Beveiligingswaarschuwing: dit geeft repomaker schrijftoegang naar die opslag. Beperk de toegang van deze gebruiker zo veel mogelijk."
+
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+msgid "Host"
+msgstr "Host"
+
+msgid "Path"
+msgstr "Pad"
+
+msgid "Your local default SSH key will be used to connect to the storage."
+msgstr "Je lokale standaard-SSH-sleutel zal gebruikt worden om met de opslag te verbinden."
+
+msgid "Please make sure to authorize this public SSH key for your remote storage, if you have not done so already."
+msgstr "Zorg dat je deze publieke SSH-sleutel autoriseert voor je externe opslag, als je dit nog niet gedaan had."
+
+msgid "Activate this storage only once you have added the SSH key."
+msgstr "Activeer deze opslag pas van zodra je de SSH-sleutel hebt toegevoegd."
+
+msgid "If this storage is experiencing problems, please check that the SSH key works properly."
+msgstr "Indien deze opslag problemen ondervindt, controleer dan of de SSH-sleutel juist werkt."
+
+#, python-format
+msgid "Update %(storage_name)s"
+msgstr "%(storage_name)s bijwerken"
+
+#, python-format
+msgid "Setup %(storage_name)s"
+msgstr "%(storage_name)s instellen"
+
+msgid "cancel"
+msgstr "annuleren"
+
+msgid "save"
+msgstr "opslaan"
+
+msgid "Here's how to copy the SSH Address from GitLab:"
+msgstr "Zo kopieer je het SSH-adres van GitLab:"
+
+msgid "Setup a place to store your repo"
+msgstr "Stel een plaats in om je pakketbron op te slaan"
+
+msgid "Git"
+msgstr "Git"
+
+msgid "Easy, free, requires an account"
+msgstr "Gemakkelijk, vrij, vereist een account"
+
+msgid "Git is a popular tool to version control things. You can securely publish repos to GitLab, GitHub or any other Git service. Git services use SSH to securely copy files from your computer to remote computers."
+msgstr "Git is een populair hulpmiddel voor versiecontrole. Je kan veilig pakketbronnen publiceren op GitLab, GitHub of eender welke andere Git-dienst. Git-diensten maken gebruik van SSH om veilig bestanden te kopiëren van je computer naar externe computers."
+
+msgid "Setup"
+msgstr "Configuratie"
+
+msgid "GitLab"
+msgstr "GitLab"
+
+msgid "GitHub"
+msgstr "GitHub"
+
+msgid "SSH"
+msgstr "SSH"
+
+msgid "Requires a personal web server or host that supports SSH"
+msgstr "Vereist een persoonlijke webserver of -host die ondersteuning biedt voor SSH"
+
+msgid "SSH is a technology that can be used to copy files securely to remote computers. When using Git as storage, the files will also be copied via SSH. But the pure SSH option directly copies the files without using any other technology."
+msgstr "SSH is een technologie die gebruikt kan worden om bestanden veilig te kopiëren naar externe computers. Bij gebruik van Git als opslag, worden de bestanden ook gekopieerd via SSH. De zuivere SSH-optie kopieert de bestanden rechtstreeks, zonder enige andere technologie te gebruiken."
+
+msgid "Amazon S3"
+msgstr "Amazon S3"
+
+msgid "Requires an Amazon account, Pricing varies"
+msgstr "Vereist een Amazon-account, kostprijs varieert"
+
+msgid "Amazon S3 is a web service offered by Amazon Web Services. Amazon S3 provides storages through web service interfaces. Pricing varies. Visit the Amazon S3 website for details."
+msgstr "Amazon S3 is een webdienst aangeboden door Amazon Web Services. Amazon S3 biedt opslag via webdienstinterfaces. Kostprijs varieert. Bezoek de website van Amazon S3 voor meer informatie."
+
+#, python-format
+msgid "Version %(version)s (%(date)s)"
+msgstr "Versie %(version)s (%(date)s)"
+
+msgid "Added"
+msgstr "Toegevoegd"
+
+msgid "There was an error creating the repository. Please try again!"
+msgstr "Er is een fout opgetreden bij het aanmaken van de pakketbron. Probeer het opnieuw!"
+
+msgid "Enter email"
+msgstr "Voer een e-mailadres in"
+
+msgid "Enter your email address and we'll send a link to reset it. If you did not sign up with an email, we cannot help you securely reset your password."
+msgstr "Voer je e-mailadres in, en we zullen een koppeling sturen om het opnieuw in te stellen. Als je niet registreerde met een e-mailadres, kunnen we je niet helpen met je wachtwoord opnieuw in te stellen."
+
+msgid "This is not a valid language code."
+msgstr "Dit is geen geldige taalcode."
+
+msgid "This language already exists. Please choose another one!"
+msgstr "Deze taal bestaat al. Kies een andere!"
+
+msgid "Enter SSH URL"
+msgstr "Voer een SSH-URL in"
+
+msgid "Raw Git URL"
+msgstr "Raw-Git-URL"
+
+msgid "This is the location where the uploaded files can be accessed from in raw form. Leave empty for GitHub or GitLab.com repositories."
+msgstr "Dit is de locatie vanwaar toegang kan worden verkregen tot de geüploade bestanden in ongewijzigde vorm. Laat dit leeg voor GitHub of GitLab.com-pakketbronnen."
+
+msgid "This URL must start with 'git@'."
+msgstr "Deze URL moet beginnen met ‘git@’."
+
+msgid "This URL must end with '.git'."
+msgstr "Deze URL moet eindigen op ‘.git’."
+
+msgid "This URL is invalid. Please copy the exact SSH URL of your git repository."
+msgstr "Deze URL is ongeldig. Kopieer de precieze SSH-URL van je git-pakketbron."
+
+msgid "Please add a valid URLfor the raw content of this git repository."
+msgstr "Voeg een geldige URL toe voor de ongewijzigde inhoud van deze git-pakketbron."
+
+msgid "Repository URL"
+msgstr "Pakketbron-URL"
+
+msgid "Please use a URL with a fingerprint at the end, so we can validate the authenticity of the repository."
+msgstr "Gebruik een URL met een vingerafdruk op het einde, zodat we de geldigheid van de pakketbron kunnen verifiëren."
+
+msgid "Please don't add one of your own repositories here."
+msgstr "Voeg hier geen van je eigen pakketbronnen toe."
+
+#, python-format
+msgid "Could not validate repository: %s"
+msgstr "Kon pakketbron niet valideren: %s"
+
+msgid "Describe the repo"
+msgstr "Beschrijf de pakketbron"
+
+msgid "Bucket Name"
+msgstr "Bucketnaam"
+
+msgid "Secret Access Key"
+msgstr "Geheime toegangssleutel"
+
+msgid "Other regions are currently not supported."
+msgstr "Andere regio’s worden momenteel niet ondersteund."
+
+msgid "Language"
+msgstr "Taal"
+
+msgid "Select Screenshot for upload"
+msgstr "Selecteer schermafdruk voor upload"
+
+msgid "Use local default SSH Key"
+msgstr "Lokale standaard-SSH-sleutel gebruiken"
+
+msgid "User Name"
+msgstr "Gebruikersnaam"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "This is the location where the uploaded files can be accessed from."
+msgstr "Dit is de locatie vanwaar je toegang kan krijgen tot de geüploade bestanden."
+
+msgid "Primary Storage"
+msgstr "Primaire opslag"
+
+msgid "Make this storage the primary storage of the repository."
+msgstr "Stel deze opslag in als de primaire opslag van de pakketbron."

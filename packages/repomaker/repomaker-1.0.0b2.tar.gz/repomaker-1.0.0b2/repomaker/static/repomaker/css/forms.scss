@@ -1,0 +1,38 @@
+.rm-form {
+
+	input[type="submit"] {
+		@extend .mdl-button;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 15px;
+		background: none;
+		color: #5583b6;
+		border: thin solid #5583b6;
+		border-radius: 25px;
+		@include font-size(11px);
+		padding: 0 60px;
+	}
+
+	input[type="file"] {
+		display: none;
+	}
+
+	.mdl-spinner--single-color .mdl-spinner__layer {
+	    border-color: $rm-blue;
+	}
+
+	select {
+	    // TODO: There is no "mdc-multi-select"
+	    @extend .mdl-list;
+
+		option {
+			@extend .mdl-list__item;
+		}
+	}
+
+	label.rm-file-upload {
+		@extend .mdl-button, .mdl-button--accent;
+	}
+
+}

@@ -1,0 +1,243 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-01 20:55+0000\n"
+"PO-Revision-Date: 2018-09-19 16:28+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/f-droid/repomaker-javascript/nb_NO/>\n"
+"Language: nb_NO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.2-dev\n"
+
+#, javascript-format
+msgid "Available %s"
+msgstr "Tilgjengelig %s"
+
+#, javascript-format
+msgid "This is the list of available %s. You may choose some by selecting them in the box below and then clicking the \"Choose\" arrow between the two boxes."
+msgstr "Dette er listen over tilgjengelige %s. Du kan velge noen ved å velge dem i boksen nedenfor, for så å klikke \"Velg\"-pilen mellom de to boksene."
+
+#, javascript-format
+msgid "Type into this box to filter down the list of available %s."
+msgstr "Skriv inn noe i denne boksen for å filtrere ned listen over tilgjengelige %s."
+
+msgid "Filter"
+msgstr "Filtrer"
+
+msgid "Choose all"
+msgstr "Velg alle"
+
+#, javascript-format
+msgid "Click to choose all %s at once."
+msgstr "Klikk for å velge alle %s samtidig."
+
+msgid "Choose"
+msgstr "Velg"
+
+msgid "Remove"
+msgstr "Fjern"
+
+#, javascript-format
+msgid "Chosen %s"
+msgstr "Valgt %s"
+
+#, javascript-format
+msgid "This is the list of chosen %s. You may remove some by selecting them in the box below and then clicking the \"Remove\" arrow between the two boxes."
+msgstr "Dette er listen over valgt %s. Du kan fjerne noen ved å velge dem i boksen nedenfor, for så å klikke på \"Fjern\"-pilen mellom de to boksene."
+
+msgid "Remove all"
+msgstr "Fjern alle"
+
+#, javascript-format
+msgid "Click to remove all chosen %s at once."
+msgstr "Klikk for å fjerne alle valgte %s samtidig."
+
+msgid "%(sel)s of %(cnt)s selected"
+msgid_plural "%(sel)s of %(cnt)s selected"
+msgstr[0] "%s(sel)s av %s(cnt)s valgt"
+msgstr[1] "%s(sel)s av %s(cnt)s valgt"
+
+msgid "You have unsaved changes on individual editable fields. If you run an action, your unsaved changes will be lost."
+msgstr "Du har ulagrede endringer i enkletstående redigerbare felter. Hvis du kjører en handling, vil dine ulagrede endringer gå tapt."
+
+msgid "You have selected an action, but you haven't saved your changes to individual fields yet. Please click OK to save. You'll need to re-run the action."
+msgstr "Du har valgt en handling, men har ikke lagret dine endringer i individuelle felter enda. Klikk \"OK\" for å lagre\". Du vil måtte kjøre handlingen igjen."
+
+msgid "You have selected an action, and you haven't made any changes on individual fields. You're probably looking for the Go button rather than the Save button."
+msgstr "Du har valgt en handling, og har ikke gjort noen endringer i individuelle felter. Du ser antagelig etter \"Gå\"-knappen, snarere en \"Lagre\"-knappen."
+
+#, javascript-format
+msgid "Note: You are %s hour ahead of server time."
+msgid_plural "Note: You are %s hours ahead of server time."
+msgstr[0] "Merk: Du er én time foran tjenertid."
+msgstr[1] "Merk: Du er %s timer foran tjenertid."
+
+#, javascript-format
+msgid "Note: You are %s hour behind server time."
+msgid_plural "Note: You are %s hours behind server time."
+msgstr[0] "Merk: Du er én time bak tjenertid."
+msgstr[1] "Merk: Du er %s timer bak tjenertid."
+
+msgid "Now"
+msgstr "Nå"
+
+msgid "Choose a Time"
+msgstr "Velg tid"
+
+msgid "Choose a time"
+msgstr "Velg tid"
+
+msgid "Midnight"
+msgstr "Midnatt"
+
+msgid "6 a.m."
+msgstr "6 på morgenen."
+
+msgid "Noon"
+msgstr "Middagstid"
+
+msgid "6 p.m."
+msgstr "6 på kvelden."
+
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgid "Today"
+msgstr "I dag"
+
+msgid "Choose a Date"
+msgstr "Velg dato"
+
+msgid "Yesterday"
+msgstr "I går"
+
+msgid "Tomorrow"
+msgstr "I morgen"
+
+msgid "January"
+msgstr "Januar"
+
+msgid "February"
+msgstr "Februar"
+
+msgid "March"
+msgstr "Mars"
+
+msgid "April"
+msgstr "April"
+
+msgid "May"
+msgstr "Mai"
+
+msgid "June"
+msgstr "Juni"
+
+msgid "July"
+msgstr "Juli"
+
+msgid "August"
+msgstr "August"
+
+msgid "September"
+msgstr "September"
+
+msgid "October"
+msgstr "Oktober"
+
+msgid "November"
+msgstr "November"
+
+msgid "December"
+msgstr "Desember"
+
+msgctxt "one letter Sunday"
+msgid "S"
+msgstr "S"
+
+msgctxt "one letter Monday"
+msgid "M"
+msgstr "M"
+
+msgctxt "one letter Tuesday"
+msgid "T"
+msgstr "T"
+
+msgctxt "one letter Wednesday"
+msgid "W"
+msgstr "O"
+
+msgctxt "one letter Thursday"
+msgid "T"
+msgstr "T"
+
+msgctxt "one letter Friday"
+msgid "F"
+msgstr "F"
+
+msgctxt "one letter Saturday"
+msgid "S"
+msgstr "L"
+
+msgid "Show"
+msgstr "Vis"
+
+msgid "Hide"
+msgstr "Skjul"
+
+#, javascript-format
+msgid "%s app added"
+msgid_plural "%s apps added"
+msgstr[0] "%s program lagt til"
+msgstr[1] "%s programmer lagt til"
+
+msgid "Add"
+msgstr "Legg til"
+
+#, javascript-format
+msgid "Sorry, there was an error deleting it: %s"
+msgstr "Beklager, feil under sletting: %s"
+
+msgid "Delete Screenshot"
+msgstr "Slett skjermavbildning"
+
+msgid "Are you sure you want to delete this screenshot from your package?"
+msgstr "Er du sikker på at du ønsker du å slette denne skjermavbildningen fra din pakke?"
+
+msgid "Delete Feature Graphic"
+msgstr "Slett funksjonsbilde"
+
+msgid "Are you sure you want to delete the feature graphic from your package?"
+msgstr "Er du sikker på at du vil slette dette funksjonsbildet fra din pakke?"
+
+msgid "Delete Version"
+msgstr "Slett versjon"
+
+msgid "Are you sure you want to delete this version from your package?"
+msgstr "Er du sikker på at ønsker å slette denne versjonen fra din pakke?"
+
+msgid "Confirm"
+msgstr "Bekreft"
+
+msgid "Added"
+msgstr "Lagt til"
+
+msgid "You can only upload images here."
+msgstr "Du kan bare laste opp bilder her."
+
+#, javascript-format
+msgid "Uploading %s file..."
+msgid_plural "Uploading %s files..."
+msgstr[0] "Laster opp %s fil…"
+msgstr[1] "Laster opp %s filer…"
+
+msgid "Try to drag and drop again!"
+msgstr "Prøv å dra og slippe igjen."

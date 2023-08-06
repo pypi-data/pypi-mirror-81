@@ -1,0 +1,474 @@
+/*
+ * Repomaker App Index Styles
+ */
+
+.rm-app-toolbar {
+    display: flex;
+    align-items: center;
+
+    button {
+        margin-left: 16px;
+    }
+}
+
+.rm-app-header {
+    display: flex;
+    align-items: center;
+}
+
+.rm-app-primary-content {
+    align-items: flex-start;
+    display: flex;
+    flex-grow: 2;
+    flex-flow: column;
+    margin-left: 16px;
+}
+
+.rm-app-language-button {
+    background-color: white;
+    background-repeat: no-repeat;
+    color: #767777;
+    @include font-size(14px);
+    border: none;
+    outline: none;
+    align-items: center;
+}
+
+.rm-app-language-button:hover {
+    background-color: #f4f4f4;
+}
+
+.rm-app-language-menu-container {
+
+    .mdl-menu__container.is-upgraded {
+        top: 0 !important;
+    }
+
+    .rm-app-language-menu {
+        @extend .mdl-menu;
+        padding: 10px;
+
+        .rm-app-language-add, .rm-app-language {
+            @extend .rm-no-underline;
+            @include font-size(14px);
+            font-weight: 400;
+            display: flex;
+            align-items: center;
+            padding: 5px;
+        }
+
+        .rm-app-language.active {
+            font-weight: 700;
+        }
+
+        .rm-app-language-add:hover, .rm-app-language:hover {
+            background-color: #f4f4f4;
+        }
+
+        .rm-app-language-add {
+            color: $rm-blue !important;
+            margin-bottom: 5px;
+            white-space: nowrap;
+        }
+    }
+
+    .rm-app-language-menu-no-script {
+        @extend .mdl-cell, .mdl-cell--6-col;
+
+        a {
+            @extend .rm-no-underline;
+            color: $rm-blue !important;
+            padding: 8px;
+        }
+    }
+
+}
+
+.mdl-menu__outline {
+    border-radius: 8px;
+}
+
+.rm-app-title {
+    color: #000;
+    font-weight: 500;
+    @include font-size(22px);
+    line-height: 20px;
+    margin: 0;
+    padding-bottom: 3px;
+}
+
+.rm-app-author {
+    @include font-size(15px);
+    color: #4a4a4a;
+}
+
+.rm-app-secondary-content {
+    align-items: flex-end;
+    display: flex;
+    flex-flow: column;
+    margin-left: 16px;
+    text-align: right;
+}
+
+.rm-app-version {
+    @include font-size(15px);
+    color: #4a4a4a;
+}
+
+.rm-app-last-time-updated {
+    @include font-size(15px);
+    color: #4a4a4a;
+}
+
+.rm-app-summary-category {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+
+    .error {
+        width: 100%;
+    }
+}
+
+.rm-app-summaries {
+    flex-grow: 1;
+}
+
+.rm-app-summary, .rm-app-summary-override {
+    align-items: flex-start;
+    display: flex;
+    flex-grow: 2;
+    flex-flow: column;
+    width: 100%;
+    padding: 5px;
+    margin-right: 16px;
+    margin-bottom: 8px;
+    font-style: italic;
+    @include font-size(17px);
+    color: #000;
+}
+
+.rm-app-summary-edit {
+    @extend .mdl-textfield, .mdl-textfield--floating-label;
+    width: 100%;
+}
+
+.rm-app-summary-override {
+    background-color: #FFCCCC;
+}
+
+.rm-app-category-chip {
+    @extend .mdl-chip, .mdl-chip--deletable;
+    background: #f4f4f4;
+    margin: 0 4px 8px 4px;
+    padding-right: 12px;
+}
+
+#rm-app-categories {
+    display: none;
+    align-self: flex-start;
+
+    .rm-app-category-chip {
+        padding-right: 4px;
+
+        .material-icons {
+            @include font-size(16px);
+            line-height: 24px;
+        }
+    }
+
+    .rm-app-category-text {
+        @extend .mdl-chip__text;
+        color: #4a4a4a;
+        @include font-size(13px);
+    }
+
+    .rm-app-category-chip-add {
+        @extend .rm-app-category-chip;
+        padding-left: 0;
+
+        .rm-app-category-text {
+            padding-right: 8px;
+        }
+    }
+
+    .rm-app-category-menu {
+        @extend .mdl-menu;
+        padding: 8px;
+        min-width: 175px;
+        max-height: 500px;
+        overflow: auto;
+
+        p {
+            @include font-size(16px);
+            margin-bottom: 4px;
+        }
+
+        button {
+            display: block;
+            background-color: Transparent;
+            background-repeat: no-repeat;
+            border: none;
+            outline: none;
+            width: 100%;
+            @include font-size(14px);
+            text-align: left;
+            padding: 5px;
+        }
+
+        button:hover:enabled {
+            background-color: #f4f4f4;
+        }
+    }
+}
+
+.rm-app-category-label {
+    width: 100%;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+select#id_category {
+    height: 200px;
+    margin-top: 8px;
+}
+
+.rm-app-section {
+    color: #999999;
+    @include font-size(13px);
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 500
+}
+
+.rm-app-description, .rm-app-description-override {
+    color: #000;
+    @include font-size(15px);
+    overflow-wrap: break-word;
+}
+
+.rm-app-description-override {
+    background-color: #FFCCCC;
+    padding: 5px;
+}
+
+.rm-app-screenshots {
+    @extend .mdl-cell, .mdl-cell--8-col;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.rm-app-screenshot {
+    display: inline-block;
+    margin: 10px 0px 10px 10px;
+    max-height:500px;
+
+    img {
+        max-height:500px;
+    }
+}
+
+.rm-app-screenshot-drop {
+    background: #fafafa;
+    border: 1px dashed #d7d7d7;
+    height: auto;
+    padding: 130px 15px;
+    margin: 10px 0px 10px 10px;
+    min-width: 250px;
+    padding: 20px;
+    text-align: center;
+
+    .errorlist {
+        color: red;
+        list-style: none;
+        font-weight: bold;
+        padding-left: 0;
+    }
+}
+
+.rm-app-screenshot-drop-icon,
+.rm-app-versions-drop-icon {
+    @extend .material-icons;
+}
+
+.rm-app-screenshot-drop-title,
+.rm-app-versions-drop-title {
+    @include font-size(15px);
+}
+
+.rm-app-screenshot-drop-description-first,
+.rm-app-screenshot-drop-description-second,
+.rm-app-versions-drop-description-first,
+.rm-app-versions-drop-description-second {
+    color: #575757;
+    @include font-size(14px);
+}
+
+.rm-app-screenshot-drop-upload-browse,
+.rm-app-versions-drop-upload-browse {
+    color: $rm-blue;
+    @include font-size(13px);
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.rm-app-screenshot-delete {
+    @extend .rm-no-underline;
+    display: inline-flex;
+    vertical-align: bottom;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    margin-right: -95px;
+
+    button {
+        @extend .rm-button--red;
+        color: white;
+
+        i {
+            @extend .material-icons;
+        }
+    }
+}
+
+.rm-app-feature-graphic {
+    img {
+        max-width: 100%;
+    }
+}
+
+.rm-app-feature-graphic-delete {
+    @extend .rm-no-underline;
+    position: relative;
+    bottom: 60px;
+    margin-left: 25px;
+
+    button {
+        @extend .rm-button--red;
+
+        i {
+            @extend .material-icons;
+        }
+    }
+}
+
+.rm-app-versions {
+    border-top: thin solid #f1f1f1;
+}
+
+.rm-app-versions-drop {
+    background: #fafafa;
+    border: 1px dashed #d7d7d7;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    min-width: 250px;
+    padding: 20px;
+    text-align: center;
+}
+
+.rm-app-versions-item {
+    @extend .mdl-list__item, .mdl-list__item--two-line;
+    border-bottom: thin solid #f1f1f1;
+}
+
+.rm-app-versions-item-info {
+    @extend .mdl-list__item-primary-content;
+}
+
+.rm-app-versions-item-info-released {
+    @extend .mdl-list__item-sub-title;
+}
+
+.rm-app-versions-item-info-loading {
+    @extend .mdl-list__item-sub-title;
+}
+
+.rm-app-versions-item-delete {
+    @extend .mdl-list__item-secondary-action, .rm-no-underline;
+
+    button {
+        @extend .rm-button--red-border;
+
+        i {
+            @extend .material-icons;
+        }
+    }
+}
+
+.rm-app-automatically-updated {
+    color: grey;
+    font-style: italic;
+}
+
+.rm-app-edit-disabled {
+    background-color: lightyellow;
+    text-align: center;
+}
+
+/*
+ * Loading
+ */
+.rm-app-versions-drop--loading {
+    @extend .rm-app-versions-drop, .rm-dnd--loading;
+}
+
+.rm-app-screenshot-drop--loading  {
+    @extend .rm-app-screenshot-drop, .rm-dnd--loading;
+}
+
+.rm-app-screenshot-drop--loading-title,
+.rm-app-versions-drop--loading-title {
+    @extend .rm-dnd--loading-title;
+    padding: 15px;
+}
+
+/*
+ * Navigation between apps
+ */
+
+.rm-app-navigation-previous {
+    align-items: center;
+    background: #f6f6f6;
+    color: #4a4a4a;
+    display: flex;
+    padding: $rm-app-navigation-padding;
+    text-decoration: none;
+}
+
+a.rm-app-navigation-previous:hover {
+    background: #e6e6e6;
+}
+
+.rm-app-navigation-next {
+    @extend .rm-app-navigation-previous;
+    flex-direction: row-reverse;
+}
+
+.rm-app-navigation-previous-text, .rm-app-navigation-next-text {
+    @include font-size(19px);
+    margin: 10px;
+}
+
+/**
+ * Remote app
+ */
+$rm-privacy-grey: #ababab;
+.rm-remote-app-privacy-text {
+    @extend .mdl-cell, .mdl-cell--12-col, .center;
+    color: $rm-privacy-grey;
+}
+
+.rm-remote-app-privacy-button-container {
+    @extend .mdl-cell, .mdl-cell--12-col, .center;
+    a button {
+        @extend .rm-button;
+        border-color: $rm-privacy-grey;
+        color: $rm-privacy-grey;
+    }
+}

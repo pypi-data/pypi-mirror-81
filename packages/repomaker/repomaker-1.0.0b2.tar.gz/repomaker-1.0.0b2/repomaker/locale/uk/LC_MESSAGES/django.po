@@ -1,0 +1,723 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# ihor_ck <igor_ck@outlook.com>, 2020.
+# Tymofij Lytvynenko <till.svit@gmail.com>, 2020.
+# karnak2016 <karnak2016@mailfence.com>, 2020.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-01 20:54+0000\n"
+"PO-Revision-Date: 2020-09-19 17:03+0000\n"
+"Last-Translator: karnak2016 <karnak2016@mailfence.com>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/f-droid/repomaker/uk/>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.3-dev\n"
+
+#, python-format
+msgid "This file is not an update for %s"
+msgstr "Файл не є оновленням для %s"
+
+msgid "This APK already exists in the current repo."
+msgstr "APK вже існує у чинному сховищеві."
+
+msgid "Invalid APK signature"
+msgstr "Неправильний підпис APK"
+
+msgid "Invalid APK."
+msgstr "Недійсний APK."
+
+msgid "Unsupported File Type"
+msgstr "Тип файлу не підтримується"
+
+msgid "This file is of a different type than the other versions of this app."
+msgstr "Цей файл відрізняється від інших версій цього застосунку."
+
+msgid "APK"
+msgstr "APK"
+
+msgid "Book"
+msgstr "Книжка"
+
+msgid "Document"
+msgstr "Документ"
+
+msgid "Image"
+msgstr "Зображення"
+
+msgid "Audio"
+msgstr "Звук"
+
+msgid "Video"
+msgstr "Відео"
+
+msgid "Other"
+msgstr "Інші"
+
+msgid "This app does already exist in your repository."
+msgstr "Цей застосунок вже існує у вашому сховищі."
+
+msgid "This app does not have any working versions available."
+msgstr "Цей застосунок не має доступних версій."
+
+msgid "Phone"
+msgstr "Телефон"
+
+msgid "7'' Tablet"
+msgstr "7'' планшет"
+
+msgid "10'' Tablet"
+msgstr "10'' планшет"
+
+msgid "TV"
+msgstr "Телевізор"
+
+msgid "Wearable"
+msgstr "Для носіння"
+
+msgid "US Standard"
+msgstr "Американський стандарт"
+
+msgid "Amazon S3 Storage"
+msgstr "Хмара Amazon S3"
+
+msgid "Enter a valid user name consisting of letters, numbers, underscores or hyphens."
+msgstr "Унесіть дійсну назву користувача, яка складається з літер, чисел та рисок."
+
+msgid "Enter a valid hostname."
+msgstr "Уведіть дісйну назву госту."
+
+msgid "Enter a valid path."
+msgstr "Уведіть дісйний шлях."
+
+msgid "SSH Storage"
+msgstr "Пам'ять SSH"
+
+msgid "Git Storage"
+msgstr "Пам'ять Git"
+
+msgid "Default Storage"
+msgstr "Типова пам'ять"
+
+msgid "American English"
+msgstr "Англійська (США)"
+
+msgid "Change E-mail"
+msgstr "Змінити електронну пошту"
+
+msgid "Sign Out"
+msgstr "Вийти"
+
+msgid "Sign In"
+msgstr "Увійти"
+
+msgid "Sign Up"
+msgstr "Зареєструватися"
+
+msgid "Distribute apps."
+msgstr "Розподіліть застосунки."
+
+msgid "Spread the love."
+msgstr "Поширити любов."
+
+msgid "Repomaker is a free web app built for creating collections of apps, music, books, videos and pictures to share with your peers. It uses F-Droid as the mobile distribution platform. Available on Android only."
+msgstr "Repomaker - це безкоштовний веб-застосунок для створення колекцій застосунків, музики, книг, відео і картинок для спільного використання з колегами. Він використовує F-Droid як мобільну платформу поширення. Доступно тільки на Android."
+
+msgid "Login"
+msgstr "Логін"
+
+msgid "Forgot Password"
+msgstr "Забули гасло"
+
+msgid "Or login with"
+msgstr "Або зайти за допомогою"
+
+msgid "Logout"
+msgstr "Вийти"
+
+msgid "See you later"
+msgstr "Побачимось"
+
+msgid "Your security is important to us. Please confirm that you want to logout."
+msgstr "Ваша безпека є для нас важливою. Засвідчте, що ви бажаєте вийти."
+
+msgid "logout"
+msgstr "вийти"
+
+msgid "submit"
+msgstr "подати"
+
+msgid "We have sent you an email with a link to reset your password."
+msgstr "Ми надіслали вам електронний лист із посиланням для скидання пароля."
+
+msgid "Signup"
+msgstr "Реєстрація"
+
+msgid "Delete App Version"
+msgstr "Видалити версію застосунку"
+
+#, python-format
+msgid "Are you sure you want to delete this version <strong>%(version)s</strong> (%(code)s) from your app <strong>%(app)s</strong>?"
+msgstr "Ви дійсно хочете видалити цю версію <strong>%(version)s</strong> (%(code)s) з вашого застосунку <strong>%(app)s</strong>?"
+
+msgid "Confirm"
+msgstr "Підтвердити"
+
+msgid "Delete App"
+msgstr "Видалити застосунок"
+
+#, python-format
+msgid "Are you sure you want to delete your app <strong>%(object)s</strong>?"
+msgstr "Ви справді хочете видалити ваш застосунок <strong>%(object)s</strong>?"
+
+#, python-format
+msgid "Edit %(app)s"
+msgstr "Змінити %(app)s"
+
+msgid "Remove App"
+msgstr "Видалити застосунок"
+
+msgid "Done"
+msgstr "Готово"
+
+msgid "By"
+msgstr "Від"
+
+msgid "Summary Override (40 characters)"
+msgstr "Опис (40 символів)"
+
+msgid "Short Summary (40 characters)"
+msgstr "Короткий опис (40 символів)"
+
+msgid "Category"
+msgstr "Категорія"
+
+msgid "Choose Category"
+msgstr "Виберіть категорію"
+
+msgid "Description Override"
+msgstr "Замінити опис"
+
+msgid "Description"
+msgstr "Опис"
+
+msgid "Screenshots"
+msgstr "Знімки екрана"
+
+msgid "Add files"
+msgstr "Додати файли"
+
+msgid "Drag and drop screenshots"
+msgstr "Перетягніть знімки екрана"
+
+msgid "or"
+msgstr "або"
+
+msgid "browse to upload"
+msgstr "виберіть, щоб завантажити"
+
+msgid "Feature Graphic"
+msgstr "Графічний об'єкт"
+
+msgid "Drag and drop a feature graphic"
+msgstr "Перетягніть графічний об'єкт"
+
+msgid "Drag and drop .apk files"
+msgstr "Перетягніть .apk файли"
+
+msgid "Back"
+msgstr "Назад"
+
+msgid "Editing Disabled"
+msgstr "Редагування вимкнено"
+
+msgid "This app gets updated automatically from the remote repo. If you want to edit it yourself, you need to disable automatic updates first. Please note that without automatic updates, you will need to add new versions manually."
+msgstr "Цей застосунок отримує автоматичні оновлення з віддаленого сховища. Якщо ви хочете змінити його самостійно, то спершу вимкніть автоматичні оновлення. Зверніть увагу, що без автоматичних оновлень, вам доведеться додавати нові версії власноруч."
+
+msgid "Disable Automatic Updates"
+msgstr "Вимкнути автоматичні оновлення"
+
+msgid "Delete Feature Graphic"
+msgstr "Видалити графічні функції"
+
+#, python-format
+msgid "Are you sure you want to delete the feature graphic from your app <strong>%(app)s</strong>?"
+msgstr "Ви справді хочете видалити графічний об'єкт з вашого застосунку <strong>%(app)s</strong>?"
+
+#, python-format
+msgid "Languages (%(count)s)"
+msgstr "Мови (%(count)s)"
+
+msgid "Edit"
+msgstr "Змінити"
+
+msgid "Add Translation"
+msgstr "Додати переклад"
+
+#, python-format
+msgid "By %(author)s"
+msgstr "Від %(author)s"
+
+#, python-format
+msgid "Updated %(time)s ago"
+msgstr "Оновлено %(time)s тому"
+
+#, python-format
+msgid "This app gets automatically updated from the remote repo \"%(repo_name)s\"."
+msgstr "Застосунок автоматично оновлюється з віддаленого сховища \"%(repo_name)s\"."
+
+msgid "version history"
+msgstr "історія версій"
+
+#, python-format
+msgid "Version %(version)s (%(code)s)"
+msgstr "Версія %(version)s %(code)s"
+
+#, python-format
+msgid "Released %(date)s"
+msgstr "Оприлюднено %(date)s"
+
+msgid "APK is still downloading..."
+msgstr "APK все ще завантажується..."
+
+msgid "This app has no APK files."
+msgstr "Цей застосунок не має файлів APK."
+
+msgid "If you added this app from a remote repo, try deleting it and adding it again."
+msgstr "Якщо ви додали цей застосунок із зовнішнього сховища, спробуйте видалити та додати його знову."
+
+msgid "Previous"
+msgstr "Попередній"
+
+msgid "Next"
+msgstr "Наступний"
+
+msgid "Add"
+msgstr "Додати"
+
+msgid "There are currently no screenshots shown because this gives the repo owner the ability to track you."
+msgstr "Наразі не показано знімків екрана, оскільки це дає власникові сховища можливості відстежувати вас."
+
+msgid "show screenshots"
+msgstr "показати знімки екрана"
+
+msgid "Delete Screenshot"
+msgstr "Видалити знімок екрана"
+
+#, python-format
+msgid "Are you sure you want to delete this screenshot from your app <strong>%(app)s</strong>?"
+msgstr "Ви впевнені, що хочете видалити цей зннімок екрана зі свого застосунку <strong>%(app)s</strong>?"
+
+msgid "Language Code"
+msgstr "Код мови"
+
+#, python-format
+msgid "Hello, %(user)s"
+msgstr "Вітаємо, %(user)s"
+
+msgid "Please Wait!"
+msgstr "Будь ласка, зачекайте!"
+
+msgid "Background Operation in Progress"
+msgstr "Виконуються дії у фоні"
+
+msgid "Repomaker might be updating or publishing your repo. Or it might be updating a remote repo. Depending on the type and size of the background operation, this might take awhile."
+msgstr "Repomaker може оновлювати або оприлюднювати ваше сховище. Або це може бути оновлення зовнішнього сховища. Залежно від виду та розміру фонової дії, це може тривати певний час."
+
+msgid "Try Again"
+msgstr "Спробувати знову"
+
+msgid "The button won't work for you. Please press F5 to try again."
+msgstr "Кнопка не працює для вас. Натисніть F5, щоб спробувати ще раз."
+
+msgid "Error"
+msgstr "Помилка"
+
+msgid "My Repos"
+msgstr "Мої сховища"
+
+#, python-format
+msgid "Published %(time_ago)s"
+msgstr "Оприлюднено %(time_ago)s"
+
+#, python-format
+msgid "Created %(time_ago)s"
+msgstr "Створено %(time_ago)s"
+
+msgid "Make a collection of apps to share"
+msgstr "Створіть збірку застосунків для спільного користування"
+
+msgid "Create Repo"
+msgstr "Створити сховище"
+
+msgid "New Repo"
+msgstr "Нове сховище"
+
+msgid "Create"
+msgstr "Створити"
+
+msgid "Delete Repo"
+msgstr "Видалити сховище"
+
+#, python-format
+msgid "Are you sure you want to delete the repo <strong>%(repo)s</strong>?"
+msgstr "Ви дійсно хочете видалити сховище <strong>%(repo)s</strong>?"
+
+msgid "This will also delete all apps and other files from your repo. You will not be able to get them back, users of your repo will not be able to use it anymore and not receive updates for the apps they received from you. There is no way to recover this repo!"
+msgstr "Це також видалить усі застосунки та інші файли з вашого сховища. Ви не зможете їх повернути, користувачі вашого сховища вже не зможуть ними користуватися і не отримуватимуть оновлень для застосунків, які вони отримали від вас. Відновити вже буде неможливо!"
+
+msgid "Please only proceed if you know what you are doing!"
+msgstr "Будь ласка, продовжуйте лише якщо ви усвідомлюєте, що робите!"
+
+msgid "Yes, I want to delete the repo"
+msgstr "Так, я бажаю видалити сховище"
+
+msgid "Edit Repo"
+msgstr "Змінити сховище"
+
+msgid "Save Changes"
+msgstr "Зберегти зміни"
+
+msgid "Content"
+msgstr "Вміст"
+
+msgid "Share"
+msgstr "Поділитися"
+
+msgid "Info"
+msgstr "Відомості"
+
+msgid "Search for apps in your repository"
+msgstr "Пошук застосунків у вашому сховищі"
+
+msgid "add from gallery"
+msgstr "додати з галереї"
+
+#, python-format
+msgid "Alternatively, drag and drop or %(label_start)schoose files%(label_end)s"
+msgstr "Також можна перетягнути чи %(label_start)sвибрати файли%(label_end)s"
+
+msgid "Accepted files include Android apps, documents, eBooks, audio and video."
+msgstr "Прийняті файли включають застосунки для Android, документи, електронні книги, звукозаписи та відео."
+
+msgid "Your search did not return any results."
+msgstr "Ваш пошук не дав жодних результатів."
+
+msgid "Name"
+msgstr "Назва"
+
+msgid "Storage"
+msgstr "Сховище"
+
+msgid "Add Storage"
+msgstr "Додати сховище"
+
+msgid "Fingerprint"
+msgstr "Відбиток"
+
+msgid "Remove Repo"
+msgstr "Вилучити сховище"
+
+msgid "Add storage to publish"
+msgstr "Додати сховище для оприлюднення"
+
+msgid "Your repo will be automatically published when you add storage. Repomaker does not publically promote your stuff. Only people who receive the direct link to your repo will be able to see it."
+msgstr "Ваше сховище буде автоматично оприлюднено, коли ви додасте сховище. Repomaker не пропонує ваші доробки на загал. Лише люди, які отримають пряме посилання на ваше сховище, зможуть бачити його."
+
+msgid "add storage"
+msgstr "додати сховище"
+
+#, python-format
+msgid "You have  <span>%(app_count)s app</span> in your repo. Share it!"
+msgid_plural "You have  <span>%(app_count)s apps</span> in your repo. Share it!"
+msgstr[0] "Ви маєте  <span>%(app_count)s застосунок</span> у вашому сховищі. Поділіться ним!"
+msgstr[1] "Ви маєте  <span>%(app_count)s застосунки</span> у вашому сховищі. Поділіться ними!"
+msgstr[2] "Ви маєте  <span>%(app_count)s застосунків</span> у вашому сховищі. Поділіться ними!"
+
+msgid "view repo"
+msgstr "переглянути сховище"
+
+msgid "share public link"
+msgstr "оприлюднити посилання"
+
+msgid "copy link"
+msgstr "копіювати посилання"
+
+msgid "add to an android phone"
+msgstr "додати до пристрою Android"
+
+msgid "To install these apps on your Android phone, add them to F-Droid."
+msgstr "Щоб встановити ці застосунки на свій пристрій Android, додайте їх до F-Droid."
+
+msgid "F-Droid ensures access to secure app updates."
+msgstr "F-Droid забезпечує доступ до безпечних оновлень застосунків."
+
+msgid "Scan QR"
+msgstr "Зчитати QR-код"
+
+#, python-format
+msgid "Check out this F-Droid repo: %(name)s"
+msgstr "Переглянути це сховище F-Droid: %(name)s"
+
+msgid "Browse Gallery"
+msgstr "Переглянути галерею"
+
+msgid "Search"
+msgstr "Пошук"
+
+#, python-format
+msgid "Category (%(count)s)"
+msgstr "Категорія (%(count)s)"
+
+msgid "All"
+msgstr "Все"
+
+#, python-format
+msgid "Source (%(count)s)"
+msgstr "Джерело (%(count)s)"
+
+msgid "Add a repo"
+msgstr "Додати сховище"
+
+msgid "Clear filters"
+msgstr "Очистити фільтри"
+
+#, python-format
+msgid "No apps found that match '%(search_term)s'. Please try a different search or remove other filter criteria."
+msgstr "Не знайдено застосунків, що відповідають запиту '%(search_term)s'. Спробуйте інший запит чи видаліть інші критерії фільтра."
+
+msgid "There are no apps in this repo."
+msgstr "Це сховище не має застосунків."
+
+msgid "There are no apps available in the repos."
+msgstr "У сховищах застосунків немає."
+
+msgid "If you just added a repo, wait for the apps to download and try again later."
+msgstr "Якщо ви щойно додали сховище, дочекайтеся завантаження застосунків і спробуйте знову пізніше."
+
+msgid "This repo has no apps in the selected category. Try clearing it or select a different repo."
+msgstr "Це сховище не має застосунків у вибраній категорії. Спробуйте очистити її або виберіть інше сховище."
+
+msgid "There are no apps available in the selected category. Try clearing it."
+msgstr "У вибраній категорії немає застосунків. Спробуйте очистити її."
+
+msgid "Delete Storage"
+msgstr "Видалити сховище"
+
+#, python-format
+msgid "Are you sure you want to remove the storage at <strong>%(object)s</strong> from your repo?"
+msgstr "Ви впевнені, що хочете вилучити сховище у <strong>%(object)s</strong> з вашого сховища?"
+
+msgid "This will not remove the content from that storage but will stop to publish future versions of your repo to it."
+msgstr "Це не вилучить вміст із цього сховища, але зупинить оприлюднення майбутніх версій сховища до нього."
+
+msgid "Enable Storage"
+msgstr "Увімкнути сховище"
+
+msgid "Disable Storage"
+msgstr "Вимкнути сховище"
+
+msgid "Repo Address"
+msgstr "Адреса сховища"
+
+msgid "Edit Storage"
+msgstr "Змінити сховище"
+
+msgid "Please make sure to add this public SSH key to your Git account for the upload to work. There are instructions for <a href=\"https://docs.gitlab.com/ee/gitlab-basics/create-your-ssh-keys.html#how-to-create-your-ssh-keys\">Gitlab</a> and <a href=\"https://developer.github.com/v3/guides/managing-deploy-keys/#deploy-keys\">GitHub</a>."
+msgstr "Будь ласка, не забудьте додати цей відкритий ключ SSH до свого облікового запису Git, щоб завантаження працювало. Ось вказівки для <a href=\"https://docs.gitlab.com/ee/gitlab-basics/create-your-ssh-keys.html#how-to-create-your-ssh-keys\">Gitlab</a> та <a href=\"https://developer.github.com/v3/guides/managing-deploy-keys/#deploy-keys\">GitHub</a>."
+
+msgid "Also, please make sure that the master branch of your repository is <b>not protected</b> from force pushing."
+msgstr "Також переконайтеся, що головну гілку вашого сховища <b>не захищено</b> від примусового закиду (force push)."
+
+msgid "Git Repository SSH Address"
+msgstr "SSH-адреса сховища Git"
+
+msgid "Region"
+msgstr "Регіон"
+
+msgid "Bucket"
+msgstr "Кошик"
+
+msgid "Access Key ID"
+msgstr "ID ключа доступу"
+
+msgid "Please make sure to add this public SSH key to your SSH server's <tt> <a href=\"https://en.wikibooks.org/wiki/OpenSSH/Client_Configuration_Files#.7E.2F.ssh.2Fauthorized_keys\">~/.ssh/authorized_keys</a> </tt> file,\tif you have not done so already."
+msgstr "Будь ласка, не забудьте додати цей відкритий ключ SSH до файлу вашого SSH-сервера <tt> <a href=\"https://en.wikibooks.org/wiki/OpenSSH/Client_Configuration_Files#.7E.2F.ssh.2Fauthorized_keys\">~/.ssh/authorized_keys,</a> </tt> якщо ви цього ще не зробили."
+
+msgid "Security Warning: This gives repomaker write access to that storage. Please limit this user's access as much as possible."
+msgstr "Попередження безпеки: Це надає Repomaker доступ для запису в цьому сховищі. Будь ласка, обмежте доступ користувача якнайбільше."
+
+msgid "Username"
+msgstr "Ім'я користувача"
+
+msgid "Host"
+msgstr "Хост"
+
+msgid "Path"
+msgstr "Шлях"
+
+msgid "Your local default SSH key will be used to connect to the storage."
+msgstr "Ваш локальний типовий ключ SSH буде використовуватися для з'єднання зі сховищем."
+
+msgid "Please make sure to authorize this public SSH key for your remote storage, if you have not done so already."
+msgstr "Будь ласка, не забудьте авторизувати цей відкритий ключ SSH для зовнішнього сховища, якщо ви цього ще не зробили."
+
+msgid "Activate this storage only once you have added the SSH key."
+msgstr "Увімкніть це сховище лише після додавання ключа SSH."
+
+msgid "If this storage is experiencing problems, please check that the SSH key works properly."
+msgstr "Якщо з цим сховищем виникають проблеми, перевірте, працює належним чином ключ SSH."
+
+#, python-format
+msgid "Update %(storage_name)s"
+msgstr "Оновити %(storage_name)s"
+
+#, python-format
+msgid "Setup %(storage_name)s"
+msgstr "Налаштувати %(storage_name)s"
+
+msgid "cancel"
+msgstr "скасувати"
+
+msgid "save"
+msgstr "зберегти"
+
+msgid "Here's how to copy the SSH Address from GitLab:"
+msgstr "Ось як скопіювати SSH-адресу з GitLab:"
+
+msgid "Setup a place to store your repo"
+msgstr "Налаштуйте місце для зберігання вашого сховища"
+
+msgid "Git"
+msgstr "Git"
+
+msgid "Easy, free, requires an account"
+msgstr "Легко, безплатно, потрібен обліковий запис"
+
+msgid "Git is a popular tool to version control things. You can securely publish repos to GitLab, GitHub or any other Git service. Git services use SSH to securely copy files from your computer to remote computers."
+msgstr "Git - розповсюджений засіб контролю версій. Ви можете безпечно оприлюднювати сховища на GitLab, GitHub або будь-якій іншій службі Git. Служби Git використовують SSH для безпечного копіювання файлів із вашого комп'ютера на зовнішні комп'ютери."
+
+msgid "Setup"
+msgstr "Налаштування"
+
+msgid "GitLab"
+msgstr "GitLab"
+
+msgid "GitHub"
+msgstr "Github"
+
+msgid "SSH"
+msgstr "SSH"
+
+msgid "Requires a personal web server or host that supports SSH"
+msgstr "Потрібен особистий вебсервер або хост, що підтримує SSH"
+
+msgid "SSH is a technology that can be used to copy files securely to remote computers. When using Git as storage, the files will also be copied via SSH. But the pure SSH option directly copies the files without using any other technology."
+msgstr "SSH - це технологія, яку можна використовувати для безпечного копіювання на зовнішні комп'ютери. Коли використовується Git як сховище, файли також буде копійовано через SSH. Але сам SSH безпосередньо копіює файли, не використовуючи жодної іншої технології."
+
+msgid "Amazon S3"
+msgstr "Amazon S3"
+
+msgid "Requires an Amazon account, Pricing varies"
+msgstr "Потрібен обліковий запис Amazon, ціна змінюється"
+
+msgid "Amazon S3 is a web service offered by Amazon Web Services. Amazon S3 provides storages through web service interfaces. Pricing varies. Visit the Amazon S3 website for details."
+msgstr "Amazon S3 - вебслужба, пропонований Amazon Web Services. Amazon S3 надає сховища через інтерфейси вебслужби. Ціноутворення варіюється. Докладніше на вебсайті Amazon S3."
+
+#, python-format
+msgid "Version %(version)s (%(date)s)"
+msgstr "Версія %(version)s (%(date)s)"
+
+msgid "Added"
+msgstr "Додано"
+
+msgid "There was an error creating the repository. Please try again!"
+msgstr "Під час створення сховища сталася помилка. Спробуйте ще раз!"
+
+msgid "Enter email"
+msgstr "Введіть адресу електронної пошти"
+
+msgid "Enter your email address and we'll send a link to reset it. If you did not sign up with an email, we cannot help you securely reset your password."
+msgstr "Введіть свою електронну адресу і ми надішлемо посилання для скидання. Якщо ви не зареєструвались з електронною поштою, ми не можемо допомогти вам безпечно відновити пароль."
+
+msgid "This is not a valid language code."
+msgstr "Це недійсний код мови."
+
+msgid "This language already exists. Please choose another one!"
+msgstr "Ця мова вже існує. Виберіть іншу!"
+
+msgid "Enter SSH URL"
+msgstr "Введіть SSH URL"
+
+msgid "Raw Git URL"
+msgstr "Джерельний Git URL"
+
+msgid "This is the location where the uploaded files can be accessed from in raw form. Leave empty for GitHub or GitLab.com repositories."
+msgstr "Це місце, з якого можна отримати доступ до завантажених файлів у необробленому вигляді. Залиште порожнім для сховищ GitHub або GitLab.com."
+
+msgid "This URL must start with 'git@'."
+msgstr "Ця URL-адреса повинна починатися з 'git@'."
+
+msgid "This URL must end with '.git'."
+msgstr "Ця URL-адреса повинна закінчуватися з '.git'."
+
+msgid "This URL is invalid. Please copy the exact SSH URL of your git repository."
+msgstr "Ця URL-адреса недійсна. Скопіюйте точну URL-адресу SSH вашого сховища git."
+
+msgid "Please add a valid URLfor the raw content of this git repository."
+msgstr "Додайте дійсну URL-адресу для джерельного вмісту цього сховища git."
+
+msgid "Repository URL"
+msgstr "URL-адреса сховища"
+
+msgid "Please use a URL with a fingerprint at the end, so we can validate the authenticity of the repository."
+msgstr "Використовуйте URL-адресу з цифровим відбитком в кінці, щоб ми могли перевірити справжність сховища."
+
+msgid "Please don't add one of your own repositories here."
+msgstr "Не додавайте сюди жодного власного сховища."
+
+#, python-format
+msgid "Could not validate repository: %s"
+msgstr "Не вдалося перевірити сховище: %s"
+
+msgid "Describe the repo"
+msgstr "Опишіть сховище"
+
+msgid "Bucket Name"
+msgstr "Назва кошика"
+
+msgid "Secret Access Key"
+msgstr "Таємний ключ доступу"
+
+msgid "Other regions are currently not supported."
+msgstr "Інші регіони наразі не підтримуються."
+
+msgid "Language"
+msgstr "Мова"
+
+msgid "Select Screenshot for upload"
+msgstr "Вибрати знімок екрана для вивантаження"
+
+msgid "Use local default SSH Key"
+msgstr "Використовуйте локальний типовий ключ SSH"
+
+msgid "User Name"
+msgstr "Ім'я користувача"
+
+msgid "URL"
+msgstr "URL-адреса"
+
+msgid "This is the location where the uploaded files can be accessed from."
+msgstr "Це місце, з якого можна отримати доступ до завантажених файлів."
+
+msgid "Primary Storage"
+msgstr "Основне сховище"
+
+msgid "Make this storage the primary storage of the repository."
+msgstr "Зробіть це сховище основним для сховища GIT."

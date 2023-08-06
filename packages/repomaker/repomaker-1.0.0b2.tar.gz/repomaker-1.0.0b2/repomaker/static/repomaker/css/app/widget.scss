@@ -1,0 +1,115 @@
+/*
+ * App card
+ */
+
+.rm-app-card {
+    border-radius: 8px;
+    margin: 8px auto 8px auto;
+    flex-direction: row;
+}
+
+.rm-app-card:not(.rm-app-card--no-hover) {
+    transition: background-color 0.2s ease;
+
+    &:hover {
+        background: #f2f2f2;
+    }
+}
+
+.rm-app-card-left {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    min-width: 80px;
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+.rm-app-card-right {
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.rm-app-card-title {
+    font-weight: 500;
+    @include font-size(17px);
+    padding-bottom: 3px;
+}
+
+.rm-app-card-summary {
+    color: #575757;
+    @include font-size(14px);
+    overflow: hidden;
+    padding-bottom: 6px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.rm-app-card-description {
+    @include font-size(14px);
+    flex-grow: 1;
+    overflow-wrap: break-word;
+}
+
+.rm-app-card-updated {
+    color: #575757;
+    @include font-size(14px);
+    text-align: right;
+    padding-top: 6px;
+}
+
+.rm-app-card-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+}
+
+.rm-app-card-categories {
+    align-items: flex-start;
+    display: flex;
+    flex-grow: 2;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.rm-app-card-category-chip {
+    background: #f4f4f4;
+    margin: 4px;
+}
+
+.rm-app-card-category-text {
+    color: #4a4a4a;
+    font-size: 13px;
+}
+
+.rm-app-card-footer-action {
+    @extend .rm-no-underline;
+    align-self: center;
+    button, button:focus:not(:active) {
+        // TODO: Extend .rm-button from style.css
+        @extend .mdl-button;
+        background: none;
+        border: thin solid #4a4a4a;
+        border-radius: 25px;
+        @include font-size(11px);
+        margin: 10px;
+        padding: 0 40px;
+    }
+}
+
+.rm-app-card-footer-action--successful {
+    button, button:focus:not(:active) {
+        background: #0062cf;
+        border-color: #0062cf;
+        color: white;
+        display: inline-flex;
+        vertical-align: middle;
+    }
+}

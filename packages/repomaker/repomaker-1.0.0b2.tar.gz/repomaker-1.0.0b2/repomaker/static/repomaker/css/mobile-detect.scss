@@ -1,0 +1,23 @@
+@media screen and (max-width: $grid-desktop-breakpoint) {
+
+    .only-desktop {
+        display: none;
+    }
+
+    .only-mobile {
+        display: unset;
+    }
+
+}
+
+@media screen and (min-width: $grid-desktop-breakpoint - 1) {
+
+    .only-desktop {
+        display: unset;
+    }
+
+    .only-mobile {
+        display: none;
+    }
+
+}

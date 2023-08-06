@@ -1,0 +1,720 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-01 20:54+0000\n"
+"PO-Revision-Date: 2018-08-05 15:36+0000\n"
+"Last-Translator: Ty Moss <lavahd@protonmail.ch>\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/f-droid/repomaker/nb/>\n"
+"Language: nb_NO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.1.1\n"
+
+#, python-format
+msgid "This file is not an update for %s"
+msgstr "Dette er ikke en oppdatering for %s"
+
+msgid "This APK already exists in the current repo."
+msgstr "Denne APK-fila finnes allerede i din gjeldende pakkebrønn."
+
+msgid "Invalid APK signature"
+msgstr "Ugyldig APK-signatur"
+
+msgid "Invalid APK."
+msgstr "Ugyldig APK."
+
+msgid "Unsupported File Type"
+msgstr "Ustøttet filtype"
+
+msgid "This file is of a different type than the other versions of this app."
+msgstr "Denne fila er av en annen type enn den andre versjonen av dette programmet."
+
+msgid "APK"
+msgstr "APK"
+
+msgid "Book"
+msgstr "Bok"
+
+msgid "Document"
+msgstr "Dokument"
+
+msgid "Image"
+msgstr "Bilde"
+
+msgid "Audio"
+msgstr "Lyd"
+
+msgid "Video"
+msgstr "Video"
+
+msgid "Other"
+msgstr "Annet"
+
+msgid "This app does already exist in your repository."
+msgstr "Dette programmet finnes allerede i din pakkebrønn."
+
+msgid "This app does not have any working versions available."
+msgstr "Dette programmet har ikke noen tilgjengelige versjoner."
+
+msgid "Phone"
+msgstr "Telefon"
+
+msgid "7'' Tablet"
+msgstr "7\" nettbrett"
+
+msgid "10'' Tablet"
+msgstr "10\" nettbrett"
+
+msgid "TV"
+msgstr "TV"
+
+msgid "Wearable"
+msgstr "Kledelig"
+
+msgid "US Standard"
+msgstr "Amerikansk standard"
+
+msgid "Amazon S3 Storage"
+msgstr "Amazon S3-lagring"
+
+msgid "Enter a valid user name consisting of letters, numbers, underscores or hyphens."
+msgstr "Skriv inn et gyldig brukernavn inneholdende bokstaver, tall, understrek eller bindestrek."
+
+msgid "Enter a valid hostname."
+msgstr "Skriv inn et gyldig vertsnavn."
+
+msgid "Enter a valid path."
+msgstr "Skriv inn en gyldig sti."
+
+msgid "SSH Storage"
+msgstr "SSH-lagring"
+
+msgid "Git Storage"
+msgstr "Git-lagring"
+
+msgid "Default Storage"
+msgstr "Forvalgt lagring"
+
+msgid "American English"
+msgstr "Amerikansk engelsk"
+
+msgid "Change E-mail"
+msgstr "Bytt e-post"
+
+msgid "Sign Out"
+msgstr "Logg ut"
+
+msgid "Sign In"
+msgstr "Logg inn"
+
+msgid "Sign Up"
+msgstr "Registrer deg"
+
+msgid "Distribute apps."
+msgstr "Distribuer programmer."
+
+msgid "Spread the love."
+msgstr "Spre begeistringen."
+
+msgid "Repomaker is a free web app built for creating collections of apps, music, books, videos and pictures to share with your peers. It uses F-Droid as the mobile distribution platform. Available on Android only."
+msgstr "Repomaker er et fritt nettbasert program for å bygge samlinger av programmer, musikk, bøker, videoer og bilder å dele med dine likesinnede. Det bruker F-Droid som sin mobile distribusjonsplattform. Kun tilgjengelig på Android."
+
+msgid "Login"
+msgstr "Innlogging"
+
+msgid "Forgot Password"
+msgstr "Glemt passord"
+
+msgid "Or login with"
+msgstr "Eller logg inn med"
+
+msgid "Logout"
+msgstr "Logg ut"
+
+msgid "See you later"
+msgstr "Ses senere"
+
+msgid "Your security is important to us. Please confirm that you want to logout."
+msgstr "Din sikkerhet er viktig for oss. Bekreft at du vil logge ut."
+
+msgid "logout"
+msgstr "logg ut"
+
+msgid "submit"
+msgstr "send inn"
+
+msgid "We have sent you an email with a link to reset your password."
+msgstr "Vi har sendt deg en e-post med en lenke for å tilbakestille passordet ditt."
+
+msgid "Signup"
+msgstr "Registrer deg"
+
+msgid "Delete App Version"
+msgstr "Slett programversjon"
+
+#, python-format
+msgid "Are you sure you want to delete this version <strong>%(version)s</strong> (%(code)s) from your app <strong>%(app)s</strong>?"
+msgstr "Er du sikker på at du ønsker å slette denne versjonen <strong>%(version)s</strong> (%(code)s) fra ditt program <strong>%(app)s</strong>?"
+
+msgid "Confirm"
+msgstr "Bekreft"
+
+msgid "Delete App"
+msgstr "Slett program"
+
+#, python-format
+msgid "Are you sure you want to delete your app <strong>%(object)s</strong>?"
+msgstr "Er du sikker på at du vil fjerne ditt program <strong>%(object)s</strong>?"
+
+#, python-format
+msgid "Edit %(app)s"
+msgstr "Rediger %(app)s"
+
+msgid "Remove App"
+msgstr "Fjern program"
+
+msgid "Done"
+msgstr "Ferdig"
+
+msgid "By"
+msgstr "Av"
+
+msgid "Summary Override (40 characters)"
+msgstr "Sammendragsoversyring (40 tegn)"
+
+msgid "Short Summary (40 characters)"
+msgstr "Kort sammendrag (40 tegn)"
+
+msgid "Category"
+msgstr "Kategori"
+
+msgid "Choose Category"
+msgstr "Velg kategori"
+
+msgid "Description Override"
+msgstr "Beskrivelsesoverstyring"
+
+msgid "Description"
+msgstr "Beskrivelse"
+
+msgid "Screenshots"
+msgstr "Skjermbilde"
+
+msgid "Add files"
+msgstr "Legg til filer"
+
+msgid "Drag and drop screenshots"
+msgstr "Dra og slipp skjermbilder"
+
+msgid "or"
+msgstr "eller"
+
+msgid "browse to upload"
+msgstr "utforsk for å laste opp"
+
+msgid "Feature Graphic"
+msgstr "Funksjonsbilde"
+
+msgid "Drag and drop a feature graphic"
+msgstr "Dra og slipp et funksjonsbilde"
+
+msgid "Drag and drop .apk files"
+msgstr "Dra og slipp .apk-filer"
+
+msgid "Back"
+msgstr "Tilbake"
+
+msgid "Editing Disabled"
+msgstr "Redigering avskrudd"
+
+msgid "This app gets updated automatically from the remote repo. If you want to edit it yourself, you need to disable automatic updates first. Please note that without automatic updates, you will need to add new versions manually."
+msgstr "Dette programmet blir oppgradert automatisk fra pakkebrønnen annensteds hen. Hvis du ønsker å endre den selv, må du skru av automatiske oppgraderinger først. Merk deg at uten automatiske oppgraderinger, må du legge til nye versjoner manuelt."
+
+msgid "Disable Automatic Updates"
+msgstr "Skru av automatiske oppgraderinger"
+
+msgid "Delete Feature Graphic"
+msgstr "Slett funksjonsbilde"
+
+#, python-format
+msgid "Are you sure you want to delete the feature graphic from your app <strong>%(app)s</strong>?"
+msgstr "Er du sikker på at du ønsker å slette dette funksjonsbildet fra ditt program <strong>%(app)s</strong>?"
+
+#, python-format
+msgid "Languages (%(count)s)"
+msgstr "Språk (%(count)s)"
+
+msgid "Edit"
+msgstr "Rediger"
+
+msgid "Add Translation"
+msgstr "Legg til oversettelse"
+
+#, python-format
+msgid "By %(author)s"
+msgstr "Av %(author)s"
+
+#, python-format
+msgid "Updated %(time)s ago"
+msgstr "Oppdatert %(time)s siden"
+
+#, python-format
+msgid "This app gets automatically updated from the remote repo \"%(repo_name)s\"."
+msgstr "Dette programmet blir automatisk oppdatert fra pakkebrønnen annensteds hen \"%(repo_name)s\"."
+
+msgid "version history"
+msgstr "versjonshistorikk"
+
+#, python-format
+msgid "Version %(version)s (%(code)s)"
+msgstr "Versjon %(version)s (%(code)s)"
+
+#, python-format
+msgid "Released %(date)s"
+msgstr "Utgitt %(date)s"
+
+msgid "APK is still downloading..."
+msgstr "APK lastes fremdeles ned…"
+
+msgid "This app has no APK files."
+msgstr "Dette programmet har ingen APK-filer."
+
+msgid "If you added this app from a remote repo, try deleting it and adding it again."
+msgstr "Hvis du slettet dette programmet fra en pakkebrønn annensteds fra, prøv å slette den og legge den til igjen."
+
+msgid "Previous"
+msgstr "Forrige"
+
+msgid "Next"
+msgstr "Neste"
+
+msgid "Add"
+msgstr "Legg til"
+
+msgid "There are currently no screenshots shown because this gives the repo owner the ability to track you."
+msgstr "Det finnes foreløpig ingen skjermbilder fordi dette gir pakkebrønnseieren en mulighet til å spore deg."
+
+msgid "show screenshots"
+msgstr "vis skjermbilder"
+
+msgid "Delete Screenshot"
+msgstr "Slett skjermavbildning"
+
+#, python-format
+msgid "Are you sure you want to delete this screenshot from your app <strong>%(app)s</strong>?"
+msgstr "Er du sikker på at du ønsker å slette denne skjermbildet fra ditt program <strong>%(app)s</strong>?"
+
+msgid "Language Code"
+msgstr "Språkkode"
+
+#, python-format
+msgid "Hello, %(user)s"
+msgstr "Hei, %(user)s"
+
+msgid "Please Wait!"
+msgstr "Vent!"
+
+msgid "Background Operation in Progress"
+msgstr "Bekgrunnsprosess kjører"
+
+msgid "Repomaker might be updating or publishing your repo. Or it might be updating a remote repo. Depending on the type and size of the background operation, this might take awhile."
+msgstr "Det kan hende Repomaker oppdaterer eller offentliggjør din pakkebrønn. Eller så oppdaterer det en pakkebrønn annensteds hen. Avhengig av typen og størrelsen på bakgrunnsprosessen, kan dette ta sin tid."
+
+msgid "Try Again"
+msgstr "Prøv igjen"
+
+msgid "The button won't work for you. Please press F5 to try again."
+msgstr "Denne knappen vil ikke fungere for deg. Trykk F5 for å prøve igjen."
+
+msgid "Error"
+msgstr "Feil"
+
+msgid "My Repos"
+msgstr "Mine pakkebrønner"
+
+#, python-format
+msgid "Published %(time_ago)s"
+msgstr "Offentliggjort %(time_ago)s"
+
+#, python-format
+msgid "Created %(time_ago)s"
+msgstr "Opprettet %(time_ago)s"
+
+msgid "Make a collection of apps to share"
+msgstr "Lag en samling av programmer å dele"
+
+msgid "Create Repo"
+msgstr "Opprett pakkebrønn"
+
+msgid "New Repo"
+msgstr "Ny pakkebrønn"
+
+msgid "Create"
+msgstr "Opprett"
+
+msgid "Delete Repo"
+msgstr "Slett pakkebrønn"
+
+#, python-format
+msgid "Are you sure you want to delete the repo <strong>%(repo)s</strong>?"
+msgstr "Er du sikker på at du vil slette pakkebrønnen <strong>%(repo)s</strong>?"
+
+msgid "This will also delete all apps and other files from your repo. You will not be able to get them back, users of your repo will not be able to use it anymore and not receive updates for the apps they received from you. There is no way to recover this repo!"
+msgstr "Dette vil også slette alle programmer og andre filer fra din pakkebrønn. Du vil ikke kunne få dem tilbake, brukere av din pakkebrønn vil ikke kunne bruke den mer, og vil ikke motta oppdateringer for programmene de mottok fra deg. Det er ikke mulig å gjenopprette denne pakkebrønnen!"
+
+msgid "Please only proceed if you know what you are doing!"
+msgstr "Bare fortsett hvis du vet hva du gjør!"
+
+msgid "Yes, I want to delete the repo"
+msgstr "Ja, jeg vil slette denne pakkebrønnen"
+
+msgid "Edit Repo"
+msgstr "Rediger pakkebrønn"
+
+msgid "Save Changes"
+msgstr "Lagre endringer"
+
+msgid "Content"
+msgstr "Innhold"
+
+msgid "Share"
+msgstr "Del"
+
+msgid "Info"
+msgstr "Info"
+
+msgid "Search for apps in your repository"
+msgstr "Søk etter programmer i din pakkebrønn"
+
+msgid "add from gallery"
+msgstr "legg til fra galleri"
+
+#, python-format
+msgid "Alternatively, drag and drop or %(label_start)schoose files%(label_end)s"
+msgstr "Alternativt, dra og slipp, eller  %(label_start)svelg filer%(label_end)s"
+
+msgid "Accepted files include Android apps, documents, eBooks, audio and video."
+msgstr "Godtatte filer innebefatter Androidprogrammer, dokumenter, e-bøker, lyd og video."
+
+msgid "Your search did not return any results."
+msgstr "Søket ditt var resultatløst."
+
+msgid "Name"
+msgstr "Navn"
+
+msgid "Storage"
+msgstr "Lager"
+
+msgid "Add Storage"
+msgstr "Legg til lager"
+
+msgid "Fingerprint"
+msgstr "Fingeravtrykk"
+
+msgid "Remove Repo"
+msgstr "Fjern mine pakkebrønner"
+
+msgid "Add storage to publish"
+msgstr "Legg til lager for å offentliggjøre"
+
+msgid "Your repo will be automatically published when you add storage. Repomaker does not publically promote your stuff. Only people who receive the direct link to your repo will be able to see it."
+msgstr "Pakkebrønnen din vil automatisk offentliggjøres når du legger til lagringsplass. Repomaker promoterer ikke innholdet ditt offentlig. Bare folk som mottar en direkte lenke til din pakkebrønn vil kunne se den."
+
+msgid "add storage"
+msgstr "legg til lager"
+
+#, python-format
+msgid "You have  <span>%(app_count)s app</span> in your repo. Share it!"
+msgid_plural "You have  <span>%(app_count)s apps</span> in your repo. Share it!"
+msgstr[0] "Du har <span>%(app_count)s program</span> i din pakkebrønn. Del det!"
+msgstr[1] "Du har <span>%(app_count)s programmer</span> i din pakkebrønn. Del dem!"
+
+msgid "view repo"
+msgstr "vis pakkebrønn"
+
+msgid "share public link"
+msgstr "del offentlig lenke"
+
+msgid "copy link"
+msgstr "kopier lenke"
+
+msgid "add to an android phone"
+msgstr "legg til på en Android-telefon"
+
+msgid "To install these apps on your Android phone, add them to F-Droid."
+msgstr "For å installere disse programmene på din Android-telefon, legg dem til på F-Droid."
+
+msgid "F-Droid ensures access to secure app updates."
+msgstr "F-Droid forsikrer tilgang til sikre programoppdateringer."
+
+msgid "Scan QR"
+msgstr "Skann QR"
+
+#, python-format
+msgid "Check out this F-Droid repo: %(name)s"
+msgstr "Sjekk ut denne pakkebrønnen på F-Droid: %(name)s"
+
+msgid "Browse Gallery"
+msgstr "Utforsk galleri"
+
+msgid "Search"
+msgstr "Søk"
+
+#, python-format
+msgid "Category (%(count)s)"
+msgstr "Kategori (%(count)s)"
+
+msgid "All"
+msgstr "Alle"
+
+#, python-format
+msgid "Source (%(count)s)"
+msgstr "Kilde (%(count)s)"
+
+msgid "Add a repo"
+msgstr "Legg til pakkebrønn"
+
+msgid "Clear filters"
+msgstr "Fjern filtre"
+
+#, python-format
+msgid "No apps found that match '%(search_term)s'. Please try a different search or remove other filter criteria."
+msgstr "Ingen programmer samsvarer med '%(search_term)s'. Prøv å endre søket eller fjern andre filterkriterium."
+
+msgid "There are no apps in this repo."
+msgstr "Det er ingen programmer i denne pakkebrønnen."
+
+msgid "There are no apps available in the repos."
+msgstr "Det er ingen programmer tilgjengelige i pakkebrønnene."
+
+msgid "If you just added a repo, wait for the apps to download and try again later."
+msgstr "Hvis du akkurat la til en pakkebrønn, vent på at programmene lastes ned og prøv igjen senere."
+
+msgid "This repo has no apps in the selected category. Try clearing it or select a different repo."
+msgstr "Denne pakkebrønnen har ingen programmer i valgt kategori. Prøv å renske det eller velg en annen pakkebrønn."
+
+msgid "There are no apps available in the selected category. Try clearing it."
+msgstr "Ingen programmer i valgt kategori. Prøv å tømme den."
+
+msgid "Delete Storage"
+msgstr "Slett lager"
+
+#, python-format
+msgid "Are you sure you want to remove the storage at <strong>%(object)s</strong> from your repo?"
+msgstr "Er du sikker på at du vil fjerne lageret på <strong>%(object)s</strong> fra din pakkebrønn?"
+
+msgid "This will not remove the content from that storage but will stop to publish future versions of your repo to it."
+msgstr "Dette vil ikke fjerne innhold fra det lageret, men vil stoppe publisering av fremtidige versjoner av pakkebrønnen din til det."
+
+msgid "Enable Storage"
+msgstr "Skru på lager"
+
+msgid "Disable Storage"
+msgstr "Skru av lager"
+
+msgid "Repo Address"
+msgstr "Pakkebrønnsadresse"
+
+msgid "Edit Storage"
+msgstr "Rediger lager"
+
+msgid "Please make sure to add this public SSH key to your Git account for the upload to work. There are instructions for <a href=\"https://docs.gitlab.com/ee/gitlab-basics/create-your-ssh-keys.html#how-to-create-your-ssh-keys\">Gitlab</a> and <a href=\"https://developer.github.com/v3/guides/managing-deploy-keys/#deploy-keys\">GitHub</a>."
+msgstr "Forsikre deg om at du legger til denne offentlige SSH-nøkkelen til din Git-konto for at opplastingen skal virke. Her er instruksjonene for <a href=\"https://docs.gitlab.com/ee/gitlab-basics/create-your-ssh-keys.html#how-to-create-your-ssh-keys\">GitLab</a> og <a href=\"developer.github.com/v3/guides/managing-deploy-keys/#deploy-keys\">GitHub</a>."
+
+msgid "Also, please make sure that the master branch of your repository is <b>not protected</b> from force pushing."
+msgstr "Forsikre deg også om at master-grenen i din pakkebrønn <b>ikke er beskyttet</b> mot tvungen opplasting."
+
+msgid "Git Repository SSH Address"
+msgstr "Git-pakkebrønnens SSH-adresse"
+
+msgid "Region"
+msgstr "Region"
+
+msgid "Bucket"
+msgstr "Bøtte"
+
+msgid "Access Key ID"
+msgstr "ID for tilgangsnøkkel"
+
+msgid "Please make sure to add this public SSH key to your SSH server's <tt> <a href=\"https://en.wikibooks.org/wiki/OpenSSH/Client_Configuration_Files#.7E.2F.ssh.2Fauthorized_keys\">~/.ssh/authorized_keys</a> </tt> file,\tif you have not done so already."
+msgstr "Forsikre deg om at denne SSH-nøkkelen er lagt til i din SSH-tjeners <tt><a href=\"https://en.wikibooks.org/wiki/OpenSSH/Client_Configuration_Files#.7E.2F.ssh.2Fauthorized_keys\">~/.ssh/authorized_keys</a></tt>-fil."
+
+msgid "Security Warning: This gives repomaker write access to that storage. Please limit this user's access as much as possible."
+msgstr "Sikkerhetsadvarsel: Dette gir repomaker tilgang til det lageret. Begrens denne brukerens tilgang så mye som mulig."
+
+msgid "Username"
+msgstr "Brukernavn"
+
+msgid "Host"
+msgstr "Vert"
+
+msgid "Path"
+msgstr "Sti"
+
+msgid "Your local default SSH key will be used to connect to the storage."
+msgstr "Din lokale forvalgte SSH-nøkkel vil bli brukt til å koble til lageret."
+
+msgid "Please make sure to authorize this public SSH key for your remote storage, if you have not done so already."
+msgstr "Husk på å autorisere denne offentlige SSH-nøkkelen for ditt fjernlager hvis du ikke har gjort det allerede."
+
+msgid "Activate this storage only once you have added the SSH key."
+msgstr "Kun aktiver dette lageret hvis du har lagt til en SSH-nøkkel."
+
+msgid "If this storage is experiencing problems, please check that the SSH key works properly."
+msgstr "Hvis du opplever problemer med dette lageret, sjekk at SSH-nøkkelen fungerer ordentlig."
+
+#, python-format
+msgid "Update %(storage_name)s"
+msgstr "Oppdater %(storage_name)s"
+
+#, python-format
+msgid "Setup %(storage_name)s"
+msgstr "Sett opp %(storage_name)s"
+
+msgid "cancel"
+msgstr "avbryt"
+
+msgid "save"
+msgstr "lagre"
+
+msgid "Here's how to copy the SSH Address from GitLab:"
+msgstr "Slik kopierer du SSH-adressen fra GitLab:"
+
+msgid "Setup a place to store your repo"
+msgstr "Sett opp en plass å lagre din pakkebrønn"
+
+msgid "Git"
+msgstr "Git"
+
+msgid "Easy, free, requires an account"
+msgstr "Enkelt, fritt, krever en konto"
+
+msgid "Git is a popular tool to version control things. You can securely publish repos to GitLab, GitHub or any other Git service. Git services use SSH to securely copy files from your computer to remote computers."
+msgstr "Git er et populært verktøy for versjonskontroll. Du kan offentliggjøre pakkebrønner på en sikker måte på GitLab, GitHub, eller enhver annen Git-tjeneste. Git-tjenester bruker SSH til å kopier filer sikkert fra din datamaskin til andre maskiner."
+
+msgid "Setup"
+msgstr "Oppsett"
+
+msgid "GitLab"
+msgstr "GitLab"
+
+msgid "GitHub"
+msgstr "GitHub"
+
+msgid "SSH"
+msgstr "SSH"
+
+msgid "Requires a personal web server or host that supports SSH"
+msgstr "Krever en personlig vev-tjener eller vert som støtter SSH"
+
+msgid "SSH is a technology that can be used to copy files securely to remote computers. When using Git as storage, the files will also be copied via SSH. But the pure SSH option directly copies the files without using any other technology."
+msgstr "SSH er en teknologi som brukes for å kopier filer sikkert til maskiner annensteds hen. Når du bruker Git som lagring, vil filene også bli kopiert via SSH, men det rene SSH-valget kopierer filene direkte uten bruk av annen teknologi."
+
+msgid "Amazon S3"
+msgstr "Amazon S3"
+
+msgid "Requires an Amazon account, Pricing varies"
+msgstr "Krever en Amazon-konto. Prisen varierer"
+
+msgid "Amazon S3 is a web service offered by Amazon Web Services. Amazon S3 provides storages through web service interfaces. Pricing varies. Visit the Amazon S3 website for details."
+msgstr "Amazon S3 er en vev-tjeneste tilbudt av Amazon Web Services. Amazon S3 tilbyr lagringsplass gjennom et vevgrensesnitt. Prisen varierer. Besøk Amazon S3-nettsiden for detaljer."
+
+#, python-format
+msgid "Version %(version)s (%(date)s)"
+msgstr "Versjon %(version)s (%(date)s)"
+
+msgid "Added"
+msgstr "Lagt til"
+
+msgid "There was an error creating the repository. Please try again!"
+msgstr "En feil inntraff under opprettelse av pakkebrønnen. Prøv igjen."
+
+msgid "Enter email"
+msgstr "Skriv inn e-post"
+
+msgid "Enter your email address and we'll send a link to reset it. If you did not sign up with an email, we cannot help you securely reset your password."
+msgstr "Skriv inn din e-postadresse og vi vil sende en lenke for å tilbakestille den. Hvis du ikke melder deg på med en e-postadresse, kan vi ikke hjelpe deg med å tilbakestille passordet ditt sikkert."
+
+msgid "This is not a valid language code."
+msgstr "Dette er ikke en gyldig språkkode."
+
+msgid "This language already exists. Please choose another one!"
+msgstr "Dette språket finnes allerede. Velg noe annet!"
+
+msgid "Enter SSH URL"
+msgstr "Skriv inn nettadresse for SSH"
+
+msgid "Raw Git URL"
+msgstr "Rå Git-URL"
+
+msgid "This is the location where the uploaded files can be accessed from in raw form. Leave empty for GitHub or GitLab.com repositories."
+msgstr "Dette er plasseringen opplastede filer kan nås fra i rå form. La stå tom for GitHub- eller GitLab.com -pakkebrønner."
+
+msgid "This URL must start with 'git@'."
+msgstr "Nettadressen må starte med 'git@'."
+
+msgid "This URL must end with '.git'."
+msgstr "Denne nettadressen må slutte med '.git'."
+
+msgid "This URL is invalid. Please copy the exact SSH URL of your git repository."
+msgstr "Denne nettadressen er ugyldig. Kopier nøyaktig SSH-URL fra din Git-pakkebrønn."
+
+msgid "Please add a valid URLfor the raw content of this git repository."
+msgstr "Legg til gyldig URL for rå-innholdet av denne Git-pakkebrønnen."
+
+msgid "Repository URL"
+msgstr "Pakkebrønns-URL"
+
+msgid "Please use a URL with a fingerprint at the end, so we can validate the authenticity of the repository."
+msgstr "Legg til en URL med fingeravtrykket på slutten, slik at vi kan godkjenne opphavet til pakkebrønnen."
+
+msgid "Please don't add one of your own repositories here."
+msgstr "Ikke legg til noen av dine egne pakkebrønner her."
+
+#, python-format
+msgid "Could not validate repository: %s"
+msgstr "Kunne ikke bekrefte pakkebrønn: %s"
+
+msgid "Describe the repo"
+msgstr "Beskriv pakkebrønnen"
+
+msgid "Bucket Name"
+msgstr "Bøtte-navn"
+
+msgid "Secret Access Key"
+msgstr "Hemmelig tilgangsnøkkel"
+
+msgid "Other regions are currently not supported."
+msgstr "Andre regioner støttes ikke for øyeblikket."
+
+msgid "Language"
+msgstr "Språk"
+
+msgid "Select Screenshot for upload"
+msgstr "Velg skjermavbildning for opplasting"
+
+msgid "Use local default SSH Key"
+msgstr "Bruk lokal forvalgt SSH-nøkkel"
+
+msgid "User Name"
+msgstr "Brukernavn"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "This is the location where the uploaded files can be accessed from."
+msgstr "Dette er plasseringen opplastede filer kan nås fra."
+
+msgid "Primary Storage"
+msgstr "Primærlagring"
+
+msgid "Make this storage the primary storage of the repository."
+msgstr "Gjør dette lageret til hovedlager for pakkebrønnen."

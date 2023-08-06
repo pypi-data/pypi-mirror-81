@@ -1,0 +1,720 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-01 20:54+0000\n"
+"PO-Revision-Date: 2018-07-22 12:55+0000\n"
+"Last-Translator: Adrià García-Alzórriz <adria@fsfe.org>\n"
+"Language-Team: Catalan <https://hosted.weblate.org/projects/f-droid/repomaker/ca/>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.1-dev\n"
+
+#, python-format
+msgid "This file is not an update for %s"
+msgstr "Aquest fitxer no és una actualització per a %s"
+
+msgid "This APK already exists in the current repo."
+msgstr "Aquest APK ja existeix al seu repositori."
+
+msgid "Invalid APK signature"
+msgstr "Firma de l'APK no vàlida"
+
+msgid "Invalid APK."
+msgstr "APK invàlid."
+
+msgid "Unsupported File Type"
+msgstr "Tipus d'arxiu no suportat"
+
+msgid "This file is of a different type than the other versions of this app."
+msgstr "Aquest arxiu és de tipus diferent que la resta de versions d'aquesta «app»."
+
+msgid "APK"
+msgstr "APK"
+
+msgid "Book"
+msgstr "Llibre"
+
+msgid "Document"
+msgstr "Document"
+
+msgid "Image"
+msgstr "Imatge"
+
+msgid "Audio"
+msgstr "So"
+
+msgid "Video"
+msgstr "Vídeo"
+
+msgid "Other"
+msgstr "Altre"
+
+msgid "This app does already exist in your repository."
+msgstr "Aquesta «app» ja existeix al seu repositori."
+
+msgid "This app does not have any working versions available."
+msgstr "Aquesta «app» no té cap versió funcional disponible."
+
+msgid "Phone"
+msgstr "Telèfon"
+
+msgid "7'' Tablet"
+msgstr "Tauleta de 7''"
+
+msgid "10'' Tablet"
+msgstr "Tauleta de 10''"
+
+msgid "TV"
+msgstr "TV"
+
+msgid "Wearable"
+msgstr "«Wearable»"
+
+msgid "US Standard"
+msgstr "Estàndard nordamericà"
+
+msgid "Amazon S3 Storage"
+msgstr "Emmagatzematge a Amazon S3"
+
+msgid "Enter a valid user name consisting of letters, numbers, underscores or hyphens."
+msgstr "Escriviu un nom d'usuari vàlid que contingui lletres, números, guions baixos o guions mitjos."
+
+msgid "Enter a valid hostname."
+msgstr "Escriviu un nom de de màquina vàlid."
+
+msgid "Enter a valid path."
+msgstr "Introduïu una ruta vàlida."
+
+msgid "SSH Storage"
+msgstr "Emmagatzematge SSH"
+
+msgid "Git Storage"
+msgstr "Emmagatzematge Git"
+
+msgid "Default Storage"
+msgstr "Emmagatzematge per defecte"
+
+msgid "American English"
+msgstr "Anglès americà"
+
+msgid "Change E-mail"
+msgstr "Canvieu l'e-mail"
+
+msgid "Sign Out"
+msgstr "Tanqueu la sessió"
+
+msgid "Sign In"
+msgstr "Inicieu la sessió"
+
+msgid "Sign Up"
+msgstr "Doneu-vos d'alta"
+
+msgid "Distribute apps."
+msgstr "Distribueix apps."
+
+msgid "Spread the love."
+msgstr "Difón l'amor."
+
+msgid "Repomaker is a free web app built for creating collections of apps, music, books, videos and pictures to share with your peers. It uses F-Droid as the mobile distribution platform. Available on Android only."
+msgstr "Repomaker és una aplicació web lliure per crear col·leccions d'apps, música, llibres, vídeos i imatges per compartir amb els teus. Usa F-Droid com a plataforma per a la distribució per mòbils. Disponible només per a Android."
+
+msgid "Login"
+msgstr "Inici de sessió"
+
+msgid "Forgot Password"
+msgstr "He oblidat la contrasenya"
+
+msgid "Or login with"
+msgstr "O inicieu la sessió amb"
+
+msgid "Logout"
+msgstr "Tancar sessió"
+
+msgid "See you later"
+msgstr "Fins aviat"
+
+msgid "Your security is important to us. Please confirm that you want to logout."
+msgstr "La vostra seguretat és important per a nosaltres. Si us plau, confirmeu que voleu tancar la sessió."
+
+msgid "logout"
+msgstr "tancar la sessió"
+
+msgid "submit"
+msgstr "Enviar"
+
+msgid "We have sent you an email with a link to reset your password."
+msgstr "Us hem enviat un correu-e amb un enllaç per a restablir la vostra contrasenya."
+
+msgid "Signup"
+msgstr "Doneu-vos d'alta"
+
+msgid "Delete App Version"
+msgstr "Esborra la versió d'una «app»"
+
+#, python-format
+msgid "Are you sure you want to delete this version <strong>%(version)s</strong> (%(code)s) from your app <strong>%(app)s</strong>?"
+msgstr "%(code)sEsteu segur que voleu eliminar aquesta versió <strong>%(version)s</strong> %(code)s) de la vostra app <strong>%(app)s</strong>?"
+
+msgid "Confirm"
+msgstr "Confirmeu"
+
+msgid "Delete App"
+msgstr "Esborreu una «app»"
+
+#, python-format
+msgid "Are you sure you want to delete your app <strong>%(object)s</strong>?"
+msgstr "Esteu segur que voleu eliminar la vostra app <strong>%(object)s</strong>?"
+
+#, python-format
+msgid "Edit %(app)s"
+msgstr "Editeu %(app)s"
+
+msgid "Remove App"
+msgstr "Esborrar una «app»"
+
+msgid "Done"
+msgstr "Fet"
+
+msgid "By"
+msgstr "Per"
+
+msgid "Summary Override (40 characters)"
+msgstr "Correcció del resum (40 caràcters)"
+
+msgid "Short Summary (40 characters)"
+msgstr "Breu resum (40 caràcters)"
+
+msgid "Category"
+msgstr "Categoria"
+
+msgid "Choose Category"
+msgstr "Escolliu categoria"
+
+msgid "Description Override"
+msgstr "Correcció de la descripció"
+
+msgid "Description"
+msgstr "Descripció"
+
+msgid "Screenshots"
+msgstr "Captures de pantalla"
+
+msgid "Add files"
+msgstr "Afegiu arxius"
+
+msgid "Drag and drop screenshots"
+msgstr "Arrossegueu i deixeu anar captures de pantalla"
+
+msgid "or"
+msgstr "o"
+
+msgid "browse to upload"
+msgstr "Navegueu per actualitzar"
+
+msgid "Feature Graphic"
+msgstr "Gràfic de característiques"
+
+msgid "Drag and drop a feature graphic"
+msgstr "Afegiu i deixeu anar un gràfic de les característiques"
+
+msgid "Drag and drop .apk files"
+msgstr "Arrossegueu i deixeu anar fitxers .apk"
+
+msgid "Back"
+msgstr "Enrere"
+
+msgid "Editing Disabled"
+msgstr "Edició des-habilitada"
+
+msgid "This app gets updated automatically from the remote repo. If you want to edit it yourself, you need to disable automatic updates first. Please note that without automatic updates, you will need to add new versions manually."
+msgstr "Aquesta app s'actualitza automàticament des del repo remot. Si voleu editar-la vós mateix, en primer lloc necessitareu des-habilitar les actualitzacions automàtiques. Tingueu en compte que sense actualitzacions automàtiques necessitareu afegir les versions manualment."
+
+msgid "Disable Automatic Updates"
+msgstr "Deshabilitar actualitzacions automàtiques"
+
+msgid "Delete Feature Graphic"
+msgstr "Eliminar gràfic de característiques"
+
+#, python-format
+msgid "Are you sure you want to delete the feature graphic from your app <strong>%(app)s</strong>?"
+msgstr "Esteu segur que voleu eliminar aquest gràfic de característiques de la vostra app <strong>%(app)s</strong>?"
+
+#, python-format
+msgid "Languages (%(count)s)"
+msgstr "Idiomes (%(count)s)"
+
+msgid "Edit"
+msgstr "Edició"
+
+msgid "Add Translation"
+msgstr "Afegir la traducció"
+
+#, python-format
+msgid "By %(author)s"
+msgstr "Per %(author)s"
+
+#, python-format
+msgid "Updated %(time)s ago"
+msgstr "Actualitzat fa %(time)s"
+
+#, python-format
+msgid "This app gets automatically updated from the remote repo \"%(repo_name)s\"."
+msgstr "Aquesta app s'actualitza automàticament del repo remot \"%(repo_name)s\"."
+
+msgid "version history"
+msgstr "historial de versions"
+
+#, python-format
+msgid "Version %(version)s (%(code)s)"
+msgstr "Versió %(version)s %(code)s"
+
+#, python-format
+msgid "Released %(date)s"
+msgstr "Publicació %(date)s"
+
+msgid "APK is still downloading..."
+msgstr "L'APK encara s'està descarregant…"
+
+msgid "This app has no APK files."
+msgstr "Aquesta «app» no té arxius APK."
+
+msgid "If you added this app from a remote repo, try deleting it and adding it again."
+msgstr "Si heu afegit aquesta «app» des d'un repositori remot, intenteu eliminar-la i afegir-la de nou."
+
+msgid "Previous"
+msgstr "Anterior"
+
+msgid "Next"
+msgstr "Següent"
+
+msgid "Add"
+msgstr "Afegir"
+
+msgid "There are currently no screenshots shown because this gives the repo owner the ability to track you."
+msgstr "Actualment no es mostren captures de pantalla perquè això dona la possibilitat de seguir-vos al propietari del repo."
+
+msgid "show screenshots"
+msgstr "Mostrar captures de pantalla"
+
+msgid "Delete Screenshot"
+msgstr "Eliminar captura de pantalla"
+
+#, python-format
+msgid "Are you sure you want to delete this screenshot from your app <strong>%(app)s</strong>?"
+msgstr "Esteu segur que voleu eliminar aquesta captura de pantalla de la vostra «app» <strong>%(app)s</strong>?"
+
+msgid "Language Code"
+msgstr "Codi d'idioma"
+
+#, python-format
+msgid "Hello, %(user)s"
+msgstr "Hola %(user)s"
+
+msgid "Please Wait!"
+msgstr "Espereu, si us plau!"
+
+msgid "Background Operation in Progress"
+msgstr "Operació en segon pla en curs"
+
+msgid "Repomaker might be updating or publishing your repo. Or it might be updating a remote repo. Depending on the type and size of the background operation, this might take awhile."
+msgstr "Repomaker podria actualitzar o publicar el vostre repo. O podria actualitzar un repo remot. Depenent del tipus i la mida de l'operació en segon pla, podria trigar més o menys."
+
+msgid "Try Again"
+msgstr "Proveu-ho de nou"
+
+msgid "The button won't work for you. Please press F5 to try again."
+msgstr "El botó no funciona. Si us plau, premeu F5 per provar-ho de nou."
+
+msgid "Error"
+msgstr "Error"
+
+msgid "My Repos"
+msgstr "Els meus repositoris"
+
+#, python-format
+msgid "Published %(time_ago)s"
+msgstr "Publicat fa %(time_ago)s"
+
+#, python-format
+msgid "Created %(time_ago)s"
+msgstr "Creat fa %(time_ago)s"
+
+msgid "Make a collection of apps to share"
+msgstr "Fer un recull d'apps per compartir"
+
+msgid "Create Repo"
+msgstr "Crear Repo"
+
+msgid "New Repo"
+msgstr "Nou repositori"
+
+msgid "Create"
+msgstr "Crear"
+
+msgid "Delete Repo"
+msgstr "Eliminar repo"
+
+#, python-format
+msgid "Are you sure you want to delete the repo <strong>%(repo)s</strong>?"
+msgstr "Esteu segur que voleu eliminar el repo <strong>%(repo)s</strong>?"
+
+msgid "This will also delete all apps and other files from your repo. You will not be able to get them back, users of your repo will not be able to use it anymore and not receive updates for the apps they received from you. There is no way to recover this repo!"
+msgstr "Això eliminarà totes les apps i altres fitxers del vostre repo. No podreu tirar-ho enrere, els usuaris del vostre repo no podran usar-lo més i no rebran actualitzacions de les apps que reben de vós. No hi ha possibilitat de recuperar aquest repo!"
+
+msgid "Please only proceed if you know what you are doing!"
+msgstr "Si us plau, continueu si sabeu què esteu fent!"
+
+msgid "Yes, I want to delete the repo"
+msgstr "Si, vull eliminar el repo"
+
+msgid "Edit Repo"
+msgstr "Editeu repositori"
+
+msgid "Save Changes"
+msgstr "Deseu els canvis"
+
+msgid "Content"
+msgstr "Contingut"
+
+msgid "Share"
+msgstr "Compartir"
+
+msgid "Info"
+msgstr "Info"
+
+msgid "Search for apps in your repository"
+msgstr "Cerqueu «apps» al seu repositori"
+
+msgid "add from gallery"
+msgstr "Afegir des de la galeria"
+
+#, python-format
+msgid "Alternatively, drag and drop or %(label_start)schoose files%(label_end)s"
+msgstr "Podeu arrossegar i deixar anar o bé %(label_start)s escollir fitxers %(label_end)s"
+
+msgid "Accepted files include Android apps, documents, eBooks, audio and video."
+msgstr "Els tipus de fitxers acceptats són apps d'Android, documents, eBooks, àudios i vídeos."
+
+msgid "Your search did not return any results."
+msgstr "La vostra cerca no ha retornat cap resultat."
+
+msgid "Name"
+msgstr "Nom"
+
+msgid "Storage"
+msgstr "Emmagatzematge"
+
+msgid "Add Storage"
+msgstr "Afegir emmagatzematge"
+
+msgid "Fingerprint"
+msgstr "Empremta digital"
+
+msgid "Remove Repo"
+msgstr "Eliminar repo"
+
+msgid "Add storage to publish"
+msgstr "Afegir emmagatzematge per publicar"
+
+msgid "Your repo will be automatically published when you add storage. Repomaker does not publically promote your stuff. Only people who receive the direct link to your repo will be able to see it."
+msgstr "El vostre repo es publicarà automàticament quan hi afegiu emmagatzematge. Repomaker no promociona públicament les vostres coses. Només qui rebi l'enllaç directe al vostre repo podrà veure'l."
+
+msgid "add storage"
+msgstr "Afegir emmagaztematge"
+
+#, python-format
+msgid "You have  <span>%(app_count)s app</span> in your repo. Share it!"
+msgid_plural "You have  <span>%(app_count)s apps</span> in your repo. Share it!"
+msgstr[0] "Teniu <span>%(app_count)s app</span> al vostre repo. Compartiu-lo!"
+msgstr[1] "Teniu <span>%(app_count)s apps</span> al vostre repo. Compartiu-lo!"
+
+msgid "view repo"
+msgstr "Veure repo"
+
+msgid "share public link"
+msgstr "Compartir enllaç públic"
+
+msgid "copy link"
+msgstr "Copiar enllaç"
+
+msgid "add to an android phone"
+msgstr "Afegir a un dispositiu Android"
+
+msgid "To install these apps on your Android phone, add them to F-Droid."
+msgstr "Per instal·lar aquestes apps al vostre dispositiu Android, afegiu-les a l'F-Droid."
+
+msgid "F-Droid ensures access to secure app updates."
+msgstr "F-Droid us assegura actualitzacions de les apps de forma segura."
+
+msgid "Scan QR"
+msgstr "Escanejar un codi QR"
+
+#, python-format
+msgid "Check out this F-Droid repo: %(name)s"
+msgstr "Comproveu aquest repo d'F-Droid: %(name)s"
+
+msgid "Browse Gallery"
+msgstr "Navegar per la galeria"
+
+msgid "Search"
+msgstr "Cerca"
+
+#, python-format
+msgid "Category (%(count)s)"
+msgstr "Categoria (%(count)s)"
+
+msgid "All"
+msgstr "Tot"
+
+#, python-format
+msgid "Source (%(count)s)"
+msgstr "Origen (%(count)s)"
+
+msgid "Add a repo"
+msgstr "Afegir un repo"
+
+msgid "Clear filters"
+msgstr "Netejar filtres"
+
+#, python-format
+msgid "No apps found that match '%(search_term)s'. Please try a different search or remove other filter criteria."
+msgstr "No s'ha trobato cap app que coincideixi amb '%(search_term)s'. Si us plau, proveu una cerca diferent o traieu filtres de criteris."
+
+msgid "There are no apps in this repo."
+msgstr "No hi ha «apps» en aquest repo."
+
+msgid "There are no apps available in the repos."
+msgstr "No hi ha «apps» disponibles als repos."
+
+msgid "If you just added a repo, wait for the apps to download and try again later."
+msgstr "Si acabeu d'afegir un repo, espereu a descarregar les «apps» i proveu-ho de nou més tard."
+
+msgid "This repo has no apps in the selected category. Try clearing it or select a different repo."
+msgstr "Aquest repo no té apps a la categoria seleccionada. Proveu a eliminar-lo o escollir un repo diferent."
+
+msgid "There are no apps available in the selected category. Try clearing it."
+msgstr "No hi ha apps disponibles en la categoria que heu escollit. Proveu a eliminar-la."
+
+msgid "Delete Storage"
+msgstr "Elimineu emmagatzematge"
+
+#, python-format
+msgid "Are you sure you want to remove the storage at <strong>%(object)s</strong> from your repo?"
+msgstr "Esteu segur que voleu eliminar l'emmagatzematge <strong>%(object)s</strong> del vostre repo?"
+
+msgid "This will not remove the content from that storage but will stop to publish future versions of your repo to it."
+msgstr "Això no eliminarà el contingut de l'emmagatzematge però aturarà la publicació de futures versions del vostre repo."
+
+msgid "Enable Storage"
+msgstr "Habilitar l'emmagatzematge"
+
+msgid "Disable Storage"
+msgstr "Desactivar l'emmagatzematge"
+
+msgid "Repo Address"
+msgstr "Adreça del repo"
+
+msgid "Edit Storage"
+msgstr "Editar Emmagatzematge"
+
+msgid "Please make sure to add this public SSH key to your Git account for the upload to work. There are instructions for <a href=\"https://docs.gitlab.com/ee/gitlab-basics/create-your-ssh-keys.html#how-to-create-your-ssh-keys\">Gitlab</a> and <a href=\"https://developer.github.com/v3/guides/managing-deploy-keys/#deploy-keys\">GitHub</a>."
+msgstr "Si us plau, assegureu-vos d'haver afegit aquesta clau SSH al seu compte de Git per tal que la pujada funcioni. Trobareu instruccions per a <a href=\"https://docs.gitlab.com/ee/gitlab-basics/create-your-ssh-keys.html#how-to-create-your-ssh-keys\">Gitlab</a> i <a href=\"https://developer.github.com/v3/guides/managing-deploy-keys/#deploy-keys\">GitHub</a>."
+
+msgid "Also, please make sure that the master branch of your repository is <b>not protected</b> from force pushing."
+msgstr "Tanmateix, assegureu-vos que la branca principal del vostre repositori <b>no està protegida</b> per forçar enviaments."
+
+msgid "Git Repository SSH Address"
+msgstr "Adreça SSH del repositori Git"
+
+msgid "Region"
+msgstr "Regió"
+
+msgid "Bucket"
+msgstr "Contenidor"
+
+msgid "Access Key ID"
+msgstr "ID de la clau d'accés"
+
+msgid "Please make sure to add this public SSH key to your SSH server's <tt> <a href=\"https://en.wikibooks.org/wiki/OpenSSH/Client_Configuration_Files#.7E.2F.ssh.2Fauthorized_keys\">~/.ssh/authorized_keys</a> </tt> file,\tif you have not done so already."
+msgstr "Assegureu-vos d'afegir aquesta clau púbica SSH al vostre fitxer <tt><a href=\"https://en.wikibooks.org/wiki/OpenSSH/Client_Configuration_Files#.7E.2F.ssh.2Fauthorized_keys\">~/.ssh/authorized_keys</a></tt> si no ho heu fet ja."
+
+msgid "Security Warning: This gives repomaker write access to that storage. Please limit this user's access as much as possible."
+msgstr "Avís de seguretat: Això dona a repomaker accés d'escriptura a l'emmagatzematge. Si us plau, limiteu l'accés d'aquest usuari tant com sigui possible."
+
+msgid "Username"
+msgstr "Nom d'usuari"
+
+msgid "Host"
+msgstr "Màquina"
+
+msgid "Path"
+msgstr "Ruta"
+
+msgid "Your local default SSH key will be used to connect to the storage."
+msgstr "S'usarà la seva clau SSH per defecte per connectar-se a l'emmagatzematge."
+
+msgid "Please make sure to authorize this public SSH key for your remote storage, if you have not done so already."
+msgstr "Assegureu-vos que heu autoritzat aquesta clau SSH pública al vostre emmagatzematge remot, si no ho heu fet ja."
+
+msgid "Activate this storage only once you have added the SSH key."
+msgstr "Activeu aquest emmagatzematge només si heu afegit la clau SSH."
+
+msgid "If this storage is experiencing problems, please check that the SSH key works properly."
+msgstr "Si aquest emmagatzematge presenta problemes, assegureu-vos que la clau SSH funcioni adequadament."
+
+#, python-format
+msgid "Update %(storage_name)s"
+msgstr "Actualitzeu %(storage_name)s"
+
+#, python-format
+msgid "Setup %(storage_name)s"
+msgstr "Configurar %(storage_name)s"
+
+msgid "cancel"
+msgstr "Cancel·lar"
+
+msgid "save"
+msgstr "Desar"
+
+msgid "Here's how to copy the SSH Address from GitLab:"
+msgstr "Aquí pot trobar com copiar l'adreça SSH des de GitLab:"
+
+msgid "Setup a place to store your repo"
+msgstr "Configureu un lloc per a desar el vostre repo"
+
+msgid "Git"
+msgstr "Git"
+
+msgid "Easy, free, requires an account"
+msgstr "Fàcil, gratuït, necessita un compte"
+
+msgid "Git is a popular tool to version control things. You can securely publish repos to GitLab, GitHub or any other Git service. Git services use SSH to securely copy files from your computer to remote computers."
+msgstr "Git és una popular eina per a control de versions. Podeu publicar de forma segura repos a Gitlab, GitHub o qualsevol altre servei de Git. Els serveis de Git usen SSH per copiar fitxers de forma segura entre el vostre ordinador i els remots."
+
+msgid "Setup"
+msgstr "Configuració"
+
+msgid "GitLab"
+msgstr "GitLab"
+
+msgid "GitHub"
+msgstr "GitHub"
+
+msgid "SSH"
+msgstr "SSH"
+
+msgid "Requires a personal web server or host that supports SSH"
+msgstr "Requereix un servidor web personal o una màquina que suporti SSH"
+
+msgid "SSH is a technology that can be used to copy files securely to remote computers. When using Git as storage, the files will also be copied via SSH. But the pure SSH option directly copies the files without using any other technology."
+msgstr "SSH és una tecnologia que pot ser usada per copiar fitxers de forma segura entre ordinadors remots. Quan useu Git com a emmagatzemament, els fitxers es copien via SSH. Però l'opció purament d'SSH copia fitxers directament sense usar cap altra tecnologia."
+
+msgid "Amazon S3"
+msgstr "Amazon S3"
+
+msgid "Requires an Amazon account, Pricing varies"
+msgstr "Requereix un compte d'Amazon; els preus poden variar"
+
+msgid "Amazon S3 is a web service offered by Amazon Web Services. Amazon S3 provides storages through web service interfaces. Pricing varies. Visit the Amazon S3 website for details."
+msgstr "Amazon S3 és un servei web ofert per Amazon Web Services. Amazon S3 ofereix emmagatzemament a través d'interfícies de serveis web. Els preus varien Visiteu la pàgina web d'Amazon S3 per a més detalls."
+
+#, python-format
+msgid "Version %(version)s (%(date)s)"
+msgstr "Versió %(version)s %(date)s"
+
+msgid "Added"
+msgstr "Afegit"
+
+msgid "There was an error creating the repository. Please try again!"
+msgstr "Hi ha hagut un error mentre es creava rel repositori. Si us plau, proveu-ho de nou!"
+
+msgid "Enter email"
+msgstr "Escriviu un correu-e"
+
+msgid "Enter your email address and we'll send a link to reset it. If you did not sign up with an email, we cannot help you securely reset your password."
+msgstr "Escriviu la vostra adreça de correu-e i us enviarem un enllaç per a restablir-la Si no us heu registrat amb un correu-e, no us podem ajudar a recuperar la contrasenya de forma segura."
+
+msgid "This is not a valid language code."
+msgstr "Aquest no és un codi d'idioma vàlid."
+
+msgid "This language already exists. Please choose another one!"
+msgstr "Aquest idioma ja existeix. Si us plau, escolliu-ne un altre!"
+
+msgid "Enter SSH URL"
+msgstr "Escriviu una URL d'SSH"
+
+msgid "Raw Git URL"
+msgstr "URL Git plana"
+
+msgid "This is the location where the uploaded files can be accessed from in raw form. Leave empty for GitHub or GitLab.com repositories."
+msgstr "Aquesta és l'adreça des d'on es pot accedir als fitxers pujats sense modificar. Deixeu-la en blanc per repositoris a GitHub o Gitlab.com."
+
+msgid "This URL must start with 'git@'."
+msgstr "Aquesta URL ha de començar amb 'git@'."
+
+msgid "This URL must end with '.git'."
+msgstr "Aquesta URL ha d'acabar amb '.git'."
+
+msgid "This URL is invalid. Please copy the exact SSH URL of your git repository."
+msgstr "Aquesta URL és invàlida. Si us plau copieu la URL de SSH exacta del vostre repositori git."
+
+msgid "Please add a valid URLfor the raw content of this git repository."
+msgstr "Afegiu una URL vàlida pel contingut en brut d'aquest repositori git."
+
+msgid "Repository URL"
+msgstr "URL del repositori"
+
+msgid "Please use a URL with a fingerprint at the end, so we can validate the authenticity of the repository."
+msgstr "Useu una URL amb una empremta digital al final, d'aquesta manera podrem validar l'autenticitat del repositori."
+
+msgid "Please don't add one of your own repositories here."
+msgstr "No afegiu cap dels vostres repositoris aquí."
+
+#, python-format
+msgid "Could not validate repository: %s"
+msgstr "El repositori %s no s'ha pogut validar"
+
+msgid "Describe the repo"
+msgstr "Descripció del repositori"
+
+msgid "Bucket Name"
+msgstr "Nom del contenidor"
+
+msgid "Secret Access Key"
+msgstr "Clau d'accés secreta"
+
+msgid "Other regions are currently not supported."
+msgstr "Ara mateix no es suporten altres regions."
+
+msgid "Language"
+msgstr "Idioma"
+
+msgid "Select Screenshot for upload"
+msgstr "Esculliu una captura de pantalla per pujar"
+
+msgid "Use local default SSH Key"
+msgstr "Useu la clau SSL local per defecte"
+
+msgid "User Name"
+msgstr "Nom d'usuari"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "This is the location where the uploaded files can be accessed from."
+msgstr "Aquesta és l'adreça des d'on s'accedirà als arxius pujats."
+
+msgid "Primary Storage"
+msgstr "Emmagatzematge principal"
+
+msgid "Make this storage the primary storage of the repository."
+msgstr "Feu d'aquest emmagatzematge el principal del repositori."

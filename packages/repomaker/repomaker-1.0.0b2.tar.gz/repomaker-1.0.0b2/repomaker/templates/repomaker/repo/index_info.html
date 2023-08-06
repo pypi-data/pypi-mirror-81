@@ -1,0 +1,69 @@
+{% load i18n %}
+<div class="rm-grid--center mdl-grid">
+	<div class="mdl-cell mdl-cell--6-col">
+		<div class="rm-repo-info-header">
+			<span class="rm-repo-info-name-container">
+				<div class="rm-repo-info-name-header">{%  trans 'Name' %}</div>
+				<div class="rm-repo-info-name">{{ repo.name }}</div>
+			</span>
+			<a href="{% url 'edit_repo' repo.id %}" class="rm-repo-info-edit">
+				<button class="mdl-js-button">
+					{% trans 'Edit' %}
+				</button>
+			</a>
+		</div>
+
+		<div class="rm-repo-info-description-header">{% trans 'Description' %}</div>
+		<p class="rm-repo-info-description">{{ repo.description }}</p>
+		<hr class="rm-repo-info-divider"/>
+
+		<div class="rm-repo-info-storage-header">{% trans 'Storage' %}</div>
+		{% if storage %}
+		<ul class="rm-repo-info-storages">
+			{% for storage in storage %}
+			{% if storage.is_default %}
+			<li class="rm-repo-info-storages-item--default">
+				<div class="mdl-list__item-primary-content">
+					<i class="material-icons mdl-list__item-icon ">cloud</i>
+					<span>{{ storage.get_name }}</span>
+					<span class="mdl-list__item-sub-title">{{ storage }}</span>
+				</div>
+			</li>
+			{% else %}
+			<li class="rm-repo-info-storages-item">
+				<a href="{{ storage.get_absolute_url }}" class="mdl-list__item-primary-content">
+					{% if storage.disabled %}
+					<i class="material-icons mdl-list__item-icon ">cloud_off</i>
+					{% else %}
+					<i class="material-icons mdl-list__item-icon ">cloud</i>
+					{% endif %}
+					<span>{{ storage }}</span>
+					<span class="mdl-list__item-sub-title">{{ storage.get_name }}</span>
+				</a>
+			</li>
+			{% endif %}
+			{% endfor %}
+		</ul>
+		{% endif %}
+		<a href="{% url 'storage_add' repo.id %}" class="rm-repo-info-storage-header-add">
+			<i class="material-icons">add</i>
+			{% trans 'Add Storage' %}
+		</a>
+
+		<hr class="rm-repo-info-divider"/>
+
+		<div class="rm-repo-info-fingerprint-header">{% trans 'Fingerprint' %}</div>
+		<div class="rm-repo-info-fingerprint-container">
+			<!-- TODO: Use monospace font -->
+			<div class="rm-repo-info-fingerprint">{{ repo.get_fingerprint_with_spaces }}</div>
+		</div>
+		<hr class="rm-repo-info-divider"/>
+		<div class="center">
+			<a href="{% url 'delete_repo' repo.id %}" class="rm-no-underline">
+				<button type="button" class="rm-button--red-border mdl-button mdl-js-button">
+					{% trans 'Remove Repo' %}
+				</button>
+			</a>
+		</div>
+	</div>
+</div>

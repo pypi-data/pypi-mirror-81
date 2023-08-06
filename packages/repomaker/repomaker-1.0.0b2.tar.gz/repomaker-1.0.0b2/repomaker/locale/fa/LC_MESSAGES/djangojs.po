@@ -1,0 +1,243 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-01 20:55+0000\n"
+"PO-Revision-Date: 2018-11-06 19:53+0000\n"
+"Last-Translator: Mostafa Ahangarha <ahangarha@gmail.com>\n"
+"Language-Team: Persian <https://hosted.weblate.org/projects/f-droid/repomaker-javascript/fa/>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.3-dev\n"
+
+#, javascript-format
+msgid "Available %s"
+msgstr "%s موجود"
+
+#, javascript-format
+msgid "This is the list of available %s. You may choose some by selecting them in the box below and then clicking the \"Choose\" arrow between the two boxes."
+msgstr "این فهرستی از %s ی موجود است. می‌توانید تعدادی را با گزینش جعبهٔ زیرشان و کلیک روی فلش «گزینش» میان دو جعبه، برگزینید."
+
+#, javascript-format
+msgid "Type into this box to filter down the list of available %s."
+msgstr "برای پالایش فهرست %s ی موجود، در این جعبه بنویسید."
+
+msgid "Filter"
+msgstr "پالایش"
+
+msgid "Choose all"
+msgstr "گزینش همه"
+
+#, javascript-format
+msgid "Click to choose all %s at once."
+msgstr "کلیک برای گزینش یکبارهٔ همهٔ %s."
+
+msgid "Choose"
+msgstr "گزینش"
+
+msgid "Remove"
+msgstr "برداشتن"
+
+#, javascript-format
+msgid "Chosen %s"
+msgstr "%s گزیده"
+
+#, javascript-format
+msgid "This is the list of chosen %s. You may remove some by selecting them in the box below and then clicking the \"Remove\" arrow between the two boxes."
+msgstr "این فهرستی از %s ی گزیده است. می‌توانید تعدادی را با گزینش جعبهٔ زیرشان و کلیک روی فلش «برداشتن» میان دو جعبه، بردارید."
+
+msgid "Remove all"
+msgstr "برداشتن همه"
+
+#, javascript-format
+msgid "Click to remove all chosen %s at once."
+msgstr "کلیک برای برداشتن یکبارهٔ همهٔ %s."
+
+msgid "%(sel)s of %(cnt)s selected"
+msgid_plural "%(sel)s of %(cnt)s selected"
+msgstr[0] "%(sel)s از %(cnt)s گزیده شد"
+msgstr[1] "%(sel)s از %(cnt)s گزیده شدند"
+
+msgid "You have unsaved changes on individual editable fields. If you run an action, your unsaved changes will be lost."
+msgstr "تغییراتی ذخیره‌نشده در فیلدهای ویرایش‌پذیر دارید. اگر عملی را اجرا کنید، تغییرات ذخیره‌نشده‌تان از بین خواهند رفت."
+
+msgid "You have selected an action, but you haven't saved your changes to individual fields yet. Please click OK to save. You'll need to re-run the action."
+msgstr "عملی را برگزیده‌اید، ولی هنوز تغییراتتان را در فیلدهای ویرایش‌پذیر ذخیره نکرده‌اید. لطفاً برای ذخیره، قبول را کلیک کنید. نیاز است عمل را دوباره اجرا کنید."
+
+msgid "You have selected an action, and you haven't made any changes on individual fields. You're probably looking for the Go button rather than the Save button."
+msgstr "عملی را برگزیده‌اید و تغییری در فیلدهای ویرایش‌پذیر نداده اید. احتمالاً به‌جای دکمهٔ ذخیره، دنبال دکمهٔ رفتن می‌گردید."
+
+#, javascript-format
+msgid "Note: You are %s hour ahead of server time."
+msgid_plural "Note: You are %s hours ahead of server time."
+msgstr[0] "توجه: %s ساعت جلوتر از زمان کارساز هستید."
+msgstr[1] "توجه: شما %s ساعت جلوتر از زمان کارساز هستید."
+
+#, javascript-format
+msgid "Note: You are %s hour behind server time."
+msgid_plural "Note: You are %s hours behind server time."
+msgstr[0] "توجه: %s ساعت عقب‌تر از زمان کارساز هستید."
+msgstr[1] "توجه: شما %s ساعت عقب‌تر از زمان کارساز هستید."
+
+msgid "Now"
+msgstr "اکنون"
+
+msgid "Choose a Time"
+msgstr "گزینش یک زمان"
+
+msgid "Choose a time"
+msgstr "گزینش یک زمان"
+
+msgid "Midnight"
+msgstr "نیمه‌شب"
+
+msgid "6 a.m."
+msgstr "۶ صبح."
+
+msgid "Noon"
+msgstr "ظهر"
+
+msgid "6 p.m."
+msgstr "۶ عصر."
+
+msgid "Cancel"
+msgstr "لغو"
+
+msgid "Today"
+msgstr "امروز"
+
+msgid "Choose a Date"
+msgstr "گزینش یک تاریخ"
+
+msgid "Yesterday"
+msgstr "دیروز"
+
+msgid "Tomorrow"
+msgstr "فردا"
+
+msgid "January"
+msgstr "ژانویه"
+
+msgid "February"
+msgstr "فوریه"
+
+msgid "March"
+msgstr "مارس"
+
+msgid "April"
+msgstr "آوریل"
+
+msgid "May"
+msgstr "مه"
+
+msgid "June"
+msgstr "ژوئن"
+
+msgid "July"
+msgstr "ژوئیه"
+
+msgid "August"
+msgstr "اوت"
+
+msgid "September"
+msgstr "سپتامبر"
+
+msgid "October"
+msgstr "اکتبر"
+
+msgid "November"
+msgstr "نوامبر"
+
+msgid "December"
+msgstr "دسامبر"
+
+msgctxt "one letter Sunday"
+msgid "S"
+msgstr "ی"
+
+msgctxt "one letter Monday"
+msgid "M"
+msgstr "د"
+
+msgctxt "one letter Tuesday"
+msgid "T"
+msgstr "س"
+
+msgctxt "one letter Wednesday"
+msgid "W"
+msgstr "چ"
+
+msgctxt "one letter Thursday"
+msgid "T"
+msgstr "پ"
+
+msgctxt "one letter Friday"
+msgid "F"
+msgstr "ج"
+
+msgctxt "one letter Saturday"
+msgid "S"
+msgstr "ش"
+
+msgid "Show"
+msgstr "نمایش"
+
+msgid "Hide"
+msgstr "نهفتن"
+
+#, javascript-format
+msgid "%s app added"
+msgid_plural "%s apps added"
+msgstr[0] "%s کاره افزوده شد"
+msgstr[1] "%s کاره افزوده شدند"
+
+msgid "Add"
+msgstr "افزودن"
+
+#, javascript-format
+msgid "Sorry, there was an error deleting it: %s"
+msgstr "پوزش، در حذفش خطایی رخ داد: %s"
+
+msgid "Delete Screenshot"
+msgstr "حذف نماگرفت"
+
+msgid "Are you sure you want to delete this screenshot from your package?"
+msgstr "مطمئنید که می‌خواهید این نماگرفت را از بسته‌تان حذف کنید؟"
+
+msgid "Delete Feature Graphic"
+msgstr "حذف تصویر معرّفه"
+
+msgid "Are you sure you want to delete the feature graphic from your package?"
+msgstr "مطمئنید که می‌خواهید تصویر معرّفه را از بسته‌تان حذف کنید؟"
+
+msgid "Delete Version"
+msgstr "حذف نگارش"
+
+msgid "Are you sure you want to delete this version from your package?"
+msgstr "مطمئنید که می‌خواهید این نگارش را از بسته‌تان حذف کنید؟"
+
+msgid "Confirm"
+msgstr "تأیید"
+
+msgid "Added"
+msgstr "افزوده شد"
+
+msgid "You can only upload images here."
+msgstr "این‌جا فقط می‌توانید تصویر بارگذاری کنید."
+
+#, javascript-format
+msgid "Uploading %s file..."
+msgid_plural "Uploading %s files..."
+msgstr[0] "در حال بارگذاری %s پرونده…"
+msgstr[1] "در حال بارگذاری %s پرونده…"
+
+msgid "Try to drag and drop again!"
+msgstr "کشیدن و رها کردن را دوباره بیازمایید!"

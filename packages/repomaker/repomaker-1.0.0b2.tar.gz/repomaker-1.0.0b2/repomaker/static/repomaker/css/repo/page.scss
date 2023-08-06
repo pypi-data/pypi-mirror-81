@@ -1,0 +1,197 @@
+@import "../variables";
+$roboto-font-path: unquote("roboto-fonts");
+@import "roboto-fontface/css/roboto/sass/roboto-fontface";
+
+@import "material-design-lite/src/button/button";
+@import "material-design-lite/src/card/card";
+@import "material-design-lite/src/grid/grid";
+@import "material-design-lite/src/layout/layout";
+@import "material-design-lite/src/mixins";
+@import "material-design-lite/src/resets/resets";
+@import "material-design-lite/src/shadow/shadow";
+@import "material-design-lite/src/typography/typography";
+
+@import "../mixins";
+@import "../mobile-detect";
+@import "../app/widget";
+
+a {
+    color: $rm-blue;
+}
+
+a.rm-no-underline {
+	text-decoration: none;
+	color: unset;
+}
+
+body {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+button {
+    @include font-size(11px);
+    font-weight: medium;
+}
+
+h1 {
+    @include font-size(18px);
+    font-weight: bold;
+    text-align: left;
+}
+
+p {
+    @include font-size(14px);
+}
+
+.mdl-layout__header-row {
+    padding: 0 16px 0 16px;
+}
+
+.mdl-button {
+    border-radius: 25px;
+    @include font-size(12px);
+    margin: 10px;
+}
+
+#repo-buttons-add {
+    button {
+        background: $rm-blue;
+    }
+    display: none;
+}
+
+#repo-buttons-install {
+    white-space: nowrap;
+}
+
+#repo-buttons-install-need {
+    background: none;
+    border: thin solid #58595B;
+    color: #58595B;
+}
+
+.repo-buttons-install-have {
+    button {
+        background: none;
+        border: thin solid $rm-blue;
+        color: $rm-blue;
+    }
+}
+
+.repo-header {
+    color: #000000;
+    background-color: #F8F8F8;
+
+    .mdl-layout-title {
+        @include font-size(14px);
+        flex-grow: 1;
+        text-align: center;
+    }
+
+    .mdl-navigation img {
+        margin-left: 14px;
+        height: 26px;
+        width: 26px;
+    }
+}
+
+.qr-header {
+    background-color: unset;
+    color: black;
+
+    .mdl-layout__header-row {
+        align-self: flex-end;
+    }
+}
+
+.repo-content {
+    text-align: center;
+}
+
+.qr-content {
+    h3 {
+        font-family: "Roboto-Bold";
+        a {
+            color: $rm-blue;
+        }
+    }
+
+    .qr-code {
+        text-align: center;
+
+        a {
+            @extend a.rm-no-underline;
+            @include font-size(12px);
+            color: #575757;
+        }
+    }
+}
+
+.fdroid-text {
+    text-align: left;
+
+    p:first-child {
+        @include font-size(17px);
+        font-weight: bold;
+    }
+}
+
+footer {
+    margin-top: 50px;
+
+    a {
+        @extend a.rm-no-underline;
+        font-weight: bold;
+    }
+
+    .mdl-mega-footer__top-section {
+        background-color: #F8F8F8;
+        padding: 25px;
+
+        .fdroid-icon {
+            align-self: center;
+            text-align: right;
+            padding: 16px;
+        }
+
+        .fdroid-text {
+            border-left: darkgrey solid 2px;
+            padding-left: 16px;
+        }
+
+        @media (max-width: 839px) and (min-width: 480px) {
+            .fdroid-icon {
+                text-align: center;
+                margin: auto;
+            }
+            .fdroid-text {
+                border-left: none;
+                margin: auto;
+            }
+        }
+
+        @media (max-width: 479px) {
+            .fdroid-icon {
+                text-align: center;
+                margin: auto;
+            }
+            .fdroid-text {
+                border-left: none;
+                margin: auto;
+            }
+        }
+    }
+
+    .mdl-mega-footer__bottom-section {
+        color: #FFFFFF;
+        background-color: #39414A;
+        @include font-size(12px);
+        padding: 16px;
+        text-align: center;
+
+        .repo-made-with {
+            text-transform: uppercase;
+        }
+    }
+
+}

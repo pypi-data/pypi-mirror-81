@@ -1,0 +1,242 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Roman Leo <roman.leo@gmx.de>, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-01 20:55+0000\n"
+"PO-Revision-Date: 2019-03-10 19:01+0000\n"
+"Last-Translator: Roman Leo <roman.leo@gmx.de>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/f-droid/repomaker-javascript/de/>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.5.1\n"
+
+#, javascript-format
+msgid "Available %s"
+msgstr "Verfügbar %s"
+
+#, javascript-format
+msgid "This is the list of available %s. You may choose some by selecting them in the box below and then clicking the \"Choose\" arrow between the two boxes."
+msgstr "Dies ist die Liste der verfügbaren %s. Sie können einige auswählen, indem Sie sie in dem untenstehenden Feld auswählen und dann auf den Pfeil \"Auswählen\" zwischen den beiden Feldern klicken."
+
+#, javascript-format
+msgid "Type into this box to filter down the list of available %s."
+msgstr "Machen Sie in diesem Feld eine Eingabe, um die Liste der verfügbaren %s zu filtern."
+
+msgid "Filter"
+msgstr "Filter"
+
+msgid "Choose all"
+msgstr "Alle auswählen"
+
+#, javascript-format
+msgid "Click to choose all %s at once."
+msgstr "Klicken Sie hier, um alle %s auf einmal auszuwählen."
+
+msgid "Choose"
+msgstr "Auswählen"
+
+msgid "Remove"
+msgstr "Entfernen"
+
+#, javascript-format
+msgid "Chosen %s"
+msgstr "Ausgewählte %s"
+
+#, javascript-format
+msgid "This is the list of chosen %s. You may remove some by selecting them in the box below and then clicking the \"Remove\" arrow between the two boxes."
+msgstr "Dies ist die Liste der ausgewählten %s. Sie können einige davon entfernen, indem Sie sie in dem Feld unten auswählen und dann auf den Pfeil \"Entfernen\" zwischen den beiden Feldern klicken."
+
+msgid "Remove all"
+msgstr "Alle entfernen"
+
+#, javascript-format
+msgid "Click to remove all chosen %s at once."
+msgstr "Klicken Sie, um alle ausgewählten %s auf einmal zu entfernen."
+
+msgid "%(sel)s of %(cnt)s selected"
+msgid_plural "%(sel)s of %(cnt)s selected"
+msgstr[0] "%(sel)s von %(cnt)s ausgewählt"
+msgstr[1] "%(sel)s von %(cnt)s ausgewählt"
+
+msgid "You have unsaved changes on individual editable fields. If you run an action, your unsaved changes will be lost."
+msgstr "Sie haben ungesicherte Änderungen an einzelnen editierbaren Feldern. Wenn Sie eine Aktion ausführen, gehen Ihre nicht gespeicherten Änderungen verloren."
+
+msgid "You have selected an action, but you haven't saved your changes to individual fields yet. Please click OK to save. You'll need to re-run the action."
+msgstr "Sie haben eine Aktion ausgewählt, aber Ihre Änderungen an einzelnen Feldern noch nicht gespeichert. Bitte klicken Sie zum Speichern auf OK. Sie werden die Aktion wiederholen müssen."
+
+msgid "You have selected an action, and you haven't made any changes on individual fields. You're probably looking for the Go button rather than the Save button."
+msgstr "Sie haben eine Aktion ausgewählt und keine Änderungen an einzelnen Feldern vorgenommen. Sie suchen wahrscheinlich eher nach der Schaltfläche \"Go\" als nach der Schaltfläche \"Save\"."
+
+#, javascript-format
+msgid "Note: You are %s hour ahead of server time."
+msgid_plural "Note: You are %s hours ahead of server time."
+msgstr[0] "Hinweis: Sie sind %s Stunde vor der Serverzeit."
+msgstr[1] "Hinweis: Sie sind %s Stunden vor der Serverzeit."
+
+#, javascript-format
+msgid "Note: You are %s hour behind server time."
+msgid_plural "Note: You are %s hours behind server time."
+msgstr[0] "Hinweis: Sie liegen %s Stunde hinter der Serverzeit."
+msgstr[1] "Hinweis: Sie liegen %s Stunden hinter der Serverzeit."
+
+msgid "Now"
+msgstr "Jetzt"
+
+msgid "Choose a Time"
+msgstr "Wählen Sie eine Zeit"
+
+msgid "Choose a time"
+msgstr "Wählen Sie eine Zeit"
+
+msgid "Midnight"
+msgstr "Mitternacht"
+
+msgid "6 a.m."
+msgstr "6 Uhr morgens"
+
+msgid "Noon"
+msgstr "Mittag"
+
+msgid "6 p.m."
+msgstr "18 Uhr"
+
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgid "Today"
+msgstr "Heute"
+
+msgid "Choose a Date"
+msgstr "Wählen Sie ein Datum"
+
+msgid "Yesterday"
+msgstr "Gestern"
+
+msgid "Tomorrow"
+msgstr "Morgen"
+
+msgid "January"
+msgstr "Januar"
+
+msgid "February"
+msgstr "Februar"
+
+msgid "March"
+msgstr "März"
+
+msgid "April"
+msgstr "April"
+
+msgid "May"
+msgstr "Mai"
+
+msgid "June"
+msgstr "Juni"
+
+msgid "July"
+msgstr "Juli"
+
+msgid "August"
+msgstr "August"
+
+msgid "September"
+msgstr "September"
+
+msgid "October"
+msgstr "Oktober"
+
+msgid "November"
+msgstr "November"
+
+msgid "December"
+msgstr "Dezember"
+
+msgctxt "one letter Sunday"
+msgid "S"
+msgstr "S"
+
+msgctxt "one letter Monday"
+msgid "M"
+msgstr "M"
+
+msgctxt "one letter Tuesday"
+msgid "T"
+msgstr "T"
+
+msgctxt "one letter Wednesday"
+msgid "W"
+msgstr "W"
+
+msgctxt "one letter Thursday"
+msgid "T"
+msgstr "T"
+
+msgctxt "one letter Friday"
+msgid "F"
+msgstr "F"
+
+msgctxt "one letter Saturday"
+msgid "S"
+msgstr "S"
+
+msgid "Show"
+msgstr "Zeigen"
+
+msgid "Hide"
+msgstr "Verstecken"
+
+#, javascript-format
+msgid "%s app added"
+msgid_plural "%s apps added"
+msgstr[0] "%s App hinzugefügt"
+msgstr[1] "%s Apps hinzugefügt"
+
+msgid "Add"
+msgstr "Hinzufügen"
+
+#, javascript-format
+msgid "Sorry, there was an error deleting it: %s"
+msgstr "Verzeihung, es trat ein Fehler auf beim Löschen von: %s"
+
+msgid "Delete Screenshot"
+msgstr "Bildschirmfoto löschen"
+
+msgid "Are you sure you want to delete this screenshot from your package?"
+msgstr "Soll dieses Bildschirmfoto wirklich aus dem Paket entfernt werden?"
+
+msgid "Delete Feature Graphic"
+msgstr "Funktionsgrafik löschen"
+
+msgid "Are you sure you want to delete the feature graphic from your package?"
+msgstr "Soll diese Funktionsgrafik wirklich aus dem Paket entfernt werden?"
+
+msgid "Delete Version"
+msgstr "Version Löschen"
+
+msgid "Are you sure you want to delete this version from your package?"
+msgstr "Soll diese Version wirklich aus dem Paket entfernt werden?"
+
+msgid "Confirm"
+msgstr "Bestätigen"
+
+msgid "Added"
+msgstr "Hinzugefügt"
+
+msgid "You can only upload images here."
+msgstr "Hier können nur Bilder hochgeladen werden."
+
+#, javascript-format
+msgid "Uploading %s file..."
+msgid_plural "Uploading %s files..."
+msgstr[0] "Lade %s Datei hoch..."
+msgstr[1] "Lade %s Dateien hoch..."
+
+msgid "Try to drag and drop again!"
+msgstr "Ziehen und ablegen erneut versuchen!"

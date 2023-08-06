@@ -1,0 +1,719 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# signz signotorez <signotorez@gmail.com>, 2020.
+# Adiitya Andre <adiiit.and@gmail.com>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-01 20:54+0000\n"
+"PO-Revision-Date: 2020-05-06 19:12+0000\n"
+"Last-Translator: signz signotorez <signotorez@gmail.com>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/f-droid/repomaker/id/>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.1-dev\n"
+
+#, python-format
+msgid "This file is not an update for %s"
+msgstr "Berkas ini bukan pembaruan untuk %s"
+
+msgid "This APK already exists in the current repo."
+msgstr ""
+
+msgid "Invalid APK signature"
+msgstr ""
+
+msgid "Invalid APK."
+msgstr ""
+
+msgid "Unsupported File Type"
+msgstr ""
+
+msgid "This file is of a different type than the other versions of this app."
+msgstr ""
+
+msgid "APK"
+msgstr "APK"
+
+msgid "Book"
+msgstr "Buku"
+
+msgid "Document"
+msgstr "Dokumen"
+
+msgid "Image"
+msgstr "Gambar"
+
+msgid "Audio"
+msgstr "Audio"
+
+msgid "Video"
+msgstr "Video"
+
+msgid "Other"
+msgstr "Lain"
+
+msgid "This app does already exist in your repository."
+msgstr "Aplikasi ini sudah ada dalam repositori Anda."
+
+msgid "This app does not have any working versions available."
+msgstr "Aplikasi ini tidak memiliki versi yang tersedia."
+
+msgid "Phone"
+msgstr "Telepon"
+
+msgid "7'' Tablet"
+msgstr "Tablet 7''"
+
+msgid "10'' Tablet"
+msgstr "Tablet 10''"
+
+msgid "TV"
+msgstr "TV"
+
+msgid "Wearable"
+msgstr "Bisa Dipakai"
+
+msgid "US Standard"
+msgstr "Standar AS"
+
+msgid "Amazon S3 Storage"
+msgstr ""
+
+msgid "Enter a valid user name consisting of letters, numbers, underscores or hyphens."
+msgstr "Cantumkan nama pengguna yang benar terdiri dari huruf, angka, garis bawah atau tanda hubung."
+
+msgid "Enter a valid hostname."
+msgstr ""
+
+msgid "Enter a valid path."
+msgstr ""
+
+msgid "SSH Storage"
+msgstr "Penyimpanan SSH"
+
+msgid "Git Storage"
+msgstr "Penyimpanan Git"
+
+msgid "Default Storage"
+msgstr ""
+
+msgid "American English"
+msgstr "Inggris Amerika"
+
+msgid "Change E-mail"
+msgstr "Ubah E-mail"
+
+msgid "Sign Out"
+msgstr "Keluar"
+
+msgid "Sign In"
+msgstr "Masuk"
+
+msgid "Sign Up"
+msgstr "Daftar"
+
+msgid "Distribute apps."
+msgstr "Distribusikan aplikasi."
+
+msgid "Spread the love."
+msgstr "Sebarkan kasih sayang."
+
+msgid "Repomaker is a free web app built for creating collections of apps, music, books, videos and pictures to share with your peers. It uses F-Droid as the mobile distribution platform. Available on Android only."
+msgstr "Repomaker adalah aplikasi web gratis dibuat untuk menciptakan koleksi beberapa aplikasi, musik, buku, video dan gambar untuk disebarkan dengan sesama Anda. Ini digunakan F-Droid sebagai pelantar distribusi perangkat bergerak. Tersedia pada Android saja."
+
+msgid "Login"
+msgstr "Masuk"
+
+msgid "Forgot Password"
+msgstr "Lupa Kata Sandi"
+
+msgid "Or login with"
+msgstr "Atau masuk menggunakan"
+
+msgid "Logout"
+msgstr "Keluar"
+
+msgid "See you later"
+msgstr "Sampai jumpa kembali"
+
+msgid "Your security is important to us. Please confirm that you want to logout."
+msgstr "Keamanan Anda sangat penting bagi kami. Harap dipastikan bahwa Anda ingin keluar."
+
+msgid "logout"
+msgstr "keluar"
+
+msgid "submit"
+msgstr "ajukan"
+
+msgid "We have sent you an email with a link to reset your password."
+msgstr "Kami mengirim email kepada anda dengan tautan untuk mengatur ulang kata sandi Anda."
+
+msgid "Signup"
+msgstr "Daftar"
+
+msgid "Delete App Version"
+msgstr "Hapus Versi Aplikasi"
+
+#, python-format
+msgid "Are you sure you want to delete this version <strong>%(version)s</strong> (%(code)s) from your app <strong>%(app)s</strong>?"
+msgstr "Apakah anda yakin untuk menghapus versi ini <strong>%(version)s</strong> (%(code)s) dari aplikasi Anda <strong>%(app)s</strong>?"
+
+msgid "Confirm"
+msgstr "Pastikan"
+
+msgid "Delete App"
+msgstr "Hapus Aplikasi"
+
+#, python-format
+msgid "Are you sure you want to delete your app <strong>%(object)s</strong>?"
+msgstr "Apakah Anda yakin ingin menghapus aplikasi Anda <strong>%(object)s</strong>?"
+
+#, python-format
+msgid "Edit %(app)s"
+msgstr "Ubah %(app)s"
+
+msgid "Remove App"
+msgstr "Singkirkan Aplikasi"
+
+msgid "Done"
+msgstr "Selesai"
+
+msgid "By"
+msgstr "Oleh"
+
+msgid "Summary Override (40 characters)"
+msgstr "Semua Ringkasan (40 karakter)"
+
+msgid "Short Summary (40 characters)"
+msgstr "Ringkasan Pendek (40 karakter)"
+
+msgid "Category"
+msgstr "Kategori"
+
+msgid "Choose Category"
+msgstr "Pilih Kategori"
+
+msgid "Description Override"
+msgstr "Semua Deskripsi"
+
+msgid "Description"
+msgstr "Deskripsi"
+
+msgid "Screenshots"
+msgstr "Tangkapan Layar"
+
+msgid "Add files"
+msgstr "Tambah berkas"
+
+msgid "Drag and drop screenshots"
+msgstr "Seret dan lepaskan tangkapan layar"
+
+msgid "or"
+msgstr "atau"
+
+msgid "browse to upload"
+msgstr "telusuri untuk mengunggah"
+
+msgid "Feature Graphic"
+msgstr "Fitur Grafis"
+
+msgid "Drag and drop a feature graphic"
+msgstr "Seret dan lepaskan fitur grafis"
+
+msgid "Drag and drop .apk files"
+msgstr "Seret dan lepaskan berkas .apk"
+
+msgid "Back"
+msgstr "Kembali"
+
+msgid "Editing Disabled"
+msgstr ""
+
+msgid "This app gets updated automatically from the remote repo. If you want to edit it yourself, you need to disable automatic updates first. Please note that without automatic updates, you will need to add new versions manually."
+msgstr "Aplikasi ini diperbarui secara otomatis dari repo jarak jauh. Apabila anda ingin mengubahnya sendiri, Anda harus menonaktifkan pembaruan otomatis terlebih dahulu. Harap diingat bahwa tanpa pembaruan otomatis, anda harus menambahkan versi baru sendiri."
+
+msgid "Disable Automatic Updates"
+msgstr "Nonaktifkan Pembaruan Otomatis"
+
+msgid "Delete Feature Graphic"
+msgstr "Hapus Fitur Grafis"
+
+#, python-format
+msgid "Are you sure you want to delete the feature graphic from your app <strong>%(app)s</strong>?"
+msgstr "Apakah Anda yakin ingin menghapus fitur grafis dari aplikasi Anda <strong>%(app)s</strong>?"
+
+#, python-format
+msgid "Languages (%(count)s)"
+msgstr "Bahasa (%(count)s)"
+
+msgid "Edit"
+msgstr "Ubah"
+
+msgid "Add Translation"
+msgstr "Tambah Terjemahan"
+
+#, python-format
+msgid "By %(author)s"
+msgstr "Oleh %(author)s"
+
+#, python-format
+msgid "Updated %(time)s ago"
+msgstr "Diperbarui %(time)s yang lalu"
+
+#, python-format
+msgid "This app gets automatically updated from the remote repo \"%(repo_name)s\"."
+msgstr "Aplikasi ini diperbarui secara otomatis dari repo jarak jauh \"%(repo_name)s\"."
+
+msgid "version history"
+msgstr "sejarah versi"
+
+#, python-format
+msgid "Version %(version)s (%(code)s)"
+msgstr "Versi %(version)s (%(code)s)"
+
+#, python-format
+msgid "Released %(date)s"
+msgstr "Dirilis %(date)s"
+
+msgid "APK is still downloading..."
+msgstr "Masih mengunduh APK…"
+
+msgid "This app has no APK files."
+msgstr "Aplikasi ini tidak memiliki berkas APK."
+
+msgid "If you added this app from a remote repo, try deleting it and adding it again."
+msgstr "Apabila Anda menambahkan aplikasi ini dari repo jarak jauh, coba untuk menghapusnya dan menambahkannya lagi."
+
+msgid "Previous"
+msgstr "Sebelumnya"
+
+msgid "Next"
+msgstr "Selanjutnya"
+
+msgid "Add"
+msgstr "Tambah"
+
+msgid "There are currently no screenshots shown because this gives the repo owner the ability to track you."
+msgstr "Tidak terdapat tangkapan layar yang bisa ditampilkan dikarenakan hal ini dapat memberikan kemampuan pemilik repo untuk melacak Anda."
+
+msgid "show screenshots"
+msgstr "tampilkan tangkapan layar"
+
+msgid "Delete Screenshot"
+msgstr "Hapus Tangkapan Layar"
+
+#, python-format
+msgid "Are you sure you want to delete this screenshot from your app <strong>%(app)s</strong>?"
+msgstr "Apakah Anda yakin ingin menghapus tangkapan layar ini dari aplikasi Anda <strong>%(app)s</strong>?"
+
+msgid "Language Code"
+msgstr "Kode Bahasa"
+
+#, python-format
+msgid "Hello, %(user)s"
+msgstr "Halo, %(user)s"
+
+msgid "Please Wait!"
+msgstr "Harap Menunggu!"
+
+msgid "Background Operation in Progress"
+msgstr "Operasi Latar Belakang masih Berlangsung"
+
+msgid "Repomaker might be updating or publishing your repo. Or it might be updating a remote repo. Depending on the type and size of the background operation, this might take awhile."
+msgstr "Repomaker mungkin bisa memperbarui atau menerbitkan repo Anda. Atau bisa memperbarui repo jarak jauh. Bergantung pada tipe dan ukuran operasi latar belakang, ini mungkin membutuhkan waktu."
+
+msgid "Try Again"
+msgstr "Coba Lagi"
+
+msgid "The button won't work for you. Please press F5 to try again."
+msgstr "Tombol tidak dapat bekerja untuk Anda. Harap menekan F5 untuk mencoba kembali."
+
+msgid "Error"
+msgstr ""
+
+msgid "My Repos"
+msgstr ""
+
+#, python-format
+msgid "Published %(time_ago)s"
+msgstr "Diterbitkan %(time_ago)s"
+
+#, python-format
+msgid "Created %(time_ago)s"
+msgstr "Dibuat %(time_ago)s"
+
+msgid "Make a collection of apps to share"
+msgstr "Membuat koleksi aplikasi untuk dibagikan"
+
+msgid "Create Repo"
+msgstr "Membuat Repo"
+
+msgid "New Repo"
+msgstr "Repo Baru"
+
+msgid "Create"
+msgstr "Membuat"
+
+msgid "Delete Repo"
+msgstr "Hapus Repo"
+
+#, python-format
+msgid "Are you sure you want to delete the repo <strong>%(repo)s</strong>?"
+msgstr "Apakah Anda yakin ingin menghapus repo <strong>%(repo)s</strong>?"
+
+msgid "This will also delete all apps and other files from your repo. You will not be able to get them back, users of your repo will not be able to use it anymore and not receive updates for the apps they received from you. There is no way to recover this repo!"
+msgstr ""
+
+msgid "Please only proceed if you know what you are doing!"
+msgstr ""
+
+msgid "Yes, I want to delete the repo"
+msgstr ""
+
+msgid "Edit Repo"
+msgstr ""
+
+msgid "Save Changes"
+msgstr ""
+
+msgid "Content"
+msgstr ""
+
+msgid "Share"
+msgstr ""
+
+msgid "Info"
+msgstr ""
+
+msgid "Search for apps in your repository"
+msgstr ""
+
+msgid "add from gallery"
+msgstr ""
+
+#, python-format
+msgid "Alternatively, drag and drop or %(label_start)schoose files%(label_end)s"
+msgstr ""
+
+msgid "Accepted files include Android apps, documents, eBooks, audio and video."
+msgstr ""
+
+msgid "Your search did not return any results."
+msgstr ""
+
+msgid "Name"
+msgstr "Nama"
+
+msgid "Storage"
+msgstr ""
+
+msgid "Add Storage"
+msgstr ""
+
+msgid "Fingerprint"
+msgstr ""
+
+msgid "Remove Repo"
+msgstr ""
+
+msgid "Add storage to publish"
+msgstr ""
+
+msgid "Your repo will be automatically published when you add storage. Repomaker does not publically promote your stuff. Only people who receive the direct link to your repo will be able to see it."
+msgstr ""
+
+msgid "add storage"
+msgstr ""
+
+#, python-format
+msgid "You have  <span>%(app_count)s app</span> in your repo. Share it!"
+msgid_plural "You have  <span>%(app_count)s apps</span> in your repo. Share it!"
+msgstr[0] ""
+
+msgid "view repo"
+msgstr ""
+
+msgid "share public link"
+msgstr ""
+
+msgid "copy link"
+msgstr ""
+
+msgid "add to an android phone"
+msgstr ""
+
+msgid "To install these apps on your Android phone, add them to F-Droid."
+msgstr ""
+
+msgid "F-Droid ensures access to secure app updates."
+msgstr ""
+
+msgid "Scan QR"
+msgstr ""
+
+#, python-format
+msgid "Check out this F-Droid repo: %(name)s"
+msgstr ""
+
+msgid "Browse Gallery"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+#, python-format
+msgid "Category (%(count)s)"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+#, python-format
+msgid "Source (%(count)s)"
+msgstr ""
+
+msgid "Add a repo"
+msgstr ""
+
+msgid "Clear filters"
+msgstr ""
+
+#, python-format
+msgid "No apps found that match '%(search_term)s'. Please try a different search or remove other filter criteria."
+msgstr ""
+
+msgid "There are no apps in this repo."
+msgstr ""
+
+msgid "There are no apps available in the repos."
+msgstr ""
+
+msgid "If you just added a repo, wait for the apps to download and try again later."
+msgstr ""
+
+msgid "This repo has no apps in the selected category. Try clearing it or select a different repo."
+msgstr ""
+
+msgid "There are no apps available in the selected category. Try clearing it."
+msgstr ""
+
+msgid "Delete Storage"
+msgstr ""
+
+#, python-format
+msgid "Are you sure you want to remove the storage at <strong>%(object)s</strong> from your repo?"
+msgstr ""
+
+msgid "This will not remove the content from that storage but will stop to publish future versions of your repo to it."
+msgstr ""
+
+msgid "Enable Storage"
+msgstr ""
+
+msgid "Disable Storage"
+msgstr ""
+
+msgid "Repo Address"
+msgstr ""
+
+msgid "Edit Storage"
+msgstr ""
+
+msgid "Please make sure to add this public SSH key to your Git account for the upload to work. There are instructions for <a href=\"https://docs.gitlab.com/ee/gitlab-basics/create-your-ssh-keys.html#how-to-create-your-ssh-keys\">Gitlab</a> and <a href=\"https://developer.github.com/v3/guides/managing-deploy-keys/#deploy-keys\">GitHub</a>."
+msgstr ""
+
+msgid "Also, please make sure that the master branch of your repository is <b>not protected</b> from force pushing."
+msgstr ""
+
+msgid "Git Repository SSH Address"
+msgstr ""
+
+msgid "Region"
+msgstr ""
+
+msgid "Bucket"
+msgstr ""
+
+msgid "Access Key ID"
+msgstr ""
+
+msgid "Please make sure to add this public SSH key to your SSH server's <tt> <a href=\"https://en.wikibooks.org/wiki/OpenSSH/Client_Configuration_Files#.7E.2F.ssh.2Fauthorized_keys\">~/.ssh/authorized_keys</a> </tt> file,\tif you have not done so already."
+msgstr ""
+
+msgid "Security Warning: This gives repomaker write access to that storage. Please limit this user's access as much as possible."
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "Host"
+msgstr ""
+
+msgid "Path"
+msgstr ""
+
+msgid "Your local default SSH key will be used to connect to the storage."
+msgstr ""
+
+msgid "Please make sure to authorize this public SSH key for your remote storage, if you have not done so already."
+msgstr ""
+
+msgid "Activate this storage only once you have added the SSH key."
+msgstr ""
+
+msgid "If this storage is experiencing problems, please check that the SSH key works properly."
+msgstr ""
+
+#, python-format
+msgid "Update %(storage_name)s"
+msgstr ""
+
+#, python-format
+msgid "Setup %(storage_name)s"
+msgstr ""
+
+msgid "cancel"
+msgstr ""
+
+msgid "save"
+msgstr ""
+
+msgid "Here's how to copy the SSH Address from GitLab:"
+msgstr ""
+
+msgid "Setup a place to store your repo"
+msgstr ""
+
+msgid "Git"
+msgstr ""
+
+msgid "Easy, free, requires an account"
+msgstr ""
+
+msgid "Git is a popular tool to version control things. You can securely publish repos to GitLab, GitHub or any other Git service. Git services use SSH to securely copy files from your computer to remote computers."
+msgstr ""
+
+msgid "Setup"
+msgstr ""
+
+msgid "GitLab"
+msgstr ""
+
+msgid "GitHub"
+msgstr ""
+
+msgid "SSH"
+msgstr ""
+
+msgid "Requires a personal web server or host that supports SSH"
+msgstr ""
+
+msgid "SSH is a technology that can be used to copy files securely to remote computers. When using Git as storage, the files will also be copied via SSH. But the pure SSH option directly copies the files without using any other technology."
+msgstr ""
+
+msgid "Amazon S3"
+msgstr ""
+
+msgid "Requires an Amazon account, Pricing varies"
+msgstr ""
+
+msgid "Amazon S3 is a web service offered by Amazon Web Services. Amazon S3 provides storages through web service interfaces. Pricing varies. Visit the Amazon S3 website for details."
+msgstr ""
+
+#, python-format
+msgid "Version %(version)s (%(date)s)"
+msgstr ""
+
+msgid "Added"
+msgstr ""
+
+msgid "There was an error creating the repository. Please try again!"
+msgstr ""
+
+msgid "Enter email"
+msgstr ""
+
+msgid "Enter your email address and we'll send a link to reset it. If you did not sign up with an email, we cannot help you securely reset your password."
+msgstr ""
+
+msgid "This is not a valid language code."
+msgstr ""
+
+msgid "This language already exists. Please choose another one!"
+msgstr ""
+
+msgid "Enter SSH URL"
+msgstr ""
+
+msgid "Raw Git URL"
+msgstr ""
+
+msgid "This is the location where the uploaded files can be accessed from in raw form. Leave empty for GitHub or GitLab.com repositories."
+msgstr ""
+
+msgid "This URL must start with 'git@'."
+msgstr ""
+
+msgid "This URL must end with '.git'."
+msgstr ""
+
+msgid "This URL is invalid. Please copy the exact SSH URL of your git repository."
+msgstr ""
+
+msgid "Please add a valid URLfor the raw content of this git repository."
+msgstr ""
+
+msgid "Repository URL"
+msgstr ""
+
+msgid "Please use a URL with a fingerprint at the end, so we can validate the authenticity of the repository."
+msgstr ""
+
+msgid "Please don't add one of your own repositories here."
+msgstr ""
+
+#, python-format
+msgid "Could not validate repository: %s"
+msgstr ""
+
+msgid "Describe the repo"
+msgstr ""
+
+msgid "Bucket Name"
+msgstr ""
+
+msgid "Secret Access Key"
+msgstr ""
+
+msgid "Other regions are currently not supported."
+msgstr ""
+
+msgid "Language"
+msgstr ""
+
+msgid "Select Screenshot for upload"
+msgstr ""
+
+msgid "Use local default SSH Key"
+msgstr ""
+
+msgid "User Name"
+msgstr ""
+
+msgid "URL"
+msgstr ""
+
+msgid "This is the location where the uploaded files can be accessed from."
+msgstr ""
+
+msgid "Primary Storage"
+msgstr ""
+
+msgid "Make this storage the primary storage of the repository."
+msgstr "Jadikan penyimpanan ini sebagai penyimpanan repositori utama."

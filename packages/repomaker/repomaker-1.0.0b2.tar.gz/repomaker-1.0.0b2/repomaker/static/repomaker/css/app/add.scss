@@ -1,0 +1,200 @@
+/*
+ * Repomaker Add App Styles
+ */
+.rm-repo-add-toolbar-title {
+    color: black;
+    @include font-size(20px);
+}
+
+.rm-repo-add-toolbar-count {
+    @extend .rm-toolbar-item;
+    color: $rm-blue;
+    font-weight: 500;
+    @include font-size(11px);
+
+    a {
+        @extend .rm-no-underline;
+        color: $rm-blue;
+        display: flex;
+        align-items: center;
+        padding-left: 3px;
+    }
+
+    i {
+        @include font-size(16px);
+        padding-right: 3px;
+    }
+}
+
+#rm-repo-add-toolbar-count-span {
+    padding-right: 3px;
+}
+
+.rm-repo-add-toolbar-done {
+    color: black !important;
+    text-decoration: none;
+    align-items: flex-start;
+    display: flex;
+    flex-flow: column;
+    padding-right: 8px;
+}
+
+.rm-app-add {
+    @extend .mdl-grid, .rm-grid--center;
+}
+
+.rm-app-add-filters {
+    @extend .mdl-cell, .mdl-cell--10-col;
+}
+
+.rm-app-add-filters-search {
+    @extend .mdl-textfield;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0 6px;
+    width: 100%;
+
+    i {
+        padding-right: 3px;
+    }
+}
+
+.rm-app-add-filters-search-input {
+    @extend .mdl-textfield__input;
+    border: none;
+    color: black;
+}
+
+.rm-app-add-filters-search-clear {
+    color: black;
+}
+
+.rm-app-add-divider {
+    border-color: #ECECEC;
+    margin: 0;
+}
+
+.rm-app-add-filters-second-row {
+    @extend .mdl-grid, .rm-grid--full-width;
+}
+
+.rm-app-add-filters-category-container,
+.rm-app-add-filters-source-container,
+.rm-app-clear-filters-container {
+    @extend .mdl-cell, .mdl-cell--4-col;
+}
+
+.rm-app-add-filters-category,
+.rm-app-add-filters-source {
+    align-items: center;
+    display: flex;
+}
+
+.rm-app-add-filters-category-title,
+.rm-app-add-filters-source-title {
+    color: #828282;
+    font-weight: 500;
+    @include font-size(13px);
+    text-transform: uppercase;
+
+}
+
+.rm-app-add-filters-category-chip,
+.rm-app-add-filters-category-chip--all,
+.rm-app-add-filters-source-chip,
+.rm-app-add-filters-source-chip--all {
+    @extend .mdl-chip, .mdl-chip--deletable;
+    background: #f4f4f4;
+    margin-left: 12px;
+
+    .material-icons {
+        @include font-size(16px);
+        line-height: 24px;
+    }
+}
+
+.rm-app-add-filters-category-chip--all,
+.rm-app-add-filters-source-chip--all {
+    padding: 0 50px;
+}
+
+.rm-app-add-filters-category-chip-title,
+.rm-app-add-filters-source-chip-title {
+    @extend .mdl-chip__text;
+    color: black;
+    @include font-size(13px);
+}
+
+.rm-app-add-filters-source-menu,
+.rm-app-add-filters-category-menu {
+    @extend .mdl-menu;
+    padding: 8px;
+    min-width: 175px;
+    max-height: 500px;
+    overflow: auto;
+
+    a {
+        @extend .rm-no-underline;
+    }
+
+    button {
+        display: block;
+        background-color: Transparent;
+        background-repeat:no-repeat;
+        border: none;
+        outline:none;
+        width: 100%;
+        @include font-size(14px);
+        text-align: left;
+        padding: 5px;
+    }
+
+    button:hover:enabled {
+        background-color: #f4f4f4;
+    }
+
+    hr {
+        border-color: #ECECEC;
+        margin: 3px;
+    }
+}
+
+.rm-app-add-apps {
+    @extend .mdl-cell, .mdl-cell--6-col, .mdl-grid, .rm-grid--center;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.rm-app-add-remote-repository-information {
+    @extend .mdl-cell, .mdl-cell--12-col;
+}
+
+.rm-app-add-remote-repository-information-title {
+    color: #000000;
+    font-family: "Roboto-Black";
+    @include font-size(30px);
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.rm-app-add-remote-repository-information-description {
+    color: #000000;
+    @include font-size(17px);
+}
+
+.rm-app-add-remote-repository-information-divider {
+    border-color: #ECECEC;
+}
+
+.rm-app-add-no-results {
+    width: 100%;
+    @include font-size(18px);
+    line-height: 24px;
+    text-align: center;
+    color: gray;
+}
+
+#rm-app-add-errors {
+    @extend .error;
+}

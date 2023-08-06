@@ -1,0 +1,242 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Jordina Nogués Graell <jordina.nogues@gmail.com>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-01 20:55+0000\n"
+"PO-Revision-Date: 2020-04-22 23:03+0000\n"
+"Last-Translator: Jordina Nogués Graell <jordina.nogues@gmail.com>\n"
+"Language-Team: Catalan <https://hosted.weblate.org/projects/f-droid/repomaker-javascript/ca/>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.0.2-dev\n"
+
+#, javascript-format
+msgid "Available %s"
+msgstr "%s disponible"
+
+#, javascript-format
+msgid "This is the list of available %s. You may choose some by selecting them in the box below and then clicking the \"Choose\" arrow between the two boxes."
+msgstr "Aquesta és la llista de %s disponibles. Pots escollir-ne els que desitgis del requadre inferior clicant a l'opció \"Escollir\" que hi ha entre els dos requadres."
+
+#, javascript-format
+msgid "Type into this box to filter down the list of available %s."
+msgstr "Escriu en aquest requadre per filtrar la llista de %s disponibles."
+
+msgid "Filter"
+msgstr "Filtra"
+
+msgid "Choose all"
+msgstr "Tria'ls tots"
+
+#, javascript-format
+msgid "Click to choose all %s at once."
+msgstr ""
+
+msgid "Choose"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+#, javascript-format
+msgid "Chosen %s"
+msgstr ""
+
+#, javascript-format
+msgid "This is the list of chosen %s. You may remove some by selecting them in the box below and then clicking the \"Remove\" arrow between the two boxes."
+msgstr ""
+
+msgid "Remove all"
+msgstr "Suprimeix-los tots"
+
+#, javascript-format
+msgid "Click to remove all chosen %s at once."
+msgstr ""
+
+msgid "%(sel)s of %(cnt)s selected"
+msgid_plural "%(sel)s of %(cnt)s selected"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "You have unsaved changes on individual editable fields. If you run an action, your unsaved changes will be lost."
+msgstr "Tens canvis sense guardar en camps editables individuals. Si executes una acció, es perdran els teus canvis sense guardar."
+
+msgid "You have selected an action, but you haven't saved your changes to individual fields yet. Please click OK to save. You'll need to re-run the action."
+msgstr ""
+
+msgid "You have selected an action, and you haven't made any changes on individual fields. You're probably looking for the Go button rather than the Save button."
+msgstr ""
+
+#, javascript-format
+msgid "Note: You are %s hour ahead of server time."
+msgid_plural "Note: You are %s hours ahead of server time."
+msgstr[0] "Nota: Vas %s hora per devant de l'hora del servidor."
+msgstr[1] "Nota: Vas %s hores per devant de l'hora del servidor."
+
+#, javascript-format
+msgid "Note: You are %s hour behind server time."
+msgid_plural "Note: You are %s hours behind server time."
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Now"
+msgstr "Ara"
+
+msgid "Choose a Time"
+msgstr ""
+
+msgid "Choose a time"
+msgstr ""
+
+msgid "Midnight"
+msgstr "Mitjanit"
+
+msgid "6 a.m."
+msgstr ""
+
+msgid "Noon"
+msgstr "Migdia"
+
+msgid "6 p.m."
+msgstr ""
+
+msgid "Cancel"
+msgstr "Cancel·lar"
+
+msgid "Today"
+msgstr "Avui"
+
+msgid "Choose a Date"
+msgstr ""
+
+msgid "Yesterday"
+msgstr "Ahir"
+
+msgid "Tomorrow"
+msgstr "Demà"
+
+msgid "January"
+msgstr "Gener"
+
+msgid "February"
+msgstr "Febrer"
+
+msgid "March"
+msgstr "Març"
+
+msgid "April"
+msgstr "Abril"
+
+msgid "May"
+msgstr "Maig"
+
+msgid "June"
+msgstr "Juny"
+
+msgid "July"
+msgstr "Juliol"
+
+msgid "August"
+msgstr "Agost"
+
+msgid "September"
+msgstr "Setembre"
+
+msgid "October"
+msgstr "Octubre"
+
+msgid "November"
+msgstr "Novembre"
+
+msgid "December"
+msgstr "Desembre"
+
+msgctxt "one letter Sunday"
+msgid "S"
+msgstr "Dg"
+
+msgctxt "one letter Monday"
+msgid "M"
+msgstr "Dl"
+
+msgctxt "one letter Tuesday"
+msgid "T"
+msgstr "Dt"
+
+msgctxt "one letter Wednesday"
+msgid "W"
+msgstr "Dc"
+
+msgctxt "one letter Thursday"
+msgid "T"
+msgstr "Dj"
+
+msgctxt "one letter Friday"
+msgid "F"
+msgstr "Dv"
+
+msgctxt "one letter Saturday"
+msgid "S"
+msgstr "Ds"
+
+msgid "Show"
+msgstr "Mostra"
+
+msgid "Hide"
+msgstr "Amaga"
+
+#, javascript-format
+msgid "%s app added"
+msgid_plural "%s apps added"
+msgstr[0] "%s app afegida"
+msgstr[1] "%s apps afegides"
+
+msgid "Add"
+msgstr "Afegir"
+
+#, javascript-format
+msgid "Sorry, there was an error deleting it: %s"
+msgstr "Ho sento, hi ha hagut un error en esborrar-lo: %s"
+
+msgid "Delete Screenshot"
+msgstr "Eliminar captura de pantalla"
+
+msgid "Are you sure you want to delete this screenshot from your package?"
+msgstr "Esteu segurs que voleu eliminar aquesta captura de pantalla del vostre paquet?"
+
+msgid "Delete Feature Graphic"
+msgstr "Eliminar gràfic de característiques"
+
+msgid "Are you sure you want to delete the feature graphic from your package?"
+msgstr "Esteu segurs que voleu eliminar aquest gràfic amb característiques del vostre paquet?"
+
+msgid "Delete Version"
+msgstr "Eliminar versió"
+
+msgid "Are you sure you want to delete this version from your package?"
+msgstr "Esteu segurs que voleu eliminar aquesta versió del vostre paquet?"
+
+msgid "Confirm"
+msgstr "Confirmeu"
+
+msgid "Added"
+msgstr "Afegit"
+
+msgid "You can only upload images here."
+msgstr "Aquí només podeu pujar imatges."
+
+#, javascript-format
+msgid "Uploading %s file..."
+msgid_plural "Uploading %s files..."
+msgstr[0] "Pujant %s fitxer…"
+msgstr[1] "Pujant %s fitxers…"
+
+msgid "Try to drag and drop again!"
+msgstr "Intenteu un altre cop arrossegar i deixar anar!"

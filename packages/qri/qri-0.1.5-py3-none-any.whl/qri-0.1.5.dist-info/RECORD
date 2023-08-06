@@ -1,0 +1,15 @@
+qri/__init__.py,sha256=d0Q6Fn44e7wFfLabDOBxpcJ1DPKWlFunGYDUBmO-4hA,22
+qri/__version__.py,sha256=cds-TxkRx0UWLTtWtzJrvro3YqFayRAOrG6HXJt6v5A,370
+qri/client.py,sha256=qObW4ik6vzGLPVCGCgIvqwYj0IU8sxE94TIsJWQPqGo,1314
+qri/cmd_util.py,sha256=K0E5_zy2U3yONkrzY4J7VKfTl9ERZMi5bsEWU2M2PMw,1490
+qri/dataset.py,sha256=qffdrFRv4z66L1ZSfVB19rDUCtiogq1lV9qPaTKe_VY,7070
+qri/dsref.py,sha256=StX0vMs9vEuX7HnwoKQAqvOR5yc_1DEzI1S-hXjEBQA,607
+qri/error.py,sha256=rEr7mwNgVvAHJx4pfLKPmAlB86hVl_8mXqN7KYkwMzE,650
+qri/loader.py,sha256=qfxKW_HDOnsrsYsvFzhQyJOZKGj8FjyqIS54JkMaHoA,4739
+qri/util.py,sha256=uSef7cfUGs0xJyfzdleP4T-fo3wM_DvdYR0Xn3C6u-Y,862
+qri/version_info.py,sha256=QMHolMYavD9_2dMPZTvQzj9_VdWEZXCkWJEni-Xvxi0,284
+qri-0.1.5.dist-info/LICENSE,sha256=5NNuWjS5RYCp8t1EtPcSAqIAm6ldLjqe4E5HFtApazk,1063
+qri-0.1.5.dist-info/METADATA,sha256=yBE4le4qI1j_NyekMDG8LdZBwO-Y6b0xc7KQChCO1vQ,2360
+qri-0.1.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+qri-0.1.5.dist-info/top_level.txt,sha256=H0Sov_GX_6BJ3x-cR4y-um70JLDbda8n2Oqa3Z28Vro,4
+qri-0.1.5.dist-info/RECORD,,

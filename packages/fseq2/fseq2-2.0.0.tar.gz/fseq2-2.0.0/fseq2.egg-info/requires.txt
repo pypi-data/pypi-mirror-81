@@ -1,0 +1,9 @@
+numpy
+scipy>=0.13
+pandas>=0.24
+statsmodels
+KDEpy
+pybedtools
+pyBigWig
+h5py
+matplotlib

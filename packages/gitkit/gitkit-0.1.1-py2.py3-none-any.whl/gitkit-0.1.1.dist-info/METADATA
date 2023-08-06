@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: gitkit
+Version: 0.1.1
+Summary: Keep your git repositories up to date
+Home-page: https://github.com/dotupNET
+Author: Peter Ullrich
+Author-email: dotup.software@gmail.com
+License: GNU General Public License v3.0
+Keywords: dotup git github sync
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Utilities
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: Click
+
+# gitkit
+A tool for analyzing and synchronizing git repositories with github
+
+## Installation
+
+`python3 -m pip install gitkit --upgrade`
+
+**Test version**
+
+`python3 -m pip install --index-url https://test.pypi.org/simple/ --no-deps gitkit --upgrade`
+
+## Usage
+`gitkit [OPTIONS] COMMAND [ARGS]...`
+
+### Options:
+
+| Option           | Typ  | Description |
+| ---------------- | ---- | ----------- |
+| -t, --target-dir | TEXT | The local target/source path
+| -u, --user       | TEXT | The github username
+| -p, --password   | TEXT | The github password
+| -l, --list       |      | Print results. Does not execute any command.
+| --help           |      | Show this message and exit.
+
+### Commands:
+
+| Command | Description |
+| ------- | ----------- |
+| clone   | Clone repositories |
+| commit  | Commit repositories |
+| find    | Search local repositories |
+| pull    | Pull repositories |
+| push    | Push repositories |
+
+| Description | Command |
+| ----------- | ------- |
+| Help | `gitkit --help`    |
+| Clone all repositories.   | `gitkit -u <USERNAME> -p <PASSWORD> -t /home/pullrich/src/github clone` |
+| Pull all repositories.    | `gitkit -u <USERNAME> -p <PASSWORD> -t /home/pullrich/src/github pull` |
+| Push all repositories.    | `gitkit -u <USERNAME> -p <PASSWORD> -t /home/pullrich/src/github push` |
+| Find all repositories     | `gitkit -t /home/pullrich/src/github find` |
+| Find all repositories     | `cd /your/path/ && gitkit find` |
+| Find dirty repositories   | `gitkit -t /home/pullrich/src/github find -d` |
+| Find private repositories | `gitkit -t /home/pullrich/src/github find -p` |
+| Find private dirty repositories | `gitkit -t /home/pullrich/src/github find -pd` |
+| Find public repositories  | `gitkit -t /home/pullrich/src/github find -np` |
+| Find forked repositories  | `gitkit -t /home/pullrich/src/github find -f` |
+| Find owned repositories   | `gitkit -t /home/pullrich/src/github find -o` |
+| Find ahead remote repositories | `gitkit -t /home/pullrich/src/github find -a` |
+| Find behind remote repositories | `gitkit -t /home/pullrich/src/github find -a` |
+| Find not owned repositories |`gitkit -u dotupNET -t /home/pullrich/src/github/ -l find -no`|
+
+
+> Environment variable for user, password and target available
+>
+> `user=XYZ`
+> `password=XYZ`
+> `target-dir=/tmp/github`
+
+-u <USERNAME> -p <PASSWORD> -t /home/pullrich/src/github -l push
+        // "clone",
+        // "--group",
+        // "forks",
+        // "--group",
+        // "owner"
+
+https://github.com/dotupNET/gitkit
+
+

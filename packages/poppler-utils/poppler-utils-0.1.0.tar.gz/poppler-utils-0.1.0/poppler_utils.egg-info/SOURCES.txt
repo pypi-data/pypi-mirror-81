@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+poppler/__init__.py
+poppler/__version__.py
+poppler_utils.egg-info/PKG-INFO
+poppler_utils.egg-info/SOURCES.txt
+poppler_utils.egg-info/dependency_links.txt
+poppler_utils.egg-info/requires.txt
+poppler_utils.egg-info/top_level.txt

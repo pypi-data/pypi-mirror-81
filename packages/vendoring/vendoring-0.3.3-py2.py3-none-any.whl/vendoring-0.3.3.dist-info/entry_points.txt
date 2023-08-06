@@ -1,0 +1,3 @@
+[console_scripts]
+vendoring=vendoring.cli:main
+

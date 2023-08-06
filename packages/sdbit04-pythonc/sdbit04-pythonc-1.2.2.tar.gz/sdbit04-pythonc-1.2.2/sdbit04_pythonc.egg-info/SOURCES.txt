@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+pythonc/__init__.py
+pythonc/pythonc.py
+sdbit04_pythonc.egg-info/PKG-INFO
+sdbit04_pythonc.egg-info/SOURCES.txt
+sdbit04_pythonc.egg-info/dependency_links.txt
+sdbit04_pythonc.egg-info/entry_points.txt
+sdbit04_pythonc.egg-info/top_level.txt

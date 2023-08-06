@@ -1,0 +1,3 @@
+[console_scripts]
+pythonc = pythonc.pythonc:main_method
+

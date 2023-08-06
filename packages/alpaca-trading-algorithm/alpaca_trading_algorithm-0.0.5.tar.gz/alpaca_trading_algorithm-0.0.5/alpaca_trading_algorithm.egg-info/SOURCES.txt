@@ -1,0 +1,11 @@
+README.md
+setup.py
+alpaca_trading_algorithm/__init__.py
+alpaca_trading_algorithm/tickerpicker.py
+alpaca_trading_algorithm/tickers.csv
+alpaca_trading_algorithm/trader.py
+alpaca_trading_algorithm.egg-info/PKG-INFO
+alpaca_trading_algorithm.egg-info/SOURCES.txt
+alpaca_trading_algorithm.egg-info/dependency_links.txt
+alpaca_trading_algorithm.egg-info/requires.txt
+alpaca_trading_algorithm.egg-info/top_level.txt

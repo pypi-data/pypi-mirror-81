@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: django-terra-settings
+Version: 0.1.0
+Summary: Common utils for terra apps.
+Home-page: https://github.com/Terralego/django-terra-settings.git
+Author: Makina Corpus
+Author-email: terralego-pypi@makina-corpus.com
+License: UNKNOWN
+Description: [![Build Status](https://travis-ci.org/Terralego/django-terra-settings.svg?branch=master)](https://travis-ci.org/Terralego/django-terra-settings)
+        [![codecov](https://codecov.io/gh/Terralego/django-terra-settings/branch/master/graph/badge.svg)](https://codecov.io/gh/Terralego/django-terra-settings)
+        [![Maintainability](https://api.codeclimate.com/v1/badges/186dad418b5c5cdb9cf8/maintainability)](https://codeclimate.com/github/Terralego/django-terra-settings/maintainability)
+        
+        
+        https://django-terra-settings.readthedocs.io/en/latest/
+        
+        Helpers and default configuration endpoints for terralego application.
+        
+        
+        
+        0.1.0  (2020-10-06)
+        -------------------
+        
+        First release of django-terra-settings
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django :: 3.1
+Description-Content-Type: text/markdown
+Provides-Extra: dev

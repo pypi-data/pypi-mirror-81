@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: simppl
+Version: 1.0.1
+Summary: simple commands execution pipeline, coupled with unified command-line-interface entry-point
+Home-page: https://github.com/nrgene/simppl
+Author: Doron Shem-Tov
+Author-email: doronst5@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >3.6

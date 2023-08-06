@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: sudoku_py
+Version: 0.0.1
+Summary: A Python Sudoku solver and generator
+Home-page: https://github.com/Lenwee/sudoku-py
+Author: Lewis Hammond
+Author-email: lewishammond97@gmail.com
+License: UNKNOWN
+Description: # Sudoku-py
+        
+        ## Overview
+        Sudoku-py allows you to represent Sudoku boards easily. While also giving you the ability to solve and generate your own Sudoku boards.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

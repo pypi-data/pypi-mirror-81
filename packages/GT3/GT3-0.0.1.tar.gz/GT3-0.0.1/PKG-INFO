@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: GT3
+Version: 0.0.1
+Summary: GT3 - The Georgia Tech Tokamak Transport codebase
+Home-page: https://github.com/gt-frc/gt3/
+Author: Maxwell D. Hill, Jonathan J. Roveto, Nicholas Piper
+Author-email: max.hill@pm.me, veto1024@gmail.com, doom@gatech.edu
+License: UNKNOWN
+Description: The Georgia Tech Tokamak Transport Code (GT3)
+        
+        **Installation**
+        
+        - ** Using pip
+        
+        `$ pip install GT3`
+        
+        **Installing from GitHub**
+        
+        - **Master branch**
+        
+        Clone GT3 master branch from github
+        
+        `$ git clone https://github.com/gt-frc/gt3.git`
+        
+        - **Other branches**
+        
+        You can clone another branch from github as follows:
+        
+        `$ git clone -b <branch> https://github.com/gt-frc/gt3.git`
+        
+        Enter GT3
+        
+        `$ cd gt3`
+        
+        Setup your virtual environment
+        
+        `$ virtualenv venv`
+        
+        Activate it
+        
+        `$ source venv/bin/activate`
+        
+        Install packages
+        
+        `$ pip install -r requirements.txt`
+        
+        Install NeutPy for neutrals calculations
+        
+        `$ cd Neutrals`
+        
+        `$ git clone https://github.com/gt-frc/neutpy.git`
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown

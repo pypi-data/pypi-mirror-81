@@ -1,0 +1,8 @@
+README.md
+setup.py
+gssheet26/__init__.py
+gssheet26.egg-info/PKG-INFO
+gssheet26.egg-info/SOURCES.txt
+gssheet26.egg-info/dependency_links.txt
+gssheet26.egg-info/requires.txt
+gssheet26.egg-info/top_level.txt

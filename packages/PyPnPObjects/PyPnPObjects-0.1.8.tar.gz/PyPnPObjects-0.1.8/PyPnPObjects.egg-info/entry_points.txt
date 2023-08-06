@@ -1,0 +1,3 @@
+[console_scripts]
+get-pnpobjects = pypnpobjects.main:main
+

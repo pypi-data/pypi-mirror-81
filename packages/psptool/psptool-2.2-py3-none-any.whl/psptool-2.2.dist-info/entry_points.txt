@@ -1,0 +1,3 @@
+[console_scripts]
+psptool = psptool.__main__:main
+

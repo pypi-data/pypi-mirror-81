@@ -1,0 +1,6 @@
+{
+	"name": "Base",
+	"type": "hidden",
+	"fa-icon": "fas fa-clock",
+	"url_prefix": "/base"
+}

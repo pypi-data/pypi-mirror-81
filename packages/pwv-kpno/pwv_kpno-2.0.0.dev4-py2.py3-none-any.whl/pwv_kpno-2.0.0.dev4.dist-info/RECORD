@@ -1,0 +1,16 @@
+pwv_kpno/__init__.py,sha256=G_rFtHL135QIrT4mpD5ys8kkt5EfnIl5X327KGtbZ6A,2880
+pwv_kpno/_utils.py,sha256=DQAhOD8epyMqIOp6qmFvYI6gGgybR14wf5uBwLEnsvk,3874
+pwv_kpno/defaults.py,sha256=F3rEgXQy3yvTdSvBZkm2OgrDqpyyTeA9gM2EP5sGlc0,5994
+pwv_kpno/downloads.py,sha256=M_fgUGFRbUT6MBrRz7vEnhOsX_hx9g9WBX6nXnVWsyM,12042
+pwv_kpno/file_parsing.py,sha256=J4KVjJOX1bH6TxB7Qb86xEPRITLj-jMdhhbhV3bd6vY,4549
+pwv_kpno/gps_pwv.py,sha256=GRDjtfCYDrWSlsznvgSmwQ9148FzYCyqvXHNv1C5ajE,15936
+pwv_kpno/transmission.py,sha256=k3zYi2qJAwxKAGAmL50MWTCXSQIdK3PyP1VVvVlEqwo,10637
+pwv_kpno/types.py,sha256=ZKNEvnMi9zxET0Gbrwfo6R_T68q8KaLF0LXZX-iBmwM,2597
+pwv_kpno/default_atmosphere/h2ocs.txt,sha256=j-BPtdkPV3phlUSFhR9MV_L6eHNj5gqohhQFuSrZ_6M,21240118
+pwv_kpno/default_atmosphere/o2cs.txt,sha256=jTzsOWHyNqhd5WK3vfOFgWaC-_e0ZHsUxR1gNJUpAXE,21240118
+pwv_kpno/default_atmosphere/o3cs.txt,sha256=Y4H2DS3fihWVvn400XYXQBsMoXMAEYckNRFO7CXr5C8,150000
+pwv_kpno-2.0.0.dev4.dist-info/LICENSE.txt,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+pwv_kpno-2.0.0.dev4.dist-info/METADATA,sha256=AqHK49l-oOC43G9UTuKzC3jtNvKtgYOn0uoiweF4SMk,1338
+pwv_kpno-2.0.0.dev4.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+pwv_kpno-2.0.0.dev4.dist-info/top_level.txt,sha256=JRBE8_IElLto-kJtJXTGoYN7hy5U5b7TBpwCQjIJUcU,9
+pwv_kpno-2.0.0.dev4.dist-info/RECORD,,

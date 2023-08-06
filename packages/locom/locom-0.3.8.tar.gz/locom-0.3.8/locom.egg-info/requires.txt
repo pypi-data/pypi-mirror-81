@@ -1,0 +1,2 @@
+generic-design-patterns
+Pillow

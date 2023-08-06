@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: pyemailscraper
+Version: 0.1.9
+Summary: A library for scrape all email address in a website
+Home-page: https://github.com/fariascl/pyemailscraper
+Author: Alejandro Farías
+Author-email: farias@8loop.cl
+License: UNKNOWN
+Download-URL: https://github.com/fariascl/pyemailscaper/tarball/0.1.9
+Description: UNKNOWN
+Keywords: scraper,email,websites
+Platform: UNKNOWN

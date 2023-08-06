@@ -1,0 +1,3 @@
+[console_scripts]
+trade-cli=trade_cli.cli:hello
+

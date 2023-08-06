@@ -1,0 +1,12 @@
+[aiida.data]
+pseudo = aiida_pseudo.data.pseudo.pseudo:PseudoPotentialData
+pseudo.upf = aiida_pseudo.data.pseudo.upf:UpfData
+
+[aiida.groups]
+pseudo.family = aiida_pseudo.groups.family.pseudo:PseudoPotentialFamily
+pseudo.family.sssp = aiida_pseudo.groups.family.sssp:SsspFamily
+pseudo.family.upf = aiida_pseudo.groups.family.upf:UpfFamily
+
+[console_scripts]
+aiida-pseudo = aiida_pseudo.cli:cmd_root
+

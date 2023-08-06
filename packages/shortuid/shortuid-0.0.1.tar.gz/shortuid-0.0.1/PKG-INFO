@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: shortuid
+Version: 0.0.1
+Summary: Mini package for generating fairly unique but short IDs
+Home-page: https://github.com/aamustapha/short-uid
+Author: Abdulhakeem Mustapha
+Author-email: abdulhakeemmustapha@gmail.com
+License: MIT
+Download-URL: https://github.com/aamustapha/short-uid/archive/v_001.tar.gz
+Description: UNKNOWN
+Keywords: UUID,UUID indexing,short uuid,short-uid
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6

@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: hemlock-berlin
+Version: 0.0.1
+Summary: Berlin Numeracy Test for Hemlock projects
+Home-page: https://github.com/dsbowen/hemlock-berlin
+Author: Dillon Bowen
+Author-email: dsbowen@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Hemlock template
+
+This project is based on the [hemlock template](https://dsbowen.github.io/hemlock).
+
+You can replicate this study with the click of a button.
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+

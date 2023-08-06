@@ -1,0 +1,14 @@
+.gitignore
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/stpipe/__init__.py
+src/stpipe.egg-info/PKG-INFO
+src/stpipe.egg-info/SOURCES.txt
+src/stpipe.egg-info/dependency_links.txt
+src/stpipe.egg-info/top_level.txt
+src/stpipe.egg-info/zip-safe

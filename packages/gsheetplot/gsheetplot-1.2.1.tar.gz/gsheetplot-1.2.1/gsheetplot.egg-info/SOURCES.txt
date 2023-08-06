@@ -1,0 +1,9 @@
+setup.py
+gsheetplot/Sheet_Plot.py
+gsheetplot/__init__.py
+gsheetplot.egg-info/PKG-INFO
+gsheetplot.egg-info/SOURCES.txt
+gsheetplot.egg-info/dependency_links.txt
+gsheetplot.egg-info/not-zip-safe
+gsheetplot.egg-info/requires.txt
+gsheetplot.egg-info/top_level.txt

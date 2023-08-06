@@ -1,0 +1,15 @@
+restful_dj/__init__.py,sha256=3rwzZhSgoYDC8n9BaZ_M5W-CMfDEHsjxu8YBMu3NOQk,1013
+restful_dj/decorator.py,sha256=VSg0SysCLYFVwc8oUS4jSQy7vZM2UnPccg3KYlsgURM,11545
+restful_dj/meta.py,sha256=Gpklk4VonNcHJzzXJZ3AcFk7PKPQro1D15YrzraIxSc,2790
+restful_dj/middleware.py,sha256=lPbG7GfV-9AtSpjT3Y3e5CiJGIdAMG3KB6JDhgY8J_U,4881
+restful_dj/router.py,sha256=GYvcgUf2R764cGvkGotu2Wao4SLIo1n-YDyMLQJjpqU,9851
+restful_dj/templates/restful_dj_api_list_template.html,sha256=3X_Z54BDWmpqYkDGE0kejqPGMdnycfF9HeTcHs8yKn8,6893
+restful_dj/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+restful_dj/util/collector.py,sha256=PreyoHIjHRv9ttFPq8SJKPzh36lVIzslMou9igTakWU,7569
+restful_dj/util/logger.py,sha256=4qd8rqBkMUs2Qc40zrjxOzXTm6Pps52JttKq3UnJZxU,1380
+restful_dj/util/utils.py,sha256=m_5AmP3fBjI0RM4OOHJd05adX2r36OG_p2QzjDo2lhE,5178
+restful_dj-2.0.0b1.dist-info/LICENSE,sha256=ln96iLsPjdbvPcO1cE6zGT1n9SvJ1eMq3pEPSeOv8tk,1094
+restful_dj-2.0.0b1.dist-info/METADATA,sha256=iuzhHIBMISXLOtg4g_iuF0uqRFbSiS-9zd6XtWQfRaA,16330
+restful_dj-2.0.0b1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+restful_dj-2.0.0b1.dist-info/top_level.txt,sha256=wSqiNpUoY6uozt_DlQi_SDXzeecrzJ9Zm5Dg_ILfpOQ,11
+restful_dj-2.0.0b1.dist-info/RECORD,,

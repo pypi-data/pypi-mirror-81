@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: mkdocs-version
+Version: 0.1.0
+Summary: Simple and easy-to-use mkdocs version based on git tags
+Home-page: https://github.com/abersheeran/mkdocs-version
+License: Apache-2.0
+Author: abersheeran
+Author-email: me@abersheeran.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Project-URL: Repository, https://github.com/abersheeran/mkdocs-version
+Description-Content-Type: text/markdown
+
+# mkdocs version
+
+为 [Index.py](https://github.com/abersheeran/index.py) 提供多版本文档支持。
+
+如果你同样使用 Mkdocs，并且项目版本编号类似于 `v1.0.0`，亦可以使用此项目进行多版本的文档生成，使用说明请查看 `mkdocs-version --help`。
+

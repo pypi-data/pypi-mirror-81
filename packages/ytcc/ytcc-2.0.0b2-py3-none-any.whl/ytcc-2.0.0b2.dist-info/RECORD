@@ -1,0 +1,17 @@
+ytcc/__init__.py,sha256=d6i2CR_FyM2jR0krEz4J-_Kqg-RCIR33irYRtO7KWmg,1357
+ytcc/cli.py,sha256=N-g6RHC_xJ9_aSxqZECSAmX6Ztb-IuZvp4_eZGghiJ8,16604
+ytcc/config.py,sha256=RTLiZGZ_uRi17er8nSSU0-MDmEVS8Zi40442j19EjOQ,9768
+ytcc/core.py,sha256=3A1o4vopeiYvkNDNRpGIMvsMaxoJnPCGuPbnMUvCM3E,17342
+ytcc/database.py,sha256=fYFrzb2JVHsiWkp9xKFhEh9WVTCn0YBzj92vqUCnKyE,13710
+ytcc/exceptions.py,sha256=UENm76oDNjxLjTLwcN4p_nLJ6xWkL7J5NW0ay_yU7Rs,1576
+ytcc/printer.py,sha256=kdTNpUmzLvmkYXKAKn2w3Hl4XFmNFi-oJOnkiXsRHPA,5771
+ytcc/terminal.py,sha256=VxvXVtK-Y5gIgdFIqTn6qgWsOamilZOfgpRmEyfCXYQ,4246
+ytcc/tui.py,sha256=1fXyiKG4pPAplfACvUebZGkYbPbmQaDsI3Jmc7URvso,9388
+ytcc/utils.py,sha256=Gz-OG-y8ZWAQZlgptSF3dkTba2PTmkPcoBSSdr83SDg,1565
+ytcc/resources/locale/de/LC_MESSAGES/ytcc.mo,sha256=eEAXKR4tb5SkgtF6KlAaYMyULKvCpDURZL4qrn-8euk,9194
+ytcc-2.0.0b2.dist-info/COPYING,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+ytcc-2.0.0b2.dist-info/METADATA,sha256=APKb68w4ch3Q0Ky6RMknePVHmRIcIf9d1A-VJmKw6ro,9927
+ytcc-2.0.0b2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ytcc-2.0.0b2.dist-info/entry_points.txt,sha256=BDL1RiFqfpnoSF51MMc5qXIAmEMMDpjGzf0RzMlJMr0,40
+ytcc-2.0.0b2.dist-info/top_level.txt,sha256=s7qeLa8m8Z-EQ80g4YUjghcN5qH7R-jhYVY_j9lb-3U,5
+ytcc-2.0.0b2.dist-info/RECORD,,

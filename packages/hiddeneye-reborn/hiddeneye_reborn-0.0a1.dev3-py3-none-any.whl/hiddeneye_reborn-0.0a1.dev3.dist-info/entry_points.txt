@@ -1,0 +1,4 @@
+[console_scripts]
+hiddeneye = HE_RE.HE_RE:main
+hiddeneye-reborn = HE_RE.HE_RE:main
+

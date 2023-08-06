@@ -1,0 +1,9 @@
+README.md
+setup.py
+nicecache/__init__.py
+nicecache/nicecache.py
+nicecache.egg-info/PKG-INFO
+nicecache.egg-info/SOURCES.txt
+nicecache.egg-info/dependency_links.txt
+nicecache.egg-info/requires.txt
+nicecache.egg-info/top_level.txt

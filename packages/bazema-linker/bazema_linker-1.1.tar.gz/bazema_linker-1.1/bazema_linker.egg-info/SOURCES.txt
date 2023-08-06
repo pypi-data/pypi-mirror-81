@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+bazema_linker/__init__.py
+bazema_linker/__main__.py
+bazema_linker/linker.py
+bazema_linker.egg-info/PKG-INFO
+bazema_linker.egg-info/SOURCES.txt
+bazema_linker.egg-info/dependency_links.txt
+bazema_linker.egg-info/entry_points.txt
+bazema_linker.egg-info/requires.txt
+bazema_linker.egg-info/top_level.txt
+bazema_linker/utils/__init__.py
+bazema_linker/utils/file_io.py
+bazema_linker/utils/logging.py
+bazema_linker/utils/parser.py

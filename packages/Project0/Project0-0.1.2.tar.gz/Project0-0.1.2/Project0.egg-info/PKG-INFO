@@ -1,0 +1,44 @@
+Metadata-Version: 1.1
+Name: Project0
+Version: 0.1.2
+Summary: Offline vocal assistant and tts
+Home-page: http://github.com/fenrir77/project0
+Author: Fenrir77
+Author-email: fenrir7377@gmail.com
+License: MIT
+Description: =========
+        Project 0
+        =========
+        
+        This project aim to create an offline vocal assistant capable of understand short sentence and start external module attached to it.
+        ------------------------------------------------------------------------------------------------------------------------------------
+        Some of it:
+        - Plex API (to play music and other stuff)
+        - Weather Forecast
+        - Web Radio
+        - Wikipedia search page
+        and more, to read it out loud. 
+        
+        This software is main based on:
+        -------------------------------
+        Zhang, A. (2017). Speech Recognition (Version 3.8) (Software). Available from https://github.com/Uberi/speech_recognition#readme.
+        
+        To use, simply do
+        -----------------
+        -  import Project0
+        -  print Project0.main.launch()
+        
+        :Authors: Fenrir77
+        
+        :Version:  0.1.0 of 2020/10/08
+Keywords: vocal assistant offline tts
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Multimedia :: Sound/Audio :: Capture/Recording
+Classifier: Topic :: Multimedia :: Sound/Audio :: Speech
+Classifier: Topic :: Text Processing
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Italian

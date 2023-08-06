@@ -1,0 +1,5 @@
+PocketSphinx
+PyAudio
+SpeechRecognition
+markdown
+pyttsx3

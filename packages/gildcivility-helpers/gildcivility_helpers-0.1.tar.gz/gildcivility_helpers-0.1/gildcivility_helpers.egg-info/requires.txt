@@ -1,0 +1,5 @@
+requests
+pymongo
+praw
+twilio
+datetime

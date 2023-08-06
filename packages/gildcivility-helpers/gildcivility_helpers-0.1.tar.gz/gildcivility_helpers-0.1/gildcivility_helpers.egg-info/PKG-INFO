@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: gildcivility-helpers
+Version: 0.1
+Summary: Helper modules for the gildcivility reddit bot
+Home-page: https://github.com/Geoffe-Ga/gildcivility_helpers.git
+Author: Geoffe-Ga
+Author-email: geoffe.gallinger@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/Geoffe-Ga/gildcivility_helpers/archive/v_01.tar.gz
+Description: # GildCivility Helpers
+        
+        Helper modules for the GildCivility Reddit bot
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

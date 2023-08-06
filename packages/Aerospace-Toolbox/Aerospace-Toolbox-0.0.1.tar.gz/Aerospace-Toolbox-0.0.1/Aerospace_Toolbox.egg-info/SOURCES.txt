@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+AerospaceToolbox/__init__.py
+Aerospace_Toolbox.egg-info/PKG-INFO
+Aerospace_Toolbox.egg-info/SOURCES.txt
+Aerospace_Toolbox.egg-info/dependency_links.txt
+Aerospace_Toolbox.egg-info/top_level.txt

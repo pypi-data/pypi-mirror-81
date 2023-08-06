@@ -1,0 +1,10 @@
+manga109api/__init__.py,sha256=wi9Rs6KcEp3u7z_8AB0zrtVl3IWvmceVX5Gzy_zXSq0,75
+manga109api/manga109api.py,sha256=NPEq7ppIJjLMpVq2ZBS2bLyhX8IEZEiKAqVH3nSznYc,4378
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_data_type.py,sha256=2lzhjH9LhL3ctabvPFYSVs-C31koC_wCpy8ftwkjUzU,2716
+tests/test_func.py,sha256=-G3mQy6XnmaEi4dXOZB698WQiKxJAcL--ZXdtQXlVr4,324
+manga109api-0.3.0.dist-info/LICENSE,sha256=51s2NaJ2PRI_pme3WVaKXhY4om23fYzbyVc4fLb3nOA,1070
+manga109api-0.3.0.dist-info/METADATA,sha256=4qFEtxqAn8in0zMIjT6ip3INlfIA0TNclnyUwcPJO1w,9566
+manga109api-0.3.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+manga109api-0.3.0.dist-info/top_level.txt,sha256=7U6KsGzoFUV27dVQ8M_3YesMrBdb_L97BThjwaNZiGc,18
+manga109api-0.3.0.dist-info/RECORD,,

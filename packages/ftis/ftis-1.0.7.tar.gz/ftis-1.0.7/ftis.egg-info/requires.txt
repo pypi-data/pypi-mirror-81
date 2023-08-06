@@ -1,0 +1,9 @@
+Soundfile
+hdbscan
+umap-learn
+sklearn
+python-flucoma
+pydub
+scipy
+rich
+librosa

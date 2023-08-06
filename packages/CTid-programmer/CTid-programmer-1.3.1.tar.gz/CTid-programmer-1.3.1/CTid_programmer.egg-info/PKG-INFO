@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: CTid-programmer
+Version: 1.3.1
+Summary: A graphical user interface for programming CTid sensors.
+Home-page: https://bitbucket.org/egauge/CTid-programmer/
+Author: David Mosberger-Tang
+Author-email: davidm@egauge.net
+License: MIT License
+Description: ***************
+        CTid-programmer
+        ***************
+        
+        A graphical-user interface for programming CTid®
+        information into a CTid-enabled sensor.  The program relies on avrdude
+        to do the physical programming of ATtiny microcontrollers.
+        
+        This program depends on PyQt4 which cannot be installed by pip.
+        On Ubuntu, make sure you have the python3-qt4 package installed:
+        
+            sudo apt install python3-pyqt4
+        
+        The program also depends on an enhanced version of avrdude, which is
+        available here:
+        
+            https://bitbucket.org/egauge/avrdude/src/upstream/
+        
+        The enhancements in this repository enable programming of ATtiny
+        microcontrollers with a standard FTDI serial cable.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Manufacturing
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: System :: Hardware
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst

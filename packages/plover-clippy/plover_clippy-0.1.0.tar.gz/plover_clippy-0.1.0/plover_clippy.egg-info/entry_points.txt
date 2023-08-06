@@ -1,0 +1,3 @@
+[plover.extension]
+plover_clippy = plover_clippy:Clippy
+

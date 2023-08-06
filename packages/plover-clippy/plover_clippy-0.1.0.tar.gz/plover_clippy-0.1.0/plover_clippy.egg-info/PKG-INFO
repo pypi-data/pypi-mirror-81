@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: plover-clippy
+Version: 0.1.0
+Summary: Logs inefficient strokes to a file for later review.
+Home-page: https://github.com/tckmn/plover_clippy
+Author: Andy Tockman
+Author-email: andy@tck.mn
+License: GNU General Public License v3 (GPLv3)
+Description: `plover_clippy` is a helpful assistant who notices when you stroke a word inefficiently and logs this information to a file for later review.
+        
+Keywords: plover plover_plugin
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7

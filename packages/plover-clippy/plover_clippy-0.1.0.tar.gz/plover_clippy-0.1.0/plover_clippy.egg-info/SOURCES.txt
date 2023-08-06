@@ -1,0 +1,11 @@
+README.md
+plover_clippy.py
+setup.cfg
+setup.py
+plover_clippy.egg-info/PKG-INFO
+plover_clippy.egg-info/SOURCES.txt
+plover_clippy.egg-info/dependency_links.txt
+plover_clippy.egg-info/entry_points.txt
+plover_clippy.egg-info/requires.txt
+plover_clippy.egg-info/top_level.txt
+plover_clippy.egg-info/zip-safe

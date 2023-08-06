@@ -1,0 +1,4 @@
+RPi.GPIO==0.7.0
+paho.mqtt==1.5
+xdgenvpy
+matrix-nio

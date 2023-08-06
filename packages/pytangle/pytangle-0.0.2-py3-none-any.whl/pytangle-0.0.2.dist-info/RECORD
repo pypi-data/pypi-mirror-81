@@ -1,0 +1,10 @@
+pytangle/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytangle/api.py,sha256=_3L92tq2flr3xoz4CVT3k2OmGvk7lqe1LaUhe9c0atM,25605
+pytangle/connectivity.py,sha256=Lu0877XwCTopQ5t035bZ_cLfAVL6eSBhUg1g-45o0ug,9495
+pytangle/endpoints.py,sha256=XZudR9zAn1GHV5WhKK2Md1yHG6sTon3oWP8SBBlPlfE,5018
+pytangle/utils.py,sha256=660ZiZIDMM7ko00rS2PWWwY1tUbrymnNcwkpSJDMkb0,148
+pytangle-0.0.2.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+pytangle-0.0.2.dist-info/METADATA,sha256=UpkP7csHpaMYpXiFyJPBS67OOrH1W-JJLtLdg3eRPcE,6854
+pytangle-0.0.2.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+pytangle-0.0.2.dist-info/top_level.txt,sha256=KZVyGs443k7JfEk3hjVXHfRllczpT81U6xx2msmnmTw,9
+pytangle-0.0.2.dist-info/RECORD,,

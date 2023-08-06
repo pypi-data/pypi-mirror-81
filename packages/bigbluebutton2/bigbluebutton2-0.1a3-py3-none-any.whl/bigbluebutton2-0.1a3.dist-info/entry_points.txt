@@ -1,0 +1,3 @@
+[console_scripts]
+bbb-cli=bigbluebutton.cli:bbb
+

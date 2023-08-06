@@ -1,0 +1,10 @@
+setup.py
+Jiyatesting/Binomialdistribution.py
+Jiyatesting/Gaussiandistribution.py
+Jiyatesting/Generaldistribution.py
+Jiyatesting/__init__.py
+Jiyatesting.egg-info/PKG-INFO
+Jiyatesting.egg-info/SOURCES.txt
+Jiyatesting.egg-info/dependency_links.txt
+Jiyatesting.egg-info/not-zip-safe
+Jiyatesting.egg-info/top_level.txt

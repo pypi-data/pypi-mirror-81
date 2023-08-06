@@ -1,0 +1,15 @@
+cli.py,sha256=4epEkQlc8SggQHAX11K0zvAEJtLnh7IU3EW079MNip4,5636
+elastic_wikidata/__init__.py,sha256=yJLajkPs1iAcnKlWAVc5CQyRdjyrI4QZLq05Ld-NowA,54
+elastic_wikidata/__metadata__.py,sha256=VrXpHDu3erkzwl_WXrqINBm9xWkcyUy53IQOj042dOs,22
+elastic_wikidata/config.py,sha256=ikCUm7hIkyxQZcxg_OUXMR91beFQ1gVyuFpVY6uMBhQ,538
+elastic_wikidata/dump_to_es.py,sha256=FL_rxfwFiyPgKMuRMx3DV5-FffUk8MldLBiVrMjF7PY,6174
+elastic_wikidata/http.py,sha256=ybjIghsIqDQwQ3-Fux7OQikR9s0_tvvHT97T2-iinRg,2369
+elastic_wikidata/sparql_helpers.py,sha256=L3QL8e6tmlF5LtV45ZohreynPj2UqnZzsaj5oXgdh3E,1631
+elastic_wikidata/sparql_to_es.py,sha256=V5qKbq522rzQeMafr5VsMi7H0mYG-TxVVYBtzIaKOXg,1351
+elastic_wikidata/wd_entities.py,sha256=KdPZLXQJtmhx8x52vq5PXCKXtyDa6aw2Dq84MWl7i94,6437
+elastic_wikidata-0.3.6.dist-info/LICENSE.txt,sha256=_8SzpvzKipWulGxTfU_wjeJCAtdXgkn9IDqqSTuKYrc,1082
+elastic_wikidata-0.3.6.dist-info/METADATA,sha256=ET0-ARRlCBsU3lXjyzleZWkaYwiD4d6m61tyL6BjrZQ,6929
+elastic_wikidata-0.3.6.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+elastic_wikidata-0.3.6.dist-info/entry_points.txt,sha256=ofSZds5maaxsx8pnB4Q1g87_6zD99pqsb_3GDmFQW0U,43
+elastic_wikidata-0.3.6.dist-info/top_level.txt,sha256=FTcBnLKASWgg0pKd2hinz4FAXvSW-zA56mY6LZfRcSk,21
+elastic_wikidata-0.3.6.dist-info/RECORD,,

@@ -1,0 +1,7 @@
+README.md
+jsonstream.py
+setup.py
+jsonstream.egg-info/PKG-INFO
+jsonstream.egg-info/SOURCES.txt
+jsonstream.egg-info/dependency_links.txt
+jsonstream.egg-info/top_level.txt

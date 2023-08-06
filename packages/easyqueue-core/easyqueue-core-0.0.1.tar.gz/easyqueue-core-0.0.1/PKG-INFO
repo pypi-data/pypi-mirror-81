@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: easyqueue-core
+Version: 0.0.1
+Summary: Easy queue basic model
+Home-page: https://github.com/ebustosm6/easy-queue-core.git
+Author: Eduardo Bustos
+License: UNKNOWN
+Description: # Easy Queue Core Library
+        =============
+        
+Keywords: easy queue core
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown

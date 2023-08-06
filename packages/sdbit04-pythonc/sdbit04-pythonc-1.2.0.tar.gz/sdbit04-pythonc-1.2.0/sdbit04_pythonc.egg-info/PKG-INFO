@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: sdbit04-pythonc
+Version: 1.2.0
+Summary: this give a command pythonc to compile any python module
+Home-page: https://github.com/
+Author: swapankumarDas
+License: MIT
+Description: README.md
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown

@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+python/lazperf/PyLazperf.cpp
+python/lazperf/PyVlrCompressor.cpp
+python/lazperf/__init__.py
+python/lazperf.egg-info/PKG-INFO
+python/lazperf.egg-info/SOURCES.txt
+python/lazperf.egg-info/dependency_links.txt
+python/lazperf.egg-info/top_level.txt

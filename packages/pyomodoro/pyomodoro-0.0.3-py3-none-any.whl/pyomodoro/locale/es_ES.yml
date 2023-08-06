@@ -1,0 +1,36 @@
+es_ES:
+  pomodoro:
+    message:
+      one: '%{task} - Concéntrate en tu tarea durante %{length} minuto. Te enviaré un ping cuando sea el momento de un descanso.'
+      many: '%{task} - Concéntrate en tu tarea durante %{length} minutos. Te enviaré un ping cuando sea el momento de un descanso.'
+  end_break:
+    title: '¿Listo para continuar con el enfoque?'
+    message: '¿Terminaste con tu descanso y estás listo para continuar enfocando?'
+  take_break:
+    short:
+      title: 'Toma Un Breve Descanso'
+      message:
+        one: 'Tómate un breve descanso de %{short_break_length} minuto. Ponte de pie y estírate, mira por la ventana o bebe un poco de agua.'
+        many: 'Tómate un breve descanso de %{short_break_length} minutos. Ponte de pie y estírate, mira por la ventana o bebe un poco de agua.'
+    long:
+      title: 'Toma Un Descanso Largo'
+      message:
+        one: 'Tómate un largo descanso de %{long_break_length} minuto. ¡Te lo has ganado!'
+        many: 'Tómate un largo descanso de %{long_break_length} minutos. ¡Te lo has ganado!'
+  start:
+    ask_task_prompt: 'Mi tarea es'
+    task_default: 'Concentrado'
+  # help:
+  #   start:
+  #     short_help: 'Iniciar una sesión de Técnica Pomodoro'
+  #     options:
+  #       config_file: 'Ruta a un archivo de configuración de Pyomodoro'
+  #       pomodoro_length: 'La duración de su período de enfoque en minutos'
+  #       short_break_length: 'La duración de tus breves descansos en minutos'
+  #       long_break_length: 'La duración de tus descansos largos en minutos'
+  #       ask_task: 'Especifica tu tarea para esta sesión de enfoque'
+  #       dry_run: 'Imprime las opciones analizadas y sal'
+  error:
+    config_file:
+      scanner_error: 'procesamiento fallido %{config_file}'
+      not_found: '%{config_file} no encontrado'

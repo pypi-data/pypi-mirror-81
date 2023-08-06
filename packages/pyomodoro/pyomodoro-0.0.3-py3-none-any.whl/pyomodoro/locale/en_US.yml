@@ -1,0 +1,36 @@
+en_US:
+  pomodoro:
+    message:
+      one: "%{task} - Focus on your task for %{length} minute. I'll ping you when it's time for a break."
+      many: "%{task} - Focus on your task for %{length} minutes. I'll ping you when it's time for a break."
+  end_break:
+    title: 'Ready To Continue Focusing?'
+    message: 'Finished with your break and ready to continue focusing?'
+  take_break:
+    short:
+      title: 'Take A Short Break'
+      message:
+        one: 'Take a short break for %{short_break_length} minute. Stand up and stretch, look out a window, or get some water.'
+        many: 'Take a short break for %{short_break_length} minutes. Stand up and stretch, look out a window, or get some water.'
+    long:
+      title: 'Take A Long Break'
+      message:
+        one: "Take a long break for %{long_break_length} minute. You've earned it!"
+        many: "Take a long break for %{long_break_length} minutes. You've earned it!"
+  start:
+    ask_task_prompt: 'My task is to'
+    task_default: 'Focus'
+  # help:
+  #   start:
+  #     short_help: 'Start a Pomodoro Technique session'
+  #     options:
+  #       config_file: 'Path to a Pyomodoro config file'
+  #       pomodoro_length: 'The length of your focusing period in minutes'
+  #       short_break_length: 'The length of your short breaks in minutes'
+  #       long_break_length: 'The length of your long breaks in minutes'
+  #       ask_task: 'Specify your task for this focusing session'
+  #       dry_run: 'Print the parsed options and exit'
+  error:
+    config_file:
+      scanner_error: 'failed processing %{config_file}'
+      not_found: '%{config_file} not found'

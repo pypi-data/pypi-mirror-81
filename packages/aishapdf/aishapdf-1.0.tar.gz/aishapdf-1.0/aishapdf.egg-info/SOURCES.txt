@@ -1,0 +1,6 @@
+README.md
+setup.py
+aishapdf.egg-info/PKG-INFO
+aishapdf.egg-info/SOURCES.txt
+aishapdf.egg-info/dependency_links.txt
+aishapdf.egg-info/top_level.txt

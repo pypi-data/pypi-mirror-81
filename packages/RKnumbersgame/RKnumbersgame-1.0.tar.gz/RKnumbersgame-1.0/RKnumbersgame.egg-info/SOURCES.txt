@@ -1,0 +1,8 @@
+setup.py
+RKnumbersgame/RKnumbersgame.py
+RKnumbersgame/__init__.py
+RKnumbersgame.egg-info/PKG-INFO
+RKnumbersgame.egg-info/SOURCES.txt
+RKnumbersgame.egg-info/dependency_links.txt
+RKnumbersgame.egg-info/not-zip-safe
+RKnumbersgame.egg-info/top_level.txt

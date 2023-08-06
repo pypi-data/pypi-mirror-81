@@ -1,0 +1,9 @@
+README.md
+setup.py
+SimpleCovidAPI/__init__.py
+SimpleCovidAPI/sca.py
+SimpleCovidAPI.egg-info/PKG-INFO
+SimpleCovidAPI.egg-info/SOURCES.txt
+SimpleCovidAPI.egg-info/dependency_links.txt
+SimpleCovidAPI.egg-info/requires.txt
+SimpleCovidAPI.egg-info/top_level.txt

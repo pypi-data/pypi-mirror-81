@@ -1,0 +1,11 @@
+requests
+supertools
+boto3
+psutil
+selenium
+multiprocess
+pynput
+boto
+
+[:sys_platform == "win32"]
+pywin32

@@ -1,0 +1,17 @@
+policy_system/__init__.py,sha256=QAvxoXOntSWbS_uP3Xo8sGCx3q-ce6eIBZVKK9MrpLY,760
+polzy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+polzy/interface.py,sha256=wdNnbMhIu9dWOmgqXU_zenjl78nksTHpGW9ohLFO8mc,3738
+polzy/models.py,sha256=ZEKVK24ylxofxDZsOWwfSRhOIplilgWB8-G1yTd0nyY,8794
+polzybackend/__init__.py,sha256=TtPoUTfIeQL4bRkXbV_-zS_KHzHlgYwA_OMNk-HSaHU,897
+polzybackend/auth.py,sha256=Yfev6ijR5fcJ3s72aBxg0NxWowRw3jhVpELfhTx2QpE,428
+polzybackend/models.py,sha256=rq25tkbsMpVi2bWiBCYChpHyUx2t9k3VkWTGK9hsHz4,3796
+polzybackend/policy.py,sha256=0yluuYW4VKc-_Lgn0uOZqWAYwhoddLiBmrXhCJUOykg,3075
+polzybackend/populate_db.py,sha256=dMY07mbybuF4eCP-P2MsNnR5ZldKtWALKHHB4TwPJmw,1062
+polzybackend/utils.py,sha256=9zoR_1kG8bqEht6BqtNwZF8sP256FmJkXZv-YnSUehI,546
+polzybackend/main/__init__.py,sha256=oZdXhx1s9S28m5PLhOx4ckIJg5wYp2BX_8uuk36iHk8,83
+polzybackend/main/routes.py,sha256=JeJHFs1W6eOExh18b-tncXJxrqU-CX2Ca91RNL5rtsM,1344
+polzybackend-0.0.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+polzybackend-0.0.4.dist-info/METADATA,sha256=a4KygxmP5FkNBYzPcGi1qnUJrV670VQElYrw_CvwTwk,8159
+polzybackend-0.0.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+polzybackend-0.0.4.dist-info/top_level.txt,sha256=QSiUh1ve_eD1OCLyB9IJBpZD_QQRHeuw4BduOBWBaaU,33
+polzybackend-0.0.4.dist-info/RECORD,,

@@ -1,0 +1,7 @@
+README.md
+setup.py
+pysudoku/__init__.py
+spydoku.egg-info/PKG-INFO
+spydoku.egg-info/SOURCES.txt
+spydoku.egg-info/dependency_links.txt
+spydoku.egg-info/top_level.txt

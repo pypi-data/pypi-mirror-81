@@ -1,0 +1,3 @@
+[console_scripts]
+karafuru=karafuru.__main__:app
+

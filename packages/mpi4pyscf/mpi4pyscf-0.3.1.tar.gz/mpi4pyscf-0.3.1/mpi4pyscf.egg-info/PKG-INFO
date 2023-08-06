@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: mpi4pyscf
+Version: 0.3.1
+Summary: An MPI plugin for PySCF.
+Home-page: http://www.pyscf.org
+Author: Qiming Sun
+Author-email: osirpt.sun@gmail.com
+License: GPLv3
+Download-URL: https://github.com/pyscf/mpi4pyscf
+Description-Content-Type: UNKNOWN
+Description: mpi4pyscf is a plugin for PySCF which enables MPI (Message Passing Interface) parallelism.
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix

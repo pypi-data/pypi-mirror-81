@@ -1,0 +1,7 @@
+PyQt5!=5.14.1
+evalcache>=1.13.0
+numpy
+pillow
+psutil
+pyopengl
+pyservoce>=1.23.2

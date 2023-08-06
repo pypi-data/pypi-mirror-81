@@ -1,0 +1,11 @@
+setuptools
+click
+pocket-api
+dash
+dash-renderer
+dash-html-components
+dash-core-components
+plotly
+nltk
+tldextract
+pandas

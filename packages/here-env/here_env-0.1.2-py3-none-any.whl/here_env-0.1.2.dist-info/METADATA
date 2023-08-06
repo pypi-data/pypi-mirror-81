@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: here-env
+Version: 0.1.2
+Summary: Small helper to create and active virtuel environments.
+License: MIT
+Author: Simon Westphahl
+Author-email: simon@westphahl.net
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Description-Content-Type: text/markdown
+
+# here-env
+
+Small helper to create and active virtuel environments.
+
+## Usage
+
+```sh
+eval $(here-env)
+```
+
+This will create a venv in `$PWD/.venv` or in `$GIT_ROOT/.venv` (if currently
+in a Git repository) and activate it.
+
+You can also create a simple `here` shell alias:
+
+```sh
+alias here='eval $(here-env)'
+```
+

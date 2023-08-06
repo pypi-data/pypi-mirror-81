@@ -1,0 +1,17 @@
+fba/__init__.py,sha256=3VHplJOcchvv30Mv9my8n7aB79Ncc3ZdSbTN_HFI2-E,40
+fba/__main__.py,sha256=5dmOI8mx-BUrYTmbAl88PKSxKz9H1jycuvZDrGHSOoM,10067
+fba/count.py,sha256=xDt_WkjmoNXY5K24ku0smmeKTrdf8NoZ_RPrpaYK0Os,4956
+fba/demultiplex.py,sha256=XOQnS09WHTHXOrn3-aMLUXEa_T6g_N9hdpSYs9sAZJA,15750
+fba/filter.py,sha256=wOQZAyhAcUtbcqTLpNO5YP0O7EPZhcQSrKaCG7iZNwI,7634
+fba/kallisto.py,sha256=7fkx1909hOtMIbq4ii6MP6vOeQSFLuCocBvs8xG4orc,10761
+fba/levenshtein.py,sha256=WLbN0o0QAgGdW-wD5OAUQ_O6zAv4QNqSLqEJO8QsvGY,12960
+fba/map.py,sha256=gsmi2PQcnbzriRAHXE048no06gzxuv21RjgEj77mTHs,16666
+fba/parsers.py,sha256=2Fspxh2bV3kJFKdDyWEnTGDWhLJ-HYb07Oo0Io_-rxU,20863
+fba/qc.py,sha256=8MoQpXU4KcXHnE7VqKLJQjb_7O1iFw28O7URCUmD6Ns,17534
+fba/regex.py,sha256=64dpIK6jVOrLYBslcDntTUR7UBtje-gQBfoucUM5IEQ,14643
+fba/utils.py,sha256=xLYn3IMKEq5nQ0Ok57d_Uh0cTP85_S5BHKUCer6d_78,3694
+fba-0.0.5.dev0.dist-info/METADATA,sha256=Ho1jYttykJCmTYZZ4DKQFFcKHK8tdC-806Q0SIkQD-Y,1531
+fba-0.0.5.dev0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+fba-0.0.5.dev0.dist-info/entry_points.txt,sha256=WYobNC02je84t4bc5Gn-k5DUdukXcmM-IS7uoB3uoOo,43
+fba-0.0.5.dev0.dist-info/top_level.txt,sha256=kKccEF1HzqsfIxFojiI1YKtCv7dl9Zy5Pdf7rOXGja0,4
+fba-0.0.5.dev0.dist-info/RECORD,,

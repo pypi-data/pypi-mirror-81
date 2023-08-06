@@ -1,0 +1,10 @@
+yaz_messaging_plugin/__init__.py,sha256=Ca1fYB9tCJIU2Xy8QT_RGyivgo-D5xDaou0MMQrHxv0,32
+yaz_messaging_plugin/loader.py,sha256=zmJqEF2bQY-wYh-6ZBQYz69lJD99EqFDBDbsK4p50ng,2147
+yaz_messaging_plugin/log.py,sha256=Vc78qxLXTIxqYZa4WeIclg6dtfCwIRvujo-LjtPs9uc,604
+yaz_messaging_plugin/messaging.py,sha256=KwL6Udzt3XURukn_-wrB_4O7F2_7RBGLhYbrwQx4chw,14696
+yaz_messaging_plugin/version.py,sha256=UuWoYdcGW6EBwZLbQ06fwqCmeKWGbqUuwaWjj5yGPdk,48
+yaz_messaging_plugin-1.1.2.data/scripts/yaz-messaging,sha256=kxocO20Add8cIw5WIOHzPbNs9fo3dpa6iC7UGdx_zJs,129
+yaz_messaging_plugin-1.1.2.dist-info/METADATA,sha256=tAvdgXjAA1woOoRh9F9GjOl9ly0hQHJrtsxrfD5erYw,569
+yaz_messaging_plugin-1.1.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+yaz_messaging_plugin-1.1.2.dist-info/top_level.txt,sha256=xokzwA7gnLcdnumO3MQX2-Fcvi3sPV2c9Pr6QzGnNjc,21
+yaz_messaging_plugin-1.1.2.dist-info/RECORD,,

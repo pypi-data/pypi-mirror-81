@@ -1,0 +1,12 @@
+bigstream/__init__.py,sha256=r12KIYWPQoCMm8wXASt3vML9arOwcdvUoF8T9BBHBUE,5
+bigstream/affine.py,sha256=s72wNbOqSytUjkyZL4i2uFM0wL2Q3J0fbrzvRqqNZXg,3398
+bigstream/apply_transform.py,sha256=z6FOLPZ_5s4kjs1WMbcYtG2w9Cvjqs1sn4iTX_suN28,616
+bigstream/cv2_ransac.py,sha256=aIc1NikO1WnFg-OWU-uexKr5Jo_U3b8cqY6agkhXa1A,1599
+bigstream/deform.py,sha256=KavOSUXYzRcI-TZAgpGF60Q-jt6XW3LCc4Hd9IlD4YI,1952
+bigstream/distributed.py,sha256=MC-KHxy106cMsCEjpT3ljmj91qKc9sV4ZRfpa_9y7jk,2905
+bigstream/dog_spots.py,sha256=7JfWESV4R6ym2Y62kjoaqE2iNDeEutPV16T-Trz-Yrs,2954
+bigstream-0.0.2.dist-info/LICENSE.txt,sha256=gLSiHgmSxpmpOOS2MALG_gXpmHEln9RHWEYR93-sAb4,1083
+bigstream-0.0.2.dist-info/METADATA,sha256=nEaVuSIlkapNGFUTe5-ozgBR3AKgSzaSJ91rL6zwxeQ,495
+bigstream-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+bigstream-0.0.2.dist-info/top_level.txt,sha256=YCK58GN8Mac8eGocyQJiQA5zz5rQ-sXU2zYpK5o9kNU,10
+bigstream-0.0.2.dist-info/RECORD,,

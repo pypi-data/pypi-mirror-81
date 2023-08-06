@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: convenient-ai
+Version: 0.1.0
+Summary: 
+Author: leftshift one
+Author-email: devs@leftshift.one
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: spacy (==2.2.3)

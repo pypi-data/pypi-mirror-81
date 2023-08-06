@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: grapl-graph-descriptions
+Version: 1.0.5
+Summary: Grapl protobuf definitions
+Home-page: https://github.com/grapl-security/grapl
+Author: Grapl, Inc.
+Author-email: grapl.code@graplsecurity.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: protobuf
+Requires-Dist: wheel
+
+UNKNOWN
+
+

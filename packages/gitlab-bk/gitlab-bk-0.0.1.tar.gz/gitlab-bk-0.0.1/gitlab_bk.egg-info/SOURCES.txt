@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+assets/gitlab_pac_page.jpg
+assets/gitlab_sanction_header.jpg
+assets/gitlab_usage_example.png
+cli/__init__.py
+cli/cli.py
+cli/constants.py
+gitlab_bk.egg-info/PKG-INFO
+gitlab_bk.egg-info/SOURCES.txt
+gitlab_bk.egg-info/dependency_links.txt
+gitlab_bk.egg-info/entry_points.txt
+gitlab_bk.egg-info/requires.txt
+gitlab_bk.egg-info/top_level.txt

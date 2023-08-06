@@ -1,0 +1,12 @@
+README.md
+setup.py
+p1_data_client_python/client.py
+p1_data_client_python/exceptions.py
+p1_data_client_python.egg-info/PKG-INFO
+p1_data_client_python.egg-info/SOURCES.txt
+p1_data_client_python.egg-info/dependency_links.txt
+p1_data_client_python.egg-info/requires.txt
+p1_data_client_python.egg-info/top_level.txt
+test/test_client.py
+test/test_client_jupyter.py
+test/test_client_mock.py

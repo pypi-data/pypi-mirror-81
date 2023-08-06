@@ -1,0 +1,14 @@
+jaustin/__init__.py,sha256=8gEV9W8QrEt7bDJ3vJVX2VUGHL4WmBAUfxEPCvKyW2U,124
+jaustin/color.py,sha256=1iAOJFJ6xGZn2CDhKmtVlb-hjBvLPjZNfsKOifnOoXQ,642
+jaustin/core.py,sha256=1aKhJ6TF8JowNWCNfx5urR6Dp8aJJXfj0vD9GL9mSRw,4036
+jaustin/jax.py,sha256=LFPRnMEJcokwgVsb95nO3YMu_omRj6SFv95XvROVEdg,362
+jaustin/timers.py,sha256=g8STzkpGkF1JuqUjxpe375DPXnzxDB7OQOVdHZ-wfZc,3871
+jaustin/torch.py,sha256=W9wzgCpJogGNkjAkcW0YKuAtsnjTlcfbQsGclM0zfI4,109
+jaustin/cache/__init__.py,sha256=XcNGDjkR21U7LhdaguDqdx6KzORXNVvsn7S1j9PxKHQ,53
+jaustin/cache/methodcache.py,sha256=kzcFAxS7CsbsQtcU50B69CtHPTzU3iu8BQsHtdQYd9Y,774
+jaustin/cache/picklecache.py,sha256=ZdgSTZUw2kmKFfSK2Nl29OMLLcDvlpXhRd6DEP2tO8w,2616
+jaustin-0.0.8.dist-info/LICENSE,sha256=hGOUGlc-knhS1rUf28b8jaYeoEUKlA_OVL7aw5fhq7c,1056
+jaustin-0.0.8.dist-info/METADATA,sha256=IBMtHyHeE6v-Yh1tfLY2EnYAPQBHrdW7z2VZfY_yLWM,958
+jaustin-0.0.8.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+jaustin-0.0.8.dist-info/top_level.txt,sha256=JuXOgsmseGu7GZqqasnEcKNebl6Pr5vgF9MAUeB5UCw,8
+jaustin-0.0.8.dist-info/RECORD,,

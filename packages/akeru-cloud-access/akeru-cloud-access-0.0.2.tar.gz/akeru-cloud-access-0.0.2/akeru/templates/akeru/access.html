@@ -1,0 +1,43 @@
+{% extends "akeru/base.html" %}
+{% load static %}
+
+{% block title %}Access{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row mt-4 justify-content-center">
+        <div class="col col-sm-auto">
+            <h1>Cloud Access Roles</h1>
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col col-12">
+            <table class="table table-striped">
+                <tr>
+                    <th>Access Name</th>
+                    <th>Access Type</th>
+                    <th>MFA</th>
+                    <th></th>
+                </tr>
+                {% for role in object_list %}
+                <tr>
+                    <td>{{role.role.name}}</td>
+                    <td>{% if role.role.user %}User{% else %}Role{% endif %}</td>
+                    {% if role.role.mfa %}
+                    <td><input type="text" /></td>
+                    {% else %}
+                    <td>MFA not required</td>
+                    {% endif %}
+                    {% if role.role.user %}
+                    <td><a class="btn btn-info" target="_blank" href="{% url 'console-view' 'user' role.role.name %}">Login >></a></td>
+                    {% else %}
+                    <td><a class="btn btn-info" target="_blank"  href="{% url 'console-view' 'role' role.role.name %}">Login >></a></td>
+                    {% endif %}
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

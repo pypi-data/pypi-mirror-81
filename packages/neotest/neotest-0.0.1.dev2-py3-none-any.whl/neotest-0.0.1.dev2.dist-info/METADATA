@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: neotest
+Version: 0.0.1.dev2
+Summary: Test Automation Framework
+Home-page: https://neotest.io
+Author: NeoTest
+Author-email: neotest@neotest.io
+License: MIT
+Project-URL: Bug Tracker, https://github.com/neotest-io/neotest/issues
+Project-URL: Source Code, https://github.com/neotest-io/neotest
+Project-URL: Documentation, https://github.com/neotest-io/neotest
+Keywords: neotest,test,automation
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Natural Language :: English
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing
+Description-Content-Type: text/markdown
+Requires-Dist: pbr
+Requires-Dist: scapy (==2.4.4)
+
+# NeoTest
+Test Automation Framework
+
+[![Build Status](https://travis-ci.com/neotest-io/neotest.svg?branch=master)](https://travis-ci.com/neotest-io/neotest)
+
+
+

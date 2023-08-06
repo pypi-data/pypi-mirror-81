@@ -1,0 +1,13 @@
+.build.yml
+LICENSE
+README.md
+setup.py
+libkosciuszko.egg-info/PKG-INFO
+libkosciuszko.egg-info/SOURCES.txt
+libkosciuszko.egg-info/dependency_links.txt
+libkosciuszko.egg-info/top_level.txt
+src/__init__.py
+test/addfile.py
+test/example.gpg
+test/list.py
+test/new.py

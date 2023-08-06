@@ -1,0 +1,9 @@
+sndslib/__init__.py,sha256=Bb4XkLEKUL26yw4nRkLkiZ7pCwoY1xXFlfBy2dXr8eU,46
+sndslib/__main__.py,sha256=Qu-lsZza8D9XZkn-NCBAQP8Ie7rg-uT7PaMa2ULvhNQ,71
+sndslib/__version__.py,sha256=zGU39ZwaRkNKxWLnAB7Zte9ZtfyfMEsBJp-bHUfQTyA,23
+sndslib/cli.py,sha256=rb_b1MTOozhUOh3i7JuOuqor1k8zoLZBiEU52lx3BvQ,3686
+sndslib/sndslib.py,sha256=npdi5h8kwlwwnEXi1-mX9ywftYI2sXuVrz9eFmuuxQg,7389
+sndslib-0.1.1.dist-info/entry_points.txt,sha256=EIngB7L005w2enjkpZkoU7IvBTO2Ahv9vlhddswb1Wg,41
+sndslib-0.1.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+sndslib-0.1.1.dist-info/METADATA,sha256=SrhS0izCLoAHDO2F-YmduikFTd-BmiGAWSor3Q8vdt8,2936
+sndslib-0.1.1.dist-info/RECORD,,

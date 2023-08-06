@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: appchance
+Version: 0.1.16
+Summary: Appchance's toolbelt for wizards and ninjas. May be useful using in dungeons.
+Home-page: https://bitbucket.org/appchance/pychance/
+Author: Appchance Backend Special Forces
+Author-email: backend@appchance.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Django :: 3.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: doit
+
+# Appchance :: Backend Special Forces
+
+Hacks and project automation. Toolbelt for wizards and ninjas.
+
+#
+## Installation
+Install package with pip
+
+    pip install appchance
+
+#
+## Subpackages
+Tools includes
+
+- `dodos` = project (docker & django) automation based on doit python package
+- `pickup` = module for cart delivery pickup points clients
+- `shop` = common models, serializers etc for django mcommerce
+
+#
+## Dodos
+
+### Django integration
+
+1. Add to your project file `dodos.py`.
+    ```python
+    #! /usr/bin/env python3
+
+    import sys
+    import importlib
+    from doit.doit_cmd import DoitMain
+    from doit.cmd_base import ModuleTaskLoader
+
+    if __name__ == "__main__":
+        sys.exit(
+            DoitMain(
+                ModuleTaskLoader(
+                    importlib.import_module(f'appchance.dodos.tasks.django'))
+            ).run(sys.argv[1:]))
+    ```
+
+2. Optionally create an alias for your new command.
+    ```bash
+    $ echo alias d="./dodos.py" >> ~/.bash_aliases
+    ```
+
+### Using dodos
+List available commands
+
+    $ ./dodos.py list
+
+Or (if alias created):
+
+    $ d list
+
+
+#
+## Roadmap
+Roadmap for future releases
+
+* `0.2.0` = Sentry integrations
+* `0.3.0` = ELK integrations
+#
+
+

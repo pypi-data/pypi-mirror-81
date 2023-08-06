@@ -1,0 +1,12 @@
+dicomsdl/util.py,sha256=snU_PwLneFchn8wVToq86YhOyefHTX459pnlQcQBn7g,126
+dicomsdl/dump.py,sha256=UmMQnILHcDiPSRXoYZAxD2X_1aRpv8OdONPsbvtX03Q,574
+dicomsdl/_dicomsdl.cpython-37m-x86_64-linux-gnu.so,sha256=nvdSrSMzzqU3t6LgdJ3MYfvJRPvmJ_2TTifotSE544Y,3254808
+dicomsdl/show.py,sha256=EcWlWhkpV3U2YFmQoQ6awtoUDLFotpJBnWLuvwo8whA,458
+dicomsdl/_util.cpython-37m-x86_64-linux-gnu.so,sha256=VUliucc1GWcQXvsEdSRBMymLzVNryZkqxp13iidL_6U,167696
+dicomsdl/__init__.py,sha256=K1ac9PrUu_TB5d1y5f2wwqQKrHA5gAq8FpYS0brlzt8,4913
+dicomsdl-0.107.1.dist-info/WHEEL,sha256=fgEDqTvJ7t6Dks7wJIP8MuGNJfT7rZstMDs3LUSwCl8,112
+dicomsdl-0.107.1.dist-info/METADATA,sha256=M5dAWQ9dIbDQgZyd_lk15Df03aTaPxLCbEVefaOiEm8,5156
+dicomsdl-0.107.1.dist-info/RECORD,,
+dicomsdl-0.107.1.dist-info/entry_points.txt,sha256=PSvjseq-iSUdrdl5CWdnqE6mIWbxhCJUx7LMKzxAKs4,81
+dicomsdl-0.107.1.dist-info/top_level.txt,sha256=5Aec8NM9UXIX27-GGPVCrS2mRpl8hgAHFaDkO_MiMWw,9
+dicomsdl-0.107.1.dist-info/LICENSE,sha256=B1q0TXVUOR2hJ8MMXlePRhDrNElEpn-EF6T2jFKyXU0,9800

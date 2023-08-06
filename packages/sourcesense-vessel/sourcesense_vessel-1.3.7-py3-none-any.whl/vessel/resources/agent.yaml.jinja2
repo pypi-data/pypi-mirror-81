@@ -1,0 +1,55 @@
+apiVersion: v1
+kind: List
+metadata:
+  resourceVersion: ""
+  selfLink: ""
+items:
+- apiVersion: v1
+  kind: Secret
+  metadata:
+    name: {{ name  }}-secrets
+  type: Opaque
+  stringData:
+    PRIVATE_KEY: "{{ rsa }}"
+- apiVersion: apps/v1
+  kind: Deployment
+  metadata:
+    name: {{ name }}-agent
+  spec:
+    selector:
+      matchLabels:
+        app: {{ name }}-agent
+    replicas: 1
+    template:
+      metadata:
+        labels:
+          app: {{ name }}-agent
+      spec:
+        containers:
+        - name: {{ name }}-agent
+          image: docker-registry.oc.corp.sourcesense.com/daas/workstation-agent:{{ tag }}
+          env:
+          - name: CLUSTER_TOKEN
+            value: {{ token }}
+          - name: VAULT_HOST
+            valueFrom:
+              secretKeyRef:
+                name: vault-secret
+                key: HOST
+          - name: VAULT_USER
+            valueFrom:
+              secretKeyRef:
+                name: vault-secret
+                key: USER
+          - name: VAULT_PWD
+            valueFrom:
+              secretKeyRef:
+                name: vault-secret
+                key: PWD
+          - name: PRIVATE_KEY
+            valueFrom:
+              secretKeyRef:
+                name: {{ name }}-secrets
+                key: PRIVATE_KEY
+        imagePullSecrets:
+        - name: sourcesense-registry

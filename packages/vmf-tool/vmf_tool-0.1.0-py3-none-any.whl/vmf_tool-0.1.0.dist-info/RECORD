@@ -1,0 +1,11 @@
+tests/__init__.py,sha256=O8dEYIv8xg4Ugqwj98v5eg8zt1a73raCRvWUTbTzILc,859
+vmf_tool/__init__.py,sha256=zFq2ogZmn6me-KT4RT5tXXN24m0Isxi6rUyxIm_aIIA,166
+vmf_tool/brushes.py,sha256=4PaIheBFhi2zCL5AR-Zjiaewx9yzlakiY-Z0bSNeogE,6965
+vmf_tool/parser.py,sha256=5wA7MRg2JVm2QYWuBTbdmC-_vSZCXidlLU4WeD39q0g,8968
+vmf_tool/vector.py,sha256=t1yMEHS60Yd0lWsXIJcr8OZgeiANzF_Zzi-Gaa8MRlU,9036
+vmf_tool/vmf.py,sha256=XXvB0riiKi-EzcYtIx0VY9rU4qe1iLDL1LarytCuBsQ,3431
+vmf_tool-0.1.0.dist-info/LICENSE,sha256=zlwa8a4YFVkiEtaBNVFbbKR3Xet6ne17i917mzoQlHo,1091
+vmf_tool-0.1.0.dist-info/METADATA,sha256=bAELi18B5KNvcjpyvF2Sf5LsCg-cfwe0OqJtGimvd-k,1423
+vmf_tool-0.1.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+vmf_tool-0.1.0.dist-info/top_level.txt,sha256=Ta-lqsyXYkrgGjb3dCnbfea2WBCO_fjgkmwVL3PA-wE,9
+vmf_tool-0.1.0.dist-info/RECORD,,

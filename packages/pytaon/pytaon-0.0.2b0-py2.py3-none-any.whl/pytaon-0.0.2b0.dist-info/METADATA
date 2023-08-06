@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: pytaon
+Version: 0.0.2b0
+Summary: Physics module for the Pyxel engine.
+Home-page: https://github.com/fisjogos-fga/pytaon
+License: UNKNOWN
+Author: Fábio Macêdo Mendes
+Author-email: fabiomacedomendes@gmail.com
+Description-Content-Type: text/x-rst
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: pyxel >= 1.4.0
+
+======
+PyTaOn
+======
+
+Motor de jogos simples que utiliza física baseado em Pyxel.
+
+Instalação
+==========
+
+Clone este repositório e utilize ``flit install -s`` para instalar localmente.
+Em breve teremos suporte para ``pip install pytaon`` ;-).
+
+
+Tutorial
+========
+
+Criamos uma simulação simples de duas caixas sujeitas à lei da gravidade.
+
+.. code-block:: python
+
+    import pytaon as on
+    import pyxel
+    
+    WIDTH = 120
+    HEIGHT = 80
+    
+Criamos os objetos de jogo, junto ao espaço correspondente
+
+.. code-block:: python
+
+    sp = on.Space()
+    bola = sp.add_circle(5, (120, 90), color=pyxel.COLOR_RED)
+    chao = sp.add_aabb(0, 160, 240, 180, color=pyxel.COLOR_LIME, mass="inf")
+    bola.gravity = (0, 20)
+
+Iniciamos a simulação passando as funções update e draw para o pyxel.
+
+
+.. code-block:: python
+    
+    def update():
+        sp.update(1/30)
+    
+    def draw():
+        pyxel.cls(pyxel.COLOR_BLACK)
+        sp.draw()
+
+    pyxel.init(240, 180, fps=30)
+    pyxel.run(update, draw)
+

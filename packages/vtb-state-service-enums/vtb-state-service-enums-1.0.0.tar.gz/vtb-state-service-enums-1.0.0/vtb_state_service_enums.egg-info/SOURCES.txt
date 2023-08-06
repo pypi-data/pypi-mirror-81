@@ -1,0 +1,8 @@
+README.md
+setup.py
+state_service_enums/__init__.py
+state_service_enums/enums.py
+vtb_state_service_enums.egg-info/PKG-INFO
+vtb_state_service_enums.egg-info/SOURCES.txt
+vtb_state_service_enums.egg-info/dependency_links.txt
+vtb_state_service_enums.egg-info/top_level.txt

@@ -1,0 +1,9 @@
+README.md
+setup.py
+onnsc/__init__.py
+onnsc/sc.py
+onnsc.egg-info/PKG-INFO
+onnsc.egg-info/SOURCES.txt
+onnsc.egg-info/dependency_links.txt
+onnsc.egg-info/requires.txt
+onnsc.egg-info/top_level.txt

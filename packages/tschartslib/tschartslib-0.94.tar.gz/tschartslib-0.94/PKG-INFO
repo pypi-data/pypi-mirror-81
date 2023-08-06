@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: tschartslib
+Version: 0.94
+Summary: Python API for calling tscharts REST API
+Home-page: https://github.com/slogan621/tscharts
+Author: Syd Logan
+Author-email: slogan621@gmail.com
+License: apache-2.0
+Description: UNKNOWN
+Keywords: RESTful,Medical,API
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9

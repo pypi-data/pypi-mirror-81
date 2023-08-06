@@ -1,0 +1,50 @@
+{
+"name": "Thousand Smiles Ensenada",
+"categories": [
+                "New Cleft", 
+                "Dental", 
+                "Returning Cleft", 
+                "Ortho",
+                "Other"
+             ],
+"stations": [
+              {"name": "Dental", "level": 1,
+               "stations": [
+                   {"name": "Dental1", "name_es": "Dental1"},
+                   {"name": "Dental2", "name_es": "Dental2"},
+                   {"name": "Dental3", "name_es": "Dental3"},
+                   {"name": "Dental4", "name_es": "Dental4"}
+               ]
+              },
+              {"name": "X-Ray", "level": 2,
+               "stations": [
+                   {"name": "X-Ray1", "name_es": "Rayos-X1"},
+                   {"name": "X-Ray2", "name_es": "Rayos-X2"}
+               ]
+              },
+              {"name": "Ortho", "level": 1,
+               "stations": [
+                   {"name": "Ortho-1", "name_es": "Orto-1"},
+                   {"name": "Ortho-2", "name_es": "Orto-2"}
+               ]
+              },
+              {"name": "ENT", "level": 2,
+               "stations": [
+                   {"name": "ENT1", "name_es": "Otorrino1"},
+                   {"name": "ENT2", "name_es": "Otorrino2"}
+               ]
+              },
+              {"name": "Audiology", "level": 1,
+               "stations": [
+                   {"name": "Audiology1", "name_es": "Audiología1"},
+                   {"name": "Audiology2", "name_es": "Audiología2"}
+               ]
+              },
+              {"name": "Surgery Screening", "level": 1,
+               "stations": [
+                   {"name": "Surgery Screening 1", "name_es": "Cirugía 1"},
+                   {"name": "Surgery Screening 2", "name_es": "Cirugía 2"}
+               ]
+              }
+            ]
+}

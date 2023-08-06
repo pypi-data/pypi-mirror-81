@@ -1,0 +1,5 @@
+jax
+jaxlib
+
+[losses_utils]
+dm-haiku

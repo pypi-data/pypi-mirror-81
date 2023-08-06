@@ -1,0 +1,9 @@
+README.md
+setup.py
+SungrowModbusTcpClient/SungrowModbusTcpClient.py
+SungrowModbusTcpClient/__init__.py
+SungrowModbusTcpClient.egg-info/PKG-INFO
+SungrowModbusTcpClient.egg-info/SOURCES.txt
+SungrowModbusTcpClient.egg-info/dependency_links.txt
+SungrowModbusTcpClient.egg-info/requires.txt
+SungrowModbusTcpClient.egg-info/top_level.txt

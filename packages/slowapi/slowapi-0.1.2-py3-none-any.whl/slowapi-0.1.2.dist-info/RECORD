@@ -1,0 +1,11 @@
+slowapi/__init__.py,sha256=f0LcInYIqa9P2W2tgbr1ZwW5ulNKV1TnUGYsvO12qoQ,61
+slowapi/errors.py,sha256=CjR7Tm3m57mY91oLq89INB3l5qaP_0zhNnW-EajEs58,657
+slowapi/extension.py,sha256=N939RjmliTqYgqh1xctxAO69YtS6tDQGq0MbtdXGWq0,29340
+slowapi/middleware.py,sha256=oI4qe6pDLu2J-C1hWO1GbZkGGbbvK9hM6Yokq9oHvRA,2175
+slowapi/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slowapi/util.py,sha256=aHzLf0YRR2DgHdsCCzAD3LunNLfjQI3sEeQ8LnW-5zI,821
+slowapi/wrappers.py,sha256=E1KVgcXViFUfTssLKB4OpDPT6fBaDNz86rDhNM2d7VE,3024
+slowapi-0.1.2.dist-info/LICENSE,sha256=Ke76KG_zAHw5wAQKFav9HcpiEavOs49I9dE4BXRns04,1072
+slowapi-0.1.2.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+slowapi-0.1.2.dist-info/METADATA,sha256=6hJF2vIwXUV7cK8KMYpXrieHm4tvkcoNhLegvQFpNGc,2775
+slowapi-0.1.2.dist-info/RECORD,,

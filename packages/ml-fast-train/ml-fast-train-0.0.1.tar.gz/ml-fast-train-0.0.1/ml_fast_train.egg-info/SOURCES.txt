@@ -1,0 +1,8 @@
+README.md
+setup.py
+MLFastTrain/MLFastTrain.py
+MLFastTrain/__init__.py
+ml_fast_train.egg-info/PKG-INFO
+ml_fast_train.egg-info/SOURCES.txt
+ml_fast_train.egg-info/dependency_links.txt
+ml_fast_train.egg-info/top_level.txt

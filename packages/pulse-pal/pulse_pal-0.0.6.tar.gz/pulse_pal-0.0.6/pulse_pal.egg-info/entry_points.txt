@@ -1,0 +1,3 @@
+[console_scripts]
+pulse_pal = pulse_pal.cli:main
+

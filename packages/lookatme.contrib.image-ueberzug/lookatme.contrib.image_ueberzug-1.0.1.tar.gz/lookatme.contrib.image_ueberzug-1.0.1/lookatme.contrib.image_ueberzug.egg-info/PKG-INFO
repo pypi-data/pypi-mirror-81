@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: lookatme.contrib.image-ueberzug
+Version: 1.0.1
+Summary: An image renderer that uses ueberzug
+Home-page: https://github.com/d0c-s4vage/lookatme.contrib.image_ueberzug
+Author: James Johnson
+Author-email: d0c.s4vage@gmail.com
+License: UNKNOWN
+Description: # lookatme.contrib.image_ueberzug
+        
+        This is a [lookatme](https://github.com/d0c-s4vage/lookatme) extension that
+        uses [ueberzug](https://github.com/seebye/ueberzug) and
+        [urwid-ueberzogen](https://github.com/seebye/urwid-ueberzogen/tree/master/urwid_ueberzogen)
+        to provide image rendering support. This works on linux only (or wherever
+        ueberzug functions).
+        
+        
+        After successfully installing, you should see something like this:
+        
+        ![example](example/running.gif)
+        
+        ## Installation
+        
+        ```bash
+        pip install lookatme.contrib.image_ueberzug
+        ```
+        
+        ## Usage
+        
+        Use images! For now, only local images are supported. Remote image support
+        will be added later.
+        
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Multimedia :: Graphics :: Presentation
+Classifier: Topic :: Software Development :: Documentation
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

@@ -1,0 +1,9 @@
+msgpack<=1.0.0,>=0.5.6
+
+[fuse]
+
+[fuse:python_version < "3.9"]
+llfuse<1.3.7,>=1.3.4
+
+[fuse:python_version >= "3.9"]
+llfuse<2.0,>=1.3.7

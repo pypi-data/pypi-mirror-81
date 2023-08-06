@@ -1,0 +1,3 @@
+[console_scripts]
+pgdont = pgdont:cli
+

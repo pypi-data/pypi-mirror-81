@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: pgDont
+Version: 0.0.1
+Summary: Linter for Postgres schema
+Home-page: https://gitlab.com/amden/pgdont
+Author: amden
+Author-email: me+pypi@amden.xyz
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Quality Assurance
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: click (>=7.1.2)
+Requires-Dist: psycopg2-binary (>=2.8.6)
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-pep8 ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+Requires-Dist: pytest-flake8 ; extra == 'tests'
+Requires-Dist: pytest-isort ; extra == 'tests'
+Requires-Dist: testing.postgresql ; extra == 'tests'
+
+# PgDont
+
+PgDont help to quickly check a database against the ["Don't Do This"](https://wiki.postgresql.org/wiki/Don't_Do_This). It's more of an audit tool than a linter, but it alse can be use this way.
+
+
+## Usage
+
+```shell
+pgdont --dsn "host=localhost dbname=mydb user=john password=pass"
+```
+
+## Implemented rules
+
+PgDont will check for the followings bad practices :
+
+
+- [x] Upper case table name
+- [x] Upper case column name
+- [x] Use of 'SQL_ASCII' encoding
+- [x] Use of Postgres Rules
+- [x] Use of inherited tables
+
+...
+
+
+## Todo
+
+- [ ] Implement missing rules
+- [ ] Add config file 
+- [ ] Manage multi-schema
+- [ ] Cleaner output summary
+
+

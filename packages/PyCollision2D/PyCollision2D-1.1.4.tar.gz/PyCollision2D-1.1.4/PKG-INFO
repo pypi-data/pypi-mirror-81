@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: PyCollision2D
+Version: 1.1.4
+Summary: A simple 2D collision detection and resolution package
+Home-page: https://github.com/Erdioner/PyCollision2D/
+Author: Erdioner
+Author-email: casper.petersson@gmail.com
+License: MIT
+Download-URL: https://github.com/Erdioner/PyCollision2D/archive/1.1.4.tar.gz
+Description: UNKNOWN
+Keywords: 2D,2d,collision,detection,resolution
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6

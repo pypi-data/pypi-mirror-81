@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: googlesxtractor
+Version: 0.0.1
+Summary: google sheets data extractor
+Home-page: https://github.com/prasannareddy2999
+Author: Lakshmi Prasanna Reddy
+Author-email: Prasannareddy3555@gmail.com
+License: MIT
+Description: Extracts data from google spreadsheets
+        Get the google spreadsheet id and name of the worksheet.
+        With google spreadsheet id, read google sheet from drive and read data into csv.
+        Select required columns from csv using DataFrames and plot it using matplotlib.
+        
+Keywords: data extractor
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

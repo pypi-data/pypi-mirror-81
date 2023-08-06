@@ -1,0 +1,8 @@
+MANIFEST.in
+README.txt
+setup.py
+googlesxtractor/__init__.py
+googlesxtractor.egg-info/PKG-INFO
+googlesxtractor.egg-info/SOURCES.txt
+googlesxtractor.egg-info/dependency_links.txt
+googlesxtractor.egg-info/top_level.txt

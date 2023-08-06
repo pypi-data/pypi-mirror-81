@@ -1,0 +1,4 @@
+rich>=8.0.0
+pycrypto>=2.6.1
+click>=7.1.2
+click-option-group>=0.5.1

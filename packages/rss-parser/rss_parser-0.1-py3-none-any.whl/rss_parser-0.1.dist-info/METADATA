@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: rss-parser
+Version: 0.1
+Summary: Pythonic rss parser
+Home-page: https://github.com/dhvcc/rss-parser
+Author: Alexey Artishevskiy (dhvcc)
+Author-email: 1337kwiz@gmail.com
+License: MIT
+Project-URL: Homepage, https://dhvcc.github.io/rss-parser
+Project-URL: Source, https://github.com/dhvcc/rss-parser
+Project-URL: Tracker, https://github.com/dhvcc/rss-parser/issues
+Keywords: python,cli,rss,parser
+Platform: UNKNOWN
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Rss parser
+
+Simple rss parser built with `BeautifulSoup` and `pydantic`
+
+

@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+libpythongian/__init__.py
+libpythongian/github_api.py
+libpythongian.egg-info/PKG-INFO
+libpythongian.egg-info/SOURCES.txt
+libpythongian.egg-info/dependency_links.txt
+libpythongian.egg-info/not-zip-safe
+libpythongian.egg-info/requires.txt
+libpythongian.egg-info/top_level.txt

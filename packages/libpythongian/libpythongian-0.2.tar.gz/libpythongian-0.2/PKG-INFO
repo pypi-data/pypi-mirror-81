@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: libpythongian
+Version: 0.2
+Summary: Modulo exemplo de projeto python
+Home-page: https://github.com/pythonprobr/libpythonpro
+Author: Gvaresi
+Author-email: varesi@bol.com.br
+License: GNU AFFERO GENERAL PUBLIC LICENSE
+Description: # libpythongian
+        Modulo exemplo de projeto python
+        
+        Nesse curso vamos aprender a contribuir com projetos de codigo aberto.
+        
+        Link para o curso [Remote System] [http://remotesystem.com.br/]
+        [![Build Status](https://travis-ci.org/gvaresi/libpythongian.svg?branch=master)](https://travis-ci.org/gvaresi/libpythongian)
+        [![Updates](https://pyup.io/repos/github/gvaresi/libpythongian/shield.svg)](https://pyup.io/repos/githu)
+        [![Python 3](https://pyup.io/repos/github/gvaresi/libpythongian/python-3-shield.svg)](https://pyup.io/repos/github/gvaresi/libpythongian/)
+        
+        
+        Suportada versão 3 do python
+        
+        Para instalar:
+        
+        ```
+        Console
+        
+        python3 -m venv .venv
+        source  .venv/bin/activate
+        pip -r install requirements-dev.txt
+        
+        ```
+        Para conferir qualidade do codigo:
+        ```
+        Console
+        
+        flake8
+        
+        ```
+        
+        Topicos que seram abordados no curso
+        1. git
+        2. virtuaenv
+        3. pip
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Framework :: Pytest
+Description-Content-Type: text/markdown

@@ -1,0 +1,3 @@
+cloudshell-networking-devices<2.9,>=2.8
+cloudshell-cli<3.4,>=3.3
+cloudshell-snmp<3.4,>=3.3

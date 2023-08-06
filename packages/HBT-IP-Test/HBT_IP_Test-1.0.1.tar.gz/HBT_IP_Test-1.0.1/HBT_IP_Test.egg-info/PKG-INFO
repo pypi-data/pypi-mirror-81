@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: HBT-IP-Test
+Version: 1.0.1
+Summary: A HBT-IP Messaging Protocol
+Home-page: https://github.com/pypa/sampleproject
+Author: srikanth_shapur
+Author-email: srikanth.shapursridharmurthy@honeywell.com
+License: UNKNOWN
+Description: # Example Package
+        
+        HBT_IP Messaging Protocol 
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

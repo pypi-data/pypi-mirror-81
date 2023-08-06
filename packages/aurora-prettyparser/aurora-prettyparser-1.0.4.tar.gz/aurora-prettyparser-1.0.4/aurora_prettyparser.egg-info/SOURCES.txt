@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+aurora_prettyparser.egg-info/PKG-INFO
+aurora_prettyparser.egg-info/SOURCES.txt
+aurora_prettyparser.egg-info/dependency_links.txt
+aurora_prettyparser.egg-info/top_level.txt
+src/auroraPrettyParser/__init__.py

@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+py1password/__init__.py
+py1password/_version.py
+py1password/command_line.py
+py1password/op.py
+py1password/opssh.py
+py1password.egg-info/PKG-INFO
+py1password.egg-info/SOURCES.txt
+py1password.egg-info/dependency_links.txt
+py1password.egg-info/entry_points.txt
+py1password.egg-info/top_level.txt

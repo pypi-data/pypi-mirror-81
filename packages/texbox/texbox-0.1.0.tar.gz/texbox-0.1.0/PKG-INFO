@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: texbox
+Version: 0.1.0
+Summary: A Python CLI to organize and prettify specific .tex files.
+Home-page: https://github.com/joaopalmeiro/texbox
+Author: João Palmeiro
+Author-email: jm.palmeiro@campus.fct.unl.pt
+License: MIT
+Project-URL: Bug Reports, https://github.com/joaopalmeiro/texbox/issues
+Project-URL: Source, https://github.com/joaopalmeiro/texbox
+Description: # texbox
+        
+        A Python CLI to organize and prettify specific .tex files.
+        
+        ## Development quickstart
+        
+        - `make init`.
+        - `make shell` or `pipenv shell`.
+        
+        ## References
+        
+        - [LaTeX/Glossary](https://en.wikibooks.org/wiki/LaTeX/Glossary).
+        - [Publishing package distribution releases using GitHub Actions CI/CD workflows](https://packaging.python.org/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/).
+        
+        ## Notes
+        
+        - `pipenv install --python 3.6 --dev`.
+        - `pipenv install -e .`.
+        - `pipenv install pyparsing`.
+        - `pipenv graph`.
+        - Delete tag: `git push --delete origin tagname`.
+        
+Keywords: cli,refactor,sort,prettify,acronyms,latex
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Terminals
+Classifier: Topic :: Text Processing :: Markup :: LaTeX
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.6, <=3.8
+Description-Content-Type: text/markdown

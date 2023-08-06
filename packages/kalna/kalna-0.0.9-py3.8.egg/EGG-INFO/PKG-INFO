@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: kalna
+Version: 0.0.9
+Summary: A package automating the ML pipelines
+Home-page:  
+Author: Sayantan Ghosh
+Author-email: sayantanghosh.work@gmail.com
+License: UNKNOWN
+Description: # Kalna 0.0.7
+        ***
+        
+        
+        ## Documentation
+        
+        **Kalna is a powerful Automated Machine Learning python library.** It provides the following features:
+        
+        
+        * Fast reading and distributed data preprocessing/cleaning/formatting
+        
+        
+        
+        ## Installation
+        To install via `pip` use:
+        ```python
+        pip install kalna
+        ```
+        
+        
+        
+        
+        ### Data Details
+        ```python
+        from kalna import data_details
+        
+        #showMissingValues will show the details of the missing values with perchentage.
+        data_details.showMissingValues(data)
+        
+        
+        #showCrdinality will show the cardinality of Non-Numeric Values.
+        data_details.showCardinality(data)
+        
+        #Missing Values Imputation of Numerical Features.
+        #method:['mean','median']
+        #Return Type: Dataframe
+        data_details.numImputer(data,missing_feat,method)
+        
+        
+        #Missing Values Imputation of categorical Features.
+        #method:['mode','new_cat']
+        #Return Type: Dataframe
+        data_details.catImputer(data,missing_feat,method)
+        ```
+        ### Data Visualization
+        ```python
+        from kalna import visualizations
+        
+        #x_feat: feature you want to analyze with target feature
+        visualizations.boxPlot(data,x_feat,target_feat)
+        ```
+        
+        
+Keywords: package numbers calculations
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

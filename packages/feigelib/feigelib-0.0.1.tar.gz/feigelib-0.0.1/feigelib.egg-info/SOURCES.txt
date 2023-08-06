@@ -1,0 +1,6 @@
+README.txt
+setup.py
+feigelib.egg-info/PKG-INFO
+feigelib.egg-info/SOURCES.txt
+feigelib.egg-info/dependency_links.txt
+feigelib.egg-info/top_level.txt

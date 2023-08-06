@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: kayra
+Version: 0.1
+Summary: UNKNOWN
+Home-page: https://gitlab.meridian.cs.dal.ca/data_analytics_dal/projects/kayra
+Author: Bruno Padovese
+Author-email: bpadovese@dal.ca
+License: GNU General Public License v3.0
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: tensorflow
+Requires-Dist: tensorflow-addons
+
+UNKNOWN
+
+

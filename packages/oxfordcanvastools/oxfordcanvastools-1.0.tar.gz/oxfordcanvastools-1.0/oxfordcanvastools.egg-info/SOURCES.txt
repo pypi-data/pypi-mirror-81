@@ -1,0 +1,9 @@
+README.md
+setup.py
+oxfordcanvastools/__init__.py
+oxfordcanvastools/canvas_api.py
+oxfordcanvastools.egg-info/PKG-INFO
+oxfordcanvastools.egg-info/SOURCES.txt
+oxfordcanvastools.egg-info/dependency_links.txt
+oxfordcanvastools.egg-info/requires.txt
+oxfordcanvastools.egg-info/top_level.txt

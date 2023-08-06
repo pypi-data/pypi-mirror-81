@@ -1,0 +1,14 @@
+pricer/__init__.py,sha256=V9w677MT1GLuG0fJlz8IBpAZj2mHZeBHfkpMqHhiFDk,242
+pricer/analysis.py,sha256=3r5W913TdszwIWxMCdgfrdn0Q5gpd8_HKAU1y17m0uM,14422
+pricer/campaign.py,sha256=1LSRX73gSeQ1u-zrANtW_D82ZRiu3-Am2I_ALF-_Z5U,10344
+pricer/config.py,sha256=LkFPHoZf9qTHwdbeQ3DHI36LU3og5KIDgfGHHT-BDac,1859
+pricer/reporting.py,sha256=Od7N15d2Ur_ugVhHiG23XJyf7zYck66rB88Np_sheR8,4932
+pricer/run.py,sha256=nO2qvMpqR1JD92JCbENqxxrF7Z9f4QhlYalRmhlD5OE,2124
+pricer/schema.py,sha256=OuHW3ejZ_nzli338Uhktqi64JhKJB7UruWqA25_wqXQ,5403
+pricer/sources.py,sha256=E-mxRF_0S20ZOIkCtkz1t1kzHbCWhNOLc36_GPTR2zQ,19198
+pricer/utils.py,sha256=YsuK3L7XM0010HxWbAfrhlkHBK9f4Jy_4qOCYZe9V_w,4363
+pricer-0.3.5.dist-info/entry_points.txt,sha256=j1TE_ZwC1VnWAg3WQpUtFI9k8ST92tVs0CDZZq_cQ5k,42
+pricer-0.3.5.dist-info/LICENSE,sha256=B2k477TdwoBKGmdPSpOWHOkJK9i71vIM5AYsIsJSQ7Y,1058
+pricer-0.3.5.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+pricer-0.3.5.dist-info/METADATA,sha256=jFU0OlCnWf6jTAznjQkzSxv3D1zb0_TqdhJnCOZ7_uU,3068
+pricer-0.3.5.dist-info/RECORD,,

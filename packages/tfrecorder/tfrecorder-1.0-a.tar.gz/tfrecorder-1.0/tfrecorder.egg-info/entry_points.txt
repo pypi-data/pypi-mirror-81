@@ -1,0 +1,3 @@
+[console_scripts]
+tfrecorder = tfrecorder.cli:main
+

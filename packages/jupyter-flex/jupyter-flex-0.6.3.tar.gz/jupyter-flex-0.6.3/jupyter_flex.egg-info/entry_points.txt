@@ -1,0 +1,4 @@
+[nbconvert.exporters]
+flex = jupyter_flex:FlexExporter
+flex-illusionist = jupyter_flex:FlexIllusionistExporter
+

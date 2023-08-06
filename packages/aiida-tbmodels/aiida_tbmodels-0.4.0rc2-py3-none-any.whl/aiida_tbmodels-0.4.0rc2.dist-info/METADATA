@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: aiida-tbmodels
+Version: 0.4.0rc2
+Summary: AiiDA Plugin for running TBmodels
+Home-page: https://aiida-tbmodels.readthedocs.io
+Author: Dominik Gresch
+Author-email: greschd@gmx.ch
+License: Apache 2.0
+Keywords: tbmodels,aiida,workflows
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Framework :: AiiDA
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: aiida-core (>=1.1.0<2.0.0)
+Requires-Dist: aiida-bands-inspect (>=0.4.0)
+Requires-Dist: tbmodels (>=1.4.0rc2<2)
+Provides-Extra: dev
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme ; extra == 'dev'
+Requires-Dist: sphinxcontrib-details-directive ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: aiida-pytest (>=0.1.0a6) ; extra == 'dev'
+Requires-Dist: yapf (==0.29) ; extra == 'dev'
+Requires-Dist: pre-commit (==2.2.0) ; extra == 'dev'
+Requires-Dist: prospector (==1.2.0) ; extra == 'dev'
+Requires-Dist: pylint (==2.4.4) ; extra == 'dev'
+Provides-Extra: dev_precommit
+Requires-Dist: yapf (==0.29) ; extra == 'dev_precommit'
+Requires-Dist: pre-commit (==2.2.0) ; extra == 'dev_precommit'
+Requires-Dist: prospector (==1.2.0) ; extra == 'dev_precommit'
+Requires-Dist: pylint (==2.4.4) ; extra == 'dev_precommit'
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: sphinxcontrib-details-directive ; extra == 'docs'
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: aiida-pytest (>=0.1.0a6) ; extra == 'testing'
+
+## aiida-tbmodels
+
+A plugin for [AiiDA](http://www.aiida.net) to run calculations with the [TBmodels](https://tbmodels.greschd.ch) code.
+
+Documentation: https://aiida-tbmodels.readthedocs.io
+
+

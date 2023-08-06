@@ -1,0 +1,11 @@
+bits3/__init__.py,sha256=5VyXI1G8hH3omfDJXqO1BWu2Bi6iuiWpqtBqi-s0LyY,287
+bits3/cli.py,sha256=76sFAVHaygma3jwcNaq-c5Ypwl96g04uYloR6YwWrv8,1848
+bits3/core.py,sha256=3Ps7ezqVlTV4_b9AVmd_jcH63oGiJGF9k6vs9eFJo74,7027
+bits3/utils.py,sha256=4MTa-9-CXqzP6WxTqySXd3teCb3agtyRjFzqrmLp4lQ,945
+bits3-0.1.dist-info/AUTHORS.rst,sha256=WGV9qMrBUBdFcZ5RQGo81_eGyiIwMlPJb9rI8LwVqlo,79
+bits3-0.1.dist-info/LICENSE.txt,sha256=CihGjUvI_XE64oEl2uQ1yCrDMFbPcp3yNiUbGQft3cU,1082
+bits3-0.1.dist-info/METADATA,sha256=xfd0MZiMg9HXLkSxFQzQ8NojGgc-O1lNunt_csmhsVA,2860
+bits3-0.1.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+bits3-0.1.dist-info/entry_points.txt,sha256=Mw9idfJBhSTMXWlF9-inXdi5lhbicvzbJkKq8ovxL5s,41
+bits3-0.1.dist-info/top_level.txt,sha256=l0DJIK_GOmUOkQKnxmlrEHsoyzuRt9QmuvLWkJlAA-U,6
+bits3-0.1.dist-info/RECORD,,

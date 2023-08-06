@@ -1,0 +1,13 @@
+geode_parameterization/Geode-Parameterization_surface.dll,sha256=skVNV7ac_OcnkluFxO8nVoZRETu6JvTD_PSlFLVTK5U,57856
+geode_parameterization/__init__.py,sha256=WGtp9amV67D-aXUx9Kt04F4JHyW35nPwMFDCGopouoE,99
+geode_parameterization/concrt140.dll,sha256=1AS0nCXMdtxMhuHYL8I3mUgvZQnoWnPtgXfvwyDsAZU,332568
+geode_parameterization/geode_parameterization_py_surface.cp37-win_amd64.pyd,sha256=nDIBCL_czxR8I5zooUeoxcdZQbBrxW6mLvXQ9_HILFA,100352
+geode_parameterization/msvcp140.dll,sha256=mePiXNpAQoP72Wslt2g6jSE-eVRnSt76InkSOo0HAf0,627992
+geode_parameterization/msvcp140_1.dll,sha256=XmJ_rEefcjYwdYJEI9dNCl0QC7aTd_KowJQuEgma9wA,31512
+geode_parameterization/msvcp140_2.dll,sha256=qpZbyEKZlMl7wkmO2AUaQQH3mHo3aSSxBd5feRXkKkg,206104
+geode_parameterization/surface.py,sha256=wwrzZKqA_CRytizq6mLNm8iBkamDk6nt-n19G6avcBo,147
+geode_parameterization/vcruntime140.dll,sha256=K3YCzBUhEB0RaZXj4t3-CUM0mAY3ig1Ardgbpk41m2w,85784
+Geode_Parameterization-1.3.0.dist-info/METADATA,sha256=ivBLT5A6BvK-o-yjFK0uALNI91LO_2Uk-WAN_hJdlz8,2315
+Geode_Parameterization-1.3.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+Geode_Parameterization-1.3.0.dist-info/top_level.txt,sha256=QA1nLQxvP0tjgneyQANx5tIuKU569p2G0NPcEp7I8Ms,23
+Geode_Parameterization-1.3.0.dist-info/RECORD,,

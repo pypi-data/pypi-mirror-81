@@ -1,0 +1,15 @@
+ckanext_archiveview-0.0.1-py3.8-nspkg.pth,sha256=VaH--vNo0_vzXvZAeqyq-Bg6m47pBBRlxwvBj0KQxe0,544
+ckanext/archiveview/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ckanext/archiveview/archive_util.py,sha256=ICthLsC52ZU4vN2yHQXQ7Rl_q5Wt9KxUnYF6VvXII94,532
+ckanext/archiveview/plugin.py,sha256=NMPrtnWqJtJDTB8u60JdnKa_MydlomtNG2l-LvbMHIM,1612
+ckanext/archiveview/logic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ckanext/archiveview/logic/action.py,sha256=d_O9-nJyhN5oahWYilAIh74o_xBmB_HhPtMR1NzfWHk,720
+ckanext/archiveview/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ckanext/archiveview/tests/archive_util_tests.py,sha256=3f7Gtnjd5Uq73An7AWNlvj1t2O9SaEpQF9KAViCcaA8,1602
+ckanext_archiveview-0.0.1.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+ckanext_archiveview-0.0.1.dist-info/METADATA,sha256=oqoEf39sSxxH-ndkVAZg_23Hb0_nmxSx2CW19anpc20,1704
+ckanext_archiveview-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+ckanext_archiveview-0.0.1.dist-info/entry_points.txt,sha256=EvyPGwJbyCMYKiARF47XgL1pidKZrBQegFdtuyBtH-g,174
+ckanext_archiveview-0.0.1.dist-info/namespace_packages.txt,sha256=5yjNwq-s42weaiMMUuA5lZ45g99ANsfcRBCvac1JMS4,8
+ckanext_archiveview-0.0.1.dist-info/top_level.txt,sha256=5yjNwq-s42weaiMMUuA5lZ45g99ANsfcRBCvac1JMS4,8
+ckanext_archiveview-0.0.1.dist-info/RECORD,,

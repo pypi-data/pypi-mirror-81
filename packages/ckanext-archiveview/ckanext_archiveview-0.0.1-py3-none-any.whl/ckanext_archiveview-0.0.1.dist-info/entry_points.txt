@@ -1,0 +1,7 @@
+
+        [ckan.plugins]
+        archiveview=ckanext.archiveview.plugin:ArchiveViewPlugin
+        
+        [babel.extractors]
+        ckan = ckan.lib.extract:extract_ckan
+    

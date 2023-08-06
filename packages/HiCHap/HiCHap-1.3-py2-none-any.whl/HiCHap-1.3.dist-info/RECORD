@@ -1,0 +1,15 @@
+HiCHap/AllelicSpecificity.py,sha256=vOfErRUovkFJuWUhsB9bHU7qOFJ2I7RzRF_HLN0XRi0,19252
+HiCHap/StructureFind.py,sha256=8Mw2azMvu2DEGTrpzgf4lGSl8qo7J3yV06XYWr8FHy4,93084
+HiCHap/__init__.py,sha256=K9joq_okABYTiZvQHS2QYutHIBS0MtWl-hSuJQCOhUM,161
+HiCHap/bamProcess.py,sha256=OWxzJXr89GHosSS6DCStFzuP-WOpKBfDzJKGw-vut98,67490
+HiCHap/fastqPlus.py,sha256=Z87A9iKp6AU3SA550mgY7LgARYw4VWuR4YZY0uQj7cI,10886
+HiCHap/filtering.py,sha256=_EyqVZ5JfhH7ZFYe2HLXxN_hLPnYefMnwzDnTd-p4ds,51103
+HiCHap/genome.py,sha256=ZrSk0TRS9j7drCWCBtPwNkhiyyFokyrFkN07BbHNYVc,8036
+HiCHap/mapping.py,sha256=pjYVpnp4vCrj0-OpEIPpdlXVRkYzeiqH20dITcBia8k,35878
+HiCHap/matrixBuilding.py,sha256=bkZCbgVdNeeztzOm8ziHJwvzodtIlB9ukrOZpdgYdP4,71452
+HiCHap-1.3.data/scripts/hichap,sha256=hBMcIPCXnyfjceCgOdqzEhjT-B1R0tyPCBUdi7_AGP0,56381
+HiCHap-1.3.dist-info/LICENSE,sha256=WvqAWozE1UFWTivPVlUNy3TN-umm7rOJ-iPEgvinSTA,1067
+HiCHap-1.3.dist-info/METADATA,sha256=eXX8zCLHPuu39DRjPQPWzV9KN8Jj2cVZgB7-Uwr00gQ,2418
+HiCHap-1.3.dist-info/WHEEL,sha256=Ph_z28wTcU7HnQwSQ6yCQ-zkcGK4h4ehDfP8b6UoHVE,92
+HiCHap-1.3.dist-info/top_level.txt,sha256=HdZxFYpN8zvikAj2NJO8OkmdbkDxWH6x0z7azQM3dbQ,7
+HiCHap-1.3.dist-info/RECORD,,

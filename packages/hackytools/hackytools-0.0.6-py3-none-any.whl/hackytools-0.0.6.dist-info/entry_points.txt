@@ -1,0 +1,4 @@
+[console_scripts]
+spriteit = hackytools.spriteit:main
+whatsmyip = hackytools.utilities:whatsmyip.start
+

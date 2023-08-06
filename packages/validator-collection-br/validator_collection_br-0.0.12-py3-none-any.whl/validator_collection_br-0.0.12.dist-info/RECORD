@@ -1,0 +1,10 @@
+validator_collection_br/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+validator_collection_br/checkers_br.py,sha256=Mcjtbe3a9N9mkA9OAKptgjIh-dVHZUQMt7wH-vxlsec,2617
+validator_collection_br/errors_br.py,sha256=d8t-WX6wDRKZ6p3b1LUZzy5EjVR8Ub_O4yhp_UwMuvI,2058
+validator_collection_br/validators_br.py,sha256=dWuMpoNWXqOUtKEarhAy8jcbAS-MGHpU_vkevIVuBlM,13335
+validator_collection_br-0.0.12.dist-info/DESCRIPTION.rst,sha256=fss2Jg-6_S-KPZs5OiwLA5P4J06XO1HWhv6pAxlsgvU,416
+validator_collection_br-0.0.12.dist-info/METADATA,sha256=x33GOmbMnsavxBqwd_25091ITWQRqbQLQXEp3qZM7KU,1631
+validator_collection_br-0.0.12.dist-info/RECORD,,
+validator_collection_br-0.0.12.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+validator_collection_br-0.0.12.dist-info/metadata.json,sha256=FSpeAik4ca6xnDkqOfq1C_RTIQwN5co-MVVrjyF3-jo,1196
+validator_collection_br-0.0.12.dist-info/top_level.txt,sha256=zzjLqkG0kLO_gY86ijayJm9isVZFxv_cPVCs2y4LPrQ,24

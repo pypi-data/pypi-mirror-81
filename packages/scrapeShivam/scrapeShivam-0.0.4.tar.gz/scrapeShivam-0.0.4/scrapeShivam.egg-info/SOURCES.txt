@@ -1,0 +1,8 @@
+README.md
+setup.py
+scrapeShivam/__init__.py
+scrapeShivam.egg-info/PKG-INFO
+scrapeShivam.egg-info/SOURCES.txt
+scrapeShivam.egg-info/dependency_links.txt
+scrapeShivam.egg-info/requires.txt
+scrapeShivam.egg-info/top_level.txt

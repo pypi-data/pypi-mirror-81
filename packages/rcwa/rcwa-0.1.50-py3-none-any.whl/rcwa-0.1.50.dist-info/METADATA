@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: rcwa
+Version: 0.1.50
+Summary: Python Implementation of Rigorous Coupled Wave Analysis
+Home-page: https://github.com/edmundsj/RCWA
+Author: Jordan Edmunds
+Author-email: jordan.e@berkeley.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.14.5)
+Requires-Dist: matplotlib (>=2.0.0)
+Requires-Dist: pandas (>=0.24.0)
+Requires-Dist: scipy (>=1.2.2)
+
+[![Build Status](https://travis-ci.com/edmundsj/RCWA.svg?branch=master)](https://travis-ci.com/edmundsj/RCWA) [![Coverage Status](https://coveralls.io/repos/github/edmundsj/RCWA/badge.svg?branch=master)](https://coveralls.io/github/edmundsj/RCWA?branch=master) [![Documentation Status](https://readthedocs.org/projects/rcwa/badge/?version=latest)](https://rcwa.readthedocs.io/en/latest/?badge=latest)
+
+Author: Jordan Edmunds
+
+Affiliation: UC Irvine, UC Berkeley
+
+Date Started: 2020/01/05
+
+License: MIT (see LICENSE.txt)
+
+GETTING STARTED
+------------------
+
+FEATURES
+----------
+
+DOCUMENTATION
+----------------
+
+

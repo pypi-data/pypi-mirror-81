@@ -1,0 +1,10 @@
+dukaonesdk/__init__.py,sha256=adjEElepK4Vwo_K1XYHexXZjp5irrNQDM00i69DuL6Q,136
+dukaonesdk/device.py,sha256=z-at0FP8zT7d7kgvNIQKhB6y6Ge6P-IAoYJwEyt1ilI,2739
+dukaonesdk/dukaclient.py,sha256=Tjj5OKcnHXQ0qkH5KZF9gyEbSn4dCyOeMQhY8_xCj0Y,9319
+dukaonesdk/dukapacket.py,sha256=uCO_NglkhvhWLED-n4zhM3ES_3vAP11N0_-dKYJPCKE,4811
+dukaonesdk/responsepacket.py,sha256=QjfiC_gc5kPbXc14wCPn5NzPZ_zho2-_N7j0YZ7pC2o,5237
+dukaonesdk-0.9.8.dist-info/METADATA,sha256=GPF5Wg3L5yfHTyjarPWS2XrUXFtLsG-bd6JcTcIYWgI,322
+dukaonesdk-0.9.8.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+dukaonesdk-0.9.8.dist-info/license.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+dukaonesdk-0.9.8.dist-info/top_level.txt,sha256=FN9R6LprSpdVCeL1UMYFcSjEqLy4qUOqxQ7kcjv4BQM,11
+dukaonesdk-0.9.8.dist-info/RECORD,,

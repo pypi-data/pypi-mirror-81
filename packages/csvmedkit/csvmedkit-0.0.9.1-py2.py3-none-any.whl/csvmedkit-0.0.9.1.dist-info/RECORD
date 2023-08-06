@@ -1,0 +1,11 @@
+csvmedkit/__about__.py,sha256=UdbZo5GMB76Ca9ZE_XdA84eXhzzGMc43r8EgH6OhTVs,345
+csvmedkit/__init__.py,sha256=HGOSGVoOQA7YhEuIrllPZFo3NSTufPbWOzVZUVT8nb0,726
+csvmedkit/cmkutil.py,sha256=cvgAWCGq6FjNo-Exw5md5BO2cS-MgiRXsnuj70L7RUw,13218
+csvmedkit/exceptions.py,sha256=nvQ5VotXPZW61r7Rk3fuhuvbvTvRsHXhaV6-rAIFFdY,335
+csvmedkit-0.0.9.1.dist-info/AUTHORS.rst,sha256=qL0toQiAwA25UokNuF4ILuN-LUoM1h22EbTllPGWgqk,157
+csvmedkit-0.0.9.1.dist-info/LICENSE,sha256=AZi1TRpmUB3jr92G3FYced5N9K1UAM8kquVsrixbL_Y,1069
+csvmedkit-0.0.9.1.dist-info/METADATA,sha256=0-B1SGGyaRhXkuVm091Jor1_f_aVDCVwqlTQP8CpUY8,2425
+csvmedkit-0.0.9.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+csvmedkit-0.0.9.1.dist-info/entry_points.txt,sha256=q2xuLQG9_8s7_U7VLB8bAdOWru82Zisu94E3h9GcF_A,263
+csvmedkit-0.0.9.1.dist-info/top_level.txt,sha256=gIqoFF4ogfPUqYin29RQ9qY_ubMLpG7DPz4Ct2Q-Cj8,10
+csvmedkit-0.0.9.1.dist-info/RECORD,,

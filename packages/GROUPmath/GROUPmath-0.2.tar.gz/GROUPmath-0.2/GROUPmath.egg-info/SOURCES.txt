@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+GROUPmath/GROUPmath.py
+GROUPmath/__init__.py
+GROUPmath.egg-info/PKG-INFO
+GROUPmath.egg-info/SOURCES.txt
+GROUPmath.egg-info/dependency_links.txt
+GROUPmath.egg-info/requires.txt
+GROUPmath.egg-info/top_level.txt

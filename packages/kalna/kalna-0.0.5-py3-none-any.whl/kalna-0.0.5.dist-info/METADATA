@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: kalna
+Version: 0.0.5
+Summary: A package automating the ML pipelines
+Home-page: 
+Author: Sayantan Ghosh
+Author-email: sayantanghosh.work@gmail.com
+License: UNKNOWN
+Keywords: package numbers calculations
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: sklearn
+Requires-Dist: matplotlib
+
+# Kalna 0.0.2
+***
+
+
+## Documentation
+
+**Kalna is a powerful Automated Machine Learning python library.** It provides the following features:
+
+
+* Fast reading and distributed data preprocessing/cleaning/formatting
+
+
+
+## Installation
+To install via `pip` use:
+```python
+pip install kalna
+```
+
+## Basic Usage
+The usage of the wrapper is very easy. It does not require any initialisation. Just import and start coding:
+```python
+from kalna import data_details
+
+
+#reading the dataset
+dataset = data_cleaning.read_data('file_path')
+
+
+#Showing Selected records
+data_cleaning.show_data(data,no_of_records)
+
+#Showing Columns with Missing Values
+data_cleaning.show_missing_value(data)
+
+```
+
+
+
+

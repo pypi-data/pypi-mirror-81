@@ -1,0 +1,11 @@
+drugwars/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drugwars/__main__.py,sha256=PSwXKUt4sUK9NkbIPFXJ40DmWUhq7hqJE0PdazXvMJs,990
+drugwars/classes.py,sha256=7FY6N63HH6RpykDK2ov_8Qyz-zCNR9SUYMB6qb6QJ8c,8658
+drugwars/events.py,sha256=-NnbdoPHoC-qGzNueEtusxmnAFqClg8YPFrOQE3fvvs,22452
+drugwars/helpers.py,sha256=2i8FxfDQC5UjYUSdNA_BAzI9_8NeyyxyVpcA1aym8RE,929
+drugwars-1.1.5.dist-info/METADATA,sha256=nQ0v4yGturrS9EEcTBnH4d83uj9Pa0o-NLzvfNgIFso,3144
+drugwars-1.1.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+drugwars-1.1.5.dist-info/entry_points.txt,sha256=K9qLl_aCTF4mq7ZVO0zJ3eFi7WtjHcaQjxWMfdrDkkw,53
+drugwars-1.1.5.dist-info/top_level.txt,sha256=KUV55r1PvhVse-TTXLlKE6hXGkMSrzsEukpv6G2N_E8,9
+drugwars-1.1.5.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+drugwars-1.1.5.dist-info/RECORD,,

@@ -1,0 +1,8 @@
+django_dramatiq_email/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_dramatiq_email/backends.py,sha256=qSEeiqxMNWX4TtF9gxKX37kNjqsPwPefQJBVeDxQaUk,603
+django_dramatiq_email/tasks.py,sha256=gRyXfRVrH8SGJewv4C9RoNz_2Ren6IYfRtIY_n53z9I,1011
+django_dramatiq_email/utils.py,sha256=OX9y_91Xx2Li-vGzbrmTl2CF37oeirmiOhh-rQDPdKA,3216
+django_dramatiq_email-1.0.0.dist-info/LICENSE,sha256=FEkccl3uj6Q_hvySSlfY2DAMCPUbeJQji3w4te0ehdI,1066
+django_dramatiq_email-1.0.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+django_dramatiq_email-1.0.0.dist-info/METADATA,sha256=izYFU3cUZVbMFhww_FRYIn-onW_Dy9K_U80ETgtfqaM,839
+django_dramatiq_email-1.0.0.dist-info/RECORD,,

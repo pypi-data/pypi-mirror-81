@@ -1,0 +1,15 @@
+tqdm>=4.42.0
+requests
+numpy
+scikit-image
+
+[plot]
+matplotlib
+
+[register]
+dipy
+
+[test]
+docutils
+pygments
+flake8

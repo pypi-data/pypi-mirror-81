@@ -1,0 +1,8 @@
+README.md
+setup.py
+DHT11/__init__.py
+include_beer_DHT11.egg-info/PKG-INFO
+include_beer_DHT11.egg-info/SOURCES.txt
+include_beer_DHT11.egg-info/dependency_links.txt
+include_beer_DHT11.egg-info/requires.txt
+include_beer_DHT11.egg-info/top_level.txt

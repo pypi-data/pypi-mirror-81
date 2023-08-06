@@ -1,0 +1,12 @@
+apscheduler
+certifi
+cffi
+cryptography
+decorator
+emoji
+pycparser
+python-telegram-bot
+pytz
+six
+tornado
+tzlocal

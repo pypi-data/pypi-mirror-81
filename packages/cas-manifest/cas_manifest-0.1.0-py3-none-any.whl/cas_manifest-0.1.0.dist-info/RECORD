@@ -1,0 +1,8 @@
+cas_manifest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cas_manifest/ref.py,sha256=CUFrbYTCl0dJhPvCndy-hWlqn-jkCfnBhyXq9pHcRew,86
+cas_manifest/registerable.py,sha256=HT-1X3VEIdw5CTDmatAS7HoTrXvzm94HfIS0B96GFZM,534
+cas_manifest/registry.py,sha256=-inANYgfiGeWiufmcoLlJ3Ge2oSttiejuyMGgpWVLLM,1097
+cas_manifest-0.1.0.dist-info/LICENSE,sha256=XY1xFzehG_22iRb1LVquM7pEjM0_R0g55_X4kkBWZLQ,1066
+cas_manifest-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+cas_manifest-0.1.0.dist-info/METADATA,sha256=A9hgzyLtvZWXOtCt7GREW5RkiQzog4vwivUOQGj6B_0,390
+cas_manifest-0.1.0.dist-info/RECORD,,

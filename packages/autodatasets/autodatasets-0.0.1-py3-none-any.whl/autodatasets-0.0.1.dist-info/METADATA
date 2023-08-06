@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: autodatasets
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: 
+Author-email: 
+License: Apache 2.0
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Requires-Dist: kaggle
+
+UNKNOWN
+
+

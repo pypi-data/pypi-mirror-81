@@ -1,0 +1,10 @@
+hgboost/__init__.py,sha256=sZc0QrIfLE0ohoCjIRE8TlB_NCpojXa5bSkl-sKKkyo,2853
+hgboost/examples.py,sha256=8kxRoAF9XCrUCtk75SRmsdN6d4FNocUONODMbjqiFHk,5423
+hgboost/hgboost.py,sha256=240Wub2ejKH5Ms9B0TmQY2om9wWc0_rRwHb2o-dgSSg,72057
+hgboost/data/titanic_train.zip,sha256=zjpUxa_wLpJ0glQOT1J2Bv5d9jkEmj3ZUcecy575BkU,22510
+hgboost/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hgboost-0.1.5.dist-info/LICENSE,sha256=NMTj5-5xxxhntiVCZnqUGhN8gTcx4LqrzthU-5ivo-s,1120
+hgboost-0.1.5.dist-info/METADATA,sha256=WsrSJphyWpxPdgyCTxDIJjDrYrqgilOUX5zFo7zKeDw,9984
+hgboost-0.1.5.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+hgboost-0.1.5.dist-info/top_level.txt,sha256=wHKQk7nvxzPjqsuwZjnRizCJnMkMQbdLwDv_RRLbya4,8
+hgboost-0.1.5.dist-info/RECORD,,

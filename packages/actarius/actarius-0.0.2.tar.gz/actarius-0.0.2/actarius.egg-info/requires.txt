@@ -1,0 +1,16 @@
+mlflow>=1.8.0
+gitpython
+birch>=0.0.31
+
+[test]
+pandas
+databricks-cli
+pytest>=4.6
+coverage
+pytest-cov==2.5.1
+boto3
+collective.checkdocs
+pygments
+mlflow>=1.8.0
+gitpython
+birch>=0.0.31

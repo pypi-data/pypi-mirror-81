@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: html-test-report
+Version: 1.0.0
+Summary: Python unittest runner with html report.
+Home-page: https://github.com/adelplanque/html-test-report
+License: UNKNOWN
+Description: 'Because testing should help, not constrain.'
+        
+        
+        ## Example ##
+        
+        * Source code: `my_bugged_module.py`
+        
+          ```python
+           def my_bugged_function():
+               my_var = {'a': 'b'}
+               1/0
+          ```
+        
+        * Test case: `test.py`
+        
+          ```python
+          from logging import getLogger
+          from my_bugged_module import my_bugged_function
+          from unittest import TestCase
+        
+        
+          class MyTestCase(TestCase):
+        
+              def test(self):
+                  """
+                  Test example.
+                  """
+                  print("Print something")
+                  getLogger().info("Log message")
+                  my_bugged_function()
+          ```
+        
+        * Result:
+        
+          ![Test report](screnshot.png)
+        
+        
+        ### Use as nose plugin ###
+        
+        ```bash
+        nosetests --with-html-test test
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Testing
+Description-Content-Type: text/markdown

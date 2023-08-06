@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: gridtlib
+Version: 0.0.1
+Summary: Library for interacting with the Gridt Network database.
+Home-page: https://github.com/GridtNetwork/gridtlib
+Author: Robin A. Dorstijn
+Author-email: info@gridt.org
+License: MIT license
+Keywords: gridtlib
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: passlib
+Requires-Dist: pyjwt
+Requires-Dist: python-http-client
+Requires-Dist: sendgrid
+Requires-Dist: sqlalchemy
+Requires-Dist: starkbank-ecdsa
+
+# Gridtlib
+Gridtlib is a library containg models and controllers describing the Gridt Network
+and interacting with its databases.
+
+## Installation
+In order to install the gridtlib you need to have python 3.6 or higher installed. Then
+you can run
+```bash
+$ python -m pip install gridtlib
+```
+in order to install the library.
+
+
+

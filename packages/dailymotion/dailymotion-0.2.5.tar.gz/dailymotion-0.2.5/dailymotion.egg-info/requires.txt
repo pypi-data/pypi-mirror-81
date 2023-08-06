@@ -1,0 +1,7 @@
+requests
+requests_toolbelt
+
+[:python_version > "3.4"]
+aiohttp!=4.0.0a1
+aiofiles
+asyncio

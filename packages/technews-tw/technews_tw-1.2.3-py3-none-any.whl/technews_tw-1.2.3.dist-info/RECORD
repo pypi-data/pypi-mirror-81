@@ -1,0 +1,14 @@
+technews/__init__.py,sha256=QVYdSiV0_xG_k7ref1osJc8olxuScTk4RQIDPCO1314,84
+technews/daily_news.py,sha256=hnlXB-9eJRIp0QQxa1tZ_PMbPd5OxkDOwpqrmxg5T5c,1775
+technews/mail_helper.py,sha256=ykQUhRS11D-WO5jPaOA4Rrqxf4-vfvxfSg2WTSrc5gg,7353
+technews/mail_util.py,sha256=e-1CkPt525eVEJGQ-macZ_BXIviR0Ue3lG-YuOa_Dhs,2105
+technews/technews_helper.py,sha256=pfxYEag6hXXqdFJ2NWaPjOMOO7XdtqbA3sgtfy0h6CU,1596
+technews/crawlers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+technews/crawlers/business_next.py,sha256=eSLZ7zsXIR-bavAEHZhBcfIqGscJC92M3MRz--kyVDo,4639
+technews/crawlers/inside.py,sha256=ekg3PqwCyfh1SjuL7DCa0kPzUaKEwJZrnXlJACWHaqw,3405
+technews/crawlers/ithome.py,sha256=OAITrcs3ZEBCGtgNemOcCO1gUy_BDO0I6NnZvbKhldI,3706
+technews/crawlers/tech_orange.py,sha256=Mq90lKBRybir2XreihcZb8pJeq8WuQv0novJ3I3KAqY,5372
+technews_tw-1.2.3.dist-info/METADATA,sha256=tZ7BCtdfCGUGRN-dGJDpzhqxHQJekhzjt7d78-7oBvM,2305
+technews_tw-1.2.3.dist-info/RECORD,,
+technews_tw-1.2.3.dist-info/WHEEL,sha256=pZyAqgNAylOf0KG_hPHMtuuY08rV3WzWwZu2OTsNnnw,97
+technews_tw-1.2.3.dist-info/top_level.txt,sha256=tCtIAx-AMDMDPGVAkUWMYZXB81Sarjo8mRz0A7zeLeQ,9

@@ -1,0 +1,12 @@
+jupyterlmod/__init__.py,sha256=JHakkekDGUrGS0Q4UJDUdDfygOhPQIzIJd_abDgd2F8,802
+jupyterlmod/handler.py,sha256=qp941MRCoXhecqnSzY6qTToKFQcPkUgGgcZX0Sh08zY,4379
+jupyterlmod-2.0.1.data/data/etc/jupyter/jupyter_notebook_config.d/jupyterlmod_serverextension.json,sha256=azg0QIBexarBsMiQaf3JDVeSI7Z-4kynosruw_9eZgQ,104
+jupyterlmod-2.0.1.data/data/etc/jupyter/nbconfig/tree.d/jupyterlmod_nbextension.json,sha256=za_Ok9jkuCrMAVOgBoC4L90fiNqLlBzMO7t3YYCwduY,67
+jupyterlmod-2.0.1.data/data/share/jupyter/nbextensions/jupyterlmod/lmod.js,sha256=KK2xdJW5TsWK3JJ0Nle8ch1mAHFoMcuIvhzHC-LAOuE,3758
+jupyterlmod-2.0.1.data/data/share/jupyter/nbextensions/jupyterlmod/main.js,sha256=xdopcmHY2vsSFFVqs_N1FY6ijXUyY6wRSu3oEIUiGQc,15371
+lmod/__init__.py,sha256=57PqXdQrkI8du_zFNGJT7uvngrsfzUvlIPL6N9j8YFE,6828
+jupyterlmod-2.0.1.dist-info/LICENSE,sha256=PqWfljCq3NiHHFUYlWE844Hm4mgSPdI-8MYhrfnuTDY,1078
+jupyterlmod-2.0.1.dist-info/METADATA,sha256=v_xgXw27vOgxMGl1J-rdfzC4XoeCbyqsuexRXZKmOeE,810
+jupyterlmod-2.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+jupyterlmod-2.0.1.dist-info/top_level.txt,sha256=H-DN7F7bbp74HIKGe9qqurhHRepKJRt6-Bill_EznmE,17
+jupyterlmod-2.0.1.dist-info/RECORD,,

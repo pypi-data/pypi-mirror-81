@@ -1,0 +1,17 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+openimis_be_product.egg-info/PKG-INFO
+openimis_be_product.egg-info/SOURCES.txt
+openimis_be_product.egg-info/dependency_links.txt
+openimis_be_product.egg-info/requires.txt
+openimis_be_product.egg-info/top_level.txt
+product/__init__.py
+product/admin.py
+product/apps.py
+product/models.py
+product/schema.py
+product/test_helpers.py
+product/urls.py
+product/views.py

@@ -1,0 +1,4 @@
+django>=3.0
+boto3>=1.14.60
+requests>=2.24.0
+tox

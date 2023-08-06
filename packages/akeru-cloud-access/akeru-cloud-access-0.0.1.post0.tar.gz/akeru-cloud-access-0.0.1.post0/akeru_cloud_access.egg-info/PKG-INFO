@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: akeru-cloud-access
+Version: 0.0.1.post0
+Summary: A django package that supports creation of IAM users/rolesand allowing federated access via django users/groups
+Home-page: https://github.com/astrix37/akeru-cloud-access
+Author: Alexander Colvin
+Author-email: alexander.colvin@hotmail.com
+License: UNKNOWN
+Description: # Akeru Cloud Access
+        
+        Akeru is an Egyptian god. [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

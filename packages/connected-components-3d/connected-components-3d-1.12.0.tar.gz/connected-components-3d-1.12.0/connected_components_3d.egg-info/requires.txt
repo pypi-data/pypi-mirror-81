@@ -1,0 +1,7 @@
+numpy
+
+[:python_version == "2.6"]
+futures
+
+[:python_version == "2.7"]
+futures

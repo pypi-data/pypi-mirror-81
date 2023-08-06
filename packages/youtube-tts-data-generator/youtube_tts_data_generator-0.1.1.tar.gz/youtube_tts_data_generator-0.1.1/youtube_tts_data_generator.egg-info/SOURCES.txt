@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+youtube_tts_data_generator/__init__.py
+youtube_tts_data_generator/audio.py
+youtube_tts_data_generator/youtube_tts_data_generator.py
+youtube_tts_data_generator.egg-info/PKG-INFO
+youtube_tts_data_generator.egg-info/SOURCES.txt
+youtube_tts_data_generator.egg-info/dependency_links.txt
+youtube_tts_data_generator.egg-info/requires.txt
+youtube_tts_data_generator.egg-info/top_level.txt

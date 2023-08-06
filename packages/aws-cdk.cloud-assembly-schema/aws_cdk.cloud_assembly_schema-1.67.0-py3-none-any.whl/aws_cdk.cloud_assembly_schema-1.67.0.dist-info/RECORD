@@ -1,0 +1,8 @@
+aws_cdk/cloud_assembly_schema/__init__.py,sha256=WLDl4kw-N3MGAz0mMmQcrARXfYErqDnA6Ln-fJI4H6w,81875
+aws_cdk/cloud_assembly_schema/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/cloud_assembly_schema/_jsii/__init__.py,sha256=L23XDsiE-kcgnwwiOzlNkIIGKbH0RU0KYuKmb4BjUP8,353
+aws_cdk/cloud_assembly_schema/_jsii/cloud-assembly-schema@1.67.0.jsii.tgz,sha256=7bVe-KnlMpov1iYjFVkpkotkj_5rGEIUWIpJF-b5YVA,90181
+aws_cdk.cloud_assembly_schema-1.67.0.dist-info/METADATA,sha256=-iVuPBlX49I011RKU51xwoIXVlqiYIDKaUyUqBB-m1o,3912
+aws_cdk.cloud_assembly_schema-1.67.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+aws_cdk.cloud_assembly_schema-1.67.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.cloud_assembly_schema-1.67.0.dist-info/RECORD,,

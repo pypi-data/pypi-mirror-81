@@ -1,0 +1,7 @@
+README.md
+setup.py
+simple_env_config/__init__.py
+simple_env_config.egg-info/PKG-INFO
+simple_env_config.egg-info/SOURCES.txt
+simple_env_config.egg-info/dependency_links.txt
+simple_env_config.egg-info/top_level.txt

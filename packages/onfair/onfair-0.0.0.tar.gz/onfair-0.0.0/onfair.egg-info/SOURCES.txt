@@ -1,0 +1,6 @@
+setup.py
+onfair.egg-info/PKG-INFO
+onfair.egg-info/SOURCES.txt
+onfair.egg-info/dependency_links.txt
+onfair.egg-info/not-zip-safe
+onfair.egg-info/top_level.txt

@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+pybenutils.egg-info/PKG-INFO
+pybenutils.egg-info/SOURCES.txt
+pybenutils.egg-info/dependency_links.txt
+pybenutils.egg-info/requires.txt
+pybenutils.egg-info/top_level.txt

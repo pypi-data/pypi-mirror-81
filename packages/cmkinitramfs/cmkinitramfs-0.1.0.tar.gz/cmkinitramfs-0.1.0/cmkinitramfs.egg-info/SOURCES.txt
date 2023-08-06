@@ -1,0 +1,12 @@
+README.md
+cmkinit
+cmkinit.py
+cmkinitramfs
+cmkinitramfs.ini.default
+cmkinitramfs.ini.example
+cmkinitramfs.py
+setup.py
+cmkinitramfs.egg-info/PKG-INFO
+cmkinitramfs.egg-info/SOURCES.txt
+cmkinitramfs.egg-info/dependency_links.txt
+cmkinitramfs.egg-info/top_level.txt

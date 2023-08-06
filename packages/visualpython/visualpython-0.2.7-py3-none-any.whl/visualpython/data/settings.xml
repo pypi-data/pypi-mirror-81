@@ -1,0 +1,81 @@
+<settings ver="0.0.1">
+    <!-- <setting>
+        <name>변수명</name>
+        <desc>설명</desc>
+        <type>checkbox/options/text/color/number</type>
+        <default>기본값</default>
+        <value>설정값</value>
+        <options>
+            <option>
+                <text></text>
+                <value></value>
+            </option>
+        </options>
+    </setting> -->
+    <setting>
+        <name>run_code_without_asking</name>
+        <desc>질의 없이 코드 수행</desc>
+        <type>checkbox</type>
+        <default>false</default>
+        <value>false</value>
+    </setting>
+    <setting>
+        <name>change_task_without_asking</name>
+        <desc>질의 없이 Task 변경</desc>
+        <type>checkbox</type>
+        <default>false</default>
+        <value>false</value>
+    </setting>
+    <setting>
+        <name>code_insert_position</name>
+        <desc>코드 삽입 위치 지정</desc>
+        <type>options</type>
+        <default>below</default>
+        <value>below</value>
+        <options>
+            <option>
+                <text>선택한 셀 아래에 추가</text>
+                <value>below</value>
+            </option>
+            <option>
+                <text>선택한 셀 위에 추가</text>
+                <value>above</value>
+            </option>
+            <option>
+                <text>선택한 셀에 덮어쓰기</text>
+                <value>overwrite</value>
+            </option>
+        </options>
+    </setting>
+    <setting>
+        <name>api_list_sort_by</name>
+        <desc>API 목록의 정렬 방식</desc>
+        <type>options</type>
+        <default>frequency</default>
+        <value>frequency</value>
+        <options>
+            <option>
+                <text>사용 빈도</text>
+                <value>frequency</value>
+            </option>
+            <option>
+                <text>알파벳 순</text>
+                <value>alphabet</value>
+            </option>
+        </options>
+    </setting>
+    <setting>
+        <name>default_variable_for_required</name>
+        <desc>필수 입력값에 임의 변수 사용 여부</desc>
+        <type>checkbox</type>
+        <default>false</default>
+        <value>false</value>
+    </setting>
+    <setting>
+        <name>auto_import_package</name>
+        <desc>패키지 자동 import</desc>
+        <type>checkbox</type>
+        <default>true</default>
+        <value>true</value>
+    </setting>
+</settings>

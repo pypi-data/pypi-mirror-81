@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: spotify-refresh-token-generator
+Version: 0.0.10
+Summary: A command-line utility to generate a long-term refresh token for the Spotify API
+Home-page: https://github.com/amamparo/spotify-refresh-token-generator
+Author: Aaron Mamparo
+Author-email: aaronmamparo@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >= 3.7
+Description-Content-Type: text/markdown

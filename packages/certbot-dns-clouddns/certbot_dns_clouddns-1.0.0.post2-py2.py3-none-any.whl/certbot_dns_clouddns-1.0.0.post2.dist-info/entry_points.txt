@@ -1,0 +1,3 @@
+[certbot.plugins]
+dns-clouddns=certbot_dns_clouddns.dns_clouddns:Authenticator
+

@@ -1,0 +1,17 @@
+.gitignore
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+.github/workflows/publish.yml
+dtool_lookup_server_plugin_scaffolding/__init__.py
+dtool_lookup_server_plugin_scaffolding/config.py
+dtool_lookup_server_plugin_scaffolding/utils.py
+dtool_lookup_server_plugin_scaffolding.egg-info/PKG-INFO
+dtool_lookup_server_plugin_scaffolding.egg-info/SOURCES.txt
+dtool_lookup_server_plugin_scaffolding.egg-info/dependency_links.txt
+dtool_lookup_server_plugin_scaffolding.egg-info/entry_points.txt
+dtool_lookup_server_plugin_scaffolding.egg-info/requires.txt
+dtool_lookup_server_plugin_scaffolding.egg-info/top_level.txt
+tests/__init__.py
+tests/test_config_routes.py

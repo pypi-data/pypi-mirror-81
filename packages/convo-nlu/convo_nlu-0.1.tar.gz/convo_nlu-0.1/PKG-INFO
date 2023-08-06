@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: convo_nlu
+Version: 0.1
+Summary: Convo: the AI powered chatbot API
+Home-page: UNKNOWN
+Author: OodlesTechnologies
+Author-email: chander.pandey@oodlestechnologies.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6,<3.8
+Provides-Extra: convert
+Provides-Extra: full
+Provides-Extra: spacy
+Provides-Extra: transformers

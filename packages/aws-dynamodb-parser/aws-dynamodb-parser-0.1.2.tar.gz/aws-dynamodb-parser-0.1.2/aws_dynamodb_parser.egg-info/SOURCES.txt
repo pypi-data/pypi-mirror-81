@@ -1,0 +1,9 @@
+README.md
+setup.py
+aws_dynamodb_parser/__init__.py
+aws_dynamodb_parser/utils.py
+aws_dynamodb_parser.egg-info/PKG-INFO
+aws_dynamodb_parser.egg-info/SOURCES.txt
+aws_dynamodb_parser.egg-info/dependency_links.txt
+aws_dynamodb_parser.egg-info/not-zip-safe
+aws_dynamodb_parser.egg-info/top_level.txt

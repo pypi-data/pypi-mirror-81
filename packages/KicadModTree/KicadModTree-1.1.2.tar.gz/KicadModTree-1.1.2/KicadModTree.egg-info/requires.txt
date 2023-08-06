@@ -1,0 +1,9 @@
+future
+pyyaml
+
+[test]
+pep8
+flake8
+unittest2
+nose2
+nose2-cov

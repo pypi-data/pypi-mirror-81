@@ -1,0 +1,4 @@
+torch
+mmcv-full
+torchvision
+pillow

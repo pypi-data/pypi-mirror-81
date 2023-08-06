@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+fastdev/__init__.py
+fastdev/dataset_utils.py
+fastdev/global_vars.py
+fastdev/io.py
+fastdev/transforms.py
+fastdev.egg-info/PKG-INFO
+fastdev.egg-info/SOURCES.txt
+fastdev.egg-info/dependency_links.txt
+fastdev.egg-info/not-zip-safe
+fastdev.egg-info/requires.txt
+fastdev.egg-info/top_level.txt

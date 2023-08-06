@@ -1,0 +1,11 @@
+flask_uauth/__init__.py,sha256=CQLqo22PipBK9K-t_hmFAW6dt5wUTYbkxaN1MTOi-6U,281
+flask_uauth/decorators.py,sha256=PiNqJGzZ8BqX-HEsPsPfPEzFyNf2V1IRdWnXHy-RT1o,395
+flask_uauth/mixins.py,sha256=8YWq_gVOWucfGuL_ydQsW5kA5MVzEP2Y4zX1lXO_K3o,217
+flask_uauth/proxies.py,sha256=vcwSp9cFL9ba6FoKh9D2iVDrH1lCc6tb8yjjOD1Boag,211
+flask_uauth/uauth.py,sha256=9wcwF1bQNNq5fVNNrWeh8iaZoF8-Sr-Z7leglgEExsw,3515
+flask_uauth-0.2.0.dist-info/LICENSE,sha256=FUlU1tx8LPqUPwBeBOlWGIXs_DY43xhDoeOSCq-DOec,1077
+flask_uauth-0.2.0.dist-info/METADATA,sha256=qig6Hbp0i1uyGQ6W4HnUHvDOfv14kxcc3ReD7pdeol8,1475
+flask_uauth-0.2.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+flask_uauth-0.2.0.dist-info/top_level.txt,sha256=IndGYAc1L3pZP0zvE_ib27lGIYhL2gfyXjdXCrYvkSU,12
+flask_uauth-0.2.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+flask_uauth-0.2.0.dist-info/RECORD,,

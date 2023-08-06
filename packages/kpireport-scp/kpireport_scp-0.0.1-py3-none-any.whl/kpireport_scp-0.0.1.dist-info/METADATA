@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: kpireport-scp
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Jason Anderson
+Author-email: diurnalist@gmail.com
+License: Prosperity Public License
+Platform: UNKNOWN
+Requires-Dist: kpireport
+Requires-Dist: kpireport-static
+Requires-Dist: fabric
+
+UNKNOWN
+
+

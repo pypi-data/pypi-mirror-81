@@ -1,0 +1,15 @@
+
+1) download file
+
+2) untar 
+tar xzvf galpak_1.x.y.gz
+
+3a) perform a system installation
+cd galpak/
+sudo python setup.py install
+
+OR
+3b)
+add the parent directory to PYTHONPATH
+
+

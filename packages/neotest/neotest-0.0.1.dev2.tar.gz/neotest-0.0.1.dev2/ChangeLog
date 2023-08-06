@@ -1,0 +1,6 @@
+CHANGES
+=======
+
+* added AUTHORS and ChangeLog
+* pbr: fixed pypi classifiers text
+* initial commit: neotest python app

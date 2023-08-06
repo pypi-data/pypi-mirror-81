@@ -1,0 +1,6 @@
+examples
+htmlcov
+media
+pyinspect
+scripts
+tests

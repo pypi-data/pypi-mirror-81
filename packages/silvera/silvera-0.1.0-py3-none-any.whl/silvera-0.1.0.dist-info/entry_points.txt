@@ -1,0 +1,9 @@
+[console_scripts]
+silvera = silvera.cli:silvera
+
+[silvera_commands]
+check = silvera.cli.checkcompile = silvera.cli.compilelist_generators = silvera.cli.list_generators
+
+[silvera_generators]
+java = silvera.generator.java_generator:java
+

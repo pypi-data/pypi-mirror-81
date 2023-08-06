@@ -1,0 +1,17 @@
+bacolonyzer/__init__.py,sha256=-fuOquJHyQzJBvFtIu-3yyIDnUrOzpa5DnHRbCoQnE4,22
+bacolonyzer/__main__.py,sha256=CddUPw9Kxb1KY2CVl9pHRdIjSixOW4koCzbNnwBEAqk,62
+bacolonyzer/analysis.py,sha256=wkb8sRB6B3WyElGF0wryZ8i-wV99u8FsugEcr8y841o,8168
+bacolonyzer/filesystem.py,sha256=O3sAuppMhQaLLXdhXONH0mDd3Nx__bRzIDVsbIgYye8,3459
+bacolonyzer/image_processing.py,sha256=WJJPAjQ62tGe8osTePOdJDb-UB0Dt-bGGd_OH5tKpmE,4288
+bacolonyzer/utils.py,sha256=zBXbpEcJtmUkYoYH-TUUOmFbKsbRCAMEK-zkk5G63zQ,3106
+bacolonyzer/commands/__init__.py,sha256=OmTo1E6EcD3JpFz7PAD-9V1AeXjE9_PElR-gyQqO-kA,52
+bacolonyzer/commands/abstract.py,sha256=6pKimUJLtGENw_JTaKDrsOCHtHp_yJr8ShhwpcDmMCE,1007
+bacolonyzer/commands/analyse.py,sha256=nBKFnJEkGvcegQL5GT4LdAYEEPAmzz78171kifpgONQ,3892
+bacolonyzer/commands/entrypoint.py,sha256=wcatsiNeolracZBN8ZMOhPgRUBUwuevEPZFxDVnzclo,944
+bacolonyzer/commands/rename_images.py,sha256=37IAlkpIxgod3nFRoUMpMfObkwprsuKkIqak28BFAik,4446
+bacolonyzer-1.1.7.dist-info/LICENSE,sha256=flUgRXs7dbS_75_lJ_FQeRrYp0KpoCMKCdQrmFXj9WM,1079
+bacolonyzer-1.1.7.dist-info/METADATA,sha256=mFeXjqXjcQyYb2R7A2JKLUct_WDKk8w-X_RHj2xA2cU,1242
+bacolonyzer-1.1.7.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+bacolonyzer-1.1.7.dist-info/entry_points.txt,sha256=1B1tkOispki9yY77LdxKcgEHcKFvKrxunwK0xlKNxDU,69
+bacolonyzer-1.1.7.dist-info/top_level.txt,sha256=DSAyKNgvE71enQAV0ex5g74PLEqQ4s4PbEZwErN9W3Y,12
+bacolonyzer-1.1.7.dist-info/RECORD,,

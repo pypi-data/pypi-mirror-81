@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pyboss
+Version: 0.0.2
+Summary: Manage your app's configurations from multiple sources, e.g. Env, File, Redis, MongoDB, ...
+Home-page: https://github.com/ehsundar/pyboss
+Author: Amir Ehsandar
+Author-email: ehsandaramir@gmail.com
+License: GPL-3.0-only
+Description: UNKNOWN
+Platform: UNKNOWN

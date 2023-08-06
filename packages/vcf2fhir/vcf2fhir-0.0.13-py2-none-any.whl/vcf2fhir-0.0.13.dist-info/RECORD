@@ -1,0 +1,12 @@
+vcf2fhir/__init__.py,sha256=OCsdbIhvGm7idtz53FBG4cMfBLnHrVADCJK-KOykMdk,40
+vcf2fhir/common.py,sha256=djtsIhvqGZxeP2oTVeVBQQ74hPaD0harhH04yLgqcoc,3572
+vcf2fhir/converter.py,sha256=4CHTmo2K3qJxu2chDk7VQty9GuBEtZcSXSdpDpIg1kk,6509
+vcf2fhir/fhir_helper.py,sha256=3eXohTTE58LW3QlwsVy82KSSiKTSXFDE93WUFy1VLPo,18309
+vcf2fhir/gene_ref_seq.py,sha256=dd7-y1mZXndvU8nM0nmMPW-LvcOOrasZafPwgve5n70,1338
+vcf2fhir/json_generator.py,sha256=ZZtCQjm9X1Iwc2DTcC1X4itnhwBBP95vpTEGxEYzhOA,6672
+vcf2fhir/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vcf2fhir/test/test_vcf2fhir.py,sha256=muGAcyVYeAmH-CQrXnY7OliaA0m4E7BQM6JF-8glLKw,21543
+vcf2fhir-0.0.13.dist-info/METADATA,sha256=o9GZXhP4aoJ4hUKsQI2BykxA90zURR-sXopPNA_SwLM,3866
+vcf2fhir-0.0.13.dist-info/RECORD,,
+vcf2fhir-0.0.13.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+vcf2fhir-0.0.13.dist-info/top_level.txt,sha256=DvQvr-uvpi1lNKZQTDXzbxSLLoAyd42Pxk1n9Qlu0O0,9

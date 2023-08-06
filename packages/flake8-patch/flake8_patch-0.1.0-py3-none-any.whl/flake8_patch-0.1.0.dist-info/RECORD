@@ -1,0 +1,10 @@
+flake8_patch/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+flake8_patch/errors.py,sha256=y709HXh4AuDugsJ2QGWSyaUFU-9M9ILo4l_KJEiOE3c,215
+flake8_patch/plugin.py,sha256=P1t3L7A6BMXB81VoOCIhebg8qyQ5I7-9UJg2HqJZiKY,262
+flake8_patch/visitors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flake8_patch/visitors/assignment.py,sha256=eOxfUmK2dmjU1BuVPxy5jsgd_TgUQKahnV0gfQTZctg,1730
+flake8_patch-0.1.0.dist-info/entry_points.txt,sha256=hVDssa4pxDuJHZ0MgGQdlvzJBupCz-_OwkAsHJUZEH8,57
+flake8_patch-0.1.0.dist-info/LICENSE,sha256=uBhxqqA1h6UNnXMzYuiWJvgkJzTWBjc9wusM7X7YpXQ,1067
+flake8_patch-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+flake8_patch-0.1.0.dist-info/METADATA,sha256=kUNpHodxb4CLeU3DLSzfTCOEdQxlBt64G1b9y4I-hnA,1975
+flake8_patch-0.1.0.dist-info/RECORD,,

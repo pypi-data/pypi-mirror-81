@@ -1,0 +1,7 @@
+plain_kafka/__init__.py,sha256=2LOr44MLuPdIJe5tIPtbG0m5KQfdSSiu094k8PJqLGw,197
+plain_kafka/consumer.py,sha256=HgzP04rkrPjaxz0WLeV3fqYZ39JtkBIc6LHpJjOTuec,10082
+plain_kafka/logger.py,sha256=wblC5892wBDDVSJ53PD_e3pBAu0UxcWq12CrJBNJueY,175
+plain_kafka/producer.py,sha256=GwXnZqtyueiaAi94hLu0Dr4YipBId_Tx7tF0K8Mg6Wc,3089
+plain_kafka-0.0.1.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+plain_kafka-0.0.1.dist-info/METADATA,sha256=raK4XWjwaVrz2vvtaXdR3BKph1S8BSTxj1l4srVhaxs,335
+plain_kafka-0.0.1.dist-info/RECORD,,

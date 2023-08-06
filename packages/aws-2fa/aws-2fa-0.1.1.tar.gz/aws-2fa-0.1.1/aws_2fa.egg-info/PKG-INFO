@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: aws-2fa
+Version: 0.1.1
+Summary: Manage and update aws-cli 2fa creedentials
+Home-page: https://github.com/zetahernandez/aws-2fa
+Author: Zeta Hernandez
+Author-email: zetahernandez@gmail.com
+License: BSD
+Description: 
+        Manage and update aws-cli 2fa creedentials
+        
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

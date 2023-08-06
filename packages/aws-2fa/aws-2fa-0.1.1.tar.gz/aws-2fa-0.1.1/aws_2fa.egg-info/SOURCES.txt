@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+aws_2fa/__init__.py
+aws_2fa/cli.py
+aws_2fa.egg-info/PKG-INFO
+aws_2fa.egg-info/SOURCES.txt
+aws_2fa.egg-info/dependency_links.txt
+aws_2fa.egg-info/entry_points.txt
+aws_2fa.egg-info/not-zip-safe
+aws_2fa.egg-info/requires.txt
+aws_2fa.egg-info/top_level.txt

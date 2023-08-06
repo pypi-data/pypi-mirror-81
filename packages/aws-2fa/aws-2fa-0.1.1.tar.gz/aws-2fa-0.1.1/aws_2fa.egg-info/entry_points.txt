@@ -1,0 +1,3 @@
+[console_scripts]
+aws-2fa = aws_2fa.cli:main
+

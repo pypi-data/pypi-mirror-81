@@ -1,0 +1,20 @@
+astropy
+networkx
+numpy
+scipy
+pyyaml
+skypy-data@ https://github.com/skypyproject/skypy-data/archive/master.tar.gz
+
+[all]
+camb
+classy@ git+https://github.com/skypyproject/classy.git@v2.8.1#egg=classy
+specutils
+
+[docs]
+sphinx-astropy
+matplotlib
+
+[test]
+pytest-astropy
+pytest-rerunfailures
+specutils

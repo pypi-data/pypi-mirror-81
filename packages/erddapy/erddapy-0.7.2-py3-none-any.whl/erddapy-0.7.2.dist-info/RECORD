@@ -1,0 +1,11 @@
+erddapy/__init__.py,sha256=o7gNKSNz_DZXA5xcygEYXukbx0opb9orvX2l04NUqHI,212
+erddapy/_version.py,sha256=ISWV9_SJtaCeILz1FAMYHSjVkHbV08KnnT23Ww0_w-o,21
+erddapy/erddaps.json,sha256=juG3O98qJx5ZdhNT1hUhCRswFxQAAeTOOHCL-Av12P4,8023
+erddapy/erddapy.py,sha256=j9cTskTsjmNz4rakZ5dChuSu72Wq2g4QbJATK1yX3J8,17036
+erddapy/utilities.py,sha256=hQUjoq_nz6-cCrCQY6VUBOBUw_aEJBJFwlsIENICueo,4502
+erddapy-0.7.2.dist-info/LICENSE.txt,sha256=dx5v6lpBE0oubv-tUkqDtt1ftCUigXwJV1o8hinjuCI,1477
+erddapy-0.7.2.dist-info/METADATA,sha256=xbKW7g536MZfplPbssQHaid_U49BFP3uvFNmJbkIdbo,4151
+erddapy-0.7.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+erddapy-0.7.2.dist-info/top_level.txt,sha256=rTvGlTha0JR6peBrTFl6FBEictBx1Trq7fT1rBEjr5Q,8
+erddapy-0.7.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+erddapy-0.7.2.dist-info/RECORD,,

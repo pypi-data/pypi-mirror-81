@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: excelReader
+Version: 0.0.1
+Summary: Read en excel file throgh google drive and plot it
+Home-page: https://github.com/Nishant12-star/excelReader
+Author: Nishant Sharma
+Author-email: nishantsharma68939@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# excelReader
+
+

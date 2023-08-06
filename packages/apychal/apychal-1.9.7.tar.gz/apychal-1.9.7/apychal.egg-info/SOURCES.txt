@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+achallonge/__init__.py
+achallonge/api.py
+achallonge/attachments.py
+achallonge/matches.py
+achallonge/participants.py
+achallonge/tournaments.py
+apychal.egg-info/PKG-INFO
+apychal.egg-info/SOURCES.txt
+apychal.egg-info/dependency_links.txt
+apychal.egg-info/requires.txt
+apychal.egg-info/top_level.txt

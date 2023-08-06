@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: moshimoshi
+Version: 0.2.1
+Summary: call a function in any python scripts using a formated string or json
+Home-page: https://github.com/CircleOnCircles/moshimoshi
+License: ISC
+Author: Nutchanon Ninyawee
+Author-email: me@nutchanon.org
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: loguru (>=0.5.3,<0.6.0)
+Requires-Dist: parse_with_dot_access (>=1.17.1,<2.0.0)
+Requires-Dist: pydantic (>=1.6.1,<2.0.0)
+Project-URL: Repository, https://github.com/CircleOnCircles/moshimoshi
+Description-Content-Type: text/markdown
+
+# moshi moshi~
+> call a function in any python scripts using a formated string or json
+
+## TLDR
+```bash
+pip install moshimoshi
+```
+
+```python
+from moshimoshi import moshi
+import json
+
+moshi('flows.jobseeker:start', 123, sex="male")
+
+async def foo():
+    await moshi.moshi('flows.jobseeker:start', 123, sex="male")
+
+json_format = json.dumps({
+    "call": 'flows.jobseeker:start',
+    "args": [123],
+    "kwargs": {
+        "sex": "male"
+    }
+})
+
+moshi(json_format)
+```
+
+## Why it is calling 'Moshi Moshiii ~'?
+It is the most ***kawaii*** way of call something, no exception to python function. This comes from my waifu named 'Kocho Shinobu', Demo Slayer.
+> ⛑ Spoil Alert: This Video contain scenes and conversation of deep episodes.
+
+[![Kocho Shinobu Moshi Moshi](https://img.youtube.com/vi/ZlhwmiCT9ao/0.jpg)](https://www.youtube.com/watch?v=ZlhwmiCT9ao)]
+

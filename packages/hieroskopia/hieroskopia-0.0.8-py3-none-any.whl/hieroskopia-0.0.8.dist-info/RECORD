@@ -1,0 +1,14 @@
+hieroskopia/__init__.py,sha256=GNfz6zANDSNgEhG7FDDsBe_OrpWlI58hK8_gRPEluxM,106
+hieroskopia/date_analyser.py,sha256=5B9QNwFBk2G_jrQBwrVCJlETTDMf-wlTIbwurWMeqG8,3489
+hieroskopia/numeric_analyser.py,sha256=aFrv6c23cWKrPqqV3SBnOZlKa1Mgx3n1K5xLtKeUkvk,2207
+hieroskopia/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hieroskopia/tests/test_date_analyser.py,sha256=1UWmWIihWt8s6wHQ66VIMcI4FoN1jEa7i_dMlDJ5D7Y,1926
+hieroskopia/tests/test_numeric_analyser.py,sha256=v8rwqYbGoeBBJsTG93yX_6bOEpfJijCVexuEONYVi68,1861
+hieroskopia/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hieroskopia/utils/evaluator.py,sha256=7Ae72QGzwSxap-e1V95ec7KQbJBHyTKKsZpibxCudPA,495
+hieroskopia-0.0.8.dist-info/AUTHORS,sha256=IlU3RNNsHaiYLlPtsFUnaHB7aVEkgbdL22IQjOBS_Jo,196
+hieroskopia-0.0.8.dist-info/LICENSE,sha256=ZhoITZOlqCoI8N_OKs2jjgucyKrhuY6aE6_0srfCquE,1065
+hieroskopia-0.0.8.dist-info/METADATA,sha256=gB-D9y4tC-BEOFnkL4O2zjuRiJ_cFXd6svndzXTEkMY,2630
+hieroskopia-0.0.8.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+hieroskopia-0.0.8.dist-info/top_level.txt,sha256=J59R8416yYNxIFWbwDsqFI9RwUpiqSHyRXzv4_Dho-c,12
+hieroskopia-0.0.8.dist-info/RECORD,,

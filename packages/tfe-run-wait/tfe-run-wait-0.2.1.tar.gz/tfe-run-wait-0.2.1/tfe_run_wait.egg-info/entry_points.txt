@@ -1,0 +1,3 @@
+[console_scripts]
+tfe-run-wait = tfe_run_wait.cli:main
+

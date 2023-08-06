@@ -1,0 +1,17 @@
+boto3
+google-cloud-storage>=1.24.0
+six>=1.15.0
+
+[dev]
+pytest
+pytest-mock
+moto
+wheel
+bpython
+pylint
+black
+
+[test]
+pytest
+pytest-mock
+moto

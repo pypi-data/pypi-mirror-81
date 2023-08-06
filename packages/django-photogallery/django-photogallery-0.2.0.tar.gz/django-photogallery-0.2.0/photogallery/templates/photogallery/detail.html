@@ -1,0 +1,52 @@
+{% load static %}
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="{% static 'photogallery/detail.css' %}">
+
+
+<nav class="navbar navbar-expand fixed-top navbar-dark bg-dark">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'photogallery:index'%}">All pictures</a>
+        </li>
+    </div>
+  </nav>
+
+  <a href="{% url 'photogallery:next' picture.id %}" >
+    <button class="btn w-5 h-90 position-fixed-right mt-6vw" style="background-color: rgba(97, 112, 119, 0.589);">
+      <svg width="9vw" height="9vw" viewBox="0 0 16 16" class="bi bi-arrow-right-short" style="position:fixed !important;right:-1vw !important" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+      </svg>
+    </button>
+  </a>
+
+
+<div class="container mt-5 w-90 h-90">
+  <div class="card w-35 mh-90 rounded-0 float-left text-white border-0" style="background-color: rgb(41, 43, 44);">
+    <div class="card-body">
+        <h5 class="card-title">{{picture.name}}</h5>               
+        <p class="card-text">{{picture.description}}</p>
+        <p class="card-text">{{picture.pub_date}}</p>
+        <p class="card-text"><a href="{{picture.source}}">Source of Picture</a><br><a href={% get_media_prefix %}{{picture.picture}}>Show file</a></p>
+        <p class="card-text"></p>
+    </div>
+  </div> 
+
+  <div class="card w-65 mh-100 float-left rounded-0 border-0" style="background-color: rgb(41, 43, 44);">
+    {% if picture.url_height < 1000 or picture.url_height < picture.url_width %}
+      <img src={% get_media_prefix %}{{picture.picture}} class="card-img-top rounded">
+    {% else %}
+      <img src={% get_media_prefix %}{{picture.picture}} class="card-img-top w-50 rounded" >
+    {% endif %}  
+  </div>
+</div>
+
+<a href="{% url 'photogallery:prev' picture.id %}" >
+  <button class="btn w-5 h-90 position-fixed-left mt-6vw" style="background-color: rgba(97, 112, 119, 0.589);">
+    <svg width="9vw" height="9vw" viewBox="0 0 16 16" class="bi bi-arrow-left-short" style="position:fixed !important;left:-1vw !important" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"/>
+    </svg>
+  </button>
+</a>
+

@@ -1,0 +1,21 @@
+{% macro admin_pagination(pagination) %}
+  {% if pagination['has_prev'] %}
+  <a  href="{{ url_for('.index', page=pagination.get('prev_page'), **g.filter_params) }}" 
+          class="button is-small is-warning">&lt;</a>
+  {% else %}
+      <a href='#' class="button is-small is-warning" disabled>&lt;</a>
+  {% endif %}
+
+  &nbsp; &nbsp;
+
+  {% if pagination['has_next'] %}
+  <a href="{{ url_for('.index', page=pagination.get('next_page'), **g.filter_params) }}" 
+     class="button is-small is-warning"> &gt;</a>
+  {% else %}
+  <a href="#" class="button is-small is-warning" disabled> &gt;</a>
+  {% endif %}
+
+  &nbsp; &nbsp;
+
+  <p class='content is-small'><strong>{{ pagination.get('start') }} - {{ pagination.get('end') }}</strong> of <strong>{{ pagination.get('total') }}</strong> items</p>
+{% endmacro %}

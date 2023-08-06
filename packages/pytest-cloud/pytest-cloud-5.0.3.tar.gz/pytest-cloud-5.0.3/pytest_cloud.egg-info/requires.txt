@@ -1,0 +1,7 @@
+psutil
+pytest>=3.6.1
+pytest-xdist>=1.26.0
+setuptools
+six
+timeout-decorator>=0.3.2
+virtualenv

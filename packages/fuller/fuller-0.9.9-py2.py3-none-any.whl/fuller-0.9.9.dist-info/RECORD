@@ -1,0 +1,11 @@
+fuller/__init__.py,sha256=vJIIlYma5kaMz9zxIYrbwI3GiXliL6k4y310BbvP6II,383
+fuller/generator.py,sha256=_ThhYLMp7_NZ_xVoaEjYs9WlNSuuWnodF92m1dhV3GE,43230
+fuller/metrics.py,sha256=RqIkpZFAUuMTo-m5QkpmTh5Gbiv979lcNDGze731uQw,3484
+fuller/mrfRec.py,sha256=QpuiJAP5IH8OnGGZT0sQ3wXSsP0r09IrhgNmpYpDvHo,34527
+fuller/reconstruction_mrf2d.py,sha256=lTM5inM0pXQHDf4Id1rag45-sgIvQtKWq58Qk-4-CsM,4005
+fuller/utils.py,sha256=TXbNDBV2T6thDXqjQAINwayXn1z7RPYtd_IWOViXSgY,15050
+fuller-0.9.9.dist-info/LICENSE.md,sha256=mkdp3q_6GVx9tR6XynaNkKEzcFLZxjbm3EEJegqW8NY,1093
+fuller-0.9.9.dist-info/METADATA,sha256=TlFr-tGP7OYoD-M-qgJUbxeXyzF2hcalbrZ_1kood40,6158
+fuller-0.9.9.dist-info/WHEEL,sha256=gxPaqcqKPLUXaSAKwmfHO7_iAOlVvmp33DewnUluBB8,116
+fuller-0.9.9.dist-info/top_level.txt,sha256=IA_Ro1i8fXbvuOCW37IOfTX042BCfsIMokplUf_ftt0,7
+fuller-0.9.9.dist-info/RECORD,,

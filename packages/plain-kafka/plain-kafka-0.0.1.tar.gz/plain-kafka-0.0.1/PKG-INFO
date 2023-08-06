@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: plain-kafka
+Version: 0.0.1
+Summary: Producer and consumer (worker) for kafka
+Author: Alekhin Ivan
+Author-email: i.a.alekhin@gmai.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: confluent-kafka (>=1.5.0,<2.0.0)

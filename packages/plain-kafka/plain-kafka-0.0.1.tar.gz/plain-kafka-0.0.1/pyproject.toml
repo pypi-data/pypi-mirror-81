@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "plain-kafka"
+version = "0.0.1"
+description = "Producer and consumer (worker) for kafka"
+authors = ["Alekhin Ivan <i.a.alekhin@gmai.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+confluent-kafka = "^1.5.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+marshmallow-dataclass = "^7.0.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

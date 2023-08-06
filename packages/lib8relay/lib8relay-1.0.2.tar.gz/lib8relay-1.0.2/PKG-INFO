@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: lib8relay
+Version: 1.0.2
+Summary: Library to control Sequent Microsystems 8-RELAY Card
+Home-page: https://sequentmicrosystems.com
+Author: Sequent Microsystems
+Author-email: olcitu@gmail.com
+License: MIT
+Download-URL: https://github.com/alexburcea2877/lib8relay/archive/v_1_0_2.tar.gz
+Description: UNKNOWN
+Keywords: relay,raspberry,power
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6

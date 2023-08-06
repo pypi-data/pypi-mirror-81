@@ -1,0 +1,46 @@
+Metadata-Version: 1.2
+Name: qblox-instruments
+Version: 0.1.1
+Summary: Instrument drivers for Qblox devices.
+Home-page: https://gitlab.com/qblox/packages/software/qblox_instruments
+Author: QBlox BV
+Author-email: support@qblox.com
+License: BSD 4-Clause
+Download-URL: https://gitlab.com/qblox/packages/software/qblox_instruments/-/archive/v0.1.1/qblox_instruments-v0.1.1.zip
+Description: ================================
+        Readme
+        ================================
+        
+        This repository contains Qblox instrument drivers, tutorials and documention.
+        
+        Documentation: https://qblox-qblox-instruments.readthedocs-hosted.com/en/master/
+        
+        
+        =======
+        Credits
+        =======
+        
+        Developers
+        ----------------
+        
+        * Jordy Gloudemans <jgloudemans@qblox.com>
+        
+        Contributors
+        ------------
+        
+        None yet. Why not be the first?
+        
+        
+        =======
+        History
+        =======
+Keywords: Qblox,QCoDeS,instrument,driver
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7

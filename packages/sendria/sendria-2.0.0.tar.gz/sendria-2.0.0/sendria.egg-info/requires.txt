@@ -1,0 +1,15 @@
+aiohttp
+aiohttp-basicauth
+aiohttp-jinja2
+aiosmtpd
+aiosqlite
+beautifulsoup4
+cssmin
+html5lib
+lockfile
+passlib
+python-daemon
+pytz
+pyscss
+structlog
+webassets

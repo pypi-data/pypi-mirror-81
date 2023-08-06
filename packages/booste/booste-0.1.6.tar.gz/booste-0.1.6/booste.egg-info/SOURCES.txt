@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+booste/__init__.py
+booste/package.py
+booste.egg-info/PKG-INFO
+booste.egg-info/SOURCES.txt
+booste.egg-info/dependency_links.txt
+booste.egg-info/requires.txt
+booste.egg-info/top_level.txt

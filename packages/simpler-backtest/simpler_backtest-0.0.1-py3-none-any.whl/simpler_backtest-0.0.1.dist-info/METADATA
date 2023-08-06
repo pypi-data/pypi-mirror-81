@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: simpler-backtest
+Version: 0.0.1
+Summary: Import our cryptodata from Data1 server, use herlper functions and perform backtests
+Home-page: https://github.com/pnmartinez/simpler_backtest/tree/master/
+Author: Pablo Navarro
+Author-email: navarro@cresmartadvisor.com
+License: Apache Software License 2.0
+Keywords: crypto
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# nbdev template
+
+Use this template to more easily create your nbdev project.
+
+
+

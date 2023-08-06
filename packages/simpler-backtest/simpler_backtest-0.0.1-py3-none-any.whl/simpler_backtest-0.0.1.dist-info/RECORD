@@ -1,0 +1,13 @@
+backtesting/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+backtesting/_nbdev.py,sha256=2FJOpcmVVyJCZDWxsMDI15KulO4xZm0hQ_IhOohDnZw,292
+backtesting/core.py,sha256=nHJRmrNLZ-Mpi-4HwSpAeNEpac0AaSpQ6BcRUVEupaE,101
+simpler_backtest/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+simpler_backtest/_nbdev.py,sha256=1R33XBxNWYemqg6k6MJuDKrKUPup99ZZlQgJ9_Uau5M,916
+simpler_backtest/core.py,sha256=MOq-lx5coVBKoBxZhLEOFf6MlK4pf_e2TASiMBbTmpA,16079
+simpler_backtest/indicators.py,sha256=U6a_Gd2c5fsIVj-_7GSF974hgXauMdWdj8h-PDCC10s,675
+simpler_backtest-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+simpler_backtest-0.0.1.dist-info/METADATA,sha256=iSKfCNC-Q41ZAmOZM6BiGQyIni9C8ZwSBEo93ZIuZ54,847
+simpler_backtest-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+simpler_backtest-0.0.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+simpler_backtest-0.0.1.dist-info/top_level.txt,sha256=m78tSEbf50nOh1fl_exjBJ8DoHGFfzKB0NMkhGnHd9g,29
+simpler_backtest-0.0.1.dist-info/RECORD,,

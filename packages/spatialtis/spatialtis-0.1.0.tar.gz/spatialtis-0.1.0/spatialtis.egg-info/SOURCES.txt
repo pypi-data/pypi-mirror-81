@@ -1,0 +1,10 @@
+README.md
+setup.py
+spatialtis/__init__.py
+spatialtis/config.py
+spatialtis/utils.py
+spatialtis.egg-info/PKG-INFO
+spatialtis.egg-info/SOURCES.txt
+spatialtis.egg-info/dependency_links.txt
+spatialtis.egg-info/requires.txt
+spatialtis.egg-info/top_level.txt

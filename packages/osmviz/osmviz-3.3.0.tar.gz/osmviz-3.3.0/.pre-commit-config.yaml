@@ -1,0 +1,46 @@
+repos:
+  - repo: https://github.com/asottile/pyupgrade
+    rev: v2.7.2
+    hooks:
+      - id: pyupgrade
+        args: ["--py36-plus"]
+
+  - repo: https://github.com/psf/black
+    rev: 20.8b1
+    hooks:
+      - id: black
+        args: ["--target-version", "py36"]
+        exclude: ^html/
+        # override until resolved: https://github.com/psf/black/issues/402
+        files: \.pyi?$
+        types: []
+
+  - repo: https://github.com/PyCQA/isort
+    rev: 5.6.1
+    hooks:
+      - id: isort
+
+  - repo: https://gitlab.com/pycqa/flake8
+    rev: 3.8.4
+    hooks:
+      - id: flake8
+        additional_dependencies: [flake8-2020, flake8-implicit-str-concat]
+        exclude: ^html/
+
+  - repo: https://github.com/pre-commit/pygrep-hooks
+    rev: v1.6.0
+    hooks:
+      - id: python-check-blanket-noqa
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v3.2.0
+    hooks:
+      - id: check-merge-conflict
+      - id: check-toml
+      - id: check-yaml
+
+  # Skip whilst it strips comments
+  #  - repo: https://github.com/tox-dev/tox-ini-fmt
+  #    rev: 0.5.0
+  #    hooks:
+  #      - id: tox-ini-fmt

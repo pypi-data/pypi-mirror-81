@@ -1,0 +1,15 @@
+numpy
+matplotlib
+pandas
+dill
+nested_dict
+tqdm
+scipy
+scikit-learn>=0.23.2
+geoarray
+seaborn
+pyyaml
+tabulate
+specclassify>=0.2.0
+pyrsr
+natsort

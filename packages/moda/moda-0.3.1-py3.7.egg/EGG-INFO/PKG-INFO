@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: moda
+Version: 0.3.1
+Summary: Tools for analyzing trending topics
+Home-page: https://www.github.com/omri374/moda
+Author: Omri Mendels
+Author-email: omri.mendels@microsoft.com
+License: MIT
+Description: Tools for analyzing trending topics
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

@@ -1,0 +1,10 @@
+numpy
+pandas
+stldecompose
+statsmodels==0.10.2
+comet_ml
+requests
+matplotlib
+pytest
+scikit_learn==0.23.0
+pytest-cov

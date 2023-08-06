@@ -1,0 +1,17 @@
+piri/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+piri/casting.py,sha256=EhWtvLV1a7BzsYqiWJmlBKT0MVp97hkC0FHOVC6D3Bc,9066
+piri/collection_handlers.py,sha256=xfa9npOqzuV3k2sryjCMXE-8MWCmUJvImnzgjlgbOU8,2620
+piri/common.py,sha256=aWOTgyHgu_O3lNzFVyFvVPhtZq6sADXQjaqT2vUWhR0,1248
+piri/constants.py,sha256=511iAuYhXmK9PuvefZQNOdnzOYiKT72yx70rnKqhNQ0,1415
+piri/functions.py,sha256=_AG-bGG2RggaMmp-p6f1kz-Uak6v3e3eE0RlcqBa-M0,6567
+piri/handlers.py,sha256=zpSnfZi9pLd6Qr3zPgne9KR5aAxiigJAmutwIvPqlWU,3656
+piri/iso.py,sha256=FqzqdJAIimuKWUoR4pVaavSaV5u5gnYffz5Rx6mJ6nY,3278
+piri/mapper.py,sha256=zyN4miwXxCxSxYQIEM_jSPZz5yRlPQSGX-n4H9k_gFs,4932
+piri/process.py,sha256=MtxvbOGi-Ybm2Z93ySuE0-W6TkLEh-x3YEhZDuWwBe8,1073
+piri/schema.json,sha256=VxeSXxQ4XGZt60iD8yqJcJTQQrBkfXM__-e7Oo6k17c,7769
+piri/schema.py,sha256=_M60Vu1TLeN3XSIsX-x3x5OZtuOriEgVlRE9FttjE48,943
+piri/valuetypes.py,sha256=2Fv6Z49b22Q3Wi_NYmF9xYeHAClz8dCIlMQNyiF7Vww,857
+piri-2.1.0.dist-info/LICENSE,sha256=xEjfPW2t6b-h5c2XeEHdsvHEn4Q_cmCmE8rNCvqOAeA,1092
+piri-2.1.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+piri-2.1.0.dist-info/METADATA,sha256=TlKMcKhU3pej1Wil58jCYf8QeyL1TJCKgT3Jw4ZX68A,7432
+piri-2.1.0.dist-info/RECORD,,

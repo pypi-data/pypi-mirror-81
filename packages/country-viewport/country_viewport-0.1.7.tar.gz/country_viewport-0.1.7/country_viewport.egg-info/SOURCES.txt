@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+country_viewport/__init__.py
+country_viewport.egg-info/PKG-INFO
+country_viewport.egg-info/SOURCES.txt
+country_viewport.egg-info/dependency_links.txt
+country_viewport.egg-info/top_level.txt

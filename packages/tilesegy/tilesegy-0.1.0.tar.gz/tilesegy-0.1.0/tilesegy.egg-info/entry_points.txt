@@ -1,0 +1,3 @@
+[console_scripts]
+segy2tiledb = tilesegy.cli:main
+

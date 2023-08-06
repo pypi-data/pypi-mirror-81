@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+tilesegy/__init__.py
+tilesegy/cli.py
+tilesegy/convert.py
+tilesegy/indexables.py
+tilesegy/singledispatchmethod.py
+tilesegy/utils.py
+tilesegy.egg-info/PKG-INFO
+tilesegy.egg-info/SOURCES.txt
+tilesegy.egg-info/dependency_links.txt
+tilesegy.egg-info/entry_points.txt
+tilesegy.egg-info/requires.txt
+tilesegy.egg-info/top_level.txt

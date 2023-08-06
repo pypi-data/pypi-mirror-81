@@ -1,0 +1,4 @@
+packaging>=16.0
+
+[:python_version < "3.7"]
+dataclasses

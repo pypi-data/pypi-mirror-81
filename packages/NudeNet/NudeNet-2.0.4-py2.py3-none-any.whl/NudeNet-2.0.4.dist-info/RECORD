@@ -1,0 +1,11 @@
+nudenet/__init__.py,sha256=dPuULO9Hj7J2iKr2dHV0xzmXlKbAuB-Rwp-9ZYVoN3o,166
+nudenet/classifier.py,sha256=VGA-xu_yVQByuFOHPyYHQJiGn1TY1bdO0u8rrqyInwU,4740
+nudenet/detector.py,sha256=5js0gi9okiNSDSA_Nxszd77Td6IOIhxtv0_ZeR3zOEk,6470
+nudenet/image_utils.py,sha256=wtjOUbOxORAtSLMG7EEtAwK1Cd4jjXayZe2yA44Z9nw,4121
+nudenet/lite_classifier.py,sha256=V0zmUXiwC_X7cOolvfqr6x-VUjXJF2anAn6WS76pixk,1774
+nudenet/video_utils.py,sha256=co3esujSeUY-GAwekl9URdSCyY9kohRYepRAWJs1Zik,3689
+NudeNet-2.0.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+NudeNet-2.0.4.dist-info/METADATA,sha256=AX_rjWa1YUt0rMPR-FCwFe9dPWOXSLVZV88ypllPwIU,6620
+NudeNet-2.0.4.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+NudeNet-2.0.4.dist-info/top_level.txt,sha256=Ui7TIqYSXY_-Att9PtFyZ1-1YwvQPCcs5KwHYx12OvI,8
+NudeNet-2.0.4.dist-info/RECORD,,

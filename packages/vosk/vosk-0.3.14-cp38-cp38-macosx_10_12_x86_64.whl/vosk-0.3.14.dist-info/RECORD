@@ -1,0 +1,7 @@
+vosk/__init__.py,sha256=ysaEVitPgA4GWu4UhQrXmltn3Jlb3ql34Zh12z0fCmM,65
+vosk/_vosk.cpython-38-darwin.so,sha256=-0sBeqXWkkvpf7vO_m2ilE9qfWHyiEtN7MRfyQNqqpU,5705612
+vosk/vosk.py,sha256=I3zQ5sxwRrf7nzy5WlEEBW7kdIukOHi5zXblKxNfEdY,4842
+vosk-0.3.14.dist-info/METADATA,sha256=txd-a6aWQnqmTskId3XP1g6-yfxjrQ1na6WqxfYY5ck,1627
+vosk-0.3.14.dist-info/WHEEL,sha256=u8JZr6OtyARrIMPXNGf9nKrBYtdOXIAQUPC2VRfPeY8,110
+vosk-0.3.14.dist-info/top_level.txt,sha256=VyhCKFInHWKAvlbaAYoqHJ2Y35GrQNYA-Ul2CRc30Uk,5
+vosk-0.3.14.dist-info/RECORD,,

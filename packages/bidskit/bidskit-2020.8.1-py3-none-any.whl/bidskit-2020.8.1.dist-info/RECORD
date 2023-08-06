@@ -1,0 +1,12 @@
+bidskit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bidskit/__main__.py,sha256=rTz-TqMtiAfVB9-ljRBDxbrlT8JG1EPhQ1AhIcCGMiA,9838
+bidskit/bidstree.py,sha256=C81I44mw_xB-rW5Y7UhVnBzIWlebP1VDMwMwuZGIXrI,6486
+bidskit/io.py,sha256=sQTflcD70M2wZ_MGHN6XT5YiK2ekKnmBTuVcorkhbOU,9921
+bidskit/organize.py,sha256=kY6k1_sgi5V8ysyEgP6vn4FwCHcmQnMGGVN1gwpEbAo,7056
+bidskit/translate.py,sha256=NLwSXQlxh17Eak5Lznf1k8gNfmB-wJVVzfo2LStEuTM,24769
+bidskit-2020.8.1.dist-info/LICENSE.md,sha256=4pMrUY3kvm9bcoI_eixhIX4sQivTDUdY7THimjLiAhY,1073
+bidskit-2020.8.1.dist-info/METADATA,sha256=RrRPKYFNb6MIUDgxYvTmBpIru-sE7_kE0T21q0uWA8Q,1796
+bidskit-2020.8.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+bidskit-2020.8.1.dist-info/entry_points.txt,sha256=mx8ofINpYvx-SQ4sS7FkZ9w8qZJBDutnLyYKWOTdNTo,51
+bidskit-2020.8.1.dist-info/top_level.txt,sha256=r3z0ae2JMfTHSBu4ZtNJMfEdGvtVs9emnDV_p_xzZP8,8
+bidskit-2020.8.1.dist-info/RECORD,,

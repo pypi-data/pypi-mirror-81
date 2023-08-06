@@ -1,0 +1,13 @@
+beautifulsoup4
+gensim==3.7.3
+news-please
+pytesseract
+requests==2.22.0
+spello==1.2.0
+wget==3.2
+
+[dev]
+
+[docs]
+
+[testing]

@@ -1,0 +1,12 @@
+README.md
+setup.py
+colorfultable/__init__.py
+colorfultable/colors.py
+colorfultable/ctcore.py
+colorfultable/demo.py
+colorfultable/test.py
+colorfultable.egg-info/PKG-INFO
+colorfultable.egg-info/SOURCES.txt
+colorfultable.egg-info/dependency_links.txt
+colorfultable.egg-info/requires.txt
+colorfultable.egg-info/top_level.txt

@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: nuclease-off-target
+Version: 0.2
+Summary: Analyzing Nuclease Off-Target Sites and Activity
+Home-page: https://github.com/eli88fine/nuclease-off-target
+Author: Eli Fine
+Author-email: ejfine@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: requests (>=2.24.0)
+Requires-Dist: biopython (>=1.78)
+Requires-Dist: beautifulsoup4 (>=4.9.3)
+Requires-Dist: parasail (>=1.2)
+Requires-Dist: stdlib-utils (>=0.3.1)
+
+UNKNOWN
+
+

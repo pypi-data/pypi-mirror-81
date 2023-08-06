@@ -1,0 +1,17 @@
+numpy>=1.9.1
+scikit-learn>=0.17
+
+[docs]
+sphinx
+pillow
+sphinx-gallery
+sphinx_rtd_theme
+metric_learn
+matplotlib>=2.0.2
+numpydoc
+
+[examples]
+matplotlib>=2.0.2
+
+[tests]
+nose

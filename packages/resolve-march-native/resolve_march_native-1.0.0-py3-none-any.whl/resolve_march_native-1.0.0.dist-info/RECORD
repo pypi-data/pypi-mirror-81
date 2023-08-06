@@ -1,0 +1,13 @@
+resolve_march_native/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+resolve_march_native/__main__.py,sha256=QAx6i_wvFECP9I0LkXaIaHPNOKWSfITo2cSTi-3CL_4,2906
+resolve_march_native/engine.py,sha256=4x56DtGQaj_DsKz9Josp5c_NnED1mm5HyjiSibP3TTE,4816
+resolve_march_native/parser.py,sha256=gYhszFyiO48KRHaJreU4IwrnWaUG-O8r1mVAi8I3nyI,807
+resolve_march_native/recommended.py,sha256=2L6RzAgGjRXrnGhXKuMumZEW10NkLROxdos61QUHK_s,248
+resolve_march_native/runner.py,sha256=LZypGXuXLf1UtKI3qoLarSEpbWm0ls2K0AtlkRi2Is4,1559
+resolve_march_native/sort.py,sha256=8vfoQzMdW09SJQOGh-LKvbgOE7m7_KaJrqf4XDMh5cU,408
+resolve_march_native/version.py,sha256=6_shC13IctCk8XDSQcm1L_fvYfQPp9LloR1V63kk8h8,119
+resolve_march_native-1.0.0.dist-info/METADATA,sha256=VdHgdZSQ9QnAr0pn2me2SvdP9JWec_W6gXdepna3GGc,2754
+resolve_march_native-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+resolve_march_native-1.0.0.dist-info/entry_points.txt,sha256=7YXHa-rFDt7Fw8XLb26GXT-kUvvLhxx-CDh3EP7miv0,77
+resolve_march_native-1.0.0.dist-info/top_level.txt,sha256=WGdd78O71MFXNCtbvHUNoHQka1taEr0tH-gRq4Hi5PI,21
+resolve_march_native-1.0.0.dist-info/RECORD,,

@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/upload_tm_records.py
+src/upload_tm_records.egg-info/PKG-INFO
+src/upload_tm_records.egg-info/SOURCES.txt
+src/upload_tm_records.egg-info/dependency_links.txt
+src/upload_tm_records.egg-info/entry_points.txt
+src/upload_tm_records.egg-info/requires.txt
+src/upload_tm_records.egg-info/top_level.txt

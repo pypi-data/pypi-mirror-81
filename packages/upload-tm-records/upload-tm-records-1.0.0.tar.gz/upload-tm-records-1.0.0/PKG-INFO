@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: upload-tm-records
+Version: 1.0.0
+Summary: Upload your trackmania records to a trackmania-records server!
+Home-page: https://github.com/rsnitsch/trackmania-records
+Author: Robert Nitsch
+Author-email: mail@robertnitsch.de
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/rsnitsch/trackmania-records/issues
+Project-URL: Source, https://github.com/rsnitsch/trackmania-records
+Description: trackmania-records - Uploader
+        =============================
+        
+        This is the uploader for trackmania-records, a Trackmania 2020 records sharing/comparison tool.
+        
+        The uploader extracts your records for the training maps of the latest Trackmania version (from 2020)
+        and uploads them to the web application server so you can easily share your records with friends.
+        
+        Install (requires Python 3 on your system):
+        
+        	pip3 install upload-tm-records
+        
+        Update:
+        
+        	pip3 install --upgrade upload-tm-records
+        
+        Usage:
+        
+        	upload-tm-records http://example.com/upload.php
+        
+Keywords: trackmania,gaming
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Topic :: Games/Entertainment
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown

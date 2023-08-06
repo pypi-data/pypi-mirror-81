@@ -1,0 +1,3 @@
+[console_scripts]
+upload-tm-records = upload_tm_records:main
+

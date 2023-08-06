@@ -1,0 +1,10 @@
+README.md
+setup.py
+colorify/__init__.py
+colorify/__main__.py
+colorify/colorify.py
+colorify.egg-info/PKG-INFO
+colorify.egg-info/SOURCES.txt
+colorify.egg-info/dependency_links.txt
+colorify.egg-info/entry_points.txt
+colorify.egg-info/top_level.txt

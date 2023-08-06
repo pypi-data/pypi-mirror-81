@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: mitama
+Version: 2.0.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: sqlalchemy
+Requires-Dist: bcrypt
+Requires-Dist: pyjwt
+Requires-Dist: jinja2
+Requires-Dist: cryptography
+Requires-Dist: python-magic
+Requires-Dist: watchdog
+Requires-Dist: yarl
+
+UNKNOWN
+
+

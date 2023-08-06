@@ -1,0 +1,8 @@
+mistex/__init__.py,sha256=Coz60B5i0ufMqjy3RnjTQAobPoZKb3lk5AYXju8bm2o,1662
+mistex/__main__.py,sha256=n9mtwEdqM52mwuPXQBdKxPUYiab119wvKC1TWQDgkPM,2005
+mistex/footnotes.py,sha256=uCwRaH6r5a7HDtsc3Wc30HrTcaVg7wMghv737iB9BQE,618
+mistex/latex_renderer.py,sha256=ZAfIvRtc37Q3BFB5fOqkfovf6i3sbbPawHzXksG8jwc,5561
+mistex-0.0.1.dist-info/METADATA,sha256=77jA-9eG_6kydydKNkTqZ_ZvjDzHK8hhTyyEnB80OBA,230
+mistex-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+mistex-0.0.1.dist-info/top_level.txt,sha256=eWb6-43-iBK4Ozwf-9L5P6j6ZoF6YCxBjWlL5UkpZc4,7
+mistex-0.0.1.dist-info/RECORD,,

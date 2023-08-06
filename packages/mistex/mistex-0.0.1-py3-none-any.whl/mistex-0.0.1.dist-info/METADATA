@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mistex
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Martino Sorbaro
+Author-email: martino.sorbaro@posteo.net
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: mistune (>=2.0.*)
+
+UNKNOWN
+
+

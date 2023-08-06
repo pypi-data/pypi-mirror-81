@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: andrew-is-hungry-for-py
+Version: 0.0.1
+Summary: Learning how to publish to PyPi
+Home-page: https://github.com/AndrewLane/andrew-is-hungry-for-py
+Author: Andrew Lane
+Author-email: andrew.w.lane@gmail.com
+License: UNKNOWN
+Description: # andrew-is-hungry-for-py
+        Learning how to publish to PyPi, hopefully using Github Actions
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

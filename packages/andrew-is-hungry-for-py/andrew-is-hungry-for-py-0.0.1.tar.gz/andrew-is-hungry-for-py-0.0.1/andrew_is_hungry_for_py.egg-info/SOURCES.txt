@@ -1,0 +1,8 @@
+README.md
+setup.py
+andrew_is_hungry_for_py/__init__.py
+andrew_is_hungry_for_py/eat.py
+andrew_is_hungry_for_py.egg-info/PKG-INFO
+andrew_is_hungry_for_py.egg-info/SOURCES.txt
+andrew_is_hungry_for_py.egg-info/dependency_links.txt
+andrew_is_hungry_for_py.egg-info/top_level.txt

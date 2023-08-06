@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pyspcwebgw/__init__.py
+pyspcwebgw/area.py
+pyspcwebgw/const.py
+pyspcwebgw/utils.py
+pyspcwebgw/websocket.py
+pyspcwebgw/zone.py
+pyspcwebgw.egg-info/PKG-INFO
+pyspcwebgw.egg-info/SOURCES.txt
+pyspcwebgw.egg-info/dependency_links.txt
+pyspcwebgw.egg-info/requires.txt
+pyspcwebgw.egg-info/top_level.txt
+scripts/spcwebgw-console

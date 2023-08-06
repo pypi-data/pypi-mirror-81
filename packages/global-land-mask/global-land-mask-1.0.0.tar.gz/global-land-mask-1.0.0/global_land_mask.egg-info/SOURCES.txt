@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+global_land_mask/__init__.py
+global_land_mask/globe.py
+global_land_mask/globe_combined_mask_compressed.npz
+global_land_mask.egg-info/PKG-INFO
+global_land_mask.egg-info/SOURCES.txt
+global_land_mask.egg-info/dependency_links.txt
+global_land_mask.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+
+      [console_scripts]
+      translate = translate_bookmark.main:cli
+    

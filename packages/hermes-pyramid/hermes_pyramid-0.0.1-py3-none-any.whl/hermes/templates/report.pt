@@ -1,0 +1,92 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha384-xBuQ/xzmlsLoJpyjoggmTEz8OWUFM0/RC5BsqQBDX2v5cMvDHcMakNTNrHIW2I5f" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <h1>${title}</h1>
+    <div id="filters">
+      <label for="per_page">Per Page</label>
+      <select id="per_page" class="filter">
+        <option tal:repeat="val 10, 25, 50, 100" tal:attributes="value val;selected val == pagination.per_page|default">${val}</option>
+      </select>
+      <select tal:repeat="filter filters" tal:attributes="id filter" class="filter load-filter" current-value="${selected_filters.get(filter)}">
+        <option value="">${filter}</option>
+        <option selected>${selected_filters.get(filter, filter)}</option>
+      </select>
+    </div>
+    Page ${pagination.page} of ${pagination.page_count}
+    <table class="table table-striped table-sm">
+      <thead class="thead-dark">
+        <tr>
+          <th tal:repeat="field fields" tal:content="field.header"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr tal:repeat="row data">
+          <td tal:repeat="field fields">
+            <a class="drill" tal:condition="field.drill" href="/report/${alias}/drill" drill="${python:field.drill(row)}">${row.get(field.key)}</a>
+            <a tal:condition="not field.drill" disabled>${row.get(field.key)}</a>
+        </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+  <script>
+    $(".filter").change(function() {
+      var ele = $(this)[0]
+      var key = ele.id
+      var value = ele.value
+
+      filters = Array()
+      $.each($(".filter"), function() {
+        var ele = $(this)[0]
+        var key = ele.id
+        var value = ele.value
+        if (value) {
+          filters.push(key + "=" + value)
+        }
+      })
+      query = filters.join("&")
+      var url = "/report/${alias}?" + query
+      window.location = url
+
+    })
+    $(".drill").click(function(event) {
+      event.preventDefault()
+      var ele = $(this)[0]
+      var href = $(ele).attr("href")
+      var drill = $(ele).attr("drill")
+      filters = Array()
+      $.each($(".filter"), function() {
+        var ele = $(this)[0]
+        var key = ele.id
+        var value = ele.value
+        if (value) {
+          filters.push(key + "=" + value)
+        }
+      })
+      query = filters.join("&")
+      var url = href + drill + "&" + query
+      window.location = url
+    })
+    $().ready(function() {
+      $.each($(".load-filter"), function() {
+        var ele = $(this)[0]
+        var current_value = $(ele).attr("current-value")
+        var filter = ele.id
+        $.get("/report/${alias}/filter/" + filter, function(data) {
+          $(ele).find("option").not(':first').remove()
+          $.each(data, function(i, item) {
+            var opt = $("<option />").val(item).text(item)
+            if (current_value == item) {
+              opt.prop("selected", true)
+            }
+            $(ele).append(opt)
+          });
+        })
+      })
+    })
+  </script>
+</html>

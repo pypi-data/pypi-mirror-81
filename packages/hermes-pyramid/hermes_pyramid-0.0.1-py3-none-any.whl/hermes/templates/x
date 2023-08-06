@@ -1,0 +1,75 @@
+{
+    "_overrides": {
+        "luisaviaroma.US": {
+            "budget_percentage": 0.5
+        },
+        "matchesfashion.US": {
+            "budget_percentage": 0.5
+        },
+        "mrporter.US": {
+            "budget_percentage": 0.375
+        },
+        "mytheresa.US": {
+            "budget_percentage": 0.5
+        },
+        "netaporter.US": {
+            "budget_percentage": 0.5
+        },
+        "ssense.US": {
+            "budget_percentage": 0.75
+        },
+        "aizel.RU": {
+            "budget_percentage": 0.375
+        },
+        "bergdorfgoodman.US": {
+            "budget_percentage": 0.375
+        },
+        "bloomingdales.US": {
+            "budget_percentage": 0.375
+        },
+        "end.US": {
+            "budget_percentage": 0.25
+        },
+        "flightclub.US": {
+            "budget_percentage": 0.375
+        },
+        "fwrd.US": {
+            "budget_percentage": 0.25
+        },
+        "goat.US": {
+            "budget_percentage": 0.25
+        },
+        "modaoperandi.US": {
+            "budget_percentage": 0.375
+        },
+        "neimanmarcus.US": {
+            "budget_percentage": 0.375
+        },
+        "nordstrom.US": {
+            "budget_percentage": 0.375
+        },
+        "ounass.AE": {
+            "budget_percentage": 0.375
+        },
+        "saksfifthavenue.US": {
+            "budget_percentage": 0.375
+        },
+        "selfridges.GB": {
+            "budget_percentage": 0.375
+        },
+        "shopbop.US": {
+            "budget_percentage": 0.375
+        },
+        "stockx.US": {
+            "budget_percentage": 0.25
+        },
+        "tmall.CN": {
+            "budget_percentage": 0.25
+        },
+        "twentyfoursevres.US": {
+            "budget_percentage": 0.375
+        }
+    },
+    "budget_percentage": 0.0,
+    "overall_budget": 200
+}

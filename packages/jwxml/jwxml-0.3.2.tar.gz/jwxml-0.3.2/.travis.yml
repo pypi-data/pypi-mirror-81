@@ -1,0 +1,26 @@
+language: python
+python:
+  - "2.7"
+  - "3.5"
+env:
+    global:
+        # Use utf8 encoding. Should be default, but this is insurance against
+        # future changes
+        - PYTHONIOENCODING=UTF8
+        # Prefer Agg backend in case PyPlot is imported
+        # (see http://matplotlib.org/faq/environment_variables_faq.html)
+        - MPLBACKEND=Agg
+before_install:
+  - wget http://repo.continuum.io/miniconda/Miniconda-latest-Linux-x86_64.sh -O miniconda.sh
+  - chmod +x miniconda.sh
+  - ./miniconda.sh -b
+  - export PATH=/home/travis/miniconda2/bin:$PATH
+  - conda update --yes conda
+  # pre-install compiled dependencies for faster build
+  - conda create -n test --yes python=$TRAVIS_PYTHON_VERSION numpy matplotlib lxml
+  - source activate test
+install:
+  # installs jwxml and any PyPI dependencies declared in setup.py
+  - pip install -e .[dev]
+# command to run tests
+script: pytest

@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: qcaus
+Version: 0.0.0
+Summary: A Python library for quantum causality.
+Home-page: https://github.com/hashberg-io/qcaus
+Author: hashberg
+Author-email: sg495@users.noreply.github.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 1 - Planning
+Classifier: Natural Language :: English
+Classifier: Typing :: Typed
+Requires-Dist: numpy
+
+UNKNOWN
+
+

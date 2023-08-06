@@ -1,0 +1,2 @@
+pydantic>=1.1
+motor>=2.0

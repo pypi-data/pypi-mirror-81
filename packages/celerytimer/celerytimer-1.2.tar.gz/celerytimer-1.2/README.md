@@ -1,0 +1,57 @@
+
+
+基于celery实现的一个定时器
+
+# 工作流程
+
+
+
+celerytimer隐藏了其中大部分内容，让您专注于手头的任务
+
+celerytimer是基于celery实现的定时器，需要配合celery使用，使用celerytimer访问受保护的资源非常简单
+
+```python
+from celery import shared_task
+from celerytimer.celerytimer import TimingTasks
+
+obj = TimingTasks("127.0.0.1", 3306, "root", "123456", 'runtest')	# 数据库的相关配置
+
+@obj.executed_task("push_task", "推送测试", "flag", ["account_id"])
+@shared_task
+def push_data(executed_data, a):
+    print("值一：", executed_data)
+    print("值三：", a)
+    print("测试成功")
+   
+
+executed_data = {1602256560: [{"account_id": 83022257, "channel_id": 55824}, ]}
+push_data(executed_data, "a")
+```
+
+
+
+# 功能
+
+* 可动态设置定时任务：限制在未来一小时内(celery中存在定时任务超过一小时未执行会重复执行)
+* 过滤掉已执行的任务
+
+# 注意点
+
+* 该定时器可以处理`未来一小时内`的任务，超出部分会抛弃，**建议**：脚本每10钟执行一次
+* celerytimer装饰器必须在@shared_task上方
+
+# 安装
+
+要安装 celerytimer，你可以使用pip
+
+```
+$ pip install celerytimer
+```
+
+
+
+# 历史
+
+## V1.1 （2020年10月09日）
+
+* 基于celery的定时器

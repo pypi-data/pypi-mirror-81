@@ -1,0 +1,6 @@
+rich
+numpy
+
+[dev]
+coverage-badge
+click

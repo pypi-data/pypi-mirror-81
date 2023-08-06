@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pyconfigurathon
+Version: 0.1.1
+Summary: Simple python package to use a json file as a configuration file
+Home-page: https://github.com/JermaineDavy/pyconfigurathon
+License: MIT
+Author: JermaineDavy
+Maintainer: Jermaine Davy
+Requires-Python: >=3.8.2,<4.0.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Project-URL: Repository, https://github.com/JermaineDavy/pyconfigurathon
+Description-Content-Type: text/markdown
+
+#   PyConfigurathon
+
+A python package for making it easy to use configuration files for your python applications

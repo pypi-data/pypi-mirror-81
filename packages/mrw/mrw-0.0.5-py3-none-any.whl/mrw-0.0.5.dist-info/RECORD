@@ -1,0 +1,11 @@
+mrw/__init__.py,sha256=oRAyqvmy89kJfjRZ9fxz5StKT5kfQKGNVEtyHP0KRjA,253
+mrw/api.py,sha256=PxnLTn5AGCa4Ev3MxvWslII_4MwKPBMAXjwv6tY1HcU,4006
+mrw/picking.py,sha256=FbVDBxPHwRiiZlxKMWlOTQ4MXt9YJhp9C3I0oBepxho,4118
+mrw/utils.py,sha256=g9fYJL_vCRaxjyYTQwD7RYqcU493EMdakNIf8vJMbTc,1169
+mrw/template/picking_label.xml,sha256=ZoqgKwbwPXfLgjEv7dsKpDpv_EsOCj7r4LsDt06wQHU,1114
+mrw/template/picking_send.xml,sha256=ygfvoyqVM6Q2nP31RjiyhsPZIpcxBTedef3o_uSO_kY,2083
+mrw-0.0.5.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+mrw-0.0.5.dist-info/METADATA,sha256=KqEZsd-CNY0NcD5CHq8gK5JwYytTIRUfRDivFR6m6U4,1742
+mrw-0.0.5.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+mrw-0.0.5.dist-info/top_level.txt,sha256=Kf1hUgWEW2T5hzZv8cuF09ZtqArv-snJSzJiVyGF3TM,4
+mrw-0.0.5.dist-info/RECORD,,

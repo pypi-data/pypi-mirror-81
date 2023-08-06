@@ -1,0 +1,6 @@
+[console_scripts]
+htools = humble_tools.cli:main
+
+[toolz_plugins]
+make = humble_tools_make:make
+

@@ -1,0 +1,8 @@
+requests
+pyopenssl
+google-cloud-storage
+boto3
+awscli
+dateparser
+filelock
+six>=1.13.0

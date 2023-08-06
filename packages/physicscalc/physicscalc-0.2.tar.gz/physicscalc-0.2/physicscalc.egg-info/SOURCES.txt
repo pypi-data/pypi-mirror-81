@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+physicscalc/__init__.py
+physicscalc.egg-info/PKG-INFO
+physicscalc.egg-info/SOURCES.txt
+physicscalc.egg-info/dependency_links.txt
+physicscalc.egg-info/requires.txt
+physicscalc.egg-info/top_level.txt

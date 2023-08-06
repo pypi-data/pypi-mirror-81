@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: physicscalc
+Version: 0.1
+Summary: This is the package that houses various functions which can be used to calculate values for problems involving circuit design , value of the components which are needed to construct the circuit and so on
+Home-page: https://github.com/The-SocialLion/physicscalc
+Author: ['Vishal Balaji Sivaraman']
+Author-email: vb.sivaraman_official@yahoo.com
+License: MIT
+Download-URL: https://github.com/The-SocialLion/physicscalc/archive/master.zip
+Description: # physicscalc
+        This package consists of all different formulae used in physics for solving problems ,researching ,so on and so forth
+        ## Development Status:
+        
+        Under Development (Early release)
+        
+        ### Developed by:
+        
+         [Vishal Balaji Sivaraman](https://github.com/TheSocialLion)
+        
+        ### Installation:
+        
+        Use the package manager [pip](https://pip.pypa.io/en/stable/) to install physicscalc.
+        
+        ```bash
+        pip install physicscalc
+        ```
+        
+        ### To import physicscalc:
+        
+        ```python
+        import  physicscalc
+        ```
+        
+        
+        ## License:
+        [MIT](https://choosealicense.com/licenses/mit/)
+        
+        
+Keywords: physics,calculator,physicscalculations,Research,solutions
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown

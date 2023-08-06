@@ -1,0 +1,9 @@
+
+[bluepy]
+bluepy
+
+[pygatt]
+pygatt
+
+[testing]
+pytest

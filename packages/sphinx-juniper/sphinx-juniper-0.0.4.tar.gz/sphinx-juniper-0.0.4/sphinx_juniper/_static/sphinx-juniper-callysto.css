@@ -1,0 +1,8 @@
+:root {
+    --main-bg: #625cd6;
+    --hl-bg: #ff61a0;
+    --main-txt: white;
+}
+
+/* minified syntax css */
+.cm-s-callysto{color:var(--main-txt) !important;} .cm-s-callysto .CodeMirror-gutters{box-shadow:1px 0 2px 0 rgba(0,0,0,.5);-webkit-box-shadow:1px 0 2px 0 rgba(0,0,0,.5);padding-right:10px;z-index:3;border:none;}.cm-s-callysto div.CodeMirror-cursor{border-left:1px solid #fff}.cm-s-callysto .CodeMirror-activeline-background{background:#49483e}.cm-s-callysto .CodeMirror-selected{background:#8985e0}.cm-s-callysto .cm-comment{color:#ffc7dd}.cm-s-callysto .cm-string{color:#ffe366}.cm-s-callysto .cm-number{color:#ade5ff}.cm-s-callysto .cm-atom{color:#7ad5ff}.cm-s-callysto .cm-keyword{color:#b0adeb}.cm-s-callysto .cm-variable{color:#ff61a0}.cm-s-callysto .cm-def{font-style:italic;color:#ade5ff}.cm-s-callysto .cm-variable-2{color:#ff4747}.cm-s-callysto .cm-property{color:#ade5ff}.cm-s-callysto .cm-operator{color:#fff}.cm-s-callysto .CodeMirror-linenumber{color:#c8c8c8}

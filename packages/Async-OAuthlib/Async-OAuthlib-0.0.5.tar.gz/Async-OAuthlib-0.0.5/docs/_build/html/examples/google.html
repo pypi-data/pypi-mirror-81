@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google OAuth 2 Tutorial &#8212; Async-OAuthlib 0.0.4 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Facebook OAuth 2 Tutorial" href="facebook.html" />
+    <link rel="prev" title="GitHub OAuth 2 Tutorial" href="github.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="facebook.html" title="Facebook OAuth 2 Tutorial"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="github.html" title="GitHub OAuth 2 Tutorial"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Async-OAuthlib 0.0.4 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="examples.html" accesskey="U">Examples</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Google OAuth 2 Tutorial</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="google-oauth-2-tutorial">
+<h1>Google OAuth 2 Tutorial<a class="headerlink" href="#google-oauth-2-tutorial" title="Permalink to this headline">¶</a></h1>
+<p>Setup a new web project in the <a class="reference external" href="https://cloud.google.com/console/project">Google Cloud Console</a>
+When you have obtained a <code class="docutils literal notranslate"><span class="pre">client_id</span></code>, <code class="docutils literal notranslate"><span class="pre">client_secret</span></code> and registered
+a callback URL then you can try out the command line interactive example below.</p>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="c1"># Credentials you get from registering a new application</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">client_id</span> <span class="o">=</span> <span class="s1">&#39;&lt;the id you get from google&gt;.apps.googleusercontent.com&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">client_secret</span> <span class="o">=</span> <span class="s1">&#39;&lt;the secret you get from google&gt;&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">redirect_uri</span> <span class="o">=</span> <span class="s1">&#39;https://your.registered/callback&#39;</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="c1"># OAuth endpoints given in the Google API documentation</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">authorization_base_url</span> <span class="o">=</span> <span class="s2">&quot;https://accounts.google.com/o/oauth2/v2/auth&quot;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">token_url</span> <span class="o">=</span> <span class="s2">&quot;https://www.googleapis.com/oauth2/v4/token&quot;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">scope</span> <span class="o">=</span> <span class="p">[</span>
+<span class="gp">... </span>    <span class="s2">&quot;https://www.googleapis.com/auth/userinfo.email&quot;</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="s2">&quot;https://www.googleapis.com/auth/userinfo.profile&quot;</span>
+<span class="gp">... </span><span class="p">]</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">requests_oauthlib</span> <span class="kn">import</span> <span class="n">OAuth2Session</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">google</span> <span class="o">=</span> <span class="n">OAuth2Session</span><span class="p">(</span><span class="n">client_id</span><span class="p">,</span> <span class="n">scope</span><span class="o">=</span><span class="n">scope</span><span class="p">,</span> <span class="n">redirect_uri</span><span class="o">=</span><span class="n">redirect_uri</span><span class="p">)</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="c1"># Redirect user to Google for authorization</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">authorization_url</span><span class="p">,</span> <span class="n">state</span> <span class="o">=</span> <span class="n">google</span><span class="o">.</span><span class="n">authorization_url</span><span class="p">(</span><span class="n">authorization_base_url</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="c1"># offline for refresh token</span>
+<span class="gp">... </span>    <span class="c1"># force to always make user click authorize</span>
+<span class="gp">... </span>    <span class="n">access_type</span><span class="o">=</span><span class="s2">&quot;offline&quot;</span><span class="p">,</span> <span class="n">prompt</span><span class="o">=</span><span class="s2">&quot;select_account&quot;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Please go here and authorize:&#39;</span><span class="p">,</span> <span class="n">authorization_url</span><span class="p">)</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="c1"># Get the authorization verifier code from the callback url</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">redirect_response</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Paste the full redirect URL here: &#39;</span><span class="p">)</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="c1"># Fetch the access token</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">google</span><span class="o">.</span><span class="n">fetch_token</span><span class="p">(</span><span class="n">token_url</span><span class="p">,</span> <span class="n">client_secret</span><span class="o">=</span><span class="n">client_secret</span><span class="p">,</span>
+<span class="gp">... </span>        <span class="n">authorization_response</span><span class="o">=</span><span class="n">redirect_response</span><span class="p">)</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="c1"># Fetch a protected resource, i.e. user profile</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">r</span> <span class="o">=</span> <span class="n">google</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;https://www.googleapis.com/oauth2/v1/userinfo&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">content</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="github.html"
+                        title="previous chapter">GitHub OAuth 2 Tutorial</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="facebook.html"
+                        title="next chapter">Facebook OAuth 2 Tutorial</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/examples/google.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="facebook.html" title="Facebook OAuth 2 Tutorial"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="github.html" title="GitHub OAuth 2 Tutorial"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Async-OAuthlib 0.0.4 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="examples.html" >Examples</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Google OAuth 2 Tutorial</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2014, Kenneth Reitz.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.2.1.
+    </div>
+  </body>
+</html>

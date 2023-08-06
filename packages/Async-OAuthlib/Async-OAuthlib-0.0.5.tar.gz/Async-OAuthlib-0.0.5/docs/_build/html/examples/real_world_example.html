@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web App Example of OAuth 2 web application flow &#8212; Async-OAuthlib 0.0.4 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Refreshing tokens in OAuth 2" href="real_world_example_with_refresh.html" />
+    <link rel="prev" title="Tumblr OAuth1 Tutorial" href="tumblr.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="real_world_example_with_refresh.html" title="Refreshing tokens in OAuth 2"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="tumblr.html" title="Tumblr OAuth1 Tutorial"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Async-OAuthlib 0.0.4 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="examples.html" accesskey="U">Examples</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Web App Example of OAuth 2 web application flow</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="web-app-example-of-oauth-2-web-application-flow">
+<span id="real-example"></span><h1>Web App Example of OAuth 2 web application flow<a class="headerlink" href="#web-app-example-of-oauth-2-web-application-flow" title="Permalink to this headline">¶</a></h1>
+<p>OAuth is commonly used by web applications. The example below shows what such
+a web application might look like using the <a class="reference external" href="http://flask.pocoo.org/">Flask web framework</a> and GitHub as a provider. It should be easily
+transferrable to any web framework.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>While the flow remains the same across most providers, Github is
+special in that the <code class="docutils literal notranslate"><span class="pre">redirect_uri</span></code> parameter is optional. This
+means that it may be necessary to explicitly pass a redirect_uri to
+the <code class="docutils literal notranslate"><span class="pre">OAuth2Session</span></code> object (e.g. when creating a custom
+OAuthProvider with <code class="docutils literal notranslate"><span class="pre">flask-oauthlib</span></code>).</p>
+</div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">requests_oauthlib</span> <span class="kn">import</span> <span class="n">OAuth2Session</span>
+<span class="kn">from</span> <span class="nn">flask</span> <span class="kn">import</span> <span class="n">Flask</span><span class="p">,</span> <span class="n">request</span><span class="p">,</span> <span class="n">redirect</span><span class="p">,</span> <span class="n">session</span><span class="p">,</span> <span class="n">url_for</span>
+<span class="kn">from</span> <span class="nn">flask.json</span> <span class="kn">import</span> <span class="n">jsonify</span>
+<span class="kn">import</span> <span class="nn">os</span>
+
+<span class="n">app</span> <span class="o">=</span> <span class="n">Flask</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
+
+
+<span class="c1"># This information is obtained upon registration of a new GitHub OAuth</span>
+<span class="c1"># application here: https://github.com/settings/applications/new</span>
+<span class="n">client_id</span> <span class="o">=</span> <span class="s2">&quot;&lt;your client key&gt;&quot;</span>
+<span class="n">client_secret</span> <span class="o">=</span> <span class="s2">&quot;&lt;your client secret&gt;&quot;</span>
+<span class="n">authorization_base_url</span> <span class="o">=</span> <span class="s1">&#39;https://github.com/login/oauth/authorize&#39;</span>
+<span class="n">token_url</span> <span class="o">=</span> <span class="s1">&#39;https://github.com/login/oauth/access_token&#39;</span>
+
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">demo</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;Step 1: User Authorization.</span>
+
+<span class="sd">    Redirect the user/resource owner to the OAuth provider (i.e. Github)</span>
+<span class="sd">    using an URL with a few key OAuth parameters.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">github</span> <span class="o">=</span> <span class="n">OAuth2Session</span><span class="p">(</span><span class="n">client_id</span><span class="p">)</span>
+    <span class="n">authorization_url</span><span class="p">,</span> <span class="n">state</span> <span class="o">=</span> <span class="n">github</span><span class="o">.</span><span class="n">authorization_url</span><span class="p">(</span><span class="n">authorization_base_url</span><span class="p">)</span>
+
+    <span class="c1"># State is used to prevent CSRF, keep this for later.</span>
+    <span class="n">session</span><span class="p">[</span><span class="s1">&#39;oauth_state&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">state</span>
+    <span class="k">return</span> <span class="n">redirect</span><span class="p">(</span><span class="n">authorization_url</span><span class="p">)</span>
+
+
+<span class="c1"># Step 2: User authorization, this happens on the provider.</span>
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s2">&quot;/callback&quot;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;GET&quot;</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">callback</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot; Step 3: Retrieving an access token.</span>
+
+<span class="sd">    The user has been redirected back from the provider to your registered</span>
+<span class="sd">    callback URL. With this redirection comes an authorization code included</span>
+<span class="sd">    in the redirect URL. We will use that to obtain an access token.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">github</span> <span class="o">=</span> <span class="n">OAuth2Session</span><span class="p">(</span><span class="n">client_id</span><span class="p">,</span> <span class="n">state</span><span class="o">=</span><span class="n">session</span><span class="p">[</span><span class="s1">&#39;oauth_state&#39;</span><span class="p">])</span>
+    <span class="n">token</span> <span class="o">=</span> <span class="n">github</span><span class="o">.</span><span class="n">fetch_token</span><span class="p">(</span><span class="n">token_url</span><span class="p">,</span> <span class="n">client_secret</span><span class="o">=</span><span class="n">client_secret</span><span class="p">,</span>
+                               <span class="n">authorization_response</span><span class="o">=</span><span class="n">request</span><span class="o">.</span><span class="n">url</span><span class="p">)</span>
+
+    <span class="c1"># At this point you can fetch protected resources but lets save</span>
+    <span class="c1"># the token and show how this is done from a persisted token</span>
+    <span class="c1"># in /profile.</span>
+    <span class="n">session</span><span class="p">[</span><span class="s1">&#39;oauth_token&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">token</span>
+
+    <span class="k">return</span> <span class="n">redirect</span><span class="p">(</span><span class="n">url_for</span><span class="p">(</span><span class="s1">&#39;.profile&#39;</span><span class="p">))</span>
+
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s2">&quot;/profile&quot;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;GET&quot;</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">profile</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;Fetching a protected resource using an OAuth 2 token.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">github</span> <span class="o">=</span> <span class="n">OAuth2Session</span><span class="p">(</span><span class="n">client_id</span><span class="p">,</span> <span class="n">token</span><span class="o">=</span><span class="n">session</span><span class="p">[</span><span class="s1">&#39;oauth_token&#39;</span><span class="p">])</span>
+    <span class="k">return</span> <span class="n">jsonify</span><span class="p">(</span><span class="n">github</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;https://api.github.com/user&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">json</span><span class="p">())</span>
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
+    <span class="c1"># This allows us to use a plain HTTP callback</span>
+    <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;OAUTHLIB_INSECURE_TRANSPORT&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;1&quot;</span>
+
+    <span class="n">app</span><span class="o">.</span><span class="n">secret_key</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">urandom</span><span class="p">(</span><span class="mi">24</span><span class="p">)</span>
+    <span class="n">app</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">debug</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>This example is lovingly borrowed from <a class="reference external" href="https://gist.github.com/ib-lundgren/6507798">this gist</a>.</p>
+<p><strong>N.B:</strong>
+You should note that Oauth2 works through SSL layer. If your server is not
+parametrized to allow HTTPS, the <em>fetch_token</em>
+method will raise an <strong>oauthlib.oauth2.rfc6749.errors.InsecureTransportError</strong>.
+Most people don’t set SSL on their server while testing and that is fine. You
+can disable this check in two ways:</p>
+<ol class="arabic simple">
+<li><p>By setting an environment variable.</p></li>
+</ol>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">export</span> <span class="nv">OAUTHLIB_INSECURE_TRANSPORT</span><span class="o">=</span><span class="m">1</span>
+</pre></div>
+</div>
+<p>2. Equivalent to above you can set this in Python (if you have problems
+setting environment variables)</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Somewhere in webapp_example.py, before the app.run for example</span>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;OAUTHLIB_INSECURE_TRANSPORT&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;1&#39;</span>
+</pre></div>
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="tumblr.html"
+                        title="previous chapter">Tumblr OAuth1 Tutorial</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="real_world_example_with_refresh.html"
+                        title="next chapter">Refreshing tokens in OAuth 2</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/examples/real_world_example.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="real_world_example_with_refresh.html" title="Refreshing tokens in OAuth 2"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="tumblr.html" title="Tumblr OAuth1 Tutorial"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Async-OAuthlib 0.0.4 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="examples.html" >Examples</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Web App Example of OAuth 2 web application flow</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2014, Kenneth Reitz.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.2.1.
+    </div>
+  </body>
+</html>

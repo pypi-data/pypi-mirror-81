@@ -1,0 +1,521 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Developer Interface &#8212; Async-OAuthlib 0.0.4 documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Refreshing tokens in OAuth 2" href="examples/real_world_example_with_refresh.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="examples/real_world_example_with_refresh.html" title="Refreshing tokens in OAuth 2"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Async-OAuthlib 0.0.4 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Developer Interface</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-async_oauthlib">
+<span id="developer-interface"></span><span id="api"></span><h1>Developer Interface<a class="headerlink" href="#module-async_oauthlib" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="oauth-1-0">
+<h2>OAuth 1.0<a class="headerlink" href="#oauth-1-0" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="async_oauthlib.OAuth1">
+<em class="property">class </em><code class="sig-prename descclassname">async_oauthlib.</code><code class="sig-name descname">OAuth1</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">login</span><span class="p">:</span> <span class="n"><a class="reference external" href="https://python.readthedocs.io/en/latest/library/stdtypes.html#str" title="(in Python v3.7)">str</a></span></em>, <em class="sig-param"><span class="n">password</span><span class="p">:</span> <span class="n"><a class="reference external" href="https://python.readthedocs.io/en/latest/library/stdtypes.html#str" title="(in Python v3.7)">str</a></span> <span class="o">=</span> <span class="default_value">''</span></em>, <em class="sig-param"><span class="n">encoding</span><span class="p">:</span> <span class="n"><a class="reference external" href="https://python.readthedocs.io/en/latest/library/stdtypes.html#str" title="(in Python v3.7)">str</a></span> <span class="o">=</span> <span class="default_value">'latin1'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#async_oauthlib.OAuth1" title="Permalink to this definition">¶</a></dt>
+<dd><p>Signs the request using OAuth 1 (RFC5849)</p>
+<dl class="py attribute">
+<dt id="async_oauthlib.OAuth1.client_class">
+<code class="sig-name descname">client_class</code><a class="headerlink" href="#async_oauthlib.OAuth1.client_class" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <code class="xref py py-class docutils literal notranslate"><span class="pre">oauthlib.oauth1.rfc5849.Client</span></code></p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="oauth-1-0-session">
+<h2>OAuth 1.0 Session<a class="headerlink" href="#oauth-1-0-session" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="async_oauthlib.OAuth1Session">
+<em class="property">class </em><code class="sig-prename descclassname">async_oauthlib.</code><code class="sig-name descname">OAuth1Session</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">client_key</span></em>, <em class="sig-param"><span class="n">client_secret</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">resource_owner_key</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">resource_owner_secret</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">callback_uri</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">signature_method</span><span class="o">=</span><span class="default_value">'HMAC-SHA1'</span></em>, <em class="sig-param"><span class="n">signature_type</span><span class="o">=</span><span class="default_value">'AUTH_HEADER'</span></em>, <em class="sig-param"><span class="n">rsa_key</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">verifier</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">client_class</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">force_include_body</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#async_oauthlib.OAuth1Session" title="Permalink to this definition">¶</a></dt>
+<dd><p>Request signing and convenience methods for the oauth dance.</p>
+<p>What is the difference between OAuth1Session and OAuth1?</p>
+<p>OAuth1Session actually uses OAuth1 internally and its purpose is to assist
+in the OAuth workflow through convenience methods to prepare authorization
+URLs and parse the various token and redirection responses. It also provide
+rudimentary validation of responses.</p>
+<p>An example of the OAuth workflow using a basic CLI app and Twitter.</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="c1"># Credentials obtained during the registration.</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">client_key</span> <span class="o">=</span> <span class="s1">&#39;client key&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">client_secret</span> <span class="o">=</span> <span class="s1">&#39;secret&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">callback_uri</span> <span class="o">=</span> <span class="s1">&#39;https://127.0.0.1/callback&#39;</span>
+<span class="go">&gt;&gt;&gt;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="c1"># Endpoints found in the OAuth provider API documentation</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">request_token_url</span> <span class="o">=</span> <span class="s1">&#39;https://api.twitter.com/oauth/request_token&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">authorization_url</span> <span class="o">=</span> <span class="s1">&#39;https://api.twitter.com/oauth/authorize&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">access_token_url</span> <span class="o">=</span> <span class="s1">&#39;https://api.twitter.com/oauth/access_token&#39;</span>
+<span class="go">&gt;&gt;&gt;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">oauth_session</span> <span class="o">=</span> <span class="n">OAuth1Session</span><span class="p">(</span><span class="n">client_key</span><span class="p">,</span><span class="n">client_secret</span><span class="o">=</span><span class="n">client_secret</span><span class="p">,</span> <span class="n">callback_uri</span><span class="o">=</span><span class="n">callback_uri</span><span class="p">)</span>
+<span class="go">&gt;&gt;&gt;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="c1"># First step, fetch the request token.</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">await</span> <span class="n">oauth_session</span><span class="o">.</span><span class="n">fetch_request_token</span><span class="p">(</span><span class="n">request_token_url</span><span class="p">)</span>
+<span class="go">{</span>
+<span class="go">    &#39;oauth_token&#39;: &#39;kjerht2309u&#39;,</span>
+<span class="go">    &#39;oauth_token_secret&#39;: &#39;lsdajfh923874&#39;,</span>
+<span class="go">}</span>
+<span class="go">&gt;&gt;&gt;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="c1"># Second step. Follow this link and authorize</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">oauth_session</span><span class="o">.</span><span class="n">authorization_url</span><span class="p">(</span><span class="n">authorization_url</span><span class="p">)</span>
+<span class="go">&#39;https://api.twitter.com/oauth/authorize?oauth_token=sdf0o9823sjdfsdf&amp;oauth_callback=https%3A%2F%2F127.0.0.1%2Fcallback&#39;</span>
+<span class="go">&gt;&gt;&gt;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="c1"># Third step. Fetch the access token</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">redirect_response</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Paste the full redirect URL here.&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">oauth_session</span><span class="o">.</span><span class="n">parse_authorization_response</span><span class="p">(</span><span class="n">redirect_response</span><span class="p">)</span>
+<span class="go">{</span>
+<span class="go">    &#39;oauth_token: &#39;kjerht2309u&#39;,</span>
+<span class="go">    &#39;oauth_token_secret: &#39;lsdajfh923874&#39;,</span>
+<span class="go">    &#39;oauth_verifier: &#39;w34o8967345&#39;,</span>
+<span class="go">}</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">await</span> <span class="n">oauth_session</span><span class="o">.</span><span class="n">fetch_access_token</span><span class="p">(</span><span class="n">access_token_url</span><span class="p">)</span>
+<span class="go">{</span>
+<span class="go">    &#39;oauth_token&#39;: &#39;sdf0o9823sjdfsdf&#39;,</span>
+<span class="go">    &#39;oauth_token_secret&#39;: &#39;2kjshdfp92i34asdasd&#39;,</span>
+<span class="go">}</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="c1"># Done. You can now make OAuth requests.</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">status_url</span> <span class="o">=</span> <span class="s1">&#39;http://api.twitter.com/1/statuses/update.json&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">new_status</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;status&#39;</span><span class="p">:</span>  <span class="s1">&#39;hello world!&#39;</span><span class="p">}</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">await</span> <span class="n">oauth_session</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="n">status_url</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">new_status</span><span class="p">)</span>
+<span class="go">&lt;Response [200]&gt;</span>
+</pre></div>
+</div>
+<dl class="py method">
+<dt id="async_oauthlib.OAuth1Session.authorization_url">
+<code class="sig-name descname">authorization_url</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url</span></em>, <em class="sig-param"><span class="n">request_token</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#async_oauthlib.OAuth1Session.authorization_url" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create an authorization URL by appending request_token and optional
+kwargs to url.</p>
+<p>This is the second step in the OAuth 1 workflow. The user should be
+redirected to this authorization URL, grant access to you, and then
+be redirected back to you. The redirection back can either be specified
+during client registration or by supplying a callback URI per request.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>url</strong> – The authorization endpoint URL.</p></li>
+<li><p><strong>request_token</strong> – The previously obtained request token.</p></li>
+<li><p><strong>kwargs</strong> – Optional parameters to append to the URL.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The authorization URL with new parameters embedded.</p>
+</dd>
+</dl>
+<p>An example using a registered default callback URI.</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">request_token_url</span> <span class="o">=</span> <span class="s1">&#39;https://api.twitter.com/oauth/request_token&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">authorization_url</span> <span class="o">=</span> <span class="s1">&#39;https://api.twitter.com/oauth/authorize&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">oauth_session</span> <span class="o">=</span> <span class="n">OAuth1Session</span><span class="p">(</span><span class="s1">&#39;client-key&#39;</span><span class="p">,</span> <span class="n">client_secret</span><span class="o">=</span><span class="s1">&#39;secret&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">await</span> <span class="n">oauth_session</span><span class="o">.</span><span class="n">fetch_request_token</span><span class="p">(</span><span class="n">request_token_url</span><span class="p">)</span>
+<span class="go">{</span>
+<span class="go">    &#39;oauth_token&#39;: &#39;sdf0o9823sjdfsdf&#39;,</span>
+<span class="go">    &#39;oauth_token_secret&#39;: &#39;2kjshdfp92i34asdasd&#39;,</span>
+<span class="go">}</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">oauth_session</span><span class="o">.</span><span class="n">authorization_url</span><span class="p">(</span><span class="n">authorization_url</span><span class="p">)</span>
+<span class="go">&#39;https://api.twitter.com/oauth/authorize?oauth_token=sdf0o9823sjdfsdf&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">oauth_session</span><span class="o">.</span><span class="n">authorization_url</span><span class="p">(</span><span class="n">authorization_url</span><span class="p">,</span> <span class="n">foo</span><span class="o">=</span><span class="s1">&#39;bar&#39;</span><span class="p">)</span>
+<span class="go">&#39;https://api.twitter.com/oauth/authorize?oauth_token=sdf0o9823sjdfsdf&amp;foo=bar&#39;</span>
+</pre></div>
+</div>
+<p>An example using an explicit callback URI.</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">request_token_url</span> <span class="o">=</span> <span class="s1">&#39;https://api.twitter.com/oauth/request_token&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">authorization_url</span> <span class="o">=</span> <span class="s1">&#39;https://api.twitter.com/oauth/authorize&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">oauth_session</span> <span class="o">=</span> <span class="n">OAuth1Session</span><span class="p">(</span><span class="s1">&#39;client-key&#39;</span><span class="p">,</span> <span class="n">client_secret</span><span class="o">=</span><span class="s1">&#39;secret&#39;</span><span class="p">,</span> <span class="n">callback_uri</span><span class="o">=</span><span class="s1">&#39;https://127.0.0.1/callback&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">await</span> <span class="n">oauth_session</span><span class="o">.</span><span class="n">fetch_request_token</span><span class="p">(</span><span class="n">request_token_url</span><span class="p">)</span>
+<span class="go">{</span>
+<span class="go">    &#39;oauth_token&#39;: &#39;sdf0o9823sjdfsdf&#39;,</span>
+<span class="go">    &#39;oauth_token_secret&#39;: &#39;2kjshdfp92i34asdasd&#39;,</span>
+<span class="go">}</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">oauth_session</span><span class="o">.</span><span class="n">authorization_url</span><span class="p">(</span><span class="n">authorization_url</span><span class="p">)</span>
+<span class="go">&#39;https://api.twitter.com/oauth/authorize?oauth_token=sdf0o9823sjdfsdf&amp;oauth_callback=https%3A%2F%2F127.0.0.1%2Fcallback&#39;</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt id="async_oauthlib.OAuth1Session.authorized">
+<em class="property">property </em><code class="sig-name descname">authorized</code><a class="headerlink" href="#async_oauthlib.OAuth1Session.authorized" title="Permalink to this definition">¶</a></dt>
+<dd><p>Boolean that indicates whether this session has an OAuth token
+or not. If <cite>self.authorized</cite> is True, you can reasonably expect
+OAuth-protected requests to the resource to succeed. If
+<cite>self.authorized</cite> is False, you need the user to go through the OAuth
+authentication dance before OAuth-protected requests to the resource
+will succeed.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="async_oauthlib.OAuth1Session.fetch_access_token">
+<em class="property">async </em><code class="sig-name descname">fetch_access_token</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url</span></em>, <em class="sig-param"><span class="n">verifier</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#async_oauthlib.OAuth1Session.fetch_access_token" title="Permalink to this definition">¶</a></dt>
+<dd><p>Fetch an access token.</p>
+<p>This is the final step in the OAuth 1 workflow. An access token is
+obtained using all previously obtained credentials, including the
+verifier from the authorization step.</p>
+<p>Note that a previously set verifier will be reset for your
+convenience, or else signature creation will be incorrect on
+consecutive requests.</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">access_token_url</span> <span class="o">=</span> <span class="s1">&#39;https://api.twitter.com/oauth/access_token&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">redirect_response</span> <span class="o">=</span> <span class="s1">&#39;https://127.0.0.1/callback?oauth_token=kjerht2309uf&amp;oauth_token_secret=lsdajfh923874&amp;oauth_verifier=w34o8967345&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">oauth_session</span> <span class="o">=</span> <span class="n">OAuth1Session</span><span class="p">(</span><span class="s1">&#39;client-key&#39;</span><span class="p">,</span> <span class="n">client_secret</span><span class="o">=</span><span class="s1">&#39;secret&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">oauth_session</span><span class="o">.</span><span class="n">parse_authorization_response</span><span class="p">(</span><span class="n">redirect_response</span><span class="p">)</span>
+<span class="go">{</span>
+<span class="go">    &#39;oauth_token: &#39;kjerht2309u&#39;,</span>
+<span class="go">    &#39;oauth_token_secret: &#39;lsdajfh923874&#39;,</span>
+<span class="go">    &#39;oauth_verifier: &#39;w34o8967345&#39;,</span>
+<span class="go">}</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">await</span> <span class="n">oauth_session</span><span class="o">.</span><span class="n">fetch_access_token</span><span class="p">(</span><span class="n">access_token_url</span><span class="p">)</span>
+<span class="go">{</span>
+<span class="go">    &#39;oauth_token&#39;: &#39;sdf0o9823sjdfsdf&#39;,</span>
+<span class="go">    &#39;oauth_token_secret&#39;: &#39;2kjshdfp92i34asdasd&#39;,</span>
+<span class="go">}</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt id="async_oauthlib.OAuth1Session.fetch_request_token">
+<em class="property">async </em><code class="sig-name descname">fetch_request_token</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url</span></em>, <em class="sig-param"><span class="n">realm</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#async_oauthlib.OAuth1Session.fetch_request_token" title="Permalink to this definition">¶</a></dt>
+<dd><p>Fetch a request token.</p>
+<p>This is the first step in the OAuth 1 workflow. A request token is
+obtained by making a signed post request to url. The token is then
+parsed from the application/x-www-form-urlencoded response and ready
+to be used to construct an authorization url.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>url</strong> – The request token endpoint URL.</p></li>
+<li><p><strong>realm</strong> – A list of realms to request access to.</p></li>
+<li><p><strong>kwargs</strong> – Optional arguments passed to ‘’post’’ function in ‘’aiohttp.ClientSession’’</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The response in dict format.</p>
+</dd>
+</dl>
+<p>Note that a previously set callback_uri will be reset for your
+convenience, or else signature creation will be incorrect on
+consecutive requests.</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">request_token_url</span> <span class="o">=</span> <span class="s1">&#39;https://api.twitter.com/oauth/request_token&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">oauth_session</span> <span class="o">=</span> <span class="n">OAuth1Session</span><span class="p">(</span><span class="s1">&#39;client-key&#39;</span><span class="p">,</span> <span class="n">client_secret</span><span class="o">=</span><span class="s1">&#39;secret&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">await</span> <span class="n">oauth_session</span><span class="o">.</span><span class="n">fetch_request_token</span><span class="p">(</span><span class="n">request_token_url</span><span class="p">)</span>
+<span class="go">{</span>
+<span class="go">    &#39;oauth_token&#39;: &#39;sdf0o9823sjdfsdf&#39;,</span>
+<span class="go">    &#39;oauth_token_secret&#39;: &#39;2kjshdfp92i34asdasd&#39;,</span>
+<span class="go">}</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt id="async_oauthlib.OAuth1Session.parse_authorization_response">
+<code class="sig-name descname">parse_authorization_response</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url</span></em><span class="sig-paren">)</span><a class="headerlink" href="#async_oauthlib.OAuth1Session.parse_authorization_response" title="Permalink to this definition">¶</a></dt>
+<dd><p>Extract parameters from the post authorization redirect response URL.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>url</strong> – The full URL that resulted from the user being redirected
+back from the OAuth provider to you, the client.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A dict of parameters extracted from the URL.</p>
+</dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">redirect_response</span> <span class="o">=</span> <span class="s1">&#39;https://127.0.0.1/callback?oauth_token=kjerht2309uf&amp;oauth_token_secret=lsdajfh923874&amp;oauth_verifier=w34o8967345&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">oauth_session</span> <span class="o">=</span> <span class="n">OAuth1Session</span><span class="p">(</span><span class="s1">&#39;client-key&#39;</span><span class="p">,</span> <span class="n">client_secret</span><span class="o">=</span><span class="s1">&#39;secret&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">oauth_session</span><span class="o">.</span><span class="n">parse_authorization_response</span><span class="p">(</span><span class="n">redirect_response</span><span class="p">)</span>
+<span class="go">{</span>
+<span class="go">    &#39;oauth_token: &#39;kjerht2309u&#39;,</span>
+<span class="go">    &#39;oauth_token_secret: &#39;lsdajfh923874&#39;,</span>
+<span class="go">    &#39;oauth_verifier: &#39;w34o8967345&#39;,</span>
+<span class="go">}</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt id="async_oauthlib.OAuth1Session.rebuild_auth">
+<code class="sig-name descname">rebuild_auth</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prepared_request</span></em>, <em class="sig-param"><span class="n">response</span></em><span class="sig-paren">)</span><a class="headerlink" href="#async_oauthlib.OAuth1Session.rebuild_auth" title="Permalink to this definition">¶</a></dt>
+<dd><p>When being redirected we should always strip Authorization
+header, since nonce may not be reused as per OAuth spec.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="oauth-2-0">
+<h2>OAuth 2.0<a class="headerlink" href="#oauth-2-0" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="async_oauthlib.OAuth2">
+<em class="property">class </em><code class="sig-prename descclassname">async_oauthlib.</code><code class="sig-name descname">OAuth2</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">login</span><span class="p">:</span> <span class="n"><a class="reference external" href="https://python.readthedocs.io/en/latest/library/stdtypes.html#str" title="(in Python v3.7)">str</a></span></em>, <em class="sig-param"><span class="n">password</span><span class="p">:</span> <span class="n"><a class="reference external" href="https://python.readthedocs.io/en/latest/library/stdtypes.html#str" title="(in Python v3.7)">str</a></span> <span class="o">=</span> <span class="default_value">''</span></em>, <em class="sig-param"><span class="n">encoding</span><span class="p">:</span> <span class="n"><a class="reference external" href="https://python.readthedocs.io/en/latest/library/stdtypes.html#str" title="(in Python v3.7)">str</a></span> <span class="o">=</span> <span class="default_value">'latin1'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#async_oauthlib.OAuth2" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adds proof of authorization (OAuth2 token) to the request.</p>
+</dd></dl>
+
+<dl class="py class">
+<dt id="async_oauthlib.TokenUpdated">
+<em class="property">class </em><code class="sig-prename descclassname">async_oauthlib.</code><code class="sig-name descname">TokenUpdated</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">token</span></em><span class="sig-paren">)</span><a class="headerlink" href="#async_oauthlib.TokenUpdated" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="oauth-2-0-session">
+<h2>OAuth 2.0 Session<a class="headerlink" href="#oauth-2-0-session" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="async_oauthlib.OAuth2Session">
+<em class="property">class </em><code class="sig-prename descclassname">async_oauthlib.</code><code class="sig-name descname">OAuth2Session</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">client_id</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">client</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">auto_refresh_url</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">auto_refresh_kwargs</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">scope</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">redirect_uri</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">token</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">state</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">token_updater</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#async_oauthlib.OAuth2Session" title="Permalink to this definition">¶</a></dt>
+<dd><p>Versatile OAuth 2 extension to <code class="xref py py-class docutils literal notranslate"><span class="pre">requests.Session</span></code>.</p>
+<p>Supports any grant type adhering to <a class="reference external" href="https://oauthlib.readthedocs.io/en/latest/oauth2/clients/baseclient.html#oauthlib.oauth2.Client" title="(in OAuthLib v3.1)"><code class="xref py py-class docutils literal notranslate"><span class="pre">oauthlib.oauth2.Client</span></code></a> spec
+including the four core OAuth 2 grants.</p>
+<p>Can be used to create authorization urls, fetch tokens and access protected
+resources using the <code class="xref py py-class docutils literal notranslate"><span class="pre">requests.Session</span></code> interface you are used to.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://oauthlib.readthedocs.io/en/latest/oauth2/clients/webapplicationclient.html#oauthlib.oauth2.WebApplicationClient" title="(in OAuthLib v3.1)"><code class="xref py py-class docutils literal notranslate"><span class="pre">oauthlib.oauth2.WebApplicationClient</span></code></a> (default): Authorization Code Grant</p></li>
+<li><p><a class="reference external" href="https://oauthlib.readthedocs.io/en/latest/oauth2/clients/mobileapplicationclient.html#oauthlib.oauth2.MobileApplicationClient" title="(in OAuthLib v3.1)"><code class="xref py py-class docutils literal notranslate"><span class="pre">oauthlib.oauth2.MobileApplicationClient</span></code></a>: Implicit Grant</p></li>
+<li><p><a class="reference external" href="https://oauthlib.readthedocs.io/en/latest/oauth2/clients/legacyapplicationclient.html#oauthlib.oauth2.LegacyApplicationClient" title="(in OAuthLib v3.1)"><code class="xref py py-class docutils literal notranslate"><span class="pre">oauthlib.oauth2.LegacyApplicationClient</span></code></a>: Password Credentials Grant</p></li>
+<li><p><a class="reference external" href="https://oauthlib.readthedocs.io/en/latest/oauth2/clients/backendapplicationclient.html#oauthlib.oauth2.BackendApplicationClient" title="(in OAuthLib v3.1)"><code class="xref py py-class docutils literal notranslate"><span class="pre">oauthlib.oauth2.BackendApplicationClient</span></code></a>: Client Credentials Grant</p></li>
+</ul>
+<p>Note that the only time you will be using Implicit Grant from python is if
+you are driving a user agent able to obtain URL fragments.</p>
+<dl class="py method">
+<dt id="async_oauthlib.OAuth2Session.authorization_url">
+<code class="sig-name descname">authorization_url</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url</span></em>, <em class="sig-param"><span class="n">state</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#async_oauthlib.OAuth2Session.authorization_url" title="Permalink to this definition">¶</a></dt>
+<dd><p>Form an authorization URL.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>url</strong> – Authorization endpoint url, must be HTTPS.</p></li>
+<li><p><strong>state</strong> – An optional state string for CSRF protection. If not
+given it will be generated for you.</p></li>
+<li><p><strong>kwargs</strong> – Extra parameters to include.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>authorization_url, state</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="async_oauthlib.OAuth2Session.authorized">
+<em class="property">property </em><code class="sig-name descname">authorized</code><a class="headerlink" href="#async_oauthlib.OAuth2Session.authorized" title="Permalink to this definition">¶</a></dt>
+<dd><p>Boolean that indicates whether this session has an OAuth token
+or not. If <cite>self.authorized</cite> is True, you can reasonably expect
+OAuth-protected requests to the resource to succeed. If
+<cite>self.authorized</cite> is False, you need the user to go through the OAuth
+authentication dance before OAuth-protected requests to the resource
+will succeed.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="async_oauthlib.OAuth2Session.fetch_token">
+<em class="property">async </em><code class="sig-name descname">fetch_token</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">token_url</span></em>, <em class="sig-param"><span class="n">code</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">authorization_response</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">body</span><span class="o">=</span><span class="default_value">''</span></em>, <em class="sig-param"><span class="n">auth</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">username</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">password</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">method</span><span class="o">=</span><span class="default_value">'POST'</span></em>, <em class="sig-param"><span class="n">force_querystring</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">timeout</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">headers</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">verify_ssl</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="n">proxy</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">include_client_id</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">client_secret</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">ssl_context</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#async_oauthlib.OAuth2Session.fetch_token" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generic method for fetching an access token from the token endpoint.</p>
+<p>If you are using the MobileApplicationClient you will want to use
+<cite>token_from_fragment</cite> instead of <cite>fetch_token</cite>.</p>
+<p>The current implementation enforces the RFC guidelines.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>token_url</strong> – Token endpoint URL, must use HTTPS.</p></li>
+<li><p><strong>code</strong> – Authorization code (used by WebApplicationClients).</p></li>
+<li><p><strong>authorization_response</strong> – Authorization response URL, the callback
+URL of the request back to you. Used by
+WebApplicationClients instead of code.</p></li>
+<li><p><strong>body</strong> – Optional application/x-www-form-urlencoded body to add the
+include in the token request. Prefer kwargs over body.</p></li>
+<li><p><strong>auth</strong> – An auth tuple or method as accepted by <cite>requests</cite>.</p></li>
+<li><p><strong>username</strong> – Username required by LegacyApplicationClients to appear
+in the request body.</p></li>
+<li><p><strong>password</strong> – Password required by LegacyApplicationClients to appear
+in the request body.</p></li>
+<li><p><strong>method</strong> – The HTTP method used to make the request. Defaults
+to POST, but may also be GET. Other methods should
+be added as needed.</p></li>
+<li><p><strong>force_querystring</strong> – If True, force the request body to be sent
+in the querystring instead.</p></li>
+<li><p><strong>timeout</strong> – Timeout of the request in seconds.</p></li>
+<li><p><strong>headers</strong> – Dict to default request headers with.</p></li>
+<li><p><strong>verify_ssl</strong> – Verify SSL certificate.</p></li>
+<li><p><strong>proxy</strong> – The <cite>proxy</cite> argument is passed onto <cite>aiohttp</cite>.</p></li>
+<li><p><strong>include_client_id</strong> – Should the request body include the
+<cite>client_id</cite> parameter. Default is <cite>None</cite>,
+which will attempt to autodetect. This can be
+forced to always include (True) or never
+include (False).</p></li>
+<li><p><strong>client_secret</strong> – The <cite>client_secret</cite> paired to the <cite>client_id</cite>.
+This is generally required unless provided in the
+<cite>auth</cite> tuple. If the value is <cite>None</cite>, it will be
+omitted from the request, however if the value is
+an empty string, an empty string will be sent.</p></li>
+<li><p><strong>ssl_context</strong> – The ssl context being passed to <cite>aiohttp</cite> ssl_context.</p></li>
+<li><p><strong>kwargs</strong> – Extra parameters to include in the token request.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A token dict</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="async_oauthlib.OAuth2Session.new_state">
+<code class="sig-name descname">new_state</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#async_oauthlib.OAuth2Session.new_state" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generates a state string to be used in authorizations.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="async_oauthlib.OAuth2Session.refresh_token">
+<em class="property">async </em><code class="sig-name descname">refresh_token</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">token_url</span></em>, <em class="sig-param"><span class="n">refresh_token</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">body</span><span class="o">=</span><span class="default_value">''</span></em>, <em class="sig-param"><span class="n">auth</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">timeout</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">headers</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">verify_ssl</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="n">proxy</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#async_oauthlib.OAuth2Session.refresh_token" title="Permalink to this definition">¶</a></dt>
+<dd><p>Fetch a new access token using a refresh token.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>token_url</strong> – The token endpoint, must be HTTPS.</p></li>
+<li><p><strong>refresh_token</strong> – The refresh_token to use.</p></li>
+<li><p><strong>body</strong> – Optional application/x-www-form-urlencoded body to add the
+include in the token request. Prefer kwargs over body.</p></li>
+<li><p><strong>auth</strong> – An auth tuple or method as accepted by <cite>requests</cite>.</p></li>
+<li><p><strong>timeout</strong> – Timeout of the request in seconds.</p></li>
+<li><p><strong>headers</strong> – A dict of headers to be used by <cite>requests</cite>.</p></li>
+<li><p><strong>verify_ssl</strong> – Verify SSL certificate.</p></li>
+<li><p><strong>proxy</strong> – The <cite>proxy</cite> argument will be passed to <cite>requests</cite>.</p></li>
+<li><p><strong>kwargs</strong> – Extra parameters to include in the token request.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A token dict</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="async_oauthlib.OAuth2Session.register_compliance_hook">
+<code class="sig-name descname">register_compliance_hook</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">hook_type</span></em>, <em class="sig-param"><span class="n">hook</span></em><span class="sig-paren">)</span><a class="headerlink" href="#async_oauthlib.OAuth2Session.register_compliance_hook" title="Permalink to this definition">¶</a></dt>
+<dd><p>Register a hook for request/response tweaking.</p>
+<dl class="simple">
+<dt>Available hooks are:</dt><dd><p>access_token_response invoked before token parsing.
+refresh_token_response invoked before refresh token parsing.
+protected_request invoked before making a request.</p>
+</dd>
+</dl>
+<p>If you find a new hook is needed please send a GitHub PR request
+or open an issue.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="async_oauthlib.OAuth2Session.request">
+<em class="property">async </em><code class="sig-name descname">request</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">method</span></em>, <em class="sig-param"><span class="n">url</span></em>, <em class="sig-param"><span class="n">data</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">headers</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">withhold_token</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">client_id</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">client_secret</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#async_oauthlib.OAuth2Session.request" title="Permalink to this definition">¶</a></dt>
+<dd><p>Intercept all requests and add the OAuth 2 token if present.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="async_oauthlib.OAuth2Session.token_from_fragment">
+<code class="sig-name descname">token_from_fragment</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">authorization_response</span></em><span class="sig-paren">)</span><a class="headerlink" href="#async_oauthlib.OAuth2Session.token_from_fragment" title="Permalink to this definition">¶</a></dt>
+<dd><p>Parse token from the URI fragment, used by MobileApplicationClients.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>authorization_response</strong> – The full URL of the redirect back to you</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A token dict</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Developer Interface</a><ul>
+<li><a class="reference internal" href="#oauth-1-0">OAuth 1.0</a></li>
+<li><a class="reference internal" href="#oauth-1-0-session">OAuth 1.0 Session</a></li>
+<li><a class="reference internal" href="#oauth-2-0">OAuth 2.0</a></li>
+<li><a class="reference internal" href="#oauth-2-0-session">OAuth 2.0 Session</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="examples/real_world_example_with_refresh.html"
+                        title="previous chapter">Refreshing tokens in OAuth 2</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/api.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="examples/real_world_example_with_refresh.html" title="Refreshing tokens in OAuth 2"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Async-OAuthlib 0.0.4 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Developer Interface</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2014, Kenneth Reitz.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.2.1.
+    </div>
+  </body>
+</html>

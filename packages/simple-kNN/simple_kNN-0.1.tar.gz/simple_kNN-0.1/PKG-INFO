@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: simple_kNN
+Version: 0.1
+Summary: Simple kNN algorithm with k-Fold Cross Validation
+Home-page: UNKNOWN
+Author: Chaitanya Krishna Kasaraneni
+Author-email: kc.kasaraneni@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6

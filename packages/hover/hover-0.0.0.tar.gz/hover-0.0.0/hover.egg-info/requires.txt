@@ -1,0 +1,14 @@
+bokeh>=2.0.1
+ivis>=1.7
+numba>=0.46.0
+numpy>=1.14
+scipy>=1.4.1
+seaborn
+sklearn>=0.21.0
+snorkel>=0.9.3
+spacy>=2.1.9
+torch>=1.4.0
+tqdm>=4.0
+umap-learn>=0.3.10
+wasabi>=0.4
+wrappy>=0.4

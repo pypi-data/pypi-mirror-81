@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+tap_signonsite/__init__.py
+tap_signonsite/fetch.py
+tap_signonsite/utility.py
+tap_signonsite.egg-info/PKG-INFO
+tap_signonsite.egg-info/SOURCES.txt
+tap_signonsite.egg-info/dependency_links.txt
+tap_signonsite.egg-info/entry_points.txt
+tap_signonsite.egg-info/requires.txt
+tap_signonsite.egg-info/top_level.txt
+tap_signonsite/schemas/attendances.json
+tap_signonsite/schemas/companies.json
+tap_signonsite/schemas/sites.json
+tap_signonsite/schemas/users.json

@@ -1,0 +1,4 @@
+
+          [console_scripts]
+          tap-signonsite=tap_signonsite:main
+      

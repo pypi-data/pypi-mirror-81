@@ -1,0 +1,10 @@
+{
+  "type": ["null", "object"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": ["integer"] },
+    "name": { "type": ["null", "string"] },
+    "internal_reference": { "type": ["null", "string"] },
+    "is_active": { "type": ["boolean"] }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": ["null", "object"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": ["integer"] },
+    "site_id": { "type": ["integer"] },
+    "user": {
+      "type": ["null", "object"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": ["integer"]
+        }
+      }
+    },
+    "company": {
+      "type": ["null", "object"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": ["null", "integer"]
+        }
+      }
+    },
+    "signon_at": {
+      "type": ["null", "string"],
+      "format": "date-time"
+    },
+    "signoff_at": {
+      "type": ["null", "string"],
+      "format": "date-time"
+    },
+    "is_visitor": { "type": ["boolean"] },
+    "is_inducted_to_site": { "type": ["boolean"] }
+  }
+}

@@ -1,0 +1,13 @@
+README.md,sha256=uDXUlXHwNjID-6wMT9jCEK7-hyeTOHVJzW5OVEK4CHc,3431
+pyproject.toml,sha256=tUoWCGuv90U_czDtW_u7XcHwf9ew58gV94lIca5Wdzo,4735
+failprint/__init__.py,sha256=oqqFXUIKv01NM3PAtFpIPsXe0vuMbLi6y275ngqE60g,175
+failprint/__main__.py,sha256=t1onDidNK5W3PYxntLL8HSB9I70g6spT4y1ASrxcTqg,344
+failprint/cli.py,sha256=WT_mAeVodYiOwa7PZ4Fe6c7-7TLG4YImFbTv8t2e1qs,3635
+failprint/formats.py,sha256=5dILjZHizRCzzQekGHInE6bzyvmTwLMGHdfVoNy_xK0,4268
+failprint/runners.py,sha256=sUM3E1D047my0FLHkGoNLnmp3kHYhnkGdD3SkqVdJ_I,9638
+failprint/types.py,sha256=XaIvJ2Njbks48DleQFMB04FSykaN4x2ENTDpKPkJPIM,232
+failprint-0.5.0.dist-info/entry_points.txt,sha256=K1586z1xdf9b9zxYwQpvrNAvy04hD27KHEPD7fOj8CU,48
+failprint-0.5.0.dist-info/LICENSE,sha256=nQxdYSduhkgEpOTmg4yyIMmFPzcr2qrlUl8Tf9QZPug,754
+failprint-0.5.0.dist-info/WHEEL,sha256=jM75OLmO0bF2QZxXmlw3A-IE58epFjnoGYhyw7ywvsc,85
+failprint-0.5.0.dist-info/METADATA,sha256=cNorI2NAe7rcuUaDx2l-aKT-sjrXfB7DF-dl8EjXl1E,4594
+failprint-0.5.0.dist-info/RECORD,,

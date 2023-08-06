@@ -1,0 +1,17 @@
+gocats/__init__.py,sha256=O2mxwI6pLvzXOFiL0Cs983qZe4F2flNoF651W6QCafY,135
+gocats/__main__.py,sha256=8mlQPuI78PwXkvbpwuWqpj2aoSZYeB-TqjI5yiQyA60,2913
+gocats/_version.py,sha256=0elMHXwIFat51uEPVh-FAEWyvy2kz5M_eofSU1rWa_0,44
+gocats/dag.py,sha256=vRPdLTMbLKyN6pOc8djFCzTdfrgyOHf3V4Y-760pSAM,27898
+gocats/gocats.py,sha256=MO0jWV-eVYvdJruYgqPUA2B0A6y2GWjWPqwlTsnwh58,19210
+gocats/godag.py,sha256=6vAKzYtRNexQy9h5448zTiwJvUagmOcR8uhBX1W77gQ,1419
+gocats/ontologyparser.py,sha256=wAbpYYwMIWP3kr_Oh7FoKg6euLs-2gynWeioiHeHuWY,8339
+gocats/subdag.py,sha256=BUklvlVxKojEhp6rINu6mWMth2fTf-hgjvN2dMJRPP4,19206
+gocats/tools.py,sha256=3G_1GU195vRo8eee_dmLUDtxD9OYxeUIT2DwpbrYDcc,3969
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_dummy.py,sha256=I5UjtphycfXs4CPI7tDwUg755ZYQmCjo8uy4VM3SRwg,94
+tests/test_manuscript3.py,sha256=Qw0mIr-wrAAwPbmxqvI1D9nJEU_RnAEu6VIA42St07w,730
+GOcats-1.1.7.dist-info/LICENSE,sha256=m49NDcwbvRlXNg7pvlVvFH-OkQYeoKUjrz10NNiUilc,1821
+GOcats-1.1.7.dist-info/METADATA,sha256=2-sPbswYaIVDiQD9C0LwAt9C6DX47Bu32Jelh9eANTY,6236
+GOcats-1.1.7.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+GOcats-1.1.7.dist-info/top_level.txt,sha256=fu0D9R_BHHN_WUUIq3p_SsrBQkGysywfn_06sdne9gQ,13
+GOcats-1.1.7.dist-info/RECORD,,

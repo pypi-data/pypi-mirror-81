@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: seq-dbutils
+Version: 0.1
+Summary: A package of MySQL database utilities
+Home-page: https://github.com/BDI-pathogens/seq_dbutils
+Author: Laura Thomson
+Author-email: laura.thomson@bdi.ox.ac.uk
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: cryptography
+Requires-Dist: pandas
+Requires-Dist: SQLAlchemy
+Requires-Dist: mysql-connector-python
+
+UNKNOWN
+
+

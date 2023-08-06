@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "snowday"
+version = "0.1.5"
+description = "Tools for turning Snowflake into a Snow Day. ❄️"
+authors = ["Jake Thomas <j@silverton.io>"]
+license = "GPL-3.0"
+readme = "README.md"
+homepage = "https://github.com/silverton-io/snowday"
+repository = "https://github.com/silverton-io/snowday"
+keywords = ["snowflake", "data warehouse", "snow", "data ops"]
+classifiers = [
+    "Environment :: Console",
+    "Framework :: Flake8",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Documentation",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Quality Assurance",
+]
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+networkx = "2.4"
+snowflake-connector-python = "2.2.9"
+boto3 = "^1.14.24"
+loguru = "^0.5.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pytest-cov = "^2.10.0"
+tox = "^3.16.1"
+pylint = "^2.5.3"
+sphinx = "^3.1.2"
+ipython = "^7.16.1"
+pytest-mock = "^3.2.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

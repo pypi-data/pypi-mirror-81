@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: snowday
+Version: 0.1.5
+Summary: Tools for turning Snowflake into a Snow Day. ❄️
+Home-page: https://github.com/silverton-io/snowday
+License: GPL-3.0
+Keywords: snowflake,data warehouse,snow,data ops
+Author: Jake Thomas
+Author-email: j@silverton.io
+Requires-Python: >=3.7,<4.0
+Classifier: Environment :: Console
+Classifier: Framework :: Flake8
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Quality Assurance
+Requires-Dist: boto3 (>=1.14.24,<2.0.0)
+Requires-Dist: loguru (>=0.5.1,<0.6.0)
+Requires-Dist: networkx (==2.4)
+Requires-Dist: snowflake-connector-python (==2.2.9)
+Project-URL: Repository, https://github.com/silverton-io/snowday
+Description-Content-Type: text/markdown
+
+![Snowday](readme_src/snowday-light.png)
+
+
+Tools for turning [Snowflake](https://www.snowflake.com/) into a Snow Day. ❄️
+
+A little bit of sass with a whole lot of `@dataclass`.
+
+
+
+### Installation
+
+
+```
+pip install snowday
+```
+
+
+### What does it do?
+
+#### Connector
+
+![Snowday Connector 1](readme_src/conn1.gif)
+
+![Snowday Connector 2](readme_src/conn2.gif)
+
+
+#### Objects
+
+![Snowday Objects 1](readme_src/obj1.gif)
+
+![Snowday Objects 2](readme_src/obj2.gif)
+
+
+#### All together now
+
+![Snowday All Together](readme_src/alltogether.gif)
+
+
+### License
+
+
+Snowday is licensed under GPLv3.0.
+

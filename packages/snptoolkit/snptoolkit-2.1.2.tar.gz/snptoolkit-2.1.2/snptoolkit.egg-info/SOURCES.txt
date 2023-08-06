@@ -1,0 +1,7 @@
+README.md
+setup.py
+snptoolkit.egg-info/PKG-INFO
+snptoolkit.egg-info/SOURCES.txt
+snptoolkit.egg-info/dependency_links.txt
+snptoolkit.egg-info/requires.txt
+snptoolkit.egg-info/top_level.txt

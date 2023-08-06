@@ -1,0 +1,6 @@
+README.md
+setup.py
+jaypdf123.egg-info/PKG-INFO
+jaypdf123.egg-info/SOURCES.txt
+jaypdf123.egg-info/dependency_links.txt
+jaypdf123.egg-info/top_level.txt

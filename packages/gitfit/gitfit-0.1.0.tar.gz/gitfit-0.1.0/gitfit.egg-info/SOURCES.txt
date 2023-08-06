@@ -1,0 +1,8 @@
+README.md
+setup.py
+gitfit.egg-info/PKG-INFO
+gitfit.egg-info/SOURCES.txt
+gitfit.egg-info/dependency_links.txt
+gitfit.egg-info/not-zip-safe
+gitfit.egg-info/requires.txt
+gitfit.egg-info/top_level.txt

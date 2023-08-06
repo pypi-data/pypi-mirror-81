@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: gitfit
+Version: 0.1.0
+Summary: Make large FITS files fit on Github
+Home-page: https://github.com/hover2pi/gitfit
+Author: Joe Filippazzo
+Author-email: jfilippazzo@stsci.edu
+License: MIT license
+Description-Content-Type: UNKNOWN
+Description: Make large FITS files fit on Github
+Keywords: gitfit
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6

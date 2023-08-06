@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "flask-util-job-runner"
+version = "0.2.0"
+description = ""
+authors = ["eqqe <sfbrey@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+minio = "6.0.0"
+Flask = "1.1.2"
+gunicorn = "20.0.4"
+requests = "2.24.0"
+redis = "3.5.3"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.1"
+
+[build-system]
+requires = ["poetry>=1.1.1"]
+build-backend = "poetry.masonry.api"

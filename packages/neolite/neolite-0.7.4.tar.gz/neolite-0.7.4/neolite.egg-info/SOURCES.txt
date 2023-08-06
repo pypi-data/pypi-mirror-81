@@ -1,0 +1,8 @@
+README.md
+setup.py
+neolite/__init__.py
+neolite.egg-info/PKG-INFO
+neolite.egg-info/SOURCES.txt
+neolite.egg-info/dependency_links.txt
+neolite.egg-info/requires.txt
+neolite.egg-info/top_level.txt

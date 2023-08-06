@@ -1,0 +1,13 @@
+pandas
+numpy
+scipy
+seaborn
+biopython
+matplotlib
+django
+pytoxr
+statsmodels
+scikit-learn
+weighslide
+pytest
+psutil

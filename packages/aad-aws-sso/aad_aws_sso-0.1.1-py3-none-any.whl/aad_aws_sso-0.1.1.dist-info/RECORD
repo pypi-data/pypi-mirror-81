@@ -1,0 +1,16 @@
+azuread_aws/amazon.py,sha256=mCyqQbVP-awm9DfLEmVL74rZ_NlBi2ZBeF-g8SDrPyY,11203
+azuread_aws/http.py,sha256=hHw3GNQbDDve7bCOcBejMCgT-PJtRhGqKVkkCpiaAcA,4749
+azuread_aws/azure/__init__.py,sha256=hkepDULH40B3mbWhJD5hvNBSb5sfK1qfXAYrOG_S0F4,56
+azuread_aws/azure/auth.py,sha256=-OJVXCIBN0iL4OHkRi32FQfzrAxhjqMxaOPO2g1oBqs,1181
+azuread_aws/azure/constants.py,sha256=pW8dUjrH3iQkG32RUceAkkvRQ-Ugwj5hizbKBE0JUeQ,479
+azuread_aws/azure/graph_api.py,sha256=C670jV6mw9R-feQ-Dzl7uMF1AWTxM-I_ebS-5Nk56cM,12364
+azuread_aws/commands/app_role.py,sha256=D5ZbtCs077HXtSobKbUy1JnVHbI8Gs6RHSZ1ViTewMk,5162
+azuread_aws/commands/cli.py,sha256=gbnJXqTd0GvmLWLHJemUe1G_5HfdMOQFkHOBfZ3dWPA,2434
+azuread_aws/commands/idp.py,sha256=qRqpQH-RI8IAEV8NBibdhyDrxCu3hPOaFldTIUHzzr0,3704
+azuread_aws/commands/user.py,sha256=-AmlV-7S-dSMP3HhftaWssU2-R3_nd1UnD7i63eB_iM,5286
+aad_aws_sso-0.1.1.dist-info/METADATA,sha256=UvuxeYYyNsL5X25jOHem1oxFK0uTkGlIgdki0yiIe3w,358
+aad_aws_sso-0.1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+aad_aws_sso-0.1.1.dist-info/entry_points.txt,sha256=-0CXGvLw4AN7bIMm2vRtyrYDfym0bXF-lO4O31H02SI,59
+aad_aws_sso-0.1.1.dist-info/top_level.txt,sha256=hETofOq3y7eyKRv2MEg3TJiVvX1eiRWpaBforDMEShQ,12
+aad_aws_sso-0.1.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aad_aws_sso-0.1.1.dist-info/RECORD,,

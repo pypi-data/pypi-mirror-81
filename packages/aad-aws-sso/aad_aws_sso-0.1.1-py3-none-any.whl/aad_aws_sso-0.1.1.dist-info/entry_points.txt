@@ -1,0 +1,3 @@
+[console_scripts]
+aad-aws = azuread_aws.commands.cli:main
+

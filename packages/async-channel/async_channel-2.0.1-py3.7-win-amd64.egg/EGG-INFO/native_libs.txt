@@ -1,0 +1,5 @@
+async_channel/consumer.cp37-win_amd64.pyd
+async_channel/producer.cp37-win_amd64.pyd
+async_channel/channels/channel.cp37-win_amd64.pyd
+async_channel/channels/channel_instances.cp37-win_amd64.pyd
+async_channel/util/channel_creator.cp37-win_amd64.pyd

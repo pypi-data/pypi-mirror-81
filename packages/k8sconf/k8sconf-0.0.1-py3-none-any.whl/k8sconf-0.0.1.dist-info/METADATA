@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: k8sconf
+Version: 0.0.1
+Summary: Apply configuration through env or mounted secrets in Kubernetes
+Home-page: https://github.com/number42net/k8sconf
+Author: M. Miedema
+Author-email: git@number42.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# k8s-conf
+
+

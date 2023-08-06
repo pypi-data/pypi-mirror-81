@@ -1,0 +1,3 @@
+
+[NumPy support]
+numpy

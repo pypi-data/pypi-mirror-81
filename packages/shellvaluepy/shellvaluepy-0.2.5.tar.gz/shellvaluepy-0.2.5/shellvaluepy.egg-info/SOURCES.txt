@@ -1,0 +1,8 @@
+setup.py
+shellvaluepy/__init__.py
+shellvaluepy/info.py
+shellvaluepy.egg-info/PKG-INFO
+shellvaluepy.egg-info/SOURCES.txt
+shellvaluepy.egg-info/dependency_links.txt
+shellvaluepy.egg-info/requires.txt
+shellvaluepy.egg-info/top_level.txt

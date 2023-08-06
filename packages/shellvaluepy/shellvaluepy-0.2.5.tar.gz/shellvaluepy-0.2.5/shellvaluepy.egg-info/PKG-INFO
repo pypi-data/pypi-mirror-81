@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: shellvaluepy
+Version: 0.2.5
+Summary: made by hminkoo10, discord : Crewmate#7777, email: hmin.koo10@gmail.com
+Home-page: https://github.com/hminkoo10/shell_value
+Author: hminkoo10
+Author-email: hmin.koo10@gmail.com
+License: MIT
+Description: 
+        ```
+        pip3 install shellvaluepy
+        ```
+        
+        ```py
+        #input
+        from shellvaluepy.info import shell
+        
+        shell.value('dir')
+        
+        #output
+        XXXXX XX XXXX
+        XXX X XXXXXXXXXXX X X
+        ```
+        
+        ```py
+        #input
+        from shellvaluepy.info import shell
+        
+        shell.install('shell_value')
+        
+        #output
+        OK to install!
+        or
+        error!
+        ```
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

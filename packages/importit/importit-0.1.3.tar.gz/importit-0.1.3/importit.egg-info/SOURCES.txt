@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+importit/__init__.py
+importit/importer.py
+importit.egg-info/PKG-INFO
+importit.egg-info/SOURCES.txt
+importit.egg-info/dependency_links.txt
+importit.egg-info/not-zip-safe
+importit.egg-info/requires.txt
+importit.egg-info/top_level.txt
+importit/util/__init__.py
+importit/util/file.py
+importit/util/module.py

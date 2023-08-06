@@ -1,0 +1,3 @@
+[console_scripts]
+zdcode = zdcode.program:main
+

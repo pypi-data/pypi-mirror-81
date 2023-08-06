@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: imdb-tv-scraper
+Version: 0.1.0
+Summary: scrapes imdb data for tv series
+Home-page: https://github.com/jet76/imdb_tv_scraper
+Author: Joe Turner
+Author-email: joe.turner@live.com
+License: MIT license
+Keywords: imdb_tv_scraper
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+Requires-Dist: beautifulsoup4 (==4.9.1)
+Requires-Dist: click (==7.1.2)
+Requires-Dist: requests (==2.24.0)
+
+# IMDB-TV-Scraper
+
+

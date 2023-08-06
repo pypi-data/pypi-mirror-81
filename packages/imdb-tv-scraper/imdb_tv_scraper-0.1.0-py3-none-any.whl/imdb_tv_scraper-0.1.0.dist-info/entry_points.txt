@@ -1,0 +1,3 @@
+[console_scripts]
+imdb_tv_scraper = imdb_tv_scraper.cli:main
+

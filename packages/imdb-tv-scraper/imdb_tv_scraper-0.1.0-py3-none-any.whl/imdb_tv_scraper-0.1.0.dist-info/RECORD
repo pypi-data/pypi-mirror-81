@@ -1,0 +1,9 @@
+imdb_tv_scraper/__init__.py,sha256=vkIt78wCMEnT4z7YJBJjWiMsRJcD4-7VSesvghcgtkE,50
+imdb_tv_scraper/cli.py,sha256=x7sWw9CI9QiT9e4v1Le9PYLXhLLsuInxZZ2pNMTXfgw,507
+imdb_tv_scraper/tv_scraper.py,sha256=r5OxQolpQYnowabOck0m0GdVD_bewYnVQ1xxM9boDOw,3936
+imdb_tv_scraper-0.1.0.dist-info/LICENSE,sha256=BNvg1QPA52m2V-sEHttruo7oFnqnD8QqAGMS2nEqtDM,1067
+imdb_tv_scraper-0.1.0.dist-info/METADATA,sha256=Q7SQbldOw1pzjKqBxJJCgCG2Mf4c4EVB6fdNO8mN_pI,851
+imdb_tv_scraper-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+imdb_tv_scraper-0.1.0.dist-info/entry_points.txt,sha256=oNXmqcgpXYL4LJV1W7w6why4rA8ADFu-La3U3hHWW2o,62
+imdb_tv_scraper-0.1.0.dist-info/top_level.txt,sha256=6cynUpm5q_vAqI343pOzszH9p0f-BUUukXnp7qhg_Ig,16
+imdb_tv_scraper-0.1.0.dist-info/RECORD,,

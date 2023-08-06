@@ -1,0 +1,12 @@
+abstcal/__init__.py,sha256=sYjD9jVrOEp8sirQmaa-slbN_lPcdwGnZaUaGSn9EjI,143
+abstcal/abstinence_calculator.py,sha256=E6_lhVtSptvjhFxvwaJbJbACyUmQ60q5Fye-idy0Hi4,18631
+abstcal/calculator_data.py,sha256=8j4_QwCxcLIQC-ekOkmK6jQ6ZQHZoBItn3CWbRmWQvU,5453
+abstcal/calculator_error.py,sha256=hHAara41kDWyKl5kytD2Pgppll8dIVepOdApiGMprvk,514
+abstcal/simulation.py,sha256=e9ztOYzQ8nwnPZKagD9k73cIW-jHwrqofFsBVB6QFiQ,2164
+abstcal/tlfb_data.py,sha256=Vobh8-QhUt_S6MHE1fEHD8mSE7Cl3uqrikH2Ov6s_24,18836
+abstcal/visit_data.py,sha256=z54jbcTtW8Wc2USjxem3RtRnFQ7jmtZXlIl-3sTWcJ4,19673
+abstcal-0.5.dist-info/LICENSE.txt,sha256=TNMxQ-9ffwR4gM6PfMaJCFhGA7-r9qUqfIAoSYdlqTI,1063
+abstcal-0.5.dist-info/METADATA,sha256=tJjArHBSOhEPIUZDl3mjABSZ8PSAt6WCWXfhMNz_e2w,20735
+abstcal-0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+abstcal-0.5.dist-info/top_level.txt,sha256=AYEbYqltXdkxaH3o5yeGrZ6XdRSd_wJdoMLETE2fACQ,8
+abstcal-0.5.dist-info/RECORD,,

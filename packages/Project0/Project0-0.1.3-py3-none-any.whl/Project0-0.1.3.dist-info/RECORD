@@ -1,0 +1,12 @@
+Hub/__init__.py,sha256=L4g5JpzHh7BUYdi-T30Yg8AFWvcZscWgmoO950UEOTc,85
+Hub/main.py,sha256=DiyTUOS1XxYU_xFaJKIPQY23t0hw-8d0JNx6nUoQsyc,40
+Hub/external/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Hub/internal/__init__.py,sha256=sxgHX1cytXSMFZUbMK_ywfYqxrxB_CjjqGsnfsjLfes,51
+Hub/internal/prophandler.py,sha256=NAkcZWQKFWhG5NEFclYu0Da1-RBfXjedcicGdVzzsbk,3720
+Hub/internal/subvoicerec.py,sha256=VHL-IHVZkIl26NZ7JKpB1YYYtmOVrxzZQWJueBRJuus,5002
+Project0-0.1.3.dist-info/LICENSE,sha256=5ikakc-u5qDqboT2JjPulzkYSNgLMlYtO6IhAen7CIs,1065
+Project0-0.1.3.dist-info/METADATA,sha256=jviUPJVbzGYI6K932r58QwtuiSzNBec7HPvLiQPY-LM,1607
+Project0-0.1.3.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+Project0-0.1.3.dist-info/entry_points.txt,sha256=6mBhDXnLaGZNCf630eLnHkCI7HkxiFrAo3cU4sG_DMU,53
+Project0-0.1.3.dist-info/top_level.txt,sha256=h9_OhHs5lsmwLtZSC926KYPz62X0AntQcglD9f99FPg,4
+Project0-0.1.3.dist-info/RECORD,,

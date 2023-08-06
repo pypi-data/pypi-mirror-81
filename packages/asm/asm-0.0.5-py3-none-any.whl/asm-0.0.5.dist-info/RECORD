@@ -1,0 +1,12 @@
+asm/__init__.py,sha256=-5L5yFdS1lk3TVNPTd9jxA_JSM9ufy4qcOWC1hmjZgU,253
+asm/api.py,sha256=oDzJ126cCKRGiH_8BCBWJgap0vV-1UevkeojlD9TjeA,3038
+asm/picking.py,sha256=M6h4a3hHk5EwTPT_ukMFuePi5FLZNVU3QEGIK2MNWcU,5761
+asm/utils.py,sha256=k3WG0L3zdeNTPTTRC6QD6g2y10K27GqMBBzHOdSJrAw,1557
+asm/template/picking_label.xml,sha256=40Zl0S3Ycjk8b4cXYwX49KMr7dINIVFx0XwUC1fKpxM,412
+asm/template/picking_send.xml,sha256=vJNLEzghulTHrQ8_UyOpjGRHkHfO521nDPTTjLFGooM,3399
+asm/template/test_connection.xml,sha256=RUA4i2anUP4U0rGmKD1Qdv82UJ8ALKmUzi60WlJzlPU,2559
+asm-0.0.5.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+asm-0.0.5.dist-info/METADATA,sha256=qClLswDoMrsKkPbm7Wb02xnAkK11y0q868P9I1P_RfU,1600
+asm-0.0.5.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+asm-0.0.5.dist-info/top_level.txt,sha256=hGFbmf1GD0VceJ_bpuFJZAGdf_FUgEqFH0whCIIiaas,4
+asm-0.0.5.dist-info/RECORD,,

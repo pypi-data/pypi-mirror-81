@@ -1,0 +1,8 @@
+README.txt
+setup.py
+src/feigelib/__init__.py
+src/feigelib/hello.py
+src/feigelib.egg-info/PKG-INFO
+src/feigelib.egg-info/SOURCES.txt
+src/feigelib.egg-info/dependency_links.txt
+src/feigelib.egg-info/top_level.txt

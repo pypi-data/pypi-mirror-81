@@ -1,0 +1,9 @@
+numpy
+scipy
+cython
+mdtraj
+mdplus
+argparse
+six
+networkx
+pandas

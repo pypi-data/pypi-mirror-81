@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: domain-eventbus
+Version: 0.1.6
+Summary: UNKNOWN
+Home-page: https://github.com/adyshev/eventbus
+Author: Alexander A. Dyshev
+Author-email: adyshev@gmail.com
+License: MIT license
+Keywords: async domain entity,async event bus,async aggregate root,domain eventbus
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
+Requires-Dist: python-dateutil (>=2.8.1)
+
+UNKNOWN
+
+

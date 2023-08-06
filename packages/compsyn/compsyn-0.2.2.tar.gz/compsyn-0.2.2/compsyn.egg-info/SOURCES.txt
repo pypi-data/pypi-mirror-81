@@ -1,0 +1,15 @@
+README.rst
+setup.py
+compsyn/__init__.py
+compsyn/analysis.py
+compsyn/datahelper.py
+compsyn/helperfunctions.py
+compsyn/logger.py
+compsyn/vectors.py
+compsyn/visualisation.py
+compsyn/wordnet_functions.py
+compsyn.egg-info/PKG-INFO
+compsyn.egg-info/SOURCES.txt
+compsyn.egg-info/dependency_links.txt
+compsyn.egg-info/requires.txt
+compsyn.egg-info/top_level.txt

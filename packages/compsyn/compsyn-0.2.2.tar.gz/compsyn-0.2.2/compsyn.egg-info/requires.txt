@@ -1,0 +1,16 @@
+black
+numpy
+scipy
+pillow
+matplotlib
+memory_profiler
+numba
+seaborn
+scikit-learn
+google_images_download
+google-cloud-vision
+textblob
+nltk
+random_word
+selenium
+bs4

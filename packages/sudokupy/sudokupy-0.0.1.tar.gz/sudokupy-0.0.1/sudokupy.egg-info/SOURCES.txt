@@ -1,0 +1,7 @@
+README.md
+setup.py
+pysudoku/__init__.py
+sudokupy.egg-info/PKG-INFO
+sudokupy.egg-info/SOURCES.txt
+sudokupy.egg-info/dependency_links.txt
+sudokupy.egg-info/top_level.txt

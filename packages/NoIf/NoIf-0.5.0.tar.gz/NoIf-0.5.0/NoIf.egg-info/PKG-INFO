@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: NoIf
+Version: 0.5.0
+Summary: No more if else code
+Home-page: https://github.com/AngelovLee/NoIf
+Author: Jansen Leo
+Author-email: 2835347017@qq.com
+Maintainer: Jansen Leo
+Maintainer-email: 2835347017@qq.com
+License: MIT License
+Description: ### No more if else code
+        - 示例一
+        ```python
+        
+        from NoIf import handle_base
+        
+        
+        @handle_base.register('strategy_test')
+        def strategy_1():
+            print('strategy_1')
+        
+        
+        @handle_base.register('strategy_test')
+        def strategy_2():
+            print('strategy_2')
+        
+        if __name__ == '__main__':
+            strategy = handle_base.invoke('strategy_test', 'strategy_1')
+            strategy()
+        ```
+        ---
+        - 示例二
+        ```python
+        from NoIf import handle_base
+        
+        
+        class Strategy(object):
+            pass
+        
+        
+        @handle_base.register(Strategy)
+        class Strategy1(Strategy):
+        
+            def test(self):
+                print('strategy_1')
+        
+        
+        @handle_base.register(Strategy)
+        class Strategy2(Strategy):
+        
+            def test(self):
+                print('strategy_2')
+        
+        
+        if __name__ == '__main__':
+            strategy_handle = handle_base.invoke(Strategy, 'Strategy1')
+            handle = strategy_handle()
+            handle.test()
+        ```
+Platform: linux
+Platform: windows
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown

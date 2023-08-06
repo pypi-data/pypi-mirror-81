@@ -1,0 +1,16 @@
+TkinterExtensions/AnimatedGIF.py,sha256=a2oxMf_bGUNqC3eiQkW59fd09RUIU0_GGwGrxl7AAVQ,4148
+TkinterExtensions/Bindings.py,sha256=JWBKwe_mgJTJzJXQxWqioPTwSDCkajOzHeUllf4cxoI,1068
+TkinterExtensions/Enumerations.py,sha256=XzTAjlngZM-gsRtSxE_9iJ8TCnxGwxUtF6oDj6tNy0A,2653
+TkinterExtensions/Events.py,sha256=8VPGkIeNMNpm7TBPRwOoSS2uPTjA1qJJt3ihE9qWB6A,1825
+TkinterExtensions/Extensions.py,sha256=sPEaFwMi2WxnVOfelAZgNDyNX_50iMRPSCimaHxMA5E,3294
+TkinterExtensions/HID.py,sha256=mMusnUAZ7YdeIuLw5KdeehikjJyxapnHmbUBkT9DygQ,3004
+TkinterExtensions/Helpers.py,sha256=K_TgJMBep8QvoXLlvUqUJxMu_DDOrNl6rUvKcosmwVY,4240
+TkinterExtensions/Widgets.py,sha256=V4xIx29ZvJQ8Rae56zAPv9S58yg7-jH2jQlGG-B7o1I,33960
+TkinterExtensions/__init__.py,sha256=9w9TOZQcI8jvbXnqWL8d8c_ImM64CM-bnc6XZA0mzRU,449
+TkinterExtensions/__version__.py,sha256=8cnA5a9rQL-5kCnscvaiZpc85ZFnvmJlA-BY8F0s9kc,330
+TkinterExtensions/debug.py,sha256=IP9ZpghOndUVLTm-wZMy-2fkY2u4LeeREobmiX-w3GM,3798
+TkinterExtensions-1.3.5.dist-info/LICENSE,sha256=t7GwIfOiUUlQXGcrRH0jcrxgZoYCLHnYhR7dA_gipLc,35822
+TkinterExtensions-1.3.5.dist-info/METADATA,sha256=fzfKh9v3rR6SycQQb_0Q-TdfBcIYSyjyqdXwmfiwPuQ,906
+TkinterExtensions-1.3.5.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+TkinterExtensions-1.3.5.dist-info/top_level.txt,sha256=GhnO38G1SRXVJpfoum1xqKnJeqH2FpnA1DaFlZJutgw,18
+TkinterExtensions-1.3.5.dist-info/RECORD,,

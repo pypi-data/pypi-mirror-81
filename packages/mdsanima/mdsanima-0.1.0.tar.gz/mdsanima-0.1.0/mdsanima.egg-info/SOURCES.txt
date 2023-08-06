@@ -1,0 +1,10 @@
+README.md
+setup.py
+mdsanima/__init__.py
+mdsanima/animation.py
+mdsanima/render.py
+mdsanima.egg-info/PKG-INFO
+mdsanima.egg-info/SOURCES.txt
+mdsanima.egg-info/dependency_links.txt
+mdsanima.egg-info/requires.txt
+mdsanima.egg-info/top_level.txt

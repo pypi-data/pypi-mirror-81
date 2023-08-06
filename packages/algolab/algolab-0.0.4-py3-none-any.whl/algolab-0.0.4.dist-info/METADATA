@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: algolab
+Version: 0.0.4
+Summary: AlgoLab Site API
+Home-page: https://github.com/USA-RedDragon/python-algolab
+Author: Jacob McSwain
+Author-email: pypi@mcswain.dev
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# AlgoLab API
+
+## Site
+
+<https://algolab.cloud>
+
+## PyPI
+
+<https://pypi.org/project/algolab/>
+
+

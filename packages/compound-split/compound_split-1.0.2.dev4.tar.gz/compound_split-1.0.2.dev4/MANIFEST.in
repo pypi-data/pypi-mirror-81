@@ -1,0 +1,2 @@
+include compound_split/dicts/de-mixed.dic
+include compound_split/dicts/nl-NL.dic

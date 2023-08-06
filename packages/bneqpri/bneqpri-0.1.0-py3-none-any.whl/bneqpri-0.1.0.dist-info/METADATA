@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: bneqpri
+Version: 0.1.0
+Summary: Fixed-Point Methods for Computing Equilibrium Prices
+Home-page: https://github.com/wrossmorrow/bneqpri
+Author: W. Ross Morrow
+Author-email: morrowwr@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Bertrand-Nash Equilibrium Prices Solver (with Finite Purchasing Power / Budgets)
+
+Method from: 
+
+Morrow, W.R. & Skerlos, S.J. Fixed-Point Approaches to Computing Bertrand-Nash Equilibrium 
+Prices Under Mixed-Logit Demand. Operations Research 59(2) (2011).
+https://doi.org/10.1287/opre.1100.0894)
+
+Morrow, W.R. Finite purchasing power and computations of Bertrand–Nash equilibrium prices.
+Computational Optimization and Applications 62, 477–515 (2015). 
+https://doi.org/10.1007/s10589-015-9743-7           
+
+Note this software is provided AS-IS under the GPL v2.0 License. Contact the author
+with any questions. Copyright 2020+ W. Ross Morrow. 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+

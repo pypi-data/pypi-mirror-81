@@ -1,0 +1,3 @@
+[kpireport.output]
+smtp = kpireport_smtp:SMTPOutputDriver
+

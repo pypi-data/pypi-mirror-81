@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+classification_library/__init__.c
+classification_library/__init__.pxd
+classification_library/data
+classification_library.egg-info/PKG-INFO
+classification_library.egg-info/SOURCES.txt
+classification_library.egg-info/dependency_links.txt
+classification_library.egg-info/requires.txt
+classification_library.egg-info/top_level.txt

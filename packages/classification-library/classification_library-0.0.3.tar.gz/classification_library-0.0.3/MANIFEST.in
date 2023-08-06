@@ -1,0 +1,2 @@
+include classification_library/__init__.pxd
+include classification_library/data

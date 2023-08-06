@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mindee
+Version: 0.0.1
+Summary: Mindee SDK repository
+Home-page: UNKNOWN
+Author: Mindee
+Author-email: contact@mindee.com
+License: MIT
+Description: # Mindee SDK
+        
+        This is Mindee repository !
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown

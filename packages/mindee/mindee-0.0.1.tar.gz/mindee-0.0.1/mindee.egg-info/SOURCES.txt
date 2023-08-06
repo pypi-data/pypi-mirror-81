@@ -1,0 +1,8 @@
+README.md
+setup.py
+mindee/__init__.py
+mindee/__main__.py
+mindee.egg-info/PKG-INFO
+mindee.egg-info/SOURCES.txt
+mindee.egg-info/dependency_links.txt
+mindee.egg-info/top_level.txt

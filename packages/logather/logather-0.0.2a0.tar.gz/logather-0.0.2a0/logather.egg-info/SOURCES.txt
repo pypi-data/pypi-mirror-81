@@ -1,0 +1,16 @@
+README.md
+setup.py
+logather/__init__.py
+logather/__main__.py
+logather/cmdline.py
+logather/log_regexps.py
+logather/logather.py
+logather/startpage.py
+logather/tor_proxies.py
+logather/validator.py
+logather.egg-info/PKG-INFO
+logather.egg-info/SOURCES.txt
+logather.egg-info/dependency_links.txt
+logather.egg-info/not-zip-safe
+logather.egg-info/requires.txt
+logather.egg-info/top_level.txt

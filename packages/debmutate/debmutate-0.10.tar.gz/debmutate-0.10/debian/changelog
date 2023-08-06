@@ -1,0 +1,58 @@
+debmutate (0.10) unstable; urgency=medium
+
+  * Fix Python version number.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Thu, 08 Oct 2020 17:44:19 +0000
+
+debmutate (0.9) unstable; urgency=medium
+
+  * Add get_option / del_option members to Watch.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 27 Sep 2020 19:15:52 +0000
+
+debmutate (0.8) unstable; urgency=medium
+
+  * Add support for parsing maintscript files.
+  * Suppress warnings about substvars.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 26 Sep 2020 16:22:40 +0000
+
+debmutate (0.7) unstable; urgency=medium
+
+  * Do not accidentally add empty lines in control files.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 12 Sep 2020 15:39:34 +0000
+
+debmutate (0.6) unstable; urgency=medium
+
+  * Various improvements to quilt patch editing.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 08 Sep 2020 01:10:00 +0000
+
+debmutate (0.5) unstable; urgency=medium
+
+  * Deal with some more conflicts when editing cdbs templated control
+    files.
+  * debmutate.changelog: Add all_sha_prefixed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 02 Sep 2020 17:34:18 +0000
+
+debmutate (0.4) unstable; urgency=medium
+
+  * Add debmutate.lintian_overrides module.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 27 Jul 2020 20:28:33 +0000
+
+debmutate (0.3) unstable; urgency=medium
+
+  * Add functions for expanding tags from gbp.conf.
+  * Add strip_changelog_message.
+  * Add more typing and documentation.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Thu, 16 Jul 2020 19:02:28 +0000
+
+debmutate (0.2) unstable; urgency=medium
+
+  * Initial release. Closes: #964421
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 06 Jul 2020 23:17:33 +0000

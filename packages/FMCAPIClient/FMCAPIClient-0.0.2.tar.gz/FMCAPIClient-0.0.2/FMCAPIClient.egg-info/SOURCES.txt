@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+FMCAPIClient/__init__.py
+FMCAPIClient/api_interface.py
+FMCAPIClient.egg-info/PKG-INFO
+FMCAPIClient.egg-info/SOURCES.txt
+FMCAPIClient.egg-info/dependency_links.txt
+FMCAPIClient.egg-info/requires.txt
+FMCAPIClient.egg-info/top_level.txt
+tests/mytests.py

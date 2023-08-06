@@ -1,0 +1,12 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+dash_google_oauth/__init__.py
+dash_google_oauth/auth.py
+dash_google_oauth/google_auth.py
+dash_google_oauth.egg-info/PKG-INFO
+dash_google_oauth.egg-info/SOURCES.txt
+dash_google_oauth.egg-info/dependency_links.txt
+dash_google_oauth.egg-info/requires.txt
+dash_google_oauth.egg-info/top_level.txt

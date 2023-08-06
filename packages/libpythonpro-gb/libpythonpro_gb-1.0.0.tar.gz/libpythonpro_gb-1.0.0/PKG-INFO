@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: libpythonpro_gb
+Version: 1.0.0
+Summary: Módulo para exemplificar construção de projetos Python no curso PyTools
+Home-page: https://github.com/gbianka/mylibpythonpro
+Author: Bianka Teles
+Author-email: grattyelleteles@gmail.com
+License: GNU Affero General Public License v3 or later (AGPLv3+)
+Description: Módulo para exemplificar construção de projetos Python no curso PyTools
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Framework :: Pytest
+Description-Content-Type: text/markdown

@@ -1,0 +1,31 @@
+Metadata-Version: 1.1
+Name: azure-communication-nspkg
+Version: 0.0.0b1
+Summary: Microsoft Azure Communication Namespace Package [Internal]
+Home-page: https://github.com/Azure/azure-sdk-for-python/
+Author: Microsoft Corporation
+Author-email: azurepysdk@microsoft.com
+License: MIT License
+Description: # Microsoft Azure Communication SDK for Python
+        
+        This is the Microsoft Azure Communication namespace package.
+        
+        This package is not intended to be installed directly by the end user.
+        
+        It provides the necessary files for other packages to extend the
+        azure.communication namespace.
+        
+        The complete list of available packages can be found at:
+        https://aka.ms/azsdk/python/all
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License

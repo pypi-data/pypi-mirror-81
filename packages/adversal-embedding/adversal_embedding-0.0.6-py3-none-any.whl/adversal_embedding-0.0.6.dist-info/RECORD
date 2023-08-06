@@ -1,0 +1,8 @@
+adversal_embedding/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+adversal_embedding/core.py,sha256=dXFW923_3eyMsuEJIHX-t0NzNZ3hCswUoaahkuZinFQ,2749
+core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+core/adversal.py,sha256=fXJHMXJXzsgimQ7GqPzeqwpIWcxVnVGSdGu-oEsR7PQ,2702
+adversal_embedding-0.0.6.dist-info/METADATA,sha256=hRD_4dz7jEeUAfY5T3yOqSD14J6ZxRelCBt_OOoIgKc,325
+adversal_embedding-0.0.6.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+adversal_embedding-0.0.6.dist-info/top_level.txt,sha256=ZuEYaqcXphJHm_Ll9bb91v55-BhFLuQBEsYteNVEkVA,19
+adversal_embedding-0.0.6.dist-info/RECORD,,

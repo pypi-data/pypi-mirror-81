@@ -1,0 +1,6 @@
+[console_scripts]
+dacelab = dace.frontend.octave.dacelab:main
+diode = diode.diode_server:main
+sdfgcc = dace.codegen.sdfgcc:main
+sdfv = diode.sdfv:main
+

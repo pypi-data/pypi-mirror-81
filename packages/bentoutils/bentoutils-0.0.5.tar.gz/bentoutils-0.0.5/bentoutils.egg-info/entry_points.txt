@@ -1,0 +1,5 @@
+
+        [console_scripts]
+        bentopack=bentoutils.cli:pack
+        deploy_to_knative=bentoutils.cli:deploy_to_knative
+    

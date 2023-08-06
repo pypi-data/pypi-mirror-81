@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: Project0
+Version: 0.0.8
+Summary: Offline vocal assistant and tts
+Home-page: http://github.com/fenrir77/project0
+Author: Fenrir77
+Author-email: fenrir7377@gmail.com
+License: MIT
+Keywords: vocal assistant offline tts
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Multimedia :: Sound/Audio :: Capture/Recording
+Classifier: Topic :: Multimedia :: Sound/Audio :: Speech
+Classifier: Topic :: Text Processing
+Requires-Dist: PocketSphinx
+Requires-Dist: PyAudio
+Requires-Dist: SpeechRecognition
+Requires-Dist: markdown
+Requires-Dist: pyttsx3
+
+Project0
+--------
+
+To use, simply do::
+
+    >>> import Project0
+    >>> print Project0.main.launch()
+

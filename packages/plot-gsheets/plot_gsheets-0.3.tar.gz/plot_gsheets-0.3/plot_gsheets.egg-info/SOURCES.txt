@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.py
+plot_gsheets/__init__.py
+plot_gsheets/credentials.json
+plot_gsheets/token.pickle
+plot_gsheets.egg-info/PKG-INFO
+plot_gsheets.egg-info/SOURCES.txt
+plot_gsheets.egg-info/dependency_links.txt
+plot_gsheets.egg-info/requires.txt
+plot_gsheets.egg-info/top_level.txt

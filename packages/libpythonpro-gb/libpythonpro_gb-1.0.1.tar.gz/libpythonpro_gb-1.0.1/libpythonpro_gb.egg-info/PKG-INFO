@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: libpythonpro-gb
+Version: 1.0.1
+Summary: Módulo para exemplificar construção de projetos Python no curso PyTools
+Home-page: https://github.com/gbianka/mylibpythonpro
+Author: Bianka Teles
+Author-email: grattyelleteles@gmail.com
+License: GNU Affero General Public License v3 or later (AGPLv3+)
+Description: # mylibpythonpr
+        
+        MÃ³dulo para exemplificar construÃ§Ã£o de projetos Python no curso PyTools
+        
+        [![Build Status](https://travis-ci.com/gbianka/mylibpythonpro.svg?branch=main)](https://travis-ci.com/gbianka/mylibpythonpro)
+        [![Updates](https://pyup.io/repos/github/gbianka/mylibpythonpro/shield.svg)](https://pyup.io/repos/github/gbianka/mylibpythonpro/)
+        [![Python 3](https://pyup.io/repos/github/gbianka/mylibpythonpro/python-3-shield.svg)](https://pyup.io/repos/github/gbianka/mylibpythonpro/)
+        
+        Suportada versÃ£o 3 de Python
+        
+        Para instalar (windows):
+        ```console
+        python -m venv .venv
+        cd .venv/Scripts/activate
+        pip install -r requirements-dev.txt
+        ```
+        
+        Para instalar (linux):
+        ```console
+        python3 -m venv .venv
+        source .venv/bin/activate
+        pip install -r requirements-dev.txt
+        ```
+        
+        Para conferir qualidade de cÃ³digo:
+        ```console
+        (.venv) flake8
+        ```
+        
+        TÃ³picos abordados:
+         1. Git
+         2. Virtualenv
+         3. Pip
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Framework :: Pytest
+Description-Content-Type: text/markdown

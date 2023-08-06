@@ -1,0 +1,17 @@
+scruf/__init__.py,sha256=pMtTmSUht-XtbR_7Doz6bsQqopJJd8rZ8I8zy2HwwoA,22
+scruf/compare.py,sha256=bNcC91oAmoroLMkxKYra12NndezdPS0IfssjwG9xUts,2280
+scruf/exception.py,sha256=qghiWF9qtjzy7B9QZbdHm8OeCzJ1Iv2GHOQYCoRnN_s,83
+scruf/execute.py,sha256=gVsIITgFXIm6zvAWIF1vU0R3SF63b4336jbJMcrTAyY,6049
+scruf/main.py,sha256=ij68JmMJK4bb1fELYjocSDcqhxKDOr3U-_8rJrBVe6E,7441
+scruf/observe.py,sha256=5oDafGtWqJSJjRgwxLVXyAYH1ZT-v0xgoK_KuAb8sR0,5807
+scruf/parsers.py,sha256=KmSwq-RFYzONC1PfUVNW3bPkqostgecLmbgdSJZHaUU,12820
+scruf/runner.py,sha256=_Ayeg2fvcTbxgdHLEEbOzsxLC2nf3onM1QWdyN2pee4,3583
+scruf/test.py,sha256=aJbbAaaxsDBgICj7AtAJ3hb6gCXayiDjppOXmaUn2KE,1672
+scruf/observers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scruf/observers/tap.py,sha256=9Di61XE39PWh_OmsBUE7SYHXyWytEG8Z5dmPuFeNC1k,2908
+scruf-0.4.1.data/scripts/scruf,sha256=NyrBum3A66jVwOdLg0EKNN-rB4xZ4tW5DzvStPtoEPQ,189
+scruf-0.4.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+scruf-0.4.1.dist-info/METADATA,sha256=ujjb-P8_FKPtO546PWgU8tJ6_5xW41ObuAx3vTWFWP4,3232
+scruf-0.4.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+scruf-0.4.1.dist-info/top_level.txt,sha256=kc1f2SS6P_2bZWV_o5jN375kS8YoYxhTGWlnaqBdF6M,6
+scruf-0.4.1.dist-info/RECORD,,

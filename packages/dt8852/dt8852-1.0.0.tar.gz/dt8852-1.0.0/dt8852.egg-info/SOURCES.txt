@@ -1,0 +1,10 @@
+README.md
+setup.py
+dt8852/__init__.py
+dt8852/__main__.py
+dt8852/dt8852.py
+dt8852.egg-info/PKG-INFO
+dt8852.egg-info/SOURCES.txt
+dt8852.egg-info/dependency_links.txt
+dt8852.egg-info/requires.txt
+dt8852.egg-info/top_level.txt

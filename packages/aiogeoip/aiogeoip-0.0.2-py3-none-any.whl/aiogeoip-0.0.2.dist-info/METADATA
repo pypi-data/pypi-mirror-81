@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: aiogeoip
+Version: 0.0.2
+Summary: Real asynchronous geolocation by IP address with asyncio support. 
+Home-page: https://github.com/py-paulo/aiogeoip.git
+Author: Paulo Roberto <paulo.rb.beserra@gmail.com>
+Author-email: paulo.rb.beserra@gmail.com
+License: MIT
+Project-URL: GitHub: issues, https://github.com/py-paulo/aiogeoip/issues
+Project-URL: GitHub: repo, https://github.com/py-paulo/aiogeoip
+Project-URL: Read the Docs, https://aiogeoip.readthedocs.io/en/latest/
+Keywords: aio,python,asyncio,geoip,io,geolocation
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Framework :: AsyncIO
+Provides: aiogeoip
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp (~=3.6.0)
+Requires-Dist: requests (~=2.24.0)
+
+![AioGeoIP logo](https://i.pinimg.com/originals/01/a7/7b/01a77baccfefd2b5c0da749a1181bf83.png)
+
+---
+<p align="center">
+        <b>Real asynchronous</b> geolocation by IP address with <b><a href="https://docs.python.org/3/library/asyncio.html">Asyncio support</a></b>.
+</p>
+<p align="center">
+        Get the geolocation of IPs <b>asynchronously</b> or <b>synchronously</b> using the <a href="https://ip-api.com/" target="_blank"><b>IP-API</b></a> service with <b>cached</b> requests for greater optimization of your software, providing back end with <a href="https://docs.python.org/3/library/urllib.request.html" target="_blank"><b>urllib</b></a> and <a href="https://requests.readthedocs.io/en/master/" target="_blank"><b>requests</b></a>.
+</p>
+
+<p align="center">
+        <img alt="PyPI" src="https://img.shields.io/pypi/v/aiogeoip?style=flat-square">
+        <img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/aiogeoip?style=flat-square">
+        <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/py-paulo/aiogeoip/Pylint?label=pylint&style=flat-square">
+        <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/py-paulo/aiogeoip/Python%20package?label=py-package&style=flat-square">
+        <img alt="Read the Docs" src="https://img.shields.io/readthedocs/aiogeoip?style=flat-square">
+        <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/py-paulo/aiogeoip?style=flat-square">
+        <img alt="GitHub" src="https://img.shields.io/github/license/py-paulo/aiogeoip?style=flat-square">
+</p>
+
+<p align="center">
+  <a href="https://aiogeoip.readthedocs.io/en/latest/" target="_blank">Docs</a> +
+  <a href="#">Pip</a> +
+  <a href="#">Multiplataform</a> +
+  <a href="#">CHANGELOG</a>
+</p>
+
+---
+
+
+
+
+# Changelog
+
+## 0.0.2 (02-10-2020)
+
+### Features
+
+* If a request is not successful (*return code 200*) it will be
+tried again by ``N`` set by default to ``3`` in a time interval
+in seconds ``N`` by default ``2 ``.
+You can still call the ``geoip`` function only with a mandatory
+IPv4 argument, so it will have the default behavior of trying 3 times.
+
+### Bugfixes
+
+* All backends deal with the *connection error* and return code **429** error.
+
+### Improved Documentation
+
+* Creation of the page to document the synchronous functions.
+
+### Misc
+
+* Basic tests for ``geoip`` function on all backends
+

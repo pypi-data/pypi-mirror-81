@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: SpectrumChallenge
+Version: 0.0.1
+Summary: A code of Spectrum Challenge
+Home-page: https://github.com/serp8291/spectrumchallenge
+Author: serp82
+Author-email: serp8291@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+# Spectrum_Challenge 참가자용
+
+----------------------------------------------------
+
+## 2020년도 Spectrum_Challenge 참가자용 코드 패키지입니다.
+
+## 코드 실행 방법 설명
+
+1. IQ data 불러오기
+
+'''
+ReceiveIQ(main_idx,sub_idx)
+'''
+
+2. IQ data 열기
+
+'''
+openIQ(main_idx,sub_idx)
+'''
+
+3. 결과 보내기
+
+'''
+SendResult(team_num, main_idx, sub_idx, ans)
+'''
+

@@ -1,0 +1,6 @@
+[console_scripts]
+fastrelease = fastrelease:fastrelease
+fastrelease_changelog = fastrelease:fastrelease_changelog
+fastrelease_conda_package = fastrelease.conda:fastrelease_conda_package
+fastrelease_release = fastrelease:fastrelease_release
+

@@ -1,0 +1,8 @@
+
+[COMPLETE]
+UnitTesterSG
+matplotlib
+scipy
+numpy
+pandas
+CiteSoft

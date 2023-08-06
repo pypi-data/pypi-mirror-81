@@ -1,0 +1,3 @@
+[kpireport.output]
+s3 = kpireport_s3:S3OutputDriver
+

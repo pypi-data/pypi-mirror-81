@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: fastwebhook
+Version: 0.0.12
+Summary: A simple GitHub webhook server
+Home-page: https://github.com/fastai/fastwebhook/tree/master/
+Author: Jeremy Howard
+Author-email: info@fast.ai
+License: Apache Software License 2.0
+Keywords: github webhook python nbdev
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pip
+Requires-Dist: packaging
+Requires-Dist: fastcore (>=1.0.17)
+Requires-Dist: tweepy
+Provides-Extra: dev
+
+At this stage, this is only able to send tweets on software releases. It's very early stage still. You'll need to set up a webhook on GitHub.
+
+## Install
+
+`pip install fastwebhook`
+
+## How to use
+
+Run `fastwebhook` to run the web server. Pass `--help` for info about optional arguments.
+
+
+

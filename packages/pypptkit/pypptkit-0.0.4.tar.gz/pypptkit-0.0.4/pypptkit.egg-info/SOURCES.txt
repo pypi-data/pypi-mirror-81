@@ -1,0 +1,15 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+pypptkit/__init__.py
+pypptkit/configs.py
+pypptkit/main.py
+pypptkit/static.py
+pypptkit/utils.py
+pypptkit.egg-info/PKG-INFO
+pypptkit.egg-info/SOURCES.txt
+pypptkit.egg-info/dependency_links.txt
+pypptkit.egg-info/entry_points.txt
+pypptkit.egg-info/requires.txt
+pypptkit.egg-info/top_level.txt

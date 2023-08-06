@@ -1,0 +1,4 @@
+pylogconf
+pytconf
+python-pptx
+pyvardump

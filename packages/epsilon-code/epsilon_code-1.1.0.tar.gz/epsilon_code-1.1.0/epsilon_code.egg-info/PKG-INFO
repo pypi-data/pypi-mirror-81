@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: epsilon-code
+Version: 1.1.0
+Summary: Generate and Debug Python code from the Command Line!
+Home-page: https://epsilon.shreenabh.com/
+Author: Shreenabh Agrawal
+Author-email: me@shreenabh.com
+License: UNKNOWN
+Description: # Epsilon Code
+        
+        This is a light-weight package for Epsilon Code. For all sorts of information, have a look at our website: epsilon.shreenabh.com
+        
+        Detailed README can be found in our GitHub linked via that page.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

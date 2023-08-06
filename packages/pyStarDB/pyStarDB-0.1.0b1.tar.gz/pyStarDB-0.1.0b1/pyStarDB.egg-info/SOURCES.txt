@@ -1,0 +1,12 @@
+README.md
+setup.py
+pyStarDB/__init__.py
+pyStarDB/sp_pystardb.py
+pyStarDB/test_star.py
+pyStarDB.egg-info/PKG-INFO
+pyStarDB.egg-info/SOURCES.txt
+pyStarDB.egg-info/dependency_links.txt
+pyStarDB.egg-info/requires.txt
+pyStarDB.egg-info/top_level.txt
+tests/__init__.py
+tests/tests_pystardb.py

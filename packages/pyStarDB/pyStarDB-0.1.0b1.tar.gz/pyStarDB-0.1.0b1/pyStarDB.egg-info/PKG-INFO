@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: pyStarDB
+Version: 0.1.0b1
+Summary: Star file python Package
+Home-page: https://gitlab.gwdg.de/sphire/starfile_db.git
+Author: Adnan Ali, Markus Stabrin
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6

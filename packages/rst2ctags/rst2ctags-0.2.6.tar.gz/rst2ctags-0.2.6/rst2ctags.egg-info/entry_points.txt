@@ -1,0 +1,3 @@
+[console_scripts]
+rst2ctags = rst2ctags:cli_main
+

@@ -1,0 +1,3 @@
+[limnoria.plugins]
+WebStats = limnoria_webstats
+

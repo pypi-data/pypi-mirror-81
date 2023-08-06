@@ -1,0 +1,12 @@
+README.md
+setup.py
+./__init__.py
+./config.py
+./plugin.py
+./test.py
+limnoria_webstats.egg-info/PKG-INFO
+limnoria_webstats.egg-info/SOURCES.txt
+limnoria_webstats.egg-info/dependency_links.txt
+limnoria_webstats.egg-info/entry_points.txt
+limnoria_webstats.egg-info/requires.txt
+limnoria_webstats.egg-info/top_level.txt

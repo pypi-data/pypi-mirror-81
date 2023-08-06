@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: snptoolkit
+Version: 2.1.7
+Summary: SNPs filtering, annotation and combining
+Home-page: https://github.com/Amine-Namouchi/snpToolkit
+Author: Amine Namouchi
+Author-email: amine.namouchi@gmail.com
+License: GPLv3+
+Keywords: SNPs filtering annotation variants calling
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Requires-Dist: pysam
+Requires-Dist: pandas
+Requires-Dist: tqdm
+Requires-Dist: coloredlogs
+Requires-Dist: Biopython
+Requires-Dist: dash
+Requires-Dist: plotly
+Requires-Dist: numba
+
+SNPs annotation, filtering and combining from vcf files
+
+

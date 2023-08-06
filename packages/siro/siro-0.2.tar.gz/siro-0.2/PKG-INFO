@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: siro
+Version: 0.2
+Summary: This is a package for controlling the SIRO SmartHome Devices like rollers.
+Home-page: https://github.com/fear/siro
+Author: Felix Arnold
+Author-email: moin@felix-arnold.dev
+License: MIT
+Download-URL: https://github.com/fear/siro/archive/0.2.tar.gz
+Description: UNKNOWN
+Keywords: SmartHome,Siro,roller,home assistant
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: Topic :: Home Automation
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9

@@ -1,0 +1,22 @@
+#!/usr/bin/python3
+# BOTLIB - framework to program bots
+#
+#
+
+import os, sys ; sys.path.insert(0, os.getcwd())
+import ol
+
+def main():
+    k = ol.krn.boot("bot", os.path.expanduser("~/.bot"))
+    k.walk("bot")
+    k.walk("bmod")
+    if k.cfg.txt:
+        return k.cmd(k.cfg.otxt)
+    k.start()
+    k.init(k.cfg.mods)
+    c = ol.csl.Console()
+    c.start()
+    k.wait()
+
+ol.trm.execute(main)
+os._exit(0)

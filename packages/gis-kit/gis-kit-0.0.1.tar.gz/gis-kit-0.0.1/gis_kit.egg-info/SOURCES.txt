@@ -1,0 +1,7 @@
+README.md
+setup.py
+gis-kit/__init__.py
+gis_kit.egg-info/PKG-INFO
+gis_kit.egg-info/SOURCES.txt
+gis_kit.egg-info/dependency_links.txt
+gis_kit.egg-info/top_level.txt

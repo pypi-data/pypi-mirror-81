@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+sysinf/__init__.py
+sysinf.egg-info/PKG-INFO
+sysinf.egg-info/SOURCES.txt
+sysinf.egg-info/dependency_links.txt
+sysinf.egg-info/top_level.txt

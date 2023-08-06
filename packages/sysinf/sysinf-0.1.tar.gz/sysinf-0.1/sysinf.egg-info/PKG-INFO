@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: sysinf
+Version: 0.1
+Summary: A package for viewing system information
+Home-page: https://github.com/ToastCoder/sysinf
+Author: ['Vigneshwar K R']
+Author-email: vicky.pcbasic@gmail.com
+License: MIT
+Download-URL: https://github.com/ToastCoder/sysinf/archive/master.zip
+Description: # sysinf
+        A Python package to collect system information
+        
+Keywords: SYSTEM-INFORMATION
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown

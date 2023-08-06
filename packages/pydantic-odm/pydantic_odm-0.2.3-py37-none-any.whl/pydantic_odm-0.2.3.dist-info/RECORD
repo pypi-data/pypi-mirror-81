@@ -1,0 +1,14 @@
+pydantic_odm/__init__.py,sha256=AlecQg8a6PSfbg3-m-1j92nyEzPUvYbrnRfBb9BS5ls,85
+pydantic_odm/db.py,sha256=LyHPGTETDQ3L9Z0jU77SXq0RPPlStNPywCCNZ1hcDmo,5760
+pydantic_odm/errors.py,sha256=zB3GIQ8qtrrJbbyrD_f9l1nEFb_K_h4agXtNWdAZMEw,335
+pydantic_odm/mixins.py,sha256=cgkSg72Q2HXIExfjDw-bSx3SeOmgzeCNY3GXzcMHKE8,10605
+pydantic_odm/types.py,sha256=oqlIGSLXteWSAU9W1fUpsbThMLE22SCmx7nKezvLgBc,1783
+pydantic_odm/decoders/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydantic_odm/decoders/mongodb.py,sha256=-Riivg-sCYFj5RkYHxq8IkvxPWBfuzI95T0z8Sbhw3I,1262
+pydantic_odm/encoders/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydantic_odm/encoders/mongodb.py,sha256=cdu6VtjOqnO8RCGuKkA2t2qyRC5_5tGApFRKhSkZjMk,2756
+pydantic_odm-0.2.3.dist-info/LICENSE,sha256=KYYdjkFlLUYyOnqyWwGVvG217tvZO5cKb0Co9sIEOqY,1061
+pydantic_odm-0.2.3.dist-info/METADATA,sha256=NEuiqBpwVm_3xJhW3wf9QZ0cUZAjN5AYgW_kkmiaLfU,1236
+pydantic_odm-0.2.3.dist-info/WHEEL,sha256=JTXMqElVzllQUa_QaBR8RaLbagatmp_BnpQ4iEv4Fq0,93
+pydantic_odm-0.2.3.dist-info/top_level.txt,sha256=WjVRq0EeVkj9sLi_dqnFMZjkB6FDv32RLuDUuQfLCGM,13
+pydantic_odm-0.2.3.dist-info/RECORD,,

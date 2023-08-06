@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: hover
+Version: 0.0.1
+Summary: Hovercraft-like machine learning
+Home-page: https://github.com/ErnieThornhill/hover
+Author: Ernie Thornhill
+Author-email: pepsimixt@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: bokeh (>=2.0.1)
+Requires-Dist: ivis (>=1.7)
+Requires-Dist: numba (>=0.46.0)
+Requires-Dist: numpy (>=1.14)
+Requires-Dist: scipy (>=1.4.1)
+Requires-Dist: seaborn
+Requires-Dist: sklearn (>=0.21.0)
+Requires-Dist: snorkel (>=0.9.3)
+Requires-Dist: spacy (>=2.1.9)
+Requires-Dist: torch (>=1.4.0)
+Requires-Dist: tqdm (>=4.0)
+Requires-Dist: umap-learn (>=0.3.10)
+Requires-Dist: wasabi (>=0.4)
+Requires-Dist: wrappy (>=0.4)
+
+# Hover
+
+`Hover` is a machine learning library that enables smooth supervision for people with moderate programming background and moderate domain expertise. Think piecewise annotation likeground transportation -- this is a **hover**craft where you get away without touching the ground.
+
+## Docs
+
+For documentation, please check out the mkdocs site.
+
+## Dependencies
+
+`./requirements.txt` is for developers.
+
+Please refer to `hover/requirements.txt` for pip-installable dependencies.
+
+Note that dev dependencies and package dependencies are placed separately.
+
+

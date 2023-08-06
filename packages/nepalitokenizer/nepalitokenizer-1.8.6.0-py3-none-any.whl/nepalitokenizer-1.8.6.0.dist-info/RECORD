@@ -1,0 +1,9 @@
+nepalitokenizer.py,sha256=MiuzO22EZ48bnHSiEq5jfFDbehFhvxF-GTfM1J2AuVs,8931
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/nepalitokenizer.py,sha256=3xVCdmDELwXKefYorECin69vVEWMa1Sa8ehF7tRJUks,1336
+src/stopwords.py,sha256=pX9OuKzI2DdvTAQMPj8r2XOhpgJJ5SzrZEw0Id-CoUA,7690
+nepalitokenizer-1.8.6.0.dist-info/LICENSE.txt,sha256=8qX7fxri27XGU9ZBtIllpGF6L7NdKeKtQHB-knWy8WA,1094
+nepalitokenizer-1.8.6.0.dist-info/METADATA,sha256=Lv3fZx-m5dJ_TNH4VTRbjmsFpa5-BY-6zuBKBbVSc5M,1264
+nepalitokenizer-1.8.6.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+nepalitokenizer-1.8.6.0.dist-info/top_level.txt,sha256=RG2PGi35kT-jVj58nHaUqzRGi2EcVu9AgfVuIeJXp0o,16
+nepalitokenizer-1.8.6.0.dist-info/RECORD,,

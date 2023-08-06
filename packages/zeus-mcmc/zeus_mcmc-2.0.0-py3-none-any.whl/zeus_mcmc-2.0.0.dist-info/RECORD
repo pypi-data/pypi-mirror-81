@@ -1,0 +1,13 @@
+zeus/__init__.py,sha256=OSqqErKKv5m1JPxXOY5dBe5HLKFSc6-O8uEEQxibea4,323
+zeus/autocorr.py,sha256=5uXwBQXLLMMqE7-X2Ogp_-nN5GJET-twCojC2B7aHNk,3165
+zeus/ensemble.py,sha256=B9SPY4k9UPlnWqqhZWH2Vnskkw8XXz3JvxiuinEEqJQ,17831
+zeus/fwrapper.py,sha256=mWuoYp8E1zT5Sd6oN2xvJcch1Se7rUV9vFrJ6XThhjM,672
+zeus/moves.py,sha256=sKFaENT6QS2lOm4UHvUNxbzr_CaIwiTw_8IWvmHX5Bs,10858
+zeus/parallel.py,sha256=nTIyaUbgamyxLdUjkQuqIQFSODXM_IoLtVAlJGPNlVU,10681
+zeus/plotting.py,sha256=5HvKGQE18-_nsH5dn7rfw4iH7kgT93CEhYJ6osIDB-8,8507
+zeus/samples.py,sha256=2-iTJk1unXsBAA1unhWkA0IQaf6p95AUvZp-UFBycAY,2979
+zeus_mcmc-2.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+zeus_mcmc-2.0.0.dist-info/METADATA,sha256=4sNJMHhBVLilcMGRaZYR9G4LNhB3p3PGz9YOFQbaVus,3164
+zeus_mcmc-2.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+zeus_mcmc-2.0.0.dist-info/top_level.txt,sha256=arZiCD4dXxESKuflN27VrItzzfChu1dmORuULmrd0vg,5
+zeus_mcmc-2.0.0.dist-info/RECORD,,

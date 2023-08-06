@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: sppl
+Version: 1.0.2
+Summary: The Sum-Product Probabilistic Language
+Home-page: https://github.com/probcomp/sppl
+Maintainer: Feras A. Saad
+Maintainer-email: fsaad@mit.edu
+License: Apache-2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Provides-Extra: src
+Provides-Extra: magics
+Provides-Extra: tests
+Provides-Extra: all

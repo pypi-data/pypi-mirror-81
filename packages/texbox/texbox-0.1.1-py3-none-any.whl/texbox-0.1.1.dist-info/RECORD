@@ -1,0 +1,11 @@
+texbox/__init__.py,sha256=tlEl9ZvyUsBVPwf3uU4T_D_u-lLEtIWTa8SIPPN2hgQ,261
+texbox/cli.py,sha256=8OTzV08Q8uvqt7rVJxIu65tUgoFbXAmA7yIvGt2WcZM,2132
+texbox/constants.py,sha256=7kEqfCDJS1-lgERQ24Fo0YLonVLCY_YQvh6RVnorLxs,291
+texbox/parser.py,sha256=Hg8LM4RUoMOqSRb5ifh6jLo7Hk5qPFPyOTAkYhic3G4,1061
+texbox/utils.py,sha256=Z-IaGztObQZ5IyWVxx12uvhCqktS1pSQ2pGBoVpqfJ8,1074
+texbox-0.1.1.dist-info/LICENSE,sha256=GeYU2uTB8ClagD60gmJcBkd-flgftH3ujgzey_ZoDLE,1071
+texbox-0.1.1.dist-info/METADATA,sha256=Pdrhpr0uaFN8MbwQ5kCdsthvuxpT2YGDnpxCG7U0b98,2681
+texbox-0.1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+texbox-0.1.1.dist-info/entry_points.txt,sha256=rMxdwavh2bzVB3LXqW7cor3QtRO0OWLnAOCgaA6ix2E,44
+texbox-0.1.1.dist-info/top_level.txt,sha256=wDZRA0UBqOTAkxV3DCzqO0GckZZGGc6yzVT-NAJbV30,7
+texbox-0.1.1.dist-info/RECORD,,

@@ -1,0 +1,3 @@
+[console_scripts]
+phort = phort.__main__:entrypoint
+

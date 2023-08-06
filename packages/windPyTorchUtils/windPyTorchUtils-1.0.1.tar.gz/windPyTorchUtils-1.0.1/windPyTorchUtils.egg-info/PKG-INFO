@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: windPyTorchUtils
+Version: 1.0.1
+Summary: Useful tools for PyTorch projects.
+Home-page: https://github.com/windionleaf/windPyTorchUtils
+Author: Martin Dočekal
+License: The Unlicense
+Description: # windPyTorchUtils
+        Utils for PyTorch projects. 
+        
+Keywords: utils,PyTorch,PyTorch utilsgeneral usage
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

@@ -1,0 +1,17 @@
+aiida_gaussian/__init__.py,sha256=-BwCkpNodyiwaCP9BIrSi-ld2T954E7CDvcVsfOS0dU,144
+aiida_gaussian/calculations/__init__.py,sha256=5N3DtG8WtHTOEe4Ar8jnRwFLjrIidnsbdgPU4kwJn90,186
+aiida_gaussian/calculations/cubegen.py,sha256=zYTL4sxvbdqnRzzBo2YdDbd7PWyynbd4yUEo6HNOOno,3971
+aiida_gaussian/calculations/formchk.py,sha256=3T9vnGIPZPjECZ8XodCtYanpLhLTCMvdy8vU9Yh64JQ,2379
+aiida_gaussian/calculations/gaussian.py,sha256=uV6b6U6HP3VdGc3FPV1C66E7vfdE6l2jpIe_yR341-U,7108
+aiida_gaussian/parsers/__init__.py,sha256=5gpz6_oJ4k0nEK22QvNy4dMqaN9WIHfYXY08h8PrOco,2474
+aiida_gaussian/tests/__init__.py,sha256=L2Xd6bsf25OlAgdgZ5Cv486Xns44ZrEV203UnCKIisw,292
+aiida_gaussian/tests/test_gaussian.py,sha256=2OvdZZQuIaeQ8Mbn0XLeM5EwdqDjhdYbgpL2KPXFrrw,3128
+aiida_gaussian/tests/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiida_gaussian/tests/data/ch4.xyz,sha256=ily-HY_Yih4c-a8AF7MZkL1FbX3DPgBlHztm6vFdgzE,248
+aiida_gaussian/tests/data/gaussian_test.inp,sha256=Tz5cykYTD--szPinbgNBBvvWPtJP7d4B-LlxVOz7u4o,463
+aiida_gaussian-0.3.0.dist-info/LICENSE,sha256=Y2J_KZXm_oPFgO9tX5r1QW34Q1INGOWCSspg_nU-DsA,1072
+aiida_gaussian-0.3.0.dist-info/METADATA,sha256=itXI-CHhFqOOiDZcG0eCTMrkTOdYoPKB0RkR175e2CU,3236
+aiida_gaussian-0.3.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+aiida_gaussian-0.3.0.dist-info/entry_points.txt,sha256=N8VpQ_oVoIHkjEKTA6XlRrNSutKeSKdmmeLlWFdRhbQ,295
+aiida_gaussian-0.3.0.dist-info/top_level.txt,sha256=EPV6jrT5o6ALFuFllUiHI73ukcAMZ92RSqpjCmLNhnU,15
+aiida_gaussian-0.3.0.dist-info/RECORD,,

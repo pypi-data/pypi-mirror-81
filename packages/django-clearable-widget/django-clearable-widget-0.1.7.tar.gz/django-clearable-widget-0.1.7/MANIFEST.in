@@ -1,0 +1,6 @@
+include LICENSE
+include README.rst
+recursive-exclude clearable_widget/tests *
+recursive-include clearable_widget/locale *.mo
+recursive-include clearable_widget/static *.css *.js
+recursive-include clearable_widget/templates *.html *.jinja

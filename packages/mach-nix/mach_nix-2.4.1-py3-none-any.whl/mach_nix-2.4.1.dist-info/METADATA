@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: mach-nix
+Version: 2.4.1
+Summary: Tool to create highly reproducible python environments
+Home-page: https://github.com/DavHau/mach-nix
+Author: David Hauer
+Author-email: hsngrmpf@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: distlib (~=0.3.0)
+Requires-Dist: packaging (>=19.0)
+Requires-Dist: resolvelib (==0.3.0)
+Requires-Dist: toml
+Requires-Dist: tree-format (==0.1.2)
+
+UNKNOWN
+
+

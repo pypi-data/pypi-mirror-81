@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+libprimeiroprojeto/__init__.py
+libprimeiroprojeto/github_api.py
+libprimeiroprojeto.egg-info/PKG-INFO
+libprimeiroprojeto.egg-info/SOURCES.txt
+libprimeiroprojeto.egg-info/dependency_links.txt
+libprimeiroprojeto.egg-info/not-zip-safe
+libprimeiroprojeto.egg-info/requires.txt
+libprimeiroprojeto.egg-info/top_level.txt

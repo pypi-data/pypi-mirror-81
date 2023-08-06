@@ -1,0 +1,11 @@
+client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+client/api.py,sha256=EIxGWNidUGkr89P_bOFC63X9XFxlGXzXKgJQ8c4ghjc,2518
+client/azure.py,sha256=TrO2q72DaFIHrsu_V3CJHjYJLGqxw2GdWoRpASCL_U8,1152
+client/ftp.py,sha256=indbwcvOK-zYkY7_Jln8gflqKbkGTLionVTOJCwM_Gw,928
+client/graphql.py,sha256=S8V9a9-GE_jvllpSSbvqrX6EXB2VejbQG0XaZhY0Tt0,1315
+pickup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pickup/models.py,sha256=H_YGYwO9olDh3Jn8eYdhjus1j9dSnrDESeN76JmZ6Wc,2185
+appchance-0.1.0.dist-info/METADATA,sha256=MUgub1PhlbGLEUo07LsSBdair6iV3Bf7IDTlwM2GBXs,628
+appchance-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+appchance-0.1.0.dist-info/top_level.txt,sha256=JMwhDoFXVRVeJNqp9fRfCQiKhJyfFtx8y_WS2SkN7Is,14
+appchance-0.1.0.dist-info/RECORD,,

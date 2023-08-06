@@ -1,0 +1,15 @@
+Metadata-Version: 1.0
+Name: NewtonLaw
+Version: 0.2
+Summary: this is program to enable programmers not to write big code for calculating the laws of Newton and Maths formulae
+Home-page: UNKNOWN
+Author: Ashmit Jain
+Author-email: ashmitjain023@gmail.com
+License: UNKNOWN
+Description: copyright (C)
+        
+        copyright holder - ASHMIT JAIN 
+        
+        This package contains files till now that are LawsOfMotion, LawOfForce, Maths. you can import these till now more i will be adding.
+        for any query send form using - http://ardutech.000webhostapp.com/Main.php
+Platform: UNKNOWN

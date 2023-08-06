@@ -1,0 +1,8 @@
+setup.py
+NewtonLaw.egg-info/PKG-INFO
+NewtonLaw.egg-info/SOURCES.txt
+NewtonLaw.egg-info/dependency_links.txt
+NewtonLaw.egg-info/top_level.txt
+NewtonLaws/LawOfForce.py
+NewtonLaws/LawsOfMotion.py
+NewtonLaws/Maths.py

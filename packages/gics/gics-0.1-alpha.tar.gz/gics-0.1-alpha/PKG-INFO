@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: gics
+Version: 0.1-alpha
+Summary: A basic ODM wrapper for pymongo
+Home-page: https://github.com/dorklein/py-gics
+Author: Dor Klein
+Author-email: dorklein2@gmail.com
+License: MIT
+Download-URL: https://github.com/dorklein/py-gics/archive/v0.1-alpha.tar.gz
+Description: UNKNOWN
+Keywords: GICS,Global Industry Classification Standard
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8

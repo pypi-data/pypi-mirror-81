@@ -1,0 +1,10 @@
+setup.py
+5090_distributions/Binomialdistribution.py
+5090_distributions/Gaussiandistribution.py
+5090_distributions/Generaldistribution.py
+5090_distributions/__init__.py
+5090_distributions.egg-info/PKG-INFO
+5090_distributions.egg-info/SOURCES.txt
+5090_distributions.egg-info/dependency_links.txt
+5090_distributions.egg-info/not-zip-safe
+5090_distributions.egg-info/top_level.txt

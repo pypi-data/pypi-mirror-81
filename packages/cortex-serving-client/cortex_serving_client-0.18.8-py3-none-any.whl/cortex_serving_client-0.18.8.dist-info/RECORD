@@ -1,0 +1,10 @@
+cortex_serving_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cortex_serving_client/cortex_client.py,sha256=vWojMoZgDwBAjSnJ5IdyaYXEwjaSZ15aiwWlgL2GIJ4,22673
+cortex_serving_client/deployment_failed.py,sha256=jwYJq46M4wMwTFXsxQWK-l4eORk24zDHiqmkWPUDEKM,578
+cortex_serving_client/printable_chars.py,sha256=EaKSfOV818kdCIiowBjyBTP9M9XCVeROjGCqdpoPKwk,185
+cortex_serving_client/retry_utils.py,sha256=_tY2zgwr568lbUOK6cgmBxzMz_sEuygCT7MO4LQCtmg,887
+cortex_serving_client-0.18.8.dist-info/LICENCE,sha256=bE434Rr-8DYSivR5Fd6dom2faCygU6NYagxEeULXnq4,11346
+cortex_serving_client-0.18.8.dist-info/METADATA,sha256=6FtRB2c01XrA9VgsgOxGVhfa_LE5uuxTs4hotL1lAgI,5139
+cortex_serving_client-0.18.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+cortex_serving_client-0.18.8.dist-info/top_level.txt,sha256=P4FqP9zDYscnbBpUltj4eCWEYhiyIaXNb-VG8JeponQ,22
+cortex_serving_client-0.18.8.dist-info/RECORD,,

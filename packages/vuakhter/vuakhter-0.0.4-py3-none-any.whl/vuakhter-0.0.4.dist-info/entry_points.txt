@@ -1,0 +1,3 @@
+[console_scripts]
+vuakhter = vuakhter.scripts.process:main
+

@@ -1,0 +1,6 @@
+beautifultable
+iapws
+matplotlib
+mcerp
+numpy
+scipy

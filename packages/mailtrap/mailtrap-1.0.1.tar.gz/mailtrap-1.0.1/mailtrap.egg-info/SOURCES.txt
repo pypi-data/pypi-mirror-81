@@ -1,0 +1,8 @@
+README.md
+setup.py
+mailtrap.egg-info/PKG-INFO
+mailtrap.egg-info/SOURCES.txt
+mailtrap.egg-info/dependency_links.txt
+mailtrap.egg-info/entry_points.txt
+mailtrap.egg-info/not-zip-safe
+mailtrap.egg-info/top_level.txt

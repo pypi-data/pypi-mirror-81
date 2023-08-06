@@ -1,0 +1,15 @@
+CHANGES.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+ttAugment.egg-info/PKG-INFO
+ttAugment.egg-info/SOURCES.txt
+ttAugment.egg-info/dependency_links.txt
+ttAugment.egg-info/requires.txt
+ttAugment.egg-info/top_level.txt
+tt_augment/__init__.py
+tt_augment/transformers.py
+tt_augment/tt_custom/__init__.py
+tt_augment/tt_custom/custom.py
+tt_augment/tt_custom/tt_fwd_bkd.py

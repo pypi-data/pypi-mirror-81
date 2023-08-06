@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pycbc-revchirp2
+Version: 0.0.dev0
+Summary: An example waveform plugin for PyCBC
+Home-page: http://www.pycbc.org/
+Author: The PyCBC team
+Author-email: alex.nitz@gmail.org
+License: UNKNOWN
+Download-URL: https://github.com/gwastro/revchirp/tarball/v0.0.dev0
+Keywords: pycbc,signal processing,gravitational waves
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Dist: pycbc
+
+UNKNOWN
+
+

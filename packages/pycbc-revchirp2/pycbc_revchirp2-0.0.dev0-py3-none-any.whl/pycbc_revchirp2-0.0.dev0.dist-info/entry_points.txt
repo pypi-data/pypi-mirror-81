@@ -1,0 +1,6 @@
+[pycbc.waveform.fd]
+revchirp = revchirp:reverse_chirp_fd
+
+[pycbc.waveform.td]
+revchirp = revchirp:reverse_chirp_td
+

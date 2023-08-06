@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: colorvote
+Version: 0.2
+Summary: A package for the colored coins voting protocol
+Home-page: http://github.com/Ingimarsson/colorvote
+Author: Brynjar Ingimarsson
+Author-email: brynjar@ingimarsson.is
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# Colorvote
+
+Colorvote is a colored coins protocol for voting on the Bitcoin (and compatible
+altcoin) blockchain. It is a modified version of the EPOBC colored coin protocol
+and uses the nSequence field to mark transactions. The protocol requires no
+changes to the blockchain (i.e. soft forks) and has minimal overhead as votes
+are transferred with normal P2PKH transactions. 
+
+This repository contains a detailed protocol specification, a command line
+utility, and a web server.
+
+## Command Line
+
+

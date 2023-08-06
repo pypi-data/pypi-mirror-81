@@ -1,0 +1,8 @@
+i3ipc
+
+[dev]
+check-manifest
+
+[test]
+pycodestyle
+pyflakes

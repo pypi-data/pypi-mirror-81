@@ -1,0 +1,20 @@
+// Basic Styling
+
+html {
+
+  body {
+
+    // See _header.scss for specific styling
+    #portal-header {}
+
+    #content {
+      padding-top: 6rem;
+      padding-bottom: 3rem;
+      }
+
+    // See _footer.scss for specific styling
+    #portal-footer {}
+
+  }
+
+}

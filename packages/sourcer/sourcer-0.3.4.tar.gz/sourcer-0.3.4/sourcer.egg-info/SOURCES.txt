@@ -1,0 +1,11 @@
+README.rst
+setup.py
+sourcer/__init__.py
+sourcer/grammar.py
+sourcer/meta.py
+sourcer/parsing_expressions.py
+sourcer/program_builder.py
+sourcer.egg-info/PKG-INFO
+sourcer.egg-info/SOURCES.txt
+sourcer.egg-info/dependency_links.txt
+sourcer.egg-info/top_level.txt

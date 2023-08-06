@@ -1,0 +1,285 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Refreshing tokens in OAuth 2 &#8212; Async-OAuthlib 0.0.4 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Developer Interface" href="../api.html" />
+    <link rel="prev" title="Web App Example of OAuth 2 web application flow" href="real_world_example.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="../api.html" title="Developer Interface"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="real_world_example.html" title="Web App Example of OAuth 2 web application flow"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Async-OAuthlib 0.0.4 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="examples.html" accesskey="U">Examples</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Refreshing tokens in OAuth 2</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="refreshing-tokens-in-oauth-2">
+<span id="token-refresh"></span><h1>Refreshing tokens in OAuth 2<a class="headerlink" href="#refreshing-tokens-in-oauth-2" title="Permalink to this headline">¶</a></h1>
+<p>OAuth 2 providers may allow you to refresh access tokens using refresh tokens.
+Commonly, only clients that authenticate may refresh tokens, e.g. web applications
+but not javascript clients. The provider will mention whether they allow token
+refresh in their API documentation and if you see a “refresh_token” in your
+token response you are good to go.</p>
+<p>This example shows how a simple web application (using the <a class="reference external" href="http://flask.pocoo.org/">Flask web framework</a>) can refresh Google OAuth 2 tokens. It should be
+trivial to transfer to any other web framework and provider.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">pprint</span> <span class="kn">import</span> <span class="n">pformat</span>
+<span class="kn">from</span> <span class="nn">time</span> <span class="kn">import</span> <span class="n">time</span>
+
+<span class="kn">from</span> <span class="nn">flask</span> <span class="kn">import</span> <span class="n">Flask</span><span class="p">,</span> <span class="n">request</span><span class="p">,</span> <span class="n">redirect</span><span class="p">,</span> <span class="n">session</span><span class="p">,</span> <span class="n">url_for</span>
+<span class="kn">from</span> <span class="nn">flask.json</span> <span class="kn">import</span> <span class="n">jsonify</span>
+<span class="kn">import</span> <span class="nn">requests</span>
+<span class="kn">from</span> <span class="nn">requests_oauthlib</span> <span class="kn">import</span> <span class="n">OAuth2Session</span>
+
+<span class="n">app</span> <span class="o">=</span> <span class="n">Flask</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
+
+<span class="c1"># This information is obtained upon registration of a new Google OAuth</span>
+<span class="c1"># application at https://code.google.com/apis/console</span>
+<span class="n">client_id</span> <span class="o">=</span> <span class="s2">&quot;&lt;your client key&gt;&quot;</span>
+<span class="n">client_secret</span> <span class="o">=</span> <span class="s2">&quot;&lt;your client secret&gt;&quot;</span>
+<span class="n">redirect_uri</span> <span class="o">=</span> <span class="s1">&#39;https://your.registered/callback&#39;</span>
+
+<span class="c1"># Uncomment for detailed oauthlib logs</span>
+<span class="c1">#import logging</span>
+<span class="c1">#import sys</span>
+<span class="c1">#log = logging.getLogger(&#39;oauthlib&#39;)</span>
+<span class="c1">#log.addHandler(logging.StreamHandler(sys.stdout))</span>
+<span class="c1">#log.setLevel(logging.DEBUG)</span>
+
+<span class="c1"># OAuth endpoints given in the Google API documentation</span>
+<span class="n">authorization_base_url</span> <span class="o">=</span> <span class="s2">&quot;https://accounts.google.com/o/oauth2/auth&quot;</span>
+<span class="n">token_url</span> <span class="o">=</span> <span class="s2">&quot;https://accounts.google.com/o/oauth2/token&quot;</span>
+<span class="n">refresh_url</span> <span class="o">=</span> <span class="n">token_url</span> <span class="c1"># True for Google but not all providers.</span>
+<span class="n">scope</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s2">&quot;https://www.googleapis.com/auth/userinfo.email&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;https://www.googleapis.com/auth/userinfo.profile&quot;</span><span class="p">,</span>
+<span class="p">]</span>
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">demo</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;Step 1: User Authorization.</span>
+
+<span class="sd">    Redirect the user/resource owner to the OAuth provider (i.e. Google)</span>
+<span class="sd">    using an URL with a few key OAuth parameters.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">google</span> <span class="o">=</span> <span class="n">OAuth2Session</span><span class="p">(</span><span class="n">client_id</span><span class="p">,</span> <span class="n">scope</span><span class="o">=</span><span class="n">scope</span><span class="p">,</span> <span class="n">redirect_uri</span><span class="o">=</span><span class="n">redirect_uri</span><span class="p">)</span>
+    <span class="n">authorization_url</span><span class="p">,</span> <span class="n">state</span> <span class="o">=</span> <span class="n">google</span><span class="o">.</span><span class="n">authorization_url</span><span class="p">(</span><span class="n">authorization_base_url</span><span class="p">,</span>
+        <span class="c1"># offline for refresh token</span>
+        <span class="c1"># force to always make user click authorize</span>
+        <span class="n">access_type</span><span class="o">=</span><span class="s2">&quot;offline&quot;</span><span class="p">,</span> <span class="n">prompt</span><span class="o">=</span><span class="s2">&quot;select_account&quot;</span><span class="p">)</span>
+
+    <span class="c1"># State is used to prevent CSRF, keep this for later.</span>
+    <span class="n">session</span><span class="p">[</span><span class="s1">&#39;oauth_state&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">state</span>
+    <span class="k">return</span> <span class="n">redirect</span><span class="p">(</span><span class="n">authorization_url</span><span class="p">)</span>
+
+
+<span class="c1"># Step 2: User authorization, this happens on the provider.</span>
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s2">&quot;/callback&quot;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;GET&quot;</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">callback</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot; Step 3: Retrieving an access token.</span>
+
+<span class="sd">    The user has been redirected back from the provider to your registered</span>
+<span class="sd">    callback URL. With this redirection comes an authorization code included</span>
+<span class="sd">    in the redirect URL. We will use that to obtain an access token.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">google</span> <span class="o">=</span> <span class="n">OAuth2Session</span><span class="p">(</span><span class="n">client_id</span><span class="p">,</span> <span class="n">redirect_uri</span><span class="o">=</span><span class="n">redirect_uri</span><span class="p">,</span>
+                           <span class="n">state</span><span class="o">=</span><span class="n">session</span><span class="p">[</span><span class="s1">&#39;oauth_state&#39;</span><span class="p">])</span>
+    <span class="n">token</span> <span class="o">=</span> <span class="n">google</span><span class="o">.</span><span class="n">fetch_token</span><span class="p">(</span><span class="n">token_url</span><span class="p">,</span> <span class="n">client_secret</span><span class="o">=</span><span class="n">client_secret</span><span class="p">,</span>
+                               <span class="n">authorization_response</span><span class="o">=</span><span class="n">request</span><span class="o">.</span><span class="n">url</span><span class="p">)</span>
+
+    <span class="c1"># We use the session as a simple DB for this example.</span>
+    <span class="n">session</span><span class="p">[</span><span class="s1">&#39;oauth_token&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">token</span>
+
+    <span class="k">return</span> <span class="n">redirect</span><span class="p">(</span><span class="n">url_for</span><span class="p">(</span><span class="s1">&#39;.menu&#39;</span><span class="p">))</span>
+
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s2">&quot;/menu&quot;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;GET&quot;</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">menu</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;&quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">    &lt;h1&gt;Congratulations, you have obtained an OAuth 2 token!&lt;/h1&gt;</span>
+<span class="s2">    &lt;h2&gt;What would you like to do next?&lt;/h2&gt;</span>
+<span class="s2">    &lt;ul&gt;</span>
+<span class="s2">        &lt;li&gt;&lt;a href=&quot;/profile&quot;&gt; Get account profile&lt;/a&gt;&lt;/li&gt;</span>
+<span class="s2">        &lt;li&gt;&lt;a href=&quot;/automatic_refresh&quot;&gt; Implicitly refresh the token&lt;/a&gt;&lt;/li&gt;</span>
+<span class="s2">        &lt;li&gt;&lt;a href=&quot;/manual_refresh&quot;&gt; Explicitly refresh the token&lt;/a&gt;&lt;/li&gt;</span>
+<span class="s2">        &lt;li&gt;&lt;a href=&quot;/validate&quot;&gt; Validate the token&lt;/a&gt;&lt;/li&gt;</span>
+<span class="s2">    &lt;/ul&gt;</span>
+
+<span class="s2">    &lt;pre&gt;</span>
+<span class="s2">    </span><span class="si">%s</span><span class="s2"></span>
+<span class="s2">    &lt;/pre&gt;</span>
+<span class="s2">    &quot;&quot;&quot;</span> <span class="o">%</span> <span class="n">pformat</span><span class="p">(</span><span class="n">session</span><span class="p">[</span><span class="s1">&#39;oauth_token&#39;</span><span class="p">],</span> <span class="n">indent</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span>
+
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s2">&quot;/profile&quot;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;GET&quot;</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">profile</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;Fetching a protected resource using an OAuth 2 token.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">google</span> <span class="o">=</span> <span class="n">OAuth2Session</span><span class="p">(</span><span class="n">client_id</span><span class="p">,</span> <span class="n">token</span><span class="o">=</span><span class="n">session</span><span class="p">[</span><span class="s1">&#39;oauth_token&#39;</span><span class="p">])</span>
+    <span class="k">return</span> <span class="n">jsonify</span><span class="p">(</span><span class="n">google</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;https://www.googleapis.com/oauth2/v1/userinfo&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">json</span><span class="p">())</span>
+
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s2">&quot;/automatic_refresh&quot;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;GET&quot;</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">automatic_refresh</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;Refreshing an OAuth 2 token using a refresh token.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">token</span> <span class="o">=</span> <span class="n">session</span><span class="p">[</span><span class="s1">&#39;oauth_token&#39;</span><span class="p">]</span>
+
+    <span class="c1"># We force an expiration by setting expired at in the past.</span>
+    <span class="c1"># This will trigger an automatic refresh next time we interact with</span>
+    <span class="c1"># Googles API.</span>
+    <span class="n">token</span><span class="p">[</span><span class="s1">&#39;expires_at&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">time</span><span class="p">()</span> <span class="o">-</span> <span class="mi">10</span>
+
+    <span class="n">extra</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s1">&#39;client_id&#39;</span><span class="p">:</span> <span class="n">client_id</span><span class="p">,</span>
+        <span class="s1">&#39;client_secret&#39;</span><span class="p">:</span> <span class="n">client_secret</span><span class="p">,</span>
+    <span class="p">}</span>
+
+    <span class="k">def</span> <span class="nf">token_updater</span><span class="p">(</span><span class="n">token</span><span class="p">):</span>
+        <span class="n">session</span><span class="p">[</span><span class="s1">&#39;oauth_token&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">token</span>
+
+    <span class="n">google</span> <span class="o">=</span> <span class="n">OAuth2Session</span><span class="p">(</span><span class="n">client_id</span><span class="p">,</span>
+                           <span class="n">token</span><span class="o">=</span><span class="n">token</span><span class="p">,</span>
+                           <span class="n">auto_refresh_kwargs</span><span class="o">=</span><span class="n">extra</span><span class="p">,</span>
+                           <span class="n">auto_refresh_url</span><span class="o">=</span><span class="n">refresh_url</span><span class="p">,</span>
+                           <span class="n">token_updater</span><span class="o">=</span><span class="n">token_updater</span><span class="p">)</span>
+
+    <span class="c1"># Trigger the automatic refresh</span>
+    <span class="n">jsonify</span><span class="p">(</span><span class="n">google</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;https://www.googleapis.com/oauth2/v1/userinfo&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">json</span><span class="p">())</span>
+    <span class="k">return</span> <span class="n">jsonify</span><span class="p">(</span><span class="n">session</span><span class="p">[</span><span class="s1">&#39;oauth_token&#39;</span><span class="p">])</span>
+
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s2">&quot;/manual_refresh&quot;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;GET&quot;</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">manual_refresh</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;Refreshing an OAuth 2 token using a refresh token.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">token</span> <span class="o">=</span> <span class="n">session</span><span class="p">[</span><span class="s1">&#39;oauth_token&#39;</span><span class="p">]</span>
+
+    <span class="n">extra</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s1">&#39;client_id&#39;</span><span class="p">:</span> <span class="n">client_id</span><span class="p">,</span>
+        <span class="s1">&#39;client_secret&#39;</span><span class="p">:</span> <span class="n">client_secret</span><span class="p">,</span>
+    <span class="p">}</span>
+
+    <span class="n">google</span> <span class="o">=</span> <span class="n">OAuth2Session</span><span class="p">(</span><span class="n">client_id</span><span class="p">,</span> <span class="n">token</span><span class="o">=</span><span class="n">token</span><span class="p">)</span>
+    <span class="n">session</span><span class="p">[</span><span class="s1">&#39;oauth_token&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">google</span><span class="o">.</span><span class="n">refresh_token</span><span class="p">(</span><span class="n">refresh_url</span><span class="p">,</span> <span class="o">**</span><span class="n">extra</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">jsonify</span><span class="p">(</span><span class="n">session</span><span class="p">[</span><span class="s1">&#39;oauth_token&#39;</span><span class="p">])</span>
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s2">&quot;/validate&quot;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;GET&quot;</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">validate</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;Validate a token with the OAuth provider Google.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">token</span> <span class="o">=</span> <span class="n">session</span><span class="p">[</span><span class="s1">&#39;oauth_token&#39;</span><span class="p">]</span>
+
+    <span class="c1"># Defined at https://developers.google.com/accounts/docs/OAuth2LoginV1#validatingtoken</span>
+    <span class="n">validate_url</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;https://www.googleapis.com/oauth2/v1/tokeninfo?&#39;</span>
+                    <span class="s1">&#39;access_token=</span><span class="si">%s</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">token</span><span class="p">[</span><span class="s1">&#39;access_token&#39;</span><span class="p">])</span>
+
+    <span class="c1"># No OAuth2Session is needed, just a plain GET request</span>
+    <span class="k">return</span> <span class="n">jsonify</span><span class="p">(</span><span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">validate_url</span><span class="p">)</span><span class="o">.</span><span class="n">json</span><span class="p">())</span>
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
+    <span class="c1"># This allows us to use a plain HTTP callback</span>
+    <span class="kn">import</span> <span class="nn">os</span>
+    <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;OAUTHLIB_INSECURE_TRANSPORT&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;1&quot;</span>
+
+    <span class="n">app</span><span class="o">.</span><span class="n">secret_key</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">urandom</span><span class="p">(</span><span class="mi">24</span><span class="p">)</span>
+    <span class="n">app</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">debug</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="real_world_example.html"
+                        title="previous chapter">Web App Example of OAuth 2 web application flow</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="../api.html"
+                        title="next chapter">Developer Interface</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/examples/real_world_example_with_refresh.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="../api.html" title="Developer Interface"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="real_world_example.html" title="Web App Example of OAuth 2 web application flow"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Async-OAuthlib 0.0.4 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="examples.html" >Examples</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Refreshing tokens in OAuth 2</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2014, Kenneth Reitz.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.2.1.
+    </div>
+  </body>
+</html>

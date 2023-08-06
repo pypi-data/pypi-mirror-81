@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: themetadb-backend
+Version: 0.0.1a1
+Summary: The MetaDB backend (placeholder)
+Home-page: https://github.com/themetadb
+Author: The MetaDB Team
+Author-email: info@themetadb.org
+License: UNKNOWN
+Description: 
+        # Placeholder
+        
+Keywords: themetadb,metadb,mdb
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

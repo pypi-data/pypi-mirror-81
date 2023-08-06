@@ -1,0 +1,7 @@
+flask_firebase_admin/__init__.py,sha256=tk0cZph8bXe0g_3tpkAEmbOVBD4-27-rbLe2wTgsldY,203
+flask_firebase_admin/__version__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+flask_firebase_admin/flask_firebase_admin.py,sha256=utBxwc7DrNiFgJdw5M5TyQEWK1m5Vhukz2bDkJZRR9g,4700
+flask_firebase_admin/status_codes.py,sha256=u098I1JcqYIKrTUkLAq8EK8KMRJI9YOAJyXrpkbJLYE,1430
+flask_firebase_admin-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+flask_firebase_admin-0.1.0.dist-info/METADATA,sha256=h4rdcTH3m1R4vBqLhgRu4SqvCAwlSZNZeQZY8UFd9KQ,464
+flask_firebase_admin-0.1.0.dist-info/RECORD,,

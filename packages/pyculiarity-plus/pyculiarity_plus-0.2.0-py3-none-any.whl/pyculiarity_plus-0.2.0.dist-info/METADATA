@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pyculiarity-plus
+Version: 0.2.0
+Summary: seasonal anomaly detection
+Home-page: UNKNOWN
+Author: saiya.jiang
+Author-email: saiya.jiang@grabtaxi.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable 
+Classifier: Operating System :: MacOS
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: statsmodels
+
+UNKNOWN
+
+

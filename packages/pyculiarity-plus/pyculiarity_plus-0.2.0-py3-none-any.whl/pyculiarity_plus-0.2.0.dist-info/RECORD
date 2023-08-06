@@ -1,0 +1,12 @@
+pyculiarity_plus/__init__.py,sha256=ri2O7gpk1R_f4Y-70a4MvvaohIFqef0Ni0Y2box5UIs,209
+pyculiarity_plus/detect_anoms.py,sha256=1BP7oNh8cM9ZSSyvB4UQx61GfM-x36Px9QRQ9yQcuCw,7008
+pyculiarity_plus/detect_ts.py,sha256=QkxVqbINetPTJNoWiw4ZxcWUhctNhJfiuJDWg37HKVQ,6520
+pyculiarity_plus/seasonal/__init__.py,sha256=2qviS0cBzitIuiqyItxLexU1fxddPCaQunC-2B1z8RA,739
+pyculiarity_plus/seasonal/periodogram.py,sha256=neg3KGW4xBovLjqCMJ9VFQZFSUEMiIzQOiYyyMt9ISE,4338
+pyculiarity_plus/seasonal/seasonal.py,sha256=vJUpgsBGw1Rv5qZlMIr5gPXOn3pd2a3X8Gj9aLnoshU,8268
+pyculiarity_plus/seasonal/trend.py,sha256=34n72W5Lu1XAm8jFAQut5EKZ_kRoIYDpd7h3rTdxfjA,5929
+pyculiarity_plus/seasonal/version.py,sha256=xetwTfV1gMIOOt_U5MChGgYN9q_XPLhGWyQiKI8fdIs,171
+pyculiarity_plus-0.2.0.dist-info/METADATA,sha256=1LzK9bHAViYERuTX0QIrKYkP5adqk-ZUGi7JETGB3F8,797
+pyculiarity_plus-0.2.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pyculiarity_plus-0.2.0.dist-info/top_level.txt,sha256=r6qisv2aiBqLr2M_pIzat29TJyCg-PfwTVX-t6zjoKM,17
+pyculiarity_plus-0.2.0.dist-info/RECORD,,

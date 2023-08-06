@@ -1,0 +1,3 @@
+[console_scripts]
+mnist-predict = mnist_classifier.predict:main
+

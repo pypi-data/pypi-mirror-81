@@ -1,0 +1,6 @@
+aiohttp<4,>=3.6
+aiomysql==0.0.20
+jinja2<3,>=2.11
+MarkupSafe<2,>=1.1
+knxdclient==0.2.1
+pyserial-asyncio==0.3

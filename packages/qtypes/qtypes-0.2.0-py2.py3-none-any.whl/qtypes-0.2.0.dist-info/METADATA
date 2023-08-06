@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: qtypes
+Version: 0.2.0
+Summary: Build qt graphical user interfaces out of simple type objects.
+Home-page: https://gitlab.com/yaq/qtypes
+License: UNKNOWN
+Author: Blaise Thompson
+Author-email: blaise@untzag.com
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: toml
+Requires-Dist: qtpy
+Requires-Dist: black ; extra == "dev"
+Requires-Dist: pre-commit ; extra == "dev"
+Project-URL: Issues, https://gitlab.com/yaq/qtypes/issues
+Project-URL: Source, https://gitlab.com/yaq/qtypes
+Provides-Extra: dev
+
+# qtypes
+
+[![PyPI](https://img.shields.io/pypi/v/qtypes)](https://pypi.org/project/qtypes)
+[![Conda](https://img.shields.io/conda/vn/conda-forge/qtypes)](https://anaconda.org/conda-forge/qtypes)
+[![black](https://img.shields.io/badge/code--style-black-black)](https://black.readthedocs.io/)
+[![log](https://img.shields.io/badge/change-log-informational)](https://gitlab.com/yaq/qtypes/-/blob/master/CHANGELOG.md)
+
+Build qt graphical user interfaces out of simple type objects.
+

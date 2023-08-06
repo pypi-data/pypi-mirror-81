@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: uonet-request-signer-hebe
+Version: 0.1.1
+Summary: UONET+ (hebe) request signer for Python
+Home-page: https://github.com/wulkanowy/uonet-request-signer
+Author: Wulkanowy
+Author-email: wulkanowyinc@gmail.com
+Maintainer: Kuba Szczodrzyński
+Maintainer-email: kuba@szczodrzynski.pl
+License: MIT
+Description: # UONET+ (hebe) request signer for Python
+        
+        [![pypi](https://img.shields.io/pypi/v/uonet-request-signer-hebe.svg?style=flat-square)](https://pypi.org/project/uonet-request-signer-hebe/)
+        
+        ## Installation
+        
+        ```console
+        $ pip install -U uonet-request-signer-hebe
+        ```
+        
+        ## Usage
+        
+        Generate an RSA2048 key pair (private key and certificate):
+        ```python
+        from uonet_request_signer_hebe import generate_key_pair
+        
+        certificate, fingerprint, private_key = generate_key_pair()
+        ```
+        
+        Sign request content:
+        ```python
+        from uonet_request_signer_hebe import get_signature_values
+        from datetime import datetime
+        
+        digest, canonical_url, signature = get_signature_values(fingerprint, private_key, body, full_url, datetime.now())
+        ```
+        
+        ## Tests
+        
+        ```console
+        $ python -m pytest .
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Education
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Security :: Cryptography
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Provides-Extra: testing

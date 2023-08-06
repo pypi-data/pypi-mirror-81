@@ -1,0 +1,5 @@
+numpy
+o3seespy
+
+[test]
+pytest

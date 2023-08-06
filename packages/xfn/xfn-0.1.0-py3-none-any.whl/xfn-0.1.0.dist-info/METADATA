@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: xfn
+Version: 0.1.0
+Summary: Clojure's transducer functionality and API in Python
+Home-page: https://github.com/jjtolton/pyxfn
+Author: jay
+Author-email: jjtolton@gmail.com
+License: MIT
+Platform: UNKNOWN
+
+UNKNOWN
+
+

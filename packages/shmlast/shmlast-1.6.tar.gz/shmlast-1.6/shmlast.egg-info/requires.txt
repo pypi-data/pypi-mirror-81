@@ -1,0 +1,10 @@
+doit
+ficus
+matplotlib
+numpy
+pandas
+scipy
+screed
+seaborn
+filelock
+ope

@@ -1,0 +1,13 @@
+melodia/__init__.py,sha256=1oPfny-u-BmT-s7fJHA-toPsotiXwdQgGRJZSNJLbBE,106
+melodia/core/__init__.py,sha256=67irU9Pz6Amifmppg-lL0dI9-ylWRXaReDCeUzY9b5U,197
+melodia/core/note.py,sha256=nEJuOLArHpLnsKnSm-9QOY6vG1XDmT3ypV9E8PNgqAs,5527
+melodia/core/sgnature.py,sha256=2QNUvQtVl97oFAxNOMfJm2UrrZ-ixIlJQfB3SZ6YsEY,6938
+melodia/core/tone.py,sha256=tpPtEvW4KpMVKUfbUf0Pb5WbuU6lYDZcgSpsbNduzTQ,6661
+melodia/core/track.py,sha256=edEh7ZcEQHrWZsuuMWpvIXs4Agzgn8CQ0alXFn_Vet8,4983
+melodia/io/__init__.py,sha256=eXrrr3z5RlBJoVGw9aDQZTx0Xofb0NyVzE1UGgry9uQ,83
+melodia/io/midi.py,sha256=0wB8Blh0qDTY3-W27aHz09rfWiBfkaVmq2-ZGL7fd14,6287
+melodia-1.0.dist-info/LICENSE.txt,sha256=TkrzhebRJYOnWnC7GiEnaXWvy9BmLt3SpdvEnSr0pSI,1067
+melodia-1.0.dist-info/METADATA,sha256=wT8JSkeVH0gXTWNOc5K1cgqEuouubi4WLKlb47ydJQc,1027
+melodia-1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+melodia-1.0.dist-info/top_level.txt,sha256=sKGpbeKJ8gDnxgYOSBnnK5QFyUIYRBb3cBriwACc3ZQ,8
+melodia-1.0.dist-info/RECORD,,

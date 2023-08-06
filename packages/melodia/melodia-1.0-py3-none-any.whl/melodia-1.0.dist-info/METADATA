@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: melodia
+Version: 1.0
+Summary: Python library for MIDI music creation
+Home-page: https://github.com/meownoid/melodia
+Author: Egor Malykh
+Author-email: hello@meownoid.pro
+License: UNKNOWN
+Keywords: music,midi,note,track,composer,daw,audio
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Topic :: Multimedia :: Sound/Audio :: MIDI
+Classifier: Typing :: Typed
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Melodia
+
+Melodia is a Python library for MIDI music creation.
+
+### Installation
+
+Melodia requires Python 3.6 or greater.
+
+```shell script
+pip install melodia
+```
+
+

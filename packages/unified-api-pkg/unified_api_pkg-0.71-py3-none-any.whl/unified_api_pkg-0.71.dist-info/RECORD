@@ -1,0 +1,14 @@
+unified_api_pkg/Octopus.py,sha256=vUrlmAiEHhlIxI0eg6ZpUx9fzaDFKQQTWIWF3D_MpfU,19522
+unified_api_pkg/OctopusUtils.py,sha256=qkZ0lWkJEjUkGIPQo2XOw2202WfH_lPQHLhFF2VOjPo,23453
+unified_api_pkg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unified_api_pkg/generalUtils.py,sha256=fTfqhuEUl2-2Xj_LG7bWMI4gjmdgEBqjAwvYak5oyZk,7504
+unified_api_pkg/logUtils.py,sha256=NjwpVRajFLQr8gmvhZ8K4iTBpLbe2dQpZhF40gAN120,1810
+unified_api_pkg/project_dict_and_list.py,sha256=q2Jhg8xOegAmuZ2yXuAJVVVO1ttWWpXJX4cV7zcW5Ko,16485
+unified_api_pkg/qrcode.py,sha256=13d0Wr-QeGhrQYNragWXU95nfyv6utpQZ48zAOPTV0M,3419
+unified_api_pkg/terminal.py,sha256=0X4xikL5Np8f9pudY55pGVdOH6kfGQqMBtHzQPUNOKA,9423
+unified_api_pkg/terminalUtils.py,sha256=K91FZ3HoGBxKPyOVM_bfEDgxbJaOx3sDCOIJkX3ZWkI,25436
+unified_api_pkg/unifiedAPI.py,sha256=rnTA5QjO2irxEjDfQ5dF22EpXVPgIMyGPnQ_YkjlouU,13107
+unified_api_pkg-0.71.dist-info/METADATA,sha256=rU44Y3NOHMlYOkdyw_YRvzEao5SbahTM3oV_A_FwbE4,413
+unified_api_pkg-0.71.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+unified_api_pkg-0.71.dist-info/top_level.txt,sha256=Vw0QZVtjAlWYsUHwUyPDUL9cIWpYWR-ZRy30EhQtY_4,16
+unified_api_pkg-0.71.dist-info/RECORD,,

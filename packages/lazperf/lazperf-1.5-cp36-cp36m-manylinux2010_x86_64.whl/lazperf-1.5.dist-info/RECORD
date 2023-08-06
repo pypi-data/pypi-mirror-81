@@ -1,0 +1,10 @@
+lazperf/pylazperfapi.cpython-36m-x86_64-linux-gnu.so,sha256=Xdrgp3kCLl95avCWH9s-Y1k8g7rDJ9eaDthyn1FynjQ,3748296
+lazperf/pylazperfapi.cpp,sha256=PD3gCVH18eTjSs7LmMnDh7xvthxVTePVLLlocLYD53o,1226413
+lazperf/PyVlrCompressor.cpp,sha256=KRI_TJ_keyiPSACB3OLOtOYEwtAyFnvQtGD8tllj048,3129
+lazperf/__init__.py,sha256=JYu5VNoYGi9DR1bZJgukDEjOYwp-49OxNXdFA0lHF_I,455
+lazperf/PyLazperf.cpp,sha256=4mAu2XZ-i6PcXAG98KjAL3SJuuKD9Pxl5VlNlhJxAD4,2907
+lazperf-1.5.dist-info/WHEEL,sha256=RmTb9MYUhAosx0nVy8dqjP6nfYlP1nPfT9ZFheBJGYM,112
+lazperf-1.5.dist-info/COPYING,sha256=ce_BxEwGqCqpmckCCdkYaAcu9z0MJFouVoUAQgjcaWw,26431
+lazperf-1.5.dist-info/top_level.txt,sha256=0xINHMkCKStlFopGjNovc2SUm9-7aAurhIhZF1weuk8,8
+lazperf-1.5.dist-info/RECORD,,
+lazperf-1.5.dist-info/METADATA,sha256=7Q1tg_DqeJik5kZ-r7yY69pW-a8l8_qWYRIig5BIPx8,934

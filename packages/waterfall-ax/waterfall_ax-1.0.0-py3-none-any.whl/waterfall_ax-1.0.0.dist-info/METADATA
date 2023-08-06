@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: waterfall-ax
+Version: 1.0.0
+Summary: Create waterfall charts.
+Home-page: https://github.com/microsoft/waterfall_ax
+Author: Yaran Fan
+Author-email: yarfan.fan@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Waterfall Chart in Python
+---
+
+The waterfall_ax library creates flexible waterfall charts based on matplotlib. 
+
+It provides flexible controls over your plot. For details please refer to the [waterfall_ax repo](https://github.com/microsoft/waterfall_ax).
+
+## A Simple Example
+
+Sample code:
+
+```
+from waterfall_ax import WaterfallChart
+
+# Cumulative values
+step_values = [80, 70, 90, 85, 60, 50]
+
+# Plot
+waterfall = WaterfallChart(step_values)
+wf_ax = waterfall.plot_waterfall(title='A Simple Example')
+```
+
+

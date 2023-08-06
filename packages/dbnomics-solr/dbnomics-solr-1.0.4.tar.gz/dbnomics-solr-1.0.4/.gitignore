@@ -1,0 +1,4 @@
+/.eggs/
+/*.egg-info/
+/.mypy_cache/
+*.pyc

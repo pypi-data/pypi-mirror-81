@@ -1,0 +1,5 @@
+celery_worker/__init__.py,sha256=rfiuZKaOLzgWbQCBFuCQw3PYWPMkuNMdHIvMeNIT6PY,621
+celery_worker-0.0.5.dist-info/METADATA,sha256=bdKk83jtLG7xgL4vpVSovL7XgACa00400gAbF8SApfo,624
+celery_worker-0.0.5.dist-info/RECORD,,
+celery_worker-0.0.5.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+celery_worker-0.0.5.dist-info/top_level.txt,sha256=7c_iyhlg7USpsBLEHf-beuyy-FvhjT73cMnSHacGxP8,14

@@ -1,0 +1,12 @@
+{
+    "environment": "development",
+    "admin_user": {
+      "name": "user",
+      "password": "pass"
+    },
+    "settings": {
+      "APP_NAME": "Demo",
+      "SECTION_NAME": "Category",
+      "SECTION_ITEMS": "Products"
+    }
+}

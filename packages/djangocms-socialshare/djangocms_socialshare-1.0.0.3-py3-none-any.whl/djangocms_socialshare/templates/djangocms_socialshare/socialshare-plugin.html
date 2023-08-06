@@ -1,0 +1,17 @@
+{% load i18n cms_tags menu_tags staticfiles socialshare %}
+
+<div class="djangocms-socialshare-plugin"
+     data-background-color="{{ instance.background_color.value }}"
+     data-size="{{ instance.size }}"
+     data-alignment="{{ instance.alignment.value }}"
+>
+    {% for item in instance.items.all %}
+        <a class="icon"
+           href="{% item_url item %}"
+           target="_blank"
+           style="width: {{ instance.size }}px; height: {{ instance.size }}px;"
+        >
+            <i class="{{ item.get_icon_css_class }}"></i>
+        </a>
+    {% endfor %}
+</div>

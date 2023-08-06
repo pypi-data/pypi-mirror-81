@@ -1,0 +1,8 @@
+hermes/__init__.py,sha256=Ju0bTOpHGIZWPG6BbFOVTWwpYPxfAIKVTUXhEX0LQKs,92
+hermes/exceptions.py,sha256=g0jezTZ-sjTuQTmZNg3v2_wMIYECDcdiga5Xf2wCjcY,319
+hermes/hermes.py,sha256=x-ipLMYClYF7c9OJyjI3FCbtfAeV_59S6_gUCTRJMhg,3505
+hermes/models.py,sha256=v9fa4gP7vxSkHYCyJjLnwOZkYXCo7DZbhDGer89edgE,733
+python_hermes-0.0.1.dist-info/METADATA,sha256=bkSTrfxqEqz7bNUvaI_MF4KwcYzzFOTQyIixK7wR4lI,463
+python_hermes-0.0.1.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+python_hermes-0.0.1.dist-info/top_level.txt,sha256=1TupzjD_10P0-QWmHdzyxP4OXHKizFdjhlf91BcdH28,7
+python_hermes-0.0.1.dist-info/RECORD,,

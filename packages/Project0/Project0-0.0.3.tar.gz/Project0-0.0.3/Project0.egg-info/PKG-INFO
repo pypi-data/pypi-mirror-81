@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: Project0
+Version: 0.0.3
+Summary: Offline vocal assistant and tts
+Home-page: http://github.com/fenrir77/project0
+Author: Fenrir77
+Author-email: fenrir7377@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: vocal assistant offline tts
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Multimedia :: Sound/Audio :: Capture/Recording
+Classifier: Topic :: Multimedia :: Sound/Audio :: Speech
+Classifier: Topic :: Text Processing

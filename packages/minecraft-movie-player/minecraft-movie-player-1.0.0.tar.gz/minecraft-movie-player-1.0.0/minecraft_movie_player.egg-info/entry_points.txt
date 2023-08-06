@@ -1,0 +1,2 @@
+[console_scripts]
+            mc-movie = minecraft_movie_player.__main__:main

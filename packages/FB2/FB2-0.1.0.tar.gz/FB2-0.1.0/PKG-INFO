@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: FB2
+Version: 0.1.0
+Summary: A small package for working with FB2 files
+Home-page: https://github.com/Ae-Mc/FB2
+Author: Ae-Mc
+Author-email: ae_mc@mail.ru
+License: UNKNOWN
+Description: # FB2
+        
+        Python package for working with FictionBook2
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown

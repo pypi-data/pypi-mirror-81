@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: victor-smart-kill
+Version: 0.0.2
+Summary: A simple Python wrapper for Victor Smart Kill API.
+Home-page: https://github.com/toreamun/victor-smart-kill
+Author: Tore Amundsen
+Author-email: tore@amundsen.org
+License: UNKNOWN
+Keywords: API,Victor Smart-Kill,VictorPest.com,trap
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: httpx (>=0.15.5)
+Requires-Dist: marshmallow (>=3.8)
+Requires-Dist: marshmallow-dataclass (>=8.0)
+Requires-Dist: typeguard
+
+# victor-smart-kill
+A simple Python wrapper for Victor Smart Kill api
+
+

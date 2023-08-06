@@ -1,0 +1,4 @@
+numpy
+scipy
+python-pygraph-core
+python-pygraph-dot

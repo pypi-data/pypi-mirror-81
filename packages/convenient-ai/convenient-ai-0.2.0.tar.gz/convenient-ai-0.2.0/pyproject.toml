@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "convenient-ai"
+version = "0.2.0"
+description = ""
+authors = ["leftshift one <devs@leftshift.one>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+spacy = { version = "^2.3", optional = true}
+
+[tool.poetry.extras]
+spacy = ["spacy"]
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+
+[tool.poetry.scripts]
+release = "poetry_scripts:release"
+test = "poetry_scripts:test"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

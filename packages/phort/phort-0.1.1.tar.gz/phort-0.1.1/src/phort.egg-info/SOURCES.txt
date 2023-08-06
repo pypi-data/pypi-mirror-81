@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+src/phort/__init__.py
+src/phort/__main__.py
+src/phort/phort.py
+src/phort.egg-info/PKG-INFO
+src/phort.egg-info/SOURCES.txt
+src/phort.egg-info/dependency_links.txt
+src/phort.egg-info/entry_points.txt
+src/phort.egg-info/requires.txt
+src/phort.egg-info/top_level.txt

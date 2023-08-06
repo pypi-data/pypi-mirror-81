@@ -1,0 +1,15 @@
+README.md
+setup.py
+tuneup/__init__.py
+tuneup/horserace.py
+tuneup/ndimhorserace.py
+tuneup/util.py
+tuneup.egg-info/PKG-INFO
+tuneup.egg-info/SOURCES.txt
+tuneup.egg-info/dependency_links.txt
+tuneup.egg-info/entry_points.txt
+tuneup.egg-info/requires.txt
+tuneup.egg-info/top_level.txt
+tuneup/ndimraces/__init__.py
+tuneup/ndimraces/open_source_race.py
+tuneup/ndimraces/sigopt_versus_good.py

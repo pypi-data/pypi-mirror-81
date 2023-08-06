@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: panoptes-client
+Version: 1.3.0
+Summary: UNKNOWN
+Home-page: https://github.com/zooniverse/panoptes-python-client
+Author: Adam McMaster
+Author-email: adam@zooniverse.org
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: docs
+Provides-Extra: testing

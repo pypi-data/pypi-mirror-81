@@ -1,0 +1,9 @@
+README.md
+setup.py
+PtDa.egg-info/PKG-INFO
+PtDa.egg-info/SOURCES.txt
+PtDa.egg-info/dependency_links.txt
+PtDa.egg-info/requires.txt
+PtDa.egg-info/top_level.txt
+ptda/__init__.py
+ptda/core.py

@@ -1,0 +1,14 @@
+crawliexpress/__init__.py,sha256=-K4rEAjl8qr1pCkaXKJ2Oao8ygFMh_rrC7lCZFHE4Dc,410
+crawliexpress/category.py,sha256=6d5xt6AWivjb-j_twE-VMFvoJy1pDgWhhd1vCG56daY,1256
+crawliexpress/client.py,sha256=q5Z1Q9siBZiTKQpbhT7k9_Qr8KBQQT1bx2161NZ0qx8,6315
+crawliexpress/exceptions.py,sha256=zSJWilaB-O9syHv9n_ASKKZS3cPdB4yGJBIduQ7fm_g,109
+crawliexpress/feedback.py,sha256=vQ7jOqb3HEzs8AZmLTlDpVF_vBzexHi5zg36Cba035k,2664
+crawliexpress/feedback_page.py,sha256=22OQ6iMC_ZttweB8Pe7dxTsRq2SPZBdAfLiV_jSh0ZA,1796
+crawliexpress/item.py,sha256=YOPo4RgobbCW_DJeAnxZ_TBwOZgI04vJnj0zUdHKiEM,1778
+crawliexpress/search.py,sha256=kHBcUsa4PmWMtnhxtsMr4s8mEFoHca7j0x9b2r-N6yA,813
+crawliexpress/search_page.py,sha256=kWQ24-Piqn1eicxUB4b7JDgDFN7o2OLbQcyU4LJ4QZA,731
+crawliexpress-0.1.5.dist-info/LICENSE,sha256=kGMFDLKwz6B8nQTEQoCH3DmMpoIBu4JFAGiel1Uw4c8,1075
+crawliexpress-0.1.5.dist-info/METADATA,sha256=UJkrG5Cd7pxzFwFEOewPkELMLhbNzHe4Z0TbvyXo2EI,8366
+crawliexpress-0.1.5.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+crawliexpress-0.1.5.dist-info/top_level.txt,sha256=fIc9zHahPWG8AjubH7YNm6IdyZmkiD4-46pDWybcWSM,14
+crawliexpress-0.1.5.dist-info/RECORD,,

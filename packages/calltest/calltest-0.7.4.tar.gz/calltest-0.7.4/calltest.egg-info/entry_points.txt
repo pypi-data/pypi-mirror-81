@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    calltest = calltest.command:cmd
+    

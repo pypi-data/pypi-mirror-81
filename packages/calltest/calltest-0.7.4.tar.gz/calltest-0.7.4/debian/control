@@ -1,0 +1,38 @@
+Source: calltest
+Maintainer: Matthias Urlichs <matthias@urlichs.de>
+Section: python
+Priority: optional
+Build-Depends: dh-python, python3-setuptools, python3-all, debhelper (>= 9),
+  python3-setuptools-scm,
+  python3-pytest-runner,
+  python3-asyncclick,
+  python3-asyncari (>= 0.8.3),
+  python3-trio (>= 0.11),
+  python3-range-set,
+  python3-attr,
+  python3-jsonschema,
+  python3-yaml,
+Standards-Version: 3.9.6
+Homepage: https://github.com/smurfix/calltest
+
+Package: calltest
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends},
+  python3-asyncclick,
+  python3-asyncari (>= 0.8.3),
+  python3-trio (>= 0.11),
+  python3-range-set,
+  python3-attr,
+  python3-jsonschema,
+  python3-yaml,
+Description: A distributed phone call test program
+ This program connects to an Asterisk server and performs call tests, i.e.
+ it causes one channel to call another and verifies that the call worked.
+ .
+ CallTest implements a small JSON server. You can use it with your favorite
+ monitoring system to check test results, or to manually trigger a test from
+ some web site or via ``curl``.
+ .
+ This package is a work in progress. Some planned features are not yet implemented.
+ Also, this README needs to be expanded and split up. Volunteers welcome.
+

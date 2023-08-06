@@ -1,0 +1,7 @@
+asyncari>=0.8.3
+asyncclick
+attrs>=18.2
+jsonschema>=2.5
+pyyaml>=3
+range_set>=0.2
+trio>=0.11

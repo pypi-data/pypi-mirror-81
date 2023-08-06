@@ -1,0 +1,11 @@
+README.md
+setup.py
+kayra/mixup.py
+kayra/sparse_image_warp.py
+kayra/spec_augment.py
+kayra.egg-info/PKG-INFO
+kayra.egg-info/SOURCES.txt
+kayra.egg-info/dependency_links.txt
+kayra.egg-info/not-zip-safe
+kayra.egg-info/requires.txt
+kayra.egg-info/top_level.txt

@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+effmap_demo/__init__.py
+effmap_demo/effmap_demo.py
+effmap_demo.egg-info/PKG-INFO
+effmap_demo.egg-info/SOURCES.txt
+effmap_demo.egg-info/dependency_links.txt
+effmap_demo.egg-info/top_level.txt

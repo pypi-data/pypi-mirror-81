@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: Botlabs.py
+Version: 1.0.1
+Summary: A simple API wrapper for discordbotlabs.org
+Home-page: https://github.com/pjotr07740/botlabs.py
+Author: Pjotr
+Author-email: pjotrlspdfr@outlook.com
+License: UNKNOWN
+Description: # botlabs.py
+        ### About
+        botlabs.py is an API wrapper for discordlabs.org.
+        
+        ### Documentation
+        soonTM
+        
+        ### Install
+        soonTM
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

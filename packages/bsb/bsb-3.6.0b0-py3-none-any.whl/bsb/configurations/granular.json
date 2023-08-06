@@ -1,0 +1,154 @@
+{
+  "name": "DBBS NEURON simulator configuration",
+  "output": {
+    "format": "bsb.output.HDF5Formatter",
+    "morphology_repository": "morphologies.hdf5",
+    "file": "300x_200z_130GrLThick.hdf5"
+  },
+  "network_architecture": {
+    "simulation_volume_x": 300.0,
+    "simulation_volume_z": 200.0,
+    "store_kd_trees": true,
+    "store_compound_kd_tree": true,
+    "store_pf_kd_trees": true
+  },
+  "layers": {
+    "granular_layer": {
+      "thickness": 130.0,
+      "stack": {
+        "stack_id": 0,
+        "position_in_stack": 0,
+        "position": [0.0, 0.0, 0.0]
+      }
+    },
+    "purkinje_layer": {
+      "thickness": 15.0,
+      "stack": {
+        "stack_id": 0,
+        "position_in_stack": 1
+      }
+    },
+    "molecular_layer": {
+      "thickness": 150.0,
+      "stack": {
+        "stack_id": 0,
+        "position_in_stack": 2
+      }
+    }
+  },
+  "cell_types": {
+    "granule_cell": {
+      "placement": {
+        "class": "bsb.placement.ParticlePlacement",
+        "layer": "granular_layer",
+        "soma_radius": 2.5,
+        "count": 1
+      },
+      "morphology": {
+        "class": "bsb.morphologies.NoGeometry",
+        "dendrite_length": 40,
+        "detailed_morphologies": {
+          "names": ["GranuleCell"]
+        }
+      },
+      "plotting": {
+        "display_name": "granule cell",
+        "color": "#E62214",
+        "opacity": 0.3
+      }
+    },
+    "glomerulus": {
+      "relay": true,
+      "placement": {
+        "class": "bsb.placement.ParticlePlacement",
+        "layer": "granular_layer",
+        "soma_radius": 1.5,
+        "density": 3e-4
+      },
+      "morphology": {
+        "class": "bsb.morphologies.NoGeometry"
+      },
+      "plotting": {
+        "display_name": "glomerulus",
+        "color": "#0E1030"
+      }
+    },
+    "mossy_fibers": {
+      "entity": true,
+      "relay": true,
+      "placement": {
+        "class": "bsb.placement.Entities",
+        "layer": "granular_layer",
+        "placement_relative_to": "glomerulus",
+        "placement_count_ratio": 0.05
+      }
+    }
+  },
+  "connection_types": {
+    "mossy_to_glomerulus": {
+      "class": "bsb.connectivity.ConnectomeMossyGlomerulus",
+      "from_cell_types": [{"type": "mossy_fibers", "compartments": ["soma"]}],
+      "to_cell_types": [{"type": "glomerulus", "compartments": ["soma"]}]
+    },
+    "glomerulus_to_granule": {
+      "class": "bsb.connectivity.ConnectomeGlomerulusGranule",
+      "from_cell_types": [{"type": "glomerulus", "compartments": ["soma"]}],
+      "to_cell_types": [{"type": "granule_cell", "compartments": ["dendrites"]}],
+      "after": ["mossy_to_glomerulus"],
+      "convergence": 4,
+      "detailed": true
+    }
+  },
+  "simulations": {
+    "poc": {
+      "simulator": "neuron",
+      "duration": 100,
+      "temperature": 32,
+      "resolution": 0.1,
+      "cell_models": {
+        "glomerulus": {
+          "relay": true
+        },
+        "mossy_fibers": {
+          "relay": true
+        },
+        "granule_cell": {
+          "model": "dbbs_models.GranuleCell",
+          "record_spikes": true
+        }
+      },
+      "connection_models": {
+        "glomerulus_to_granule": {
+          "synapse": "AMPA"
+        },
+        "mossy_to_glomerulus": {
+          "synapse": null
+        }
+      },
+      "devices": {
+        "mossy_fiber_init": {
+          "io": "input",
+          "device": "spike_generator",
+          "targetting": "by_id",
+          "targets": [1],
+          "cell_types": ["mossy_fibers"],
+          "synapses": ["AMPA", "NMDA"],
+          "parameters": {
+            "start": 0,
+            "interval": 5
+            "number": 20
+          }
+        },
+        "synapse_recorder": {
+          "io": "output",
+          "device": "synapse_recorder",
+          "targetting": "by_id",
+          "record_current": true,
+          "targets": [0],
+          "section_count": "all",
+          "section_type": "dendrites"
+        }
+      }
+    }
+  }
+}

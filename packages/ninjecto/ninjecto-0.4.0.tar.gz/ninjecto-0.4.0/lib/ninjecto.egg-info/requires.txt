@@ -1,0 +1,9 @@
+toml
+ujson
+pyyaml
+jinja2>=2.11
+inflection
+setuptools
+colorlog
+pprintpp
+setproctitle

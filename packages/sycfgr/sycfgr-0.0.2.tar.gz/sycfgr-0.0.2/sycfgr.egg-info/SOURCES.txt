@@ -1,0 +1,8 @@
+README.md
+setup.py
+sycfgr.py
+sycfgr.egg-info/PKG-INFO
+sycfgr.egg-info/SOURCES.txt
+sycfgr.egg-info/dependency_links.txt
+sycfgr.egg-info/requires.txt
+sycfgr.egg-info/top_level.txt

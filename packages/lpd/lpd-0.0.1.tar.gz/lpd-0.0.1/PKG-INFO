@@ -1,0 +1,43 @@
+Metadata-Version: 1.2
+Name: lpd
+Version: 0.0.1
+Summary: A Fast, Flexible Trainer and Extensions for Pytorch
+Home-page: https://github.com/roysadaka/lpd
+Author: Roy Sadaka
+Maintainer: lpd developers
+Maintainer-email: torch.lpd@gmail.com
+License: MIT Licences
+Description: ![Logo](https://github.com/RoySadaka/lpd/blob/master/images/logo.png)
+        
+        lpd
+        ====
+        A Fast, Flexible Trainer and Extensions for Pytorch
+        
+        ``lpd`` derives from the Hebrew word *lapid* (לפיד) which means "torch".
+        
+        
+        todos:
+        * expose evaluate method
+        * EpochEndStats - save best accuracies
+        * handle scheduler.step() that takes parameters
+        
+Keywords: pytorch trainer extensions machine deep learning
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: Microsoft :: MS-DOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: BSD
+Classifier: Operating System :: POSIX :: BSD :: FreeBSD
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6

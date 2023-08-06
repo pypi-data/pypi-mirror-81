@@ -1,0 +1,8 @@
+README.md
+setup.py
+salmanpdf/__init__.py
+salmanpdf/pdf2text.py
+salmanpdf.egg-info/PKG-INFO
+salmanpdf.egg-info/SOURCES.txt
+salmanpdf.egg-info/dependency_links.txt
+salmanpdf.egg-info/top_level.txt

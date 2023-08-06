@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: timespeaker
+Version: 0.1.0
+Summary: Announce the time every hour similar to Mac OS X. Say the Time using Google TTS or espeak.
+License: MIT
+Author: Wallace Silva
+Author-email: contact@wallacesilva.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: gtts (>=2.1.1,<3.0.0)
+Requires-Dist: playsound (>=1.2.2,<2.0.0)

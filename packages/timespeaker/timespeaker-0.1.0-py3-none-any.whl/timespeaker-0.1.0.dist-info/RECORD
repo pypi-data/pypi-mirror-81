@@ -1,0 +1,10 @@
+timespeaker/Makefile,sha256=7-_pU9S87ohDeaEz0QBYYIrEZuVnmPbIPQTg-cp-G7A,1611
+timespeaker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+timespeaker/resources/systemd-timespeaker.service,sha256=qSfuwaFukWjFORRkY0V77MKY7V-FVplFZ3fF2-MtQXQ,245
+timespeaker/resources/timespeaker-logo.png,sha256=36ea_b9QqF-miu_rGfZXy6cVkVzHTDgQyCb3I15BOxY,80548
+timespeaker/resources/timespeaker.desktop,sha256=DAVwoedveRkrOoWuoNRR7iow8U5XZalY0hFfiQQDPNA,117
+timespeaker/timespeaker.py,sha256=QdEU-vZs4AT5unImXMfFK9kf4gUR6pFkQVTx6gLVL2Q,6554
+timespeaker-0.1.0.dist-info/LICENSE,sha256=Nt2XTXk3D885kgZp2hqSwJBn01fhy58DQw0ndF7AomU,1070
+timespeaker-0.1.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+timespeaker-0.1.0.dist-info/METADATA,sha256=M2uMER_q9_-QzcsWC9EV76QZ4_WHcOlk_RJnhwP3xzE,585
+timespeaker-0.1.0.dist-info/RECORD,,

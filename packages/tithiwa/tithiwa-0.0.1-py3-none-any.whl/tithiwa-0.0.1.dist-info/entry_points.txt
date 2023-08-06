@@ -1,0 +1,3 @@
+[console_scripts]
+tithiwa = tithiwa.__main__:main
+

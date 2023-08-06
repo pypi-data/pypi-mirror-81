@@ -1,0 +1,17 @@
+messages.py,sha256=T6J2ysy3-5ovs9q5S4UvPFkpvRWn4g_Zopn4bXOYsuk,1041
+session.py,sha256=gwSFF-RzFypUu7o6QZbxf42PbnyzlYS2wPUgMcgzMd0,2847
+tithiwa/__init__.py,sha256=XMy-fK4wLR3tpjAu4LPkEXFq4A6kSz37d3LYw0LXRI0,46
+tithiwa/__main__.py,sha256=6J4lquH-14tIC35UuS5udogpE0ewyNL44tLZMpM2bmc,115
+tithiwa/groups.py,sha256=9gI1WS6ITnPH6-B3tKx27CyXIzGr6n6dBOWO-1hzzd4,1036
+tithiwa/gui_learn.py,sha256=kiVHiKVT1xKh0-AsFsdOl9sPiloqwRnA_xLXWaoVVPY,3417
+tithiwa/main.py,sha256=wjz9peeYLnj07qutlxtBUI5RsVyZ9yKJiOmGAuG9PDY,2972
+tithiwa/messages.py,sha256=T6J2ysy3-5ovs9q5S4UvPFkpvRWn4g_Zopn4bXOYsuk,1041
+tithiwa/session.py,sha256=gwSFF-RzFypUu7o6QZbxf42PbnyzlYS2wPUgMcgzMd0,2847
+tithiwa/temp.py,sha256=tmkuc_ss2kRRZkBm33KZYNFK3kYxixajDdaXD1te_OI,763
+tithiwa/temp1.py,sha256=Nu9_qLPFPk4K2fwB2tanoqNEWJEftD0CnR3xTYZMPy4,51
+tithiwa-0.0.1.dist-info/LICENSE,sha256=U89VsAZRiwZMwxxzfb6drMTcGAZy8xGpN2JOBAuOtu4,1086
+tithiwa-0.0.1.dist-info/METADATA,sha256=RU0zQ0O19zW7qHOhELJNsmyvBzCDCxQj-Cvqo9RB-64,499
+tithiwa-0.0.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+tithiwa-0.0.1.dist-info/entry_points.txt,sha256=SjcqTNtWbxBAZC1K1pfBOIH848fuXhiGbHS5HcPw3VA,51
+tithiwa-0.0.1.dist-info/top_level.txt,sha256=l8m-0h3ygKDlFaZKj65iiiaiHmZnEOqGQLVz4OPpfHY,25
+tithiwa-0.0.1.dist-info/RECORD,,

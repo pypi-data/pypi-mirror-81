@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: roufcp
+Version: 0.1
+Summary: A python package for detecting gradual changepoint using Fuzzy Rough CP (roufCP)
+Home-page: https://github.com/subroy13/roufcp
+Author: Subhrajyoty Roy
+Author-email: subhrajyotyroy@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: statsmodels
+
+# roufcp - Rough Fuzzy Changepoint Detection
+
+Gradual Change-Point Detection Library based on Rough Fuzzy Changepoint Detection algorithm `roufcp`.
+
+## Usage
+
+```
+>> import numpy as np
+>> from roufcp import roufCP
+>> X = np.concatenate([np.ones(20) * 5, np.zeros(20), np.ones(20) * 10]) + np.random.randn(60)
+>> roufCP(delta = 3, w = 3).fit(X, moving_window = 10, k = 2)
+
+```
+
+
+## Authors & Contributors
+
+* Subhrajyoty Roy - https://subroy13.github.io/
+* Ritwik Bhaduri - https://github.com/Ritwik-Bhaduri
+* Sankar Kumar Pal - https://www.isical.ac.in/~sankar/
+
+
+## License
+
+This code is licensed under MIT License.
+
+

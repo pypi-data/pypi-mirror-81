@@ -1,0 +1,12 @@
+oarepo_dc/__init__.py,sha256=Jzb_RfgvXCrm_SQ4AfeGVi1N36YybxnM5mpyxrnihgI,33
+oarepo_dc/version.py,sha256=jRnZEBXrOCs0Pqr4VC9vX0qVa735i4Xk_eogwNJShuI,1384
+oarepo_dc/included_mappings/v7/dcterms-v2.0.0.json,sha256=9KcejZYD7tiA-Zm5jTHxGJAJ6ezY2qe8zSh2jGBSMas,1077
+oarepo_dc/jsonschemas/__init__.py,sha256=m7UQhnKgPA2WUOAuo-GU0LXW4g_b3SetqsEjfdDVgsY,468
+oarepo_dc/jsonschemas/dcterms-v2.0.0.json,sha256=4Sj3J4yU4swgIGe5XoB3dea_Uwq0CTAJ2OVrDokL2Ks,1574
+oarepo_dc/marshmallow/__init__.py,sha256=4EltrqHGD1ZzLVRau8cnG3QQH20RXdY6c5pFNCDm_l4,1077
+oarepo_dc-2.1.0.dist-info/LICENSE,sha256=oxlvOW3GiojF5mcapEzPff39MfADzIw5Qt8iOonks8c,1062
+oarepo_dc-2.1.0.dist-info/METADATA,sha256=LpQOVitEntEJSWuZaIGce7VPRAdOofmd884ZmmNLFZY,4757
+oarepo_dc-2.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+oarepo_dc-2.1.0.dist-info/entry_points.txt,sha256=shGVfQEhv9SELdUlyzzmZrVm8G3POFrovseG5VYc9HI,132
+oarepo_dc-2.1.0.dist-info/top_level.txt,sha256=Wq6r7c5HXs-wAHr9w_qHurIkPYkGIrddjgsPp2hAs5w,10
+oarepo_dc-2.1.0.dist-info/RECORD,,

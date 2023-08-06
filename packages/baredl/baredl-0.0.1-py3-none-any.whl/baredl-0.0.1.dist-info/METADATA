@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: baredl
+Version: 0.0.1
+Summary: A Python module for deep learning framework.
+Home-page: https://github.com/shotahorii/dl-from-scratch
+Author: shotahorii
+Author-email: sh.sinker@gmail.com
+License: MIT
+Keywords: machine-learning deep-learning deep-learning-from-scratch data-science
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+# dl-from-scratch
+Deep learning from scratch
+
+

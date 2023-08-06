@@ -1,0 +1,10 @@
+baredl/__init__.py,sha256=Azc64DAv-a0ncrdgWFy71HpnZnR5bf1JDNh3ZIPrKiA,40
+baredl/core.py,sha256=JtgqkOq-LHX3hrP-j190FP1IFrEKMbPfVmx_1y5dyeE,11801
+baredl/functions.py,sha256=6E4mXmrUZxHO9M_04UTv2Exj3cQ4OFkkMpAfg9TE7OU,8193
+baredl/layers.py,sha256=r5SvgfyGisxvXK2YyY8gUZtqN6UiFD_wLgZcBLz-LJU,1098
+baredl/models.py,sha256=iu-ZRR14cr1QL-DVhCzCFxugnzilNeQl-QSoUzqZ2OY,593
+baredl/optimizers.py,sha256=ihwLjs-9aA8sCpwUrb5YLM3LuBF8V9fGoDJ0dpO534w,687
+baredl-0.0.1.dist-info/METADATA,sha256=R06dkbP6kos6bftwzey7Pvu5k7yFkNXSJt_N9M60zqY,584
+baredl-0.0.1.dist-info/RECORD,,
+baredl-0.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+baredl-0.0.1.dist-info/top_level.txt,sha256=uPbVDUQqWHdaKdGNTpT49NReokHxBD2gzEh7fOClYeI,7

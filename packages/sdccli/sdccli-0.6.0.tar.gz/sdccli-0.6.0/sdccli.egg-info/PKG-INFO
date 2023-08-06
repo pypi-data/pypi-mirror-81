@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: sdccli
+Version: 0.6.0
+Summary: CLI client for Sysdig Cloud
+Home-page: https://github.com/draios/sysdig-platform-cli
+Author: sysdig Inc.
+Author-email: info@sysdig.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: dev

@@ -1,0 +1,12 @@
+README.md
+setup.py
+MegaLiveInstantActionPlotterDeluxe/PlotImplementations.py
+MegaLiveInstantActionPlotterDeluxe/__init__.py
+MegaLiveInstantActionPlotterDeluxe/pyqt_live_plotter.py
+MegaLiveInstantActionPlotterDeluxe/pyqt_liveplotter_creatorconnector.py
+MegaLiveInstantActionPlotterDeluxe.egg-info/PKG-INFO
+MegaLiveInstantActionPlotterDeluxe.egg-info/SOURCES.txt
+MegaLiveInstantActionPlotterDeluxe.egg-info/dependency_links.txt
+MegaLiveInstantActionPlotterDeluxe.egg-info/requires.txt
+MegaLiveInstantActionPlotterDeluxe.egg-info/top_level.txt
+test/test.py

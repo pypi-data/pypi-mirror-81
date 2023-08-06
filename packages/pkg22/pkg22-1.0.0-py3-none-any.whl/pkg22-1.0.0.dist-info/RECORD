@@ -1,0 +1,16 @@
+pkg22/__init__.py,sha256=qzzR4LwEMO0XAguSrYMyWZjFjBYxHYmC1-c_UvAfz4A,63
+pkg22/__main__.py,sha256=-ZVkuqx0gMICgHfS8HH2wgxeYr3vyuCJo9deaNENAGo,142
+pkg22/demo1.py,sha256=cA7zlib-LfEdkovR-C3PeGbMX_lYxC0E8OIVYLsqQpg,53
+pkg22/demo2.py,sha256=rp9Bz3wCxdP4I5EQwoKYzd5k1G_ESD9on93ujJiEQYQ,66
+test/__init__.py,sha256=Cu4S22uP1Q-hD5lmSwyujYlvekrYAAgmv2mqUjON3WY,62
+test/__main__.py,sha256=eFVJ0rCZWz15KkToEQeLc2ZfRXRPCWEYburoQ3PE4R8,141
+test/demo1.py,sha256=cA7zlib-LfEdkovR-C3PeGbMX_lYxC0E8OIVYLsqQpg,53
+test/demo2.py,sha256=rp9Bz3wCxdP4I5EQwoKYzd5k1G_ESD9on93ujJiEQYQ,66
+test22/__init__.py,sha256=b8vOvy2FLYQQVfGDmzViomM2_n7VzmRNSJ2tOF5ZYcw,64
+test22/__main__.py,sha256=xtsjZK9VN3WVfOsJb2FC2jUyNG1fxE-B_Qveegqw8yk,143
+test22/demo1.py,sha256=cA7zlib-LfEdkovR-C3PeGbMX_lYxC0E8OIVYLsqQpg,53
+test22/demo2.py,sha256=rp9Bz3wCxdP4I5EQwoKYzd5k1G_ESD9on93ujJiEQYQ,66
+pkg22-1.0.0.dist-info/METADATA,sha256=zpqlzTwouOKnLmnPbZ3VWVRBKnj8rfmSn8J6iQLF8CU,499
+pkg22-1.0.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+pkg22-1.0.0.dist-info/top_level.txt,sha256=UoLOhlBAEjnyq0yzcjZNjXah6QCUPfmsZz5JJGCGjK0,6
+pkg22-1.0.0.dist-info/RECORD,,

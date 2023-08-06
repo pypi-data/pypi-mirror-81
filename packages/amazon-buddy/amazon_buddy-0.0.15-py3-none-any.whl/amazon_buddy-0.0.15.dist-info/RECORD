@@ -1,0 +1,13 @@
+amazon_buddy/__init__.py,sha256=NcBew7GNTwrTgQMxFgAo0VZ1RbEiYjSGup5U3lwOvZo,232
+amazon_buddy/amazon_buddy.py,sha256=Eag8HQl5FRWXIL6bctLGYeEmSudmIVetKejCJ8b4iGI,9268
+amazon_buddy/enums/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+amazon_buddy/enums/category.py,sha256=-J7CpDwIHjMZKJ09JZ92hs9agB-chUgFObemnTHVTB8,3772
+amazon_buddy/enums/product_condition.py,sha256=IiUCB7G5XbgXLLFw4lOk9jdQ9aVEMZGQFp_rLM_FzpM,707
+amazon_buddy/enums/sort_type.py,sha256=V0_CMRIKIpkAXv4q2s5DcC4BSezREn4r51rge_m-SDc,792
+amazon_buddy/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+amazon_buddy/models/product.py,sha256=G0hqFgwzaLqqYMwDlRH1nNuhxPQ0__RQ5dJp3f63Bdk,3440
+amazon_buddy/models/review.py,sha256=NdEmyA4tCx96p9dx0Xh9nK4ihyPJyl6Vy4NBHtImRkA,1131
+amazon_buddy-0.0.15.dist-info/METADATA,sha256=qiBVSFJZvRVUlBgno3flI25UvQScvoNf5ZebY_tuZLI,1732
+amazon_buddy-0.0.15.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+amazon_buddy-0.0.15.dist-info/top_level.txt,sha256=3Ds4RIAujUIyvMkWC7opo1Yr20wg1G8x5U-iRw1iTZ0,13
+amazon_buddy-0.0.15.dist-info/RECORD,,

@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: lined
+Version: 0.0.4
+Summary: Building simple pipelines, simply.
+Home-page: UNKNOWN
+Author: OtoSense
+License: mit
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+
+# lined
+
+Building simple pipelines, simply.
+
+Simply put,
+
+```pydocstring
+>>> from lined import Pipeline
+>>> p = Pipeline(sum, str)
+>>> p([2, 3])
+'5'
+```
+
+Obvious enough. 
+
+
+
+
+

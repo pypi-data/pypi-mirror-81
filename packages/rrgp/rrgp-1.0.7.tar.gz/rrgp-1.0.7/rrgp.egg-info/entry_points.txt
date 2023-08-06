@@ -1,0 +1,3 @@
+[console_scripts]
+rrgp = rrgp.run:main
+

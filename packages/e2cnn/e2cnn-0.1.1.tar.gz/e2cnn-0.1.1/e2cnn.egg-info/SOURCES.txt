@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+e2cnn/__about__.py
+e2cnn/__init__.py
+e2cnn.egg-info/PKG-INFO
+e2cnn.egg-info/SOURCES.txt
+e2cnn.egg-info/dependency_links.txt
+e2cnn.egg-info/requires.txt
+e2cnn.egg-info/top_level.txt

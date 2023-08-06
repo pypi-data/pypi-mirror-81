@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: okean
+Version: 2020.11
+Summary: Okean ocean modelling and analysis tools ...
+Home-page: https://github.com/martalmeida/okean
+Author: Martinho Marta-Almeida
+Author-email: m.martalmeida@gmail.com
+License: EUPL
+Description: Requires:
+            NumPy
+            matplotlib with the Basemap toolkit
+            netcdf interface for python (like netCDF4)
+        
+        
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: European Union Public Licence 1.2 (EUPL 1.2)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

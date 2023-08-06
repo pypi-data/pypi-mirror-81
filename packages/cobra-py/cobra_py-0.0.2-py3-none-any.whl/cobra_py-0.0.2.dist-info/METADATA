@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cobra-py
+Version: 0.0.2
+Summary: An 80s style Python runtime and development environment
+License: MIT
+Author: Roberto Alsina
+Author-email: roberto.alsina@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: glooey (>=0.3.4,<0.4.0)
+Requires-Dist: ipcqueue (>=0.9.6,<0.10.0)
+Requires-Dist: pillow (>=7.2.0,<8.0.0)
+Requires-Dist: pyglet (>=1.5.7,<2.0.0)
+Requires-Dist: pyte (>=0.8.0,<0.9.0)

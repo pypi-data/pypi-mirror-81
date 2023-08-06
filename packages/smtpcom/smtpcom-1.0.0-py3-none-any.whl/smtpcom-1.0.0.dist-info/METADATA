@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: smtpcom
+Version: 1.0.0
+Summary: SMTP Public API
+Home-page: http://smtp.com
+Author: SMTP.com support
+Author-email: support@smtp.com
+License: MIT
+Keywords: OpenAPI,OpenAPI-Generator,SMTP Public API
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*
+Requires-Dist: urllib3 (>=1.15)
+Requires-Dist: six (>=1.10)
+Requires-Dist: certifi
+Requires-Dist: python-dateutil
+
+SMTP.com Public API v4 
+
+

@@ -1,0 +1,4 @@
+[console_scripts]
+ask = pyinspect.answers:cli_ask
+why = pyinspect.answers:cli_get_answers
+

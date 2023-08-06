@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: vmf-tool
+Version: 0.1.0
+Summary: A library for interpreting & editing .vmf files
+Home-page: https://github.com/snake-biscuits/vmf_tool
+Author: Jared Ketterer
+Author-email: haveanotherbiscuit@gmail.com
+License: gpl-3.0
+Download-URL: https://github.com/snake-biscuits/vmf_tool/archive/v0.1.0.tar.gz
+Description: # vmf_tool
+        A library for interpreting & editing .vmf files
+        
+        This library was created for editing Valve's .vmf (Valve Map Format)  
+        Created as part of [QtPyHammer](https://github.com/snake-biscuits/QtPyHammer)  
+        
+        The core parser is very lazy, anything that looks like a .vmf will be parsed  
+        Once parsed, any issues with the source file can be traced to a rough line number  
+        Ideally allowing for the recovery of corrupted .vmfs  
+        
+Keywords: source,vmf,valve
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Games/Entertainment :: First Person Shooters
+Classifier: Topic :: Multimedia :: Graphics :: 3D Modeling
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

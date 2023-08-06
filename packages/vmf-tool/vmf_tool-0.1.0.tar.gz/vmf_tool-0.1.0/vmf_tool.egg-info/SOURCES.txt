@@ -1,0 +1,12 @@
+README.md
+setup.py
+tests/__init__.py
+vmf_tool/__init__.py
+vmf_tool/brushes.py
+vmf_tool/parser.py
+vmf_tool/vector.py
+vmf_tool/vmf.py
+vmf_tool.egg-info/PKG-INFO
+vmf_tool.egg-info/SOURCES.txt
+vmf_tool.egg-info/dependency_links.txt
+vmf_tool.egg-info/top_level.txt

@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: learninghouse
+Version: 0.6.0
+Summary: learningHouse - Teach your smart home everything
+Home-page: https://github.com/LearningHouseService/learninghouse-core
+Author: Johannes Ott
+Author-email: info@johannes-ott.net
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/LearningHouseService/learninghouse-core/issues
+Keywords: smart home,machine learning,house automation
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Home Automation
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+Requires-Dist: waitress
+Requires-Dist: flask
+Requires-Dist: flask-restful
+Requires-Dist: click
+Requires-Dist: pyyaml
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: versioneer
+Requires-Dist: setuptools
+Requires-Dist: wheel
+Requires-Dist: twine
+
+# learningHouse Service
+
+![learningHouse Logo](https://raw.githubusercontent.com/LearningHouseService/learninghouse-core/master/artwork/learninghouse_logo.svg)
+
+## Introduction
+
+**learningHouse Service** provides machine learning algorithms based on scikit-learn python library as a RESTful API, with the purpose to give smart home fans an easy possibility to teach their homes.
+
+*This project is in a very early state, but you can already give me feedback on your ideas, what things you want to teach your smart homes.*
+
+

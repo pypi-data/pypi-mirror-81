@@ -1,0 +1,2 @@
+include versioneer.py
+include ecp-api/_version.py

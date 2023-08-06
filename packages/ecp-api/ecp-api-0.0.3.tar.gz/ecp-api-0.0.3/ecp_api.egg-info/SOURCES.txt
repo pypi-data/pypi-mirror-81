@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+ecp-api/MADES_SOAP_API.py
+ecp-api/__init__.py
+ecp-api/_version.py
+ecp_api.egg-info/PKG-INFO
+ecp_api.egg-info/SOURCES.txt
+ecp_api.egg-info/dependency_links.txt
+ecp_api.egg-info/requires.txt
+ecp_api.egg-info/top_level.txt

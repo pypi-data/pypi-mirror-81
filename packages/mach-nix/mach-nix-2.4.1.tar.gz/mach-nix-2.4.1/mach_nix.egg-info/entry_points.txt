@@ -1,0 +1,3 @@
+[console_scripts]
+mach-nix = mach_nix:main
+

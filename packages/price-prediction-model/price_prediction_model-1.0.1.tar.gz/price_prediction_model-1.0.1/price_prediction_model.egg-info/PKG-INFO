@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: price-prediction-model
+Version: 1.0.1
+Summary: End to end lightGBM regression model to predict house prices in Beijing
+Home-page: https://github.com/chen-bowen/Beijing_House_Price_Predictions
+Author: Bowen
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: ==3.*,>=3.7.0
+Provides-Extra: dev

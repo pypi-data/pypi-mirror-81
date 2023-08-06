@@ -1,0 +1,12 @@
+CHANGELOG.txt
+MANIFEST.in
+README.txt
+rss_feeds.txt
+setup.py
+token_info.txt
+telefeeder/__init__.py
+telefeeder.egg-info/PKG-INFO
+telefeeder.egg-info/SOURCES.txt
+telefeeder.egg-info/dependency_links.txt
+telefeeder.egg-info/requires.txt
+telefeeder.egg-info/top_level.txt

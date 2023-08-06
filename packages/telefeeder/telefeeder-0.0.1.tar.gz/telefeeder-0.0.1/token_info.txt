@@ -1,0 +1,5 @@
+TELEGRAM = {
+    'bot_token': 'xxxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+    'channel_1': '@channel_name',
+    'channel_2':'@ieltsbandzero'
+}

@@ -1,0 +1,10 @@
+https://www.cell.com/neuron/current.rss
+http://feeds.nature.com/neuro/rss/current
+http://feeds.plos.org/plos/blogs/neuro
+https://www.jneurosci.org/content/rss
+http://feeds.nature.com/nrn/rss/current
+https://www.frontiersin.org/journals/computational-neuroscience/rss
+https://www.journals.elsevier.com/neurocomputing/rss
+https://iopscience.iop.org/journal/rss/1741-2552
+https://www.tandfonline.com/feed/rss/inet20
+https://journals.plos.org/ploscompbiol/feed/atom

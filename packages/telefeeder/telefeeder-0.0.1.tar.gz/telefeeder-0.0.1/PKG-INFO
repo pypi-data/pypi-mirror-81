@@ -1,0 +1,32 @@
+Metadata-Version: 1.1
+Name: telefeeder
+Version: 0.0.1
+Summary: A simple python script to send your RSS feeds to your Telegram channel
+Home-page: UNKNOWN
+Author: Nosratulla Mohammadi
+Author-email: nh.afgboy@gmail.com
+License: MIT
+Description: 
+        
+        Change Log
+        ============
+        
+        0.0.1 (08/10/2020)
+        -------------------
+        - First Release!
+        
+Keywords: telegram,rss,feed
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Communications :: Email
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Software Development :: Bug Tracking

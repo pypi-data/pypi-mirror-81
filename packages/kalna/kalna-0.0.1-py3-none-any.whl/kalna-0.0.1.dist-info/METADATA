@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: kalna
+Version: 0.0.1
+Summary: A package calculate basic numerical operations on a single number
+Home-page: 
+Author: Sayantan Ghosh
+Author-email: sayantanghosh.work@gmail.com
+License: UNKNOWN
+Keywords: package numbers calculations
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Kalna 0.0.1 
+***
+
+## Documentation
+
+
+## Installation
+To install via `pip` use:
+```python
+pip install kalna
+```
+
+## Basic Usage
+The usage of the wrapper is very easy. It does not require any initialisation. Just import and start coding:
+```python
+from kalna import calculate
+
+#Calculate the Square of a Number
+print(calculate.calculateSquare(8))
+# 64
+
+print(calculate.calculateCube(3))
+# 512
+```
+
+
+

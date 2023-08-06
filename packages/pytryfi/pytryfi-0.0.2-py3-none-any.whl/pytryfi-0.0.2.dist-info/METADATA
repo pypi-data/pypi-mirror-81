@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: pytryfi
+Version: 0.0.2
+Summary: Python Interface for TryFi Dog Collars
+Home-page: https://github.com/sbabcock23/pytryfi
+Author: Steve Babcock
+Author-email: steve.w.babcock@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# pytryfi - Python Interface for TryFi
+This python interface enables you to gather information about your dogs whereabouts, your user details and any bases you may have.
+
+NOTE: Since this interacts with undocumented APIs, this may change without notice.
+
+## Installation
+TBD
+
+## Usage
+TryFi uses Graphql for its APIs. Essentially, you will use your username (email address) and password to retrieve a unique username specific for API calls which in turn will be used for the duration to retrieve data.
+
+### Example
+```python
+#this will create the object and gather all the necessary data
+tryfi = PyTryFi(username, password)
+print(tryfi)
+
+#this will perform a complete refresh of all Pets and data points
+tryfi.updatePets()
+
+#this will perform a complete refresh of all Bases and data points
+tryfi.updateBases()
+
+#this will just update the last reported location of a bet
+tryfi.updatePetLocation(tryfi.pets[0].petId)
+```
+
+## To Do
+* Provide Activity Data History
+* Update Current Activity Data
+* Submit Dog Lost Action
+
+## Links:
+* [TryFi](https://tryfi.com/)
+

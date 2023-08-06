@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: pydantic-distiller
+Version: 0.1.0b8
+Summary: HTML/JSON documents parser into Pydantic models
+Home-page: https://github.com/tinkoffjournal/distiller
+License: UNKNOWN
+Author: Arseny Gabdullin
+Author-email: a.gabdullin@tinkoff.ru
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Typing :: Typed
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: pydantic >=1.0.0
+Requires-Dist: devtools ; extra == "dev"
+Requires-Dist: beautifulsoup4 >=4.8.1 ; extra == "html"
+Requires-Dist: lxml ; extra == "html"
+Requires-Dist: pytest >=4.0.0 ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Requires-Dist: mypy ; extra == "test"
+Requires-Dist: black ; extra == "test"
+Requires-Dist: isort > 5 ; extra == "test"
+Requires-Dist: faker ; extra == "test"
+Requires-Dist: flake8 ; extra == "test"
+Provides-Extra: dev
+Provides-Extra: html
+Provides-Extra: test
+
+# Distiller
+
+[![pypi](https://img.shields.io/pypi/v/pydantic-distiller)](https://pypi.org/project/pydantic-distiller/)
+
+## Installation
+
+```bash
+pip install pydantic-distiller[html]
+```
+

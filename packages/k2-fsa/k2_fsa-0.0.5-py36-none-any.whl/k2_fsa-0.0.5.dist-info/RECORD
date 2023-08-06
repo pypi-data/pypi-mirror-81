@@ -1,0 +1,13 @@
+_k2.cpython-36m-x86_64-linux-gnu.so,sha256=yg_6QgJuAlJPNa9HAfvS0Bvd7lbOkYQRpj5VgAI1iAo,1026760
+libcontext.so,sha256=x8E9BWMmGEE2usMbHv98ujgnJN21k-6lpQsgMpP45OU,6364112
+libfsa.so,sha256=v3ZysmxeShshYVlhkmRshJXbvlxCx7BN_PJz3ttb4t8,495024
+k2/__init__.py,sha256=nadM4ML2K-gG_Dq-uQsxQKJ4OhnbiUEi76k89QQ2IJY,203
+k2/array.py,sha256=oJfUevoFEcNT4p9YVtrpdFxeN1OKJIvNBfK7cZXjz44,3241
+k2/fsa.py,sha256=3Yqsnv5mUyRKe_VpuJ7VXsdHm0a7M0_kz-gd14UxJbE,8097
+k2/symbol_table.py,sha256=WsuluXsKn4PQ2SaI5Q2VDJfZDrEoB0jkmIRQ_yUWjIg,3286
+k2_fsa-0.0.5.data/data/LICENSE,sha256=UTCzTtzxx5YPxofzDEkzml5TNEzIMZqPVDVw7nhNH_0,1386
+k2_fsa-0.0.5.dist-info/LICENSE,sha256=UTCzTtzxx5YPxofzDEkzml5TNEzIMZqPVDVw7nhNH_0,1386
+k2_fsa-0.0.5.dist-info/METADATA,sha256=kh8Vy1v9a-YeygaonUySYi9xKiai3elZmMTsFnQFh5w,7420
+k2_fsa-0.0.5.dist-info/WHEEL,sha256=Tl8xjW8X4F35KLnN1e6enZT4GHcvzGmqx_3941M0M6Q,93
+k2_fsa-0.0.5.dist-info/top_level.txt,sha256=LMd2223cZ7zrzLyhOKFto6jxLoil2xF_s9oJRdhDsSI,3
+k2_fsa-0.0.5.dist-info/RECORD,,

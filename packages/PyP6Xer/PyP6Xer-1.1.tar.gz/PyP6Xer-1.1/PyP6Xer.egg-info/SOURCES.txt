@@ -1,0 +1,13 @@
+README.md
+setup.py
+PyP6Xer.egg-info/PKG-INFO
+PyP6Xer.egg-info/SOURCES.txt
+PyP6Xer.egg-info/dependency_links.txt
+PyP6Xer.egg-info/top_level.txt
+xerparser/__init__.py
+xerparser/reader.py
+xerparser/model/__init__.py
+xerparser/model/predecessors.py
+xerparser/model/projects.py
+xerparser/model/tasks.py
+xerparser/model/wbss.py

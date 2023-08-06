@@ -1,0 +1,13 @@
+maznet/__init__.py,sha256=ZhzQKWZ8RFrTIkj7z87B144DI95e8LMfA5w8NDWQDtg,23
+maznet/data.py,sha256=VAB75lTRIxIkGnl0TfM9KTxLaxY6sKP9zhoY8ieIlU8,1027
+maznet/layers.py,sha256=DIlbauKoNccfwiRFjCrn2cCdl5q7Y_T6LN1wwNjd5KU,2630
+maznet/loss.py,sha256=knzE7H4BP-E-4_Q6qsz3ydu-9DKgB2gvY3Gvlgymhps,733
+maznet/nn.py,sha256=iGDFSME-bB7k5kSebMaAOxe-yiySaeqpxaUUZoYWzUg,911
+maznet/optim.py,sha256=SxOphrSh2VuEBHrWBVq6OyTRf2QsU4O6BFeZUKtOoTk,501
+maznet/tensor.py,sha256=a4-JLN49oaoxTeNMwfYOrLF41F2bkJU1_ZOJhBDOV14,87
+maznet/train.py,sha256=lUVvUYez9684RrZbRKd5uIfqVrD9LDLfLJ5nxU0BeSY,868
+maznet-1.0.0.dist-info/LICENSE,sha256=m2HVpmVVXBT3KbPLu2zgIe1I7QKSSoHTcSStFPpLyZ8,1093
+maznet-1.0.0.dist-info/METADATA,sha256=qAC2U3E6tk2A2P7yCjFpRzBOw-X5695iwg1B8MiR4J8,1353
+maznet-1.0.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+maznet-1.0.0.dist-info/top_level.txt,sha256=9-rStHBbje6f_2SyQwBYKYnFWaYj1NqxC00T1F8a4AQ,7
+maznet-1.0.0.dist-info/RECORD,,

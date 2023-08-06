@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: appchance
+Version: 0.1.7
+Summary: In Appchance we trust
+Home-page: https://bitbucket.org/appchance/pychance/
+Author: Appchance Backend Team
+Author-email: backend@appchance.com
+License: UNKNOWN
+Description: # Appchance :: Backend Special Forces Team
+        
+        Common django classes, configuration files and project automation.
+        
+        ## Installation
+        Install package with pip
+        
+            pip install appchance
+        
+        ## Modules
+        Included modules
+        - `dodos` - project (docker & django) automation based on doit python package
+        - `pickup` - module for cart delivery pickup points clients
+        - `shop` - common models, serializers etc for django mcommerce
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+Hebrew_Fixer/__init__.py
+hebrew_fix.egg-info/PKG-INFO
+hebrew_fix.egg-info/SOURCES.txt
+hebrew_fix.egg-info/dependency_links.txt
+hebrew_fix.egg-info/requires.txt
+hebrew_fix.egg-info/top_level.txt

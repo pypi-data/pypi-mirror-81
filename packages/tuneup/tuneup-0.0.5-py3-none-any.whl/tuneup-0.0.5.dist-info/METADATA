@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: tuneup
+Version: 0.0.5
+Summary: Global optimizer comparison
+Home-page: https://github.com/microprediction/tuneup
+Author: microprediction
+Author-email: pcotton@intechinvestments.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: pytest
+Requires-Dist: python-dateutil
+Requires-Dist: statsmodels
+Requires-Dist: microfilter
+Requires-Dist: optuna
+Requires-Dist: sklearn
+Requires-Dist: scipy
+Requires-Dist: microconventions
+Requires-Dist: deap
+Requires-Dist: wheel
+Requires-Dist: hyperopt
+Requires-Dist: ax-platform
+Requires-Dist: pysot
+Requires-Dist: poap
+Requires-Dist: microprediction
+Requires-Dist: Platypus-Opt
+Requires-Dist: sigopt
+Requires-Dist: pymoo
+
+
+# tuneup
+
+Mere research notes. It may morph into a useful package if things pan out. 
+
+See /studies
+
+
+
+
+
+
+

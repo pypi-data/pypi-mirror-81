@@ -1,0 +1,12 @@
+tuneup/__init__.py,sha256=3MZLSsVIlMdYaG27cyMYkj1Xo_RzsJketid97qLp9ck,132
+tuneup/horserace.py,sha256=qSjW4pyqr2jvdkaBgkCESfBdVtyJMAzM9pKxrLciMao,4330
+tuneup/ndimhorserace.py,sha256=P9yPmLTmkYbe_ELBS1kHBfHGq67JzcDC0TTT3s_5d0k,4411
+tuneup/util.py,sha256=yjs2MSE-iH1lCuKwK4Qk3-k4H4bp40evWlOExqayfEM,619
+tuneup/ndimraces/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tuneup/ndimraces/open_source_race.py,sha256=rDfMaDZGvP5YSXVng1_mbBSp8s7ucyfocKNqn5zsXzw,1543
+tuneup/ndimraces/sigopt_versus_good.py,sha256=kCGAnWQo3InKhLNn-C4fVFuU6PeKl3h-rwlISbYgXko,1577
+tuneup-0.0.5.dist-info/METADATA,sha256=bPK7f5ViOsuwEhlo9_2MWaxtoPqqDYIKvOvvuHB5ZL4,1020
+tuneup-0.0.5.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+tuneup-0.0.5.dist-info/entry_points.txt,sha256=IDzA230Hot_CcPSEPXchtW86zyn60pbYS4RRyMnT1FQ,49
+tuneup-0.0.5.dist-info/top_level.txt,sha256=gDZkqjH_Lp3hyJqHeECB7mUOYwq4qIpdierxaABukek,7
+tuneup-0.0.5.dist-info/RECORD,,

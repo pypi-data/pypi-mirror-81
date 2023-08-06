@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+<form method="POST" action="/node/">
+    <select name="host" class="p-2 rounded bg-gray-300">
+        {% for node in nodes %}
+        <option>{{ node.host }}</option>
+        {% endfor %}
+    </select>
+    <span class="ml-4"><input type="submit" class="pd-btn" name="submit" value="Select" /></span>
+</form>
+{% endblock %}

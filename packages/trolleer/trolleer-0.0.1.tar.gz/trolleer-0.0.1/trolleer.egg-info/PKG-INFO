@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: trolleer
+Version: 0.0.1
+Summary: Use import trolleer to import package and pip unistall to uninstall package if you don't like it.
+Home-page: UNKNOWN
+Author: WebSoft-tech
+Author-email: 
+License: UNKNOWN
+Description: This module lets you add troll messages to the console just by typing in a piece of code!
+        example:
+        
+        if var == 2:
+        	trol.leaveMssg("noooo")
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Requires-Python: >=3.6
+Description-Content-Type: text/plain

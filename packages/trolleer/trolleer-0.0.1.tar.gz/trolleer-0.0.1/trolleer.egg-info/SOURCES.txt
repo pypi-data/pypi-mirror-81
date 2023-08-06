@@ -1,0 +1,7 @@
+README.txt
+setup.py
+trolleer/__init__.py
+trolleer.egg-info/PKG-INFO
+trolleer.egg-info/SOURCES.txt
+trolleer.egg-info/dependency_links.txt
+trolleer.egg-info/top_level.txt

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: kitsupublisher
+Version: 0.1.5
+Summary: Application to publish previews to Kitsu from desktop environments
+Home-page: http://www.cg-wire.com
+Author: CGWire
+Author-email: dev@cg-wire.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: gazu (==0.8.4)
+Requires-Dist: qtazu
+Requires-Dist: qt.py
+Requires-Dist: dccutils
+Requires-Dist: pytz
+
+UNKNOWN
+
+

@@ -1,0 +1,8 @@
+serial_packet/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+serial_packet/crc.py,sha256=A8WDr1XYDACddXrc6s8NFd1HAtGf6tZSESqvvxUIkp8,2392
+serial_packet/serial_packet.py,sha256=EcZG5ZUJejoOxuws3Y9haWdoHRzaTblf47jLMptuqAU,1772
+serial_packet-0.1.dist-info/LICENSE,sha256=EIZGIEhYXAYWPxlp9L9ckzlJpRuTZ1QS00z9W5Hsklw,1063
+serial_packet-0.1.dist-info/METADATA,sha256=y7uPJ-hdERKNiR-AvbBhZejQM0sSSK_hRnehRwKt8SI,490
+serial_packet-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+serial_packet-0.1.dist-info/top_level.txt,sha256=jk4RlYPYHC9Gd6beq2hCWzA1G4ogVKDqUvF1Rv8aUag,14
+serial_packet-0.1.dist-info/RECORD,,

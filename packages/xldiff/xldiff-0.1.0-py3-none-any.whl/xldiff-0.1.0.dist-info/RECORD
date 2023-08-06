@@ -1,0 +1,9 @@
+xldiff/__init__.py,sha256=tqpHlEmW_5VvnEsk4P7FEzO4jmeaKIeiwB5Wr1OSSaU,212
+xldiff/__main__.py,sha256=3kB6X4bFlt_hx136m42OY6od0ePxNFYcQzvaksFvNkY,64
+xldiff/app.py,sha256=TSiv69iJaevrFc8WroxwDLNCWgAkDk03-HbMhEcrgFw,525
+xldiff/diff.py,sha256=kNhDm6Pm9zSjaKE-wC1xr-OjtQ7FaaE7kR1xQuBz8Io,2017
+xldiff-0.1.0.dist-info/entry_points.txt,sha256=xl4yG9H_9G5x9NtdNwTVIUbfDvT9I5YonQdQtvuZMVk,38
+xldiff-0.1.0.dist-info/LICENSE,sha256=D0R8azoAAfTfgSLTvQHk6-x8C7hkrzsgM-EWFiWVEaU,1080
+xldiff-0.1.0.dist-info/WHEEL,sha256=CqyTrkghQBNsEzLD3HbCSEIJ_fY58-XpoU29dUzwHSk,81
+xldiff-0.1.0.dist-info/METADATA,sha256=3NDCrtCWLgus8mHQkdWKFZX6ffvwm4FBHyRWNNEsgms,976
+xldiff-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,3 @@
+[console_scripts]
+cstar-migrate = cstarmigrate.__main__:main
+

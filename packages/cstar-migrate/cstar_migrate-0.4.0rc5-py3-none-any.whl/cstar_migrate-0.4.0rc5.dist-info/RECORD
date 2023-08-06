@@ -1,0 +1,14 @@
+cstarmigrate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cstarmigrate/__main__.py,sha256=FEyOZCb11pP7AzU-P4qmxcL3ORS2w75jlsDXouQYToE,116
+cstarmigrate/cli.py,sha256=AGAc_taebeJTl0LZafYoKslL3m2NLzO3kyu_081xrUM,6605
+cstarmigrate/config.py,sha256=ANkW0Q8tTlbpsky7LhPILZwntmoPrKkdfOPf2Hf3kqo,3274
+cstarmigrate/cql.py,sha256=SHupjV1fz65EPdFAlM4YOECcSdcTzKMvpoOBk1l7ZYQ,2237
+cstarmigrate/exceptions.py,sha256=UwINsmzglxzFrlidNsOhSv-TPrwaF0s3L85x5tZ5fGc,1516
+cstarmigrate/migration.py,sha256=3TVOGc0Ra2MHh2btvObm9ltYayeqVGXknXVSVbgrtKQ,3443
+cstarmigrate/migrator.py,sha256=rgR2iDu6BToN4l3u2_g80hfhmZ98GgxfSXbHWBDZHm0,21850
+cstar_migrate-0.4.0rc5.dist-info/LICENSE,sha256=0-1zH4m1D4Xkeuyg4It2KYS5E5jeyLNS-OQUVuJpGKQ,1085
+cstar_migrate-0.4.0rc5.dist-info/METADATA,sha256=FyWvgYHgQlfaiR0VN0cXDTQKPy0ZqkhB_oXWdxTRq4M,10961
+cstar_migrate-0.4.0rc5.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+cstar_migrate-0.4.0rc5.dist-info/entry_points.txt,sha256=0Qb3RXXcFC8CdK5-qL2oejx147DgngB6bmBAqIubLjI,62
+cstar_migrate-0.4.0rc5.dist-info/top_level.txt,sha256=ebyyasi40I_AF4UrbZjhKniRL4FkgOhIQTfKpU9CP5g,13
+cstar_migrate-0.4.0rc5.dist-info/RECORD,,

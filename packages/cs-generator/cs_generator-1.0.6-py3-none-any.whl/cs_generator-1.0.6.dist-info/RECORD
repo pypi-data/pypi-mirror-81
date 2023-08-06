@@ -1,0 +1,9 @@
+cs_generator/CSGenerator.py,sha256=kfr7pVH0EpJh3i4f_O3AokUjIstVa3yMvOAAydCQKfk,10026
+cs_generator/__init__.py,sha256=uZEb6gB8wEKOXUOPNKAow2SKO_ZLYeHAI8Uf-FZW6fo,243
+cs_generator/_constants.py,sha256=tyJpmRBzmDnnjtbBDfYKA8g-PaYlZCevqd0_8B-rSSs,145
+cs_generator/templates.py,sha256=5zPe00jujdGYTAOKJBsjkFkRURDJWER3JVnPFzHHTPY,801
+cs_generator/utils.py,sha256=alsW7V0Lkv9qewNvnAUGoEbtp3kCe9RG5MwMyTehkfQ,427
+cs_generator-1.0.6.dist-info/METADATA,sha256=QNbuQk9zcygfSJIMFxG1hZrhq8BqvWN9kXAzLadplXQ,2341
+cs_generator-1.0.6.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+cs_generator-1.0.6.dist-info/top_level.txt,sha256=MpTG3jJG79DZ2IY_6EVgS3PJIe2X0-UjCkA8JiyOlO8,13
+cs_generator-1.0.6.dist-info/RECORD,,

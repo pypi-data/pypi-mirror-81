@@ -1,0 +1,2 @@
+Click>=7.0
+beautifulsoup4>=4.9.2

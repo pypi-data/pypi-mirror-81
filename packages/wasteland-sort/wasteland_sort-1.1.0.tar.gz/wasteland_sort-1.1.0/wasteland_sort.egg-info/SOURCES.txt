@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+test/test_wasteland.py
+wasteland/__init__.py
+wasteland/wasteland_sort.py
+wasteland_sort.egg-info/PKG-INFO
+wasteland_sort.egg-info/SOURCES.txt
+wasteland_sort.egg-info/dependency_links.txt
+wasteland_sort.egg-info/top_level.txt

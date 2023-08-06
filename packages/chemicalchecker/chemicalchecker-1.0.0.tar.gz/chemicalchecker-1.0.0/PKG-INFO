@@ -1,0 +1,36 @@
+Metadata-Version: 1.1
+Name: chemicalchecker
+Version: 1.0.0
+Summary: Chemical Checker Package.
+Home-page: http://gitlab.sbnb.org/packages/chemical_checker
+Author: SBNB
+Author-email: sbnb@irbbarcelona.org
+License: MIT License
+Description: The Chemical Checker (CC) is a data-driven resource of small molecule
+        bioactivity data. The main goal of the CC is to express data in a format
+        that can be used off-the-shelf in daily computational drug discovery
+        tasks. The resource is organized in **5 levels** of increasing
+        complexity, ranging from the chemical properties of the compounds to
+        their clinical outcomes. In between, we consider targets, off-targets,
+        perturbed biological networks and several cell-based assays, including
+        gene expression, growth inhibition, and morphological profiles. The CC
+        is different to other integrative compounds database in almost every
+        aspect. The classical, relational representation of the data is
+        surpassed here by a less explicit, more machine-learning-friendly
+        abstraction of the data
+Keywords: chemicalchecker bioactivity signatures chemoinformatics
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence

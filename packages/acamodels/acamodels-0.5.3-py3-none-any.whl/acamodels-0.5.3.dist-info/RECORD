@@ -1,0 +1,10 @@
+acamodels/__init__.py,sha256=Z_oklANhfl8X0aBifiGwY22lIg6WGAc-f2230Hy7nCE,732
+acamodels/_basemodels.py,sha256=6rInoiNmLMCkjD6vR-LF_uLYSMYqtNzeWpH6tV-EniI,512
+acamodels/_internals.py,sha256=PVPylUGbglblxDtEAq57PsKotz4cg_0cggR4aX442Dc,864
+acamodels/aca_base.py,sha256=3mDdOlz9Ao6uPcvrrbrsZWzXHUX9URKy_x-ODdE4YRY,802
+acamodels/archive_file.py,sha256=WxND32iae6x6y0EXwKhHZX9acOoXl-pj4uxTK0wlC-Y,3142
+acamodels/identification.py,sha256=ucS6ZmpPj-fLysCiRPtZwehEZetODu8DauMVpDeYB1Y,1139
+acamodels-0.5.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+acamodels-0.5.3.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+acamodels-0.5.3.dist-info/METADATA,sha256=Ld8m1DvUmui2krqsSfhVmPjfoIVq-igZcqDmZRP_SsM,1781
+acamodels-0.5.3.dist-info/RECORD,,

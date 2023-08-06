@@ -1,0 +1,5 @@
+./gcgc/data/
+./dist
+.vim
+.env
+.envrc

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: gcgc
+Version: 0.14.3
+Summary: GCGC is a preprocessing library for biological sequence model development.
+Home-page: http://gcgc.trenthauck.com/
+Author: Trent Hauck
+Author-email: trent@trenthauck.com
+License: MIT
+Project-URL: homepage, http://gcgc.trenthauck.com/
+Project-URL: repository, https://github.com/tshauck/gcgc
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: <4.0,>=3.6.1
+Provides-Extra: pytorch
+Provides-Extra: hf
+Provides-Extra: dev
+Provides-Extra: setup_requires
+Provides-Extra: include_package_data

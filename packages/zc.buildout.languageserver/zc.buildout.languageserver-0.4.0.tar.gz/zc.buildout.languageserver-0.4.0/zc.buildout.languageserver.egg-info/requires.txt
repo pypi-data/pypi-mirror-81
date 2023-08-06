@@ -1,0 +1,9 @@
+pygls
+requests
+zc.buildout
+
+[test]
+coverage
+pytest
+pytest-asyncio
+responses

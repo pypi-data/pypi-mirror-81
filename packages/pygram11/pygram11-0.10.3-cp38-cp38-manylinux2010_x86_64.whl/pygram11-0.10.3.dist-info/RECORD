@@ -1,0 +1,11 @@
+pygram11.libs/libgomp-f7e03b3e.so.1.0.0,sha256=GzmXB1qluHXQUhlsmNKuWncNm8Jezfq1jt5rKrV_8kQ,93080
+pygram11-0.10.3.dist-info/WHEEL,sha256=3Rn77v1cOIQWUJHbJxwJJ4HycjuBQ6DIO-hbFDX-kLU,111
+pygram11-0.10.3.dist-info/METADATA,sha256=dFvZJvhXeiL2BRVtoa8RT4EPe4GqriUSu2DLHN3h600,6097
+pygram11-0.10.3.dist-info/top_level.txt,sha256=1nqyEb7cAhEuPssMWY9rd6ipJ9E1KnaXxIFDQsK4-ao,9
+pygram11-0.10.3.dist-info/RECORD,,
+pygram11-0.10.3.dist-info/LICENSE,sha256=FQhASuw2wfFyQ0fauyJT3YbwxbN8HGKYpI1zHS1_VVg,1070
+pygram11/_backend1d.cpython-38-x86_64-linux-gnu.so,sha256=1yxLih6zDu2jcbGfW3C-H90rIFfcDmX2gOj4jlOOtO0,412904
+pygram11/__init__.py,sha256=OlbOoV5I0KfKb7TpMy8a7fouHdsQ6nJ7mnaW4CymwP8,1912
+pygram11/_backend2d.cpython-38-x86_64-linux-gnu.so,sha256=6dFhLN3G_BNMlRBP6DdxzmdhVc2Lou_CHY4uBD0P4L0,416680
+pygram11/hist.py,sha256=w4oEsz62yx9nrOmIz_lwFF5v_-icOqrD6mpFIK_G4Yc,15726
+pygram11/version.py,sha256=AF9LdTngvZ_u5J6wB2uqocY4nDHXq8Bjl-wgWiX0_DQ,117

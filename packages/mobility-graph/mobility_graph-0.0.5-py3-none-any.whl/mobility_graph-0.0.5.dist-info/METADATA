@@ -1,0 +1,95 @@
+Metadata-Version: 2.1
+Name: mobility-graph
+Version: 0.0.5
+Summary: This package has the necessary tools to read, analyze and turn mobility data into a graph object
+Home-page: UNKNOWN
+Author: Ayman Mahmoud
+Author-email: aymanh.abdelhamid@gmail.com
+License: UNKNOWN
+Keywords: gtfs,transit,mobility
+Platform: UNKNOWN
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: networkx
+Requires-Dist: matplotlib
+Provides-Extra: dev
+Requires-Dist: pytest (>=3.7) ; extra == 'dev'
+
+# Mobility Graph
+Mobility Graph is a Python package for the creation, manipulation, 
+and study of the mobility systems, dynamics, and functions of complex intermodal
+mobility networks.
+ ---
+## A graph tool for a better network analysis:
+The objective of this package is to build a directed (or a multi directed) graph 
+that contains all the basic tools to manipulate the graph and study changes
+with a focalization on mobility specific functions such as shortest path and network density and connectivity.
+###### Graph structure:
+* Nodes for stops, edges for connected stops with the respective mode.
+###### Analysis tools:
+* Reads different mobility data and builds an adaptive graph to the mode of mobility. 
+* Many standard graph algorithms
+* Standard mobility networks analysis tools
+###### Search Algorithm tools:
+* Search algorithm to find all possible paths from origin to destination with the respective modes. 
+###### Best Path Algorithm:
+* Search Algorithm to define the best possible route based on the chosen filter. (Mode, walk score, affluence) 
+
+---
+## Documentation
+If you meet the following error on a Windows machine:
+
+> A GDAL API version must be specified. Provide a path to gdal-config using a GDAL_CONFIG environment variable or use a GDAL_VERSION environment variable.
+
+>[Click here](https://docs.google.com/document/d/1PF0l9LtsrhsUs3WZcB8eT20CzDM3_sy-0xHDDod95Vo/edit?usp=sharing) for a complete walkthrough.
+---
+
+##Usage
+This repository contains all project files. 
+## Simple example
+```python
+"""
+Create a generic graph with two nodes and one edge
+"""
+from mobility_graph import Graph
+
+
+g = Graph() # creating a graph object
+
+g.add_node(stop_id='a', stop_name='Origin', stop_lon='1', stop_lat='3') 
+g.add_node(stop_id='b', stop_name='Destination', stop_lon='5', stop_lat='2')
+
+g.add_edge('a', 'b', 20, 'walk')
+
+for node in g:
+    for w in node.get_connections():
+        vid = node.get_id()
+        wid = w.get_id()
+        print ('( %s , %s, %s, %s)' % (vid, wid, node.get_weight(w), node.get_mode(w)))
+
+for node in g:
+    print('g.node_dict[%s]=%s' % (node.get_id(), g.node_dict[node.get_id()]))
+
+```
+## Installing the package
+```
+pip install mobility-graph
+```
+## Installing Requirements
+```
+$ pip install -U -r requirements.txt
+```
+## Roadmap
+The objective of this tool is to contribute to a larger intermodal trip planning framework. For more info please check the this [whitepaper](https://docs.google.com/document/d/1wl_YGfecbTujSkPWsCfECim2OPL1EkT04-U0yEIWXBg/edit?usp=sharing) 
+## Contribution 
+You are welcome to create a pull request, for major changes and ideas to improve the framework feel free to open a discussion
+or send me an [email](ayman.mahmoud@student-cs.fr) to collaborate.
+
+## License
+The MIT License (MIT)
+
+Copyright (c) 2020 Transport for Cairo (see LICENSE.txt)
+

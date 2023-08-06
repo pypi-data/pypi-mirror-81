@@ -1,0 +1,20 @@
+language: python
+cache:
+  pip: true
+  directories:
+  - "$HOME/.cache/pre-commit"
+python:
+- 2.7
+- 3.5
+- 3.6
+- 3.7
+- 3.8
+- 3.9-dev
+install:
+- travis_retry pip install tox-travis codecov
+script:
+- tox -v
+jobs:
+  fast_finish: true
+after_success:
+- codecov

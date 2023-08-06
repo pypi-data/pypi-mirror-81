@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: isolation
+Version: 0.0.0b0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Filipe Laíns
+Author-email: lains@archlinux.org
+License: MIT
+Project-URL: homepage, https://github.com/FFY00/python-isolation
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# python-isolation
+
+

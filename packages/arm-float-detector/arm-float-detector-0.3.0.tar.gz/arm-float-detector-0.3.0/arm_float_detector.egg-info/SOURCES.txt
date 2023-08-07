@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+arm_float_detector/__init__.py
+arm_float_detector/arm_float_detector.py
+arm_float_detector.egg-info/PKG-INFO
+arm_float_detector.egg-info/SOURCES.txt
+arm_float_detector.egg-info/dependency_links.txt
+arm_float_detector.egg-info/entry_points.txt
+arm_float_detector.egg-info/top_level.txt

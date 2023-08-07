@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: apistats
+Version: 0.1.2
+Summary: Simple django module with a middleware to track calls to django backend.
+Home-page: UNKNOWN
+Author: Frédéric MEUROU
+Author-email: fm@peabytes.me
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Information Technology
+Classifier: Environment :: Web Environment
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.0
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: System :: Logging
+Classifier: Topic :: System :: Monitoring
+Classifier: Topic :: System :: Logging
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >3.8.0
+Description-Content-Type: text/markdown
+Requires-Dist: Django (~=3.0)
+
+# APIStats
+
+Simple django module with a middleware to track calls to django backend. 
+
+## Description
+
+APIStats is a middleware that stores basic information on the requests and responses to Django backend.
+
+## Installation
+
+* `pip install apistats`
+* Add `apistats` to `INSTALLED_APPS`
+* Run `./manage.py migrate`
+* Add `'apistats.middlewares.LoggingMiddleware'` to `MIDDLEWARE` in `settings.py`
+
+## Usage 
+
+APIstats adds an admin interface to :
+* view / sort / filter records
+* view detail of a record and statistics
+
+## Model
+
+APIStats stores the following fields:
+* user: user account making the request
+* record_time: time of the record
+* method: method of the request
+* domain: first part of the request path
+* path: complete path
+* query: query parameters for GET requests
+* ip: IP of the caller
+* delay: nb of milliseconds between request and response
+* status: response HTTP status
+
+
+
